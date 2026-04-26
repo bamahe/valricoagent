@@ -19,7 +19,7 @@ export default function Home() {
             </div>
           </div>
           <div style={{textAlign:'center'}}>
-            <img src="https://nowtb.com/wp-content/uploads/2026/01/Barrett-Henry-Real-Estate-Agent-600.webp" alt="Barrett Henry, REALTOR®" style={{maxWidth:380,margin:'0 auto',filter:'drop-shadow(0 8px 32px rgba(0,0,0,.4))'}} />
+            <img src="/barrett-henry.png" alt="Barrett Henry, REALTOR®" style={{maxWidth:380,margin:'0 auto',filter:'drop-shadow(0 8px 32px rgba(0,0,0,.4))'}} />
             <div style={{fontFamily:"'Merriweather',Georgia,serif",fontSize:22,fontWeight:700,textAlign:'center',marginTop:16}}>Straight Talk. Smart Strategy.<br/>Real Results.</div>
             <div style={{textAlign:'center',fontSize:14,opacity:.7,marginTop:4}}>23+ Years Experience · Broker Associate · RE/MAX Collective</div>
           </div>
