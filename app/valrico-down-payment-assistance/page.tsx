@@ -41,17 +41,6 @@ const faqSchema = {
   ]
 };
 
-/* ── Metadata (exported for Next.js head) ── */
-export const metadata = {
-  title: "Down Payment Assistance Programs for Valrico, FL Home Buyers | Barrett Henry, REALTOR®",
-  description: "Florida down payment assistance programs available to Valrico buyers. Hometown Heroes, SHIP, FHA, VA, and more. Barrett Henry, REMAX Collective.",
-  openGraph: {
-    title: "Down Payment Assistance Programs for Valrico, FL Home Buyers",
-    description: "Hometown Heroes, SHIP, FHA, VA, and conventional low-down-payment programs available to Valrico FL home buyers. Barrett Henry, REMAX Collective.",
-    url: "https://valricoagent.com/valrico-down-payment-assistance/",
-  },
-};
-
 export default function DownPaymentAssistance() {
   return (
     <>
