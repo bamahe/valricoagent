@@ -132,7 +132,52 @@ a { color: inherit; text-decoration: none; }
 /* === No underline utility === */
 .no-underline { text-decoration: none !important; }
 
-/* === Responsive === */
+/* === Responsive — force single-column on mobile for inline-styled grids === */
 @media (max-width: 768px) {
   .hero-section { padding: 48px 20px; }
+
+  /* Override inline grid-template-columns on all sections */
+  [style*="grid-template-columns"],
+  [style*="gridTemplateColumns"] {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Fix hero padding */
+  section[style*="padding: 80px"],
+  section[style*="padding:80px"] {
+    padding: 48px 0 40px !important;
+  }
+
+  /* Fix headings not wrapping */
+  h1, h2 {
+    word-break: break-word;
+    overflow-wrap: break-word;
+  }
+
+  /* Hide hero image on very small screens to save space */
+  @media (max-width: 480px) {
+    section [style*="text-align: center"]:last-child img,
+    section [style*="textAlign:'center'"]:last-child img {
+      max-width: 240px !important;
+    }
+  }
+
+  /* Stat/card grids — 2 columns on tablet, 1 on phone */
+  [style*="grid-template-columns: repeat"] {
+    grid-template-columns: 1fr 1fr !important;
+  }
+}
+
+@media (max-width: 480px) {
+  [style*="grid-template-columns: repeat"],
+  [style*="gridTemplateColumns"] {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Smaller padding on phone */
+  [style*="padding: 0 24px"],
+  [style*="padding:'0 24px'"] {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
 }
