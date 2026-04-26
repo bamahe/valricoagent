@@ -3,54 +3,47 @@
 
 @import "tailwindcss";
 
-:root {
-  --blue: #003da5;
-  --red: #cc0000;
-  --dark: #222;
-  --gray: #555;
-  --light: #f7f7f7;
-  --border: #e5e5e5;
-  --white: #fff;
-  --ink: #222;
-  --ink-soft: #555;
-  --ink-muted: #888;
-  --accent: #003da5;
-  --accent-hover: #002a7a;
-  --cream: #faf9f7;
-  --cream-warm: #f5f0ea;
-  --blue-deep: #003da5;
-  --blue-mid: #0f3460;
-  --border-light: #f0f0f0;
-  --ff: 'Poppins', sans-serif;
-  --fs: 'Merriweather', Georgia, serif;
-  --serif: 'Merriweather', Georgia, serif;
-  --sans: 'Poppins', sans-serif;
+/* === Theme === */
+@theme {
+  --color-blue: #003da5;
+  --color-blue-deep: #003da5;
+  --color-blue-mid: #0f3460;
+  --color-red: #cc0000;
+  --color-ink: #222;
+  --color-ink-soft: #555;
+  --color-ink-muted: #888;
+  --color-cream: #faf9f7;
+  --color-cream-warm: #f5f0ea;
+  --color-border: #e5e5e5;
+  --color-accent: #003da5;
+  --color-accent-hover: #002a7a;
+  --font-serif: 'Merriweather', Georgia, serif;
+  --font-sans: 'Poppins', sans-serif;
 }
 
+/* === Base === */
 html { scroll-behavior: smooth; }
 
 body {
-  font-family: var(--ff);
-  color: var(--dark);
-  background: var(--white);
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+  background: #fff;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   font-size: 16px;
 }
 
-* { box-sizing: border-box; margin: 0; padding: 0; }
-
 img { max-width: 100%; display: block; }
 a { color: inherit; text-decoration: none; }
 
-.font-serif { font-family: var(--fs); }
+.font-serif { font-family: 'Merriweather', Georgia, serif !important; }
 
 /* === Buttons === */
 .btn-solid {
   display: inline-block;
   padding: 12px 28px;
-  background: var(--blue);
-  color: #fff;
+  background: #003da5;
+  color: #fff !important;
   font-weight: 600;
   font-size: 14px;
   border-radius: 6px;
@@ -58,8 +51,7 @@ a { color: inherit; text-decoration: none; }
   transition: all .2s;
 }
 .btn-solid:hover {
-  background: var(--accent-hover);
-  text-decoration: none;
+  background: #002a7a;
   transform: translateY(-1px);
   box-shadow: 0 4px 12px rgba(0, 61, 165, 0.3);
 }
@@ -67,8 +59,8 @@ a { color: inherit; text-decoration: none; }
 .btn-ghost {
   display: inline-block;
   padding: 12px 28px;
-  border: 1.5px solid var(--border);
-  color: var(--dark);
+  border: 1.5px solid #e5e5e5;
+  color: #222;
   font-weight: 500;
   font-size: 14px;
   border-radius: 6px;
@@ -76,9 +68,8 @@ a { color: inherit; text-decoration: none; }
   transition: all .2s;
 }
 .btn-ghost:hover {
-  border-color: var(--blue);
-  color: var(--blue);
-  text-decoration: none;
+  border-color: #003da5;
+  color: #003da5;
 }
 
 /* === Section typography === */
@@ -87,182 +78,61 @@ a { color: inherit; text-decoration: none; }
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.15em;
-  color: var(--ink-muted);
+  color: #888;
   margin-bottom: 0.5rem;
 }
 
 .sec-title {
-  font-family: var(--serif);
+  font-family: 'Merriweather', Georgia, serif;
   font-size: clamp(1.5rem, 3vw, 2rem);
   font-weight: 700;
   line-height: 1.25;
-  color: var(--ink);
+  color: #222;
   margin-bottom: 0.75rem;
 }
 
 .sec-intro {
   font-size: 1rem;
   line-height: 1.7;
-  color: var(--ink-soft);
+  color: #555;
   max-width: 680px;
   margin-bottom: 2rem;
 }
 
-/* === Credential badges === */
-.credential-badge {
-  display: inline-flex;
-  align-items: center;
-  font-size: 12px;
-  font-weight: 600;
-  padding: 6px 14px;
-  border: 1.5px solid var(--border);
-  border-radius: 20px;
-  color: var(--ink-soft);
-  background: var(--light);
-  white-space: nowrap;
+/* === Hero blue bg — force it since Tailwind v4 resets fight inline styles === */
+[style*="blue-deep"],
+[style*="003da5"] {
+  background: #003da5 !important;
+  color: #fff !important;
 }
 
-/* === Card styles === */
-.info-card {
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  padding: 24px;
-  background: #fff;
-  transition: all 0.2s;
-}
-.info-card:hover {
-  border-color: var(--accent);
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
-}
-
-/* === Stats grid === */
-.stat-card {
-  background: #fff;
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  padding: 24px;
-}
-.stat-card .stat-value {
-  font-family: var(--serif);
-  font-size: 28px;
-  font-weight: 700;
-  color: var(--ink);
-  display: block;
-  margin-bottom: 4px;
-}
-.stat-card .stat-label {
-  font-size: 13px;
-  color: var(--ink-muted);
-  display: block;
-  margin-bottom: 10px;
-}
-.stat-card .stat-note {
-  font-size: 12px;
-  padding: 4px 10px;
-  background: var(--light);
-  color: var(--ink-muted);
-  border-radius: 4px;
-  display: inline-block;
-}
-
-/* === FAQ cards === */
-.faq-card {
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  padding: 20px 24px;
-}
-.faq-card h3 {
-  font-size: 15px;
-  font-weight: 600;
-  color: var(--ink);
-  margin-bottom: 8px;
-}
-.faq-card p {
-  font-size: 14px;
-  color: var(--ink-soft);
-  line-height: 1.7;
-}
-
-/* === Comparison tables === */
-.comparison-table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 14px;
-}
-.comparison-table th {
-  background: var(--blue-deep);
-  color: #fff;
-  padding: 12px 16px;
-  text-align: left;
-  font-weight: 600;
-  font-size: 13px;
-}
-.comparison-table td {
-  padding: 12px 16px;
-  border-bottom: 1px solid var(--border);
-  color: var(--ink-soft);
-}
-.comparison-table tr:hover td {
-  background: rgba(0, 61, 165, 0.02);
-}
-
-/* === Sidebar contact card === */
-.sidebar-contact {
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  padding: 24px;
-  background: var(--cream-warm);
-}
-.sidebar-contact h3 {
-  font-family: var(--serif);
-  font-size: 18px;
-  font-weight: 700;
-  margin-bottom: 12px;
-}
-
-/* === Hero sections === */
-.hero-blue {
-  background: var(--blue-deep);
+/* === Force padding on hero sections === */
+.hero-section {
+  background: #003da5;
   color: #fff;
   padding: 64px 28px;
 }
-.hero-blue .eyebrow {
-  color: rgba(255, 255, 255, 0.5);
-}
-.hero-blue h1 {
-  font-family: var(--serif);
-  font-size: clamp(28px, 4vw, 40px);
-  font-weight: 700;
-  line-height: 1.2;
-  margin-bottom: 16px;
-}
-.hero-blue p {
-  color: rgba(255, 255, 255, 0.75);
-  font-size: 17px;
-  line-height: 1.7;
-  max-width: 640px;
-  margin-bottom: 24px;
-}
 
-/* === Callout box === */
-.callout {
-  border-left: 4px solid var(--accent);
-  background: var(--light);
-  padding: 20px 24px;
-  border-radius: 0 8px 8px 0;
-  margin: 24px 0;
+/* === Ghost button on dark backgrounds === */
+.btn-ghost-white {
+  display: inline-block;
+  padding: 12px 28px;
+  border: 1.5px solid rgba(255, 255, 255, 0.4);
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all .2s;
 }
-.callout p {
-  font-size: 15px;
-  line-height: 1.7;
-  color: var(--ink-soft);
+.btn-ghost-white:hover {
+  border-color: #fff;
 }
 
 /* === No underline utility === */
-.no-underline { text-decoration: none; }
+.no-underline { text-decoration: none !important; }
 
 /* === Responsive === */
 @media (max-width: 768px) {
-  .hero-blue { padding: 48px 20px; }
-  .hero-blue h1 { font-size: 26px; }
+  .hero-section { padding: 48px 20px; }
 }
