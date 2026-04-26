@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Footer() {
   return (
-    <footer style={{ background: '#1a1a2e', color: '#fff', padding: '56px 0 0' }}>
+    <footer style={{ background: '#111827', color: '#fff', padding: '56px 0 0' }}>
       <div style={{ maxWidth: 1200, margin: '0 auto', padding: '0 24px' }}>
         {/* Main grid */}
         <div style={{ display: 'grid', gridTemplateColumns: '1.2fr 1fr 1fr 1fr', gap: 40, paddingBottom: 40, borderBottom: '1px solid rgba(255,255,255,.08)' }}>
@@ -14,21 +14,21 @@ export default function Footer() {
               <img src="https://nowtb.com/wp-content/uploads/2026/02/remax-balloon-2025-white.png" alt="RE/MAX" style={{ height: 36, opacity: 0.6 }} />
               <div>
                 <div style={{ fontSize: 16, fontWeight: 700 }}>Barrett Henry</div>
-                <div style={{ fontSize: 11, color: 'rgba(255,255,255,.35)' }}>REALTOR® · Broker Associate</div>
+                <div style={{ fontSize: 11, color: 'rgba(255,255,255,.5)' }}>REALTOR® · Broker Associate</div>
               </div>
             </div>
-            <p style={{ fontSize: 12, color: 'rgba(255,255,255,.35)', lineHeight: 1.7 }}>
+            <p style={{ fontSize: 12, color: 'rgba(255,255,255,.5)', lineHeight: 1.7 }}>
               REMAX Collective<br />417 Lithia Pinecrest Rd<br />Brandon, FL 33511
             </p>
             <p style={{ marginTop: 12 }}>
               <a href="tel:8137337907" style={{ fontSize: 15, fontWeight: 700, color: 'rgba(255,255,255,.8)' }}>(813) 733-7907</a>
             </p>
             <p>
-              <a href="mailto:barrett@nowtb.com" style={{ fontSize: 12, color: 'rgba(255,255,255,.4)' }}>barrett@nowtb.com</a>
+              <a href="mailto:barrett@nowtb.com" style={{ fontSize: 12, color: 'rgba(255,255,255,.6)' }}>barrett@nowtb.com</a>
             </p>
             <div style={{ marginTop: 16 }}>
               <span style={{ fontSize: 11, fontWeight: 700, letterSpacing: '.12em', color: 'var(--accent)', display: 'block' }}>MOVE WITH CONFIDENCE.</span>
-              <span style={{ fontSize: 10, color: 'rgba(255,255,255,.25)', letterSpacing: '.08em' }}>Straight talk. Smart strategy.</span>
+              <span style={{ fontSize: 10, color: 'rgba(255,255,255,.4)', letterSpacing: '.08em' }}>Straight talk. Smart strategy.</span>
             </div>
 
             {/* Designations */}
@@ -41,7 +41,7 @@ export default function Footer() {
 
           {/* Buyers column */}
           <div>
-            <h4 style={{ fontSize: 11, textTransform: 'uppercase', letterSpacing: '.12em', color: 'rgba(255,255,255,.25)', marginBottom: 14, fontWeight: 700 }}>Buyers</h4>
+            <h4 style={{ fontSize: 11, textTransform: 'uppercase', letterSpacing: '.12em', color: 'rgba(255,255,255,.4)', marginBottom: 14, fontWeight: 700 }}>Buyers</h4>
             <ul style={{ listStyle: 'none' }}>
               {[
                 ['/valrico-fl-homes-for-sale/', 'Search Homes'],
@@ -55,14 +55,14 @@ export default function Footer() {
                 ['/homes-for-sale-33596/', '33596 Homes'],
                 ['/living-in-valrico/', 'Living in Valrico'],
               ].map(([h, n]) => (
-                <li key={h} style={{ marginBottom: 6 }}><Link href={h} style={{ fontSize: 12, color: 'rgba(255,255,255,.4)', transition: '.2s' }}>{n}</Link></li>
+                <li key={h} style={{ marginBottom: 6 }}><Link href={h} style={{ fontSize: 12, color: 'rgba(255,255,255,.6)', transition: '.2s' }}>{n}</Link></li>
               ))}
             </ul>
           </div>
 
           {/* Sellers & Resources column */}
           <div>
-            <h4 style={{ fontSize: 11, textTransform: 'uppercase', letterSpacing: '.12em', color: 'rgba(255,255,255,.25)', marginBottom: 14, fontWeight: 700 }}>Sellers &amp; Landlords</h4>
+            <h4 style={{ fontSize: 11, textTransform: 'uppercase', letterSpacing: '.12em', color: 'rgba(255,255,255,.4)', marginBottom: 14, fontWeight: 700 }}>Sellers &amp; Landlords</h4>
             <ul style={{ listStyle: 'none' }}>
               {[
                 ['/valrico-fl-home-values/', "What's My Home Worth?"],
@@ -70,22 +70,22 @@ export default function Footer() {
                 ['/valrico-market-report/', 'Market Report'],
                 ['/valrico-property-management/', 'Property Management'],
               ].map(([h, n]) => (
-                <li key={h} style={{ marginBottom: 6 }}><Link href={h} style={{ fontSize: 12, color: 'rgba(255,255,255,.4)', transition: '.2s' }}>{n}</Link></li>
+                <li key={h} style={{ marginBottom: 6 }}><Link href={h} style={{ fontSize: 12, color: 'rgba(255,255,255,.6)', transition: '.2s' }}>{n}</Link></li>
               ))}
             </ul>
 
-            <h4 style={{ fontSize: 11, textTransform: 'uppercase', letterSpacing: '.12em', color: 'rgba(255,255,255,.25)', marginTop: 20, marginBottom: 14, fontWeight: 700 }}>Resources</h4>
+            <h4 style={{ fontSize: 11, textTransform: 'uppercase', letterSpacing: '.12em', color: 'rgba(255,255,255,.4)', marginTop: 20, marginBottom: 14, fontWeight: 700 }}>Resources</h4>
             <ul style={{ listStyle: 'none' }}>
               {[
                 ['/valrico-school-zones/', 'School Zones'],
                 ['/blog/', 'Blog'],
                 ['/valrico-real-estate-agent/', 'About Barrett'],
               ].map(([h, n]) => (
-                <li key={h} style={{ marginBottom: 6 }}><Link href={h} style={{ fontSize: 12, color: 'rgba(255,255,255,.4)', transition: '.2s' }}>{n}</Link></li>
+                <li key={h} style={{ marginBottom: 6 }}><Link href={h} style={{ fontSize: 12, color: 'rgba(255,255,255,.6)', transition: '.2s' }}>{n}</Link></li>
               ))}
             </ul>
 
-            <h4 style={{ fontSize: 11, textTransform: 'uppercase', letterSpacing: '.12em', color: 'rgba(255,255,255,.25)', marginTop: 20, marginBottom: 14, fontWeight: 700 }}>Barrett Henry</h4>
+            <h4 style={{ fontSize: 11, textTransform: 'uppercase', letterSpacing: '.12em', color: 'rgba(255,255,255,.4)', marginTop: 20, marginBottom: 14, fontWeight: 700 }}>Barrett Henry</h4>
             <ul style={{ listStyle: 'none' }}>
               {[
                 ['/valrico-realtor/', 'Valrico Realtor'],
@@ -94,11 +94,11 @@ export default function Footer() {
                 ['/valrico-investment-property/', 'Investment Properties'],
                 ['/valrico-va-loan-homes/', 'VA Loan Homes'],
               ].map(([h, n]) => (
-                <li key={h} style={{ marginBottom: 6 }}><Link href={h} style={{ fontSize: 12, color: 'rgba(255,255,255,.4)', transition: '.2s' }}>{n}</Link></li>
+                <li key={h} style={{ marginBottom: 6 }}><Link href={h} style={{ fontSize: 12, color: 'rgba(255,255,255,.6)', transition: '.2s' }}>{n}</Link></li>
               ))}
             </ul>
 
-            <h4 style={{ fontSize: 11, textTransform: 'uppercase', letterSpacing: '.12em', color: 'rgba(255,255,255,.25)', marginTop: 20, marginBottom: 14, fontWeight: 700 }}>More</h4>
+            <h4 style={{ fontSize: 11, textTransform: 'uppercase', letterSpacing: '.12em', color: 'rgba(255,255,255,.4)', marginTop: 20, marginBottom: 14, fontWeight: 700 }}>More</h4>
             <ul style={{ listStyle: 'none' }}>
               {[
                 ['https://nowtb.com', 'nowtb.com'],
@@ -106,14 +106,14 @@ export default function Footer() {
                 ['https://valrico.blog', 'Valrico Blog'],
                 ['https://vivipm.com', 'ViVi PM'],
               ].map(([h, n]) => (
-                <li key={h} style={{ marginBottom: 6 }}><a href={h} target="_blank" rel="noopener" style={{ fontSize: 12, color: 'rgba(255,255,255,.4)', transition: '.2s' }}>{n}</a></li>
+                <li key={h} style={{ marginBottom: 6 }}><a href={h} target="_blank" rel="noopener" style={{ fontSize: 12, color: 'rgba(255,255,255,.6)', transition: '.2s' }}>{n}</a></li>
               ))}
             </ul>
           </div>
 
           {/* Neighborhoods column */}
           <div>
-            <h4 style={{ fontSize: 11, textTransform: 'uppercase', letterSpacing: '.12em', color: 'rgba(255,255,255,.25)', marginBottom: 14, fontWeight: 700 }}>Valrico Neighborhoods</h4>
+            <h4 style={{ fontSize: 11, textTransform: 'uppercase', letterSpacing: '.12em', color: 'rgba(255,255,255,.4)', marginBottom: 14, fontWeight: 700 }}>Valrico Neighborhoods</h4>
             <ul style={{ listStyle: 'none' }}>
               {[
                 ['/neighborhoods/bloomingdale/', 'Bloomingdale'],
@@ -129,7 +129,7 @@ export default function Footer() {
                 ['/neighborhoods/canterbury-oaks/', 'Canterbury Oaks'],
                 ['/neighborhoods/kings-mill/', 'Kings Mill'],
               ].map(([h, n]) => (
-                <li key={h} style={{ marginBottom: 5 }}><Link href={h} style={{ fontSize: 12, color: 'rgba(255,255,255,.4)', transition: '.2s' }}>{n}</Link></li>
+                <li key={h} style={{ marginBottom: 5 }}><Link href={h} style={{ fontSize: 12, color: 'rgba(255,255,255,.6)', transition: '.2s' }}>{n}</Link></li>
               ))}
               <li style={{ marginTop: 8 }}><Link href="/#neighborhoods" style={{ fontSize: 12, color: 'rgba(255,255,255,.6)', fontWeight: 600 }}>All 32 Neighborhoods →</Link></li>
             </ul>
@@ -138,15 +138,15 @@ export default function Footer() {
 
         {/* Disclaimer */}
         <div style={{ padding: '20px 0', borderBottom: '1px solid rgba(255,255,255,.05)' }}>
-          <p style={{ fontSize: 10, color: 'rgba(255,255,255,.15)', lineHeight: 1.7 }}>
+          <p style={{ fontSize: 10, color: 'rgba(255,255,255,.35)', lineHeight: 1.7 }}>
             Barrett Henry is a licensed REALTOR® and Broker Associate with REMAX Collective in Brandon, FL. REMAX and the REMAX balloon logo are registered trademarks of RE/MAX, LLC. Equal Housing Opportunity. The information on this website is not intended to solicit properties currently listed for sale or buyers currently under contract. All data is deemed reliable but not guaranteed and should be independently verified.
           </p>
         </div>
 
         {/* Bottom bar */}
-        <div style={{ display: 'flex', justifyContent: 'space-between', paddingTop: 16, paddingBottom: 20, fontSize: 11, color: 'rgba(255,255,255,.15)', flexWrap: 'wrap', gap: 8 }}>
+        <div style={{ display: 'flex', justifyContent: 'space-between', paddingTop: 16, paddingBottom: 20, fontSize: 11, color: 'rgba(255,255,255,.35)', flexWrap: 'wrap', gap: 8 }}>
           <span>© 2026 Barrett Henry, REALTOR® · REMAX Collective · All Rights Reserved</span>
-          <span>Built by <a href="https://vyrabyte.com" target="_blank" rel="noopener" style={{ color: 'rgba(255,255,255,.2)' }}>Vyrabyte</a></span>
+          <span>Built by <a href="https://vyrabyte.com" target="_blank" rel="noopener" style={{ color: 'rgba(255,255,255,.4)' }}>Vyrabyte</a></span>
         </div>
       </div>
 
