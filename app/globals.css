@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ink: #1a1a2e;
+  --ink-soft: #3d3d5c;
+  --ink-muted: #6b6b8a;
+  --cream: #faf9f7;
+  --cream-warm: #f5f0ea;
+  --accent: #c0392b;
+  --accent-hover: #a93226;
+  --blue-deep: #16213e;
+  --blue-mid: #0f3460;
+  --border: #e8e4df;
+  --border-light: #f0ece7;
+  --serif: 'Libre Baskerville', Georgia, 'Times New Roman', serif;
+  --sans: 'Source Sans 3', -apple-system, system-ui, sans-serif;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--sans);
+  color: var(--ink);
+  background: #fff;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  font-size: 16px;
+}
+
+img { max-width: 100%; display: block; }
+a { color: inherit; }
+.font-serif { font-family: var(--serif); }

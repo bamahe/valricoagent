@@ -1,0 +1,17 @@
+'use client';
+import Link from 'next/link';
+export default function NoHOA() {
+  return (<>
+    <div style={{background:'var(--blue-deep)'}} className="text-white py-16 px-7"><div className="max-w-[1140px] mx-auto">
+      <h1 className="font-serif text-[clamp(28px,4vw,38px)] leading-tight tracking-tight mb-4">Valrico No HOA Homes for Sale — Homes Without HOA in 33594 &amp; 33596</h1>
+      <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{color:'rgba(255,255,255,.75)'}}>Looking for a Valrico home with no HOA fees and no restrictions? Several Valrico neighborhoods have voluntary or no homeowner association. Barrett Henry, REALTOR® can identify exactly which sections offer no-HOA living.</p>
+      <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search all Valrico homes</Link>
+    </div></div>
+    <div className="max-w-[780px] mx-auto px-7 py-16 space-y-6" style={{color:'var(--ink-soft)'}}>
+      <div className="border-2 border-dashed rounded-lg p-16 text-center mb-6" style={{borderColor:'var(--border)'}}><p className="font-serif text-xl mb-2" style={{color:'var(--ink)'}}>IDX Widget — No HOA Filter</p><p className="text-sm" style={{color:'var(--ink-muted)'}}>Showcase IDX filtered for no-HOA homes in Valrico</p></div>
+      <h2 className="font-serif text-2xl" style={{color:'var(--ink)'}}>Where to find no HOA homes in Valrico</h2>
+      <p className="text-[15px] leading-[1.8]">In <Link href="/neighborhoods/bloomingdale/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Bloomingdale</Link>, roughly half of the 32+ sub-neighborhoods have voluntary associations or no formal HOA. The Lake Valrico area offers waterfront lots with no HOA on properties up to an acre or more. Older sections of north Valrico (33594) along the Valrico Road corridor also commonly have no HOA.</p>
+      <p className="text-[15px] leading-[1.8]">No HOA means no monthly fees, no architectural review for changes to your property, and no restrictions on parking, fencing, or exterior modifications. The tradeoff is that neighbors also have no restrictions — something to consider depending on your preferences. Barrett Henry, REALTOR® can help you weigh the pros and cons for your specific situation. <a href="tel:8137337907" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Call (813) 733-7907</a>.</p>
+    </div>
+  </>);
+}
