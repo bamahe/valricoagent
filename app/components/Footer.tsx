@@ -85,6 +85,19 @@ export default function Footer() {
               ))}
             </ul>
 
+            <h4 style={{ fontSize: 11, textTransform: 'uppercase', letterSpacing: '.12em', color: 'rgba(255,255,255,.25)', marginTop: 20, marginBottom: 14, fontWeight: 700 }}>Barrett Henry</h4>
+            <ul style={{ listStyle: 'none' }}>
+              {[
+                ['/valrico-realtor/', 'Valrico Realtor'],
+                ['/valrico-real-estate-agent/', 'Valrico Real Estate Agent'],
+                ['/valrico-relocation-guide/', 'Relocating to Valrico'],
+                ['/valrico-investment-property/', 'Investment Properties'],
+                ['/valrico-va-loan-homes/', 'VA Loan Homes'],
+              ].map(([h, n]) => (
+                <li key={h} style={{ marginBottom: 6 }}><Link href={h} style={{ fontSize: 12, color: 'rgba(255,255,255,.4)', transition: '.2s' }}>{n}</Link></li>
+              ))}
+            </ul>
+
             <h4 style={{ fontSize: 11, textTransform: 'uppercase', letterSpacing: '.12em', color: 'rgba(255,255,255,.25)', marginTop: 20, marginBottom: 14, fontWeight: 700 }}>More</h4>
             <ul style={{ listStyle: 'none' }}>
               {[
