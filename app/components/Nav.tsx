@@ -3,121 +3,78 @@ import Link from 'next/link';
 import { useState } from 'react';
 
 export default function Nav() {
-  const [open, setOpen] = useState(false);
+  const [openDD, setOpenDD] = useState<string|null>(null);
 
-  const links = [
-    { href: '/valrico-fl-homes-for-sale/', label: 'Homes for Sale' },
-    { href: '/#neighborhoods', label: 'Neighborhoods' },
-    { href: '/valrico-fl-home-values/', label: 'Home Values' },
-    { href: '/sell-my-home-valrico/', label: 'Sell' },
-    { href: '/#schools', label: 'Schools' },
-    { href: '/blog/', label: 'Blog' },
-    { href: '/#about', label: 'About' },
-    { href: '/#commercial', label: 'Commercial' },
-  ];
+  const dropdowns: Record<string, {label:string, items:{href:string,text:string}[]}> = {
+    buy: {
+      label: 'Buy ▾',
+      items: [
+        {href:'/valrico-fl-homes-for-sale/',text:'Search All Homes'},
+        {href:'/valrico-pool-homes/',text:'Pool Homes'},
+        {href:'/valrico-no-hoa-homes/',text:'No HOA Homes'},
+        {href:'/valrico-new-construction-homes/',text:'New Construction'},
+        {href:'/valrico-luxury-homes/',text:'Luxury Homes'},
+        {href:'/homes-for-sale-33594/',text:'33594 Homes'},
+        {href:'/homes-for-sale-33596/',text:'33596 Homes'},
+      ]
+    },
+    sell: {
+      label: 'Sell ▾',
+      items: [
+        {href:'/valrico-fl-home-values/',text:"What's My Home Worth?"},
+        {href:'/sell-my-home-valrico/',text:'Selling Guide'},
+        {href:'/valrico-market-report/',text:'Market Report'},
+        {href:'/valrico-property-management/',text:'Property Management'},
+      ]
+    },
+    hoods: {
+      label: 'Neighborhoods ▾',
+      items: [
+        {href:'/neighborhoods/bloomingdale/',text:'Bloomingdale'},
+        {href:'/neighborhoods/river-hills/',text:'River Hills'},
+        {href:'/neighborhoods/diamond-hill/',text:'Diamond Hill'},
+        {href:'/neighborhoods/buckhorn/',text:'Buckhorn / Boyette'},
+        {href:'/neighborhoods/crestwood-estates/',text:'Crestwood Estates'},
+        {href:'/neighborhoods/twin-lakes/',text:'Twin Lakes'},
+        {href:'/#neighborhoods',text:'All 32 →'},
+      ]
+    },
+  };
 
   return (
-    <nav className="sticky top-0 z-50 bg-white" style={{ borderBottom: '1px solid var(--border)' }}>
-      <div className="max-w-[1280px] mx-auto px-5 md:px-7 flex items-center justify-between h-[64px]">
-
-        {/* Logo */}
-        <Link href="/" className="flex items-center gap-3 no-underline shrink-0">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src="https://nowtb.com/wp-content/uploads/2026/02/remax-balloon-2025-white.png"
-            alt="RE/MAX"
-            className="h-9 md:h-11 w-auto drop-shadow"
-            onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
-          />
-          <span>
-            <span className="font-serif text-[17px] md:text-[19px] font-bold tracking-tight block" style={{ color: 'var(--ink)', lineHeight: 1.1 }}>
-              Valrico Realtor
-            </span>
-            <span className="text-[10px] md:text-[11px] tracking-wide block" style={{ color: 'var(--ink-muted)' }}>
-              Barrett Henry, REALTOR&reg;
-            </span>
-          </span>
+    <nav style={{background:'#fff',borderBottom:'1px solid #e5e5e5',position:'sticky',top:0,zIndex:100,boxShadow:'0 2px 8px rgba(0,0,0,.06)'}}>
+      <div style={{maxWidth:1200,margin:'0 auto',padding:'0 24px',display:'flex',alignItems:'center',justifyContent:'space-between',height:70}}>
+        {/* Brand */}
+        <Link href="/" style={{display:'flex',alignItems:'center',gap:12,textDecoration:'none'}}>
+          <img src="https://nowtb.com/wp-content/uploads/2026/02/remax-balloon-2025-white.png" alt="RE/MAX" style={{height:38}} onError={(e)=>{(e.target as HTMLImageElement).style.display='none'}} />
+          <div style={{lineHeight:1.2}}>
+            <strong style={{fontSize:16,color:'#222',display:'block'}}>Barrett Henry</strong>
+            <small style={{fontSize:11,color:'#555'}}>REALTOR® · RE/MAX Collective</small>
+          </div>
         </Link>
 
-        {/* Desktop nav — only on xl screens */}
-        <div className="hidden xl:flex items-center gap-1">
-          {links.map((item) => (
-            <Link
-              key={item.href}
-              href={item.href}
-              className="text-[13px] font-semibold px-3 py-2 rounded no-underline transition-colors hover:bg-[var(--cream)]"
-              style={{ color: 'var(--ink-soft)' }}
-            >
-              {item.label}
-            </Link>
-          ))}
-        </div>
-
-        {/* Right side */}
-        <div className="flex items-center gap-3">
-          {/* Phone button — always visible */}
-          <a
-            href="tel:8137337907"
-            className="px-4 md:px-5 py-2 rounded font-semibold text-[13px] no-underline transition-colors"
-            style={{ background: 'var(--accent)', color: '#fff' }}
-            onMouseEnter={(e) => { e.currentTarget.style.background = 'var(--accent-hover)'; }}
-            onMouseLeave={(e) => { e.currentTarget.style.background = 'var(--accent)'; }}
-          >
-            <span className="hidden md:inline">(813) 733-7907</span>
-            <span className="md:hidden">Call</span>
-          </a>
-
-          {/* Hamburger — visible below xl */}
-          <button
-            className="xl:hidden p-2 -mr-2"
-            onClick={() => setOpen(!open)}
-            aria-label="Menu"
-          >
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
-              {open ? (
-                <>
-                  <line x1="6" y1="6" x2="18" y2="18" />
-                  <line x1="6" y1="18" x2="18" y2="6" />
-                </>
-              ) : (
-                <>
-                  <line x1="4" y1="7" x2="20" y2="7" />
-                  <line x1="4" y1="12" x2="20" y2="12" />
-                  <line x1="4" y1="17" x2="20" y2="17" />
-                </>
+        {/* Links */}
+        <div style={{display:'flex',gap:0,alignItems:'center'}} className="hidden lg:flex">
+          {Object.entries(dropdowns).map(([key, dd]) => (
+            <div key={key} style={{position:'relative'}} onMouseEnter={()=>setOpenDD(key)} onMouseLeave={()=>setOpenDD(null)}>
+              <span style={{fontSize:13,fontWeight:500,color:'#222',padding:'24px 16px',cursor:'pointer',display:'block',transition:'.2s'}}>{dd.label}</span>
+              {openDD === key && (
+                <div style={{position:'absolute',top:'100%',left:0,background:'#fff',border:'1px solid #e5e5e5',borderRadius:6,boxShadow:'0 8px 24px rgba(0,0,0,.1)',minWidth:220,zIndex:200,padding:'8px 0'}}>
+                  {dd.items.map(item => (
+                    <Link key={item.href} href={item.href} style={{display:'block',padding:'10px 20px',fontSize:13,color:'#222',transition:'.2s'}} onMouseOver={(e)=>{(e.target as HTMLElement).style.background='#f7f7f7';(e.target as HTMLElement).style.color='#003da5'}} onMouseOut={(e)=>{(e.target as HTMLElement).style.background='';(e.target as HTMLElement).style.color='#222'}}>{item.text}</Link>
+                  ))}
+                </div>
               )}
-            </svg>
-          </button>
+            </div>
+          ))}
+          <Link href="/valrico-school-zones/" style={{fontSize:13,fontWeight:500,color:'#222',padding:'24px 16px'}}>Schools</Link>
+          <Link href="/blog/" style={{fontSize:13,fontWeight:500,color:'#222',padding:'24px 16px'}}>Blog</Link>
+          <Link href="#contact" style={{fontSize:13,fontWeight:500,color:'#222',padding:'24px 16px'}}>Contact</Link>
         </div>
-      </div>
 
-      {/* Mobile/tablet slide-down menu */}
-      {open && (
-        <div className="xl:hidden" style={{ borderTop: '1px solid var(--border)', background: 'var(--cream)' }}>
-          <div className="max-w-[1280px] mx-auto px-5 md:px-7 py-3">
-            <div className="grid grid-cols-2 gap-x-4">
-              {links.map((item) => (
-                <Link
-                  key={item.href}
-                  href={item.href}
-                  onClick={() => setOpen(false)}
-                  className="text-[15px] font-medium py-3 no-underline"
-                  style={{ color: 'var(--ink-soft)', borderBottom: '1px solid var(--border-light)' }}
-                >
-                  {item.label}
-                </Link>
-              ))}
-            </div>
-            <div className="mt-4 pt-3 flex items-center justify-between" style={{ borderTop: '1px solid var(--border)' }}>
-              <div>
-                <a href="tel:8137337907" className="font-serif text-lg font-bold no-underline block" style={{ color: 'var(--ink)' }}>(813) 733-7907</a>
-                <a href="mailto:barrett@nowtb.com" className="text-sm no-underline" style={{ color: 'var(--ink-muted)' }}>barrett@nowtb.com</a>
-              </div>
-              <span className="text-[11px] font-semibold tracking-wider" style={{ color: 'var(--ink-muted)' }}>RE/MAX Collective</span>
-            </div>
-          </div>
-        </div>
-      )}
+        {/* CTA */}
+        <a href="tel:8137337907" style={{padding:'9px 18px',background:'#cc0000',color:'#fff',fontSize:13,fontWeight:600,borderRadius:6,textDecoration:'none',whiteSpace:'nowrap'}}>(813) 733-7907</a>
+      </div>
     </nav>
   );
 }

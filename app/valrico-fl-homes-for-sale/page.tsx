@@ -28,7 +28,7 @@ export default function HomesForSale() {
 
         <h2 className="font-serif text-2xl mb-4">Search by property type</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 mb-12">
-          {[['Pool Homes','/valrico-pool-homes/'],['No HOA Homes','/valrico-no-hoa-homes/'],['New Construction','/valrico-new-construction-homes/'],['33594 Homes','/homes-for-sale-33594/'],['33596 Homes','/homes-for-sale-33596/'],['Newest Listings','/valrico-newest-listings/'],['Gated Communities','/#neighborhoods'],['Golf Course Homes','/#neighborhoods']].map(([n,h])=>(
+          {[['Pool Homes','/valrico-pool-homes/'],['No HOA Homes','/valrico-no-hoa-homes/'],['New Construction','/valrico-new-construction-homes/'],['Luxury Homes','/valrico-luxury-homes/'],['33594 Homes','/homes-for-sale-33594/'],['33596 Homes','/homes-for-sale-33596/'],['Gated Communities','/neighborhoods/diamond-hill/'],['Golf Course Homes','/neighborhoods/river-hills/']].map(([n,h])=>(
             <Link key={n} href={h} className="border rounded-md px-4 py-3 text-sm font-semibold no-underline hover:bg-[var(--cream)] transition-colors" style={{borderColor:'var(--border)',color:'var(--accent)'}}>{n} →</Link>
           ))}
         </div>

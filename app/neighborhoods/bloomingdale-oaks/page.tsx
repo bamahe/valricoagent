@@ -8,7 +8,7 @@ export default function Page() {
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{color:'rgba(255,255,255,.5)'}}>Valrico Neighborhoods</div>
           <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Bloomingdale Oaks Homes for Sale &mdash; Valrico FL 33596</h1>
-          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{color:'rgba(255,255,255,.75)'}}>One of the most popular Bloomingdale sub-neighborhoods. Prices from $350K–$475K. Barrett Henry, REALTOR&reg; with RE/MAX Collective.</p>
+          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{color:'rgba(255,255,255,.75)'}}>Bloomingdale Oaks is one of the most recognizable and sought-after sub-neighborhoods within the broader Bloomingdale community. Prices from $350K–$475K. Barrett Henry, REALTOR&reg; with RE/MAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Bloomingdale Oaks listings</Link>
             <Link href="/valrico-fl-home-values/" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">What&apos;s my home worth?</Link>
@@ -20,15 +20,22 @@ export default function Page() {
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-14">
           <div>
             <h2 className="font-serif text-2xl mb-4">About Bloomingdale Oaks, Valrico FL</h2>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>One of the most popular Bloomingdale sub-neighborhoods. Well-maintained streets, sidewalks, and mature landscaping. Pool homes are common and command premiums.</p>
-            <h2 className="font-serif text-2xl mb-4 mt-10">Who Bloomingdale Oaks fits best</h2>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>Families who want the classic Bloomingdale experience with strong resale value and community character.</p>
+            <p className="text-[15px] leading-[1.8] mb-4" style={{color:'var(--ink-soft)'}}>Bloomingdale Oaks is one of the most recognizable and sought-after sub-neighborhoods within the broader Bloomingdale community. Located in south Valrico (33596), it features well-maintained streets with sidewalks, mature landscaping, and a mix of updated and original homes from the 1980s and 1990s.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>Pool homes are especially common here and consistently command a $20K-$40K premium over non-pool comparables. Homes typically range from 1,600 to 2,800 square feet with 3 to 5 bedrooms. Updated kitchens with granite or quartz countertops, stainless appliances, and LVP flooring are the standard buyers expect in this section. Original homes with 1990s finishes still sell but at a measurable discount per square foot.</p>
+
             <div className="grid grid-cols-2 gap-4 my-8">
               <div className="border rounded-md p-4" style={{borderColor:'var(--border)'}}><span className="text-xs uppercase tracking-wider block mb-1" style={{color:'var(--ink-muted)'}}>Price Range</span><span className="font-serif text-lg" style={{color:'var(--ink)'}}>$350K–$475K</span></div>
               <div className="border rounded-md p-4" style={{borderColor:'var(--border)'}}><span className="text-xs uppercase tracking-wider block mb-1" style={{color:'var(--ink-muted)'}}>ZIP Code</span><span className="font-serif text-lg" style={{color:'var(--ink)'}}>33596</span></div>
               <div className="border rounded-md p-4" style={{borderColor:'var(--border)'}}><span className="text-xs uppercase tracking-wider block mb-1" style={{color:'var(--ink-muted)'}}>School Zone</span><span className="font-serif text-lg" style={{color:'var(--ink)'}}>Bloomingdale HS</span></div>
               <div className="border rounded-md p-4" style={{borderColor:'var(--border)'}}><span className="text-xs uppercase tracking-wider block mb-1" style={{color:'var(--ink-muted)'}}>REALTOR\u00ae</span><span className="font-serif text-lg" style={{color:'var(--ink)'}}>Barrett Henry</span></div>
             </div>
+
+            <h2 className="font-serif text-2xl mb-4 mt-10">Schools serving Bloomingdale Oaks</h2>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>Zoned for Bloomingdale High School and its feeder schools. The consistent school zoning and strong community identity make this one of the most stable sections for resale value in all of Valrico.</p>
+
+            <h2 className="font-serif text-2xl mb-4 mt-10">Who Bloomingdale Oaks fits best</h2>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>Families who want the classic Bloomingdale experience with strong resale value, sidewalks, and established community character. This is one of the most popular sections for families moving up from Brandon rentals or smaller starter homes.</p>
+
             <h2 className="font-serif text-2xl mb-4 mt-10">Explore more Valrico neighborhoods</h2>
             <p className="text-[15px] leading-[1.8]" style={{color:'var(--ink-soft)'}}><Link href="/neighborhoods/bloomingdale/" className="no-underline" style={{color:'var(--accent)'}}>Bloomingdale</Link> &middot; <Link href="/neighborhoods/river-hills/" className="no-underline" style={{color:'var(--accent)'}}>River Hills</Link> &middot; <Link href="/neighborhoods/diamond-hill/" className="no-underline" style={{color:'var(--accent)'}}>Diamond Hill</Link> &middot; <Link href="/neighborhoods/buckhorn/" className="no-underline" style={{color:'var(--accent)'}}>Buckhorn</Link> &middot; <Link href="/neighborhoods/twin-lakes/" className="no-underline" style={{color:'var(--accent)'}}>Twin Lakes</Link> &middot; <Link href="/neighborhoods/brentwood-hills/" className="no-underline" style={{color:'var(--accent)'}}>Brentwood Hills</Link> &middot; <Link href="/neighborhoods/crestwood-estates/" className="no-underline" style={{color:'var(--accent)'}}>Crestwood Estates</Link> &middot; <Link href="/neighborhoods/canterbury-oaks/" className="no-underline" style={{color:'var(--accent)'}}>Canterbury Oaks</Link> &middot; </p>
           </div>
@@ -36,7 +43,7 @@ export default function Page() {
           <div className="space-y-6">
             <div className="rounded-md p-6 border" style={{borderColor:'var(--border)',background:'var(--cream-warm)'}}>
               <h3 className="font-serif text-lg mb-3">Talk to Barrett about Bloomingdale Oaks</h3>
-              <p className="text-sm mb-4 leading-relaxed" style={{color:'var(--ink-soft)'}}>Barrett Henry, REALTOR&reg; knows Bloomingdale Oaks.</p>
+              <p className="text-sm mb-4 leading-relaxed" style={{color:'var(--ink-soft)'}}>Barrett Henry, REALTOR&reg; knows every section of Bloomingdale Oaks. Get pricing, listings, and neighborhood-specific advice.</p>
               <a href="tel:8137337907" className="btn-solid block text-center mb-2 text-sm">(813) 733-7907</a>
               <a href="mailto:barrett@nowtb.com" className="btn-ghost block text-center text-sm">Email Barrett</a>
             </div>
@@ -49,12 +56,14 @@ export default function Page() {
             </div>
             <div className="rounded-md p-6" style={{background:'var(--blue-deep)'}}>
               <h3 className="font-serif text-lg text-white mb-3">Selling in Bloomingdale Oaks?</h3>
-              <p className="text-sm mb-4" style={{color:'rgba(255,255,255,.7)'}}>Free CMA from Barrett Henry, REALTOR&reg;.</p>
+              <p className="text-sm mb-4" style={{color:'rgba(255,255,255,.7)'}}>Free CMA from Barrett Henry, REALTOR&reg;. Actual comps from your section, not an algorithm.</p>
               <Link href="/valrico-fl-home-values/" className="btn-solid block text-center text-sm">Get your home value</Link>
             </div>
           </div>
         </div>
       </div>
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{__html:"{\"@context\": \"https://schema.org\", \"@graph\": [{\"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"Home\", \"item\": \"https://valricoagent.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"Neighborhoods\", \"item\": \"https://valricoagent.com/#neighborhoods\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"Bloomingdale Oaks Homes for Sale\", \"item\": \"https://valricoagent.com/neighborhoods/bloomingdale-oaks/\"}]}, {\"@type\": \"Place\", \"name\": \"Bloomingdale Oaks, Valrico FL\", \"address\": {\"@type\": \"PostalAddress\", \"addressLocality\": \"Valrico\", \"addressRegion\": \"FL\", \"postalCode\": \"33596\", \"addressCountry\": \"US\"}, \"geo\": {\"@type\": \"GeoCoordinates\", \"latitude\": 27.9378, \"longitude\": -82.2365}}]}"}} />
     </>
   );
 }

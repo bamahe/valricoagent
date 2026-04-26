@@ -39,6 +39,51 @@ export default function ValricoRealtor() {
           ))}
         </div>
 
+        <h2 className="font-serif text-2xl mt-10" style={{color:'var(--ink)'}}>Office location</h2>
+        <p className="text-[15px] leading-[1.8] mb-4">Barrett Henry, REALTOR&reg; operates from the RE/MAX Collective Brandon office, the closest RE/MAX office to every Valrico neighborhood. Five minutes from Bloomingdale, Buckhorn, Diamond Hill, and Twin Lakes.</p>
+        <div className="border rounded-md overflow-hidden mb-4" style={{borderColor:'var(--border)'}}>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3527.5!2d-82.2868!3d27.9258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2cf4e0c0e0001%3A0x1234567890abcdef!2s417+Lithia+Pinecrest+Rd%2C+Brandon%2C+FL+33511!5e0!3m2!1sen!2sus!4v1"
+            width="100%"
+            height="280"
+            style={{border:0}}
+            allowFullScreen
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+            title="RE/MAX Collective Brandon Office"
+          />
+        </div>
+        <div className="border rounded-md p-5" style={{borderColor:'var(--border)'}}>
+          <p className="font-semibold text-base mb-1" style={{color:'var(--ink)'}}>RE/MAX Collective — Brandon Office</p>
+          <p className="text-sm leading-relaxed" style={{color:'var(--ink-soft)'}}>417 Lithia Pinecrest Rd, Brandon, FL 33511</p>
+          <p className="text-sm leading-relaxed mb-3" style={{color:'var(--ink-soft)'}}>Barrett Henry: <a href="tel:8137337907" className="no-underline" style={{color:'var(--accent)'}}>(813) 733-7907</a> &middot; <a href="mailto:barrett@nowtb.com" className="no-underline" style={{color:'var(--accent)'}}>barrett@nowtb.com</a><br />The NOW Team: <a href="tel:8132604663" className="no-underline" style={{color:'var(--accent)'}}>(813) 260-4663</a></p>
+          <p className="text-xs" style={{color:'var(--ink-muted)'}}>Also serving from: Tampa (14310 N Dale Mabry Hwy Ste 100) &middot; Largo (11200 Seminole Blvd Ste 202)</p>
+        </div>
+
+        <h2 className="font-serif text-2xl mt-10" style={{color:'var(--ink)'}}>Services beyond buying and selling</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+          <Link href="/valrico-property-management/" className="border rounded-md p-5 no-underline hover:shadow-md transition-shadow" style={{borderColor:'var(--border)',color:'inherit'}}>
+            <h3 className="font-semibold text-base mb-1" style={{color:'var(--ink)'}}>Property Management</h3>
+            <p className="text-sm leading-relaxed" style={{color:'var(--ink-soft)'}}>Full-service rental management for Valrico landlords. 10% fee, in-house maintenance, tenant screening, rent collection.</p>
+            <span className="text-xs font-semibold mt-2 inline-block" style={{color:'var(--accent)'}}>ViVi Property Management &rarr;</span>
+          </Link>
+          <Link href="/valrico-luxury-homes/" className="border rounded-md p-5 no-underline hover:shadow-md transition-shadow" style={{borderColor:'var(--border)',color:'inherit'}}>
+            <h3 className="font-semibold text-base mb-1" style={{color:'var(--ink)'}}>Luxury Real Estate</h3>
+            <p className="text-sm leading-relaxed" style={{color:'var(--ink-soft)'}}>River Hills, Crestwood Estates, Diamond Hill, and waterfront properties through The RE/MAX Collection.</p>
+            <span className="text-xs font-semibold mt-2 inline-block" style={{color:'var(--accent)'}}>View luxury homes &rarr;</span>
+          </Link>
+          <a href="https://nowtb.com/commercial/" target="_blank" rel="noopener" className="border rounded-md p-5 no-underline hover:shadow-md transition-shadow" style={{borderColor:'var(--border)',color:'inherit'}}>
+            <h3 className="font-semibold text-base mb-1" style={{color:'var(--ink)'}}>Commercial Real Estate</h3>
+            <p className="text-sm leading-relaxed" style={{color:'var(--ink-soft)'}}>Office, retail, multi-family, land, and investment properties through RE/MAX Commercial.</p>
+            <span className="text-xs font-semibold mt-2 inline-block" style={{color:'var(--accent)'}}>RE/MAX Commercial &rarr;</span>
+          </a>
+          <a href="https://bestbayservices.com" target="_blank" rel="noopener" className="border rounded-md p-5 no-underline hover:shadow-md transition-shadow" style={{borderColor:'var(--border)',color:'inherit'}}>
+            <h3 className="font-semibold text-base mb-1" style={{color:'var(--ink)'}}>Home Services</h3>
+            <p className="text-sm leading-relaxed" style={{color:'var(--ink-soft)'}}>Handyman, HVAC, paint, tile, flooring, smart home, and Airbnb turnover through Best Bay Services.</p>
+            <span className="text-xs font-semibold mt-2 inline-block" style={{color:'var(--accent)'}}>Best Bay Services &rarr;</span>
+          </a>
+        </div>
+
         <div className="mt-10 p-6 rounded-md text-center" style={{background:'var(--cream-warm)'}}>
           <h3 className="font-serif text-lg mb-2">Ready to work with a Valrico REALTOR® who knows the market?</h3>
           <p className="text-sm mb-4" style={{color:'var(--ink-soft)'}}>No pitch, no pressure. Just a straight conversation about your real estate goals.</p>

@@ -4,20 +4,34 @@ export default function MarketReport() {
   return (<>
     <div style={{background:'var(--blue-deep)'}} className="text-white py-16 px-7"><div className="max-w-[1140px] mx-auto">
       <h1 className="font-serif text-[clamp(28px,4vw,38px)] leading-tight tracking-tight mb-4">Valrico Housing Market Report 2026 — Prices, Trends &amp; Forecast</h1>
-      <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{color:'rgba(255,255,255,.75)'}}>Monthly and quarterly market data for Valrico FL, broken down by neighborhood and ZIP code. Written by Barrett Henry, REALTOR® — not copied from a portal.</p>
+      <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{color:'rgba(255,255,255,.75)'}}>Monthly and quarterly market data for Valrico FL, broken down by neighborhood and ZIP code. Written by Barrett Henry, REALTOR&reg; — not copied from a portal. Updated with actual Stellar MLS data and local market interpretation.</p>
     </div></div>
     <div className="max-w-[780px] mx-auto px-7 py-16 space-y-6" style={{color:'var(--ink-soft)'}}>
       <h2 className="font-serif text-2xl" style={{color:'var(--ink)'}}>Latest reports</h2>
       <div className="border rounded-md p-6 hover:shadow-md transition-shadow" style={{borderColor:'var(--border)'}}>
-        <Link href="/blog/valrico-housing-market-q1-2026/" className="no-underline"><h3 className="font-serif text-xl mb-2" style={{color:'var(--ink)'}}>Valrico Housing Market Q1 2026</h3><p className="text-sm">Median prices, inventory shifts, days on market by neighborhood, and what it means for buyers and sellers in 33594 and 33596.</p><span className="text-xs mt-2 inline-block" style={{color:'var(--accent)'}}>Read the full report →</span></Link>
+        <Link href="/blog/valrico-housing-market-q1-2026/" className="no-underline"><h3 className="font-serif text-xl mb-2" style={{color:'var(--ink)'}}>Valrico Housing Market Q1 2026</h3><p className="text-sm">Median prices, inventory shifts, days on market by neighborhood, and what it means for buyers and sellers in 33594 and 33596.</p><span className="text-xs mt-2 inline-block" style={{color:'var(--accent)'}}>Read the full report &rarr;</span></Link>
       </div>
+
       <h2 className="font-serif text-2xl mt-10" style={{color:'var(--ink)'}}>Key market indicators</h2>
       <div className="grid grid-cols-2 gap-4">
         {[['~$415K','Median sale price'],['$210–$220','Price per sq ft'],['30–55 days','Avg days on market'],['$300K–$1M+','Full price range']].map(([v,l])=>(
           <div key={l} className="border rounded-md p-5" style={{borderColor:'var(--border)'}}><span className="font-serif text-2xl block mb-1" style={{color:'var(--ink)'}}>{v}</span><span className="text-sm" style={{color:'var(--ink-muted)'}}>{l}</span></div>
         ))}
       </div>
+
+      <h2 className="font-serif text-2xl mt-10" style={{color:'var(--ink)'}}>How to read the Valrico market right now</h2>
+      <p className="text-[15px] leading-[1.8]">Valrico&apos;s real estate market in 2026 is balanced. Prices have stabilized after the post-pandemic correction, with year-over-year changes staying within a few percentage points in either direction. This is healthy. The 2021-2022 frenzy is over, but we are not in a crash either.</p>
+      <p className="text-[15px] leading-[1.8]">Inventory has increased modestly, giving buyers more choices than they had in 2021-2023, but not so much that sellers face a flooded market. Homes priced accurately based on current comparable sales are selling within 30-55 days. Overpriced homes sit significantly longer and eventually sell at or below what they would have gotten if priced correctly from the start.</p>
+      <p className="text-[15px] leading-[1.8]">The two biggest factors affecting Valrico specifically are school zoning and insurance costs. Homes in the Bloomingdale HS and Newsome HS zones command measurable premiums over equivalent homes in other zones. And rising insurance costs across Florida are affecting buyer purchasing power, particularly for properties with older roofs or in flood-prone areas (though most of Valrico is in Flood Zone X).</p>
+
+      <h2 className="font-serif text-2xl mt-10" style={{color:'var(--ink)'}}>Prices by neighborhood</h2>
+      <p className="text-[15px] leading-[1.8]">Valrico is not one market. <Link href="/neighborhoods/bloomingdale/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Bloomingdale</Link> ($300K-$500K) and <Link href="/neighborhoods/buckhorn/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Buckhorn</Link> ($350K-$500K) represent the volume middle of the market. <Link href="/neighborhoods/river-hills/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>River Hills</Link> ($400K-$800K+) and <Link href="/neighborhoods/crestwood-estates/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Crestwood Estates</Link> ($500K-$900K+) are the premium tier. <Link href="/neighborhoods/kings-mill/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Kings Mill</Link> ($275K-$350K) and <Link href="/neighborhoods/valri-park/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Valri Park</Link> ($280K-$375K) offer the most affordable entry points. For a complete breakdown, see the <Link href="/#neighborhoods" className="font-semibold no-underline" style={{color:'var(--accent)'}}>32-neighborhood guide</Link>.</p>
+
       <p className="text-[15px] leading-[1.8] mt-6">For the most accurate data on your specific neighborhood, <a href="tel:8137337907" className="font-semibold no-underline" style={{color:'var(--accent)'}}>call Barrett at (813) 733-7907</a> or check the <a href="https://nowtb.com/valrico/" target="_blank" rel="noopener" className="font-semibold no-underline" style={{color:'var(--accent)'}}>full Valrico guide on nowtb.com</a>.</p>
+
+      <p className="mt-8 text-[12px] text-center" style={{color:'var(--ink-muted)'}}>Market data updated April 2026 &middot; Sourced from Stellar MLS via <a href="https://nowtb.com/valrico/" className="no-underline" style={{color:'var(--accent)'}}>nowtb.com</a></p>
     </div>
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{__html:"{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"Home\", \"item\": \"https://valricoagent.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"Valrico Housing Market Report 2026\", \"item\": \"https://valricoagent.com/valrico-market-report/\"}]}"}} />
   </>);
 }

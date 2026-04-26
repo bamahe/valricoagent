@@ -15,7 +15,7 @@ export default function LivingInValrico() {
       <p className="text-[15px] leading-[1.8]">The median home price is approximately $415K. Property taxes run roughly $3,000 to $5,000 per year depending on assessed value and homestead exemption. Homeowners insurance costs have increased statewide, but Valrico&apos;s location inland (away from coastal flood zones) helps keep rates lower than beach communities. Most of Valrico is in Flood Zone X, meaning flood insurance is not required.</p>
 
       <h2 className="font-serif text-2xl mt-10" style={{color:'var(--ink)'}}>Schools</h2>
-      <p className="text-[15px] leading-[1.8]">This is the big one. <Link href="/#schools" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Bloomingdale High School and Newsome High School</Link> are both A-rated and among the top public high schools in Hillsborough County. School zoning is the single biggest price driver in Valrico — homes in the Newsome zone command measurable premiums. Read the <Link href="/valrico-school-zones/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>full school zone guide</Link> for details.</p>
+      <p className="text-[15px] leading-[1.8]">This is the big one. <Link href="/#schools" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Bloomingdale High School and Newsome High School</Link> are both A-rated and among the top public high schools in Hillsborough County. School zoning is the single biggest price driver in Valrico — homes in the Newsome zone command measurable premiums. Read the <Link href="/#schools" className="font-semibold no-underline" style={{color:'var(--accent)'}}>school zone details</Link> for details.</p>
 
       <h2 className="font-serif text-2xl mt-10" style={{color:'var(--ink)'}}>Commute</h2>
       <p className="text-[15px] leading-[1.8]">Downtown Tampa is approximately 30 minutes via the Lee Roy Selmon Expressway (toll) or 35-45 minutes via I-75 depending on traffic. MacDill AFB is about 35 minutes. Brandon and Riverview commercial areas are 10-15 minutes. Plant City and Lakeland are accessible via SR-60 and I-4 eastbound.</p>
@@ -33,5 +33,7 @@ export default function LivingInValrico() {
         <a href="mailto:barrett@nowtb.com" className="btn-ghost">Email Barrett</a>
       </div>
     </div>
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{__html:"{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"Home\", \"item\": \"https://valricoagent.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"Living in Valrico FL\", \"item\": \"https://valricoagent.com/living-in-valrico/\"}]}"}} />
   </>);
 }

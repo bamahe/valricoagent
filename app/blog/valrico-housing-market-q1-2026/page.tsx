@@ -59,6 +59,8 @@ export default function MarketReportQ1() {
           </ul>
         </div>
       </div>
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{__html:"{\"@context\": \"https://schema.org\", \"@type\": \"Article\", \"headline\": \"Valrico Housing Market Q1 2026\", \"author\": {\"@type\": \"Person\", \"name\": \"Barrett Henry\", \"jobTitle\": \"REALTOR\\u00ae, Broker Associate\", \"worksFor\": {\"@type\": \"Organization\", \"name\": \"RE/MAX Collective\"}}, \"datePublished\": \"2026-04-01\", \"publisher\": {\"@type\": \"Organization\", \"name\": \"ValricoAgent.com\", \"url\": \"https://valricoagent.com\"}, \"mainEntityOfPage\": \"https://valricoagent.com/blog/valrico-housing-market-q1-2026/\"}"}} />
     </>
   );
 }

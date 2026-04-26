@@ -8,7 +8,7 @@ export default function Page() {
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{color:'rgba(255,255,255,.5)'}}>Valrico Neighborhoods</div>
           <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Lake Valrico Area Homes for Sale &mdash; Valrico FL 33594</h1>
-          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{color:'rgba(255,255,255,.75)'}}>Waterfront lots surrounding Lake Valrico, some over 1 acre. Prices from $350K–$500K. Barrett Henry, REALTOR&reg; with RE/MAX Collective.</p>
+          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{color:'rgba(255,255,255,.75)'}}>The Lake Valrico area encompasses properties surrounding Lake Valrico in north Valrico (33594), offering waterfront lots, larger acreage (some exceeding one acre), and a mix of custom-built and updated homes. Prices from $350K–$500K. Barrett Henry, REALTOR&reg; with RE/MAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Lake Valrico listings</Link>
             <Link href="/valrico-fl-home-values/" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">What&apos;s my home worth?</Link>
@@ -20,15 +20,22 @@ export default function Page() {
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-14">
           <div>
             <h2 className="font-serif text-2xl mb-4">About Lake Valrico Area, Valrico FL</h2>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>Waterfront lots surrounding Lake Valrico, some over 1 acre. Custom-built and updated homes. Many have no HOA.</p>
-            <h2 className="font-serif text-2xl mb-4 mt-10">Who Lake Valrico Area fits best</h2>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>Buyers who want waterfront living, larger lots, or no HOA restrictions in Valrico.</p>
+            <p className="text-[15px] leading-[1.8] mb-4" style={{color:'var(--ink-soft)'}}>The Lake Valrico area encompasses properties surrounding Lake Valrico in north Valrico (33594), offering waterfront lots, larger acreage (some exceeding one acre), and a mix of custom-built and updated homes. This area has a distinctly different character from the subdivisions further south.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>Many properties in the Lake Valrico area have no HOA, which appeals to buyers who want complete flexibility with their property. Lot sizes range from a quarter acre to over two acres. Homes vary significantly in size and style, from modest ranch homes to large custom-built waterfront estates. The lake provides fishing, kayaking, and scenic views.</p>
+
             <div className="grid grid-cols-2 gap-4 my-8">
               <div className="border rounded-md p-4" style={{borderColor:'var(--border)'}}><span className="text-xs uppercase tracking-wider block mb-1" style={{color:'var(--ink-muted)'}}>Price Range</span><span className="font-serif text-lg" style={{color:'var(--ink)'}}>$350K–$500K</span></div>
               <div className="border rounded-md p-4" style={{borderColor:'var(--border)'}}><span className="text-xs uppercase tracking-wider block mb-1" style={{color:'var(--ink-muted)'}}>ZIP Code</span><span className="font-serif text-lg" style={{color:'var(--ink)'}}>33594</span></div>
-              <div className="border rounded-md p-4" style={{borderColor:'var(--border)'}}><span className="text-xs uppercase tracking-wider block mb-1" style={{color:'var(--ink-muted)'}}>School Zone</span><span className="font-serif text-lg" style={{color:'var(--ink)'}}>Varies</span></div>
+              <div className="border rounded-md p-4" style={{borderColor:'var(--border)'}}><span className="text-xs uppercase tracking-wider block mb-1" style={{color:'var(--ink-muted)'}}>School Zone</span><span className="font-serif text-lg" style={{color:'var(--ink)'}}>Varies by section</span></div>
               <div className="border rounded-md p-4" style={{borderColor:'var(--border)'}}><span className="text-xs uppercase tracking-wider block mb-1" style={{color:'var(--ink-muted)'}}>REALTOR\u00ae</span><span className="font-serif text-lg" style={{color:'var(--ink)'}}>Barrett Henry</span></div>
             </div>
+
+            <h2 className="font-serif text-2xl mb-4 mt-10">Schools serving Lake Valrico Area</h2>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>School zoning varies by specific address. The rural character and larger lots mean lower density than most Valrico neighborhoods.</p>
+
+            <h2 className="font-serif text-2xl mb-4 mt-10">Who Lake Valrico Area fits best</h2>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>Buyers who want waterfront living, larger lots, or no HOA restrictions in Valrico. Custom home seekers and buyers who prioritize privacy, land, and water access over community amenities and newer construction.</p>
+
             <h2 className="font-serif text-2xl mb-4 mt-10">Explore more Valrico neighborhoods</h2>
             <p className="text-[15px] leading-[1.8]" style={{color:'var(--ink-soft)'}}><Link href="/neighborhoods/bloomingdale/" className="no-underline" style={{color:'var(--accent)'}}>Bloomingdale</Link> &middot; <Link href="/neighborhoods/river-hills/" className="no-underline" style={{color:'var(--accent)'}}>River Hills</Link> &middot; <Link href="/neighborhoods/diamond-hill/" className="no-underline" style={{color:'var(--accent)'}}>Diamond Hill</Link> &middot; <Link href="/neighborhoods/buckhorn/" className="no-underline" style={{color:'var(--accent)'}}>Buckhorn</Link> &middot; <Link href="/neighborhoods/twin-lakes/" className="no-underline" style={{color:'var(--accent)'}}>Twin Lakes</Link> &middot; <Link href="/neighborhoods/brentwood-hills/" className="no-underline" style={{color:'var(--accent)'}}>Brentwood Hills</Link> &middot; <Link href="/neighborhoods/crestwood-estates/" className="no-underline" style={{color:'var(--accent)'}}>Crestwood Estates</Link> &middot; <Link href="/neighborhoods/canterbury-oaks/" className="no-underline" style={{color:'var(--accent)'}}>Canterbury Oaks</Link> &middot; </p>
           </div>
@@ -36,7 +43,7 @@ export default function Page() {
           <div className="space-y-6">
             <div className="rounded-md p-6 border" style={{borderColor:'var(--border)',background:'var(--cream-warm)'}}>
               <h3 className="font-serif text-lg mb-3">Talk to Barrett about Lake Valrico</h3>
-              <p className="text-sm mb-4 leading-relaxed" style={{color:'var(--ink-soft)'}}>Barrett Henry, REALTOR&reg; knows Lake Valrico Area.</p>
+              <p className="text-sm mb-4 leading-relaxed" style={{color:'var(--ink-soft)'}}>Barrett Henry, REALTOR&reg; knows every section of Lake Valrico Area. Get pricing, listings, and neighborhood-specific advice.</p>
               <a href="tel:8137337907" className="btn-solid block text-center mb-2 text-sm">(813) 733-7907</a>
               <a href="mailto:barrett@nowtb.com" className="btn-ghost block text-center text-sm">Email Barrett</a>
             </div>
@@ -49,12 +56,14 @@ export default function Page() {
             </div>
             <div className="rounded-md p-6" style={{background:'var(--blue-deep)'}}>
               <h3 className="font-serif text-lg text-white mb-3">Selling in Lake Valrico?</h3>
-              <p className="text-sm mb-4" style={{color:'rgba(255,255,255,.7)'}}>Free CMA from Barrett Henry, REALTOR&reg;.</p>
+              <p className="text-sm mb-4" style={{color:'rgba(255,255,255,.7)'}}>Free CMA from Barrett Henry, REALTOR&reg;. Actual comps from your section, not an algorithm.</p>
               <Link href="/valrico-fl-home-values/" className="btn-solid block text-center text-sm">Get your home value</Link>
             </div>
           </div>
         </div>
       </div>
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{__html:"{\"@context\": \"https://schema.org\", \"@graph\": [{\"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"Home\", \"item\": \"https://valricoagent.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"Neighborhoods\", \"item\": \"https://valricoagent.com/#neighborhoods\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"Lake Valrico Homes for Sale\", \"item\": \"https://valricoagent.com/neighborhoods/lake-valrico/\"}]}, {\"@type\": \"Place\", \"name\": \"Lake Valrico, Valrico FL\", \"address\": {\"@type\": \"PostalAddress\", \"addressLocality\": \"Valrico\", \"addressRegion\": \"FL\", \"postalCode\": \"33594\", \"addressCountry\": \"US\"}, \"geo\": {\"@type\": \"GeoCoordinates\", \"latitude\": 27.9378, \"longitude\": -82.2365}}]}"}} />
     </>
   );
 }

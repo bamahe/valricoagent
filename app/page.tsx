@@ -76,7 +76,7 @@ export default function Home() {
               <img src="https://nowtb.com/wp-content/uploads/2026/02/REMAX_Logo_Barrett_Henry__Black_.png" alt="Barrett Henry RE/MAX Collective — Home" className="h-[42px] w-auto hover:opacity-80 transition-opacity" onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }} />
             </a>
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <a href="https://nowtb.com/luxury/" target="_blank" rel="noopener" aria-label="RE/MAX Collection Luxury on nowtb.com">
+            <a href="/valrico-luxury-homes/" aria-label="RE/MAX Collection Luxury Homes">
               <img src="https://nowtb.com/wp-content/uploads/2026/02/The-REMAX-Collection-Logo-RGB-White.webp" alt="The RE/MAX Collection — Luxury Homes" className="h-[48px] w-auto hover:opacity-80 transition-opacity" style={{ filter: 'invert(1) brightness(.35)' }} onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }} />
             </a>
             {/* eslint-disable-next-line @next/next/no-img-element */}
