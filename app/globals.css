@@ -56,6 +56,19 @@ a { color: inherit; text-decoration: none; }
   box-shadow: 0 4px 12px rgba(0, 61, 165, 0.3);
 }
 
+/* White button for use on blue/dark backgrounds */
+[style*="003da5"] .btn-solid,
+[style*="blue-deep"] .btn-solid,
+[style*="001f5c"] .btn-solid {
+  background: #fff !important;
+  color: #003da5 !important;
+}
+[style*="003da5"] .btn-solid:hover,
+[style*="blue-deep"] .btn-solid:hover,
+[style*="001f5c"] .btn-solid:hover {
+  background: #f0f0f0 !important;
+}
+
 .btn-ghost {
   display: inline-block;
   padding: 12px 28px;
