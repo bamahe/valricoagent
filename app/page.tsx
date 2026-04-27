@@ -14,7 +14,6 @@ export default function Home() {
             <div style={{display:'flex',gap:12,flexWrap:'wrap'}}>
               <Link href="/valrico-fl-homes-for-sale/" style={{padding:'14px 28px',fontSize:14,fontWeight:600,borderRadius:6,background:'#fff',color:'#003da5',textDecoration:'none'}}>Search Valrico Homes</Link>
               <Link href="/valrico-fl-home-values/" style={{padding:'14px 28px',fontSize:14,fontWeight:600,borderRadius:6,background:'#cc0000',color:'#fff',textDecoration:'none'}}>What&apos;s My Home Worth?</Link>
-              <a href="https://www.youtube.com/@nowtampa" target="_blank" rel="noopener" style={{padding:'14px 28px',fontSize:14,fontWeight:600,borderRadius:6,background:'rgba(255,255,255,.15)',color:'#fff',border:'1px solid rgba(255,255,255,.3)',textDecoration:'none',display:'flex',alignItems:'center',gap:8}}><span className="material-icons" style={{fontSize:20}}>play_circle</span> Videos</a>
               <a href="#contact" style={{padding:'14px 28px',fontSize:14,fontWeight:600,borderRadius:6,background:'rgba(255,255,255,.15)',color:'#fff',border:'1px solid rgba(255,255,255,.3)',textDecoration:'none',display:'flex',alignItems:'center',gap:8}}><span className="material-icons" style={{fontSize:20}}>event</span> Schedule A Call</a>
             </div>
           </div>
