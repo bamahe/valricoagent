@@ -64,7 +64,7 @@ export default function WaterfrontHomes() {
                 </div>
               ))}
             </div>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>Water-view homes also tend to sell faster. Buyers specifically search for water features, and inventory is limited since there are only so many lots that back to water in any given neighborhood. If you own a water-view home in Valrico, it is a selling advantage.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>Water-view homes also tend to sell faster. Buyers specifically search for water features, and inventory is limited since there are only so many lots that back to water in any given neighborhood. If you own a water-view home in Valrico, it is a selling advantage — <Link href="/valrico-fl-home-values/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>check your home value</Link> to see what it could be worth. Ready to buy? <Link href="/valrico-fl-homes-for-sale/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Search current Valrico listings</Link>.</p>
 
             {/* FLOOD ZONES */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Flood zone considerations</h2>
@@ -102,6 +102,8 @@ export default function WaterfrontHomes() {
                 <li><Link href="/valrico-pool-homes/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Valrico pool homes &rarr;</Link></li>
                 <li><Link href="/valrico-luxury-homes/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Valrico luxury homes &rarr;</Link></li>
                 <li><Link href="/neighborhoods/river-hills/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>River Hills neighborhood &rarr;</Link></li>
+                <li><Link href="/valrico-fl-home-values/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Valrico home values &rarr;</Link></li>
+                <li><Link href="/valrico-55-plus-communities/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>55+ communities &rarr;</Link></li>
               </ul>
             </div>
           </div>

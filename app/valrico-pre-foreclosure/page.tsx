@@ -35,8 +35,8 @@ export default function ValricoPreForeclosure() {
               {[
                 ['Loan modification','Your lender adjusts the terms of your mortgage &mdash; lower interest rate, extended term, or reduced principal &mdash; to make payments affordable. You keep the home and stay current on a modified payment. This is usually the first option to explore.'],
                 ['Forbearance','The bank temporarily pauses or reduces your payments while you get back on your feet. This is common after job loss, medical emergency, or natural disaster. The missed payments are added to the end of the loan or repaid over time.'],
-                ['Short sale','If you owe more than the home is worth, you sell the property for less than the mortgage balance with the bank\'s approval. You avoid foreclosure on your record and typically suffer less credit damage. Barrett has 20+ years of short sale experience.'],
-                ['Sell before auction','If you have equity in the home, you can list and sell it traditionally before the foreclosure sale date. You pay off the mortgage, keep any remaining equity, and avoid foreclosure entirely.'],
+                ['Short sale','If you owe more than the home is worth, you sell the property for less than the mortgage balance with the bank\'s approval. You avoid foreclosure on your record and typically suffer less credit damage. Barrett has 20+ years of short sale experience. Read the full short sale guide.'],
+                ['Sell before auction','If you have equity in the home, you can list and sell it traditionally before the foreclosure sale date. You pay off the mortgage, keep any remaining equity, and avoid foreclosure entirely. See the selling guide for more on listing your home.'],
                 ['Deed in lieu of foreclosure','You voluntarily transfer ownership of the home to the bank in exchange for release from the mortgage. This avoids the foreclosure court process but still impacts your credit. It is faster than foreclosure and sometimes comes with relocation assistance.'],
                 ['Refinance','If you still have equity and can qualify, refinancing into a new loan with lower payments may solve the problem. This is more feasible in the early stages of delinquency before your credit score drops too far.'],
                 ['Bankruptcy (last resort)','Filing Chapter 13 bankruptcy can temporarily halt foreclosure and allow you to catch up on payments through a court-supervised repayment plan. This is a significant legal step and should only be considered after consulting with an attorney.'],
@@ -71,7 +71,7 @@ export default function ValricoPreForeclosure() {
             <h2 className="font-serif text-2xl mb-4 mt-10">Why You Should Act Now</h2>
             <p className="text-[15px] leading-[1.8] mb-4" style={{color:'var(--ink-soft)'}}>Every month of delay limits your options. In the early stages of delinquency, you can potentially modify your loan, sell your home with equity, or negotiate a forbearance. Once a lis pendens is filed and the case goes to court, your options narrow and your credit damage deepens.</p>
             <p className="text-[15px] leading-[1.8] mb-4" style={{color:'var(--ink-soft)'}}>The homeowners who come through foreclosure in the best shape are the ones who picked up the phone early. The ones who waited until the auction date was set had fewer options and worse outcomes.</p>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>Barrett Henry has helped homeowners navigate every stage of the foreclosure process for over 20 years. He has seen every situation and can tell you exactly where you stand and what your real options are.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>Barrett Henry has helped homeowners navigate every stage of the foreclosure process for over 20 years. He has seen every situation and can tell you exactly where you stand and what your real options are. You can also <Link href="/valrico-cash-offer/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>get a cash offer within 24 hours</Link> if speed is your priority, or check your <Link href="/valrico-fl-home-values/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>current home value</Link> to understand your equity position.</p>
 
             {/* CTA */}
             <div className="rounded-md p-8 mt-8 mb-12" style={{background:'var(--cream-warm)',border:'1px solid var(--border)'}}>
@@ -114,6 +114,8 @@ export default function ValricoPreForeclosure() {
                 <li><Link href="/valrico-short-sale/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Short sale assistance &rarr;</Link></li>
                 <li><Link href="/valrico-foreclosures/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Valrico foreclosure homes &rarr;</Link></li>
                 <li><Link href="/valrico-cash-offer/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Get a cash offer &rarr;</Link></li>
+                <li><Link href="/sell-my-home-valrico/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Sell my Valrico home &rarr;</Link></li>
+                <li><Link href="/valrico-fl-home-values/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>What is my home worth? &rarr;</Link></li>
                 <li><a href="https://flforeclosurehelp.com" target="_blank" rel="noopener" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>flforeclosurehelp.com &rarr;</a></li>
               </ul>
             </div>

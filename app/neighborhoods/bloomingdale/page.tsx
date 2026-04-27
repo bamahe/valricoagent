@@ -45,7 +45,7 @@ export default function BloomingdalePage() {
 
             <h2 className="font-serif text-2xl mb-4 mt-10">Who Bloomingdale Fits Best</h2>
             <p className="text-[15px] leading-[1.8] mb-4" style={{color:'var(--ink-soft)'}}>Bloomingdale works for families who want Bloomingdale HS zoning, established neighborhood character, and a price point below FishHawk or River Hills. It&apos;s also a strong choice for buyers who want mature landscaping and larger lots compared to newer construction in Riverview or north Brandon.</p>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>If you&apos;re comparing, read <Link href="/blog/bloomingdale-vs-buckhorn-valrico/" className="no-underline font-semibold" style={{color:'var(--accent)'}}>Bloomingdale vs. Buckhorn</Link> for a side-by-side breakdown.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>If you&apos;re comparing, read <Link href="/blog/bloomingdale-vs-buckhorn-valrico/" className="no-underline font-semibold" style={{color:'var(--accent)'}}>Bloomingdale vs. Buckhorn</Link> for a side-by-side breakdown. First-time buyers should check the <Link href="/valrico-first-time-homebuyer/" className="no-underline font-semibold" style={{color:'var(--accent)'}}>first-time buyer guide</Link> for budget ranges by neighborhood.</p>
 
             <h2 className="font-serif text-2xl mb-4 mt-10">Frequently Asked Questions</h2>
             <div className="space-y-4">

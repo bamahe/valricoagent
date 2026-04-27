@@ -48,7 +48,7 @@ export default function RelocationGuide() {
 
             {/* SCHOOLS */}
             <h2 className="font-serif text-2xl mb-4 mt-10">School quality</h2>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>Valrico is served by Hillsborough County Public Schools. The two main high school zones are Bloomingdale High School (33596) and Newsome High School (33594). Both are well-regarded. Newsome consistently ranks among the top public high schools in Hillsborough County. Elementary and middle school options include Alafia Elementary, Buckhorn Elementary, Randall Middle, and Burns Middle. Several private and charter school options exist in the area as well. School zoning is the single biggest factor in Valrico home values — a home in Newsome zone typically commands a premium over comparable homes in other zones.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>Valrico is served by Hillsborough County Public Schools. The two main high school zones are Bloomingdale High School (33596) and Newsome High School (33594). Both are well-regarded. Newsome consistently ranks among the top public high schools in Hillsborough County. Elementary and middle school options include Alafia Elementary, Buckhorn Elementary, Randall Middle, and Burns Middle. Several private and charter school options exist in the area as well. School zoning is the single biggest factor in <Link href="/valrico-fl-home-values/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Valrico home values</Link> — a home in Newsome zone typically commands a premium over comparable homes in other zones. Read the full <Link href="/valrico-school-zones/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>school zone guide</Link> for details.</p>
 
             {/* NEIGHBORHOODS BY LIFESTYLE */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Neighborhoods by lifestyle</h2>
@@ -57,7 +57,7 @@ export default function RelocationGuide() {
                 ['Families with kids','Bloomingdale, Buckhorn Preserve, Arista — strong school zones, sidewalks, community pools, and plenty of families in the same stage of life.'],
                 ['Move-up buyers','River Hills, Crestwood Estates, Diamond Hill — larger lots, higher price points ($500K–$1.2M+), and a more rural feel while still being close to everything.'],
                 ['First-time buyers','Valri Park, Twin Lakes, Savannah Landings — entry-level pricing ($275K–$375K) with solid bones and manageable HOA fees.'],
-                ['Retirees and downsizers','Single-story homes throughout Valrico, plus nearby 55+ communities like Sun City Center and Valencia Lakes. No state income tax makes Florida especially attractive for retirement income.'],
+                ['Retirees and downsizers','Single-story homes throughout Valrico, plus nearby 55+ communities like Sun City Center and Valencia Lakes. No state income tax makes Florida especially attractive for retirement income. See the 55+ communities guide.'],
                 ['Investors','Kings Mill townhomes, Savannah Landings, Valri Park — lower entry points with strong rental demand from MacDill AFB families and young professionals.'],
               ].map(([lifestyle,desc])=>(
                 <div key={lifestyle} className="border rounded-md p-5" style={{borderColor:'var(--border)'}}>
@@ -137,6 +137,9 @@ export default function RelocationGuide() {
                 <li><Link href="/valrico-school-zones/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Valrico school zones &rarr;</Link></li>
                 <li><Link href="/living-in-valrico/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Living in Valrico guide &rarr;</Link></li>
                 <li><Link href="/valrico-first-time-homebuyer/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>First-time buyer guide &rarr;</Link></li>
+                <li><Link href="/valrico-fl-home-values/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Valrico home values &rarr;</Link></li>
+                <li><Link href="/valrico-down-payment-assistance/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Down payment assistance &rarr;</Link></li>
+                <li><Link href="/valrico-va-loan-homes/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>VA loan homes &rarr;</Link></li>
               </ul>
             </div>
           </div>

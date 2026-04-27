@@ -45,7 +45,7 @@ export default function VALoanHomes() {
 
             {/* WHICH HOMES QUALIFY */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Which Valrico homes qualify for VA loans?</h2>
-            <p className="text-[15px] leading-[1.8] mb-4" style={{color:'var(--ink-soft)'}}>Most single-family homes, townhomes, and condos in Valrico qualify for VA financing. The VA has minimum property requirements (MPRs) that the home must meet:</p>
+            <p className="text-[15px] leading-[1.8] mb-4" style={{color:'var(--ink-soft)'}}>Most single-family homes, townhomes, and condos in Valrico qualify for VA financing. <Link href="/valrico-fl-homes-for-sale/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Browse current Valrico listings</Link> to see what is available. The VA has minimum property requirements (MPRs) that the home must meet:</p>
             <div className="space-y-8 mb-10">
               {[
                 ['Safe, sound, and sanitary','The home must be structurally sound, have functioning systems (HVAC, plumbing, electrical), and be free of health hazards. Most well-maintained Valrico homes pass this without issue.'],
@@ -83,7 +83,7 @@ export default function VALoanHomes() {
 
             {/* MACDILL AFB */}
             <h2 className="font-serif text-2xl mb-4 mt-10">MacDill AFB proximity</h2>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>MacDill Air Force Base is located about 15 miles west of Valrico on the southern tip of the Tampa peninsula. The commute from Valrico to MacDill is approximately 25-35 minutes depending on traffic and gate access. Many military families stationed at MacDill choose Valrico for the school quality, affordable homes, and family-friendly neighborhoods. If you receive PCS orders to MacDill, Valrico is one of the most popular off-base housing options. Barrett has worked with MacDill families for years and understands the PCS timeline, BAH considerations, and the urgency of finding a home within a reporting window.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>MacDill Air Force Base is located about 15 miles west of Valrico on the southern tip of the Tampa peninsula. The commute from Valrico to MacDill is approximately 25-35 minutes depending on traffic and gate access. Many military families stationed at MacDill choose Valrico for the <Link href="/valrico-school-zones/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>school quality</Link>, affordable homes, and family-friendly neighborhoods. If you receive PCS orders to MacDill, Valrico is one of the most popular off-base housing options. Barrett has worked with MacDill families for years and understands the PCS timeline, BAH considerations, and the urgency of finding a home within a reporting window. See the <Link href="/valrico-relocation-guide/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>relocation guide</Link> for more on moving to the area.</p>
 
             {/* FAQ */}
             <h2 className="font-serif text-2xl mb-4 mt-10">VA loan FAQ</h2>
@@ -117,6 +117,8 @@ export default function VALoanHomes() {
                 <li><Link href="/valrico-first-time-homebuyer/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>First-time buyer guide &rarr;</Link></li>
                 <li><Link href="/valrico-down-payment-assistance/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Down payment assistance &rarr;</Link></li>
                 <li><Link href="/valrico-relocation-guide/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Relocation guide &rarr;</Link></li>
+                <li><Link href="/valrico-fl-home-values/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Valrico home values &rarr;</Link></li>
+                <li><Link href="/valrico-market-report/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Market report &rarr;</Link></li>
               </ul>
             </div>
           </div>

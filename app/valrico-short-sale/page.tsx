@@ -124,7 +124,7 @@ export default function ValricoShortSale() {
             {/* Barrett's Experience */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Barrett&apos;s Short Sale Experience</h2>
             <p className="text-[15px] leading-[1.8] mb-4" style={{color:'var(--ink-soft)'}}>Barrett Henry has been handling short sales for over 20 years. He knows how to package files for specific lenders, how to escalate stalled negotiations, and how to get deficiency waivers included in the approval. Most importantly, he knows how to set realistic expectations so you are not blindsided by the timeline or process.</p>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>Every short sale starts with a confidential phone call. No judgment, no pressure, just honest information about your options.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>Every short sale starts with a confidential phone call. No judgment, no pressure, just honest information about your options. If a short sale is not the right fit, you may also consider a <Link href="/valrico-cash-offer/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>cash offer for a quick sale</Link>, or read about <Link href="/valrico-pre-foreclosure/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>other pre-foreclosure options</Link>. If you have equity, a <Link href="/sell-my-home-valrico/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>traditional sale</Link> may net you more. Check your <Link href="/valrico-fl-home-values/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>current home value</Link> to understand where you stand.</p>
 
             {/* CTA */}
             <div className="rounded-md p-8 mt-8 mb-12" style={{background:'var(--cream-warm)',border:'1px solid var(--border)'}}>
@@ -167,6 +167,8 @@ export default function ValricoShortSale() {
                 <li><Link href="/valrico-pre-foreclosure/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Pre-foreclosure help &rarr;</Link></li>
                 <li><Link href="/valrico-foreclosures/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Valrico foreclosure homes &rarr;</Link></li>
                 <li><Link href="/valrico-cash-offer/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Get a cash offer &rarr;</Link></li>
+                <li><Link href="/valrico-fl-home-values/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>What is my home worth? &rarr;</Link></li>
+                <li><Link href="/sell-my-home-valrico/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Sell my home (traditional) &rarr;</Link></li>
                 <li><a href="https://flforeclosurehelp.com" target="_blank" rel="noopener" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>flforeclosurehelp.com &rarr;</a></li>
               </ul>
             </div>

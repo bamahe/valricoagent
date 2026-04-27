@@ -144,7 +144,7 @@ export default function DownPaymentAssistance() {
                 </div>
               ))}
             </div>
-            <p className="text-[15px] leading-[1.8] mb-10" style={{color:'var(--ink-soft)'}}>No down payment. No PMI. Lower rates. There is no better deal in mortgage lending. Tampa Bay has a large military and veteran population — MacDill AFB is 30 minutes from Valrico. If you qualify for VA, use it. Barrett works with VA-experienced lenders who know how to close these smoothly.</p>
+            <p className="text-[15px] leading-[1.8] mb-10" style={{color:'var(--ink-soft)'}}>No down payment. No PMI. Lower rates. There is no better deal in mortgage lending. Tampa Bay has a large military and veteran population — MacDill AFB is 30 minutes from Valrico. If you qualify for VA, use it. Barrett works with VA-experienced lenders who know how to close these smoothly. Read the full <Link href="/valrico-va-loan-homes/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>VA loan guide for Valrico</Link>.</p>
 
             {/* CONVENTIONAL 3% */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Conventional 3% Down Programs</h2>
@@ -193,7 +193,7 @@ export default function DownPaymentAssistance() {
                 </tbody>
               </table>
             </div>
-            <p className="text-[15px] leading-[1.8] mb-10" style={{color:'var(--ink-soft)'}}>With Hometown Heroes covering up to 5% of the loan amount, a buyer purchasing a $400,000 Valrico home could receive up to $20,000 — enough to cover the full down payment on an FHA loan <em>and</em> a chunk of closing costs. Combine that with seller concessions (which Barrett can negotiate), and you might need very little cash to close.</p>
+            <p className="text-[15px] leading-[1.8] mb-10" style={{color:'var(--ink-soft)'}}>With Hometown Heroes covering up to 5% of the loan amount, a buyer purchasing a $400,000 Valrico home could receive up to $20,000 — enough to cover the full down payment on an FHA loan <em>and</em> a chunk of closing costs. Combine that with seller concessions (which Barrett can negotiate), and you might need very little cash to close. Ready to start your search? <Link href="/valrico-fl-homes-for-sale/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Browse current Valrico listings</Link> or read the <Link href="/valrico-first-time-homebuyer/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>complete first-time buyer guide</Link>.</p>
 
             {/* CTA */}
             <div className="rounded-lg p-8 mt-10 text-center" style={{background:'var(--blue-deep)',color:'#fff'}}>

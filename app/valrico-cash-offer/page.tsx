@@ -48,7 +48,7 @@ export default function ValricoCashOffer() {
                 ['Divorce','You need to liquidate quickly as part of a divorce settlement.'],
                 ['Relocation','Job transfer or life change requires you to move fast.'],
                 ['Deferred maintenance','The house needs major work &mdash; roof, AC, foundation &mdash; and you do not want to invest in repairs.'],
-                ['Behind on payments','You are facing foreclosure and need to sell before it goes to auction.'],
+                ['Behind on payments','You are facing foreclosure and need to sell before it goes to auction. See pre-foreclosure options.'],
                 ['Tired landlord','You are done being a landlord and want out of a rental property.'],
                 ['Hoarder house','The property needs extensive cleanout and you do not have the time or energy.'],
                 ['Probate','The estate needs to sell property and distribute proceeds to heirs.'],
@@ -114,7 +114,7 @@ export default function ValricoCashOffer() {
             {/* The Barrett Henry Difference */}
             <h2 className="font-serif text-2xl mb-4 mt-10">The Barrett Henry Difference</h2>
             <p className="text-[15px] leading-[1.8] mb-4" style={{color:'var(--ink-soft)'}}>Barrett is not a wholesaler. He is not going to lowball you, lock you into a contract, and then flip your deal to another investor for a fee. Barrett Henry is a licensed REALTOR® and Broker Associate at REMAX Collective with 23+ years of real estate experience.</p>
-            <p className="text-[15px] leading-[1.8] mb-4" style={{color:'var(--ink-soft)'}}>Here is what makes this different: Barrett shows you <strong>both options</strong>. The cash offer number and what you would likely net from a traditional listing. Side by side. Real numbers. Then you decide which path makes sense for your situation.</p>
+            <p className="text-[15px] leading-[1.8] mb-4" style={{color:'var(--ink-soft)'}}>Here is what makes this different: Barrett shows you <strong>both options</strong>. The cash offer number and what you would likely net from a <Link href="/sell-my-home-valrico/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>traditional listing</Link>. Side by side. Real numbers. Then you decide which path makes sense for your situation. Start by checking your <Link href="/valrico-fl-home-values/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>current Valrico home value</Link>.</p>
 
             <div className="rounded-md p-8 mt-4 mb-12" style={{background:'var(--cream-warm)',border:'1px solid var(--border)'}}>
               <p className="text-[15px] leading-[1.8] italic" style={{color:'var(--ink)'}}>&ldquo;I am not going to lowball you and flip your house. I am going to show you real numbers for both paths and let you decide what makes sense for your situation.&rdquo;</p>
@@ -159,6 +159,7 @@ export default function ValricoCashOffer() {
                 <li><Link href="/valrico-fl-home-values/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Get my Valrico home value &rarr;</Link></li>
                 <li><Link href="/valrico-short-sale/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Short sale assistance &rarr;</Link></li>
                 <li><Link href="/valrico-pre-foreclosure/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Pre-foreclosure help &rarr;</Link></li>
+                <li><Link href="/valrico-foreclosures/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Valrico foreclosures &rarr;</Link></li>
               </ul>
             </div>
           </div>

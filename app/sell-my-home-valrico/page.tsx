@@ -43,7 +43,7 @@ export default function SellMyHome() {
               {[
                 ['How long will it take to sell my Valrico home?','Properly priced homes in Valrico are selling in 30 to 55 days on average as of Q1 2026. Homes priced right from day one sell faster. Overpriced homes sit and eventually sell for less after a price reduction.'],
                 ['What does it cost to sell a house in Valrico FL?','Typical seller costs include agent commission, title insurance, documentary stamps, prorated taxes, and any negotiated repairs or credits. Barrett provides a detailed net sheet before you list so there are no surprises.'],
-                ['Should I sell or rent my Valrico home?','It depends on your equity position, the rental market in your specific neighborhood, and your long-term plans. Barrett can run the numbers both ways and help you make the decision that makes financial sense, not an emotional one.'],
+                ['Should I sell or rent my Valrico home?','It depends on your equity position, the rental market in your specific neighborhood, and your long-term plans. Barrett can run the numbers both ways — see the investment property page for rental analysis — and help you make the decision that makes financial sense, not an emotional one.'],
                 ['Is now a good time to sell in Valrico FL?','Valrico\'s market is balanced. You won\'t get the frenzy pricing of 2021, but you also won\'t face the falling-knife anxiety of a crashing market. Homes priced accurately are selling. If your home is in good condition and you price it based on current comps, yes, it\'s a reasonable time to sell.'],
                 ['What improvements should I make before selling?','Focus on roof, AC, kitchen, and pool cage — those are the items Valrico buyers scrutinize most. Cosmetic updates (paint, landscaping, pressure washing) offer the best ROI. Barrett walks every listing and tells you exactly what to do and what to skip.'],
               ].map(([q,a])=>(
@@ -68,6 +68,8 @@ export default function SellMyHome() {
                 <li><Link href="/valrico-market-report/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Valrico market report →</Link></li>
                 <li><Link href="/blog/valrico-housing-market-q1-2026/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Q1 2026 market data →</Link></li>
                 <li><Link href="/neighborhoods/bloomingdale/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Bloomingdale neighborhood guide →</Link></li>
+                <li><Link href="/valrico-cash-offer/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Get a cash offer instead →</Link></li>
+                <li><Link href="/valrico-fl-home-values/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>What is my home worth? →</Link></li>
                 <li><a href="https://nowtb.com/sell-your-home/" target="_blank" rel="noopener" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Sell your home on nowtb.com →</a></li>
               </ul>
             </div>

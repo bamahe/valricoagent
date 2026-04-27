@@ -10,7 +10,7 @@ export default function Home() {
         <div style={{position:'relative',zIndex:2,maxWidth:1200,margin:'0 auto',padding:'0 24px',display:'grid',gridTemplateColumns:'1fr 1fr',gap:48,alignItems:'center'}}>
           <div>
             <h1 style={{fontFamily:"'Merriweather',Georgia,serif",fontSize:'clamp(28px,3.5vw,42px)',fontWeight:700,lineHeight:1.3,marginBottom:16}}>Your Trusted Valrico Realtor — <em style={{color:'#ffd700',fontStyle:'italic'}}>Buy, Sell, or Invest with Confidence!</em></h1>
-            <h2 style={{fontSize:16,fontWeight:300,lineHeight:1.7,opacity:.8,marginBottom:28}}>Whether you&apos;re buying your dream home, selling for top dollar, or building your investment portfolio — Barrett Henry has the neighborhood-level knowledge and straight-talk approach that gets results. 32 neighborhoods. Two ZIP codes. One REALTOR® who knows them all.</h2>
+            <h2 style={{fontSize:16,fontWeight:300,lineHeight:1.7,opacity:.8,marginBottom:28}}>Whether you&apos;re buying your dream home, selling for top dollar, or building your investment portfolio — Barrett Henry has the neighborhood-level knowledge and straight-talk approach that gets results. 32 neighborhoods. Two ZIP codes. One REALTOR® who knows them all. <Link href="/valrico-first-time-homebuyer/" style={{color:'#ffd700',textDecoration:'none',fontWeight:500}}>First-time buyers start here</Link>.</h2>
             <div style={{display:'flex',gap:12,flexWrap:'wrap'}}>
               <Link href="/valrico-fl-homes-for-sale/" style={{padding:'14px 28px',fontSize:14,fontWeight:600,borderRadius:6,background:'#fff',color:'#003da5',textDecoration:'none'}}>Search Valrico Homes</Link>
               <Link href="/valrico-fl-home-values/" style={{padding:'14px 28px',fontSize:14,fontWeight:600,borderRadius:6,background:'#cc0000',color:'#fff',textDecoration:'none'}}>What&apos;s My Home Worth?</Link>
@@ -44,6 +44,26 @@ export default function Home() {
                 <p style={{fontSize:13,color:'#555',lineHeight:1.5}}>{desc}</p>
                 <Link href={href} style={{fontSize:13,fontWeight:600,color:'#003da5',marginTop:8,display:'inline-block'}}>{cta}</Link>
               </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* QUICK LINKS — BUYERS & SELLERS */}
+      <section style={{padding:'40px 0',background:'#f7f7f7',borderBottom:'1px solid #e5e5e5'}}>
+        <div style={{maxWidth:1200,margin:'0 auto',padding:'0 24px'}}>
+          <div style={{display:'grid',gridTemplateColumns:'repeat(4,1fr)',gap:16,textAlign:'center'}}>
+            {[
+              ['First-Time Buyer Guide','/valrico-first-time-homebuyer/'],
+              ['Down Payment Assistance','/valrico-down-payment-assistance/'],
+              ['Relocation Guide','/valrico-relocation-guide/'],
+              ['Market Report','/valrico-market-report/'],
+              ['VA Loan Homes','/valrico-va-loan-homes/'],
+              ['Investment Properties','/valrico-investment-property/'],
+              ['Cash Offer','/valrico-cash-offer/'],
+              ['55+ Communities','/valrico-55-plus-communities/'],
+            ].map(([title,href])=>(
+              <Link key={title} href={href} style={{padding:'12px 16px',background:'#fff',borderRadius:8,fontSize:13,fontWeight:500,color:'#003da5',border:'1px solid #e5e5e5',textDecoration:'none'}}>{title}</Link>
             ))}
           </div>
         </div>
@@ -178,6 +198,11 @@ export default function Home() {
             <div style={{marginTop:20,fontWeight:600,color:'#222',fontStyle:'normal'}}>— Valrico Home Buyer, 2025</div>
           </div>
           <a href="https://nowtb.com/testimonials/" target="_blank" rel="noopener" style={{marginTop:16,display:'inline-block',fontSize:13,fontWeight:600,color:'#003da5'}}>Read More Reviews →</a>
+          <div style={{marginTop:24,display:'flex',gap:16,justifyContent:'center',flexWrap:'wrap'}}>
+            <Link href="/valrico-realtor/" style={{fontSize:13,fontWeight:600,color:'#003da5',textDecoration:'none'}}>About Barrett →</Link>
+            <Link href="/valrico-real-estate-agent/" style={{fontSize:13,fontWeight:600,color:'#003da5',textDecoration:'none'}}>Why Local Expertise Matters →</Link>
+            <Link href="/living-in-valrico/" style={{fontSize:13,fontWeight:600,color:'#003da5',textDecoration:'none'}}>Living in Valrico →</Link>
+          </div>
         </div>
       </section>
 
@@ -212,6 +237,23 @@ export default function Home() {
               </p>
               <p style={{marginTop:16,fontSize:13,color:'#555'}}><strong>Also serving from:</strong><br/>Tampa: 14310 N Dale Mabry Hwy Ste 100<br/>Largo: 11200 Seminole Blvd Ste 202</p>
               <p style={{marginTop:16,fontSize:13,color:'#555'}}><strong>Designations:</strong> e-PRO, MRP, SRS<br/><strong>Broker Associate</strong> · 23+ Years Experience</p>
+              <div style={{marginTop:16}}>
+                <p style={{fontSize:13,fontWeight:600,color:'#222',marginBottom:8}}>Explore Valrico Resources:</p>
+                <div style={{display:'flex',flexWrap:'wrap',gap:8}}>
+                  {[
+                    ['Pool Homes','/valrico-pool-homes/'],
+                    ['Waterfront','/valrico-waterfront-homes/'],
+                    ['Luxury Homes','/valrico-luxury-homes/'],
+                    ['New Construction','/valrico-new-construction-homes/'],
+                    ['No HOA','/valrico-no-hoa-homes/'],
+                    ['Foreclosures','/valrico-foreclosures/'],
+                    ['Short Sale Help','/valrico-short-sale/'],
+                    ['Pre-Foreclosure','/valrico-pre-foreclosure/'],
+                  ].map(([label,href])=>(
+                    <Link key={label} href={href} style={{fontSize:12,color:'#003da5',textDecoration:'none',padding:'4px 10px',background:'#f7f7f7',borderRadius:4,border:'1px solid #e5e5e5'}}>{label}</Link>
+                  ))}
+                </div>
+              </div>
             </div>
             <div>
               <div style={{display:'flex',flexDirection:'column',gap:12}}>

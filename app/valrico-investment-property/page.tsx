@@ -28,7 +28,7 @@ export default function InvestmentProperty() {
 
             {/* RENTAL DEMAND */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Rental demand in Valrico</h2>
-            <p className="text-[15px] leading-[1.8] mb-4" style={{color:'var(--ink-soft)'}}>Tenant demand comes from several reliable sources: military families stationed at MacDill AFB (15 miles west), young professionals working in Tampa or Brandon, families who want Valrico school zones but are not ready to buy, and corporate relocations. Single-family rentals in good school zones are especially in demand — families will pay a premium to rent in Bloomingdale or Newsome high school zones.</p>
+            <p className="text-[15px] leading-[1.8] mb-4" style={{color:'var(--ink-soft)'}}>Tenant demand comes from several reliable sources: military families stationed at MacDill AFB (15 miles west), young professionals working in Tampa or Brandon, families who want Valrico school zones but are not ready to buy, and corporate relocations. Single-family rentals in good <Link href="/valrico-school-zones/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>school zones</Link> are especially in demand — families will pay a premium to rent in <Link href="/neighborhoods/bloomingdale/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Bloomingdale</Link> or Newsome high school zones.</p>
 
             {/* AVERAGE RENTS */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Average rents by bedroom count</h2>
@@ -77,7 +77,7 @@ export default function InvestmentProperty() {
 
             {/* WHY EAST HILLSBOROUGH */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Why east Hillsborough County?</h2>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>East Hillsborough — Valrico, Brandon, Riverview, Lithia — is where the growth is happening. New commercial development, road improvements, school construction, and population growth all point east. Prices are still below the Hillsborough County average, which means more room for appreciation compared to South Tampa, Westchase, or other established areas where prices have already peaked. For investors, the combination of rising rents, population growth, and below-average entry prices creates a window that will not stay open forever.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>East Hillsborough — Valrico, Brandon, Riverview, Lithia — is where the growth is happening. New commercial development, road improvements, school construction, and population growth all point east. Prices are still below the Hillsborough County average, which means more room for appreciation compared to South Tampa, Westchase, or other established areas where prices have already peaked. For investors, the combination of rising rents, population growth, and below-average entry prices creates a window that will not stay open forever. Review the latest <Link href="/valrico-market-report/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Valrico market report</Link> for current pricing data and trends, or check <Link href="/valrico-fl-home-values/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>current home values by neighborhood</Link>.</p>
 
             {/* FAQ */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Investment property FAQ</h2>
@@ -111,6 +111,8 @@ export default function InvestmentProperty() {
                 <li><Link href="/valrico-market-report/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Valrico market report &rarr;</Link></li>
                 <li><Link href="/valrico-fl-homes-for-sale/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Search all Valrico homes &rarr;</Link></li>
                 <li><a href="https://vivipm.com" target="_blank" rel="noopener" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>ViVi PM website &rarr;</a></li>
+                <li><Link href="/valrico-fl-home-values/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Valrico home values &rarr;</Link></li>
+                <li><Link href="/neighborhoods/bloomingdale/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Bloomingdale neighborhood &rarr;</Link></li>
               </ul>
             </div>
           </div>

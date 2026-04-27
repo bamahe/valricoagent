@@ -55,7 +55,7 @@ export default function PropertyManagement() {
                 ['What areas do you manage?','We manage properties in Valrico (33594 and 33596), Brandon, Bloomingdale, Buckhorn/Boyette, and the surrounding east Hillsborough County area.'],
                 ['Do you handle Airbnb and short-term rentals?','Yes. Best Bay Services provides Airbnb turnover service (cleaning, restocking, guest coordination) for short-term rental properties in Valrico and the Tampa Bay area.'],
                 ['What if my tenant stops paying rent?','We handle the entire eviction process in compliance with Florida law, including notices, court filings, and property recovery. Our screening process minimizes this risk, but we are prepared if it happens.'],
-                ['Can you help me buy an investment property?','Absolutely. Barrett Henry, REALTOR&reg; handles both the acquisition and management side. Buy the property through Barrett, and ViVi PM manages it from day one.'],
+                ['Can you help me buy an investment property?','Absolutely. Barrett Henry, REALTOR&reg; handles both the acquisition and management side. Buy the property through Barrett, and ViVi PM manages it from day one. See the investment property guide for details.'],
               ].map(([q,a]) => (
                 <div key={q} className="border rounded-md p-5" style={{borderColor:'var(--border)'}}>
                   <h3 className="font-semibold text-base mb-2">{q}</h3>
@@ -82,6 +82,8 @@ export default function PropertyManagement() {
               <ul className="space-y-2">
                 <li><Link href="/valrico-fl-home-values/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>What&apos;s my Valrico home worth? &rarr;</Link></li>
                 <li><Link href="/sell-my-home-valrico/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Sell my Valrico home &rarr;</Link></li>
+                <li><Link href="/valrico-investment-property/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Investment property guide &rarr;</Link></li>
+                <li><Link href="/valrico-fl-homes-for-sale/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Search Valrico homes &rarr;</Link></li>
                 <li><a href="https://nowtb.com/commercial/" target="_blank" rel="noopener" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Investment properties on nowtb.com &rarr;</a></li>
                 <li><a href="https://bestbayservices.com" target="_blank" rel="noopener" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Best Bay Services — Maintenance &rarr;</a></li>
               </ul>
