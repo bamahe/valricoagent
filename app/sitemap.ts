@@ -1,9 +1,11 @@
 import { MetadataRoute } from 'next'
+import { getPublishedPosts } from '@/lib/supabase'
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = 'https://valricoagent.com'
   const now = new Date().toISOString()
 
+  // All 32 neighborhoods
   const neighborhoods = [
     'bloomingdale','river-hills','diamond-hill','buckhorn','twin-lakes','brentwood-hills',
     'crestwood-estates','bloomingdale-east','bloomingdale-oaks','canterbury-oaks',
@@ -14,6 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'arista','valrico-forest','heritage-crest','northwood-estates',
   ]
 
+  // Core static pages
   const corePages = [
     { url: `${baseUrl}/`, changeFrequency: 'weekly' as const, priority: 1.0 },
     { url: `${baseUrl}/valrico-realtor/`, changeFrequency: 'monthly' as const, priority: 0.9 },
@@ -31,11 +34,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/valrico-luxury-homes/`, changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${baseUrl}/valrico-school-zones/`, changeFrequency: 'monthly' as const, priority: 0.8 },
     { url: `${baseUrl}/valrico-property-management/`, changeFrequency: 'monthly' as const, priority: 0.7 },
-    { url: `${baseUrl}/blog/`, changeFrequency: 'weekly' as const, priority: 0.6 },
-    { url: `${baseUrl}/blog/valrico-housing-market-q1-2026/`, changeFrequency: 'monthly' as const, priority: 0.7 },
-    { url: `${baseUrl}/blog/bloomingdale-vs-buckhorn-valrico/`, changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/valrico-waterfront-homes/`, changeFrequency: 'weekly' as const, priority: 0.7 },
+    { url: `${baseUrl}/valrico-foreclosures/`, changeFrequency: 'weekly' as const, priority: 0.6 },
+    { url: `${baseUrl}/valrico-short-sale/`, changeFrequency: 'monthly' as const, priority: 0.6 },
+    { url: `${baseUrl}/valrico-pre-foreclosure/`, changeFrequency: 'weekly' as const, priority: 0.6 },
+    { url: `${baseUrl}/valrico-cash-offer/`, changeFrequency: 'monthly' as const, priority: 0.6 },
+    { url: `${baseUrl}/valrico-va-loan-homes/`, changeFrequency: 'weekly' as const, priority: 0.6 },
+    { url: `${baseUrl}/valrico-investment-property/`, changeFrequency: 'monthly' as const, priority: 0.6 },
+    { url: `${baseUrl}/valrico-55-plus-communities/`, changeFrequency: 'monthly' as const, priority: 0.6 },
+    { url: `${baseUrl}/valrico-first-time-homebuyer/`, changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/valrico-down-payment-assistance/`, changeFrequency: 'monthly' as const, priority: 0.6 },
+    { url: `${baseUrl}/valrico-relocation-guide/`, changeFrequency: 'monthly' as const, priority: 0.6 },
+    { url: `${baseUrl}/blog/`, changeFrequency: 'daily' as const, priority: 0.8 },
   ]
 
+  // Neighborhood pages
   const neighborhoodPages = neighborhoods.map((slug) => ({
     url: `${baseUrl}/neighborhoods/${slug}/`,
     lastModified: now,
@@ -43,8 +56,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }))
 
+  // Dynamic blog posts from Supabase
+  let blogEntries: MetadataRoute.Sitemap = []
+  try {
+    const posts = await getPublishedPosts()
+    blogEntries = posts.map((post) => ({
+      url: `${baseUrl}/blog/${post.slug}`,
+      lastModified: post.updated_at,
+      changeFrequency: 'monthly' as const,
+      priority: 0.6,
+    }))
+  } catch {
+    // Supabase not configured yet — skip blog entries
+  }
+
   return [
     ...corePages.map((p) => ({ ...p, lastModified: now })),
     ...neighborhoodPages,
+    ...blogEntries,
   ]
 }

@@ -12,7 +12,7 @@ export default function Home() {
             <h1 style={{fontFamily:"'Merriweather',Georgia,serif",fontSize:'clamp(28px,3.5vw,42px)',fontWeight:700,lineHeight:1.3,marginBottom:16}}>Your Trusted Valrico Realtor — <em style={{color:'#ffd700',fontStyle:'italic'}}>Buy, Sell, or Invest with Confidence!</em></h1>
             <h2 style={{fontSize:16,fontWeight:300,lineHeight:1.7,opacity:.8,marginBottom:28}}>Whether you&apos;re buying your dream home, selling for top dollar, or building your investment portfolio — Barrett Henry has the neighborhood-level knowledge and straight-talk approach that gets results. 32 neighborhoods. Two ZIP codes. One REALTOR® who knows them all. <Link href="/valrico-first-time-homebuyer/" style={{color:'#ffd700',textDecoration:'none',fontWeight:500}}>First-time buyers start here</Link>.</h2>
             <div style={{display:'flex',gap:12,flexWrap:'wrap'}}>
-              <Link href="/valrico-fl-homes-for-sale/" style={{padding:'14px 28px',fontSize:14,fontWeight:600,borderRadius:6,background:'#fff',color:'#003da5',textDecoration:'none'}}>Search Valrico Homes</Link>
+              <Link href="/valrico-fl-homes-for-sale/" style={{padding:'14px 28px',fontSize:14,fontWeight:600,borderRadius:6,background:'#fff',color:'#003da5',textDecoration:'none',boxShadow:'0 2px 8px rgba(0,0,0,.25)',display:'flex',alignItems:'center',gap:8}}><span className="material-icons" style={{fontSize:20}}>search</span> Search Valrico Homes</Link>
               <Link href="/valrico-fl-home-values/" style={{padding:'14px 28px',fontSize:14,fontWeight:600,borderRadius:6,background:'#cc0000',color:'#fff',textDecoration:'none'}}>What&apos;s My Home Worth?</Link>
               <a href="#contact" style={{padding:'14px 28px',fontSize:14,fontWeight:600,borderRadius:6,background:'rgba(255,255,255,.15)',color:'#fff',border:'1px solid rgba(255,255,255,.3)',textDecoration:'none',display:'flex',alignItems:'center',gap:8}}><span className="material-icons" style={{fontSize:20}}>event</span> Schedule A Call</a>
             </div>
@@ -220,19 +220,19 @@ export default function Home() {
               </p>
               <p style={{fontSize:14,color:'#555',marginBottom:12}}>
                 <span className="material-icons" style={{fontSize:18,verticalAlign:'middle',marginRight:6,color:'#003da5'}}>phone</span>
-                <a href="tel:8137337907" style={{color:'#003da5',fontWeight:500}}>(813) 733-7907</a>
+                <a href="tel:8137337907" style={{color:'#003da5',fontWeight:500,textDecoration:'none'}}>(813) 733-7907</a>
               </p>
               <p style={{fontSize:14,color:'#555',marginBottom:12}}>
                 <span className="material-icons" style={{fontSize:18,verticalAlign:'middle',marginRight:6,color:'#003da5'}}>phone</span>
-                The NOW Team: <a href="tel:8132604663" style={{color:'#003da5',fontWeight:500}}>(813) 260-4663</a>
+                The NOW Team: <a href="tel:8132604663" style={{color:'#003da5',fontWeight:500,textDecoration:'none'}}>(813) 260-4663</a>
               </p>
               <p style={{fontSize:14,color:'#555',marginBottom:12}}>
                 <span className="material-icons" style={{fontSize:18,verticalAlign:'middle',marginRight:6,color:'#003da5'}}>email</span>
-                <a href="mailto:barrett@nowtb.com" style={{color:'#003da5',fontWeight:500}}>barrett@nowtb.com</a>
+                <a href="mailto:barrett@nowtb.com" style={{color:'#003da5',fontWeight:500,textDecoration:'none'}}>barrett@nowtb.com</a>
               </p>
               <p style={{fontSize:14,color:'#555',marginBottom:12}}>
                 <span className="material-icons" style={{fontSize:18,verticalAlign:'middle',marginRight:6,color:'#003da5'}}>language</span>
-                <a href="https://nowtb.com" target="_blank" rel="noopener" style={{color:'#003da5',fontWeight:500}}>nowtb.com</a>
+                <a href="https://nowtb.com" target="_blank" rel="noopener" style={{color:'#003da5',fontWeight:500,textDecoration:'none'}}>nowtb.com</a>
               </p>
               <p style={{marginTop:16,fontSize:13,color:'#555'}}><strong>Also serving from:</strong><br/>Tampa: 14310 N Dale Mabry Hwy Ste 100<br/>Largo: 11200 Seminole Blvd Ste 202</p>
               <p style={{marginTop:16,fontSize:13,color:'#555'}}><strong>Designations:</strong> e-PRO, MRP, SRS<br/><strong>Broker Associate</strong> · 23+ Years Experience</p>
