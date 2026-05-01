@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 
-export const revalidate = 3600;
+export const dynamic = 'force-dynamic';
 
 // Generate static paths for all published posts
 export async function generateStaticParams() {

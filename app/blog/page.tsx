@@ -2,7 +2,7 @@ import { getPublishedPosts, getPillars } from '@/lib/supabase';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 
-export const revalidate = 3600; // Re-check every hour for new scheduled posts
+export const dynamic = 'force-dynamic'; // Always fetch fresh data (new posts publish daily)
 
 export const metadata: Metadata = {
   title: 'Valrico Real Estate Blog | Barrett Henry | ValricoAgent.com',
