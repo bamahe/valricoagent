@@ -209,12 +209,12 @@ export default async function BlogPostPage({
         />
 
         {/* CTA Block */}
-        <div className="mt-12 p-8 bg-blue-50 rounded-xl border border-blue-100">
-          <h3 className="text-xl font-bold text-gray-900 mb-2">{cta.headline}</h3>
-          <p className="text-gray-600 mb-4">{cta.subtext}</p>
+        <div style={{marginTop:48,padding:32,background:'#f0f4ff',borderRadius:12,border:'1px solid #dbe4f0'}}>
+          <h3 style={{fontSize:20,fontWeight:700,color:'#222',marginBottom:8}}>{cta.headline}</h3>
+          <p style={{fontSize:14,color:'#555',marginBottom:16}}>{cta.subtext}</p>
           <Link
             href={cta.buttonLink}
-            className="inline-block px-6 py-3 bg-blue-700 text-white font-semibold rounded-lg hover:bg-blue-800 transition-colors"
+            style={{display:'inline-block',padding:'14px 28px',background:'#003da5',color:'#fff',fontSize:14,fontWeight:600,borderRadius:6,textDecoration:'none'}}
           >
             {cta.buttonText}
           </Link>
