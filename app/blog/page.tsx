@@ -80,10 +80,14 @@ export default async function BlogIndex() {
               href={`/blog/${post.slug}`}
               className="group block border border-gray-200 rounded-xl overflow-hidden hover:shadow-lg transition-shadow"
             >
-              {/* Image placeholder */}
-              <div className="h-48 bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center">
-                <span className="text-5xl opacity-30">🏠</span>
-              </div>
+              {/* Featured image */}
+              {post.featured_image ? (
+                <img src={post.featured_image} alt={post.featured_image_alt || post.title} className="h-48 w-full object-cover" />
+              ) : (
+                <div className="h-48 bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center">
+                  <span className="text-5xl opacity-30">🏠</span>
+                </div>
+              )}
 
               <div className="p-5">
                 {/* Pillar badge */}
