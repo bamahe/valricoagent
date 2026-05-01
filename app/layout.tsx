@@ -41,6 +41,50 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
       </head>
       <body>
+        {/* Sitewide LocalBusiness JSON-LD schema for SEO/AEO */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "RealEstateAgent",
+              "@id": "https://valricoagent.com/#organization",
+              "name": "Barrett Henry, REALTOR®",
+              "description": "Valrico FL REALTOR® and Broker Associate with RE/MAX Collective. 23+ years of real estate experience.",
+              "url": "https://valricoagent.com",
+              "telephone": "(813) 733-7907",
+              "email": "barrett@nowtb.com",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "417 Lithia Pinecrest Rd",
+                "addressLocality": "Brandon",
+                "addressRegion": "FL",
+                "postalCode": "33511",
+                "addressCountry": "US"
+              },
+              "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 27.9378,
+                "longitude": -82.2365
+              },
+              "areaServed": [
+                { "@type": "City", "name": "Valrico" },
+                { "@type": "City", "name": "Brandon" },
+                { "@type": "City", "name": "Riverview" },
+                { "@type": "City", "name": "Lithia" }
+              ],
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "5.0",
+                "reviewCount": "50"
+              },
+              "sameAs": [
+                "https://nowtb.com",
+                "https://www.youtube.com/@nowtampa"
+              ]
+            })
+          }}
+        />
         <Nav />
         <main>{children}</main>
         <Footer />

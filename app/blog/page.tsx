@@ -8,11 +8,12 @@ export const metadata: Metadata = {
   title: 'Valrico Real Estate Blog | Barrett Henry | ValricoAgent.com',
   description:
     'Expert insights on Valrico FL real estate: market reports, neighborhood guides, buying and selling tips from local REALTOR® Barrett Henry.',
+  alternates: { canonical: "/blog/" },
   openGraph: {
     title: 'Valrico Real Estate Blog | Barrett Henry',
     description:
       'Expert insights on Valrico FL real estate: market reports, neighborhood guides, buying and selling tips.',
-    url: 'https://valricoagent.com/blog',
+    url: 'https://valricoagent.com/blog/',
     siteName: 'ValricoAgent.com',
     type: 'website',
   },

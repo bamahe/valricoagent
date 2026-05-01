@@ -89,7 +89,7 @@ export default function Nav() {
           ))}
           <Link href="/valrico-school-zones/" className="nav-link">Schools</Link>
           <Link href="/blog/" className="nav-link">Blog</Link>
-          <Link href="/valrico-realtor/" className="nav-link">About</Link>
+          <Link href="/about/" className="nav-link">About</Link>
         </div>
 
         {/* Right side */}
@@ -141,7 +141,7 @@ export default function Nav() {
           ))}
           <Link href="/valrico-school-zones/" className="mobile-link-top" onClick={() => setMobileOpen(false)}>Schools</Link>
           <Link href="/blog/" className="mobile-link-top" onClick={() => setMobileOpen(false)}>Blog</Link>
-          <Link href="/valrico-realtor/" className="mobile-link-top" onClick={() => setMobileOpen(false)}>About Barrett</Link>
+          <Link href="/about/" className="mobile-link-top" onClick={() => setMobileOpen(false)}>About Barrett</Link>
           <Link href="/valrico-relocation-guide/" className="mobile-link-top" onClick={() => setMobileOpen(false)}>Relocating</Link>
           <div style={{ padding: '16px 20px', borderTop: '1px solid #e5e5e5', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
             <div>

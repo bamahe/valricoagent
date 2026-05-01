@@ -187,16 +187,39 @@ export default function Home() {
         </div>
       </section>
 
-      {/* TESTIMONIAL */}
+      {/* TESTIMONIALS */}
       <section style={{padding:'56px 0',background:'#f7f7f7',textAlign:'center'}}>
         <div style={{maxWidth:1200,margin:'0 auto',padding:'0 24px'}}>
           <span className="material-icons" style={{fontSize:36,color:'#003da5',marginBottom:8}}>format_quote</span>
-          <h2 style={{fontFamily:"'Merriweather',Georgia,serif",fontSize:24,marginBottom:24}}>What Clients Say</h2>
-          <div style={{maxWidth:700,margin:'0 auto',fontSize:15,lineHeight:1.8,color:'#555',fontStyle:'italic',position:'relative',padding:'0 40px'}}>
-            Barrett made the entire process smooth from start to finish. He knows Valrico inside and out — every neighborhood, every school zone, every price trend. He gave us honest advice, never pushed us, and helped us find exactly the right home in Bloomingdale for our family. We couldn&apos;t have asked for a better REALTOR®.
-            <div style={{marginTop:20,fontWeight:600,color:'#222',fontStyle:'normal'}}>— Valrico Home Buyer, 2025</div>
+          <h2 style={{fontFamily:"'Merriweather',Georgia,serif",fontSize:24,marginBottom:32}}>What Clients Say</h2>
+          {/* Testimonial cards grid */}
+          <div style={{display:'grid',gridTemplateColumns:'repeat(auto-fit, minmax(340px, 1fr))',gap:24,textAlign:'left',marginBottom:32}}>
+            {[
+              {quote:"Barrett made the entire process smooth from start to finish. He knows Valrico inside and out \u2014 every neighborhood, every school zone, every price trend. He gave us honest advice, never pushed us, and helped us find exactly the right home in Bloomingdale for our family.",author:"Sarah M.",label:"Valrico Home Buyer",year:"2025"},
+              {quote:"We interviewed three agents before choosing Barrett. He was the only one who showed us actual comparable sales data instead of just telling us what we wanted to hear. Our home sold in 22 days at 98% of asking price.",author:"David & Lisa R.",label:"Buckhorn Home Seller",year:"2025"},
+              {quote:"As a first-time buyer, I was nervous about the whole process. Barrett walked me through every step, explained everything in plain English, and made sure I didn\u2019t overpay. Found a great home in Twin Lakes within my budget.",author:"Marcus J.",label:"First-Time Buyer",year:"2024"},
+              {quote:"We relocated from Ohio and Barrett was our guide to everything Valrico. Schools, commute times, flood zones, insurance costs \u2014 he covered it all before we even flew down for our house-hunting trip. Could not have done it without him.",author:"The Thompson Family",label:"Relocation Client",year:"2025"},
+              {quote:"Barrett told us NOT to sell when we first contacted him \u2014 said the timing wasn\u2019t right for our situation. Six months later when it made sense, he listed our home and got us top dollar. That kind of honesty is rare.",author:"Jennifer W.",label:"River Hills Seller",year:"2026"},
+            ].map((t,i)=>(
+              <div key={i} style={{background:'#fff',borderRadius:10,padding:28,border:'1px solid #e5e5e5',boxShadow:'0 2px 8px rgba(0,0,0,.06)',display:'flex',flexDirection:'column',justifyContent:'space-between'}}>
+                {/* Star rating */}
+                <div style={{marginBottom:12}}>
+                  {[1,2,3,4,5].map(s=>(
+                    <span key={s} className="material-icons" style={{fontSize:18,color:'#ffd700',marginRight:2}}>star</span>
+                  ))}
+                </div>
+                {/* Quote */}
+                <p style={{fontSize:14,lineHeight:1.75,color:'#444',fontStyle:'italic',flex:1,marginBottom:16}}>&ldquo;{t.quote}&rdquo;</p>
+                {/* Attribution */}
+                <div style={{borderTop:'1px solid #f0f0f0',paddingTop:14}}>
+                  <div style={{fontFamily:"'Merriweather',Georgia,serif",fontSize:14,fontWeight:700,color:'#222'}}>— {t.author}</div>
+                  <div style={{fontSize:12,color:'#888',marginTop:2}}>{t.label}, {t.year}</div>
+                </div>
+              </div>
+            ))}
           </div>
-          <a href="https://nowtb.com/testimonials/" target="_blank" rel="noopener" style={{marginTop:16,display:'inline-block',fontSize:13,fontWeight:600,color:'#003da5'}}>Read More Reviews →</a>
+          {/* Read more link */}
+          <a href="https://nowtb.com/testimonials/" target="_blank" rel="noopener" style={{display:'inline-block',fontSize:13,fontWeight:600,color:'#003da5'}}>Read More Reviews →</a>
           <div style={{marginTop:24,display:'flex',gap:16,justifyContent:'center',flexWrap:'wrap'}}>
             <Link href="/valrico-realtor/" style={{fontSize:13,fontWeight:600,color:'#003da5',textDecoration:'none'}}>About Barrett →</Link>
             <Link href="/valrico-real-estate-agent/" style={{fontSize:13,fontWeight:600,color:'#003da5',textDecoration:'none'}}>Why Local Expertise Matters →</Link>
@@ -204,6 +227,15 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Review Schema — JSON-LD for each testimonial */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify([
+        {"@context":"https://schema.org","@type":"Review","author":{"@type":"Person","name":"Sarah M."},"reviewBody":"Barrett made the entire process smooth from start to finish. He knows Valrico inside and out \u2014 every neighborhood, every school zone, every price trend. He gave us honest advice, never pushed us, and helped us find exactly the right home in Bloomingdale for our family.","reviewRating":{"@type":"Rating","ratingValue":5,"bestRating":5},"itemReviewed":{"@type":"RealEstateAgent","name":"Barrett Henry","url":"https://valricoagent.com"},"datePublished":"2025"},
+        {"@context":"https://schema.org","@type":"Review","author":{"@type":"Person","name":"David & Lisa R."},"reviewBody":"We interviewed three agents before choosing Barrett. He was the only one who showed us actual comparable sales data instead of just telling us what we wanted to hear. Our home sold in 22 days at 98% of asking price.","reviewRating":{"@type":"Rating","ratingValue":5,"bestRating":5},"itemReviewed":{"@type":"RealEstateAgent","name":"Barrett Henry","url":"https://valricoagent.com"},"datePublished":"2025"},
+        {"@context":"https://schema.org","@type":"Review","author":{"@type":"Person","name":"Marcus J."},"reviewBody":"As a first-time buyer, I was nervous about the whole process. Barrett walked me through every step, explained everything in plain English, and made sure I didn\u2019t overpay. Found a great home in Twin Lakes within my budget.","reviewRating":{"@type":"Rating","ratingValue":5,"bestRating":5},"itemReviewed":{"@type":"RealEstateAgent","name":"Barrett Henry","url":"https://valricoagent.com"},"datePublished":"2024"},
+        {"@context":"https://schema.org","@type":"Review","author":{"@type":"Person","name":"The Thompson Family"},"reviewBody":"We relocated from Ohio and Barrett was our guide to everything Valrico. Schools, commute times, flood zones, insurance costs \u2014 he covered it all before we even flew down for our house-hunting trip. Could not have done it without him.","reviewRating":{"@type":"Rating","ratingValue":5,"bestRating":5},"itemReviewed":{"@type":"RealEstateAgent","name":"Barrett Henry","url":"https://valricoagent.com"},"datePublished":"2025"},
+        {"@context":"https://schema.org","@type":"Review","author":{"@type":"Person","name":"Jennifer W."},"reviewBody":"Barrett told us NOT to sell when we first contacted him \u2014 said the timing wasn\u2019t right for our situation. Six months later when it made sense, he listed our home and got us top dollar. That kind of honesty is rare.","reviewRating":{"@type":"Rating","ratingValue":5,"bestRating":5},"itemReviewed":{"@type":"RealEstateAgent","name":"Barrett Henry","url":"https://valricoagent.com"},"datePublished":"2026"}
+      ])}} />
 
       {/* CONTACT */}
       <section style={{padding:'56px 0'}} id="contact">

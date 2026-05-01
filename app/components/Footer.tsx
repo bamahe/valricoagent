@@ -26,6 +26,12 @@ export default function Footer() {
             <p>
               <a href="mailto:barrett@nowtb.com" style={{ fontSize: 13, color: 'rgba(255,255,255,.5)' }}>barrett@nowtb.com</a>
             </p>
+            {/* Google Business Profile link */}
+            <p style={{ marginTop: 10 }}>
+              <a href="https://g.page/r/nowtb" target="_blank" rel="noopener" style={{ fontSize: 13, color: '#3b82f6', fontWeight: 600, transition: '.2s' }}>⭐ Google Reviews</a>
+            </p>
+            <p style={{ fontSize: 11, color: 'rgba(255,255,255,.4)', marginTop: 2 }}>Find us on Google</p>
+
             <div style={{ marginTop: 20, paddingTop: 16, borderTop: '1px solid rgba(255,255,255,.08)' }}>
               <span style={{ fontSize: 11, fontWeight: 700, letterSpacing: '.12em', color: '#3b82f6' }}>MOVE WITH CONFIDENCE.</span>
               <span style={{ fontSize: 11, color: 'rgba(255,255,255,.35)', display: 'block', marginTop: 2 }}>Straight talk. Smart strategy.</span>
