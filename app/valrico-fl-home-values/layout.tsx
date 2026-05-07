@@ -2,16 +2,21 @@ import type { Metadata } from "next";
 
 // SEO metadata for the Valrico Home Values page
 export const metadata: Metadata = {
-  title: "What Is My Valrico Home Worth? | Free Home Value Report | Barrett Henry",
+  title: "Valrico Home Values — Free Report",
   description:
     "Get a free Valrico home value report based on real comparable sales in your subdivision. Not a Zestimate — a detailed CMA from local REALTOR® Barrett Henry.",
   openGraph: {
-    title: "What Is My Valrico Home Worth? | Free Home Value Report | Barrett Henry",
+    title: "Valrico Home Values — Free Report",
     description:
       "Get a free Valrico home value report based on real comparable sales in your subdivision. Not a Zestimate — a detailed CMA from local REALTOR® Barrett Henry.",
     url: "https://valricoagent.com/valrico-fl-home-values/",
     siteName: "ValricoAgent.com",
     type: "website",
+    images: [{ url: "https://valricoagent.com/barrett-henry.png", width: 600, height: 600, alt: "Barrett Henry, REALTOR - Valrico FL" }],
+  },
+  twitter: {
+    card: "summary",
+    images: ["https://valricoagent.com/barrett-henry.png"],
   },
   alternates: {
     canonical: "/valrico-fl-home-values/",

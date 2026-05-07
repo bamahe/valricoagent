@@ -1,15 +1,20 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: 'First-Time Home Buyer Guide for Valrico, FL | Barrett Henry, REALTOR®',
+  title: 'First-Time Buyer Guide — Valrico FL',
   description: 'Everything first-time buyers need to know about buying in Valrico. Down payment options, school zones, neighborhoods by budget, and what to expect. Barrett Henry, REMAX Collective.',
   alternates: { canonical: "/valrico-first-time-homebuyer/" },
   openGraph: {
-    title: "First-Time Home Buyer Guide for Valrico, FL | Barrett Henry, REALTOR®",
+    title: "First-Time Buyer Guide — Valrico FL",
     description: "Everything first-time buyers need to know about buying in Valrico. Down payment options, school zones, neighborhoods by budget, and what to expect. Barrett Henry, REMAX Collective.",
     url: "https://valricoagent.com/valrico-first-time-homebuyer/",
     siteName: "ValricoAgent.com",
     type: "website",
+    images: [{ url: "https://valricoagent.com/barrett-henry.png", width: 600, height: 600, alt: "Barrett Henry, REALTOR - Valrico FL" }],
+  },
+  twitter: {
+    card: "summary",
+    images: ["https://valricoagent.com/barrett-henry.png"],
   },
 };
 

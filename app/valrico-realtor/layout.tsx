@@ -2,16 +2,21 @@ import type { Metadata } from "next";
 
 // SEO metadata for the Valrico Realtor page
 export const metadata: Metadata = {
-  title: "Valrico Realtor | Barrett Henry | REALTOR® & Broker Associate",
+  title: "Valrico Realtor — Broker Associate",
   description:
-    "Barrett Henry is a trusted Valrico REALTOR® and Broker Associate with RE/MAX Collective. 23+ years of real estate experience serving 33594 and 33596. Straight talk, smart strategy, real results.",
+    "Barrett Henry — trusted Valrico REALTOR® and Broker Associate with REMAX Collective. 23+ years experience serving 33594 and 33596. Straight talk, smart strategy.",
   openGraph: {
-    title: "Valrico Realtor | Barrett Henry | REALTOR® & Broker Associate",
+    title: "Valrico Realtor — Broker Associate",
     description:
-      "Barrett Henry is a trusted Valrico REALTOR® and Broker Associate with RE/MAX Collective. 23+ years of real estate experience serving 33594 and 33596. Straight talk, smart strategy, real results.",
+      "Barrett Henry — trusted Valrico REALTOR® and Broker Associate with REMAX Collective. 23+ years experience serving 33594 and 33596. Straight talk, smart strategy.",
     url: "https://valricoagent.com/valrico-realtor/",
     siteName: "ValricoAgent.com",
     type: "website",
+    images: [{ url: "https://valricoagent.com/barrett-henry.png", width: 600, height: 600, alt: "Barrett Henry, REALTOR - Valrico FL" }],
+  },
+  twitter: {
+    card: "summary",
+    images: ["https://valricoagent.com/barrett-henry.png"],
   },
   alternates: {
     canonical: "/valrico-realtor/",

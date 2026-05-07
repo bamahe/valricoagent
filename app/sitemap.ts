@@ -46,6 +46,15 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${baseUrl}/valrico-down-payment-assistance/`, changeFrequency: 'monthly' as const, priority: 0.6 },
     { url: `${baseUrl}/valrico-relocation-guide/`, changeFrequency: 'monthly' as const, priority: 0.6 },
     { url: `${baseUrl}/blog/`, changeFrequency: 'daily' as const, priority: 0.8 },
+    { url: `${baseUrl}/about/`, changeFrequency: 'monthly' as const, priority: 0.6 },
+    { url: `${baseUrl}/best-realtor-in-valrico/`, changeFrequency: 'monthly' as const, priority: 0.8 },
+    { url: `${baseUrl}/valrico-real-estate/`, changeFrequency: 'monthly' as const, priority: 0.7 },
+    // Comparison and informational pages
+    { url: `${baseUrl}/valrico-vs-brandon/`, changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/valrico-vs-riverview/`, changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/valrico-cost-of-living/`, changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/is-valrico-safe/`, changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/valrico-open-houses/`, changeFrequency: 'daily' as const, priority: 0.7 },
   ]
 
   // Neighborhood pages

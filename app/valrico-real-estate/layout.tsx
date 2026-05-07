@@ -2,16 +2,21 @@ import type { Metadata } from "next";
 
 // SEO metadata for the Valrico Real Estate hub page
 export const metadata: Metadata = {
-  title: "Valrico Real Estate | Homes, Market Data & Expert Guidance",
+  title: "Valrico Real Estate — Homes & Market Data",
   description:
     "Everything you need to know about Valrico FL real estate: homes for sale, market reports, neighborhood guides, home values, and expert guidance from Barrett Henry.",
   openGraph: {
-    title: "Valrico Real Estate | Homes, Market Data & Expert Guidance",
+    title: "Valrico Real Estate — Homes & Market Data",
     description:
       "Everything you need to know about Valrico FL real estate: homes for sale, market reports, neighborhood guides, home values, and expert guidance from Barrett Henry.",
     url: "https://valricoagent.com/valrico-real-estate/",
     siteName: "ValricoAgent.com",
     type: "website",
+    images: [{ url: "https://valricoagent.com/barrett-henry.png", width: 600, height: 600, alt: "Barrett Henry, REALTOR - Valrico FL" }],
+  },
+  twitter: {
+    card: "summary",
+    images: ["https://valricoagent.com/barrett-henry.png"],
   },
   alternates: {
     canonical: "/valrico-real-estate/",

@@ -1,15 +1,20 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: 'Down Payment Assistance Programs for Valrico, FL Home Buyers | Barrett Henry, REALTOR®',
+  title: 'Down Payment Assistance — Valrico FL',
   description: 'Florida down payment assistance programs available to Valrico buyers. Hometown Heroes, SHIP, FHA, VA, and more. Barrett Henry, REMAX Collective.',
   alternates: { canonical: "/valrico-down-payment-assistance/" },
   openGraph: {
-    title: "Down Payment Assistance Programs for Valrico, FL Home Buyers | Barrett Henry, REALTOR®",
+    title: "Down Payment Assistance — Valrico FL",
     description: "Florida down payment assistance programs available to Valrico buyers. Hometown Heroes, SHIP, FHA, VA, and more. Barrett Henry, REMAX Collective.",
     url: "https://valricoagent.com/valrico-down-payment-assistance/",
     siteName: "ValricoAgent.com",
     type: "website",
+    images: [{ url: "https://valricoagent.com/barrett-henry.png", width: 600, height: 600, alt: "Barrett Henry, REALTOR - Valrico FL" }],
+  },
+  twitter: {
+    card: "summary",
+    images: ["https://valricoagent.com/barrett-henry.png"],
   },
 };
 

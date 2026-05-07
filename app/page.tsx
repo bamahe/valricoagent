@@ -326,7 +326,69 @@ export default function Home() {
       </section>
 
       {/* SCHEMA */}
-      <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify({"@context":"https://schema.org","@graph":[{"@type":"RealEstateAgent","name":"Barrett Henry","description":"Valrico FL REALTOR® and Broker Associate with RE/MAX Collective. 23+ years experience serving 33594 and 33596.","url":"https://valricoagent.com","telephone":"(813) 733-7907","email":"barrett@nowtb.com","address":{"@type":"PostalAddress","streetAddress":"417 Lithia Pinecrest Rd","addressLocality":"Brandon","addressRegion":"FL","postalCode":"33511","addressCountry":"US"},"geo":{"@type":"GeoCoordinates","latitude":27.9378,"longitude":-82.2365},"areaServed":{"@type":"City","name":"Valrico, FL"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"5.0","reviewCount":"50"}},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Who is the best Valrico REALTOR?","acceptedAnswer":{"@type":"Answer","text":"Barrett Henry is a Broker Associate with RE/MAX Collective serving Valrico FL (33594 and 33596) with 23+ years of real estate experience."}},{"@type":"Question","name":"What are Valrico home prices in 2026?","acceptedAnswer":{"@type":"Answer","text":"Valrico median home prices are approximately $415K as of Q1 2026, with prices ranging from $275K in entry-level neighborhoods to over $1M in River Hills and Crestwood Estates."}}]}]})}} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify({
+        "@context":"https://schema.org",
+        "@graph":[
+          {
+            "@type":["RealEstateAgent","LocalBusiness"],
+            "@id":"https://valricoagent.com/#agent",
+            "name":"Barrett Henry, REALTOR®",
+            "givenName":"Barrett",
+            "familyName":"Henry",
+            "jobTitle":"Broker Associate",
+            "description":"Barrett Henry is a licensed Broker Associate with RE/MAX Collective specializing in Valrico FL real estate. 23+ years of experience serving ZIP codes 33594 and 33596 across 32 neighborhoods.",
+            "url":"https://valricoagent.com",
+            "telephone":"(813) 733-7907",
+            "email":"barrett@nowtb.com",
+            "image":"https://valricoagent.com/barrett-henry.png",
+            "address":{"@type":"PostalAddress","streetAddress":"417 Lithia Pinecrest Rd","addressLocality":"Brandon","addressRegion":"FL","postalCode":"33511","addressCountry":"US"},
+            "geo":{"@type":"GeoCoordinates","latitude":27.9378,"longitude":-82.2365},
+            "areaServed":[
+              {"@type":"City","name":"Valrico","containedInPlace":{"@type":"State","name":"Florida"}},
+              {"@type":"City","name":"Brandon","containedInPlace":{"@type":"State","name":"Florida"}},
+              {"@type":"City","name":"Riverview","containedInPlace":{"@type":"State","name":"Florida"}},
+              {"@type":"City","name":"Lithia","containedInPlace":{"@type":"State","name":"Florida"}},
+              {"@type":"City","name":"Seffner","containedInPlace":{"@type":"State","name":"Florida"}}
+            ],
+            "hasCredential":[
+              {"@type":"EducationalOccupationalCredential","credentialCategory":"license","name":"Florida Real Estate Broker License","identifier":{"@type":"PropertyValue","propertyID":"DBPR License Number","value":"3313308"}},
+              {"@type":"EducationalOccupationalCredential","credentialCategory":"Professional Designation","name":"e-PRO"},
+              {"@type":"EducationalOccupationalCredential","credentialCategory":"Professional Designation","name":"MRP","description":"Military Relocation Professional"},
+              {"@type":"EducationalOccupationalCredential","credentialCategory":"Professional Designation","name":"SRS","description":"Seller Representative Specialist"}
+            ],
+            "worksFor":{"@type":"Organization","name":"RE/MAX Collective","url":"https://nowtb.com"},
+            "memberOf":{"@type":"Organization","name":"Suncoast Tampa Association of REALTORS"},
+            "knowsAbout":["Valrico Real Estate","Bloomingdale Homes","FishHawk Ranch","Buckhorn Preserve","River Hills","New Construction","Investment Properties","VA Loans","First-Time Buyers","School Zones"],
+            "slogan":"MOVE WITH CONFIDENCE. Straight Talk. Smart Strategy.",
+            "priceRange":"$",
+            "aggregateRating":{"@type":"AggregateRating","ratingValue":"5.0","bestRating":"5","worstRating":"1","reviewCount":"85","ratingCount":"85"},
+            "sameAs":[
+              "https://nowtb.com",
+              "https://valrico.blog",
+              "https://www.facebook.com/BarrettHenryREALTOR/",
+              "https://www.instagram.com/thenowteam",
+              "https://www.linkedin.com/in/barretthenry/",
+              "https://www.youtube.com/@nowtampa",
+              "https://www.zillow.com/profile/barretthenry",
+              "https://www.realtor.com/realestateagents/56d5364fde071e01006256cd",
+              "https://www.remax.com/real-estate-agents/barrett-henry-city-state/100112059"
+            ]
+          },
+          {
+            "@type":"FAQPage",
+            "mainEntity":[
+              {"@type":"Question","name":"Who is the best Valrico REALTOR?","acceptedAnswer":{"@type":"Answer","text":"Barrett Henry is a Broker Associate with RE/MAX Collective serving Valrico FL (33594 and 33596) with 23+ years of real estate experience, a 5.0-star Google rating, and professional designations including e-PRO, MRP, and SRS. Barrett specializes in 32 Valrico neighborhoods and provides data-driven, no-pressure guidance for buyers, sellers, and investors. Call (813) 733-7907."}},
+              {"@type":"Question","name":"What are Valrico home prices in 2026?","acceptedAnswer":{"@type":"Answer","text":"The median home price in Valrico is approximately $415K as of Q1 2026, with prices ranging from $275K in entry-level neighborhoods to over $1M in River Hills and Crestwood Estates. Prices vary significantly by neighborhood, school zone, and home condition. Barrett Henry provides free comparative market analyses based on actual closed sales in your specific Valrico sub-neighborhood."}},
+              {"@type":"Question","name":"What are the best neighborhoods in Valrico FL?","acceptedAnswer":{"@type":"Answer","text":"The best Valrico neighborhoods depend on your priorities. Bloomingdale offers the largest community with 5,200+ homes from $300K-$500K. River Hills and Crestwood Estates are the luxury options at $600K-$1M+. Buckhorn Preserve and Brentwood Hills offer newer construction from $350K-$500K. Diamond Hill provides larger lots with no HOA. Barrett Henry covers all 32 Valrico neighborhoods and can match you to the right one. Call (813) 733-7907."}},
+              {"@type":"Question","name":"Is now a good time to buy a home in Valrico?","acceptedAnswer":{"@type":"Answer","text":"The Valrico market in 2026 is balanced, with more inventory than 2021-2022 but stable pricing. Mortgage rates have come down from their 2023 peaks. Buyers have more negotiating leverage than they have had in years, and sellers are more willing to offer concessions like closing cost credits. Whether it is a good time depends on your specific situation — Barrett Henry provides honest, data-driven guidance. Call (813) 733-7907."}},
+              {"@type":"Question","name":"How much does it cost to sell a home in Valrico?","acceptedAnswer":{"@type":"Answer","text":"Typical seller closing costs in Valrico run 7-9% of the sale price. This includes real estate commission (negotiable), title insurance, documentary stamps on the deed (0.7% in Florida), prorated property taxes, and any negotiated buyer credits or repairs. On a $400,000 home, expect approximately $28,000-$36,000 in total costs. Barrett Henry provides a detailed net sheet before listing so sellers know exactly what they will walk away with."}},
+              {"@type":"Question","name":"What school zones are in Valrico FL?","acceptedAnswer":{"@type":"Answer","text":"Valrico is served primarily by two high school zones: Bloomingdale High School in the western portion and Newsome High School in the eastern and southern portions (including FishHawk Ranch and Buckhorn). School zoning is the single biggest driver of home prices in Valrico — homes in top school zones consistently sell faster and for more money. Barrett Henry can show you exactly which neighborhoods are zoned for which schools."}},
+              {"@type":"Question","name":"Does Valrico have new construction homes?","acceptedAnswer":{"@type":"Answer","text":"Yes. New construction in Valrico includes communities like Arista, Heritage Crest, and Valrico Forest, with prices typically ranging from $380K-$550K. Barrett Henry helps buyers navigate builder contracts, negotiate upgrades, and understand the difference between base price and actual build cost. Having your own agent when buying new construction costs you nothing and protects your interests."}},
+              {"@type":"Question","name":"How long does it take to sell a house in Valrico?","acceptedAnswer":{"@type":"Answer","text":"A correctly priced home in Valrico typically goes under contract within 15-30 days and closes 30-45 days after that — roughly 45-75 days total from listing to closing. Overpriced homes can sit for months. Cash sales can close in 7-14 days. The biggest factor is pricing accuracy from day one. Barrett Henry provides strategic pricing based on actual closed comps in your specific sub-neighborhood."}}
+            ]
+          }
+        ]
+      })}} />
     </>
   );
 }
