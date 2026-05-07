@@ -126,9 +126,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             })
           }}
         />
-        <Nav />
-        <main>{children}</main>
-        <Footer />
+        <div className="mx-auto max-w-[1440px] shadow-sm">
+          <Nav />
+          <main>{children}</main>
+          <Footer />
+        </div>
       </body>
     </html>
   );
