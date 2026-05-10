@@ -1,51 +1,97 @@
 'use client';
 import Link from 'next/link';
+import QuickAnswer from '../components/QuickAnswer';
 
 export default function AboutBarrettHenry() {
-  /* JSON-LD structured data: Person schema for E-E-A-T */
-  const personSchema = {
+  /**
+   * Full @graph JSON-LD: Organization + Person + AboutPage
+   * This is the entity schema for AEO — tells AI engines exactly who Barrett is.
+   */
+  const aboutSchema = {
     "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Barrett Henry",
-    "jobTitle": "REALTOR® & Broker Associate",
-    "url": "https://valricoagent.com/about/",
-    "image": "https://nowtb.com/wp-content/uploads/2026/02/barrett-henry-realtor.jpg",
-    "telephone": "+1-813-733-7907",
-    "email": "barrett@nowtb.com",
-    "worksFor": {
-      "@type": "RealEstateAgent",
-      "name": "REMAX Collective",
-      "url": "https://nowtb.com",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "417 Lithia Pinecrest Rd",
-        "addressLocality": "Brandon",
-        "addressRegion": "FL",
-        "postalCode": "33511",
-        "addressCountry": "US"
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://valricoagent.com/#organization",
+        "name": "The NOW Team at REMAX Collective",
+        "url": "https://nowtb.com",
+        "logo": "https://valricoagent.com/barrett-henry.png",
+        "telephone": "(813) 260-4663",
+        "email": "barrett@nowtb.com",
+        "foundingDate": "2015",
+        "founder": { "@id": "https://valricoagent.com/#person" },
+        "parentOrganization": {
+          "@type": "Organization",
+          "name": "REMAX Collective",
+          "url": "https://www.remax.com"
+        },
+        "location": [
+          {
+            "@type": "Place",
+            "name": "REMAX Collective — Tampa Office",
+            "address": { "@type": "PostalAddress", "streetAddress": "14310 N Dale Mabry Hwy Ste 100", "addressLocality": "Tampa", "addressRegion": "FL", "postalCode": "33618", "addressCountry": "US" }
+          },
+          {
+            "@type": "Place",
+            "name": "REMAX Collective — Largo Office",
+            "address": { "@type": "PostalAddress", "streetAddress": "11200 Seminole Blvd Ste 202", "addressLocality": "Largo", "addressRegion": "FL", "postalCode": "33778", "addressCountry": "US" }
+          },
+          {
+            "@type": "Place",
+            "name": "REMAX Collective — Brandon Office",
+            "address": { "@type": "PostalAddress", "streetAddress": "417 Lithia Pinecrest Rd", "addressLocality": "Brandon", "addressRegion": "FL", "postalCode": "33511", "addressCountry": "US" }
+          }
+        ]
+      },
+      {
+        "@type": "Person",
+        "@id": "https://valricoagent.com/#person",
+        "name": "Barrett Henry",
+        "jobTitle": "Broker Associate",
+        "url": "https://valricoagent.com/about",
+        "image": "https://valricoagent.com/barrett-henry.png",
+        "telephone": "+1-813-733-7907",
+        "email": "barrett@nowtb.com",
+        "worksFor": { "@id": "https://valricoagent.com/#organization" },
+        "hasCredential": [
+          { "@type": "EducationalOccupationalCredential", "credentialCategory": "license", "name": "Florida Real Estate Broker License", "identifier": { "@type": "PropertyValue", "propertyID": "DBPR License Number", "value": "3313308" } },
+          { "@type": "EducationalOccupationalCredential", "name": "e-PRO", "description": "Digital Marketing Certification" },
+          { "@type": "EducationalOccupationalCredential", "name": "MRP", "description": "Military Relocation Professional" },
+          { "@type": "EducationalOccupationalCredential", "name": "SRS", "description": "Seller Representative Specialist" }
+        ],
+        "knowsAbout": ["Valrico FL real estate", "Residential real estate", "Home buying", "Home selling", "Property management", "Military relocation", "Investment properties"],
+        "areaServed": ["Valrico", "Brandon", "Riverview", "Lithia"],
+        "sameAs": [
+          "https://www.facebook.com/BarrettHenryREALTOR",
+          "https://www.instagram.com/thenowteam",
+          "https://www.linkedin.com/in/barretthenry",
+          "https://x.com/BHrealestatetb",
+          "https://www.youtube.com/@nowtampa",
+          "https://www.zillow.com/profile/barretthenry",
+          "https://www.realtor.com/realestateagents/56d5364fde071e01006256cd"
+        ]
+      },
+      {
+        "@type": "AboutPage",
+        "@id": "https://valricoagent.com/about",
+        "name": "About Barrett Henry — Valrico REALTOR",
+        "url": "https://valricoagent.com/about",
+        "mainEntity": { "@id": "https://valricoagent.com/#person" },
+        "isPartOf": { "@type": "WebSite", "url": "https://valricoagent.com" }
       }
-    },
-    "knowsAbout": [
-      "Valrico FL real estate",
-      "Residential real estate",
-      "Home buying",
-      "Home selling",
-      "Property management",
-      "Military relocation",
-      "Investment properties",
-      "Commercial real estate"
-    ],
-    "hasCredential": [
-      { "@type": "EducationalOccupationalCredential", "credentialCategory": "Broker Associate" },
-      { "@type": "EducationalOccupationalCredential", "credentialCategory": "e-PRO" },
-      { "@type": "EducationalOccupationalCredential", "credentialCategory": "MRP" },
-      { "@type": "EducationalOccupationalCredential", "credentialCategory": "SRS" }
-    ],
-    "areaServed": ["Valrico", "Brandon", "Riverview", "Lithia"]
+    ]
   };
 
   return (
     <>
+      {/* QuickAnswer — AEO: direct answer for "Who is Barrett Henry?" */}
+      <div className="max-w-[1140px] mx-auto px-6 pt-8">
+        <QuickAnswer
+          question="Who is Barrett Henry?"
+          answer="Barrett Henry is a licensed Florida Broker Associate with REMAX Collective, specializing in Valrico real estate. With 23+ years of real estate experience and deep knowledge of Valrico's neighborhoods, schools, and market trends, Barrett helps buyers find the right home and sellers get top dollar. He leads The NOW Team and is based in the Brandon office."
+        />
+      </div>
+
       {/* Hero section */}
       <div style={{ background: 'var(--blue-deep)' }} className="text-white py-16 px-7">
         <div className="max-w-[1140px] mx-auto">
@@ -61,7 +107,7 @@ export default function AboutBarrettHenry() {
       <div className="max-w-[780px] mx-auto px-7 py-16 space-y-6" style={{ color: 'var(--ink-soft)' }}>
 
         {/* Professional bio */}
-        <h2 className="font-serif text-2xl" style={{ color: 'var(--ink)' }}>Professional background</h2>
+        <h2 className="font-serif text-2xl" style={{ color: 'var(--ink)' }}>What Is Barrett Henry&apos;s Professional Background?</h2>
         <p className="text-[15px] leading-[1.8]">
           Barrett Henry has been a licensed REALTOR® since 2003, bringing 23+ years of real estate experience to every transaction. He earned his Florida Broker Associate license in 2017, which represents a higher level of education, experience, and licensing than a standard sales associate. Barrett operates under REMAX Collective, one of the most recognized real estate brands in the world, giving his clients the combination of deep local expertise and global reach.
         </p>
@@ -70,7 +116,7 @@ export default function AboutBarrettHenry() {
         </p>
 
         {/* Designations */}
-        <h2 className="font-serif text-2xl mt-10" style={{ color: 'var(--ink)' }}>Designations and credentials</h2>
+        <h2 className="font-serif text-2xl mt-10" style={{ color: 'var(--ink)' }}>What Designations Does Barrett Henry Hold?</h2>
         <p className="text-[15px] leading-[1.8]">Each designation represents specialized training that directly benefits clients:</p>
         <div className="space-y-4 mt-4">
           {[
@@ -92,13 +138,13 @@ export default function AboutBarrettHenry() {
         </div>
 
         {/* REMAX Collective */}
-        <h2 className="font-serif text-2xl mt-10" style={{ color: 'var(--ink)' }}>REMAX Collective</h2>
+        <h2 className="font-serif text-2xl mt-10" style={{ color: 'var(--ink)' }}>What Is REMAX Collective?</h2>
         <p className="text-[15px] leading-[1.8]">
           Barrett is affiliated with REMAX Collective, a brokerage with offices across the Tampa Bay area. The REMAX brand provides a global referral network, brand recognition, and marketing tools that independent brokerages cannot match — combined with Barrett&apos;s neighborhood-level expertise in Valrico and eastern Hillsborough County.
         </p>
 
         {/* Office locations */}
-        <h2 className="font-serif text-2xl mt-10" style={{ color: 'var(--ink)' }}>Office locations</h2>
+        <h2 className="font-serif text-2xl mt-10" style={{ color: 'var(--ink)' }}>Where Are Barrett Henry&apos;s Office Locations?</h2>
         <div className="space-y-3 mt-4">
           <div className="border rounded-md p-5" style={{ borderColor: 'var(--border)' }}>
             <p className="font-semibold text-base mb-1" style={{ color: 'var(--ink)' }}>Brandon Office (Primary)</p>
@@ -118,7 +164,7 @@ export default function AboutBarrettHenry() {
         </div>
 
         {/* Service area */}
-        <h2 className="font-serif text-2xl mt-10" style={{ color: 'var(--ink)' }}>Service area</h2>
+        <h2 className="font-serif text-2xl mt-10" style={{ color: 'var(--ink)' }}>What Areas Does Barrett Henry Serve?</h2>
         <p className="text-[15px] leading-[1.8]">
           Barrett&apos;s primary focus is Valrico and the surrounding communities of eastern Hillsborough County:
         </p>
@@ -133,7 +179,7 @@ export default function AboutBarrettHenry() {
         </p>
 
         {/* Philosophy */}
-        <h2 className="font-serif text-2xl mt-10" style={{ color: 'var(--ink)' }}>How Barrett works</h2>
+        <h2 className="font-serif text-2xl mt-10" style={{ color: 'var(--ink)' }}>How Does Barrett Henry Work With Clients?</h2>
         <p className="text-[15px] leading-[1.8]">
           Barrett&apos;s approach is simple: straight talk, data-driven pricing, and no pressure. He gives you the numbers, explains your options, and lets you make the decision. No pushy sales tactics. No artificial urgency. Just honest guidance from someone who has been doing this for over two decades.
         </p>
@@ -142,7 +188,7 @@ export default function AboutBarrettHenry() {
         </p>
 
         {/* Contact info */}
-        <h2 className="font-serif text-2xl mt-10" style={{ color: 'var(--ink)' }}>Contact Barrett</h2>
+        <h2 className="font-serif text-2xl mt-10" style={{ color: 'var(--ink)' }}>How Do I Contact Barrett Henry?</h2>
         <div className="border rounded-md p-5" style={{ borderColor: 'var(--border)' }}>
           <p className="font-semibold text-base mb-1" style={{ color: 'var(--ink)' }}>Barrett Henry, REALTOR® &middot; Broker Associate</p>
           <p className="text-sm leading-relaxed" style={{ color: 'var(--ink-soft)' }}>REMAX Collective — Brandon Office</p>
@@ -176,8 +222,8 @@ export default function AboutBarrettHenry() {
         </div>
       </div>
 
-      {/* JSON-LD structured data */}
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }} />
+      {/* JSON-LD structured data — full @graph: Organization + Person + AboutPage */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutSchema) }} />
       {/* FAQPage schema for AEO */}
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify({
         "@context":"https://schema.org","@type":"FAQPage","mainEntity":[

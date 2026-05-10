@@ -71,7 +71,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               "givenName": "Barrett",
               "familyName": "Henry",
               "jobTitle": "Broker Associate",
-              "description": "Barrett Henry is a licensed Broker Associate with RE/MAX Collective specializing in Valrico FL real estate. 23+ years of experience serving ZIP codes 33594 and 33596 across 32 neighborhoods.",
+              "description": "Barrett Henry is a licensed Broker Associate with REMAX Collective specializing in Valrico FL real estate. 23+ years of experience serving ZIP codes 33594 and 33596 across 32 neighborhoods.",
               "url": "https://valricoagent.com",
               "telephone": "(813) 733-7907",
               "email": "barrett@nowtb.com",
@@ -103,7 +103,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 { "@type": "EducationalOccupationalCredential", "name": "MRP", "description": "Military Relocation Professional" },
                 { "@type": "EducationalOccupationalCredential", "name": "SRS", "description": "Seller Representative Specialist" }
               ],
-              "worksFor": { "@type": "Organization", "name": "RE/MAX Collective" },
+              "worksFor": { "@type": "Organization", "name": "REMAX Collective" },
               "memberOf": { "@type": "Organization", "name": "Suncoast Tampa Association of REALTORS" },
               "slogan": "MOVE WITH CONFIDENCE. Straight Talk. Smart Strategy.",
               "aggregateRating": {
