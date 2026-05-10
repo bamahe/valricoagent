@@ -2,6 +2,7 @@
 import Link from 'next/link';
 import QuickAnswer from './components/QuickAnswer';
 import FAQSchema from './components/FAQSchema';
+import { ContactForm } from './components/ContactForm';
 
 export default function Home() {
   return (
@@ -336,39 +337,7 @@ export default function Home() {
               </div>
             </div>
             <div>
-              <div style={{display:'flex',flexDirection:'column',gap:12}}>
-                <div style={{display:'grid',gridTemplateColumns:'1fr 1fr',gap:12}}>
-                  <div>
-                    <label style={{display:'block',fontSize:13,fontWeight:500,marginBottom:4,color:'#222'}}>First Name</label>
-                    <input type="text" placeholder="First name" style={{width:'100%',padding:'12px 14px',border:'1px solid #e5e5e5',borderRadius:6,fontSize:14}} />
-                  </div>
-                  <div>
-                    <label style={{display:'block',fontSize:13,fontWeight:500,marginBottom:4,color:'#222'}}>Last Name</label>
-                    <input type="text" placeholder="Last name" style={{width:'100%',padding:'12px 14px',border:'1px solid #e5e5e5',borderRadius:6,fontSize:14}} />
-                  </div>
-                </div>
-                <div>
-                  <label style={{display:'block',fontSize:13,fontWeight:500,marginBottom:4,color:'#222'}}>Phone</label>
-                  <input type="tel" placeholder="(555) 555-5555" style={{width:'100%',padding:'12px 14px',border:'1px solid #e5e5e5',borderRadius:6,fontSize:14}} />
-                </div>
-                <div>
-                  <label style={{display:'block',fontSize:13,fontWeight:500,marginBottom:4,color:'#222'}}>Email</label>
-                  <input type="email" placeholder="you@email.com" style={{width:'100%',padding:'12px 14px',border:'1px solid #e5e5e5',borderRadius:6,fontSize:14}} />
-                </div>
-                <div>
-                  <label style={{display:'block',fontSize:13,fontWeight:500,marginBottom:4,color:'#222'}}>Message</label>
-                  <textarea placeholder="How can Barrett help you?" style={{width:'100%',padding:'12px 14px',border:'1px solid #e5e5e5',borderRadius:6,fontSize:14,height:100,resize:'vertical'}} />
-                </div>
-                <div>
-                  <label style={{display:'block',fontSize:13,fontWeight:500,marginBottom:4,color:'#222'}}>Best time to call</label>
-                  <select style={{width:'100%',padding:'12px 14px',border:'1px solid #e5e5e5',borderRadius:6,fontSize:14}}>
-                    <option>ASAP</option><option>Morning</option><option>Afternoon</option><option>Evening</option>
-                  </select>
-                </div>
-                <button type="button" style={{padding:'14px 32px',background:'#003da5',color:'#fff',fontSize:14,fontWeight:600,border:'none',borderRadius:6,cursor:'pointer'}}>
-                  <span className="material-icons" style={{fontSize:18,verticalAlign:'middle',marginRight:6}}>send</span> Send Message
-                </button>
-              </div>
+              <ContactForm />
             </div>
           </div>
         </div>
