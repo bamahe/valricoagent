@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Shetland Ridge Homes for Sale — Valrico FL 33596",
+  title: "Shetland Ridge Homes for Sale — Valrico FL 33596 | Barrett Henry, REALTOR®",
   description:
-    "Shetland Ridge homes for sale in Valrico FL 33596. Bloomingdale HS zone, $350K-$475K. Pricing, schools, and HOA details. Barrett Henry, REMAX Collective.",
+    "Shetland Ridge homes for sale in Valrico FL 33596. Established neighborhood, $400K-$550K, Bloomingdale HS zone. Neighborhood guide with pricing, schools, HOA, commute times, and comparisons. Barrett Henry, REMAX Collective. (813) 733-7907.",
   alternates: { canonical: "/neighborhoods/shetland-ridge/" },
   openGraph: {
-    title: "Shetland Ridge Homes for Sale — Valrico FL 33596",
+    title: "Shetland Ridge Homes for Sale — Valrico FL 33596 | Barrett Henry",
     description:
-      "Shetland Ridge homes for sale in Valrico FL 33596. Bloomingdale HS zone, $350K-$475K. Pricing, schools, and HOA details. Barrett Henry, REMAX Collective.",
+      "Established neighborhood in south Valrico. $400K-$550K. Bloomingdale HS zone. Spacious lots with mature trees along the Bloomingdale Avenue corridor. Barrett Henry, REALTOR® at REMAX Collective.",
     url: "https://valricoagent.com/neighborhoods/shetland-ridge/",
     siteName: "ValricoAgent.com",
     type: "website",

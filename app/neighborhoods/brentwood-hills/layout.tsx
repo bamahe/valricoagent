@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Brentwood Hills Homes for Sale — Valrico FL 33596",
+  title: "Brentwood Hills Homes for Sale — Valrico FL 33594/33596 | Barrett Henry, REALTOR®",
   description:
-    "Brentwood Hills homes for sale in Valrico FL 33596. Bloomingdale HS zone, $350K-$450K. Pricing, schools, and HOA details. Barrett Henry, REMAX Collective.",
+    "Brentwood Hills homes for sale in Valrico FL (33594/33596). Community pool, sidewalks, $340K-$475K, Bloomingdale HS zone. Family neighborhood with walkable shopping. Barrett Henry, REMAX Collective. (813) 733-7907.",
   alternates: { canonical: "/neighborhoods/brentwood-hills/" },
   openGraph: {
-    title: "Brentwood Hills Homes for Sale — Valrico FL 33596",
+    title: "Brentwood Hills Homes for Sale — Valrico FL | Barrett Henry",
     description:
-      "Brentwood Hills homes for sale in Valrico FL 33596. Bloomingdale HS zone, $350K-$450K. Pricing, schools, and HOA details. Barrett Henry, REMAX Collective.",
+      "Family community straddling 33594/33596 in Valrico. $340K-$475K. Bloomingdale HS zone. Community pool, sidewalks, walkable to Bloomingdale Ave shopping. Barrett Henry, REALTOR® at REMAX Collective.",
     url: "https://valricoagent.com/neighborhoods/brentwood-hills/",
     siteName: "ValricoAgent.com",
     type: "website",

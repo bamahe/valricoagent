@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Buckhorn Preserve Homes for Sale — Valrico FL 33594",
+  title: "Buckhorn Preserve Homes for Sale — Valrico FL 33596 | Barrett Henry, REALTOR®",
   description:
-    "Buckhorn Preserve homes for sale in Valrico FL 33594. Newsome HS zone, $375K-$525K. Pricing, schools, and HOA details. Barrett Henry, REMAX Collective.",
+    "Buckhorn Preserve homes for sale in Valrico FL 33596. Gated community, $350K-$500K, Newsome HS zone. Neighborhood guide with pricing, schools, HOA, commute times, and comparisons. Barrett Henry, REMAX Collective. (813) 733-7907.",
   alternates: { canonical: "/neighborhoods/buckhorn-preserve/" },
   openGraph: {
-    title: "Buckhorn Preserve Homes for Sale — Valrico FL 33594",
+    title: "Buckhorn Preserve Homes for Sale — Valrico FL 33596 | Barrett Henry",
     description:
-      "Buckhorn Preserve homes for sale in Valrico FL 33594. Newsome HS zone, $375K-$525K. Pricing, schools, and HOA details. Barrett Henry, REMAX Collective.",
+      "Gated community in south Valrico Buckhorn corridor. $350K-$500K. Newsome HS zone. Community park with playground, disc golf, and walking trails. Barrett Henry, REALTOR® at REMAX Collective.",
     url: "https://valricoagent.com/neighborhoods/buckhorn-preserve/",
     siteName: "ValricoAgent.com",
     type: "website",

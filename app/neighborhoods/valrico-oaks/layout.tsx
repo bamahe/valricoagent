@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Valrico Oaks Homes for Sale — Valrico FL 33594",
+  title: "Valrico Oaks Homes for Sale — Valrico FL 33594 | Barrett Henry, REALTOR®",
   description:
-    "Valrico Oaks homes for sale in Valrico FL 33594. Newsome HS zone, $350K-$475K. Pricing, schools, and HOA details. Barrett Henry, REMAX Collective.",
+    "Valrico Oaks homes for sale in Valrico FL 33594. Newsome HS zone, $350K-$500K. Neighborhood guide with pricing, schools, HOA, commute times, and comparisons. Barrett Henry, REMAX Collective. (813) 733-7907.",
   alternates: { canonical: "/neighborhoods/valrico-oaks/" },
   openGraph: {
-    title: "Valrico Oaks Homes for Sale — Valrico FL 33594",
+    title: "Valrico Oaks Homes for Sale — Valrico FL 33594 | Barrett Henry",
     description:
-      "Valrico Oaks homes for sale in Valrico FL 33594. Newsome HS zone, $350K-$475K. Pricing, schools, and HOA details. Barrett Henry, REMAX Collective.",
+      "Value entry to the Newsome HS zone in Valrico 33594. $350K-$500K. Established homes without CDD fees. Barrett Henry, REALTOR® at REMAX Collective.",
     url: "https://valricoagent.com/neighborhoods/valrico-oaks/",
     siteName: "ValricoAgent.com",
     type: "website",

@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Kings Mill Homes for Sale — Valrico FL 33596",
+  title: "Kings Mill Homes for Sale — Valrico FL 33596 | Barrett Henry, REALTOR®",
   description:
-    "Kings Mill homes for sale in Valrico FL 33596. Bloomingdale HS zone, $350K-$475K. Pricing, schools, and HOA details. Barrett Henry, REMAX Collective.",
+    "Kings Mill townhomes for sale in Valrico FL 33596. Gated community, $275K-$350K, Bloomingdale HS zone. Neighborhood guide with pricing, schools, HOA, commute times, and comparisons. Barrett Henry, REMAX Collective. (813) 733-7907.",
   alternates: { canonical: "/neighborhoods/kings-mill/" },
   openGraph: {
-    title: "Kings Mill Homes for Sale — Valrico FL 33596",
+    title: "Kings Mill Homes for Sale — Valrico FL 33596 | Barrett Henry",
     description:
-      "Kings Mill homes for sale in Valrico FL 33596. Bloomingdale HS zone, $350K-$475K. Pricing, schools, and HOA details. Barrett Henry, REMAX Collective.",
+      "Gated townhome community in south Valrico. $275K-$350K. Bloomingdale HS zone. Most affordable entry into the Valrico market. Barrett Henry, REALTOR® at REMAX Collective.",
     url: "https://valricoagent.com/neighborhoods/kings-mill/",
     siteName: "ValricoAgent.com",
     type: "website",

@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Buckhorn at Bloomingdale Homes for Sale — Valrico FL 33594",
+  title: "Buckhorn Bloomingdale Homes for Sale — Valrico FL 33596 | Barrett Henry, REALTOR®",
   description:
-    "Buckhorn at Bloomingdale homes for sale in Valrico FL 33594. Newsome HS zone, $375K-$525K. Pricing, schools, and HOA details. Barrett Henry, REMAX Collective.",
+    "Buckhorn Bloomingdale homes for sale in Valrico FL 33596. Most affordable option in Bloomingdale HS zone, $300K-$420K. Small community of ~60 homes, mature trees, quiet streets. Barrett Henry, REMAX Collective. (813) 733-7907.",
   alternates: { canonical: "/neighborhoods/buckhorn-bloomingdale/" },
   openGraph: {
-    title: "Buckhorn at Bloomingdale Homes for Sale — Valrico FL 33594",
+    title: "Buckhorn Bloomingdale Homes for Sale — Valrico FL 33596 | Barrett Henry",
     description:
-      "Buckhorn at Bloomingdale homes for sale in Valrico FL 33594. Newsome HS zone, $375K-$525K. Pricing, schools, and HOA details. Barrett Henry, REMAX Collective.",
+      "Affordable entry into Bloomingdale HS zone in south Valrico. $300K-$420K. ~60 homes, mature oaks, minimal HOA. Best value in 33596. Barrett Henry, REALTOR® at REMAX Collective.",
     url: "https://valricoagent.com/neighborhoods/buckhorn-bloomingdale/",
     siteName: "ValricoAgent.com",
     type: "website",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   },
 };
 
-export default function BuckhornAtBloomingdaleLayout({
+export default function BuckhornBloomingdaleLayout({
   children,
 }: {
   children: React.ReactNode;

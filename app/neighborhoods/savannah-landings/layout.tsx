@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Savannah Landings Homes for Sale — Valrico FL 33594",
+  title: "Savannah Landings Homes for Sale — Valrico FL 33596 | Barrett Henry, REALTOR®",
   description:
-    "Savannah Landings homes for sale in Valrico FL 33594. Newsome HS zone, $375K-$500K. Pricing, schools, and HOA details. Barrett Henry, REMAX Collective.",
+    "Savannah Landings townhomes for sale in Valrico FL 33596. Affordable community, $300K-$375K, Bloomingdale HS zone. Neighborhood guide with pricing, schools, HOA, commute times, and comparisons. Barrett Henry, REMAX Collective. (813) 733-7907.",
   alternates: { canonical: "/neighborhoods/savannah-landings/" },
   openGraph: {
-    title: "Savannah Landings Homes for Sale — Valrico FL 33594",
+    title: "Savannah Landings Homes for Sale — Valrico FL 33596 | Barrett Henry",
     description:
-      "Savannah Landings homes for sale in Valrico FL 33594. Newsome HS zone, $375K-$500K. Pricing, schools, and HOA details. Barrett Henry, REMAX Collective.",
+      "Affordable townhome community in south Valrico. $300K-$375K. Bloomingdale HS zone. HOA-maintained exteriors, community amenities. Barrett Henry, REALTOR® at REMAX Collective.",
     url: "https://valricoagent.com/neighborhoods/savannah-landings/",
     siteName: "ValricoAgent.com",
     type: "website",

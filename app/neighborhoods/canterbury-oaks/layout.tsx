@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Canterbury Oaks Homes for Sale — Valrico FL 33596",
+  title: "Canterbury Oaks Homes for Sale — Valrico FL 33596 | Barrett Henry, REALTOR®",
   description:
-    "Canterbury Oaks homes for sale in Valrico FL 33596. Bloomingdale HS zone, $350K-$425K. Pricing, schools, and HOA details. Barrett Henry, REMAX Collective.",
+    "Canterbury Oaks homes for sale in Valrico FL 33596. Established community with pool & tennis, $350K-$475K, Bloomingdale HS zone. Neighborhood guide with pricing, schools, HOA, commute times, and comparisons. Barrett Henry, REMAX Collective. (813) 733-7907.",
   alternates: { canonical: "/neighborhoods/canterbury-oaks/" },
   openGraph: {
-    title: "Canterbury Oaks Homes for Sale — Valrico FL 33596",
+    title: "Canterbury Oaks Homes for Sale — Valrico FL 33596 | Barrett Henry",
     description:
-      "Canterbury Oaks homes for sale in Valrico FL 33596. Bloomingdale HS zone, $350K-$425K. Pricing, schools, and HOA details. Barrett Henry, REMAX Collective.",
+      "Established community with pool and tennis in south Valrico. $350K-$475K. Bloomingdale HS zone. Mid-1990s to 2000s construction with HOA-maintained amenities. Barrett Henry, REALTOR® at REMAX Collective.",
     url: "https://valricoagent.com/neighborhoods/canterbury-oaks/",
     siteName: "ValricoAgent.com",
     type: "website",

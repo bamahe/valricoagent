@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Lake Valrico Homes for Sale — Valrico FL 33596",
+  title: "Lake Valrico Area Homes for Sale — Valrico FL 33594 | Barrett Henry, REALTOR®",
   description:
-    "Lake Valrico homes for sale in Valrico FL 33596. Bloomingdale HS zone, $375K-$525K. Pricing, schools, and HOA details. Barrett Henry, REMAX Collective.",
+    "Lake Valrico area homes for sale in Valrico FL 33594. Waterfront and lakefront properties, $350K-$500K, large lots, no HOA. Neighborhood guide with pricing, schools, commute times, and comparisons. Barrett Henry, REMAX Collective. (813) 733-7907.",
   alternates: { canonical: "/neighborhoods/lake-valrico/" },
   openGraph: {
-    title: "Lake Valrico Homes for Sale — Valrico FL 33596",
+    title: "Lake Valrico Area Homes for Sale — Valrico FL 33594 | Barrett Henry",
     description:
-      "Lake Valrico homes for sale in Valrico FL 33596. Bloomingdale HS zone, $375K-$525K. Pricing, schools, and HOA details. Barrett Henry, REMAX Collective.",
+      "Waterfront and lakefront properties in north Valrico. $350K-$500K. Large lots, no HOA restrictions. Fishing, kayaking, and privacy. Barrett Henry, REALTOR® at REMAX Collective.",
     url: "https://valricoagent.com/neighborhoods/lake-valrico/",
     siteName: "ValricoAgent.com",
     type: "website",

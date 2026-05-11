@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Duncan Groves Homes for Sale — Valrico FL 33594",
+  title: "Duncan Groves Homes for Sale — Valrico FL 33596 | Barrett Henry, REALTOR®",
   description:
-    "Duncan Groves homes for sale in Valrico FL 33594. Bloomingdale HS zone, $350K-$475K. Pricing, schools, and HOA details. Barrett Henry, REMAX Collective.",
+    "Duncan Groves homes for sale in Valrico FL 33596. Established subdivision, $350K-$450K, Bloomingdale HS zone. Affordable south Valrico near Lithia Springs Park. Barrett Henry, REMAX Collective. (813) 733-7907.",
   alternates: { canonical: "/neighborhoods/duncan-groves/" },
   openGraph: {
-    title: "Duncan Groves Homes for Sale — Valrico FL 33594",
+    title: "Duncan Groves Homes for Sale — Valrico FL 33596 | Barrett Henry",
     description:
-      "Duncan Groves homes for sale in Valrico FL 33594. Bloomingdale HS zone, $350K-$475K. Pricing, schools, and HOA details. Barrett Henry, REMAX Collective.",
+      "Established subdivision in south Valrico near parks and outdoor recreation. $350K-$450K. Bloomingdale HS zone. Affordable entry into south Valrico. Barrett Henry, REALTOR® at REMAX Collective.",
     url: "https://valricoagent.com/neighborhoods/duncan-groves/",
     siteName: "ValricoAgent.com",
     type: "website",

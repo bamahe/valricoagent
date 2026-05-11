@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Valrico Hills Homes for Sale — Valrico FL 33594",
+  title: "Valrico Hills Homes for Sale — Valrico FL 33594 | Barrett Henry, REALTOR®",
   description:
-    "Valrico Hills homes for sale in Valrico FL 33594. Newsome HS zone, $350K-$500K. Pricing, schools, and HOA details. Barrett Henry, REMAX Collective.",
+    "Valrico Hills homes for sale in Valrico FL 33594. Established mid-range neighborhood, $325K-$425K. Pricing, schools, HOA, commute times, and neighborhood comparisons. Barrett Henry, REMAX Collective. (813) 733-7907.",
   alternates: { canonical: "/neighborhoods/valrico-hills/" },
   openGraph: {
-    title: "Valrico Hills Homes for Sale — Valrico FL 33594",
+    title: "Valrico Hills Homes for Sale — Valrico FL 33594 | Barrett Henry",
     description:
-      "Valrico Hills homes for sale in Valrico FL 33594. Newsome HS zone, $350K-$500K. Pricing, schools, and HOA details. Barrett Henry, REMAX Collective.",
+      "Established mid-range neighborhood in Valrico 33594. $325K-$425K. Solid homes with mature landscaping and convenient commute access. Barrett Henry, REALTOR® at REMAX Collective.",
     url: "https://valricoagent.com/neighborhoods/valrico-hills/",
     siteName: "ValricoAgent.com",
     type: "website",
