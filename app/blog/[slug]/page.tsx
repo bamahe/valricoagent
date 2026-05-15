@@ -30,7 +30,7 @@ export async function generateMetadata({
     openGraph: {
       title,
       description,
-      url: `https://valricoagent.com/blog/${post.slug}`,
+      url: `https://valricoagent.com/blog/${post.slug}/`,
       siteName: 'ValricoAgent.com',
       type: 'article',
       publishedTime: post.publish_date || undefined,
@@ -41,7 +41,7 @@ export async function generateMetadata({
         : {}),
     },
     alternates: {
-      canonical: `https://valricoagent.com/blog/${post.slug}`,
+      canonical: `https://valricoagent.com/blog/${post.slug}/`,
     },
   };
 }
@@ -135,11 +135,11 @@ export default async function BlogPostPage({
     publisher: {
       '@type': 'Organization',
       name: 'ValricoAgent.com',
-      url: 'https://valricoagent.com',
+      url: 'https://valricoagent.com/',
     },
     datePublished: post.publish_date,
     dateModified: post.updated_at,
-    url: `https://valricoagent.com/blog/${post.slug}`,
+    url: `https://valricoagent.com/blog/${post.slug}/`,
     ...(post.featured_image ? { image: post.featured_image } : {}),
     wordCount: post.word_count,
   };
@@ -175,7 +175,7 @@ export default async function BlogPostPage({
         <nav className="text-sm text-gray-400 mb-6">
           <Link href="/" className="hover:text-gray-600">Home</Link>
           <span className="mx-2">/</span>
-          <Link href="/blog" className="hover:text-gray-600">Blog</Link>
+          <Link href="/blog/" className="hover:text-gray-600">Blog</Link>
           <span className="mx-2">/</span>
           <span className="text-gray-600">{pillarLabels[post.pillar] || post.pillar}</span>
         </nav>

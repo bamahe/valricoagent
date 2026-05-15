@@ -48,7 +48,7 @@ export default function AboutBarrettHenry() {
         "@id": "https://valricoagent.com/#person",
         "name": "Barrett Henry",
         "jobTitle": "Broker Associate",
-        "url": "https://valricoagent.com/about",
+        "url": "https://valricoagent.com/about/",
         "image": "https://valricoagent.com/barrett-henry.png",
         "telephone": "+1-813-733-7907",
         "email": "barrett@nowtb.com",
@@ -73,11 +73,11 @@ export default function AboutBarrettHenry() {
       },
       {
         "@type": "AboutPage",
-        "@id": "https://valricoagent.com/about",
+        "@id": "https://valricoagent.com/about/",
         "name": "About Barrett Henry — Valrico REALTOR",
-        "url": "https://valricoagent.com/about",
+        "url": "https://valricoagent.com/about/",
         "mainEntity": { "@id": "https://valricoagent.com/#person" },
-        "isPartOf": { "@type": "WebSite", "url": "https://valricoagent.com" }
+        "isPartOf": { "@type": "WebSite", "url": "https://valricoagent.com/" }
       }
     ]
   };
