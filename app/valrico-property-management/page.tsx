@@ -27,7 +27,7 @@ export default function PropertyManagement() {
               {[
                 ['Tenant screening and placement','Background checks, credit verification, income verification, rental history, and eviction history. We find qualified tenants who pay on time and take care of your property.'],
                 ['Rent collection and accounting','Online rent collection, direct deposit to your account, monthly owner statements, and year-end tax documentation. You see exactly where every dollar goes.'],
-                ['Maintenance coordination','In-house maintenance through Best Bay Services handles routine repairs, HVAC service, painting, tile, flooring, smart home upgrades, and Airbnb turnover. No middleman markups on basic maintenance.'],
+                ['Maintenance coordination','In-house maintenance through <a href="https://bestvalricohandyman.com" target="_blank" rel="noopener" style="color:var(--accent);font-weight:600;text-decoration:none">Best Valrico Handyman</a> (Best Bay Services) handles routine repairs, HVAC service, painting, tile, flooring, smart home upgrades, and Airbnb turnover. No middleman markups on basic maintenance.'],
                 ['Property inspections','Move-in, move-out, and periodic inspections with photo documentation. We catch issues early before they become expensive problems.'],
                 ['Lease management and compliance','Florida landlord-tenant law compliance, lease drafting and renewals, security deposit handling per Florida statute, and eviction coordination if needed.'],
                 ['Vacancy marketing','Professional photos, MLS listing, Zillow/Trulia syndication, and targeted marketing to fill vacancies fast. Average days to lease in Valrico is significantly shorter than the county average because of school zone demand.'],
@@ -40,7 +40,7 @@ export default function PropertyManagement() {
             </div>
 
             <h2 className="font-serif text-2xl mt-10" style={{color:'var(--ink)'}}>Management fee: 10%</h2>
-            <p className="text-[15px] leading-[1.8]">ViVi PM charges 10% of collected rent. No hidden fees, no upcharges on maintenance, no percentage of repair costs. If rent is $2,000/month, management is $200/month. The fee covers everything listed above. Maintenance and repairs are billed at cost through Best Bay Services with no management markup.</p>
+            <p className="text-[15px] leading-[1.8]">ViVi PM charges 10% of collected rent. No hidden fees, no upcharges on maintenance, no percentage of repair costs. If rent is $2,000/month, management is $200/month. The fee covers everything listed above. Maintenance and repairs are billed at cost through <a href="https://bestvalricohandyman.com" target="_blank" rel="noopener" style={{color:'var(--accent)',fontWeight:600,textDecoration:'none'}}>Best Valrico Handyman</a> (Best Bay Services) with no management markup.</p>
 
             <h2 className="font-serif text-2xl mt-10" style={{color:'var(--ink)'}}>Why Valrico rentals perform well</h2>
             <p className="text-[15px] leading-[1.8]">Valrico&apos;s rental market benefits from the same factors that drive home sales: strong school zones, no city taxes, and suburban character. Families who want Bloomingdale HS or Newsome HS zoning but cannot yet buy will rent in these zones. This creates consistent demand for well-maintained rental properties, particularly 3-4 bedroom single-family homes with pools.</p>
@@ -85,6 +85,7 @@ export default function PropertyManagement() {
                 <li><Link href="/valrico-investment-property/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Investment property guide &rarr;</Link></li>
                 <li><Link href="/valrico-fl-homes-for-sale/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Search Valrico homes &rarr;</Link></li>
                 <li><a href="https://nowtb.com/commercial/" target="_blank" rel="noopener" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Investment properties on nowtb.com &rarr;</a></li>
+                <li><a href="https://bestvalricohandyman.com" target="_blank" rel="noopener" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Best Valrico Handyman &rarr;</a></li>
                 <li><a href="https://bestbayservices.com" target="_blank" rel="noopener" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Best Bay Services — Maintenance &rarr;</a></li>
               </ul>
             </div>

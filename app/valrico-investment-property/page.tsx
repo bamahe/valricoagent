@@ -69,7 +69,7 @@ export default function InvestmentProperty() {
 
             {/* PROPERTY MANAGEMENT */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Property management through ViVi PM</h2>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>Barrett Henry also runs <a href="https://vivipm.com" target="_blank" rel="noopener" className="font-semibold no-underline" style={{color:'var(--accent)'}}>ViVi PM</a>, a full-service property management company serving Valrico and east Hillsborough County. When you buy an investment property through Barrett, you get a single point of contact for acquisition, tenant placement, and ongoing management. Maintenance is handled in-house through Best Bay Services — no third-party markups. Management fee is 10% of collected rent. This means your investment is managed by someone who actually knows the neighborhood, not a call center.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>Barrett Henry also runs <a href="https://vivipm.com" target="_blank" rel="noopener" className="font-semibold no-underline" style={{color:'var(--accent)'}}>ViVi PM</a>, a full-service property management company serving Valrico and east Hillsborough County. When you buy an investment property through Barrett, you get a single point of contact for acquisition, tenant placement, and ongoing management. Maintenance is handled in-house through <a href="https://bestvalricohandyman.com" target="_blank" rel="noopener" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Best Valrico Handyman</a> (Best Bay Services) — no third-party markups. Management fee is 10% of collected rent. This means your investment is managed by someone who actually knows the neighborhood, not a call center.</p>
 
             {/* 1031 EXCHANGE */}
             <h2 className="font-serif text-2xl mb-4 mt-10">1031 exchange basics</h2>
@@ -113,6 +113,7 @@ export default function InvestmentProperty() {
                 <li><a href="https://vivipm.com" target="_blank" rel="noopener" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>ViVi PM website &rarr;</a></li>
                 <li><Link href="/valrico-fl-home-values/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Valrico home values &rarr;</Link></li>
                 <li><Link href="/neighborhoods/bloomingdale/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Bloomingdale neighborhood &rarr;</Link></li>
+                <li><a href="https://bestvalricohandyman.com" target="_blank" rel="noopener" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Rental maintenance — Best Valrico Handyman &rarr;</a></li>
               </ul>
             </div>
           </div>

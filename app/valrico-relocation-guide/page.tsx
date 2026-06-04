@@ -71,7 +71,7 @@ export default function RelocationGuide() {
             <h2 className="font-serif text-2xl mb-4 mt-10">What to expect when you get here</h2>
             <div className="space-y-8 mb-10">
               {[
-                ['The heat and humidity are real','May through September is hot. Average highs are 90°F+ with humidity that makes it feel like 100°F. Air conditioning is not optional — it runs year-round. The upside: mild winters with highs in the 70s from November through March. Most people adjust within one season.'],
+                ['The heat and humidity are real','May through September is hot. Average highs are 90°F+ with humidity that makes it feel like 100°F. Air conditioning is not optional — it runs year-round. The upside: mild winters with highs in the 70s from November through March. Most people adjust within one season. When you get here, <a href="https://bestvalricohandyman.com" target="_blank" rel="noopener" style="color:var(--accent);font-weight:600;text-decoration:none">Best Valrico Handyman</a> can help with move-in repairs, <a href="https://bestvalricohandyman.com/smart-home-installation" target="_blank" rel="noopener" style="color:var(--accent);font-weight:600;text-decoration:none">smart home setup</a>, <a href="https://bestvalricohandyman.com/tv-mounting" target="_blank" rel="noopener" style="color:var(--accent);font-weight:600;text-decoration:none">TV mounting</a>, and getting your new place squared away.'],
                 ['Afternoon storms are normal','From June through September, expect a thunderstorm almost every afternoon around 3-4pm. They are usually short, intense, and over in 30 minutes. Lightning is frequent — Florida is the lightning capital of the US. You learn to plan around it.'],
                 ['Hurricane season runs June through November','Valrico is 30+ miles inland, which significantly reduces hurricane risk compared to coastal areas. Storm surge is not a concern here. Wind and power outages are the main risks. Most Valrico homes are built to current Florida building codes, which are among the strongest in the country.'],
                 ['Bugs are part of life','Palmetto bugs (large cockroaches), mosquitoes, fire ants, and love bugs are all normal. Quarterly pest control is standard for most homeowners. Screened-in lanais and pool cages are a Florida essential — they keep the bugs out while you enjoy the outdoors.'],
@@ -140,6 +140,7 @@ export default function RelocationGuide() {
                 <li><Link href="/valrico-fl-home-values/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Valrico home values &rarr;</Link></li>
                 <li><Link href="/valrico-down-payment-assistance/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Down payment assistance &rarr;</Link></li>
                 <li><Link href="/valrico-va-loan-homes/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>VA loan homes &rarr;</Link></li>
+                <li><a href="https://bestvalricohandyman.com" target="_blank" rel="noopener" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Move-in repairs — Best Valrico Handyman &rarr;</a></li>
               </ul>
             </div>
           </div>

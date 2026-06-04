@@ -128,6 +128,7 @@ export default function Footer() {
               {[
                 ['https://nowtb.com', 'nowtb.com'],
                 ['https://bestbayservices.com', 'Best Bay Services'],
+                ['https://bestvalricohandyman.com', 'Best Valrico Handyman'],
                 ['https://valrico.blog', 'Valrico Blog'],
                 ['https://vivipm.com', 'ViVi PM'],
                 ['https://flforeclosurehelp.com', 'FL Foreclosure Help'],
