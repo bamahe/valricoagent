@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState } from 'react';
 
 export default function BloomingdalePage() {
@@ -47,6 +48,21 @@ export default function BloomingdalePage() {
             <Link href="/valrico-fl-home-values/" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">What&apos;s my Bloomingdale home worth?</Link>
           </div>
         </div>
+      </div>
+
+      {/* ===== COMMUNITY ENTRANCE PHOTO ===== */}
+      <div className="max-w-[1140px] mx-auto px-7 pt-12 pb-0">
+        <div className="relative w-full rounded-lg overflow-hidden" style={{ aspectRatio: '16/7' }}>
+          <Image
+            src="/bloomingdale-valrico.jpg"
+            alt="Bloomingdale community entrance sign with ivy-covered wall and landscaping in Valrico, Florida"
+            fill
+            className="object-cover"
+            priority
+            sizes="(max-width: 1140px) 100vw, 1140px"
+          />
+        </div>
+        <p className="text-xs mt-2 mb-0" style={{ color: 'var(--ink-muted)' }}>Bloomingdale community entrance — Valrico, FL 33596</p>
       </div>
 
       {/* ===== QUICK STATS ===== */}
