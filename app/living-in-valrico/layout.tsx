@@ -2,13 +2,13 @@ import type { Metadata } from "next";
 
 // SEO metadata for the Living in Valrico page
 export const metadata: Metadata = {
-  title: "Living in Valrico FL — What It's Really Like",
+  title: "Living in Valrico FL — Pros, Cons, Schools & Cost (2026)",
   description:
-    "What is it like living in Valrico FL? Schools, neighborhoods, cost of living, commute, and lifestyle. Honest guide from Barrett Henry, local REALTOR.",
+    "What is it really like living in Valrico FL? Schools, 32 neighborhoods, cost of living, commute times, safety, and honest pros/cons from a local REALTOR® with 23+ years experience.",
   openGraph: {
-    title: "Living in Valrico FL — What It's Really Like",
+    title: "Living in Valrico FL — Pros, Cons, Schools & Cost (2026)",
     description:
-      "What is it like living in Valrico FL? Schools, neighborhoods, cost of living, commute, and lifestyle. Honest guide from Barrett Henry, local REALTOR.",
+      "What is it really like living in Valrico FL? Schools, 32 neighborhoods, cost of living, commute times, safety, and honest pros/cons from a local REALTOR® with 23+ years experience.",
     url: "https://valricoagent.com/living-in-valrico/",
     siteName: "ValricoAgent.com",
     type: "website",

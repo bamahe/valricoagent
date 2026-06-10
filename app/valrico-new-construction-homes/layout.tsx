@@ -2,13 +2,13 @@ import type { Metadata } from "next";
 
 // SEO metadata for the Valrico New Construction Homes page
 export const metadata: Metadata = {
-  title: "New Construction Homes in Valrico FL",
+  title: "New Construction Homes in Valrico FL — Communities & Prices (2026)",
   description:
-    "Find new construction homes in Valrico FL. Builder communities, floor plans, and why you need a buyer's agent. Barrett Henry, REMAX Collective.",
+    "Search new construction homes for sale in Valrico FL. See builder communities, floor plans, prices, and incentives. Free buyer representation from Barrett Henry, REALTOR®.",
   openGraph: {
-    title: "New Construction Homes in Valrico FL",
+    title: "New Construction Homes in Valrico FL — Communities & Prices (2026)",
     description:
-      "Find new construction homes in Valrico FL. Builder communities, floor plans, and why you need a buyer's agent. Barrett Henry, REMAX Collective.",
+      "Search new construction homes for sale in Valrico FL. See builder communities, floor plans, prices, and incentives. Free buyer representation from Barrett Henry, REALTOR®.",
     url: "https://valricoagent.com/valrico-new-construction-homes/",
     siteName: "ValricoAgent.com",
     type: "website",

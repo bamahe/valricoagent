@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: 'Valrico Foreclosures — Bank-Owned & REO',
-  description: 'Find foreclosure homes in Valrico FL. Bank-owned, REO, and pre-foreclosure properties. Barrett Henry, REMAX Collective — 23+ years experience with distressed properties.',
+  title: 'Valrico FL Foreclosures for Sale — Bank-Owned Homes (2026)',
+  description: 'Search foreclosure homes for sale in Valrico FL. Bank-owned, REO, and pre-foreclosure listings updated daily. Get expert help from Barrett Henry, REALTOR® — 23+ years experience.',
   alternates: { canonical: "/valrico-foreclosures/" },
   openGraph: {
-    title: "Valrico Foreclosures — Bank-Owned & REO",
-    description: "Find foreclosure homes in Valrico FL. Bank-owned, REO, and pre-foreclosure properties. Barrett Henry, REMAX Collective — 23+ years experience with distressed properties.",
+    title: "Valrico FL Foreclosures for Sale — Bank-Owned Homes (2026)",
+    description: "Search foreclosure homes for sale in Valrico FL. Bank-owned, REO, and pre-foreclosure listings updated daily. Get expert help from Barrett Henry, REALTOR® — 23+ years experience.",
     url: "https://valricoagent.com/valrico-foreclosures/",
     siteName: "ValricoAgent.com",
     type: "website",

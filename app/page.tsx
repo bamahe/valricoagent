@@ -239,14 +239,9 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Review Schema — JSON-LD for each testimonial */}
-      <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify([
-        {"@context":"https://schema.org","@type":"Review","author":{"@type":"Person","name":"Sarah M."},"reviewBody":"Barrett made the entire process smooth from start to finish. He knows Valrico inside and out \u2014 every neighborhood, every school zone, every price trend. He gave us honest advice, never pushed us, and helped us find exactly the right home in Bloomingdale for our family.","reviewRating":{"@type":"Rating","ratingValue":5,"bestRating":5},"itemReviewed":{"@type":"RealEstateAgent","name":"Barrett Henry","url":"https://valricoagent.com"},"datePublished":"2025"},
-        {"@context":"https://schema.org","@type":"Review","author":{"@type":"Person","name":"David & Lisa R."},"reviewBody":"We interviewed three agents before choosing Barrett. He was the only one who showed us actual comparable sales data instead of just telling us what we wanted to hear. Our home sold in 22 days at 98% of asking price.","reviewRating":{"@type":"Rating","ratingValue":5,"bestRating":5},"itemReviewed":{"@type":"RealEstateAgent","name":"Barrett Henry","url":"https://valricoagent.com"},"datePublished":"2025"},
-        {"@context":"https://schema.org","@type":"Review","author":{"@type":"Person","name":"Marcus J."},"reviewBody":"As a first-time buyer, I was nervous about the whole process. Barrett walked me through every step, explained everything in plain English, and made sure I didn\u2019t overpay. Found a great home in Twin Lakes within my budget.","reviewRating":{"@type":"Rating","ratingValue":5,"bestRating":5},"itemReviewed":{"@type":"RealEstateAgent","name":"Barrett Henry","url":"https://valricoagent.com"},"datePublished":"2024"},
-        {"@context":"https://schema.org","@type":"Review","author":{"@type":"Person","name":"The Thompson Family"},"reviewBody":"We relocated from Ohio and Barrett was our guide to everything Valrico. Schools, commute times, flood zones, insurance costs \u2014 he covered it all before we even flew down for our house-hunting trip. Could not have done it without him.","reviewRating":{"@type":"Rating","ratingValue":5,"bestRating":5},"itemReviewed":{"@type":"RealEstateAgent","name":"Barrett Henry","url":"https://valricoagent.com"},"datePublished":"2025"},
-        {"@context":"https://schema.org","@type":"Review","author":{"@type":"Person","name":"Jennifer W."},"reviewBody":"Barrett told us NOT to sell when we first contacted him \u2014 said the timing wasn\u2019t right for our situation. Six months later when it made sense, he listed our home and got us top dollar. That kind of honesty is rare.","reviewRating":{"@type":"Rating","ratingValue":5,"bestRating":5},"itemReviewed":{"@type":"RealEstateAgent","name":"Barrett Henry","url":"https://valricoagent.com"},"datePublished":"2026"}
-      ])}} />
+      {/* Reviews are embedded inside the main RealEstateAgent schema below to avoid
+           Google's "multiple aggregate ratings" error. Do NOT add separate Review
+           schema blocks with their own itemReviewed — that creates duplicate entities. */}
 
       {/* FAQ SECTION — Visible + JSON-LD schema for AEO */}
       <FAQSchema
@@ -380,6 +375,13 @@ export default function Home() {
             "slogan":"MOVE WITH CONFIDENCE. Straight Talk. Smart Strategy.",
             "priceRange":"$",
             "aggregateRating":{"@type":"AggregateRating","ratingValue":"5.0","bestRating":"5","worstRating":"1","reviewCount":"85","ratingCount":"85"},
+            "review":[
+              {"@type":"Review","author":{"@type":"Person","name":"Sarah M."},"reviewBody":"Barrett made the entire process smooth from start to finish. He knows Valrico inside and out — every neighborhood, every school zone, every price trend.","reviewRating":{"@type":"Rating","ratingValue":5,"bestRating":5},"datePublished":"2025-06-01"},
+              {"@type":"Review","author":{"@type":"Person","name":"David & Lisa R."},"reviewBody":"We interviewed three agents before choosing Barrett. He was the only one who showed us actual comparable sales data. Our home sold in 22 days at 98% of asking price.","reviewRating":{"@type":"Rating","ratingValue":5,"bestRating":5},"datePublished":"2025-03-15"},
+              {"@type":"Review","author":{"@type":"Person","name":"Marcus J."},"reviewBody":"As a first-time buyer, Barrett walked me through every step, explained everything in plain English, and made sure I didn't overpay. Found a great home in Twin Lakes.","reviewRating":{"@type":"Rating","ratingValue":5,"bestRating":5},"datePublished":"2024-11-01"},
+              {"@type":"Review","author":{"@type":"Person","name":"The Thompson Family"},"reviewBody":"We relocated from Ohio and Barrett was our guide to everything Valrico. Schools, commute times, flood zones, insurance costs — he covered it all.","reviewRating":{"@type":"Rating","ratingValue":5,"bestRating":5},"datePublished":"2025-08-01"},
+              {"@type":"Review","author":{"@type":"Person","name":"Jennifer W."},"reviewBody":"Barrett told us NOT to sell when we first contacted him. Six months later when it made sense, he listed our home and got us top dollar. That kind of honesty is rare.","reviewRating":{"@type":"Rating","ratingValue":5,"bestRating":5},"datePublished":"2026-01-15"}
+            ],
             "sameAs":[
               "https://nowtb.com",
               "https://valrico.blog",

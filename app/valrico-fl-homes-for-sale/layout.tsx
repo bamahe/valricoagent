@@ -2,13 +2,13 @@ import type { Metadata } from "next";
 
 // SEO metadata for the Valrico FL Homes for Sale page
 export const metadata: Metadata = {
-  title: "Valrico FL Homes for Sale",
+  title: "Homes for Sale in Valrico FL — 33594 & 33596 Listings (2026)",
   description:
-    "Search homes for sale in Valrico FL from Stellar MLS. Browse by neighborhood, price, pool, or school zone. Barrett Henry, REMAX Collective.",
+    "Browse every home for sale in Valrico FL updated daily from Stellar MLS. Filter by neighborhood, price, pool homes, no-HOA, and school zone. Free search from Barrett Henry, REALTOR®.",
   openGraph: {
-    title: "Valrico FL Homes for Sale",
+    title: "Homes for Sale in Valrico FL — 33594 & 33596 Listings (2026)",
     description:
-      "Search homes for sale in Valrico FL from Stellar MLS. Browse by neighborhood, price, pool, or school zone. Barrett Henry, REMAX Collective.",
+      "Browse every home for sale in Valrico FL updated daily from Stellar MLS. Filter by neighborhood, price, pool homes, no-HOA, and school zone. Free search from Barrett Henry, REALTOR®.",
     url: "https://valricoagent.com/valrico-fl-homes-for-sale/",
     siteName: "ValricoAgent.com",
     type: "website",

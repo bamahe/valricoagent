@@ -5,12 +5,12 @@ import type { Metadata } from 'next';
 export const dynamic = 'force-dynamic'; // Always fetch fresh data (new posts publish daily)
 
 export const metadata: Metadata = {
-  title: 'Valrico Real Estate Blog | Barrett Henry | ValricoAgent.com',
+  title: 'Valrico Real Estate Blog — Market Reports & Guides',
   description:
     'Expert insights on Valrico FL real estate: market reports, neighborhood guides, buying and selling tips from local REALTOR® Barrett Henry.',
   alternates: { canonical: "/blog/" },
   openGraph: {
-    title: 'Valrico Real Estate Blog | Barrett Henry',
+    title: 'Valrico Real Estate Blog — Market Reports & Guides',
     description:
       'Expert insights on Valrico FL real estate: market reports, neighborhood guides, buying and selling tips.',
     url: 'https://valricoagent.com/blog/',

@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: 'Waterfront & Lake Homes in Valrico FL',
-  description: 'Find waterfront and lake homes in Valrico FL. Lake Valrico, pond-front lots, water-view properties, flood zone info, and price premiums. Barrett Henry, REALTOR®, REMAX Collective.',
+  title: 'Valrico Waterfront Homes for Sale — Lake & Pond-Front (2026)',
+  description: 'Search waterfront and lake homes for sale in Valrico FL. Lake Valrico, pond-front lots, water views, and flood zone info. Call Barrett Henry (813) 733-7907.',
   alternates: { canonical: "/valrico-waterfront-homes/" },
   openGraph: {
-    title: "Waterfront & Lake Homes in Valrico FL",
-    description: "Find waterfront and lake homes in Valrico FL. Lake Valrico, pond-front lots, water-view properties, flood zone info, and price premiums. Barrett Henry, REALTOR®, REMAX Collective.",
+    title: "Valrico Waterfront Homes for Sale — Lake & Pond-Front (2026)",
+    description: "Search waterfront and lake homes for sale in Valrico FL. Lake Valrico, pond-front lots, water views, and flood zone info. Call Barrett Henry (813) 733-7907.",
     url: "https://valricoagent.com/valrico-waterfront-homes/",
     siteName: "ValricoAgent.com",
     type: "website",

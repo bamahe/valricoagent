@@ -2,6 +2,7 @@ import { getPostBySlug, getAllSlugs, getRelatedPosts } from '@/lib/supabase';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export const dynamic = 'force-dynamic';
 
@@ -201,6 +202,20 @@ export default async function BlogPostPage({
           <span>·</span>
           <span>{post.reading_time} min read</span>
         </div>
+
+        {/* Hero image */}
+        {post.featured_image && (
+          <div className="relative w-full aspect-[16/9] rounded-xl overflow-hidden mb-10">
+            <Image
+              src={post.featured_image}
+              alt={post.featured_image_alt || `${post.title} — Valrico, FL`}
+              fill
+              className="object-cover"
+              priority
+              sizes="(max-width: 768px) 100vw, 768px"
+            />
+          </div>
+        )}
 
         {/* Content */}
         <div

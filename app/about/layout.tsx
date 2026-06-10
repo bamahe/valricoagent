@@ -2,13 +2,13 @@ import type { Metadata } from "next";
 
 // SEO metadata for the About Barrett Henry page
 export const metadata: Metadata = {
-  title: "About — Valrico Broker Associate",
+  title: "Barrett Henry, REALTOR® — Valrico Real Estate Agent",
   description:
-    "Meet Barrett Henry — Valrico FL REALTOR® and Broker Associate with RE/MAX Collective. 23+ years of real estate experience, e-PRO, MRP, SRS designations.",
+    "Meet Barrett Henry, your Valrico FL REALTOR® and Broker Associate with REMAX Collective. 23+ years experience, 32 neighborhoods, e-PRO, MRP, SRS designations. Call (813) 733-7907.",
   openGraph: {
-    title: "About — Valrico Broker Associate",
+    title: "Barrett Henry, REALTOR® — Valrico Real Estate Agent",
     description:
-      "Meet Barrett Henry — Valrico FL REALTOR® and Broker Associate with RE/MAX Collective. 23+ years of real estate experience, e-PRO, MRP, SRS designations.",
+      "Meet Barrett Henry, your Valrico FL REALTOR® and Broker Associate with REMAX Collective. 23+ years experience, 32 neighborhoods, e-PRO, MRP, SRS designations. Call (813) 733-7907.",
     url: "https://valricoagent.com/about/",
     siteName: "ValricoAgent.com",
     type: "website",
