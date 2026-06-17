@@ -84,14 +84,6 @@ export default function AboutBarrettHenry() {
 
   return (
     <>
-      {/* QuickAnswer — AEO: direct answer for "Who is Barrett Henry?" */}
-      <div className="max-w-[1140px] mx-auto px-6 pt-8">
-        <QuickAnswer
-          question="Who is Barrett Henry?"
-          answer="Barrett Henry is a licensed Florida Broker Associate with REMAX Collective, specializing in Valrico real estate. With 23+ years of real estate experience and deep knowledge of Valrico's neighborhoods, schools, and market trends, Barrett helps buyers find the right home and sellers get top dollar. He leads The NOW Team and is based in the Brandon office."
-        />
-      </div>
-
       {/* Hero section */}
       <div style={{ background: 'var(--blue-deep)' }} className="text-white py-16 px-7">
         <div className="max-w-[1140px] mx-auto">
