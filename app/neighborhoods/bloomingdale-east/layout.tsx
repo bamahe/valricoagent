@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Bloomingdale East Homes for Sale — Valrico FL 33596 | Barrett Henry, REALTOR®",
+  title: "Bloomingdale East Homes for Sale — Valrico FL",
   description:
-    "Bloomingdale East homes for sale in Valrico FL 33596. Eastern edge of Bloomingdale, $350K-$500K, Bloomingdale HS zone. Larger lots, mature oaks, established homes. Barrett Henry, REMAX Collective. (813) 733-7907.",
+    "Bloomingdale East homes for sale in Valrico FL 33596. Eastern Bloomingdale, $350K-$500K, Bloomingdale HS zone. Larger lots and mature oaks. Call (813) 733-7907.",
   alternates: { canonical: "/neighborhoods/bloomingdale-east/" },
   openGraph: {
-    title: "Bloomingdale East Homes for Sale — Valrico FL 33596 | Barrett Henry",
+    title: "Bloomingdale East Homes for Sale — Valrico FL",
     description:
       "Eastern edge of Bloomingdale in south Valrico. $350K-$500K. Bloomingdale HS zone. Quarter-acre to half-acre lots, 1980s-1990s construction. Barrett Henry, REALTOR® at REMAX Collective.",
     url: "https://valricoagent.com/neighborhoods/bloomingdale-east/",

@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Heritage Crest Homes for Sale — Valrico FL 33594 | Barrett Henry, REALTOR®",
+  title: "Heritage Crest Homes for Sale — Valrico FL 33594",
   description:
-    "Heritage Crest homes for sale in Valrico FL 33594. New construction, $400K-$500K, Newsome HS zone. Modern floor plans with energy-efficient systems and builder warranties. Barrett Henry, REMAX Collective. (813) 733-7907.",
+    "Heritage Crest homes for sale in Valrico FL 33594. New construction, $400K-$500K, Newsome HS zone. Modern energy-efficient floor plans. Call (813) 733-7907.",
   alternates: { canonical: "/neighborhoods/heritage-crest/" },
   openGraph: {
-    title: "Heritage Crest Homes for Sale — Valrico FL 33594 | Barrett Henry",
+    title: "Heritage Crest Homes for Sale — Valrico FL 33594",
     description:
       "New construction community in north Valrico. $400K-$500K. Newsome HS zone. Modern builder homes with open floor plans and energy-efficient construction. Barrett Henry, REALTOR® at REMAX Collective.",
     url: "https://valricoagent.com/neighborhoods/heritage-crest/",

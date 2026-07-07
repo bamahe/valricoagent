@@ -265,6 +265,16 @@ export default function DownPaymentAssistance() {
 
       {/* JSON-LD */}
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(faqSchema)}} />
+
+      {/* BreadcrumbList JSON-LD */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://valricoagent.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Down Payment Assistance", "item": "https://valricoagent.com/valrico-down-payment-assistance/" },
+        ]
+      }) }} />
     </>
   );
 }

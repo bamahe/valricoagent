@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Legends Pass Homes for Sale — Valrico FL 33594 | Barrett Henry, REALTOR®",
+  title: "Legends Pass Homes for Sale — Valrico FL 33594",
   description:
-    "Legends Pass homes for sale in Valrico FL 33594. Newer construction, $400K-$550K, Newsome HS zone. Neighborhood guide with pricing, schools, HOA, commute times, and comparisons. Barrett Henry, REMAX Collective. (813) 733-7907.",
+    "Legends Pass homes for sale in Valrico FL 33594. Newer construction, $400K-$550K, Newsome HS zone. Modern floor plans near Diamond Hill corridor. Call (813) 733-7907.",
   alternates: { canonical: "/neighborhoods/legends-pass/" },
   openGraph: {
-    title: "Legends Pass Homes for Sale — Valrico FL 33594 | Barrett Henry",
+    title: "Legends Pass Homes for Sale — Valrico FL 33594",
     description:
       "Newer construction community in north Valrico. $400K-$550K. Newsome HS zone. Modern floor plans near Diamond Hill corridor. Barrett Henry, REALTOR® at REMAX Collective.",
     url: "https://valricoagent.com/neighborhoods/legends-pass/",

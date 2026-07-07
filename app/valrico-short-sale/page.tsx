@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import QuickAnswer from '../components/QuickAnswer';
 
 export default function ValricoShortSale() {
   return (
@@ -15,6 +16,14 @@ export default function ValricoShortSale() {
             <a href="https://flforeclosurehelp.com" target="_blank" rel="noopener" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">Visit flforeclosurehelp.com</a>
           </div>
         </div>
+      </div>
+
+      {/* QuickAnswer — AEO block for AI answer engines */}
+      <div className="max-w-[1140px] mx-auto px-7 pt-8">
+        <QuickAnswer
+          question="What is a short sale in Valrico FL?"
+          answer="A short sale is when a homeowner sells their property for less than the mortgage balance and the bank agrees to accept the reduced payoff. Barrett Henry, REALTOR® with REMAX Collective, has 23+ years of real estate experience handling short sales and negotiates deficiency waivers to protect sellers. Confidential consultations are free. Call (813) 733-7907."
+        />
       </div>
 
       {/* Main content */}
@@ -181,6 +190,16 @@ export default function ValricoShortSale() {
 
       {/* RealEstateAgent JSON-LD */}
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify({"@context":"https://schema.org","@type":"RealEstateAgent","name":"Barrett Henry","jobTitle":"REALTOR® & Broker Associate","url":"https://valricoagent.com/valrico-short-sale/","telephone":"(813) 733-7907","email":"barrett@nowtb.com","image":"https://valricoagent.com/barrett-henry.jpg","address":{"@type":"PostalAddress","addressLocality":"Valrico","addressRegion":"FL","addressCountry":"US"},"worksFor":{"@type":"RealEstateOrganization","name":"REMAX Collective"},"description":"Barrett Henry is a REALTOR® and Broker Associate at REMAX Collective with 23+ years of real estate experience, specializing in short sales and distressed property solutions in Valrico FL."})}} />
+
+      {/* BreadcrumbList JSON-LD */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://valricoagent.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Short Sale Help", "item": "https://valricoagent.com/valrico-short-sale/" },
+        ]
+      }) }} />
     </>
   );
 }

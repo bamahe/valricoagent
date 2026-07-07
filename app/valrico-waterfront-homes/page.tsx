@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import QuickAnswer from '../components/QuickAnswer';
 
 export default function WaterfrontHomes() {
   return (
@@ -15,6 +16,14 @@ export default function WaterfrontHomes() {
             <Link href="/valrico-fl-homes-for-sale/" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">Search Valrico Homes</Link>
           </div>
         </div>
+      </div>
+
+      {/* QuickAnswer — AEO block for AI answer engines */}
+      <div className="max-w-[1140px] mx-auto px-7 pt-8">
+        <QuickAnswer
+          question="Are there waterfront homes in Valrico FL?"
+          answer="Yes. Valrico offers lakefront homes on Lake Valrico, pond-front lots in subdivisions like Bloomingdale and Buckhorn Preserve, and riverfront properties in River Hills along the Alafia River. Prices range from $375K for pond-view lots to $1.5M+ for premium riverfront. Barrett Henry, REALTOR® with REMAX Collective, knows every water feature in the area. Call (813) 733-7907."
+        />
       </div>
 
       {/* MAIN CONTENT */}

@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Bloomingdale Oaks Homes for Sale — Valrico FL 33596 | Barrett Henry, REALTOR®",
+  title: "Bloomingdale Oaks Homes for Sale — Valrico FL",
   description:
-    "Bloomingdale Oaks homes for sale in Valrico FL 33596. Most sought-after Bloomingdale sub-neighborhood, $350K-$475K, Bloomingdale HS zone. Sidewalks, pool homes, strong resale. Barrett Henry, REMAX Collective. (813) 733-7907.",
+    "Bloomingdale Oaks homes for sale in Valrico FL 33596. Top Bloomingdale sub-neighborhood, $350K-$475K, Bloomingdale HS zone. Sidewalks, pool homes. Call (813) 733-7907.",
   alternates: { canonical: "/neighborhoods/bloomingdale-oaks/" },
   openGraph: {
-    title: "Bloomingdale Oaks Homes for Sale — Valrico FL 33596 | Barrett Henry",
+    title: "Bloomingdale Oaks Homes for Sale — Valrico FL",
     description:
       "Top Bloomingdale sub-neighborhood in south Valrico. $350K-$475K. Bloomingdale HS zone. Sidewalks, pool homes, strong name recognition. Barrett Henry, REALTOR® at REMAX Collective.",
     url: "https://valricoagent.com/neighborhoods/bloomingdale-oaks/",

@@ -11,6 +11,16 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "images.unsplash.com",
       },
+      {
+        // Bridge MLS listing photos (via CloudFront CDN)
+        protocol: "https",
+        hostname: "dvvjkgh94f2v6.cloudfront.net",
+      },
+      {
+        // Bridge MLS photos (alternate CDN)
+        protocol: "https",
+        hostname: "*.bridgedataoutput.com",
+      },
     ],
   },
   // Remove X-Powered-By header for security

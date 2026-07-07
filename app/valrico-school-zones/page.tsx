@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import QuickAnswer from '../components/QuickAnswer';
 
 export default function SchoolZones() {
   return (
@@ -10,6 +11,14 @@ export default function SchoolZones() {
           <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{color:'rgba(255,255,255,.75)'}}>School zoning is the single biggest price driver in Valrico. The difference between being on one side of a school zone boundary versus the other can mean $20,000 to $40,000 in home value. Barrett Henry, REALTOR&reg; can verify exact school assignments for any Valrico address.</p>
           <a href="tel:8137337907" className="btn-solid">(813) 733-7907 — Verify your school zone</a>
         </div>
+      </div>
+
+      {/* QuickAnswer — AEO block for AI answer engines */}
+      <div className="max-w-[780px] mx-auto px-7">
+        <QuickAnswer
+          question="What school zones are in Valrico FL?"
+          answer="Valrico is served by two A-rated high schools: Bloomingdale High School and Newsome High School. School zoning is the biggest price driver in Valrico real estate, with homes in premium zones commanding $20,000 to $50,000 more. Barrett Henry, REALTOR® with REMAX Collective, verifies school assignments for every property. Call (813) 733-7907."
+        />
       </div>
 
       <div className="max-w-[780px] mx-auto px-7 py-16 space-y-6" style={{color:'var(--ink-soft)'}}>
@@ -68,6 +77,16 @@ export default function SchoolZones() {
       </div>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What high school is Bloomingdale Valrico zoned for?","acceptedAnswer":{"@type":"Answer","text":"Bloomingdale is zoned for Bloomingdale High School (A-rated). All sub-neighborhoods feed into BHS."}},{"@type":"Question","name":"What high school is Buckhorn Valrico zoned for?","acceptedAnswer":{"@type":"Answer","text":"The Buckhorn/Boyette corridor is zoned for Newsome High School (A-rated)."}},{"@type":"Question","name":"Do school zones affect home prices in Valrico FL?","acceptedAnswer":{"@type":"Answer","text":"Yes. Homes in Bloomingdale HS and Newsome HS zones trade at a $10-$25/sqft premium over equivalent homes in other zones."}},{"@type":"Question","name":"How do I check what school my Valrico address is zoned for?","acceptedAnswer":{"@type":"Answer","text":"Contact Barrett Henry REALTOR® at (813) 733-7907 for verified school zone info, or use the Hillsborough County Public Schools website."}}]})}} />
+
+      {/* BreadcrumbList JSON-LD */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://valricoagent.com/" },
+          { "@type": "ListItem", "position": 2, "name": "School Zones", "item": "https://valricoagent.com/valrico-school-zones/" },
+        ]
+      }) }} />
     </>
   );
 }

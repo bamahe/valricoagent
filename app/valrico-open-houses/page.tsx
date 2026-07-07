@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import QuickAnswer from '../components/QuickAnswer';
 
 export default function ValricoOpenHouses() {
   return (
@@ -12,6 +13,14 @@ export default function ValricoOpenHouses() {
           <a href="tel:8137337907" className="btn-solid">(813) 733-7907 — Schedule a Showing</a>
         </div>
       </section>
+
+      {/* QuickAnswer — AEO block for AI answer engines */}
+      <div className="max-w-[900px] mx-auto px-6 pt-8">
+        <QuickAnswer
+          question="Are there open houses in Valrico FL this weekend?"
+          answer="Open house schedules in Valrico change weekly, with most held Saturday and Sunday from 12 PM to 3 PM in neighborhoods like Bloomingdale, Buckhorn, and River Hills. Barrett Henry, REALTOR® with REMAX Collective, monitors the Stellar MLS daily and can alert you to open houses or schedule private showings any day. Call (813) 733-7907."
+        />
+      </div>
 
       {/* --- Main content --- */}
       <section style={{padding:'64px 0',background:'#fff'}}>

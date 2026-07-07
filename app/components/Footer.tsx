@@ -2,51 +2,41 @@ import Link from 'next/link';
 
 export default function Footer() {
   return (
-    <footer style={{ background: '#111827', color: '#fff', padding: '56px 0 0' }}>
-      <div style={{ maxWidth: 1200, margin: '0 auto', padding: '0 24px' }}>
+    <footer className="site-footer">
+      <div className="footer-inner">
         {/* Main grid */}
-        <div style={{ display: 'grid', gridTemplateColumns: '1.3fr 1fr 1fr 1fr', gap: 48, paddingBottom: 40, borderBottom: '1px solid rgba(255,255,255,.1)' }}>
-
+        <div className="footer-grid">
           {/* Brand column */}
           <div>
-            <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 20 }}>
+            <div className="footer-brand">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="https://nowtb.com/wp-content/uploads/2026/02/remax-balloon-2025-white.png" alt="RE/MAX" style={{ height: 36, opacity: 0.7 }} />
+              <img src="/remax-logo.png" alt="REMAX" style={{ height: 26, filter: 'brightness(0) invert(1)', opacity: 0.85 }} />
               <div>
-                <div style={{ fontSize: 17, fontWeight: 700, color: '#fff' }}>Barrett Henry</div>
-                <div style={{ fontSize: 11, color: 'rgba(255,255,255,.5)' }}>REALTOR® · Broker Associate</div>
+                <div style={{ fontSize: 17, fontWeight: 700 }}>Barrett Henry</div>
+                <div style={{ fontSize: 11, color: 'rgba(255,255,255,.45)' }}>REALTOR® · Broker Associate</div>
               </div>
             </div>
-            <p style={{ fontSize: 13, color: 'rgba(255,255,255,.5)', lineHeight: 1.8 }}>
-              REMAX Collective<br />417 Lithia Pinecrest Rd<br />Brandon, FL 33511
+            <p className="footer-address">REMAX Collective<br />417 Lithia Pinecrest Rd<br />Brandon, FL 33511</p>
+            <p style={{ marginTop: 16 }}>
+              <a href="tel:8137337907" className="footer-phone">(813) 733-7907</a>
             </p>
-            <p style={{ marginTop: 14 }}>
-              <a href="tel:8137337907" style={{ fontSize: 16, fontWeight: 700, color: '#fff' }}>(813) 733-7907</a>
-            </p>
-            <p>
-              <a href="mailto:barrett@nowtb.com" style={{ fontSize: 13, color: 'rgba(255,255,255,.5)' }}>barrett@nowtb.com</a>
-            </p>
-            {/* Google Business Profile link */}
-            <p style={{ marginTop: 10 }}>
-              <a href="https://g.page/r/nowtb" target="_blank" rel="noopener" style={{ fontSize: 13, color: '#3b82f6', fontWeight: 600, transition: '.2s' }}>⭐ Google Reviews</a>
-            </p>
-            <p style={{ fontSize: 11, color: 'rgba(255,255,255,.4)', marginTop: 2 }}>Find us on Google</p>
+            <p><a href="mailto:barrett@nowtb.com" className="footer-email">barrett@nowtb.com</a></p>
 
-            <div style={{ marginTop: 20, paddingTop: 16, borderTop: '1px solid rgba(255,255,255,.08)' }}>
-              <span style={{ fontSize: 11, fontWeight: 700, letterSpacing: '.12em', color: '#3b82f6' }}>MOVE WITH CONFIDENCE.</span>
-              <span style={{ fontSize: 11, color: 'rgba(255,255,255,.35)', display: 'block', marginTop: 2 }}>Straight talk. Smart strategy.</span>
+            <div className="footer-tagline">
+              <span style={{ fontWeight: 700, color: '#60a5fa' }}>MOVE WITH CONFIDENCE.</span>
+              <span style={{ display: 'block', marginTop: 2 }}>Straight talk. Smart strategy.</span>
             </div>
             <div style={{ marginTop: 12, display: 'flex', gap: 6 }}>
-              {['e-PRO', 'MRP', 'SRS'].map((d) => (
-                <span key={d} style={{ fontSize: 9, fontWeight: 700, padding: '3px 7px', border: '1px solid rgba(255,255,255,.15)', borderRadius: 3, color: 'rgba(255,255,255,.4)' }}>{d}</span>
+              {['e-PRO', 'MRP', 'SRS'].map(d => (
+                <span key={d} className="footer-badge">{d}</span>
               ))}
             </div>
           </div>
 
-          {/* Buyers column */}
+          {/* Buyers */}
           <div>
-            <h4 style={{ fontSize: 11, textTransform: 'uppercase', letterSpacing: '.12em', color: 'rgba(255,255,255,.35)', marginBottom: 16, fontWeight: 700 }}>Buyers</h4>
-            <ul style={{ listStyle: 'none' }}>
+            <p className="footer-heading">Buyers</p>
+            <ul className="footer-links">
               {[
                 ['/valrico-fl-homes-for-sale/', 'Search Homes'],
                 ['/valrico-first-time-homebuyer/', 'First-Time Buyers'],
@@ -62,15 +52,15 @@ export default function Footer() {
                 ['/valrico-relocation-guide/', 'Relocating to Valrico'],
                 ['/valrico-investment-property/', 'Investment Properties'],
               ].map(([h, n]) => (
-                <li key={h} style={{ marginBottom: 7 }}><Link href={h} style={{ fontSize: 13, color: 'rgba(255,255,255,.55)', transition: '.2s' }}>{n}</Link></li>
+                <li key={h}><Link href={h}>{n}</Link></li>
               ))}
             </ul>
           </div>
 
-          {/* Sellers & Resources column */}
+          {/* Sellers & Resources */}
           <div>
-            <h4 style={{ fontSize: 11, textTransform: 'uppercase', letterSpacing: '.12em', color: 'rgba(255,255,255,.35)', marginBottom: 16, fontWeight: 700 }}>Sellers</h4>
-            <ul style={{ listStyle: 'none' }}>
+            <p className="footer-heading">Sellers</p>
+            <ul className="footer-links">
               {[
                 ['/valrico-fl-home-values/', "What's My Home Worth?"],
                 ['/sell-my-home-valrico/', 'Sell My Home'],
@@ -81,29 +71,28 @@ export default function Footer() {
                 ['/valrico-market-report/', 'Market Report'],
                 ['/valrico-property-management/', 'Property Management'],
               ].map(([h, n]) => (
-                <li key={h} style={{ marginBottom: 7 }}><Link href={h} style={{ fontSize: 13, color: 'rgba(255,255,255,.55)', transition: '.2s' }}>{n}</Link></li>
+                <li key={h}><Link href={h}>{n}</Link></li>
               ))}
             </ul>
 
-            <h4 style={{ fontSize: 11, textTransform: 'uppercase', letterSpacing: '.12em', color: 'rgba(255,255,255,.35)', marginTop: 24, marginBottom: 16, fontWeight: 700 }}>Resources</h4>
-            <ul style={{ listStyle: 'none' }}>
+            <p className="footer-heading" style={{ marginTop: 28 }}>Resources</p>
+            <ul className="footer-links">
               {[
                 ['/valrico-school-zones/', 'School Zones'],
-                ['/valrico-realtor/', 'Valrico Realtor'],
-                ['/valrico-real-estate-agent/', 'Valrico Agent'],
                 ['/valrico-55-plus-communities/', '55+ Communities'],
                 ['/living-in-valrico/', 'Living in Valrico'],
                 ['/blog/', 'Blog'],
+                ['/about/', 'About Barrett'],
               ].map(([h, n]) => (
-                <li key={h} style={{ marginBottom: 7 }}><Link href={h} style={{ fontSize: 13, color: 'rgba(255,255,255,.55)', transition: '.2s' }}>{n}</Link></li>
+                <li key={h}><Link href={h}>{n}</Link></li>
               ))}
             </ul>
           </div>
 
-          {/* Neighborhoods column */}
+          {/* Neighborhoods */}
           <div>
-            <h4 style={{ fontSize: 11, textTransform: 'uppercase', letterSpacing: '.12em', color: 'rgba(255,255,255,.35)', marginBottom: 16, fontWeight: 700 }}>Neighborhoods</h4>
-            <ul style={{ listStyle: 'none' }}>
+            <p className="footer-heading">Neighborhoods</p>
+            <ul className="footer-links">
               {[
                 ['/neighborhoods/bloomingdale/', 'Bloomingdale'],
                 ['/neighborhoods/river-hills/', 'River Hills'],
@@ -118,47 +107,145 @@ export default function Footer() {
                 ['/neighborhoods/canterbury-oaks/', 'Canterbury Oaks'],
                 ['/neighborhoods/kings-mill/', 'Kings Mill'],
               ].map(([h, n]) => (
-                <li key={h} style={{ marginBottom: 7 }}><Link href={h} style={{ fontSize: 13, color: 'rgba(255,255,255,.55)', transition: '.2s' }}>{n}</Link></li>
+                <li key={h}><Link href={h}>{n}</Link></li>
               ))}
-              <li style={{ marginTop: 10 }}><Link href="/#neighborhoods" style={{ fontSize: 13, color: '#fff', fontWeight: 600 }}>All 32 Neighborhoods →</Link></li>
+              <li style={{ marginTop: 10 }}><Link href="/#neighborhoods" style={{ color: '#fff', fontWeight: 600 }}>All 32 Neighborhoods →</Link></li>
             </ul>
 
-            <div style={{ marginTop: 24, paddingTop: 16, borderTop: '1px solid rgba(255,255,255,.08)' }}>
-              <h4 style={{ fontSize: 11, textTransform: 'uppercase', letterSpacing: '.12em', color: 'rgba(255,255,255,.35)', marginBottom: 12, fontWeight: 700 }}>More</h4>
+            <div className="footer-more">
+              <p className="footer-heading">More</p>
               {[
                 ['https://nowtb.com', 'nowtb.com'],
                 ['https://bestbayservices.com', 'Best Bay Services'],
-                ['https://bestvalricohandyman.com', 'Best Valrico Handyman'],
                 ['https://valrico.blog', 'Valrico Blog'],
                 ['https://vivipm.com', 'ViVi PM'],
                 ['https://flforeclosurehelp.com', 'FL Foreclosure Help'],
               ].map(([h, n]) => (
-                <a key={h} href={h} target="_blank" rel="noopener" style={{ fontSize: 12, color: 'rgba(255,255,255,.45)', display: 'block', marginBottom: 6, transition: '.2s' }}>{n}</a>
+                <a key={h} href={h} target="_blank" rel="noopener" className="footer-ext-link">{n}</a>
               ))}
             </div>
           </div>
         </div>
 
         {/* Disclaimer */}
-        <p style={{ padding: '20px 0', fontSize: 10, color: 'rgba(255,255,255,.3)', lineHeight: 1.7, borderBottom: '1px solid rgba(255,255,255,.06)' }}>
-          Barrett Henry is a licensed REALTOR® and Broker Associate with REMAX Collective in Brandon, FL. REMAX and the REMAX balloon logo are registered trademarks of RE/MAX, LLC. Equal Housing Opportunity. The information on this website is not intended to solicit properties currently listed for sale or buyers currently under contract. All data is deemed reliable but not guaranteed and should be independently verified.
+        <p className="footer-disclaimer">
+          Barrett Henry is a licensed REALTOR® and Broker Associate with REMAX Collective in Brandon, FL. REMAX and the REMAX balloon logo are registered trademarks of RE/MAX, LLC. Equal Housing Opportunity. The information on this website is not intended to solicit properties currently listed for sale or buyers currently under contract. All data is deemed reliable but not guaranteed.
         </p>
 
         {/* Bottom bar */}
-        <div style={{ display: 'flex', justifyContent: 'space-between', padding: '16px 0 20px', fontSize: 11, color: 'rgba(255,255,255,.3)', flexWrap: 'wrap', gap: 8 }}>
+        <div className="footer-bottom">
           <span>© 2026 Barrett Henry, REALTOR® · REMAX Collective</span>
-          <span>Built by <a href="https://vyrabyte.com" target="_blank" rel="noopener" style={{ color: 'rgba(255,255,255,.4)' }}>Vyrabyte</a></span>
+          <span>Built by <a href="https://vyrabyte.com" target="_blank" rel="noopener" style={{ color: 'rgba(255,255,255,.5)' }}>Vyrabyte</a></span>
         </div>
       </div>
 
       <style>{`
+        .site-footer {
+          background: #0f172a;
+          color: #fff;
+          padding: 64px 0 0;
+        }
+        .footer-inner {
+          max-width: 1200px;
+          margin: 0 auto;
+          padding: 0 24px;
+        }
+        .footer-grid {
+          display: grid;
+          grid-template-columns: 1.3fr 1fr 1fr 1fr;
+          gap: 48;
+          padding-bottom: 40px;
+          border-bottom: 1px solid rgba(255,255,255,.08);
+        }
+        .footer-brand {
+          display: flex;
+          align-items: center;
+          gap: 12px;
+          margin-bottom: 20px;
+        }
+        .footer-address {
+          font-size: 13px;
+          color: rgba(255,255,255,.45);
+          line-height: 1.8;
+        }
+        .footer-phone {
+          font-size: 16px;
+          font-weight: 700;
+          color: #fff;
+        }
+        .footer-email {
+          font-size: 13px;
+          color: rgba(255,255,255,.45);
+        }
+        .footer-tagline {
+          margin-top: 24px;
+          padding-top: 20px;
+          border-top: 1px solid rgba(255,255,255,.06);
+          font-size: 11px;
+          letter-spacing: .1em;
+          color: rgba(255,255,255,.3);
+        }
+        .footer-badge {
+          font-size: 9px;
+          font-weight: 700;
+          padding: 3px 8px;
+          border: 1px solid rgba(255,255,255,.12);
+          border-radius: 4px;
+          color: rgba(255,255,255,.35);
+        }
+        .footer-heading {
+          font-size: 11px;
+          text-transform: uppercase;
+          letter-spacing: .14em;
+          color: rgba(255,255,255,.3);
+          margin-bottom: 16px;
+          font-weight: 700;
+        }
+        .footer-links {
+          list-style: none;
+        }
+        .footer-links li { margin-bottom: 8px; }
+        .footer-links a {
+          font-size: 13px;
+          color: rgba(255,255,255,.5);
+          transition: color .2s;
+        }
+        .footer-links a:hover { color: #fff; }
+        .footer-more {
+          margin-top: 28px;
+          padding-top: 20px;
+          border-top: 1px solid rgba(255,255,255,.06);
+        }
+        .footer-ext-link {
+          font-size: 12px;
+          color: rgba(255,255,255,.4);
+          display: block;
+          margin-bottom: 7px;
+          transition: color .2s;
+        }
+        .footer-ext-link:hover { color: #fff; }
+        .footer-disclaimer {
+          padding: 20px 0;
+          font-size: 10px;
+          color: rgba(255,255,255,.25);
+          line-height: 1.7;
+          border-bottom: 1px solid rgba(255,255,255,.05);
+        }
+        .footer-bottom {
+          display: flex;
+          justify-content: space-between;
+          padding: 18px 0 22px;
+          font-size: 11px;
+          color: rgba(255,255,255,.25);
+          flex-wrap: wrap;
+          gap: 8px;
+        }
         @media (max-width: 768px) {
-          footer > div > div:first-child { grid-template-columns: 1fr !important; gap: 32px !important; }
+          .footer-grid { grid-template-columns: 1fr !important; gap: 36px !important; }
         }
         @media (min-width: 769px) and (max-width: 1024px) {
-          footer > div > div:first-child { grid-template-columns: 1fr 1fr !important; }
+          .footer-grid { grid-template-columns: 1fr 1fr !important; }
         }
-        footer a:hover { color: #fff !important; }
       `}</style>
     </footer>
   );

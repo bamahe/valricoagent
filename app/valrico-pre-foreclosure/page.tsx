@@ -128,6 +128,16 @@ export default function ValricoPreForeclosure() {
 
       {/* RealEstateAgent JSON-LD */}
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify({"@context":"https://schema.org","@type":"RealEstateAgent","name":"Barrett Henry","jobTitle":"REALTOR® & Broker Associate","url":"https://valricoagent.com/valrico-pre-foreclosure/","telephone":"(813) 733-7907","email":"barrett@nowtb.com","image":"https://valricoagent.com/barrett-henry.jpg","address":{"@type":"PostalAddress","addressLocality":"Valrico","addressRegion":"FL","addressCountry":"US"},"worksFor":{"@type":"RealEstateOrganization","name":"REMAX Collective"},"description":"Barrett Henry is a REALTOR® and Broker Associate at REMAX Collective with 23+ years of real estate experience, helping Valrico homeowners navigate pre-foreclosure options."})}} />
+
+      {/* BreadcrumbList JSON-LD */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://valricoagent.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Pre-Foreclosure Help", "item": "https://valricoagent.com/valrico-pre-foreclosure/" },
+        ]
+      }) }} />
     </>
   );
 }

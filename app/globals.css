@@ -3,22 +3,34 @@
 
 @import "tailwindcss";
 
-/* === Theme === */
+/* === Theme tokens === */
 @theme {
   --color-blue: #003da5;
-  --color-blue-deep: #003da5;
-  --color-blue-mid: #0f3460;
+  --color-blue-dark: #002a7a;
+  --color-blue-deep: #001f5c;
   --color-red: #cc0000;
-  --color-ink: #222;
-  --color-ink-soft: #555;
+  --color-ink: #1a1a1a;
+  --color-ink-soft: #4a4a4a;
   --color-ink-muted: #888;
-  --color-cream: #faf9f7;
-  --color-cream-warm: #f5f0ea;
-  --color-border: #e5e5e5;
+  --color-cream: #fafafa;
+  --color-border: #e8e8e8;
   --color-accent: #003da5;
-  --color-accent-hover: #002a7a;
   --font-serif: 'Merriweather', Georgia, serif;
   --font-sans: 'Poppins', sans-serif;
+}
+
+/* === Legacy CSS vars used across 69 pages === */
+:root {
+  --blue-deep: #003da5;
+  --blue-mid: #0f3460;
+  --ink: #1a1a1a;
+  --ink-soft: #4a4a4a;
+  --ink-muted: #888;
+  --border: #e8e8e8;
+  --cream: #fafafa;
+  --cream-warm: #f5f0ea;
+  --accent: #003da5;
+  --accent-hover: #002a7a;
 }
 
 /* === Base === */
@@ -26,58 +38,156 @@ html { scroll-behavior: smooth; }
 
 body {
   font-family: 'Poppins', sans-serif;
-  color: #222;
+  color: #1a1a1a;
   background: #fff;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   font-size: 16px;
 }
 
-img { max-width: 100%; display: block; }
+img { display: block; }
 a { color: inherit; text-decoration: none; }
 
+/* === Typography === */
 .font-serif { font-family: 'Merriweather', Georgia, serif !important; }
 
+.section-eyebrow {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  margin-bottom: 0.75rem;
+}
+
+.section-title {
+  font-family: 'Merriweather', Georgia, serif;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 700;
+  line-height: 1.25;
+  color: #1a1a1a;
+  margin-bottom: 0.75rem;
+}
+
+.section-intro {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #4a4a4a;
+  max-width: 640px;
+  margin-bottom: 2rem;
+}
+
 /* === Buttons === */
-.btn-solid {
-  display: inline-block;
-  padding: 12px 28px;
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 13px 28px;
   background: #003da5;
   color: #fff !important;
   font-weight: 600;
   font-size: 14px;
-  border-radius: 6px;
-  text-decoration: none;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: all .2s;
+}
+.btn-primary:hover {
+  background: #002a7a;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 16px rgba(0, 61, 165, 0.25);
+}
+
+.btn-outline {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 13px 28px;
+  border: 1.5px solid #e8e8e8;
+  color: #1a1a1a;
+  font-weight: 500;
+  font-size: 14px;
+  border-radius: 8px;
+  background: transparent;
+  cursor: pointer;
+  transition: all .2s;
+}
+.btn-outline:hover {
+  border-color: #003da5;
+  color: #003da5;
+}
+
+.btn-white {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 13px 28px;
+  background: #fff;
+  color: #003da5 !important;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: all .2s;
+}
+.btn-white:hover {
+  background: #f0f4ff;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 16px rgba(255,255,255,0.25);
+}
+
+.btn-ghost-white {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 13px 28px;
+  border: 1.5px solid rgba(255, 255, 255, 0.35);
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  border-radius: 8px;
+  background: transparent;
+  cursor: pointer;
+  transition: all .2s;
+}
+.btn-ghost-white:hover {
+  border-color: #fff;
+  background: rgba(255,255,255,.1);
+}
+
+/* Legacy class names used across 69 pages */
+.btn-solid {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 13px 28px;
+  background: #003da5;
+  color: #fff !important;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
   transition: all .2s;
 }
 .btn-solid:hover {
   background: #002a7a;
   transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(0, 61, 165, 0.3);
+  box-shadow: 0 4px 16px rgba(0, 61, 165, 0.25);
 }
-
-/* White button for use on blue/dark backgrounds */
-[style*="003da5"] .btn-solid,
-[style*="blue-deep"] .btn-solid,
-[style*="001f5c"] .btn-solid {
-  background: #fff !important;
-  color: #003da5 !important;
-}
-[style*="003da5"] .btn-solid:hover,
-[style*="blue-deep"] .btn-solid:hover,
-[style*="001f5c"] .btn-solid:hover {
-  background: #f0f0f0 !important;
-}
-
 .btn-ghost {
-  display: inline-block;
-  padding: 12px 28px;
-  border: 1.5px solid #e5e5e5;
-  color: #222;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 13px 28px;
+  border: 1.5px solid #e8e8e8;
+  color: #1a1a1a;
   font-weight: 500;
   font-size: 14px;
-  border-radius: 6px;
-  text-decoration: none;
+  border-radius: 8px;
+  background: transparent;
+  cursor: pointer;
   transition: all .2s;
 }
 .btn-ghost:hover {
@@ -85,112 +195,109 @@ a { color: inherit; text-decoration: none; }
   color: #003da5;
 }
 
-/* === Section typography === */
-.eyebrow {
-  font-size: 0.72rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.15em;
-  color: #888;
-  margin-bottom: 0.5rem;
+/* === Cards === */
+.card {
+  background: #fff;
+  border-radius: 12px;
+  border: 1px solid #e8e8e8;
+  transition: box-shadow .25s, transform .25s;
+}
+.card:hover {
+  box-shadow: 0 8px 30px rgba(0,0,0,.08);
+  transform: translateY(-2px);
 }
 
-.sec-title {
-  font-family: 'Merriweather', Georgia, serif;
-  font-size: clamp(1.5rem, 3vw, 2rem);
-  font-weight: 700;
-  line-height: 1.25;
-  color: #222;
-  margin-bottom: 0.75rem;
+/* === Section spacing === */
+.section {
+  padding: 72px 0;
+}
+.section-alt {
+  padding: 72px 0;
+  background: #fafafa;
+}
+.section-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
 }
 
-.sec-intro {
-  font-size: 1rem;
-  line-height: 1.7;
-  color: #555;
-  max-width: 680px;
-  margin-bottom: 2rem;
+/* === Focus styles (a11y) === */
+:focus-visible {
+  outline: 2px solid #003da5;
+  outline-offset: 2px;
 }
 
-/* === Hero blue bg — force it since Tailwind v4 resets fight inline styles === */
-[style*="blue-deep"],
-[style*="003da5"] {
-  background: #003da5 !important;
-  color: #fff !important;
+/* === Print === */
+@media print {
+  nav, footer, .mobile-bottom-bar { display: none !important; }
+  body { font-size: 12pt; }
 }
 
-/* === Force padding on hero sections === */
-.hero-section {
-  background: #003da5;
-  color: #fff;
-  padding: 64px 28px;
-}
-
-/* === Ghost button on dark backgrounds === */
-.btn-ghost-white {
-  display: inline-block;
-  padding: 12px 28px;
-  border: 1.5px solid rgba(255, 255, 255, 0.4);
-  color: #fff;
-  font-weight: 600;
-  font-size: 14px;
-  border-radius: 6px;
-  text-decoration: none;
-  transition: all .2s;
-}
-.btn-ghost-white:hover {
-  border-color: #fff;
-}
-
-/* === No underline utility === */
-.no-underline { text-decoration: none !important; }
-
-/* === Responsive — force single-column on mobile for inline-styled grids === */
+/* === Responsive === */
 @media (max-width: 768px) {
-  .hero-section { padding: 48px 20px; }
+  .section, .section-alt { padding: 48px 0; }
 
-  /* Override inline grid-template-columns on all sections */
-  [style*="grid-template-columns"],
-  [style*="gridTemplateColumns"] {
-    grid-template-columns: 1fr !important;
-  }
-
-  /* Fix hero padding */
-  section[style*="padding: 80px"],
-  section[style*="padding:80px"] {
-    padding: 48px 0 40px !important;
-  }
-
-  /* Fix headings not wrapping */
   h1, h2 {
     word-break: break-word;
     overflow-wrap: break-word;
   }
 
-  /* Hide hero image on very small screens to save space */
-  @media (max-width: 480px) {
-    section [style*="text-align: center"]:last-child img,
-    section [style*="textAlign:'center'"]:last-child img {
-      max-width: 240px !important;
-    }
-  }
-
-  /* Stat/card grids — 2 columns on tablet, 1 on phone */
-  [style*="grid-template-columns: repeat"] {
-    grid-template-columns: 1fr 1fr !important;
-  }
-}
-
-@media (max-width: 480px) {
-  [style*="grid-template-columns: repeat"],
-  [style*="gridTemplateColumns"] {
+  /* Force all inline grid layouts to stack on mobile */
+  [style*="gridTemplateColumns"],
+  [style*="grid-template-columns"] {
     grid-template-columns: 1fr !important;
   }
 
-  /* Smaller padding on phone */
-  [style*="padding: 0 24px"],
-  [style*="padding:'0 24px'"] {
-    padding-left: 16px !important;
-    padding-right: 16px !important;
+  /* Hero image: center and size down */
+  [style*="gridTemplateColumns"] img[alt*="Barrett"] {
+    max-width: 220px !important;
+    margin: 0 auto !important;
+  }
+
+  /* Market snapshot stat numbers */
+  [style*="gridTemplateColumns"] [style*="fontSize: 28"] {
+    font-size: 22px !important;
+  }
+
+  /* Keep market stats 2-col grid on mobile */
+  [style*="gap: 14"] {
+    grid-template-columns: 1fr 1fr !important;
+  }
+
+  /* Neighborhoods: 2-col on mobile instead of 4 */
+  [style*="repeat(4"] {
+    grid-template-columns: 1fr 1fr !important;
+  }
+
+  /* Testimonials: prevent overflow on narrow screens */
+  [style*="minmax(340px"] {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Blog header: stack title above "All Posts" link */
+  [style*="justifyContent: 'space-between'"] {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 8px !important;
+  }
+
+  /* Section gap reduction on mobile */
+  [style*="gap: 56"] {
+    gap: 32px !important;
+  }
+
+  /* Footer grid */
+  .footer-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* Tablet breakpoint — 2 columns for 3-col grids */
+@media (min-width: 769px) and (max-width: 1024px) {
+  [style*="repeat(3"] {
+    grid-template-columns: 1fr 1fr !important;
+  }
+  [style*="repeat(4"] {
+    grid-template-columns: 1fr 1fr !important;
   }
 }

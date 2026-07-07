@@ -1,5 +1,5 @@
-'use client';
 import Link from 'next/link';
+import PropertySearch from '../components/PropertySearch';
 
 export default function HomesForSale() {
   return (
@@ -8,16 +8,15 @@ export default function HomesForSale() {
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{color:'rgba(255,255,255,.5)'}}>Search Valrico</div>
           <h1 className="font-serif text-[clamp(28px,4vw,40px)] leading-tight tracking-tight mb-4">Valrico FL Homes for Sale — Live Listings in 33594 &amp; 33596</h1>
-          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{color:'rgba(255,255,255,.75)'}}>Search every active listing in Valrico, updated directly from Stellar MLS. Filter by neighborhood, price, pool, no HOA, school zone, and more. Barrett Henry, REALTOR® with <a href="https://nowtb.com" target="_blank" rel="noopener" className="text-white underline">RE/MAX Collective</a> is your Valrico real estate agent for buying in 33594 and 33596.</p>
+          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{color:'rgba(255,255,255,.75)'}}>Search every active listing in Valrico, updated directly from Stellar MLS. Filter by price, bedrooms, pool, waterfront, and more. Barrett Henry, REALTOR® with <a href="https://nowtb.com" target="_blank" rel="noopener" className="text-white underline">RE/MAX Collective</a> is your Valrico real estate agent for buying in 33594 and 33596.</p>
         </div>
       </div>
 
       <div className="max-w-[1140px] mx-auto px-7 py-12">
-        <div className="border-2 border-dashed rounded-lg p-16 text-center mb-12" style={{borderColor:'var(--border)'}}>
-          <p className="font-serif text-2xl mb-3" style={{color:'var(--ink)'}}>IDX Search Widget</p>
-          <p className="text-sm mb-4" style={{color:'var(--ink-muted)'}}>Showcase IDX or IDX Broker search widget will be embedded here.<br/>This pulls live listings directly from Stellar MLS.</p>
-          <p className="text-xs" style={{color:'var(--ink-muted)'}}>Configure: Valrico 33594 + 33596, default sort by newest, all property types</p>
-        </div>
+        {/* Live MLS search — pulls from Bridge MLS API (Stellar MLS data) */}
+        <PropertySearch defaultCity="Valrico" heading="Valrico Homes for Sale" />
+
+        <div style={{ marginTop: 48 }} />
 
         <h2 className="font-serif text-2xl mb-4">Search by neighborhood</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 mb-12">

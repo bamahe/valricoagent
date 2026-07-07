@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Valrico Forest Homes for Sale — Valrico FL 33594 | Barrett Henry, REALTOR®",
+  title: "Valrico Forest Homes for Sale — Valrico FL 33594",
   description:
-    "Valrico Forest homes for sale in Valrico FL 33594. Wooded lots, $400K-$525K, Newsome HS zone. Neighborhood guide with pricing, schools, HOA, commute times, and comparisons. Barrett Henry, REMAX Collective. (813) 733-7907.",
+    "Valrico Forest homes for sale in Valrico FL 33594. Wooded lots, $400K-$525K, Newsome HS zone. Spacious tree-canopied lots with natural privacy. Call (813) 733-7907.",
   alternates: { canonical: "/neighborhoods/valrico-forest/" },
   openGraph: {
-    title: "Valrico Forest Homes for Sale — Valrico FL 33594 | Barrett Henry",
+    title: "Valrico Forest Homes for Sale — Valrico FL 33594",
     description:
       "Tree-canopied neighborhood in north Valrico. $400K-$525K. Newsome HS zone. Spacious wooded lots with natural privacy. Barrett Henry, REALTOR® at REMAX Collective.",
     url: "https://valricoagent.com/neighborhoods/valrico-forest/",

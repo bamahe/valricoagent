@@ -257,6 +257,16 @@ export default function ValricoRealEstate() {
       {/* JSON-LD structured data */}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema[0]) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema[1]) }} />
+
+      {/* BreadcrumbList JSON-LD */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://valricoagent.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Valrico Real Estate", "item": "https://valricoagent.com/valrico-real-estate/" },
+        ]
+      }) }} />
     </>
   );
 }
