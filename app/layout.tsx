@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
+import CookieConsent from "./components/CookieConsent";
 
 export const metadata: Metadata = {
   title: {
@@ -147,6 +148,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Nav />
         <main id="main-content">{children}</main>
         <Footer />
+        {/* Cookie consent banner — shows on first visit, dismissible */}
+        <CookieConsent />
       </body>
     </html>
   );
