@@ -74,7 +74,7 @@ export default function Home() {
               { icon: 'search', title: 'Search Homes', desc: 'Every active listing in Valrico — updated directly from Stellar MLS.', href: '/valrico-fl-homes-for-sale/', cta: 'Start Search' },
               { icon: 'trending_up', title: 'Sell Your Home', desc: 'Strategic pricing from sub-neighborhood comps. Professional marketing. Sharp negotiation.', href: '/sell-my-home-valrico/', cta: 'Selling Guide' },
               { icon: 'assessment', title: "What's My Home Worth?", desc: 'Free CMA from actual closed comps in your section of Valrico — not a Zestimate.', href: '/valrico-fl-home-values/', cta: 'Get Your Value' },
-              { icon: 'map', title: '32 Neighborhoods', desc: 'Detailed guides for every subdivision with pricing, schools, and who fits best.', href: '/#neighborhoods', cta: 'Explore' },
+              { icon: 'map', title: '32 Neighborhoods', desc: 'Detailed guides for every subdivision with pricing, schools, and who fits best.', href: '/neighborhoods/', cta: 'Explore' },
               { icon: 'school', title: 'School Zones', desc: 'Bloomingdale HS & Newsome HS zones — how school zoning affects home value.', href: '/valrico-school-zones/', cta: 'School Guide' },
               { icon: 'apartment', title: 'Property Management', desc: 'Full-service rental management for Valrico landlords. In-house maintenance.', href: '/valrico-property-management/', cta: 'Learn More' },
             ].map((s) => (
@@ -242,7 +242,7 @@ export default function Home() {
             ))}
           </div>
           <p style={{ textAlign: 'center', marginTop: 24 }}>
-            <Link href="/#neighborhoods" style={{ fontWeight: 600, fontSize: 14, color: '#003da5' }}>
+            <Link href="/neighborhoods/" style={{ fontWeight: 600, fontSize: 14, color: '#003da5' }}>
               View All 32 Neighborhoods →
             </Link>
           </p>

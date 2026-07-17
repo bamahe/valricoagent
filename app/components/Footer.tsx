@@ -109,7 +109,7 @@ export default function Footer() {
               ].map(([h, n]) => (
                 <li key={h}><Link href={h}>{n}</Link></li>
               ))}
-              <li style={{ marginTop: 10 }}><Link href="/#neighborhoods" style={{ color: '#fff', fontWeight: 600 }}>All 32 Neighborhoods →</Link></li>
+              <li style={{ marginTop: 10 }}><Link href="/neighborhoods/" style={{ color: '#fff', fontWeight: 600 }}>All 32 Neighborhoods →</Link></li>
             </ul>
 
             <div className="footer-more">

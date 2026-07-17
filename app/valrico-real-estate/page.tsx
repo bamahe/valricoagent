@@ -63,7 +63,7 @@ export default function ValricoRealEstate() {
     { name: 'Twin Lakes', href: '/neighborhoods/twin-lakes/', desc: 'Established community, mature trees, central location' },
     { name: 'Brentwood Hills', href: '/neighborhoods/brentwood-hills/', desc: 'Larger lots, no HOA options, quiet streets' },
     { name: 'Crestwood Estates', href: '/neighborhoods/crestwood-estates/', desc: 'Custom homes, acreage, privacy' },
-    { name: 'Canterbury Oaks', href: '/#neighborhoods', desc: 'Well-maintained, active HOA, community pool' },
+    { name: 'Canterbury Oaks', href: '/neighborhoods/', desc: 'Well-maintained, active HOA, community pool' },
   ];
 
   /* Property type links */
@@ -177,7 +177,7 @@ export default function ValricoRealEstate() {
           ))}
         </div>
         <p className="text-sm mt-4">
-          <Link href="/#neighborhoods" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>View all 32 Valrico neighborhoods &rarr;</Link>
+          <Link href="/neighborhoods/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>View all 32 Valrico neighborhoods &rarr;</Link>
         </p>
 
         {/* Property Types */}
