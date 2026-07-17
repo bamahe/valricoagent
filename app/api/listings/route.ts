@@ -4,10 +4,12 @@
  * Proxies search requests to Bridge MLS API.
  * Query params get passed through to the Bridge client.
  * This keeps the server token hidden from the browser.
+ *
+ * Caching: in-memory (5 min) + CDN (5 min s-maxage + 10 min stale-while-revalidate)
  */
 
 import { NextRequest, NextResponse } from 'next/server';
-import { searchListings, type PropertySearchParams } from '@/lib/bridge';
+import { searchListings, isRateLimited, type PropertySearchParams } from '@/lib/bridge';
 
 export async function GET(request: NextRequest) {
   const sp = request.nextUrl.searchParams;
@@ -27,10 +29,14 @@ export async function GET(request: NextRequest) {
   if (sp.get('poolOnly') === 'true') params.poolOnly = true;
   if (sp.get('waterfrontOnly') === 'true') params.waterfrontOnly = true;
   if (sp.get('noHoa') === 'true') params.noHoa = true;
-  // Subdivision filters — single or multiple MLS subdivision names
+  // Subdivision filters
   if (sp.get('subdivision')) params.subdivision = sp.get('subdivision')!;
   if (sp.get('subdivisions')) {
     params.subdivisions = sp.get('subdivisions')!.split(',').map(s => s.trim()).filter(Boolean);
+  }
+  // Sale vs rent — defaults to "sale" in bridge.ts if not specified
+  if (sp.get('listingType') === 'rent' || sp.get('listingType') === 'sale') {
+    params.listingType = sp.get('listingType') as 'sale' | 'rent';
   }
   if (sp.get('sortBy')) params.sortBy = sp.get('sortBy') as PropertySearchParams['sortBy'];
   if (sp.get('limit')) params.limit = parseInt(sp.get('limit')!);
@@ -38,10 +44,14 @@ export async function GET(request: NextRequest) {
 
   const result = await searchListings(params);
 
-  return NextResponse.json(result, {
-    headers: {
-      // Cache at CDN for 5 min, allow stale for 1 hour while revalidating
-      'Cache-Control': 'public, s-maxage=300, stale-while-revalidate=3600',
-    },
-  });
+  // Add rate limit header for debugging
+  const headers: Record<string, string> = {
+    // Layer 3: CDN cache — 5 min fresh, 10 min stale-while-revalidate
+    'Cache-Control': 'public, s-maxage=300, stale-while-revalidate=600',
+  };
+  if (isRateLimited()) {
+    headers['X-Bridge-Rate-Limited'] = 'true';
+  }
+
+  return NextResponse.json(result, { headers });
 }

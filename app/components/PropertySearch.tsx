@@ -25,6 +25,10 @@ interface PropertySearchProps {
   defaultSubdivision?: string;
   /** Hidden filter: multiple MLS subdivision names (OR match) */
   defaultSubdivisions?: string[];
+  /** "sale" (default) or "rent" — shows a toggle when true */
+  showRentToggle?: boolean;
+  /** Force listing type without showing toggle */
+  defaultListingType?: 'sale' | 'rent';
 }
 
 export default function PropertySearch({
@@ -35,8 +39,11 @@ export default function PropertySearch({
   waterfrontOnly: defaultWaterfrontOnly = false,
   defaultSubdivision,
   defaultSubdivisions,
+  showRentToggle = false,
+  defaultListingType = 'sale',
 }: PropertySearchProps) {
   // Filter state
+  const [listingType, setListingType] = useState<'sale' | 'rent'>(defaultListingType);
   const [minPrice, setMinPrice] = useState('');
   const [maxPrice, setMaxPrice] = useState('');
   const [minBeds, setMinBeds] = useState('');
@@ -65,6 +72,7 @@ export default function PropertySearch({
     if (minBaths) params.set('minBaths', minBaths);
     if (poolOnly) params.set('poolOnly', 'true');
     if (waterfrontOnly) params.set('waterfrontOnly', 'true');
+    params.set('listingType', listingType);
     // Hidden subdivision filters — passed with every request, not shown in UI
     if (defaultSubdivisions && defaultSubdivisions.length > 0) {
       params.set('subdivisions', defaultSubdivisions.join(','));
@@ -87,7 +95,7 @@ export default function PropertySearch({
     } finally {
       setLoading(false);
     }
-  }, [defaultCity, defaultZip, minPrice, maxPrice, minBeds, minBaths, poolOnly, waterfrontOnly, sortBy, defaultSubdivision, defaultSubdivisions]);
+  }, [defaultCity, defaultZip, minPrice, maxPrice, minBeds, minBaths, poolOnly, waterfrontOnly, sortBy, listingType, defaultSubdivision, defaultSubdivisions]);
 
   // Initial fetch
   useEffect(() => {
@@ -113,6 +121,38 @@ export default function PropertySearch({
 
   return (
     <div>
+      {/* Buy / Rent toggle */}
+      {showRentToggle && (
+        <div style={{ display: 'flex', gap: 0, marginBottom: 16 }}>
+          <button
+            type="button"
+            onClick={() => { setListingType('sale'); setPage(0); }}
+            style={{
+              flex: 1, padding: '12px 0', fontSize: 15, fontWeight: 700,
+              border: '2px solid #003da5', cursor: 'pointer',
+              borderRadius: '8px 0 0 8px',
+              background: listingType === 'sale' ? '#003da5' : '#fff',
+              color: listingType === 'sale' ? '#fff' : '#003da5',
+            }}
+          >
+            Buy
+          </button>
+          <button
+            type="button"
+            onClick={() => { setListingType('rent'); setPage(0); }}
+            style={{
+              flex: 1, padding: '12px 0', fontSize: 15, fontWeight: 700,
+              border: '2px solid #003da5', borderLeft: 'none', cursor: 'pointer',
+              borderRadius: '0 8px 8px 0',
+              background: listingType === 'rent' ? '#003da5' : '#fff',
+              color: listingType === 'rent' ? '#fff' : '#003da5',
+            }}
+          >
+            Rent
+          </button>
+        </div>
+      )}
+
       {/* Filter bar */}
       <form onSubmit={handleSearch} style={{
         background: '#fff',
@@ -226,7 +266,7 @@ export default function PropertySearch({
           {loading ? (
             'Searching...'
           ) : (
-            <><strong>{total.toLocaleString()}</strong> {total === 1 ? 'home' : 'homes'} found</>
+            <><strong>{total.toLocaleString()}</strong> {listingType === 'rent' ? (total === 1 ? 'rental' : 'rentals') : (total === 1 ? 'home' : 'homes')} found</>
           )}
         </div>
         {heading && <div style={{ fontSize: 11, color: '#888' }}>Updated from Stellar MLS</div>}

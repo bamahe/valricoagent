@@ -14,7 +14,7 @@ export default function HomesForSale() {
 
       <div className="max-w-[1140px] mx-auto px-7 py-12">
         {/* Live MLS search — pulls from Bridge MLS API (Stellar MLS data) */}
-        <PropertySearch defaultCity="Valrico" heading="Valrico Homes for Sale" />
+        <PropertySearch defaultCity="Valrico" heading="Valrico Homes for Sale" showRentToggle />
 
         <div style={{ marginTop: 48 }} />
 

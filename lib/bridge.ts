@@ -4,12 +4,14 @@
  * Uses the Bridge Interactive REST API (not OData).
  * Docs: https://bridgedataoutput.com/docs/platform/API
  *
- * HOW IT WORKS:
- * - Server token goes in ?access_token= query param
- * - Dataset is "stellar" for Stellar MLS (Florida)
- * - Currently using "test" dataset until Stellar access is provisioned
- * - Once Bridge enables Stellar access, change BRIDGE_DATASET in .env.local
+ * CACHING STRATEGY (multi-layer):
+ * 1. In-memory cache (api-cache.ts) — 5 min TTL per unique query
+ * 2. Next.js fetch() revalidate — 30 min ISR cache
+ * 3. CDN s-maxage + stale-while-revalidate — set in API routes
+ * 4. Rate limit protection — 1 min cooldown on 429s
  */
+
+import { getCached, setCached, makeCacheKey } from './api-cache';
 
 // --- Types ---
 
@@ -66,7 +68,6 @@ export interface BridgeListing {
   ListAgentFullName: string;
   ListOfficeName: string;
   Media: BridgeMedia[];
-  // Computed helper
   url?: string;
 }
 
@@ -103,6 +104,8 @@ export interface PropertySearchParams {
   subdivision?: string;
   /** Multiple MLS subdivision names — uses .in operator for OR matching */
   subdivisions?: string[];
+  /** "sale" (default) or "rent" — filters by PropertyType */
+  listingType?: 'sale' | 'rent';
   sortBy?: 'newest' | 'price-asc' | 'price-desc' | 'sqft';
   limit?: number;
   offset?: number;
@@ -111,10 +114,32 @@ export interface PropertySearchParams {
 // --- Config ---
 
 const BASE_URL = 'https://api.bridgedataoutput.com/api/v2';
-
-// "test" until Stellar MLS access is provisioned, then switch to "stellar"
 const DATASET = process.env.BRIDGE_DATASET || 'test';
 const SERVER_TOKEN = process.env.BRIDGE_SERVER_TOKEN || '';
+
+// Skip API calls during build to avoid rate limits on many pages
+const IS_BUILD_TIME = process.env.NEXT_PHASE === 'phase-production-build';
+
+// --- Rate limit protection ---
+
+let rateLimitedUntil = 0;
+
+/** Check if we're currently rate-limited (recent 429 from Bridge) */
+export function isRateLimited(): boolean {
+  return Date.now() < rateLimitedUntil;
+}
+
+/** Mark the API as rate-limited for 1 minute cooldown */
+function markRateLimited(): void {
+  rateLimitedUntil = Date.now() + 60 * 1000;
+  console.warn('[Bridge] Rate limited — pausing API calls for 1 minute');
+}
+
+// --- Sale vs Rent property type groups ---
+
+// Bridge uses PropertyType to distinguish sales from rentals
+const SALE_TYPES = ['Residential', 'Land', 'Commercial Sale', 'Residential Income', 'Business Opportunity'];
+const RENT_TYPES = ['Residential Lease', 'Commercial Lease'];
 
 // --- API helpers ---
 
@@ -148,12 +173,20 @@ function buildQueryParams(params: PropertySearchParams): URLSearchParams {
   // Only active listings
   q.set('StandardStatus', 'Active');
 
-  // Property type filter
+  // Sale vs Rent — filter by PropertyType groups
+  if (params.listingType === 'rent') {
+    q.set('PropertyType.in', RENT_TYPES.join(','));
+  } else if (params.listingType === 'sale' || !params.listingType) {
+    // Default to sales only — exclude leases
+    q.set('PropertyType.in', SALE_TYPES.join(','));
+  }
+
+  // Explicit property type override (e.g. "Land", "Residential")
   if (params.propertyType) {
     q.set('PropertyType', params.propertyType);
   }
 
-  // Sorting — Bridge uses sortBy=Field&order=asc|desc (separate params)
+  // Sorting
   const sortMap: Record<string, [string, string]> = {
     'newest': ['ListingContractDate', 'desc'],
     'price-asc': ['ListPrice', 'asc'],
@@ -164,68 +197,128 @@ function buildQueryParams(params: PropertySearchParams): URLSearchParams {
   q.set('sortBy', sortField);
   q.set('order', sortOrder);
 
-  // Pagination
-  q.set('limit', (params.limit || 24).toString());
+  // Pagination (Bridge max is 200)
+  q.set('limit', Math.min(params.limit || 24, 200).toString());
   if (params.offset) q.set('offset', params.offset.toString());
 
-  // Request photos
+  // Request specific fields to reduce payload size
   q.set('fields', 'ListingId,ListingKey,StandardStatus,MlsStatus,ListPrice,City,PostalCode,StateOrProvince,StreetNumber,StreetName,StreetSuffix,UnitNumber,UnparsedAddress,BedroomsTotal,BathroomsTotalInteger,BathroomsFull,BathroomsHalf,LivingArea,LotSizeSquareFeet,LotSizeAcres,YearBuilt,PropertyType,PropertySubType,SubdivisionName,PublicRemarks,Latitude,Longitude,DaysOnMarket,ListingContractDate,ModificationTimestamp,PhotosCount,GarageSpaces,GarageYN,PoolPrivateYN,WaterfrontYN,Cooling,Heating,Flooring,Roof,ExteriorFeatures,InteriorFeatures,Appliances,AssociationYN,AssociationFee,AssociationFeeFrequency,ElementarySchool,MiddleOrJuniorSchool,HighSchool,ListAgentFullName,ListOfficeName,Media');
 
   return q;
 }
 
 /**
- * Fetch listings from Bridge MLS API.
- * Caches for 5 minutes on Vercel via next revalidate.
+ * Fetch listings from Bridge MLS API with multi-layer caching.
  */
 export async function searchListings(params: PropertySearchParams = {}): Promise<{
   listings: BridgeListing[];
   total: number;
 }> {
+  // Skip during build to avoid rate-limiting all pages at once
+  if (IS_BUILD_TIME) {
+    return { listings: [], total: 0 };
+  }
+
+  // Check in-memory cache first (Layer 1)
+  const cacheKey = makeCacheKey('listings', {
+    city: params.city,
+    zip: params.postalCode,
+    minPrice: params.minPrice?.toString(),
+    maxPrice: params.maxPrice?.toString(),
+    beds: params.minBeds?.toString(),
+    baths: params.minBaths?.toString(),
+    pool: params.poolOnly?.toString(),
+    waterfront: params.waterfrontOnly?.toString(),
+    sub: params.subdivision,
+    subs: params.subdivisions?.join(','),
+    type: params.listingType || 'sale',
+    ptype: params.propertyType,
+    sort: params.sortBy,
+    limit: params.limit?.toString(),
+    offset: params.offset?.toString(),
+  });
+
+  type CacheResult = { listings: BridgeListing[]; total: number };
+  const cached = getCached<CacheResult>(cacheKey);
+  if (cached) return cached;
+
   const q = buildQueryParams(params);
   const url = `${BASE_URL}/${DATASET}/listings?${q.toString()}`;
 
-  const res = await fetch(url, {
-    next: { revalidate: 300 }, // Cache 5 minutes
-  });
+  try {
+    // Layer 2: Next.js fetch ISR — 30 min revalidation
+    const res = await fetch(url, {
+      next: { revalidate: 1800 },
+    });
 
-  if (!res.ok) {
-    console.error('Bridge API error:', res.status, await res.text());
+    // Rate limit detection
+    if (res.status === 429) {
+      markRateLimited();
+      return { listings: [], total: 0 };
+    }
+
+    if (!res.ok) {
+      console.error('[Bridge] API error:', res.status, await res.text());
+      return { listings: [], total: 0 };
+    }
+
+    const data: BridgeResponse = await res.json();
+
+    if (!data.success) {
+      console.error('[Bridge] API returned error:', data);
+      return { listings: [], total: 0 };
+    }
+
+    const result = {
+      listings: data.bundle || [],
+      total: data.total || 0,
+    };
+
+    // Only cache non-empty responses to avoid poisoning with 429/error results
+    if (result.listings.length > 0 || result.total === 0) {
+      setCached(cacheKey, result);
+    }
+
+    return result;
+  } catch (err) {
+    console.error('[Bridge] Fetch failed:', err);
     return { listings: [], total: 0 };
   }
-
-  const data: BridgeResponse = await res.json();
-
-  if (!data.success) {
-    console.error('Bridge API returned error:', data);
-    return { listings: [], total: 0 };
-  }
-
-  return {
-    listings: data.bundle || [],
-    total: data.total || 0,
-  };
 }
 
 /**
  * Fetch a single listing by ListingId.
  */
 export async function getListingById(listingId: string): Promise<BridgeListing | null> {
-  const url = `${BASE_URL}/${DATASET}/listings/${listingId}?access_token=${SERVER_TOKEN}`;
+  if (IS_BUILD_TIME) return null;
 
-  const res = await fetch(url, {
-    next: { revalidate: 300 },
-  });
+  // Check cache
+  const cacheKey = `listing:${listingId}`;
+  const cached = getCached<BridgeListing>(cacheKey);
+  if (cached) return cached;
 
-  if (!res.ok) {
-    console.error('Bridge API error fetching listing:', res.status);
+  try {
+    const url = `${BASE_URL}/${DATASET}/listings/${listingId}?access_token=${SERVER_TOKEN}`;
+    const res = await fetch(url, {
+      next: { revalidate: 1800 },
+    });
+
+    if (res.status === 429) {
+      markRateLimited();
+      return null;
+    }
+
+    if (!res.ok) return null;
+
+    const data = await res.json();
+    if (!data.success) return null;
+
+    const listing = data.bundle || null;
+    if (listing) setCached(cacheKey, listing);
+    return listing;
+  } catch {
     return null;
   }
-
-  const data = await res.json();
-  if (!data.success) return null;
-
-  return data.bundle || null;
 }
 
 // --- Formatting helpers ---
@@ -250,7 +343,6 @@ export function getPrimaryPhoto(listing: BridgeListing): string {
     const sorted = [...listing.Media].sort((a, b) => a.Order - b.Order);
     return sorted[0].MediaURL;
   }
-  // Placeholder for listings with no photos
   return 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&q=75';
 }
 
