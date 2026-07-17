@@ -2,6 +2,8 @@
 import Link from 'next/link';
 import { useState } from 'react';
 import PropertySearch from '../../components/PropertySearch';
+import NeighborhoodMap from '../../components/NeighborhoodMap';
+import { neighborhoodCoords } from '../../../lib/neighborhood-coords';
 
 export default function KingsMillPage() {
   /* --- Lead form state --- */
@@ -53,6 +55,14 @@ export default function KingsMillPage() {
       {/* ===== PROPERTY SEARCH ===== */}
       <div className="max-w-[1140px] mx-auto px-7 py-12">
         <PropertySearch defaultCity="Valrico" defaultSubdivisions={["KINGS MILL","KINGS MILL COMM","KINGS MILL PH II"]} heading="Kings Mill Homes for Sale" />
+      </div>
+
+      {/* ===== NEIGHBORHOOD MAP ===== */}
+      <div className="max-w-[1140px] mx-auto px-7 py-12">
+        <NeighborhoodMap
+          center={neighborhoodCoords['kings-mill']}
+          neighborhoodName="Kings Mill"
+        />
       </div>
 
       {/* ===== QUICK STATS ===== */}

@@ -2,6 +2,8 @@
 import Link from 'next/link';
 import { useState } from 'react';
 import PropertySearch from '../../components/PropertySearch';
+import NeighborhoodMap from '../../components/NeighborhoodMap';
+import { neighborhoodCoords } from '../../../lib/neighborhood-coords';
 
 export default function BrentwoodHillsPage() {
   /* --- Lead form state --- */
@@ -53,6 +55,14 @@ export default function BrentwoodHillsPage() {
       {/* ===== PROPERTY SEARCH ===== */}
       <div className="max-w-[1140px] mx-auto px-7 py-12">
         <PropertySearch defaultCity="Valrico" defaultSubdivisions={["BRENTWOOD HILLS TR A UNIT 2","BRENTWOOD HILLS TR D E UNIT","BRENTWOOD HILLS TRCT A UN 1","BRENTWOOD HILLS TRCT B UN 2"]} heading="Brentwood Hills Homes for Sale" />
+      </div>
+
+      {/* ===== NEIGHBORHOOD MAP ===== */}
+      <div className="max-w-[1140px] mx-auto px-7 py-12">
+        <NeighborhoodMap
+          center={neighborhoodCoords['brentwood-hills']}
+          neighborhoodName="Brentwood Hills"
+        />
       </div>
 
       {/* ===== QUICK STATS ===== */}

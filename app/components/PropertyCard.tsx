@@ -4,12 +4,13 @@
  */
 
 import Link from 'next/link';
-import { formatPrice, formatSqft, getPrimaryPhoto, formatAddress, type BridgeListing } from '@/lib/bridge';
+import { formatPrice, formatSqft, getPrimaryPhoto, formatAddress, listingSlug, type BridgeListing } from '@/lib/bridge';
 
 export default function PropertyCard({ listing }: { listing: BridgeListing }) {
   const photo = getPrimaryPhoto(listing);
   const address = formatAddress(listing);
-  const detailHref = `/listing/${listing.ListingKey}/`;
+  // SEO-friendly URL: /property/2530-cross-more-street-valrico-fl-33596-TB8417278/
+  const detailHref = `/property/${listingSlug(listing)}/`;
 
   return (
     <Link href={detailHref} style={{ textDecoration: 'none', color: 'inherit' }}>
@@ -82,6 +83,13 @@ export default function PropertyCard({ listing }: { listing: BridgeListing }) {
           <div style={{ fontSize: 13, color: '#222', fontWeight: 500, lineHeight: 1.4, marginBottom: 4 }}>
             {address}
           </div>
+
+          {/* Listing broker (office) */}
+          {listing.ListOfficeName && (
+            <div style={{ fontSize: 11, color: '#888', marginTop: 4 }}>
+              Listed by {listing.ListOfficeName}
+            </div>
+          )}
 
           {/* Subdivision + days on market */}
           <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 11, color: '#888', marginTop: 6 }}>

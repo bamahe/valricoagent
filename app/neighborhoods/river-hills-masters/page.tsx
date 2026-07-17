@@ -2,6 +2,8 @@
 import Link from 'next/link';
 import { useState } from 'react';
 import PropertySearch from '../../components/PropertySearch';
+import NeighborhoodMap from '../../components/NeighborhoodMap';
+import { neighborhoodCoords } from '../../../lib/neighborhood-coords';
 
 export default function RiverHillsMastersPage() {
   /* --- Lead form state --- */
@@ -53,6 +55,14 @@ export default function RiverHillsMastersPage() {
       {/* ===== PROPERTY SEARCH ===== */}
       <div className="max-w-[1140px] mx-auto px-7 py-12">
         <PropertySearch defaultCity="Valrico" defaultSubdivisions={["RIVER HILLS COUNTRY CLUB","RIVER HILLS COUNTRY CLUB PARCE","RIVER HILLS COUNTRY CLUB PH"]} heading="River Hills Masters Homes for Sale" />
+      </div>
+
+      {/* ===== NEIGHBORHOOD MAP ===== */}
+      <div className="max-w-[1140px] mx-auto px-7 py-12">
+        <NeighborhoodMap
+          center={neighborhoodCoords['river-hills-masters']}
+          neighborhoodName="River Hills Masters"
+        />
       </div>
 
       {/* ===== QUICK STATS ===== */}

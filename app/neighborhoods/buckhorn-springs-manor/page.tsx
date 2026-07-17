@@ -2,6 +2,8 @@
 import Link from 'next/link';
 import { useState } from 'react';
 import PropertySearch from '../../components/PropertySearch';
+import NeighborhoodMap from '../../components/NeighborhoodMap';
+import { neighborhoodCoords } from '../../../lib/neighborhood-coords';
 
 export default function BuckhornSpringsManorPage() {
   /* --- Lead form state --- */
@@ -53,6 +55,14 @@ export default function BuckhornSpringsManorPage() {
       {/* ===== PROPERTY SEARCH ===== */}
       <div className="max-w-[1140px] mx-auto px-7 py-12">
         <PropertySearch defaultCity="Valrico" defaultSubdivisions={["BUCKHORN SPGS MANOR"]} heading="Buckhorn Springs Manor Homes for Sale" />
+      </div>
+
+      {/* ===== NEIGHBORHOOD MAP ===== */}
+      <div className="max-w-[1140px] mx-auto px-7 py-12">
+        <NeighborhoodMap
+          center={neighborhoodCoords['buckhorn-springs-manor']}
+          neighborhoodName="Buckhorn Springs Manor"
+        />
       </div>
 
       {/* ===== QUICK STATS ===== */}

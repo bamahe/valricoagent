@@ -1,14 +1,14 @@
 /**
- * app/components/ContactForm.tsx
+ * app/components/ScheduleShowingForm.tsx
  *
- * Client-side contact form for valricoagent.com.
- * Posts to /api/leads which pushes to Follow Up Boss.
+ * Form for scheduling a property showing.
+ * Posts to /api/leads with type: 'showing'.
  */
 'use client';
 
 import { useState } from 'react';
 
-export function ContactForm() {
+export function ScheduleShowingForm() {
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
@@ -21,12 +21,15 @@ export function ContactForm() {
       lastName: data.get('lastName') as string,
       phone: data.get('phone') as string,
       email: data.get('email') as string,
+      preferredDate: data.get('preferredDate') as string,
+      preferredTime: data.get('preferredTime') as string,
+      propertyAddress: data.get('propertyAddress') as string,
       message: data.get('message') as string,
-      bestTime: data.get('bestTime') as string,
-      type: 'contact',
+      type: 'showing',
       source: 'ValricoAgent.com',
     };
 
+    // Validate required fields
     if (!payload.firstName || !payload.phone || !payload.email) return;
 
     setStatus('loading');
@@ -47,11 +50,12 @@ export function ContactForm() {
     }
   }
 
+  // Success state
   if (status === 'success') {
     return (
       <div style={{ padding: '32px 20px', textAlign: 'center', background: '#f0fdf4', borderRadius: 8, border: '1px solid #bbf7d0' }}>
-        <p style={{ fontSize: 18, fontWeight: 700, color: '#15803d', marginBottom: 8 }}>Message Sent!</p>
-        <p style={{ fontSize: 14, color: '#555' }}>Barrett will reach out within 24 hours.</p>
+        <p style={{ fontSize: 18, fontWeight: 700, color: '#15803d', marginBottom: 8 }}>Showing Request Submitted!</p>
+        <p style={{ fontSize: 14, color: '#555' }}>Barrett will confirm your showing within 2 hours.</p>
         <a href="tel:+18137337907" style={{ display: 'inline-block', marginTop: 16, fontSize: 14, fontWeight: 600, color: '#003da5' }}>
           Or call now: (813) 733-7907
         </a>
@@ -59,6 +63,7 @@ export function ContactForm() {
     );
   }
 
+  // Shared styles
   const inputStyle: React.CSSProperties = {
     width: '100%',
     padding: '12px 14px',
@@ -78,6 +83,7 @@ export function ContactForm() {
 
   return (
     <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
+      {/* Name row */}
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 12 }}>
         <div>
           <label style={labelStyle}>First Name *</label>
@@ -88,6 +94,8 @@ export function ContactForm() {
           <input name="lastName" type="text" placeholder="Last name" style={inputStyle} />
         </div>
       </div>
+
+      {/* Contact */}
       <div>
         <label style={labelStyle}>Phone *</label>
         <input name="phone" type="tel" required placeholder="(555) 555-5555" style={inputStyle} />
@@ -96,26 +104,51 @@ export function ContactForm() {
         <label style={labelStyle}>Email *</label>
         <input name="email" type="email" required placeholder="you@email.com" style={inputStyle} />
       </div>
-      <div>
-        <label style={labelStyle}>Message</label>
-        <textarea name="message" placeholder="How can Barrett help you?" style={{ ...inputStyle, height: 100, resize: 'vertical' as const }} />
-      </div>
-      <div>
-        <label style={labelStyle}>Best time to call</label>
-        <select name="bestTime" style={inputStyle}>
-          <option>ASAP</option>
-          <option>Morning</option>
-          <option>Afternoon</option>
-          <option>Evening</option>
-        </select>
+
+      {/* Scheduling */}
+      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 12 }}>
+        <div>
+          <label style={labelStyle}>Preferred Date</label>
+          <input name="preferredDate" type="date" style={inputStyle} />
+        </div>
+        <div>
+          <label style={labelStyle}>Preferred Time</label>
+          <select name="preferredTime" style={inputStyle}>
+            <option value="">Select a time</option>
+            <option>9:00 AM</option>
+            <option>10:00 AM</option>
+            <option>11:00 AM</option>
+            <option>12:00 PM</option>
+            <option>1:00 PM</option>
+            <option>2:00 PM</option>
+            <option>3:00 PM</option>
+            <option>4:00 PM</option>
+            <option>5:00 PM</option>
+            <option>6:00 PM</option>
+          </select>
+        </div>
       </div>
 
+      {/* Property address (optional) */}
+      <div>
+        <label style={labelStyle}>Property Address (optional)</label>
+        <input name="propertyAddress" type="text" placeholder="123 Main St, Valrico, FL" style={inputStyle} />
+      </div>
+
+      {/* Message */}
+      <div>
+        <label style={labelStyle}>Message</label>
+        <textarea name="message" placeholder="Any special requests or questions?" style={{ ...inputStyle, height: 80, resize: 'vertical' as const }} />
+      </div>
+
+      {/* Error message */}
       {status === 'error' && (
         <p style={{ fontSize: 13, color: '#dc2626', fontWeight: 600 }}>
           Something went wrong. Please try again or call (813) 733-7907.
         </p>
       )}
 
+      {/* Submit */}
       <button
         type="submit"
         disabled={status === 'loading'}
@@ -130,7 +163,7 @@ export function ContactForm() {
           cursor: status === 'loading' ? 'not-allowed' : 'pointer',
         }}
       >
-        {status === 'loading' ? 'Sending...' : '✉ Send Message'}
+        {status === 'loading' ? 'Submitting...' : 'Schedule My Showing'}
       </button>
     </form>
   );

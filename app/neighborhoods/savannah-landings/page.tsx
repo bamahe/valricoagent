@@ -2,6 +2,8 @@
 import Link from 'next/link';
 import { useState } from 'react';
 import PropertySearch from '../../components/PropertySearch';
+import NeighborhoodMap from '../../components/NeighborhoodMap';
+import { neighborhoodCoords } from '../../../lib/neighborhood-coords';
 
 export default function SavannahLandingsPage() {
   /* --- Lead form state --- */
@@ -53,6 +55,14 @@ export default function SavannahLandingsPage() {
       {/* ===== PROPERTY SEARCH ===== */}
       <div className="max-w-[1140px] mx-auto px-7 py-12">
         <PropertySearch defaultCity="Valrico" heading="Savannah Landings Homes for Sale" />
+      </div>
+
+      {/* ===== NEIGHBORHOOD MAP ===== */}
+      <div className="max-w-[1140px] mx-auto px-7 py-12">
+        <NeighborhoodMap
+          center={neighborhoodCoords['savannah-landings']}
+          neighborhoodName="Savannah Landings"
+        />
       </div>
 
       {/* ===== QUICK STATS ===== */}

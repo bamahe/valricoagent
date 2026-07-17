@@ -3,6 +3,8 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { useState } from 'react';
 import PropertySearch from '../../components/PropertySearch';
+import NeighborhoodMap from '../../components/NeighborhoodMap';
+import { neighborhoodCoords } from '../../../lib/neighborhood-coords';
 
 export default function RiverHillsPage() {
   /* --- Lead form state --- */
@@ -54,6 +56,14 @@ export default function RiverHillsPage() {
       {/* ===== PROPERTY SEARCH ===== */}
       <div className="max-w-[1140px] mx-auto px-7 py-12">
         <PropertySearch defaultCity="Valrico" defaultSubdivisions={["RIVER HILLS / FAIRWAY 01","RIVER HILLS / FAIRWAY ONE","RIVER HILLS COUNTRY CLUB","RIVER HILLS COUNTRY CLUB PARCE","RIVER HILLS COUNTRY CLUB PH"]} heading="River Hills Homes for Sale" />
+      </div>
+
+      {/* ===== NEIGHBORHOOD MAP ===== */}
+      <div className="max-w-[1140px] mx-auto px-7 py-12">
+        <NeighborhoodMap
+          center={neighborhoodCoords['river-hills']}
+          neighborhoodName="River Hills"
+        />
       </div>
 
       {/* ===== COMMUNITY ENTRANCE PHOTO ===== */}

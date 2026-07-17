@@ -3,6 +3,8 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { useState } from 'react';
 import PropertySearch from '../../components/PropertySearch';
+import NeighborhoodMap from '../../components/NeighborhoodMap';
+import { neighborhoodCoords } from '../../../lib/neighborhood-coords';
 
 export default function BloomingdalePage() {
   /* --- Lead form state --- */
@@ -55,6 +57,12 @@ export default function BloomingdalePage() {
       <div className="max-w-[1140px] mx-auto px-7 py-12">
         <PropertySearch defaultCity="Valrico" defaultSubdivisions={["BLOOMINGDALE","BLOOMINGDALE SEC AA GG UNIT 1","BLOOMINGDALE SEC CC PH","BLOOMINGDALE SEC DD PH","BLOOMINGDALE SEC DD PH 3 A","BLOOMINGDALE SEC EE PH","BLOOMINGDALE SEC F F","BLOOMINGDALE SEC LL UNIT 1","BLOOMINGDALE SEC M UNIT","BLOOMINGDALE SEC N","BLOOMINGDALE SEC P Q","BLOOMINGDALE SEC R UNIT 03","BLOOMINGDALE SEC R UNIT 3","BLOOMINGDALE SEC U V PH","BLOOMINGDALE SEC W","BLOOMINGDALE SECTION A UNIT 2","ORIGINAL BLOOMINGDALE ACRES"]} heading="Bloomingdale Homes for Sale" />
       </div>
+
+      {/* ===== NEIGHBORHOOD MAP ===== */}
+      <NeighborhoodMap
+        center={neighborhoodCoords['bloomingdale']}
+        neighborhoodName="Bloomingdale"
+      />
 
       {/* ===== COMMUNITY ENTRANCE PHOTO ===== */}
       <div className="max-w-[1140px] mx-auto px-7 pt-12 pb-0">
