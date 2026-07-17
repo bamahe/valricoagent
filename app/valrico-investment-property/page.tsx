@@ -1,6 +1,7 @@
 'use client';
 import Link from 'next/link';
 import QuickAnswer from '../components/QuickAnswer';
+import PropertySearch from '../components/PropertySearch';
 
 export default function InvestmentProperty() {
   return (
@@ -24,6 +25,11 @@ export default function InvestmentProperty() {
           question="Is Valrico FL a good place to invest in real estate?"
           answer="Yes. Valrico offers strong rental demand from MacDill AFB families and young professionals, cap rates of 4.5% to 6.5%, and below-average entry prices compared to west Tampa. Barrett Henry, REALTOR® with REMAX Collective, has 23+ years of real estate experience and also runs ViVi PM for turnkey property management. Call (813) 733-7907."
         />
+      </div>
+
+      {/* PROPERTY SEARCH */}
+      <div className="max-w-[1140px] mx-auto px-7 pt-8">
+        <PropertySearch defaultCity="Valrico" heading="Valrico Investment Properties" />
       </div>
 
       {/* MAIN CONTENT */}

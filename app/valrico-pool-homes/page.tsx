@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import PropertySearch from '../components/PropertySearch';
 export default function PoolHomes() {
   return (<>
     <div style={{background:'var(--blue-deep)'}} className="text-white py-16 px-7"><div className="max-w-[1140px] mx-auto">
@@ -8,7 +9,7 @@ export default function PoolHomes() {
       <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search all Valrico homes</Link>
     </div></div>
     <div className="max-w-[780px] mx-auto px-7 py-16 space-y-6" style={{color:'var(--ink-soft)'}}>
-      <div className="border-2 border-dashed rounded-lg p-16 text-center mb-6" style={{borderColor:'var(--border)'}}><p className="font-serif text-xl mb-2" style={{color:'var(--ink)'}}>IDX Widget — Pool Filter</p><p className="text-sm" style={{color:'var(--ink-muted)'}}>Showcase IDX filtered for pool homes in Valrico</p></div>
+      <PropertySearch defaultCity="Valrico" poolOnly heading="Valrico Pool Homes for Sale" />
       <h2 className="font-serif text-2xl" style={{color:'var(--ink)'}}>What to know about buying a pool home in Valrico</h2>
       <p className="text-[15px] leading-[1.8]">The vast majority of Valrico pools have aluminum-framed screen enclosures (pool cages). A cage in good condition adds significant value — replacement costs for a full cage run $5,000 to $15,000 depending on size, so cage condition is a key inspection item. Saltwater systems have surged in popularity due to lower maintenance and softer water.</p>
       <p className="text-[15px] leading-[1.8]">Pool homes are prevalent in <Link href="/neighborhoods/bloomingdale/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Bloomingdale</Link>, <Link href="/neighborhoods/river-hills/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>River Hills</Link>, <Link href="/neighborhoods/diamond-hill/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Diamond Hill</Link>, and the <Link href="/neighborhoods/buckhorn/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Buckhorn</Link> corridor. Budget for pool inspection ($150-$300), resurfacing timeline (every 10-15 years, $4,000-$8,000), and equipment age when evaluating resale pool properties.</p>

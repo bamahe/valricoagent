@@ -27,6 +27,11 @@ export async function GET(request: NextRequest) {
   if (sp.get('poolOnly') === 'true') params.poolOnly = true;
   if (sp.get('waterfrontOnly') === 'true') params.waterfrontOnly = true;
   if (sp.get('noHoa') === 'true') params.noHoa = true;
+  // Subdivision filters — single or multiple MLS subdivision names
+  if (sp.get('subdivision')) params.subdivision = sp.get('subdivision')!;
+  if (sp.get('subdivisions')) {
+    params.subdivisions = sp.get('subdivisions')!.split(',').map(s => s.trim()).filter(Boolean);
+  }
   if (sp.get('sortBy')) params.sortBy = sp.get('sortBy') as PropertySearchParams['sortBy'];
   if (sp.get('limit')) params.limit = parseInt(sp.get('limit')!);
   if (sp.get('offset')) params.offset = parseInt(sp.get('offset')!);

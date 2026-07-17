@@ -2,6 +2,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { useState } from 'react';
+import PropertySearch from '../../components/PropertySearch';
 
 export default function BloomingdalePage() {
   /* --- Lead form state --- */
@@ -48,6 +49,11 @@ export default function BloomingdalePage() {
             <Link href="/valrico-fl-home-values/" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">What&apos;s my Bloomingdale home worth?</Link>
           </div>
         </div>
+      </div>
+
+      {/* ===== PROPERTY SEARCH ===== */}
+      <div className="max-w-[1140px] mx-auto px-7 py-12">
+        <PropertySearch defaultCity="Valrico" defaultSubdivisions={["BLOOMINGDALE","BLOOMINGDALE SEC AA GG UNIT 1","BLOOMINGDALE SEC CC PH","BLOOMINGDALE SEC DD PH","BLOOMINGDALE SEC DD PH 3 A","BLOOMINGDALE SEC EE PH","BLOOMINGDALE SEC F F","BLOOMINGDALE SEC LL UNIT 1","BLOOMINGDALE SEC M UNIT","BLOOMINGDALE SEC N","BLOOMINGDALE SEC P Q","BLOOMINGDALE SEC R UNIT 03","BLOOMINGDALE SEC R UNIT 3","BLOOMINGDALE SEC U V PH","BLOOMINGDALE SEC W","BLOOMINGDALE SECTION A UNIT 2","ORIGINAL BLOOMINGDALE ACRES"]} heading="Bloomingdale Homes for Sale" />
       </div>
 
       {/* ===== COMMUNITY ENTRANCE PHOTO ===== */}

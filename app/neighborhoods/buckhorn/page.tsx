@@ -1,6 +1,7 @@
 'use client';
 import Link from 'next/link';
 import { useState } from 'react';
+import PropertySearch from '../../components/PropertySearch';
 
 export default function BuckhornPage() {
   /* --- Lead form state --- */
@@ -47,6 +48,11 @@ export default function BuckhornPage() {
             <Link href="/valrico-fl-home-values/" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">What&apos;s my home worth?</Link>
           </div>
         </div>
+      </div>
+
+      {/* ===== PROPERTY SEARCH ===== */}
+      <div className="max-w-[1140px] mx-auto px-7 py-12">
+        <PropertySearch defaultCity="Valrico" defaultSubdivisions={["BUCKHORN","BUCKHORN FIRST ADD UNIT 2","BUCKHORN FOREST","BUCKHORN GOLF ESTATES PH I","BUCKHORN GROVES","BUCKHORN OAKS UNIT 1","BUCKHORN THIRD ADD UNIT 2","BUCKHORN UNIT 1"]} heading="Buckhorn Homes for Sale" />
       </div>
 
       {/* ===== QUICK STATS ===== */}

@@ -21,6 +21,10 @@ interface PropertySearchProps {
   poolOnly?: boolean;
   /** Pre-filter: waterfront only */
   waterfrontOnly?: boolean;
+  /** Hidden filter: single MLS subdivision name (exact match) */
+  defaultSubdivision?: string;
+  /** Hidden filter: multiple MLS subdivision names (OR match) */
+  defaultSubdivisions?: string[];
 }
 
 export default function PropertySearch({
@@ -29,6 +33,8 @@ export default function PropertySearch({
   heading,
   poolOnly: defaultPoolOnly = false,
   waterfrontOnly: defaultWaterfrontOnly = false,
+  defaultSubdivision,
+  defaultSubdivisions,
 }: PropertySearchProps) {
   // Filter state
   const [minPrice, setMinPrice] = useState('');
@@ -59,6 +65,12 @@ export default function PropertySearch({
     if (minBaths) params.set('minBaths', minBaths);
     if (poolOnly) params.set('poolOnly', 'true');
     if (waterfrontOnly) params.set('waterfrontOnly', 'true');
+    // Hidden subdivision filters — passed with every request, not shown in UI
+    if (defaultSubdivisions && defaultSubdivisions.length > 0) {
+      params.set('subdivisions', defaultSubdivisions.join(','));
+    } else if (defaultSubdivision) {
+      params.set('subdivision', defaultSubdivision);
+    }
     params.set('sortBy', sortBy);
     params.set('limit', pageSize.toString());
     params.set('offset', (newPage * pageSize).toString());
@@ -75,7 +87,7 @@ export default function PropertySearch({
     } finally {
       setLoading(false);
     }
-  }, [defaultCity, defaultZip, minPrice, maxPrice, minBeds, minBaths, poolOnly, waterfrontOnly, sortBy]);
+  }, [defaultCity, defaultZip, minPrice, maxPrice, minBeds, minBaths, poolOnly, waterfrontOnly, sortBy, defaultSubdivision, defaultSubdivisions]);
 
   // Initial fetch
   useEffect(() => {

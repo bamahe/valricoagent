@@ -2,6 +2,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { useState } from 'react';
+import PropertySearch from '../../components/PropertySearch';
 
 export default function RiverHillsPage() {
   /* --- Lead form state --- */
@@ -48,6 +49,11 @@ export default function RiverHillsPage() {
             <Link href="/valrico-fl-home-values/" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">What&apos;s my home worth?</Link>
           </div>
         </div>
+      </div>
+
+      {/* ===== PROPERTY SEARCH ===== */}
+      <div className="max-w-[1140px] mx-auto px-7 py-12">
+        <PropertySearch defaultCity="Valrico" defaultSubdivisions={["RIVER HILLS / FAIRWAY 01","RIVER HILLS / FAIRWAY ONE","RIVER HILLS COUNTRY CLUB","RIVER HILLS COUNTRY CLUB PARCE","RIVER HILLS COUNTRY CLUB PH"]} heading="River Hills Homes for Sale" />
       </div>
 
       {/* ===== COMMUNITY ENTRANCE PHOTO ===== */}

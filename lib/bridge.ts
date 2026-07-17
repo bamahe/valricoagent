@@ -99,6 +99,10 @@ export interface PropertySearchParams {
   poolOnly?: boolean;
   waterfrontOnly?: boolean;
   noHoa?: boolean;
+  /** Single exact MLS subdivision name match */
+  subdivision?: string;
+  /** Multiple MLS subdivision names — uses .in operator for OR matching */
+  subdivisions?: string[];
   sortBy?: 'newest' | 'price-asc' | 'price-desc' | 'sqft';
   limit?: number;
   offset?: number;
@@ -133,6 +137,13 @@ function buildQueryParams(params: PropertySearchParams): URLSearchParams {
   if (params.maxSqft) q.set('LivingArea.lte', params.maxSqft.toString());
   if (params.poolOnly) q.set('PoolPrivateYN', 'true');
   if (params.waterfrontOnly) q.set('WaterfrontYN', 'true');
+
+  // Subdivision filter — array uses .in operator, single string uses exact match
+  if (params.subdivisions && params.subdivisions.length > 0) {
+    q.set('SubdivisionName.in', params.subdivisions.join(','));
+  } else if (params.subdivision) {
+    q.set('SubdivisionName', params.subdivision);
+  }
 
   // Only active listings
   q.set('StandardStatus', 'Active');

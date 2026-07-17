@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import PropertySearch from '../components/PropertySearch';
 
 export default function LuxuryHomes() {
   return (
@@ -14,6 +15,11 @@ export default function LuxuryHomes() {
             <a href="tel:8137337907" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">(813) 733-7907</a>
           </div>
         </div>
+      </div>
+
+      {/* PROPERTY SEARCH */}
+      <div className="max-w-[780px] mx-auto px-7 pt-10">
+        <PropertySearch defaultCity="Valrico" heading="Valrico Luxury Homes for Sale" />
       </div>
 
       <div className="max-w-[780px] mx-auto px-7 py-16 space-y-6" style={{color:'var(--ink-soft)'}}>

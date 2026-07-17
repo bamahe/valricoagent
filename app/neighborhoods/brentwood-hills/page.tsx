@@ -1,6 +1,7 @@
 'use client';
 import Link from 'next/link';
 import { useState } from 'react';
+import PropertySearch from '../../components/PropertySearch';
 
 export default function BrentwoodHillsPage() {
   /* --- Lead form state --- */
@@ -47,6 +48,11 @@ export default function BrentwoodHillsPage() {
             <Link href="/valrico-fl-home-values/" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">What&apos;s my home worth?</Link>
           </div>
         </div>
+      </div>
+
+      {/* ===== PROPERTY SEARCH ===== */}
+      <div className="max-w-[1140px] mx-auto px-7 py-12">
+        <PropertySearch defaultCity="Valrico" defaultSubdivisions={["BRENTWOOD HILLS TR A UNIT 2","BRENTWOOD HILLS TR D E UNIT","BRENTWOOD HILLS TRCT A UN 1","BRENTWOOD HILLS TRCT B UN 2"]} heading="Brentwood Hills Homes for Sale" />
       </div>
 
       {/* ===== QUICK STATS ===== */}

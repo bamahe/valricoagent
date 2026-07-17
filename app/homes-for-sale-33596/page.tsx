@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import PropertySearch from '../components/PropertySearch';
 export default function Homes33596() {
   return (<>
     <div style={{background:'var(--blue-deep)'}} className="text-white py-16 px-7"><div className="max-w-[1140px] mx-auto">
@@ -8,7 +9,7 @@ export default function Homes33596() {
       <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search all Valrico homes</Link>
     </div></div>
     <div className="max-w-[1140px] mx-auto px-7 py-12">
-      <div className="border-2 border-dashed rounded-lg p-16 text-center mb-10" style={{borderColor:'var(--border)'}}><p className="font-serif text-xl mb-2" style={{color:'var(--ink)'}}>IDX Widget — 33596 Filter</p><p className="text-sm" style={{color:'var(--ink-muted)'}}>Showcase IDX filtered to ZIP 33596</p></div>
+      <PropertySearch defaultZip="33596" heading="Homes for Sale in 33596" />
       <h2 className="font-serif text-2xl mb-4">About ZIP code 33596</h2>
       <p className="text-[15px] leading-[1.8] mb-4" style={{color:'var(--ink-soft)'}}>The 33596 ZIP code covers south Valrico and is the higher-demand ZIP of the two Valrico codes. Major neighborhoods include <Link href="/neighborhoods/bloomingdale/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Bloomingdale</Link> (5,200+ homes), <Link href="/neighborhoods/river-hills/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>River Hills</Link> (gated golf community), <Link href="/neighborhoods/buckhorn/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Buckhorn/Boyette corridor</Link>, <Link href="/neighborhoods/twin-lakes/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Twin Lakes</Link>, Canterbury Oaks, and Crosby Crossings.</p>
       <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>The 33596 ZIP commands a premium because it contains both Bloomingdale HS and Newsome HS school zones — the two A-rated high schools that drive Valrico&apos;s reputation as a top school district. Price per square foot in 33596 runs $210 to $230, roughly $15 to $20 higher than 33594. Barrett Henry, REALTOR® with <a href="https://nowtb.com" target="_blank" rel="noopener" className="font-semibold no-underline" style={{color:'var(--accent)'}}>RE/MAX Collective</a> knows every section of this ZIP. <a href="tel:8137337907" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Call (813) 733-7907</a>. <Link href="/valrico-fl-home-values/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Get your home value</Link> or explore <Link href="/sell-my-home-valrico/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>selling options</Link>. <Link href="/valrico-first-time-homebuyer/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>First-time buyers</Link> should read the buying guide for budget breakdowns.</p>

@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import PropertySearch from '../components/PropertySearch';
 export default function Homes33594() {
   return (<>
     <div style={{background:'var(--blue-deep)'}} className="text-white py-16 px-7"><div className="max-w-[1140px] mx-auto">
@@ -8,7 +9,7 @@ export default function Homes33594() {
       <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search all Valrico homes</Link>
     </div></div>
     <div className="max-w-[1140px] mx-auto px-7 py-12">
-      <div className="border-2 border-dashed rounded-lg p-16 text-center mb-10" style={{borderColor:'var(--border)'}}><p className="font-serif text-xl mb-2" style={{color:'var(--ink)'}}>IDX Widget — 33594 Filter</p><p className="text-sm" style={{color:'var(--ink-muted)'}}>Showcase IDX filtered to ZIP 33594</p></div>
+      <PropertySearch defaultZip="33594" heading="Homes for Sale in 33594" />
       <h2 className="font-serif text-2xl mb-4">About ZIP code 33594</h2>
       <p className="text-[15px] leading-[1.8] mb-4" style={{color:'var(--ink-soft)'}}>The 33594 ZIP code covers the northern portion of Valrico, bordering Brandon (33511) to the west, Dover/Sydney to the northeast, and 33596 (south Valrico) to the south. This ZIP includes <Link href="/neighborhoods/diamond-hill/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Diamond Hill</Link> (gated golf community), parts of <Link href="/neighborhoods/brentwood-hills/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Brentwood Hills</Link>, Legends Pass, and older established homes along the Valrico Road corridor. Population is approximately 37,000.</p>
       <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>The 33594 ZIP generally trades at a slightly lower price per square foot than 33596, largely because of school zoning differences. Some sections of 33594 feed into different high school zones than the Bloomingdale HS and Newsome HS zones that drive premiums in 33596. However, <Link href="/neighborhoods/diamond-hill/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Diamond Hill</Link>&apos;s gated golf community bucks this trend with homes regularly selling above $400K. Barrett Henry, REALTOR® can explain exactly how your specific 33594 location affects value. <a href="tel:8137337907" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Call (813) 733-7907</a>. <Link href="/valrico-fl-home-values/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Get your home value</Link> or read the <Link href="/valrico-first-time-homebuyer/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>first-time buyer guide</Link> if you are shopping in this ZIP code.</p>

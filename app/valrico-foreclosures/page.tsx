@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import PropertySearch from '../components/PropertySearch';
 
 export default function ValricoForeclosures() {
   return (
@@ -15,6 +16,11 @@ export default function ValricoForeclosures() {
             <a href="https://flforeclosurehelp.com" target="_blank" rel="noopener" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">Visit flforeclosurehelp.com</a>
           </div>
         </div>
+      </div>
+
+      {/* PROPERTY SEARCH */}
+      <div className="max-w-[1140px] mx-auto px-7 pt-10">
+        <PropertySearch defaultCity="Valrico" heading="Valrico Foreclosure & Pre-Foreclosure Homes" />
       </div>
 
       {/* Main content */}
