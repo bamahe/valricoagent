@@ -126,7 +126,7 @@ export default function PropertySearch({
         <div style={{ display: 'flex', gap: 0, marginBottom: 16 }}>
           <button
             type="button"
-            onClick={() => { setListingType('sale'); setPage(0); }}
+            onClick={() => { setListingType('sale'); setMinPrice(''); setMaxPrice(''); setPage(0); }}
             style={{
               flex: 1, padding: '12px 0', fontSize: 15, fontWeight: 700,
               border: '2px solid #003da5', cursor: 'pointer',
@@ -139,7 +139,7 @@ export default function PropertySearch({
           </button>
           <button
             type="button"
-            onClick={() => { setListingType('rent'); setPage(0); }}
+            onClick={() => { setListingType('rent'); setMinPrice(''); setMaxPrice(''); setPage(0); }}
             style={{
               flex: 1, padding: '12px 0', fontSize: 15, fontWeight: 700,
               border: '2px solid #003da5', borderLeft: 'none', cursor: 'pointer',
@@ -162,36 +162,59 @@ export default function PropertySearch({
         marginBottom: 32,
       }}>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))', gap: 12, alignItems: 'end' }}>
-          {/* Price range */}
+          {/* Price range — switches between sale prices and monthly rent */}
           <div>
-            <label style={labelStyle}>Min Price</label>
+            <label style={labelStyle}>{listingType === 'rent' ? 'Min Rent' : 'Min Price'}</label>
             <select value={minPrice} onChange={(e) => setMinPrice(e.target.value)} style={selectStyle}>
               <option value="">Any</option>
-              <option value="200000">$200K</option>
-              <option value="250000">$250K</option>
-              <option value="300000">$300K</option>
-              <option value="350000">$350K</option>
-              <option value="400000">$400K</option>
-              <option value="500000">$500K</option>
-              <option value="600000">$600K</option>
-              <option value="750000">$750K</option>
-              <option value="1000000">$1M</option>
+              {listingType === 'rent' ? (<>
+                <option value="1000">$1,000/mo</option>
+                <option value="1250">$1,250/mo</option>
+                <option value="1500">$1,500/mo</option>
+                <option value="1750">$1,750/mo</option>
+                <option value="2000">$2,000/mo</option>
+                <option value="2500">$2,500/mo</option>
+                <option value="3000">$3,000/mo</option>
+                <option value="4000">$4,000/mo</option>
+              </>) : (<>
+                <option value="200000">$200K</option>
+                <option value="250000">$250K</option>
+                <option value="300000">$300K</option>
+                <option value="350000">$350K</option>
+                <option value="400000">$400K</option>
+                <option value="500000">$500K</option>
+                <option value="600000">$600K</option>
+                <option value="750000">$750K</option>
+                <option value="1000000">$1M</option>
+              </>)}
             </select>
           </div>
           <div>
-            <label style={labelStyle}>Max Price</label>
+            <label style={labelStyle}>{listingType === 'rent' ? 'Max Rent' : 'Max Price'}</label>
             <select value={maxPrice} onChange={(e) => setMaxPrice(e.target.value)} style={selectStyle}>
               <option value="">Any</option>
-              <option value="300000">$300K</option>
-              <option value="350000">$350K</option>
-              <option value="400000">$400K</option>
-              <option value="450000">$450K</option>
-              <option value="500000">$500K</option>
-              <option value="600000">$600K</option>
-              <option value="750000">$750K</option>
-              <option value="1000000">$1M</option>
-              <option value="1500000">$1.5M</option>
-              <option value="2000000">$2M+</option>
+              {listingType === 'rent' ? (<>
+                <option value="1500">$1,500/mo</option>
+                <option value="1750">$1,750/mo</option>
+                <option value="2000">$2,000/mo</option>
+                <option value="2250">$2,250/mo</option>
+                <option value="2500">$2,500/mo</option>
+                <option value="3000">$3,000/mo</option>
+                <option value="3500">$3,500/mo</option>
+                <option value="4000">$4,000/mo</option>
+                <option value="5000">$5,000/mo</option>
+              </>) : (<>
+                <option value="300000">$300K</option>
+                <option value="350000">$350K</option>
+                <option value="400000">$400K</option>
+                <option value="450000">$450K</option>
+                <option value="500000">$500K</option>
+                <option value="600000">$600K</option>
+                <option value="750000">$750K</option>
+                <option value="1000000">$1M</option>
+                <option value="1500000">$1.5M</option>
+                <option value="2000000">$2M+</option>
+              </>)}
             </select>
           </div>
 
