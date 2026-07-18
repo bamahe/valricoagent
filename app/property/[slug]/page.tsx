@@ -13,6 +13,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import { getListingById, formatPrice, formatSqft, formatAddress, getPrimaryPhoto, type BridgeListing } from '@/lib/bridge';
 import { ContactForm } from '@/app/components/ContactForm';
+import PhotoGallery from '@/app/components/PhotoGallery';
 
 // ISR: revalidate every 5 minutes so listing data stays fresh
 export const revalidate = 300;
@@ -107,53 +108,16 @@ export default async function PropertyDetailPage(
           <span aria-hidden="true">›</span>
           <Link href="/valrico-fl-homes-for-sale/" style={{ color: '#003da5' }}>Homes for Sale</Link>
           <span aria-hidden="true">›</span>
-          <span style={{ color: '#222', fontWeight: 500 }} aria-current="page">{address}</span>
+          <span style={{ color: '#222', fontWeight: 500 }} aria-current="page">MLS# {listing.ListingId} — {address}</span>
         </div>
       </nav>
 
-      {/* Hero image — full width primary photo */}
-      {photos.length > 0 && (
-        <div style={{ width: '100%', maxHeight: 500, overflow: 'hidden', background: '#1a1a1a' }}>
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src={photos[0].MediaURL}
-            alt={`${address} — primary photo`}
-            style={{ width: '100%', height: 500, objectFit: 'cover', display: 'block' }}
-          />
-        </div>
-      )}
+      {/* Photo Gallery — hero scroller + thumbnails + lightbox */}
+      <div style={{ maxWidth: 1200, margin: '0 auto' }}>
+        <PhotoGallery photos={photos} address={address} autoScroll />
+      </div>
 
       <div style={{ maxWidth: 1200, margin: '0 auto', padding: '32px 24px' }}>
-
-        {/* Photo gallery grid (remaining photos) */}
-        {photos.length > 1 && (
-          <div style={{ marginBottom: 32 }}>
-            <h2 style={{ fontFamily: "'Merriweather', Georgia, serif", fontSize: 18, marginBottom: 12, color: '#222' }}>
-              Photos ({photos.length})
-            </h2>
-            <div style={{
-              display: 'grid',
-              gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))',
-              gap: 8, borderRadius: 8, overflow: 'hidden',
-            }}>
-              {photos.slice(1, 13).map((photo) => (
-                // eslint-disable-next-line @next/next/no-img-element
-                <img
-                  key={photo.MediaObjectID}
-                  src={photo.MediaURL}
-                  alt={photo.ShortDescription || `${address} photo`}
-                  loading="lazy"
-                  style={{ width: '100%', height: 160, objectFit: 'cover', borderRadius: 4 }}
-                />
-              ))}
-            </div>
-            {photos.length > 13 && (
-              <p style={{ fontSize: 13, color: '#003da5', fontWeight: 600, marginTop: 8 }}>
-                + {photos.length - 13} more photos
-              </p>
-            )}
-          </div>
-        )}
 
         {/* Main content grid: details left, CTA right */}
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 380px', gap: 40 }}>
