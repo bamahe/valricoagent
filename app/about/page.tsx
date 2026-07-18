@@ -15,7 +15,7 @@ export default function AboutBarrettHenry() {
         "name": "The NOW Team at REMAX Collective",
         "url": "https://nowtb.com",
         "logo": "https://valricoagent.com/barrett-henry.png",
-        "telephone": "(813) 260-4663",
+        "telephone": "(813) 733-7907",
         "email": "barrett@nowtb.com",
         "foundingDate": "2015",
         "founder": { "@id": "https://valricoagent.com/#person" },

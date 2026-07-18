@@ -38,8 +38,8 @@ IMPORTANT RULES:
 - Use question-format H2 headings
 - Give direct answers in the first 2-3 sentences of each section
 - Include a comparison table (HTML table with inline styles using brand colors: header bg #003da5, border #e8e8e8)
-- End with a CTA using Barrett's phone (813) 345-9588 and link to /get-help
-- CTA box: background:#003da5, button background:#cc0000, white text
+- End with a CTA using Barrett's phone (813) 733-7907 and link to /get-help
+- CTA box: background:#003da5, button background:#fff with color:#003da5 text
 - Internal links: /neighborhoods/bloomingdale, /neighborhoods/river-hills, /neighborhoods/copper-ridge, /get-help
 - FAQ answers must start with a direct, complete sentence
 
