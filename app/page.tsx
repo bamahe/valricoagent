@@ -22,7 +22,7 @@ export default function Home() {
           <div>
             <div style={{ fontSize: 12, fontWeight: 600, letterSpacing: '.15em', textTransform: 'uppercase', opacity: 0.6, marginBottom: 16 }}>Valrico, FL Real Estate</div>
             <h1 style={{ fontFamily: "'Merriweather', Georgia, serif", fontSize: 'clamp(30px, 3.8vw, 46px)', fontWeight: 700, lineHeight: 1.25, marginBottom: 20 }}>
-              Buy, Sell, or Invest in Valrico with <span style={{ color: '#ffd700' }}>Confidence</span>
+              Buy, Sell, or Invest in Valrico with <span style={{ color: '#fff' }}>Confidence</span>
             </h1>
             <p style={{ fontSize: 17, lineHeight: 1.75, opacity: 0.85, marginBottom: 32, maxWidth: 520 }}>
               32 neighborhoods. Two ZIP codes. One REALTOR® who knows them all. Barrett Henry brings 23+ years of experience and straight-talk guidance to every deal.
@@ -79,11 +79,11 @@ export default function Home() {
               { icon: 'apartment', title: 'Property Management', desc: 'Full-service rental management for Valrico landlords. In-house maintenance.', href: '/valrico-property-management/', cta: 'Learn More' },
             ].map((s) => (
               <Link key={s.title} href={s.href} className="card" style={{ padding: '28px 24px', textDecoration: 'none', display: 'block' }}>
-                <div style={{ width: 48, height: 48, borderRadius: 10, background: '#f0f4ff', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 16 }}>
+                <div style={{ width: 48, height: 48, borderRadius: 10, background: '#fafafa', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 16 }}>
                   <span className="material-icons" style={{ fontSize: 24, color: '#003da5' }}>{s.icon}</span>
                 </div>
                 <h3 style={{ fontSize: 16, fontWeight: 600, marginBottom: 8, color: '#1a1a1a' }}>{s.title}</h3>
-                <p style={{ fontSize: 13, color: '#4a4a4a', lineHeight: 1.65, marginBottom: 12 }}>{s.desc}</p>
+                <p style={{ fontSize: 13, color: '#555', lineHeight: 1.65, marginBottom: 12 }}>{s.desc}</p>
                 <span style={{ fontSize: 13, fontWeight: 600, color: '#003da5' }}>{s.cta} →</span>
               </Link>
             ))}
@@ -133,7 +133,7 @@ export default function Home() {
                 ].map(([title, desc]) => (
                   <div key={title} style={{ display: 'flex', gap: 12, alignItems: 'flex-start' }}>
                     <span className="material-icons" style={{ fontSize: 20, color: '#003da5', marginTop: 2, flexShrink: 0 }}>check_circle</span>
-                    <p style={{ fontSize: 14, color: '#4a4a4a', lineHeight: 1.6 }}>
+                    <p style={{ fontSize: 14, color: '#555', lineHeight: 1.6 }}>
                       <strong style={{ color: '#1a1a1a' }}>{title}</strong> — {desc}
                     </p>
                   </div>
@@ -204,7 +204,7 @@ export default function Home() {
                 </div>
                 <div style={{ padding: '20px 22px' }}>
                   <h3 style={{ fontSize: 15, fontWeight: 600, marginBottom: 8, lineHeight: 1.45, color: '#1a1a1a' }}>{post.title}</h3>
-                  <p style={{ fontSize: 13, color: '#4a4a4a', lineHeight: 1.6 }}>{post.desc}</p>
+                  <p style={{ fontSize: 13, color: '#555', lineHeight: 1.6 }}>{post.desc}</p>
                   <span style={{ fontSize: 12, fontWeight: 600, color: '#003da5', marginTop: 14, display: 'inline-block' }}>Continue Reading →</span>
                 </div>
               </Link>
@@ -271,7 +271,7 @@ export default function Home() {
                       <span key={s} className="material-icons" style={{ fontSize: 16, color: '#fbbf24', marginRight: 1 }}>star</span>
                     ))}
                   </div>
-                  <p style={{ fontSize: 14, lineHeight: 1.8, color: '#4a4a4a', fontStyle: 'italic' }}>&ldquo;{t.quote}&rdquo;</p>
+                  <p style={{ fontSize: 14, lineHeight: 1.8, color: '#555', fontStyle: 'italic' }}>&ldquo;{t.quote}&rdquo;</p>
                 </div>
                 <div style={{ borderTop: '1px solid #f0f0f0', paddingTop: 16, marginTop: 20 }}>
                   <div style={{ fontFamily: "'Merriweather', Georgia, serif", fontSize: 14, fontWeight: 700, color: '#1a1a1a' }}>— {t.author}</div>
@@ -334,7 +334,7 @@ export default function Home() {
                       {href ? (
                         <a href={href as string} style={{ fontSize: 14, fontWeight: 500, color: '#003da5' }} {...(icon === 'language' ? { target: '_blank', rel: 'noopener' } : {})}>{text}</a>
                       ) : (
-                        <span style={{ fontSize: 14, color: '#4a4a4a' }}>{text}</span>
+                        <span style={{ fontSize: 14, color: '#555' }}>{text}</span>
                       )}
                       {sub && <span style={{ display: 'block', fontSize: 13, color: '#888', marginTop: 2 }}>{sub}</span>}
                     </div>
@@ -346,7 +346,7 @@ export default function Home() {
                 <p style={{ fontSize: 13, fontWeight: 600, color: '#1a1a1a', marginBottom: 10 }}>Designations & Credentials</p>
                 <div style={{ display: 'flex', gap: 8 }}>
                   {['e-PRO', 'MRP', 'SRS', 'Broker Associate'].map(d => (
-                    <span key={d} style={{ fontSize: 11, fontWeight: 600, padding: '5px 12px', background: '#f0f4ff', borderRadius: 6, color: '#003da5' }}>{d}</span>
+                    <span key={d} style={{ fontSize: 11, fontWeight: 600, padding: '5px 12px', background: '#fafafa', borderRadius: 6, color: '#003da5' }}>{d}</span>
                   ))}
                 </div>
               </div>

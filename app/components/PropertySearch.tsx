@@ -156,7 +156,7 @@ export default function PropertySearch({
       {/* Filter bar */}
       <form onSubmit={handleSearch} style={{
         background: '#fff',
-        border: '1px solid #e5e5e5',
+        border: '1px solid #e8e8e8',
         borderRadius: 10,
         padding: '20px 24px',
         marginBottom: 32,
@@ -299,7 +299,7 @@ export default function PropertySearch({
       {loading && (
         <div style={{ textAlign: 'center', padding: '60px 0' }}>
           <div style={{
-            width: 40, height: 40, border: '3px solid #e5e5e5',
+            width: 40, height: 40, border: '3px solid #e8e8e8',
             borderTopColor: '#003da5', borderRadius: '50%',
             margin: '0 auto 16px',
             animation: 'spin 1s linear infinite',
@@ -326,7 +326,7 @@ export default function PropertySearch({
       {!loading && listings.length === 0 && (
         <div style={{
           textAlign: 'center', padding: '60px 20px',
-          background: '#f7f7f7', borderRadius: 10, border: '1px solid #e5e5e5',
+          background: '#fafafa', borderRadius: 10, border: '1px solid #e8e8e8',
         }}>
           <span className="material-icons" style={{ fontSize: 48, color: '#ccc', marginBottom: 12 }}>search_off</span>
           <p style={{ fontSize: 16, fontWeight: 600, color: '#222', marginBottom: 8 }}>No listings match your filters</p>
@@ -359,8 +359,8 @@ export default function PropertySearch({
 
       {/* MLS disclaimer — required by Stellar MLS */}
       <div style={{
-        marginTop: 40, padding: 20, background: '#f7f7f7',
-        borderRadius: 8, border: '1px solid #e5e5e5',
+        marginTop: 40, padding: 20, background: '#fafafa',
+        borderRadius: 8, border: '1px solid #e8e8e8',
         fontSize: 11, color: '#888', lineHeight: 1.7,
       }}>
         <p>Listing data provided by Stellar MLS via Bridge Interactive. Information deemed reliable but not guaranteed. Buyers should verify all data independently. IDX information is provided exclusively for personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing. Last updated: {new Date().toLocaleDateString()}.</p>
@@ -386,7 +386,7 @@ const selectStyle: React.CSSProperties = {
   width: '100%',
   padding: '9px 12px',
   fontSize: 14,
-  border: '1px solid #e5e5e5',
+  border: '1px solid #e8e8e8',
   borderRadius: 6,
   background: '#fff',
   color: '#222',
@@ -398,7 +398,7 @@ const paginationBtnStyle: React.CSSProperties = {
   padding: '10px 20px',
   fontSize: 14,
   fontWeight: 600,
-  border: '1px solid #e5e5e5',
+  border: '1px solid #e8e8e8',
   borderRadius: 6,
   background: '#fff',
   color: '#003da5',

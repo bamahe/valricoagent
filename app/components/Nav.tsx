@@ -237,7 +237,7 @@ export default function Nav() {
           transition: all .15s;
         }
         .dd-item:hover {
-          background: #f0f4ff;
+          background: #fafafa;
           color: #003da5;
         }
         .nav-link {
@@ -289,7 +289,7 @@ export default function Nav() {
           display: block;
           padding: 12px 24px 12px 40px;
           font-size: 14px;
-          color: #4a4a4a;
+          color: #555;
           border-bottom: 1px solid #f5f5f5;
         }
         .mobile-link:hover { color: #003da5; }

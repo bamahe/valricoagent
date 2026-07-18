@@ -23,7 +23,7 @@ export default function Footer() {
             <p><a href="mailto:barrett@nowtb.com" className="footer-email">barrett@nowtb.com</a></p>
 
             <div className="footer-tagline">
-              <span style={{ fontWeight: 700, color: '#60a5fa' }}>MOVE WITH CONFIDENCE.</span>
+              <span style={{ fontWeight: 700, color: '#fff' }}>MOVE WITH CONFIDENCE.</span>
               <span style={{ display: 'block', marginTop: 2 }}>Straight talk. Smart strategy.</span>
             </div>
             <div style={{ marginTop: 12, display: 'flex', gap: 6 }}>
@@ -141,7 +141,7 @@ export default function Footer() {
 
       <style>{`
         .site-footer {
-          background: #0f172a;
+          background: #001f5c;
           color: #fff;
           padding: 64px 0 0;
         }

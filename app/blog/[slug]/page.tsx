@@ -224,7 +224,7 @@ export default async function BlogPostPage({
         />
 
         {/* CTA Block */}
-        <div style={{marginTop:48,padding:32,background:'#f0f4ff',borderRadius:12,border:'1px solid #dbe4f0'}}>
+        <div style={{marginTop:48,padding:32,background:'#fafafa',borderRadius:12,border:'1px solid #e8e8e8'}}>
           <h3 style={{fontSize:20,fontWeight:700,color:'#222',marginBottom:8}}>{cta.headline}</h3>
           <p style={{fontSize:14,color:'#555',marginBottom:16}}>{cta.subtext}</p>
           <Link

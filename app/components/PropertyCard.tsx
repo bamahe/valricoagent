@@ -18,7 +18,7 @@ export default function PropertyCard({ listing }: { listing: BridgeListing }) {
         background: '#fff',
         borderRadius: 10,
         overflow: 'hidden',
-        border: '1px solid #e5e5e5',
+        border: '1px solid #e8e8e8',
         transition: 'box-shadow .2s, transform .2s',
         cursor: 'pointer',
       }}
@@ -60,7 +60,7 @@ export default function PropertyCard({ listing }: { listing: BridgeListing }) {
               <span style={{ background: '#003da5', color: '#fff', fontSize: 10, fontWeight: 600, padding: '3px 8px', borderRadius: 4 }}>Pool</span>
             )}
             {listing.WaterfrontYN && (
-              <span style={{ background: '#0ea5e9', color: '#fff', fontSize: 10, fontWeight: 600, padding: '3px 8px', borderRadius: 4 }}>Waterfront</span>
+              <span style={{ background: '#003da5', color: '#fff', fontSize: 10, fontWeight: 600, padding: '3px 8px', borderRadius: 4 }}>Waterfront</span>
             )}
           </div>
         </div>

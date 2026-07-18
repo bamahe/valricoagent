@@ -98,7 +98,7 @@ export default async function PropertyDetailPage(
   return (
     <>
       {/* Breadcrumbs */}
-      <nav aria-label="Breadcrumb" style={{ background: '#fff', borderBottom: '1px solid #e5e5e5', padding: '12px 0' }}>
+      <nav aria-label="Breadcrumb" style={{ background: '#fff', borderBottom: '1px solid #e8e8e8', padding: '12px 0' }}>
         <div style={{ maxWidth: 1200, margin: '0 auto', padding: '0 24px', display: 'flex', alignItems: 'center', gap: 8, fontSize: 13, color: '#888' }}>
           <Link href="/" style={{ color: '#888' }}>
             <span className="material-icons" style={{ fontSize: 16, verticalAlign: 'middle' }}>home</span>
@@ -179,7 +179,7 @@ export default async function PropertyDetailPage(
             {/* Quick stats: beds, baths, sqft, year, lot, garage */}
             <div style={{
               display: 'flex', gap: 24, padding: '16px 0',
-              borderTop: '1px solid #e5e5e5', borderBottom: '1px solid #e5e5e5',
+              borderTop: '1px solid #e8e8e8', borderBottom: '1px solid #e8e8e8',
               marginBottom: 24, flexWrap: 'wrap',
             }}>
               {([
@@ -270,8 +270,8 @@ export default async function PropertyDetailPage(
                       {(items as string[]).map((item) => (
                         <span key={item} style={{
                           fontSize: 12, padding: '4px 12px',
-                          background: '#f7f7f7', borderRadius: 4,
-                          border: '1px solid #e5e5e5', color: '#555',
+                          background: '#fafafa', borderRadius: 4,
+                          border: '1px solid #e8e8e8', color: '#555',
                         }}>{item}</span>
                       ))}
                     </div>
@@ -293,7 +293,7 @@ export default async function PropertyDetailPage(
                     ['Middle', listing.MiddleOrJuniorSchool],
                     ['High School', listing.HighSchool],
                   ] as [string, string][]).filter(([, v]) => v).map(([level, name]) => (
-                    <div key={level} style={{ padding: 16, background: '#f7f7f7', borderRadius: 8, border: '1px solid #e5e5e5' }}>
+                    <div key={level} style={{ padding: 16, background: '#fafafa', borderRadius: 8, border: '1px solid #e8e8e8' }}>
                       <div style={{ fontSize: 11, fontWeight: 600, color: '#888', textTransform: 'uppercase', marginBottom: 4 }}>{level}</div>
                       <div style={{ fontSize: 14, fontWeight: 500, color: '#222' }}>{name}</div>
                     </div>
@@ -307,8 +307,8 @@ export default async function PropertyDetailPage(
 
             {/* Stellar MLS Disclaimer */}
             <div style={{
-              padding: 20, background: '#f7f7f7', borderRadius: 8,
-              border: '1px solid #e5e5e5', fontSize: 12, color: '#888',
+              padding: 20, background: '#fafafa', borderRadius: 8,
+              border: '1px solid #e8e8e8', fontSize: 12, color: '#888',
               marginBottom: 24,
             }}>
               <p>Listed by {listing.ListAgentFullName || 'Agent'} · {listing.ListOfficeName || 'Brokerage'}</p>
@@ -347,7 +347,7 @@ export default async function PropertyDetailPage(
             <div style={{
               position: 'sticky', top: 80,
               background: '#fff', borderRadius: 12,
-              border: '1px solid #e5e5e5',
+              border: '1px solid #e8e8e8',
               boxShadow: '0 4px 16px rgba(0,0,0,.08)',
               overflow: 'hidden',
             }}>

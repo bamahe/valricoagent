@@ -62,7 +62,7 @@ export function ContactForm() {
   const inputStyle: React.CSSProperties = {
     width: '100%',
     padding: '12px 14px',
-    border: '1px solid #e5e5e5',
+    border: '1px solid #e8e8e8',
     borderRadius: 6,
     fontSize: 14,
     boxSizing: 'border-box',

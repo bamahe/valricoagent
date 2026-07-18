@@ -157,7 +157,7 @@ export default function NeighborhoodsHubPage() {
 
               {/* Price + school badges */}
               <div className="flex flex-wrap gap-2 mb-3">
-                <span className="inline-flex items-center gap-1 text-xs font-semibold px-2.5 py-1 rounded-full" style={{ background: '#f0f4ff', color: '#003da5' }}>
+                <span className="inline-flex items-center gap-1 text-xs font-semibold px-2.5 py-1 rounded-full" style={{ background: '#fafafa', color: '#003da5' }}>
                   <span className="material-icons" style={{ fontSize: 14 }}>attach_money</span>
                   {n.price}
                 </span>

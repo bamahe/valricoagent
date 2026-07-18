@@ -73,7 +73,7 @@ export default function CookieConsent() {
           </button>
           <button
             onClick={handleOk}
-            className="bg-[#5b6abf] text-white px-6 py-2 rounded font-semibold hover:bg-[#4a59ae] transition-colors whitespace-nowrap"
+            className="bg-[#003da5] text-white px-6 py-2 rounded font-semibold hover:bg-[#001f5c] transition-colors whitespace-nowrap"
           >
             OK
           </button>
@@ -103,7 +103,7 @@ export default function CookieConsent() {
                 type="checkbox"
                 checked={prefs.analytics}
                 onChange={(e) => setPrefs({ ...prefs, analytics: e.target.checked })}
-                className="w-4 h-4 accent-[#5b6abf]"
+                className="w-4 h-4 accent-[#003da5]"
               />
             </label>
 
@@ -117,14 +117,14 @@ export default function CookieConsent() {
                 type="checkbox"
                 checked={prefs.advertising}
                 onChange={(e) => setPrefs({ ...prefs, advertising: e.target.checked })}
-                className="w-4 h-4 accent-[#5b6abf]"
+                className="w-4 h-4 accent-[#003da5]"
               />
             </label>
 
             <div className="pt-2">
               <button
                 onClick={handleSavePrefs}
-                className="bg-[#5b6abf] text-white px-5 py-1.5 rounded text-sm font-semibold hover:bg-[#4a59ae] transition-colors"
+                className="bg-[#003da5] text-white px-5 py-1.5 rounded text-sm font-semibold hover:bg-[#001f5c] transition-colors"
               >
                 Save Preferences
               </button>
