@@ -29,6 +29,7 @@ export async function GET(request: NextRequest) {
   if (sp.get('poolOnly') === 'true') params.poolOnly = true;
   if (sp.get('waterfrontOnly') === 'true') params.waterfrontOnly = true;
   if (sp.get('noHoa') === 'true') params.noHoa = true;
+  if (sp.get('newConstruction') === 'true') params.newConstructionOnly = true;
   // Subdivision filters
   if (sp.get('subdivision')) params.subdivision = sp.get('subdivision')!;
   if (sp.get('subdivisions')) {

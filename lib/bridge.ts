@@ -106,6 +106,8 @@ export interface PropertySearchParams {
   subdivisions?: string[];
   /** "sale" (default) or "rent" — filters by PropertyType */
   listingType?: 'sale' | 'rent';
+  /** Only show new construction listings */
+  newConstructionOnly?: boolean;
   sortBy?: 'newest' | 'price-asc' | 'price-desc' | 'sqft';
   limit?: number;
   offset?: number;
@@ -163,6 +165,7 @@ function buildQueryParams(params: PropertySearchParams): URLSearchParams {
   if (params.poolOnly) q.set('PoolPrivateYN', 'true');
   if (params.waterfrontOnly) q.set('WaterfrontYN', 'true');
   if (params.noHoa) q.set('AssociationYN', 'false');
+  if (params.newConstructionOnly) q.set('NewConstructionYN', 'true');
 
   // Subdivision filter — array uses .in operator, single string uses exact match
   if (params.subdivisions && params.subdivisions.length > 0) {

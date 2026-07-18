@@ -1,6 +1,7 @@
 'use client';
 import Link from 'next/link';
 import { useState } from 'react';
+import Image from 'next/image';
 import PropertySearch from '../../components/PropertySearch';
 import NeighborhoodMap from '../../components/NeighborhoodMap';
 import { neighborhoodCoords } from '../../../lib/neighborhood-coords';
@@ -15,7 +16,7 @@ export default function DiamondHillPage() {
     e.preventDefault();
     setSending(true);
     try {
-      await fetch('/api/lead', {
+      await fetch('/api/leads', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ ...form, source: 'valricoagent', neighborhood: 'diamond-hill', intent: 'buy' }),
@@ -50,6 +51,18 @@ export default function DiamondHillPage() {
             <Link href="/valrico-fl-home-values/" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">What&apos;s my home worth?</Link>
           </div>
         </div>
+      </div>
+
+      {/* ===== COMMUNITY PHOTO ===== */}
+      <div className="max-w-[1140px] mx-auto px-7 pt-10">
+        <Image
+          src="/images/neighborhoods/diamond-hill-valrico-fl-entrance.jpg"
+          alt="Diamond Hill gated community entrance sign in Valrico FL"
+          width={1140}
+          height={500}
+          className="rounded-xl w-full h-auto"
+          priority
+        />
       </div>
 
       {/* ===== PROPERTY SEARCH ===== */}

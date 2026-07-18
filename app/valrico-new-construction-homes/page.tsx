@@ -9,7 +9,7 @@ export default function NewConstruction() {
       <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search all Valrico homes</Link>
     </div></div>
     <div className="max-w-[1140px] mx-auto px-7 py-16 space-y-6" style={{color:'var(--ink-soft)'}}>
-      <PropertySearch defaultCity="Valrico" heading="Valrico New Construction Homes" />
+      <PropertySearch defaultCity="Valrico" heading="Valrico New Construction Homes" newConstructionOnly />
       <h2 className="font-serif text-2xl" style={{color:'var(--ink)'}}>New construction communities in Valrico</h2>
       <p className="text-[15px] leading-[1.8]"><Link href="/neighborhoods/valrico-forest/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Valrico Forest</Link> ($400K-$525K) offers Craftsman-style homes with covered porches and architectural details. <Link href="/neighborhoods/arista/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Arista</Link> ($425K-$575K) is a gated community between Lake Valrico and Diamond Hill Golf Course. <Link href="/neighborhoods/heritage-crest/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Heritage Crest</Link> ($400K-$500K) features modern open-concept designs. <Link href="/neighborhoods/northwood-estates/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Northwood Estates</Link> ($425K-$575K) is a boutique WestBay community with designer finishes and no CDD.</p>
       <h2 className="font-serif text-2xl mt-10" style={{color:'var(--ink)'}}>Why you need your own agent for new construction</h2>

@@ -15,7 +15,7 @@ export default function ValricoHillsPage() {
     e.preventDefault();
     setSending(true);
     try {
-      await fetch('/api/lead', {
+      await fetch('/api/leads', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ ...form, source: 'valricoagent', neighborhood: 'valrico-hills', intent: 'buy' }),

@@ -33,6 +33,8 @@ interface PropertySearchProps {
   showRentToggle?: boolean;
   /** Force listing type without showing toggle */
   defaultListingType?: 'sale' | 'rent';
+  /** Only show new construction listings */
+  newConstructionOnly?: boolean;
 }
 
 export default function PropertySearch({
@@ -47,6 +49,7 @@ export default function PropertySearch({
   defaultSubdivisions,
   showRentToggle = false,
   defaultListingType = 'sale',
+  newConstructionOnly = false,
 }: PropertySearchProps) {
   // Filter state
   const [listingType, setListingType] = useState<'sale' | 'rent'>(defaultListingType);
@@ -80,6 +83,7 @@ export default function PropertySearch({
     if (poolOnly) params.set('poolOnly', 'true');
     if (waterfrontOnly) params.set('waterfrontOnly', 'true');
     if (noHoa) params.set('noHoa', 'true');
+    if (newConstructionOnly) params.set('newConstruction', 'true');
     params.set('listingType', listingType);
     // Hidden subdivision filters — passed with every request, not shown in UI
     if (defaultSubdivisions && defaultSubdivisions.length > 0) {
@@ -103,7 +107,7 @@ export default function PropertySearch({
     } finally {
       setLoading(false);
     }
-  }, [defaultCity, defaultZip, minPrice, maxPrice, minBeds, minBaths, poolOnly, waterfrontOnly, noHoa, sortBy, listingType, defaultSubdivision, defaultSubdivisions]);
+  }, [defaultCity, defaultZip, minPrice, maxPrice, minBeds, minBaths, poolOnly, waterfrontOnly, noHoa, newConstructionOnly, sortBy, listingType, defaultSubdivision, defaultSubdivisions]);
 
   // Initial fetch
   useEffect(() => {
