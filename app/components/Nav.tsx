@@ -88,9 +88,9 @@ export default function Nav() {
 
         {/* Right side */}
         <div className="nav-right">
-          <a href="tel:8137337907" className="nav-phone">
+          <a href="tel:8137337907" className="nav-phone" aria-label="Call (813) 733-7907">
             <span className="material-icons" style={{ fontSize: 16 }}>phone</span>
-            (813) 733-7907
+            <span className="nav-phone-text">(813) 733-7907</span>
           </a>
           <button
             className="hamburger"
@@ -194,6 +194,8 @@ export default function Nav() {
           transition: background .2s;
         }
         .nav-phone:hover { background: #002a7a; }
+        /* Hide phone number text on mobile, show icon only */
+        .nav-phone-text { display: inline; }
 
         /* Desktop nav */
         .desktop-nav {
@@ -319,6 +321,18 @@ export default function Nav() {
           .desktop-nav { display: none !important; }
           .hamburger { display: block !important; }
           .mobile-menu { display: block !important; }
+        }
+        @media (max-width: 600px) {
+          /* Compact header on small phones */
+          .nav-inner { padding: 0 12px; height: 56px; }
+          .nav-brand { gap: 8px; }
+          .nav-logo { height: 22px; }
+          .nav-name { font-size: 13px; }
+          .nav-sub { font-size: 9px; }
+          /* Phone button: icon only on small screens */
+          .nav-phone { padding: 8px 10px; font-size: 0; gap: 0; }
+          .nav-phone .material-icons { font-size: 18px !important; }
+          .nav-phone-text { display: none; }
         }
       `}</style>
     </nav>
