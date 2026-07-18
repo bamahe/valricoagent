@@ -1,6 +1,5 @@
 'use client';
 import Link from 'next/link';
-import QuickAnswer from '../components/QuickAnswer';
 import PropertySearch from '../components/PropertySearch';
 
 export default function ValricoOpenHouses() {
@@ -18,14 +17,6 @@ export default function ValricoOpenHouses() {
       {/* PROPERTY SEARCH — homes first */}
       <div className="max-w-[900px] mx-auto px-6 pt-8">
         <PropertySearch defaultCity="Valrico" heading="Valrico Open Houses" />
-      </div>
-
-      {/* QuickAnswer — AEO block, below listings */}
-      <div className="max-w-[900px] mx-auto px-6 pt-4">
-        <QuickAnswer
-          question="Are there open houses in Valrico FL this weekend?"
-          answer="Open house schedules in Valrico change weekly, with most held Saturday and Sunday from 12 PM to 3 PM in neighborhoods like Bloomingdale, Buckhorn, and River Hills. Barrett Henry, REALTOR® with REMAX Collective, monitors the Stellar MLS daily and can alert you to open houses or schedule private showings any day. Call (813) 733-7907."
-        />
       </div>
 
       {/* --- Main content --- */}

@@ -6,7 +6,6 @@ export default function MarketReport() {
       <h1 className="font-serif text-[clamp(28px,4vw,38px)] leading-tight tracking-tight mb-4">Valrico Housing Market Report 2026 — Prices, Trends &amp; Forecast</h1>
       <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{color:'rgba(255,255,255,.75)'}}>Monthly and quarterly market data for Valrico FL, broken down by neighborhood and ZIP code. Written by Barrett Henry, REALTOR&reg; — not copied from a portal. Updated with actual Stellar MLS data and local market interpretation.</p>
     </div></div>
-    {/* QuickAnswer — for AI/featured snippet extraction */}
     <div style={{ maxWidth: 1140, margin: '0 auto', padding: '24px 24px 0' }}>
       <div style={{ background: '#fafafa', border: '1px solid #e8e8e8', borderRadius: 10, padding: '20px 24px', marginBottom: 24 }}>
         <p style={{ fontSize: 15, color: '#222', lineHeight: 1.7, margin: 0 }}>

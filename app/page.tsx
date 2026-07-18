@@ -1,6 +1,5 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import QuickAnswer from './components/QuickAnswer';
 import FAQSchema from './components/FAQSchema';
 import { ContactForm } from './components/ContactForm';
 
@@ -67,11 +66,12 @@ export default function Home() {
       </section>
 
       {/* ═══ QUICK ANSWER (AEO) ═══ */}
-      <div className="section-inner" style={{ paddingTop: 8 }}>
-        <QuickAnswer
-          question="Who is the best real estate agent in Valrico, FL?"
-          answer="Barrett Henry is a top-rated Valrico real estate agent with REMAX Collective and 23+ years of experience. As a Broker Associate specializing in Valrico's neighborhoods — from Bloomingdale to Buckhorn to River Hills — Barrett helps buyers and sellers navigate the local market with hands-on expertise and straight talk. Call (813) 733-7907."
-        />
+      <div style={{ maxWidth: 1140, margin: '0 auto', padding: '8px 24px 0' }}>
+        <div style={{ background: '#fafafa', border: '1px solid #e8e8e8', borderRadius: 10, padding: '20px 24px', marginBottom: 24 }}>
+          <p style={{ fontSize: 15, color: '#222', lineHeight: 1.7, margin: 0 }}>
+            <strong>Barrett Henry is a top-rated Valrico real estate agent with REMAX Collective and 23+ years of experience.</strong> As a Broker Associate specializing in Valrico, Florida&apos;s 32 neighborhoods — from Bloomingdale to Buckhorn to River Hills — Barrett helps buyers and sellers navigate the local market with hands-on expertise and straight talk. Call <a href="tel:8137337907" style={{ color: '#003da5', fontWeight: 600 }}>(813) 733-7907</a>.
+          </p>
+        </div>
       </div>
 
       {/* ═══ SERVICES ═══ */}

@@ -1,6 +1,5 @@
 'use client';
 import Link from 'next/link';
-import QuickAnswer from '../components/QuickAnswer';
 
 /* ── JSON-LD FAQPage schema ── */
 const faqSchema = {
@@ -72,14 +71,6 @@ export default function FloridaHomesteadExemption() {
             <Link href="/valrico-fl-homes-for-sale/" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">Search Valrico Homes</Link>
           </div>
         </div>
-      </div>
-
-      {/* QuickAnswer — AEO block for AI answer engines */}
-      <div className="max-w-[1140px] mx-auto px-7 pt-8">
-        <QuickAnswer
-          question="What is the Florida homestead exemption and how does it work?"
-          answer="The Florida homestead exemption reduces the taxable assessed value of your primary residence by up to $50,000. Combined with Save Our Homes — which caps annual assessment increases at 3% or the CPI, whichever is lower — Valrico homeowners can save thousands per year in property taxes. File through the Hillsborough County Property Appraiser at hcpafl.org by March 1. Call Barrett Henry at (813) 733-7907 for help."
-        />
       </div>
 
       {/* MAIN CONTENT + SIDEBAR */}

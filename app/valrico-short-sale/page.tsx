@@ -1,6 +1,5 @@
 'use client';
 import Link from 'next/link';
-import QuickAnswer from '../components/QuickAnswer';
 
 export default function ValricoShortSale() {
   return (
@@ -16,14 +15,6 @@ export default function ValricoShortSale() {
             <a href="https://flforeclosurehelp.com" target="_blank" rel="noopener" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">Visit flforeclosurehelp.com</a>
           </div>
         </div>
-      </div>
-
-      {/* QuickAnswer — AEO block for AI answer engines */}
-      <div className="max-w-[1140px] mx-auto px-7 pt-8">
-        <QuickAnswer
-          question="What is a short sale in Valrico FL?"
-          answer="A short sale is when a homeowner sells their property for less than the mortgage balance and the bank agrees to accept the reduced payoff. Barrett Henry, REALTOR® with REMAX Collective, has 23+ years of real estate experience handling short sales and negotiates deficiency waivers to protect sellers. Confidential consultations are free. Call (813) 733-7907."
-        />
       </div>
 
       {/* Main content */}

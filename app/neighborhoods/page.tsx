@@ -1,6 +1,5 @@
 'use client';
 import Link from 'next/link';
-import QuickAnswer from '../components/QuickAnswer';
 import FAQSchema from '../components/FAQSchema';
 
 /**
@@ -106,11 +105,12 @@ export default function NeighborhoodsHubPage() {
       </div>
 
       {/* ═══ QUICK ANSWER (AEO) ═══ */}
-      <div className="max-w-[1140px] mx-auto px-7" style={{ paddingTop: 8 }}>
-        <QuickAnswer
-          question="What are the best neighborhoods in Valrico FL?"
-          answer="Valrico has 32 neighborhoods across two ZIP codes. Bloomingdale is the largest (5,200+ homes, $300K–$500K). River Hills and Crestwood Estates are luxury ($500K–$1M+). Buckhorn and Arista offer newer construction with Newsome HS zoning. Diamond Hill provides large lots with no HOA. Barrett Henry, REALTOR® with REMAX Collective, covers all 32. Call (813) 733-7907."
-        />
+      <div style={{ maxWidth: 1140, margin: '0 auto', padding: '8px 24px 0' }}>
+        <div style={{ background: '#fafafa', border: '1px solid #e8e8e8', borderRadius: 10, padding: '20px 24px', marginBottom: 24 }}>
+          <p style={{ fontSize: 15, color: '#222', lineHeight: 1.7, margin: 0 }}>
+            <strong>Valrico, Florida has 32 neighborhoods across two ZIP codes (33594 and 33596).</strong> Bloomingdale is the largest (5,200+ homes, $300K–$500K). River Hills and Crestwood Estates are luxury options ($500K–$1M+). Buckhorn and Arista offer newer construction with Newsome HS zoning. Diamond Hill provides large lots with no HOA. Barrett Henry, REALTOR® with REMAX Collective, covers all 32 — call <a href="tel:8137337907" style={{ color: '#003da5', fontWeight: 600 }}>(813) 733-7907</a>.
+          </p>
+        </div>
       </div>
 
       {/* ═══ QUICK STATS ═══ */}

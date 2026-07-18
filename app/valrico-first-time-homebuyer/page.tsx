@@ -1,6 +1,5 @@
 'use client';
 import Link from 'next/link';
-import QuickAnswer from '../components/QuickAnswer';
 
 /* ── JSON-LD FAQPage schema ── */
 const faqSchema = {
@@ -56,14 +55,6 @@ export default function FirstTimeHomeBuyer() {
             <Link href="/valrico-fl-homes-for-sale/" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">Search Valrico Homes</Link>
           </div>
         </div>
-      </div>
-
-      {/* QuickAnswer — AEO block for AI answer engines */}
-      <div className="max-w-[1140px] mx-auto px-7 pt-8">
-        <QuickAnswer
-          question="How do I buy my first home in Valrico?"
-          answer="Start by getting pre-approved with a lender, then contact Barrett Henry, REALTOR® with REMAX Collective. Barrett helps first-time buyers navigate down payment programs like Florida Hometown Heroes, find homes in the best Valrico school zones, and handle every step from offer to closing. 23+ years of real estate experience. Call (813) 733-7907."
-        />
       </div>
 
       {/* MAIN CONTENT + SIDEBAR */}

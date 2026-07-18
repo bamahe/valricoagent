@@ -1,6 +1,5 @@
 'use client';
 import Link from 'next/link';
-import QuickAnswer from '../components/QuickAnswer';
 
 export default function SchoolZones() {
   return (
@@ -11,14 +10,6 @@ export default function SchoolZones() {
           <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{color:'rgba(255,255,255,.75)'}}>School zoning is the single biggest price driver in Valrico. The difference between being on one side of a school zone boundary versus the other can mean $20,000 to $40,000 in home value. Barrett Henry, REALTOR&reg; can verify exact school assignments for any Valrico address.</p>
           <a href="tel:8137337907" className="btn-solid">(813) 733-7907 — Verify your school zone</a>
         </div>
-      </div>
-
-      {/* QuickAnswer — AEO block for AI answer engines */}
-      <div className="max-w-[780px] mx-auto px-7">
-        <QuickAnswer
-          question="What school zones are in Valrico FL?"
-          answer="Valrico is served by two A-rated high schools: Bloomingdale High School and Newsome High School. School zoning is the biggest price driver in Valrico real estate, with homes in premium zones commanding $20,000 to $50,000 more. Barrett Henry, REALTOR® with REMAX Collective, verifies school assignments for every property. Call (813) 733-7907."
-        />
       </div>
 
       <div className="max-w-[780px] mx-auto px-7 py-16 space-y-6" style={{color:'var(--ink-soft)'}}>

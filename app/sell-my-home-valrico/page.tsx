@@ -1,6 +1,5 @@
 'use client';
 import Link from 'next/link';
-import QuickAnswer from '../components/QuickAnswer';
 
 export default function SellMyHome() {
   return (
@@ -15,14 +14,6 @@ export default function SellMyHome() {
             <Link href="/valrico-fl-home-values/" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">Get my home value first</Link>
           </div>
         </div>
-      </div>
-
-      {/* QuickAnswer — AEO block for AI answer engines */}
-      <div className="max-w-[1140px] mx-auto px-7 pt-8">
-        <QuickAnswer
-          question="How do I sell my home in Valrico FL?"
-          answer="To sell your Valrico home, contact Barrett Henry, REALTOR® and Broker Associate with REMAX Collective. Barrett prices homes using sub-neighborhood comp data, provides professional photography and MLS syndication, and manages negotiations through closing. With 23+ years of real estate experience and SRS designation, he handles every detail. Call (813) 733-7907."
-        />
       </div>
 
       <div className="max-w-[1140px] mx-auto px-7 py-16">

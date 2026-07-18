@@ -1,20 +1,11 @@
 'use client';
 import Link from 'next/link';
-import QuickAnswer from '../components/QuickAnswer';
 export default function LivingInValrico() {
   return (<>
     <div style={{background:'var(--blue-deep)'}} className="text-white py-16 px-7"><div className="max-w-[1140px] mx-auto">
       <h1 className="font-serif text-[clamp(28px,4vw,38px)] leading-tight tracking-tight mb-4">Living in Valrico FL — The Complete Guide for New Residents</h1>
       <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{color:'rgba(255,255,255,.75)'}}>Thinking about moving to Valrico? This guide covers neighborhoods, schools, cost of living, commute times, parks, dining, and what it&apos;s actually like to live here — written by a REALTOR® who works this market every day.</p>
     </div></div>
-
-    {/* QuickAnswer — AEO block for AI answer engines */}
-    <div className="max-w-[780px] mx-auto px-7">
-      <QuickAnswer
-        question="What is it like living in Valrico FL?"
-        answer="Valrico is an unincorporated community of about 38,000 residents in eastern Hillsborough County, offering A-rated schools (Bloomingdale HS and Newsome HS), no city taxes, larger lots than nearby suburbs, and a median home price around $415K. Barrett Henry, REALTOR® with REMAX Collective, works this market daily. Call (813) 733-7907."
-      />
-    </div>
 
     <div className="max-w-[780px] mx-auto px-7 py-16 space-y-6" style={{color:'var(--ink-soft)'}}>
       <h2 className="font-serif text-2xl" style={{color:'var(--ink)'}}>Why people move to Valrico</h2>

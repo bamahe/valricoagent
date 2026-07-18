@@ -17,7 +17,6 @@ export default function ValricoCashOffer() {
         </div>
       </div>
 
-      {/* QuickAnswer — for AI/featured snippet extraction */}
       <div style={{ maxWidth: 1140, margin: '0 auto', padding: '24px 24px 0' }}>
         <div style={{ background: '#fafafa', border: '1px solid #e8e8e8', borderRadius: 10, padding: '20px 24px', marginBottom: 24 }}>
           <p style={{ fontSize: 15, color: '#222', lineHeight: 1.7, margin: 0 }}>

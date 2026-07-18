@@ -8,7 +8,6 @@ export default function Homes33596() {
       <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{color:'rgba(255,255,255,.75)'}}>ZIP code 33596 is the premium Valrico ZIP, covering Bloomingdale, River Hills, Buckhorn, Twin Lakes, and the south Valrico corridor. Both Bloomingdale HS and Newsome HS zones fall within this ZIP. Prices range from $300K to $800K+.</p>
       <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search all Valrico homes</Link>
     </div></div>
-    {/* QuickAnswer — for AI/featured snippet extraction */}
     <div style={{ maxWidth: 1140, margin: '0 auto', padding: '24px 24px 0' }}>
       <div style={{ background: '#fafafa', border: '1px solid #e8e8e8', borderRadius: 10, padding: '20px 24px', marginBottom: 24 }}>
         <p style={{ fontSize: 15, color: '#222', lineHeight: 1.7, margin: 0 }}>

@@ -8,7 +8,6 @@ export default function NoHOA() {
       <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{color:'rgba(255,255,255,.75)'}}>Looking for a Valrico home with no HOA fees and no restrictions? Several Valrico neighborhoods have voluntary or no homeowner association. Barrett Henry, REALTOR&reg; can identify exactly which sections offer no-HOA living.</p>
       <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search all Valrico homes</Link>
     </div></div>
-    {/* QuickAnswer — for AI/featured snippet extraction */}
     <div style={{ maxWidth: 1140, margin: '0 auto', padding: '24px 24px 0' }}>
       <div style={{ background: '#fafafa', border: '1px solid #e8e8e8', borderRadius: 10, padding: '20px 24px', marginBottom: 24 }}>
         <p style={{ fontSize: 15, color: '#222', lineHeight: 1.7, margin: 0 }}>
