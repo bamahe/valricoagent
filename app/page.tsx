@@ -161,7 +161,7 @@ export default function Home() {
                   </div>
                 ))}
               </div>
-              <p style={{ textAlign: 'center', fontSize: 11, color: '#888', marginTop: 16 }}>Q1 2026 · Stellar MLS · 33594 & 33596</p>
+              <p style={{ textAlign: 'center', fontSize: 11, color: '#888', marginTop: 16 }}>Q3 2026 · Stellar MLS · 33594 & 33596</p>
               <Link href="/valrico-market-report/" style={{ display: 'block', textAlign: 'center', marginTop: 12, fontSize: 13, fontWeight: 600, color: '#003da5' }}>Full Market Report →</Link>
             </div>
           </div>
@@ -194,7 +194,7 @@ export default function Home() {
           </div>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 24 }}>
             {[
-              { img: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&q=75', title: 'Valrico Housing Market Q1 2026: What the Numbers Mean', desc: 'Median prices, inventory shifts, days on market by neighborhood, and what it means for buyers and sellers.', href: '/blog/valrico-housing-market-q1-2026/' },
+              { img: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&q=75', title: 'Valrico Housing Market Q3 2026: What the Numbers Mean', desc: 'Median prices, inventory shifts, days on market by neighborhood, and what it means for buyers and sellers heading into fall.', href: '/blog/valrico-real-estate-market-report-q3-2026/' },
               { img: 'https://images.unsplash.com/photo-1575517111478-7f6afd0973db?w=600&q=75', title: 'Bloomingdale vs. Buckhorn: Two Corridors, Different Tradeoffs', desc: 'Price points, school zones, HOA differences, lot sizes, and which one fits.', href: '/blog/bloomingdale-vs-buckhorn-valrico/' },
               { img: 'https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=600&q=75', title: 'How School Zones Affect What Your Valrico Home Is Worth', desc: 'School zoning is the single biggest price driver in Valrico.', href: '/valrico-school-zones/' },
             ].map(post => (
@@ -292,7 +292,7 @@ export default function Home() {
         items={[
           { question: "Who is the best real estate agent in Valrico FL?", answer: "Barrett Henry is a top-rated Broker Associate with REMAX Collective, serving Valrico with 23+ years of real estate experience. He covers all 32 Valrico neighborhoods across ZIP codes 33594 and 33596, holds e-PRO, MRP, and SRS designations, and maintains a 5.0-star rating. Call (813) 733-7907." },
           { question: "How long does it take to sell a home in Valrico?", answer: "A properly priced Valrico home typically goes under contract within 15-30 days and closes 30-45 days later — roughly 45-75 days total. Overpriced homes sit for months. The key is accurate pricing from day one using actual closed comps from your specific sub-neighborhood, not ZIP code averages." },
-          { question: "What is the median home price in Valrico FL?", answer: "The median home price in Valrico is approximately $415,000 as of Q1 2026. Prices range from around $275K in entry-level neighborhoods to over $1M in River Hills and Crestwood Estates. Price per square foot averages $210-$220 depending on the subdivision and condition." },
+          { question: "What is the median home price in Valrico FL?", answer: "The median home price in Valrico is approximately $415,000 as of Q3 2026. Prices range from around $275K in entry-level neighborhoods to over $1M in River Hills and Crestwood Estates. Price per square foot averages $210-$220 depending on the subdivision and condition." },
           { question: "What are the best neighborhoods in Valrico?", answer: "It depends on your priorities. Bloomingdale offers the largest community (5,200+ homes, $300K-$500K). River Hills and Crestwood Estates are luxury options ($600K-$1M+). Buckhorn Preserve and Brentwood Hills have newer construction ($350K-$500K). Diamond Hill provides larger lots with no HOA. Barrett covers all 32 neighborhoods and matches buyers to the right fit." },
           { question: "Is Valrico FL a good place to live?", answer: "Valrico consistently ranks among the best suburbs in Hillsborough County for families. Top-rated schools (Bloomingdale HS, Newsome HS), low crime rates, easy access to I-75 and the Selmon Expressway, and a mix of established and newer neighborhoods make it a strong choice for buyers who want suburban space with Tampa Bay access." },
           { question: "What school zones are in Valrico?", answer: "Valrico is primarily served by two high school zones: Bloomingdale High School (western Valrico) and Newsome High School (eastern/southern portions including Buckhorn). School zoning is the single biggest price driver in Valrico — homes in top zones consistently sell faster and for more money." },
