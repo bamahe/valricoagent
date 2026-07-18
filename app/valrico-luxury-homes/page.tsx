@@ -18,11 +18,11 @@ export default function LuxuryHomes() {
       </div>
 
       {/* PROPERTY SEARCH */}
-      <div className="max-w-[780px] mx-auto px-7 pt-10">
+      <div className="max-w-[1140px] mx-auto px-7 pt-10">
         <PropertySearch defaultCity="Valrico" heading="Valrico Luxury Homes for Sale" />
       </div>
 
-      <div className="max-w-[780px] mx-auto px-7 py-16 space-y-6" style={{color:'var(--ink-soft)'}}>
+      <div className="max-w-[1140px] mx-auto px-7 py-16 space-y-6" style={{color:'var(--ink-soft)'}}>
         <h2 className="font-serif text-2xl" style={{color:'var(--ink)'}}>Where luxury lives in Valrico</h2>
         <p className="text-[15px] leading-[1.8]">Valrico&apos;s luxury market starts around $600K and extends past $1.2 million for the most exclusive properties. Unlike South Tampa or Harbour Island, luxury here is defined by lot size, privacy, and community amenities rather than urban proximity. The trade-off is intentional: buyers at this level want space, not density.</p>
 

@@ -8,7 +8,7 @@ export default function PoolHomes() {
       <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{color:'rgba(255,255,255,.75)'}}>In Valrico, a pool is not a luxury — it&apos;s a way of life. Average temps above 70&deg; nine months a year. Pool homes in Valrico range from $370K to $800K+ and consistently command premiums over non-pool comparables.</p>
       <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search all Valrico homes</Link>
     </div></div>
-    <div className="max-w-[780px] mx-auto px-7 py-16 space-y-6" style={{color:'var(--ink-soft)'}}>
+    <div className="max-w-[1140px] mx-auto px-7 py-16 space-y-6" style={{color:'var(--ink-soft)'}}>
       <PropertySearch defaultCity="Valrico" poolOnly heading="Valrico Pool Homes for Sale" />
       <h2 className="font-serif text-2xl" style={{color:'var(--ink)'}}>What to know about buying a pool home in Valrico</h2>
       <p className="text-[15px] leading-[1.8]">The vast majority of Valrico pools have aluminum-framed screen enclosures (pool cages). A cage in good condition adds significant value — replacement costs for a full cage run $5,000 to $15,000 depending on size, so cage condition is a key inspection item. Saltwater systems have surged in popularity due to lower maintenance and softer water.</p>

@@ -8,7 +8,7 @@ export default function NoHOA() {
       <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{color:'rgba(255,255,255,.75)'}}>Looking for a Valrico home with no HOA fees and no restrictions? Several Valrico neighborhoods have voluntary or no homeowner association. Barrett Henry, REALTOR&reg; can identify exactly which sections offer no-HOA living.</p>
       <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search all Valrico homes</Link>
     </div></div>
-    <div className="max-w-[780px] mx-auto px-7 py-16 space-y-6" style={{color:'var(--ink-soft)'}}>
+    <div className="max-w-[1140px] mx-auto px-7 py-16 space-y-6" style={{color:'var(--ink-soft)'}}>
       <PropertySearch defaultCity="Valrico" heading="Valrico No-HOA Homes for Sale" />
       <h2 className="font-serif text-2xl" style={{color:'var(--ink)'}}>Where to find no HOA homes in Valrico</h2>
       <p className="text-[15px] leading-[1.8]">In <Link href="/neighborhoods/bloomingdale/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Bloomingdale</Link>, roughly half of the 32+ sub-neighborhoods have voluntary associations or no formal HOA at all. This means no monthly fees, no architectural review, and no restrictions on what you can do with your property. Voluntary associations exist in some sections but have no enforcement power — they organize social events and maintain optional community standards.</p>
