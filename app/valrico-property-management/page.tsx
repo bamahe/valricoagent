@@ -20,7 +20,7 @@ export default function PropertyManagement() {
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_340px] gap-14">
           <div className="space-y-6" style={{color:'var(--ink-soft)'}}>
             <h2 className="font-serif text-2xl" style={{color:'var(--ink)'}}>Why Valrico landlords choose ViVi Property Management</h2>
-            <p className="text-[15px] leading-[1.8]">Most property management companies are either too big to care about your single rental or too small to handle the work professionally. ViVi PM operates under Barrett Henry&apos;s brokerage at REMAX Collective, which means you get the accountability of a licensed brokerage, the local market knowledge of a Valrico REALTOR&reg; who knows every neighborhood, and in-house maintenance through Best Bay Services that keeps your costs down and response times fast.</p>
+            <p className="text-[15px] leading-[1.8]">Most property management companies are either too big to care about your single rental or too small to handle the work professionally. ViVi PM operates through Collective Rental Resource (CRR) under RE/MAX Collective, which means you get the accountability of a licensed brokerage, the local market knowledge of a Valrico REALTOR&reg; who knows every neighborhood, and in-house maintenance through Best Bay Services that keeps your costs down and response times fast.</p>
 
             <h2 className="font-serif text-2xl mt-10" style={{color:'var(--ink)'}}>What we handle</h2>
             <div className="space-y-4">
