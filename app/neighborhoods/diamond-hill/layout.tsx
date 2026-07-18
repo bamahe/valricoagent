@@ -3,12 +3,12 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Diamond Hill Homes for Sale — Valrico FL 33594",
   description:
-    "Diamond Hill homes for sale in Valrico FL 33594. Gated golf community, $350K-$550K. Resort amenities, Olympic pool, and clubhouse. Call (813) 733-7907.",
+    "Diamond Hill homes for sale in Valrico FL 33594. Golf-adjacent neighborhood with large lots and no HOA options, $350K-$550K. Olympic pool, fitness center, and clubhouse. Call (813) 733-7907.",
   alternates: { canonical: "/neighborhoods/diamond-hill/" },
   openGraph: {
     title: "Diamond Hill Homes for Sale — Valrico FL 33594",
     description:
-      "Gated golf community in Valrico. $350K-$550K. Resort-style amenities including Olympic pool, fitness center, and clubhouse. Diamond Hill Golf Club. Barrett Henry, REALTOR® at REMAX Collective.",
+      "Golf-adjacent neighborhood in Valrico with large lots and no HOA options. $350K-$550K. Olympic pool, fitness center, and clubhouse near Diamond Hill Golf Club. Barrett Henry, REALTOR® at REMAX Collective.",
     url: "https://valricoagent.com/neighborhoods/diamond-hill/",
     siteName: "ValricoAgent.com",
     type: "website",

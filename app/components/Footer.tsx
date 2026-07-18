@@ -40,15 +40,9 @@ export default function Footer() {
               {[
                 ['/valrico-fl-homes-for-sale/', 'Search Homes'],
                 ['/valrico-first-time-homebuyer/', 'First-Time Buyers'],
-                ['/valrico-down-payment-assistance/', 'Down Payment Help'],
-                ['/valrico-va-loan-homes/', 'VA Loan Homes'],
                 ['/valrico-pool-homes/', 'Pool Homes'],
-                ['/valrico-no-hoa-homes/', 'No HOA Homes'],
                 ['/valrico-new-construction-homes/', 'New Construction'],
                 ['/valrico-luxury-homes/', 'Luxury Homes'],
-                ['/valrico-waterfront-homes/', 'Waterfront Homes'],
-                ['/homes-for-sale-33594/', '33594 Homes'],
-                ['/homes-for-sale-33596/', '33596 Homes'],
                 ['/valrico-relocation-guide/', 'Relocating to Valrico'],
                 ['/valrico-investment-property/', 'Investment Properties'],
               ].map(([h, n]) => (
@@ -100,12 +94,6 @@ export default function Footer() {
                 ['/neighborhoods/buckhorn/', 'Buckhorn'],
                 ['/neighborhoods/crestwood-estates/', 'Crestwood Estates'],
                 ['/neighborhoods/twin-lakes/', 'Twin Lakes'],
-                ['/neighborhoods/arista/', 'Arista'],
-                ['/neighborhoods/brentwood-hills/', 'Brentwood Hills'],
-                ['/neighborhoods/bloomingdale-oaks/', 'Bloomingdale Oaks'],
-                ['/neighborhoods/buckhorn-preserve/', 'Buckhorn Preserve'],
-                ['/neighborhoods/canterbury-oaks/', 'Canterbury Oaks'],
-                ['/neighborhoods/kings-mill/', 'Kings Mill'],
               ].map(([h, n]) => (
                 <li key={h}><Link href={h}>{n}</Link></li>
               ))}
@@ -134,7 +122,7 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="footer-bottom">
-          <span>© 2026 Barrett Henry, REALTOR® · REMAX Collective</span>
+          <span>© 2026 Barrett Henry, REALTOR® · REMAX Collective · <Link href="/privacy-policy/" style={{ color: 'rgba(255,255,255,.4)' }}>Privacy Policy</Link></span>
           <span>Built by <a href="https://vyrabyte.com" target="_blank" rel="noopener" style={{ color: 'rgba(255,255,255,.5)' }}>Vyrabyte</a></span>
         </div>
       </div>

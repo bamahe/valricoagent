@@ -11,7 +11,23 @@ export const metadata: Metadata = {
   title: 'Get Help — Contact Barrett Henry | Valrico REALTOR',
   description:
     'Reach Barrett Henry for any Valrico real estate question — buying, selling, investing, or relocating. Response within 2 hours. Call (813) 733-7907.',
-  alternates: { canonical: 'https://valricoagent.com/get-help' },
+  alternates: { canonical: '/get-help/' },
+  openGraph: {
+    title: 'Get Help — Contact Barrett Henry | Valrico REALTOR',
+    description:
+      'Reach Barrett Henry for any Valrico real estate question — buying, selling, investing, or relocating. Response within 2 hours. Call (813) 733-7907.',
+    url: 'https://valricoagent.com/get-help/',
+    siteName: 'ValricoAgent.com',
+    type: 'website',
+    images: [
+      {
+        url: 'https://valricoagent.com/barrett-henry.png',
+        width: 600,
+        height: 600,
+        alt: 'Barrett Henry, REALTOR - Valrico FL',
+      },
+    ],
+  },
 };
 
 export default function GetHelpPage() {

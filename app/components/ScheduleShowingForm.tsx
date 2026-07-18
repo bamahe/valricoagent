@@ -42,6 +42,8 @@ export function ScheduleShowingForm() {
       if (res.ok) {
         setStatus('success');
         form.reset();
+        // Redirect to thank-you page (success state stays as fallback if redirect is slow)
+        window.location.href = '/thank-you/';
       } else {
         setStatus('error');
       }

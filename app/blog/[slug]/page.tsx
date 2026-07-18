@@ -131,7 +131,13 @@ export default async function BlogPostPage({
       '@type': 'Person',
       name: 'Barrett Henry',
       jobTitle: 'REALTOR®, Broker Associate',
-      worksFor: { '@type': 'Organization', name: 'RE/MAX Collective' },
+      worksFor: { '@type': 'Organization', name: 'REMAX Collective' },
+      image: 'https://valricoagent.com/barrett-henry.png',
+      url: 'https://valricoagent.com/about/',
+      sameAs: [
+        'https://www.linkedin.com/in/barretthenry/',
+        'https://www.zillow.com/profile/barretthenry',
+      ],
     },
     publisher: {
       '@type': 'Organization',
@@ -165,10 +171,41 @@ export default async function BlogPostPage({
 
   return (
     <>
-      {/* JSON-LD Schema */}
+      {/* JSON-LD Schema — Article/BlogPosting */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+
+      {/* JSON-LD Schema — BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              {
+                '@type': 'ListItem',
+                position: 1,
+                name: 'Home',
+                item: 'https://valricoagent.com/',
+              },
+              {
+                '@type': 'ListItem',
+                position: 2,
+                name: 'Blog',
+                item: 'https://valricoagent.com/blog/',
+              },
+              {
+                '@type': 'ListItem',
+                position: 3,
+                name: post.title,
+                item: `https://valricoagent.com/blog/${post.slug}/`,
+              },
+            ],
+          }),
+        }}
       />
 
       <article className="max-w-3xl mx-auto px-4 py-12">
@@ -275,6 +312,82 @@ export default async function BlogPostPage({
             </div>
           </div>
         )}
+
+        {/* Author Bio */}
+        <div
+          style={{
+            marginTop: 48,
+            padding: 24,
+            background: '#fafafa',
+            border: '1px solid #e5e5e5',
+            borderRadius: 12,
+            display: 'flex',
+            gap: 20,
+            alignItems: 'flex-start',
+          }}
+        >
+          <Image
+            src="/barrett-henry.png"
+            alt="Barrett Henry, REALTOR® & Broker Associate"
+            width={80}
+            height={80}
+            style={{ borderRadius: '50%', flexShrink: 0 }}
+          />
+          <div>
+            <p style={{ fontSize: 16, fontWeight: 700, color: '#222', marginBottom: 4 }}>
+              Barrett Henry, REALTOR® &amp; Broker Associate
+            </p>
+            <p style={{ fontSize: 14, color: '#555', marginBottom: 8, lineHeight: 1.6 }}>
+              23+ years of real estate experience. Designations: e-PRO, MRP, SRS. Serving
+              Valrico&apos;s 33594 and 33596 zip codes through REMAX Collective.
+            </p>
+            <a
+              href="tel:+18137337907"
+              style={{ fontSize: 14, color: '#003da5', fontWeight: 600, textDecoration: 'none' }}
+            >
+              (813) 733-7907
+            </a>
+          </div>
+        </div>
+
+        {/* Legal Disclaimer */}
+        <p
+          style={{
+            fontSize: 11,
+            color: '#888',
+            borderTop: '1px solid #e5e5e5',
+            paddingTop: 16,
+            marginTop: 24,
+            lineHeight: 1.6,
+          }}
+        >
+          Information is deemed reliable but not guaranteed. Content is for informational purposes
+          only and is not intended as legal, financial, or tax advice. Consult a licensed
+          professional for advice specific to your situation.
+        </p>
+
+        {/* Free Housing Resources */}
+        <p
+          style={{
+            fontSize: 11,
+            color: '#888',
+            marginTop: 12,
+            lineHeight: 1.8,
+          }}
+        >
+          Free Housing Resources: HUD Housing Counseling:{' '}
+          <a href="tel:+18005694287" style={{ color: '#888', textDecoration: 'underline' }}>
+            1-800-569-4287
+          </a>{' '}
+          | FHA Resource Center:{' '}
+          <a href="tel:+18002255342" style={{ color: '#888', textDecoration: 'underline' }}>
+            1-800-225-5342
+          </a>{' '}
+          | HOPE Hotline:{' '}
+          <a href="tel:+18889954673" style={{ color: '#888', textDecoration: 'underline' }}>
+            1-888-995-4673
+          </a>
+        </p>
       </article>
     </>
   );

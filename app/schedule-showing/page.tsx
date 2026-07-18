@@ -10,7 +10,23 @@ export const metadata: Metadata = {
   title: 'Schedule a Showing — Valrico FL Homes | Barrett Henry',
   description:
     'Book a private showing of any Valrico home for sale. Barrett Henry responds within 2 hours. Call (813) 733-7907 or fill out the form.',
-  alternates: { canonical: 'https://valricoagent.com/schedule-showing' },
+  alternates: { canonical: '/schedule-showing/' },
+  openGraph: {
+    title: 'Schedule a Showing — Valrico FL Homes | Barrett Henry',
+    description:
+      'Book a private showing of any Valrico home for sale. Barrett Henry responds within 2 hours. Call (813) 733-7907 or fill out the form.',
+    url: 'https://valricoagent.com/schedule-showing/',
+    siteName: 'ValricoAgent.com',
+    type: 'website',
+    images: [
+      {
+        url: 'https://valricoagent.com/barrett-henry.png',
+        width: 600,
+        height: 600,
+        alt: 'Barrett Henry, REALTOR - Valrico FL',
+      },
+    ],
+  },
 };
 
 export default function ScheduleShowingPage() {

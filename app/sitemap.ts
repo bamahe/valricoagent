@@ -55,6 +55,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${baseUrl}/valrico-cost-of-living/`, changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${baseUrl}/is-valrico-safe/`, changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${baseUrl}/valrico-open-houses/`, changeFrequency: 'daily' as const, priority: 0.7 },
+    { url: `${baseUrl}/get-help/`, changeFrequency: 'monthly' as const, priority: 0.8 },
+    { url: `${baseUrl}/schedule-showing/`, changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/florida-homestead-exemption-save-our-homes/`, changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/neighborhoods/`, changeFrequency: 'weekly' as const, priority: 0.8 },
+    { url: `${baseUrl}/thank-you/`, changeFrequency: 'yearly' as const, priority: 0.1 },
   ]
 
   // Neighborhood pages

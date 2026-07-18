@@ -39,6 +39,8 @@ export function ContactForm() {
       if (res.ok) {
         setStatus('success');
         form.reset();
+        // Redirect to thank-you page (success state stays as fallback if redirect is slow)
+        window.location.href = '/thank-you/';
       } else {
         setStatus('error');
       }
@@ -51,7 +53,7 @@ export function ContactForm() {
     return (
       <div style={{ padding: '32px 20px', textAlign: 'center', background: '#f0fdf4', borderRadius: 8, border: '1px solid #bbf7d0' }}>
         <p style={{ fontSize: 18, fontWeight: 700, color: '#15803d', marginBottom: 8 }}>Message Sent!</p>
-        <p style={{ fontSize: 14, color: '#555' }}>Barrett will reach out within 24 hours.</p>
+        <p style={{ fontSize: 14, color: '#555' }}>Barrett will reach out within 2 hours.</p>
         <a href="tel:+18137337907" style={{ display: 'inline-block', marginTop: 16, fontSize: 14, fontWeight: 600, color: '#003da5' }}>
           Or call now: (813) 733-7907
         </a>

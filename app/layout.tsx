@@ -3,6 +3,9 @@ import "./globals.css";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 import CookieConsent from "./components/CookieConsent";
+import MobileBottomBar from "./components/MobileBottomBar";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
   title: {
@@ -167,8 +170,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Nav />
         <main id="main-content">{children}</main>
         <Footer />
+        {/* Sticky mobile bottom bar — Call + Text buttons, hidden on desktop */}
+        <MobileBottomBar />
         {/* Cookie consent banner — shows on first visit, dismissible */}
         <CookieConsent />
+        <SpeedInsights />
+        <Analytics />
       </body>
     </html>
   );
