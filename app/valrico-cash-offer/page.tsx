@@ -17,6 +17,15 @@ export default function ValricoCashOffer() {
         </div>
       </div>
 
+      {/* QuickAnswer — for AI/featured snippet extraction */}
+      <div style={{ maxWidth: 1140, margin: '0 auto', padding: '24px 24px 0' }}>
+        <div style={{ background: '#fafafa', border: '1px solid #e8e8e8', borderRadius: 10, padding: '20px 24px', marginBottom: 24 }}>
+          <p style={{ fontSize: 15, color: '#222', lineHeight: 1.7, margin: 0 }}>
+            <strong>Yes, you can get a cash offer on your Valrico home. Barrett Henry, REALTOR with REMAX Collective, provides written cash offers within 24 hours based on current market data and comparable sales. Cash sales can close in as little as 7-14 days, require no repairs or showings, and you choose the closing date. Call (813) 733-7907 for a no-obligation cash offer.</strong>
+          </p>
+        </div>
+      </div>
+
       {/* Main content */}
       <div className="max-w-[1140px] mx-auto px-7 py-16">
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_340px] gap-14">

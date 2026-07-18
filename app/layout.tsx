@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     ],
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: "Valrico Realtor | Barrett Henry | REMAX Collective",
     description: "Your Valrico real estate agent with 23+ years experience. (813) 733-7907.",
     images: ["https://valricoagent.com/barrett-henry.png"],
@@ -100,73 +100,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 })();
           `.trim()}} />
         )}
-        {/* Sitewide RealEstateAgent JSON-LD schema for SEO/AEO */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": ["RealEstateAgent", "LocalBusiness"],
-              "@id": "https://valricoagent.com/#agent",
-              "name": "Barrett Henry, REALTOR®",
-              "givenName": "Barrett",
-              "familyName": "Henry",
-              "jobTitle": "Broker Associate",
-              "description": "Barrett Henry is a licensed Broker Associate with REMAX Collective specializing in Valrico FL real estate. 23+ years of experience serving ZIP codes 33594 and 33596 across 32 neighborhoods.",
-              "url": "https://valricoagent.com",
-              "telephone": "(813) 733-7907",
-              "email": "barrett@nowtb.com",
-              "image": "https://valricoagent.com/barrett-henry.png",
-              "priceRange": "$",
-              "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "417 Lithia Pinecrest Rd",
-                "addressLocality": "Brandon",
-                "addressRegion": "FL",
-                "postalCode": "33511",
-                "addressCountry": "US"
-              },
-              "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 27.9378,
-                "longitude": -82.2365
-              },
-              "areaServed": [
-                { "@type": "City", "name": "Valrico", "containedInPlace": { "@type": "State", "name": "Florida" } },
-                { "@type": "City", "name": "Brandon", "containedInPlace": { "@type": "State", "name": "Florida" } },
-                { "@type": "City", "name": "Riverview", "containedInPlace": { "@type": "State", "name": "Florida" } },
-                { "@type": "City", "name": "Lithia", "containedInPlace": { "@type": "State", "name": "Florida" } },
-                { "@type": "City", "name": "Seffner", "containedInPlace": { "@type": "State", "name": "Florida" } }
-              ],
-              "hasCredential": [
-                { "@type": "EducationalOccupationalCredential", "credentialCategory": "license", "name": "Florida Real Estate Broker License", "identifier": { "@type": "PropertyValue", "propertyID": "DBPR License Number", "value": "3313308" } },
-                { "@type": "EducationalOccupationalCredential", "name": "e-PRO" },
-                { "@type": "EducationalOccupationalCredential", "name": "MRP", "description": "Military Relocation Professional" },
-                { "@type": "EducationalOccupationalCredential", "name": "SRS", "description": "Seller Representative Specialist" }
-              ],
-              "worksFor": { "@type": "Organization", "name": "REMAX Collective" },
-              "memberOf": { "@type": "Organization", "name": "Suncoast Tampa Association of REALTORS" },
-              "slogan": "MOVE WITH CONFIDENCE. Straight Talk. Smart Strategy.",
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "5.0",
-                "bestRating": "5",
-                "worstRating": "1",
-                "ratingCount": "85"
-              },
-              "sameAs": [
-                "https://nowtb.com",
-                "https://valrico.blog",
-                "https://www.facebook.com/BarrettHenryREALTOR/",
-                "https://www.instagram.com/thenowteam",
-                "https://www.linkedin.com/in/barretthenry/",
-                "https://www.youtube.com/@nowtampa",
-                "https://www.zillow.com/profile/barretthenry",
-                "https://www.remax.com/real-estate-agents/barrett-henry-city-state/100112059"
-              ]
-            })
-          }}
-        />
         <Nav />
         <main id="main-content">{children}</main>
         <Footer />

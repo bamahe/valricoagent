@@ -41,7 +41,7 @@ export default function LivingInValrico() {
 
       <div className="mt-10 p-6 rounded-md text-center" style={{background:'var(--cream-warm)'}}>
         <h3 className="font-serif text-lg mb-2">Relocating to Valrico?</h3>
-        <p className="text-sm mb-4" style={{color:'var(--ink-soft)'}}>Barrett Henry, REALTOR® with RE/MAX Collective can help you find the right Valrico neighborhood for your budget and lifestyle. MRP (Military Relocation Professional) designated.</p>
+        <p className="text-sm mb-4" style={{color:'var(--ink-soft)'}}>Barrett Henry, REALTOR® with REMAX Collective can help you find the right Valrico neighborhood for your budget and lifestyle. MRP (Military Relocation Professional) designated.</p>
         <a href="tel:8137337907" className="btn-solid mr-2">(813) 733-7907</a>
         <a href="mailto:barrett@nowtb.com" className="btn-ghost">Email Barrett</a>
       </div>

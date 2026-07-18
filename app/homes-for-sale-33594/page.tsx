@@ -8,6 +8,15 @@ export default function Homes33594() {
       <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{color:'rgba(255,255,255,.75)'}}>ZIP code 33594 covers north Valrico near the Brandon border. Neighborhoods include Diamond Hill, parts of Brentwood Hills, Legends Pass, and older established sections of Valrico along SR-60. Prices typically range from $300K to $550K+.</p>
       <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search all Valrico homes</Link>
     </div></div>
+    {/* QuickAnswer — for AI/featured snippet extraction */}
+    <div style={{ maxWidth: 1140, margin: '0 auto', padding: '24px 24px 0' }}>
+      <div style={{ background: '#fafafa', border: '1px solid #e8e8e8', borderRadius: 10, padding: '20px 24px', marginBottom: 24 }}>
+        <p style={{ fontSize: 15, color: '#222', lineHeight: 1.7, margin: 0 }}>
+          <strong>Homes for sale in Valrico ZIP code 33594 typically range from $300K to $550K+, with a price per square foot of $195-$215. This north Valrico ZIP includes neighborhoods like Diamond Hill (gated golf community), parts of Brentwood Hills, Legends Pass, and established sections along SR-60. The 33594 ZIP has a slightly lower median price than 33596, largely due to school zoning differences.</strong>
+        </p>
+      </div>
+    </div>
+
     <div className="max-w-[1140px] mx-auto px-7 py-12">
       <PropertySearch defaultZip="33594" heading="Homes for Sale in 33594" />
       <h2 className="font-serif text-2xl mb-4">About ZIP code 33594</h2>

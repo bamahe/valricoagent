@@ -10,10 +10,10 @@ export const metadata: Metadata = {
     url: "https://valricoagent.com/valrico-foreclosures/",
     siteName: "ValricoAgent.com",
     type: "website",
-    images: [{ url: "https://valricoagent.com/barrett-henry.png", width: 600, height: 600, alt: "Barrett Henry, REALTOR - Valrico FL" }],
+    images: [{ url: "https://valricoagent.com/barrett-henry.png", width: 1200, height: 630, alt: "Barrett Henry, REALTOR - Valrico FL" }],
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     images: ["https://valricoagent.com/barrett-henry.png"],
   },
 };

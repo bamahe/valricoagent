@@ -1,8 +1,20 @@
-'use client';
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import QuickAnswer from './components/QuickAnswer';
 import FAQSchema from './components/FAQSchema';
 import { ContactForm } from './components/ContactForm';
+
+/**
+ * Page-level metadata — exported from a Server Component so Next.js
+ * can inject title/description into the <head> at build time.
+ * Targets "Valrico homes for sale" (22,200 mo. searches).
+ */
+export const metadata: Metadata = {
+  title: "Valrico Homes for Sale | Barrett Henry, REALTOR\u00AE | REMAX Collective",
+  description:
+    "Search all Valrico FL homes for sale in 33594 & 33596. Barrett Henry, Broker Associate with REMAX Collective, has 23+ years of real estate experience. Explore 32 neighborhoods, get your home value, or sell with confidence. (813) 733-7907.",
+  alternates: { canonical: "/" },
+};
 
 export default function Home() {
   return (
@@ -25,7 +37,7 @@ export default function Home() {
               Buy, Sell, or Invest in Valrico with <span style={{ color: '#fff' }}>Confidence</span>
             </h1>
             <p style={{ fontSize: 17, lineHeight: 1.75, opacity: 0.85, marginBottom: 32, maxWidth: 520 }}>
-              32 neighborhoods. Two ZIP codes. One REALTOR® who knows them all. Barrett Henry brings 23+ years of experience and straight-talk guidance to every deal.
+              32 neighborhoods. Two ZIP codes. One REALTOR® who knows every Valrico, Florida homes for sale listing. Barrett Henry brings 23+ years of real estate experience and straight-talk guidance to every deal in the Tampa Bay area.
             </p>
             <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap' }}>
               <Link href="/valrico-fl-homes-for-sale/" className="btn-white">
@@ -71,11 +83,11 @@ export default function Home() {
           </div>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 20 }}>
             {[
-              { icon: 'search', title: 'Search Homes', desc: 'Every active listing in Valrico — updated directly from Stellar MLS.', href: '/valrico-fl-homes-for-sale/', cta: 'Start Search' },
+              { icon: 'search', title: 'Search Homes for Sale', desc: 'Every active Valrico FL home for sale — updated directly from Stellar MLS.', href: '/valrico-fl-homes-for-sale/', cta: 'Start Search' },
               { icon: 'trending_up', title: 'Sell Your Home', desc: 'Strategic pricing from sub-neighborhood comps. Professional marketing. Sharp negotiation.', href: '/sell-my-home-valrico/', cta: 'Selling Guide' },
-              { icon: 'assessment', title: "What's My Home Worth?", desc: 'Free CMA from actual closed comps in your section of Valrico — not a Zestimate.', href: '/valrico-fl-home-values/', cta: 'Get Your Value' },
+              { icon: 'assessment', title: "What's My Home Worth?", desc: 'Free CMA from actual closed comps in your section of Valrico, Florida — not a Zestimate.', href: '/valrico-fl-home-values/', cta: 'Get Your Value' },
               { icon: 'map', title: '32 Neighborhoods', desc: 'Detailed guides for every subdivision with pricing, schools, and who fits best.', href: '/neighborhoods/', cta: 'Explore' },
-              { icon: 'school', title: 'School Zones', desc: 'Bloomingdale HS & Newsome HS zones — how school zoning affects home value.', href: '/valrico-school-zones/', cta: 'School Guide' },
+              { icon: 'school', title: 'School Zones', desc: 'Bloomingdale HS & Newsome HS zones — how school zoning affects homes for sale and home values.', href: '/valrico-school-zones/', cta: 'School Guide' },
               { icon: 'apartment', title: 'Property Management', desc: 'Full-service rental management for Valrico landlords. In-house maintenance.', href: '/valrico-property-management/', cta: 'Learn More' },
             ].map((s) => (
               <Link key={s.title} href={s.href} className="card" style={{ padding: '28px 24px', textDecoration: 'none', display: 'block' }}>
@@ -113,6 +125,24 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ═══ LOCAL RESOURCES — outbound authority links for SEO ═══ */}
+      <section style={{ padding: '24px 0', background: '#fafafa', borderBottom: '1px solid #e8e8e8' }}>
+        <div className="section-inner">
+          <p style={{ fontSize: 13, fontWeight: 600, color: '#1a1a1a', textAlign: 'center', marginBottom: 12 }}>Valrico &amp; Hillsborough County Resources</p>
+          <div style={{ display: 'flex', gap: 10, flexWrap: 'wrap', justifyContent: 'center' }}>
+            {[
+              ['Hillsborough County Property Appraiser', 'https://www.hcpafl.org'],
+              ['Hillsborough County Public Schools', 'https://www.hillsboroughschools.org'],
+              ['Bloomingdale HS — GreatSchools', 'https://www.greatschools.org/florida/valrico/1288-Bloomingdale-Senior-High-School/'],
+              ['Newsome HS — GreatSchools', 'https://www.greatschools.org/florida/lithia/6474-Lennard-High-School/'],
+              ['Florida DBPR License Verify', 'https://www.myfloridalicense.com/wl11.asp'],
+            ].map(([label, href]) => (
+              <a key={label} href={href} target="_blank" rel="noopener" style={{ padding: '8px 16px', background: '#fff', borderRadius: 8, fontSize: 12, fontWeight: 500, color: '#003da5', border: '1px solid #e8e8e8' }}>{label}</a>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* ═══ SELLER CTA + MARKET STATS ═══ */}
       <section className="section">
         <div className="section-inner">
@@ -126,7 +156,7 @@ export default function Home() {
               <div style={{ display: 'flex', flexDirection: 'column', gap: 14 }}>
                 {[
                   ['Sub-neighborhood pricing', 'your CMA uses comps from your section, not all of 33596'],
-                  ['Professional marketing', 'MLS, Zillow, Realtor.com, Redfin, RE/MAX.com, social, digital ads'],
+                  ['Professional marketing', 'MLS, Zillow, Realtor.com, Redfin, REMAX.com, social, digital ads'],
                   ['23+ years of negotiation', 'protecting your net, not just closing the deal'],
                   ['In-house maintenance', 'Best Bay Services handles pre-listing repairs fast and fair'],
                   ['Honest advice', "if selling isn't your best move right now, Barrett will tell you"],
@@ -161,7 +191,7 @@ export default function Home() {
                   </div>
                 ))}
               </div>
-              <p style={{ textAlign: 'center', fontSize: 11, color: '#888', marginTop: 16 }}>Q3 2026 · Stellar MLS · 33594 & 33596</p>
+              <p style={{ textAlign: 'center', fontSize: 11, color: '#888', marginTop: 16 }}>Q3 2026 · <a href="https://www.stellarmls.com" target="_blank" rel="noopener" style={{ color: '#888', textDecoration: 'underline' }}>Stellar MLS</a> · 33594 &amp; 33596</p>
               <Link href="/valrico-market-report/" style={{ display: 'block', textAlign: 'center', marginTop: 12, fontSize: 13, fontWeight: 600, color: '#003da5' }}>Full Market Report →</Link>
             </div>
           </div>
@@ -173,7 +203,7 @@ export default function Home() {
         <div className="section-inner">
           <h2 style={{ fontFamily: "'Merriweather', Georgia, serif", fontSize: 'clamp(20px, 3vw, 28px)', color: '#fff', marginBottom: 12 }}>Thinking About Selling Your Valrico Home?</h2>
           <p style={{ fontSize: 15, color: 'rgba(255,255,255,.7)', marginBottom: 28, maxWidth: 560, margin: '0 auto 28px' }}>
-            Well-priced Valrico homes sell in 30-55 days. Get a free, no-obligation valuation based on actual recent sales in your subdivision.
+            Well-priced Valrico homes for sale go under contract in 30-55 days. Get a free, no-obligation valuation based on actual recent sales in your subdivision.
           </p>
           <div style={{ display: 'flex', gap: 12, justifyContent: 'center', flexWrap: 'wrap' }}>
             <Link href="/valrico-fl-home-values/" className="btn-white">Get My Home Value — Free</Link>
@@ -219,7 +249,7 @@ export default function Home() {
           <div style={{ textAlign: 'center', marginBottom: 36 }}>
             <div className="section-eyebrow" style={{ color: '#003da5' }}>Explore Valrico</div>
             <h2 className="section-title" style={{ margin: '0 auto' }}>32 Neighborhoods, One Local Expert</h2>
-            <p className="section-intro" style={{ margin: '12px auto 0', textAlign: 'center' }}>Click below for detailed guides with pricing, schools, and honest takes on who each neighborhood is best for.</p>
+            <p className="section-intro" style={{ margin: '12px auto 0', textAlign: 'center' }}>Click below for detailed neighborhood guides with current homes for sale, pricing, schools, and honest takes on who each Valrico, Florida community is best for.</p>
           </div>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 12 }}>
             {[
@@ -294,7 +324,7 @@ export default function Home() {
           { question: "How long does it take to sell a home in Valrico?", answer: "A properly priced Valrico home typically goes under contract within 15-30 days and closes 30-45 days later — roughly 45-75 days total. Overpriced homes sit for months. The key is accurate pricing from day one using actual closed comps from your specific sub-neighborhood, not ZIP code averages." },
           { question: "What is the median home price in Valrico FL?", answer: "The median home price in Valrico is approximately $415,000 as of Q3 2026. Prices range from around $275K in entry-level neighborhoods to over $1M in River Hills and Crestwood Estates. Price per square foot averages $210-$220 depending on the subdivision and condition." },
           { question: "What are the best neighborhoods in Valrico?", answer: "It depends on your priorities. Bloomingdale offers the largest community (5,200+ homes, $300K-$500K). River Hills and Crestwood Estates are luxury options ($600K-$1M+). Buckhorn Preserve and Brentwood Hills have newer construction ($350K-$500K). Diamond Hill provides larger lots with no HOA. Barrett covers all 32 neighborhoods and matches buyers to the right fit." },
-          { question: "Is Valrico FL a good place to live?", answer: "Valrico consistently ranks among the best suburbs in Hillsborough County for families. Top-rated schools (Bloomingdale HS, Newsome HS), low crime rates, easy access to I-75 and the Selmon Expressway, and a mix of established and newer neighborhoods make it a strong choice for buyers who want suburban space with Tampa Bay access." },
+          { question: "Is Valrico FL a good place to live?", answer: "Valrico consistently ranks among the best suburbs in Hillsborough County, Florida for families. Top-rated schools (Bloomingdale HS, Newsome HS), low crime rates, easy access to I-75 and the Selmon Expressway, and a mix of established and newer neighborhoods make it a strong choice for buyers who want suburban space with Tampa Bay access. Homes for sale in Valrico range from the $275K range to over $1M." },
           { question: "What school zones are in Valrico?", answer: "Valrico is primarily served by two high school zones: Bloomingdale High School (western Valrico) and Newsome High School (eastern/southern portions including Buckhorn). School zoning is the single biggest price driver in Valrico — homes in top zones consistently sell faster and for more money." },
           { question: "Does Valrico have HOA communities?", answer: "Yes, most Valrico subdivisions have HOAs with fees ranging from $50-$400/month depending on amenities. Some neighborhoods like Diamond Hill and Duncan Groves have no HOA at all. Barrett Henry can help you find the right balance of community amenities vs. freedom based on your preferences." },
           { question: "How do I find new construction homes in Valrico?", answer: "Active new construction communities in Valrico include Arista, Heritage Crest, and Valrico Forest, with prices typically $380K-$550K. Having your own buyer's agent (like Barrett Henry) when purchasing new construction costs you nothing extra and protects your interests during builder contract negotiations." },
@@ -307,7 +337,7 @@ export default function Home() {
           <div style={{ textAlign: 'center', marginBottom: 40 }}>
             <div className="section-eyebrow" style={{ color: '#003da5' }}>Get in Touch</div>
             <h2 className="section-title" style={{ margin: '0 auto' }}>Ready to Talk Valrico Real Estate?</h2>
-            <p className="section-intro" style={{ margin: '12px auto 0', textAlign: 'center' }}>Send a message or call directly. Barrett responds within 2 hours.</p>
+            <p className="section-intro" style={{ margin: '12px auto 0', textAlign: 'center' }}>Send a message or call directly. Whether you are buying or selling in Valrico or anywhere in Tampa Bay, Barrett responds within 2 hours.</p>
           </div>
 
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 56 }}>

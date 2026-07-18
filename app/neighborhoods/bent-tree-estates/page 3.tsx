@@ -8,7 +8,7 @@ export default function Page() {
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{color:'rgba(255,255,255,.5)'}}>Valrico Neighborhoods</div>
           <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Bent Tree Estates Homes for Sale &mdash; Valrico FL 33596</h1>
-          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{color:'rgba(255,255,255,.75)'}}>Bent Tree Estates is an established subdivision in south Valrico (33596) characterized by mature trees, larger-than-average lot sizes, and quiet residential streets with minimal through-traffic. Prices from $375K–$500K. Barrett Henry, REALTOR&reg; with RE/MAX Collective.</p>
+          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{color:'rgba(255,255,255,.75)'}}>Bent Tree Estates is an established subdivision in south Valrico (33596) characterized by mature trees, larger-than-average lot sizes, and quiet residential streets with minimal through-traffic. Prices from $375K–$500K. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Bent Tree Estates listings</Link>
             <Link href="/valrico-fl-home-values/" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">What&apos;s my home worth?</Link>

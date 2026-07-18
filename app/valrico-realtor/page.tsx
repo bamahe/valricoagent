@@ -6,8 +6,8 @@ export default function ValricoRealtor() {
     <>
       <div style={{background:'var(--blue-deep)'}} className="text-white py-16 px-7">
         <div className="max-w-[1140px] mx-auto">
-          <h1 className="font-serif text-[clamp(28px,4vw,40px)] leading-tight tracking-tight mb-4">Valrico Realtor — Barrett Henry, REALTOR® | RE/MAX Collective</h1>
-          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{color:'rgba(255,255,255,.75)'}}>Looking for a Valrico realtor who knows the difference between every sub-neighborhood in 33594 and 33596? Barrett Henry is a Broker Associate with RE/MAX Collective, holds e-PRO, MRP, and SRS designations, and has been selling real estate since 2003. Here&apos;s how working with a local Valrico REALTOR® is different from using a portal.</p>
+          <h1 className="font-serif text-[clamp(28px,4vw,40px)] leading-tight tracking-tight mb-4">Valrico Realtor — Barrett Henry, REALTOR® | REMAX Collective</h1>
+          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{color:'rgba(255,255,255,.75)'}}>Looking for a Valrico realtor who knows the difference between every sub-neighborhood in 33594 and 33596? Barrett Henry is a Broker Associate with REMAX Collective, holds e-PRO, MRP, and SRS designations, and has been selling real estate since 2003. Here&apos;s how working with a local Valrico REALTOR® is different from using a portal.</p>
           <a href="tel:8137337907" className="btn-solid">Schedule a free consultation — (813) 733-7907</a>
         </div>
       </div>
@@ -23,7 +23,7 @@ export default function ValricoRealtor() {
 
         <h3 className="font-serif text-xl mt-8" style={{color:'var(--ink)'}}>Credentials</h3>
         <div className="flex flex-wrap gap-2 my-4">
-          {['Broker Associate','e-PRO (digital marketing)','MRP (military relocation)','SRS (seller representation)','RE/MAX Collective','RE/MAX Commercial'].map(c=>(<span key={c} className="text-xs font-semibold px-2.5 py-1 border rounded" style={{borderColor:'var(--border)',color:'var(--ink-soft)'}}>{c}</span>))}
+          {['Broker Associate','e-PRO (digital marketing)','MRP (military relocation)','SRS (seller representation)','REMAX Collective','REMAX Commercial'].map(c=>(<span key={c} className="text-xs font-semibold px-2.5 py-1 border rounded" style={{borderColor:'var(--border)',color:'var(--ink-soft)'}}>{c}</span>))}
         </div>
 
         <h3 className="font-serif text-xl mt-8" style={{color:'var(--ink)'}}>Valrico neighborhoods I cover</h3>
@@ -40,7 +40,7 @@ export default function ValricoRealtor() {
         </div>
 
         <h2 className="font-serif text-2xl mt-10" style={{color:'var(--ink)'}}>Office location</h2>
-        <p className="text-[15px] leading-[1.8] mb-4">Barrett Henry, REALTOR&reg; operates from the RE/MAX Collective Brandon office, the closest RE/MAX office to every Valrico neighborhood. Five minutes from Bloomingdale, Buckhorn, Diamond Hill, and Twin Lakes.</p>
+        <p className="text-[15px] leading-[1.8] mb-4">Barrett Henry, REALTOR&reg; operates from the REMAX Collective Brandon office, the closest REMAX office to every Valrico neighborhood. Five minutes from Bloomingdale, Buckhorn, Diamond Hill, and Twin Lakes.</p>
         <div className="border rounded-md overflow-hidden mb-4" style={{borderColor:'var(--border)'}}>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3527.5!2d-82.2868!3d27.9258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2cf4e0c0e0001%3A0x1234567890abcdef!2s417+Lithia+Pinecrest+Rd%2C+Brandon%2C+FL+33511!5e0!3m2!1sen!2sus!4v1"
@@ -50,11 +50,11 @@ export default function ValricoRealtor() {
             allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            title="RE/MAX Collective Brandon Office"
+            title="REMAX Collective Brandon Office"
           />
         </div>
         <div className="border rounded-md p-5" style={{borderColor:'var(--border)'}}>
-          <p className="font-semibold text-base mb-1" style={{color:'var(--ink)'}}>RE/MAX Collective — Brandon Office</p>
+          <p className="font-semibold text-base mb-1" style={{color:'var(--ink)'}}>REMAX Collective — Brandon Office</p>
           <p className="text-sm leading-relaxed" style={{color:'var(--ink-soft)'}}>417 Lithia Pinecrest Rd, Brandon, FL 33511</p>
           <p className="text-sm leading-relaxed mb-3" style={{color:'var(--ink-soft)'}}>Barrett Henry: <a href="tel:8137337907" className="no-underline" style={{color:'var(--accent)'}}>(813) 733-7907</a> &middot; <a href="mailto:barrett@nowtb.com" className="no-underline" style={{color:'var(--accent)'}}>barrett@nowtb.com</a><br />The NOW Team: <a href="tel:8132604663" className="no-underline" style={{color:'var(--accent)'}}>(813) 260-4663</a></p>
           <p className="text-xs" style={{color:'var(--ink-muted)'}}>Also serving from: Tampa (14310 N Dale Mabry Hwy Ste 100) &middot; Largo (11200 Seminole Blvd Ste 202)</p>
@@ -69,13 +69,13 @@ export default function ValricoRealtor() {
           </Link>
           <Link href="/valrico-luxury-homes/" className="border rounded-md p-5 no-underline hover:shadow-md transition-shadow" style={{borderColor:'var(--border)',color:'inherit'}}>
             <h3 className="font-semibold text-base mb-1" style={{color:'var(--ink)'}}>Luxury Real Estate</h3>
-            <p className="text-sm leading-relaxed" style={{color:'var(--ink-soft)'}}>River Hills, Crestwood Estates, Diamond Hill, and waterfront properties through The RE/MAX Collection.</p>
+            <p className="text-sm leading-relaxed" style={{color:'var(--ink-soft)'}}>River Hills, Crestwood Estates, Diamond Hill, and waterfront properties through The REMAX Collection.</p>
             <span className="text-xs font-semibold mt-2 inline-block" style={{color:'var(--accent)'}}>View luxury homes &rarr;</span>
           </Link>
           <a href="https://nowtb.com/commercial/" target="_blank" rel="noopener" className="border rounded-md p-5 no-underline hover:shadow-md transition-shadow" style={{borderColor:'var(--border)',color:'inherit'}}>
             <h3 className="font-semibold text-base mb-1" style={{color:'var(--ink)'}}>Commercial Real Estate</h3>
-            <p className="text-sm leading-relaxed" style={{color:'var(--ink-soft)'}}>Office, retail, multi-family, land, and investment properties through RE/MAX Commercial.</p>
-            <span className="text-xs font-semibold mt-2 inline-block" style={{color:'var(--accent)'}}>RE/MAX Commercial &rarr;</span>
+            <p className="text-sm leading-relaxed" style={{color:'var(--ink-soft)'}}>Office, retail, multi-family, land, and investment properties through REMAX Commercial.</p>
+            <span className="text-xs font-semibold mt-2 inline-block" style={{color:'var(--accent)'}}>REMAX Commercial &rarr;</span>
           </a>
           <a href="https://bestbayservices.com" target="_blank" rel="noopener" className="border rounded-md p-5 no-underline hover:shadow-md transition-shadow" style={{borderColor:'var(--border)',color:'inherit'}}>
             <h3 className="font-semibold text-base mb-1" style={{color:'var(--ink)'}}>Home Services</h3>
@@ -91,7 +91,7 @@ export default function ValricoRealtor() {
           <a href="mailto:barrett@nowtb.com" className="btn-ghost">Email Barrett</a>
         </div>
       </div>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What should I ask a Valrico REALTOR® before hiring them?","acceptedAnswer":{"@type":"Answer","text":"Ask how many homes they've sold in Valrico specifically, whether they know the sub-neighborhoods, how they price homes, and what their marketing plan includes beyond MLS."}},{"@type":"Question","name":"What does a Valrico REALTOR® do for buyers?","acceptedAnswer":{"@type":"Answer","text":"A Valrico REALTOR® previews properties, identifies neighborhood-specific issues, negotiates on your behalf, coordinates inspections, and manages the timeline to closing."}},{"@type":"Question","name":"What designations does Barrett Henry hold?","acceptedAnswer":{"@type":"Answer","text":"Barrett Henry holds e-PRO (digital marketing), MRP (military relocation), and SRS (seller representation) designations, and is a Broker Associate with RE/MAX Collective."}}]})}} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What should I ask a Valrico REALTOR® before hiring them?","acceptedAnswer":{"@type":"Answer","text":"Ask how many homes they've sold in Valrico specifically, whether they know the sub-neighborhoods, how they price homes, and what their marketing plan includes beyond MLS."}},{"@type":"Question","name":"What does a Valrico REALTOR® do for buyers?","acceptedAnswer":{"@type":"Answer","text":"A Valrico REALTOR® previews properties, identifies neighborhood-specific issues, negotiates on your behalf, coordinates inspections, and manages the timeline to closing."}},{"@type":"Question","name":"What designations does Barrett Henry hold?","acceptedAnswer":{"@type":"Answer","text":"Barrett Henry holds e-PRO (digital marketing), MRP (military relocation), and SRS (seller representation) designations, and is a Broker Associate with REMAX Collective."}}]})}} />
     </>
   );
 }

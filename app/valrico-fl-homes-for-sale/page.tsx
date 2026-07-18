@@ -8,7 +8,16 @@ export default function HomesForSale() {
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{color:'rgba(255,255,255,.5)'}}>Search Valrico</div>
           <h1 className="font-serif text-[clamp(28px,4vw,40px)] leading-tight tracking-tight mb-4">Valrico FL Homes for Sale — Live Listings in 33594 &amp; 33596</h1>
-          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{color:'rgba(255,255,255,.75)'}}>Search every active listing in Valrico, updated directly from Stellar MLS. Filter by price, bedrooms, pool, waterfront, and more. Barrett Henry, REALTOR® with <a href="https://nowtb.com" target="_blank" rel="noopener" className="text-white underline">RE/MAX Collective</a> is your Valrico real estate agent for buying in 33594 and 33596.</p>
+          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{color:'rgba(255,255,255,.75)'}}>Search every active listing in Valrico, updated directly from Stellar MLS. Filter by price, bedrooms, pool, waterfront, and more. Barrett Henry, REALTOR® with <a href="https://nowtb.com" target="_blank" rel="noopener" className="text-white underline">REMAX Collective</a> is your Valrico real estate agent for buying in 33594 and 33596.</p>
+        </div>
+      </div>
+
+      {/* QuickAnswer — for AI/featured snippet extraction */}
+      <div style={{ maxWidth: 1140, margin: '0 auto', padding: '24px 24px 0' }}>
+        <div style={{ background: '#fafafa', border: '1px solid #e8e8e8', borderRadius: 10, padding: '20px 24px', marginBottom: 24 }}>
+          <p style={{ fontSize: 15, color: '#222', lineHeight: 1.7, margin: 0 }}>
+            <strong>Valrico FL typically has 150-250 active homes for sale at any given time across ZIP codes 33594 and 33596. The median home price is approximately $415,000 as of 2026, with prices ranging from the low $300Ks for starter homes in north Valrico to over $1 million for estate properties in River Hills and Crestwood Estates.</strong>
+          </p>
         </div>
       </div>
 

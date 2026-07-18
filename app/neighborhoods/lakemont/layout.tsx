@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     ],
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     images: ["https://valricoagent.com/barrett-henry.png"],
   },
 };

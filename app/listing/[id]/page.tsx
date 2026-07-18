@@ -252,7 +252,7 @@ export default async function ListingDetailPage(
               padding: 20, background: '#fafafa', borderRadius: 8,
               border: '1px solid #e8e8e8', fontSize: 12, color: '#888',
             }}>
-              <p>Listed by {listing.ListAgentFullName || 'Agent'} · {listing.ListOfficeName || 'Brokerage'}</p>
+              <p>Listed by {listing.ListOfficeName || 'Brokerage'}</p>
               <p style={{ marginTop: 4 }}>MLS #{listing.ListingId} · Data from Stellar MLS via Bridge Interactive. Deemed reliable but not guaranteed.</p>
             </div>
           </div>

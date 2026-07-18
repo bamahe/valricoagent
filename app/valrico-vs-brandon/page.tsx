@@ -13,6 +13,15 @@ export default function ValricoVsBrandon() {
         </div>
       </section>
 
+      {/* QuickAnswer — for AI/featured snippet extraction */}
+      <div style={{ maxWidth: 1140, margin: '0 auto', padding: '24px 24px 0' }}>
+        <div style={{ background: '#fafafa', border: '1px solid #e8e8e8', borderRadius: 10, padding: '20px 24px', marginBottom: 24 }}>
+          <p style={{ fontSize: 15, color: '#222', lineHeight: 1.7, margin: 0 }}>
+            <strong>Valrico and Brandon are neighboring communities in eastern Hillsborough County, but they differ in key ways. Valrico has a higher median home price (~$415K vs ~$365K), larger lot sizes (0.20-0.50 acre vs 0.10-0.25 acre), and access to both Bloomingdale HS and Newsome HS school zones. Brandon offers a shorter commute to downtown Tampa, more commercial amenities, and lower price points — making it a better fit for buyers prioritizing affordability and convenience over space and school zoning.</strong>
+          </p>
+        </div>
+      </div>
+
       {/* --- Main content --- */}
       <section style={{padding:'64px 0',background:'#fff'}}>
         <div style={{maxWidth:780,margin:'0 auto',padding:'0 24px'}}>
@@ -149,7 +158,7 @@ export default function ValricoVsBrandon() {
         "url":"https://valricoagent.com",
         "image":"https://valricoagent.com/barrett-henry.png",
         "jobTitle":"Broker Associate",
-        "worksFor":{"@type":"Organization","name":"RE/MAX Collective"},
+        "worksFor":{"@type":"Organization","name":"REMAX Collective"},
         "areaServed":[
           {"@type":"City","name":"Valrico"},
           {"@type":"City","name":"Brandon"}

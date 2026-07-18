@@ -156,7 +156,7 @@ export default function ValricoOpenHouses() {
         "url":"https://valricoagent.com",
         "image":"https://valricoagent.com/barrett-henry.png",
         "jobTitle":"Broker Associate",
-        "worksFor":{"@type":"Organization","name":"RE/MAX Collective"},
+        "worksFor":{"@type":"Organization","name":"REMAX Collective"},
         "areaServed":{"@type":"City","name":"Valrico"}
       })}} />
     </>

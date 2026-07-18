@@ -20,7 +20,7 @@ export default function PropertyManagement() {
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_340px] gap-14">
           <div className="space-y-6" style={{color:'var(--ink-soft)'}}>
             <h2 className="font-serif text-2xl" style={{color:'var(--ink)'}}>Why Valrico landlords choose ViVi Property Management</h2>
-            <p className="text-[15px] leading-[1.8]">Most property management companies are either too big to care about your single rental or too small to handle the work professionally. ViVi PM operates through Collective Rental Resource (CRR) under RE/MAX Collective, which means you get the accountability of a licensed brokerage, the local market knowledge of a Valrico REALTOR&reg; who knows every neighborhood, and in-house maintenance through Best Bay Services that keeps your costs down and response times fast.</p>
+            <p className="text-[15px] leading-[1.8]">Most property management companies are either too big to care about your single rental or too small to handle the work professionally. ViVi PM operates through Collective Rental Resource (CRR) under REMAX Collective, which means you get the accountability of a licensed brokerage, the local market knowledge of a Valrico REALTOR&reg; who knows every neighborhood, and in-house maintenance through Best Bay Services that keeps your costs down and response times fast.</p>
 
             <h2 className="font-serif text-2xl mt-10" style={{color:'var(--ink)'}}>What we handle</h2>
             <div className="space-y-4">
@@ -74,7 +74,7 @@ export default function PropertyManagement() {
             </div>
             <div className="rounded-md p-6 border" style={{borderColor:'var(--border)'}}>
               <h3 className="font-serif text-lg mb-3">Office</h3>
-              <p className="text-sm leading-relaxed" style={{color:'var(--ink-soft)'}}>RE/MAX Collective — Brandon<br />417 Lithia Pinecrest Rd<br />Brandon, FL 33511</p>
+              <p className="text-sm leading-relaxed" style={{color:'var(--ink-soft)'}}>REMAX Collective — Brandon<br />417 Lithia Pinecrest Rd<br />Brandon, FL 33511</p>
               <p className="text-sm mt-2" style={{color:'var(--ink-muted)'}}>(813) 733-7907 &middot; barrett@nowtb.com</p>
             </div>
             <div className="rounded-md p-6 border" style={{borderColor:'var(--border)'}}>
@@ -93,7 +93,7 @@ export default function PropertyManagement() {
         </div>
       </div>
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify({"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://valricoagent.com/"},{"@type":"ListItem","position":2,"name":"Valrico Property Management","item":"https://valricoagent.com/valrico-property-management/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What areas do you manage rental properties in?","acceptedAnswer":{"@type":"Answer","text":"We manage properties in Valrico (33594 and 33596), Brandon, Bloomingdale, Buckhorn/Boyette, and east Hillsborough County."}},{"@type":"Question","name":"What is the property management fee?","acceptedAnswer":{"@type":"Answer","text":"10% of collected rent with no hidden fees or maintenance markups."}},{"@type":"Question","name":"Do you handle Airbnb and short-term rentals?","acceptedAnswer":{"@type":"Answer","text":"Yes. Best Bay Services provides Airbnb turnover service including cleaning, restocking, and guest coordination."}},{"@type":"Question","name":"Can you help me buy an investment property in Valrico?","acceptedAnswer":{"@type":"Answer","text":"Yes. Barrett Henry handles both acquisition and management through RE/MAX Collective and ViVi Property Management."}}]}]})}} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify({"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://valricoagent.com/"},{"@type":"ListItem","position":2,"name":"Valrico Property Management","item":"https://valricoagent.com/valrico-property-management/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What areas do you manage rental properties in?","acceptedAnswer":{"@type":"Answer","text":"We manage properties in Valrico (33594 and 33596), Brandon, Bloomingdale, Buckhorn/Boyette, and east Hillsborough County."}},{"@type":"Question","name":"What is the property management fee?","acceptedAnswer":{"@type":"Answer","text":"10% of collected rent with no hidden fees or maintenance markups."}},{"@type":"Question","name":"Do you handle Airbnb and short-term rentals?","acceptedAnswer":{"@type":"Answer","text":"Yes. Best Bay Services provides Airbnb turnover service including cleaning, restocking, and guest coordination."}},{"@type":"Question","name":"Can you help me buy an investment property in Valrico?","acceptedAnswer":{"@type":"Answer","text":"Yes. Barrett Henry handles both acquisition and management through REMAX Collective and ViVi Property Management."}}]}]})}} />
     </>
   );
 }

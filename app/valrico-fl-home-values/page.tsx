@@ -13,6 +13,15 @@ export default function HomeValues() {
         </div>
       </div>
 
+      {/* QuickAnswer — for AI/featured snippet extraction */}
+      <div style={{ maxWidth: 1140, margin: '0 auto', padding: '24px 24px 0' }}>
+        <div style={{ background: '#fafafa', border: '1px solid #e8e8e8', borderRadius: 10, padding: '20px 24px', marginBottom: 24 }}>
+          <p style={{ fontSize: 15, color: '#222', lineHeight: 1.7, margin: 0 }}>
+            <strong>The median home value in Valrico FL is approximately $415,000 as of Q1 2026, with price per square foot averaging $210-$220. A comparative market analysis (CMA) from a local REALTOR uses actual closed sales from your specific sub-neighborhood — adjusted for condition, updates, pool, lot size, and school zone — and is typically $30,000 or more accurate than automated estimates like Zillow&apos;s Zestimate. Barrett Henry, REALTOR with REMAX Collective, provides free CMAs with no obligation.</strong>
+          </p>
+        </div>
+      </div>
+
       <div style={{background:'var(--cream)'}}>
         <div className="max-w-[1140px] mx-auto px-7 py-12 grid grid-cols-2 md:grid-cols-4 gap-5">
           {[['~$415K','Valrico median price'],['$210–$220','Price per sq ft'],['30–55 days','Avg days on market'],['$300K–$1M+','Full price range']].map(([v,l])=>(

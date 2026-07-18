@@ -8,6 +8,15 @@ export default function PoolHomes() {
       <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{color:'rgba(255,255,255,.75)'}}>In Valrico, a pool is not a luxury — it&apos;s a way of life. Average temps above 70&deg; nine months a year. Pool homes in Valrico range from $370K to $800K+ and consistently command premiums over non-pool comparables.</p>
       <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search all Valrico homes</Link>
     </div></div>
+    {/* QuickAnswer — for AI/featured snippet extraction */}
+    <div style={{ maxWidth: 1140, margin: '0 auto', padding: '24px 24px 0' }}>
+      <div style={{ background: '#fafafa', border: '1px solid #e8e8e8', borderRadius: 10, padding: '20px 24px', marginBottom: 24 }}>
+        <p style={{ fontSize: 15, color: '#222', lineHeight: 1.7, margin: 0 }}>
+          <strong>Yes, there are pool homes for sale in Valrico FL ranging from $370K to $800K+. A screened pool with a good cage typically adds $20,000-$40,000 in value over a comparable non-pool home. Pool homes are most common in Bloomingdale, River Hills, Diamond Hill, and the Buckhorn corridor, with new construction communities sometimes offering pool-ready builder packages.</strong>
+        </p>
+      </div>
+    </div>
+
     <div className="max-w-[1140px] mx-auto px-7 py-16 space-y-6" style={{color:'var(--ink-soft)'}}>
       <PropertySearch defaultCity="Valrico" poolOnly heading="Valrico Pool Homes for Sale" />
       <h2 className="font-serif text-2xl" style={{color:'var(--ink)'}}>What to know about buying a pool home in Valrico</h2>

@@ -7,13 +7,22 @@ export default function LuxuryHomes() {
     <>
       <div style={{background:'var(--blue-deep)'}} className="text-white py-16 px-7">
         <div className="max-w-[1140px] mx-auto">
-          <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{color:'rgba(255,255,255,.5)'}}>The RE/MAX Collection</div>
+          <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{color:'rgba(255,255,255,.5)'}}>The REMAX Collection</div>
           <h1 className="font-serif text-[clamp(28px,4vw,38px)] leading-tight tracking-tight mb-4">Valrico Luxury Homes for Sale — Estates, Golf Course &amp; Waterfront Properties</h1>
-          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{color:'rgba(255,255,255,.75)'}}>Luxury in Valrico is not about marble foyers and crystal chandeliers. It is about space, privacy, and lifestyle. Estate lots in Crestwood, golf course frontage in River Hills, waterfront living on Lake Valrico, and gated security in Diamond Hill and Arista. Barrett Henry, REALTOR&reg; with RE/MAX Collective handles luxury transactions through The RE/MAX Collection.</p>
+          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{color:'rgba(255,255,255,.75)'}}>Luxury in Valrico is not about marble foyers and crystal chandeliers. It is about space, privacy, and lifestyle. Estate lots in Crestwood, golf course frontage in River Hills, waterfront living on Lake Valrico, and gated security in Diamond Hill and Arista. Barrett Henry, REALTOR&reg; with REMAX Collective handles luxury transactions through The REMAX Collection.</p>
           <div className="flex gap-3 flex-wrap">
             <a href="https://nowtb.com/luxury/" target="_blank" rel="noopener" className="btn-solid">Browse luxury listings on nowtb.com</a>
             <a href="tel:8137337907" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">(813) 733-7907</a>
           </div>
+        </div>
+      </div>
+
+      {/* QuickAnswer — for AI/featured snippet extraction */}
+      <div style={{ maxWidth: 1140, margin: '0 auto', padding: '24px 24px 0' }}>
+        <div style={{ background: '#fafafa', border: '1px solid #e8e8e8', borderRadius: 10, padding: '20px 24px', marginBottom: 24 }}>
+          <p style={{ fontSize: 15, color: '#222', lineHeight: 1.7, margin: 0 }}>
+            <strong>Luxury homes in Valrico FL start around $600,000 and extend past $1.2 million, defined by estate-sized lots, privacy, and lifestyle amenities rather than urban proximity. Top luxury neighborhoods include River Hills ($600K-$1M+, guard-gated golf community), Crestwood Estates ($500K-$900K+, estate lots with no CDD fees), and Diamond Hill ($500K-$700K+, gated golf community with resort amenities).</strong>
+          </p>
         </div>
       </div>
 
@@ -61,7 +70,7 @@ export default function LuxuryHomes() {
           </a>
           <a href="https://nowtb.com/commercial/" target="_blank" rel="noopener" className="border rounded-md p-5 no-underline hover:shadow-md transition-shadow block" style={{borderColor:'var(--border)',color:'var(--ink)'}}>
             <span className="font-serif text-lg block mb-1">Investment Properties</span>
-            <span className="text-sm" style={{color:'var(--accent)'}}>RE/MAX Commercial &rarr;</span>
+            <span className="text-sm" style={{color:'var(--accent)'}}>REMAX Commercial &rarr;</span>
           </a>
           <Link href="/valrico-fl-homes-for-sale/" className="border rounded-md p-5 no-underline hover:shadow-md transition-shadow block" style={{borderColor:'var(--border)',color:'var(--ink)'}}>
             <span className="font-serif text-lg block mb-1">All Neighborhoods</span>
@@ -69,9 +78,9 @@ export default function LuxuryHomes() {
           </Link>
         </div>
 
-        <h2 className="font-serif text-2xl mt-12" style={{color:'var(--ink)'}}>The RE/MAX Collection</h2>
-        <p className="text-[15px] leading-[1.8]">The RE/MAX Collection is RE/MAX&apos;s luxury division, providing enhanced marketing for properties that meet luxury thresholds. Collection listings receive premium placement on remax.com, international syndication across 110+ countries, and access to the RE/MAX global referral network. Barrett Henry, REALTOR&reg; is qualified to list and represent buyers through The Collection for properties across Tampa Bay.</p>
-        <p className="text-[15px] leading-[1.8]">Luxury listings receive professional photography, drone aerial video, virtual tours, targeted digital marketing, and placement across <a href="https://nowtb.com" target="_blank" rel="noopener" className="font-semibold no-underline" style={{color:'var(--accent)'}}>nowtb.com</a>, Zillow, Realtor.com, Redfin, RE/MAX.com, and social media.</p>
+        <h2 className="font-serif text-2xl mt-12" style={{color:'var(--ink)'}}>The REMAX Collection</h2>
+        <p className="text-[15px] leading-[1.8]">The REMAX Collection is REMAX&apos;s luxury division, providing enhanced marketing for properties that meet luxury thresholds. Collection listings receive premium placement on remax.com, international syndication across 110+ countries, and access to the REMAX global referral network. Barrett Henry, REALTOR&reg; is qualified to list and represent buyers through The Collection for properties across Tampa Bay.</p>
+        <p className="text-[15px] leading-[1.8]">Luxury listings receive professional photography, drone aerial video, virtual tours, targeted digital marketing, and placement across <a href="https://nowtb.com" target="_blank" rel="noopener" className="font-semibold no-underline" style={{color:'var(--accent)'}}>nowtb.com</a>, Zillow, Realtor.com, Redfin, REMAX.com, and social media.</p>
 
         <h2 className="font-serif text-2xl mt-12" style={{color:'var(--ink)'}}>Valrico luxury vs. FishHawk and South Tampa</h2>
         <p className="text-[15px] leading-[1.8]">Buyers at the $600K+ level often compare Valrico to FishHawk Ranch and South Tampa. FishHawk offers newer master-planned luxury with resort amenities but adds CDD fees of $200-$350/month on top of HOA. South Tampa provides urban proximity and walkability but at 2-3x the price per square foot with significantly smaller lots. Valrico occupies the middle: more space and privacy than FishHawk, more value per square foot than South Tampa, with the school zones (Bloomingdale HS, Newsome HS) that families prioritize.</p>
@@ -79,7 +88,7 @@ export default function LuxuryHomes() {
 
         <div className="mt-10 p-6 rounded-md text-center" style={{background:'var(--cream-warm)'}}>
           <h3 className="font-serif text-lg mb-2">Considering a luxury home in Valrico?</h3>
-          <p className="text-sm mb-4" style={{color:'var(--ink-soft)'}}>Barrett Henry, REALTOR&reg; &middot; RE/MAX Collection &middot; Broker Associate</p>
+          <p className="text-sm mb-4" style={{color:'var(--ink-soft)'}}>Barrett Henry, REALTOR&reg; &middot; REMAX Collection &middot; Broker Associate</p>
           <a href="tel:8137337907" className="btn-solid mr-2">(813) 733-7907</a>
           <a href="https://nowtb.com/luxury/" target="_blank" rel="noopener" className="btn-ghost">View luxury listings</a>
         </div>
@@ -89,10 +98,10 @@ export default function LuxuryHomes() {
       {/* FAQPage schema for AEO */}
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify({
         "@context":"https://schema.org","@type":"FAQPage","mainEntity":[
-          {"@type":"Question","name":"What is the starting price for luxury homes in Valrico FL?","acceptedAnswer":{"@type":"Answer","text":"Luxury homes in Valrico generally start around $500K-$600K and extend past $1.2 million for the most exclusive properties. Gated golf communities like River Hills and Diamond Hill represent the upper end. Barrett Henry, Broker Associate with REMAX Collective, specializes in Valrico luxury real estate through The RE/MAX Collection. Call (813) 733-7907 for a private showing or market analysis."}},
+          {"@type":"Question","name":"What is the starting price for luxury homes in Valrico FL?","acceptedAnswer":{"@type":"Answer","text":"Luxury homes in Valrico generally start around $500K-$600K and extend past $1.2 million for the most exclusive properties. Gated golf communities like River Hills and Diamond Hill represent the upper end. Barrett Henry, Broker Associate with REMAX Collective, specializes in Valrico luxury real estate through The REMAX Collection. Call (813) 733-7907 for a private showing or market analysis."}},
           {"@type":"Question","name":"What are the best luxury neighborhoods in Valrico?","acceptedAnswer":{"@type":"Answer","text":"The top luxury neighborhoods in Valrico are River Hills (guard-gated golf community, $600K-$1M+), Crestwood Estates (estate-sized lots, no CDD fees, $500K-$900K+), Diamond Hill (gated golf community, $500K-$700K+), Arista (gated new construction, $500K-$600K+), and Lake Valrico waterfront ($450K-$700K+). Barrett Henry with REMAX Collective covers all of these communities. Call (813) 733-7907 or email barrett@nowtb.com."}},
           {"@type":"Question","name":"How does Valrico luxury compare to FishHawk and South Tampa?","acceptedAnswer":{"@type":"Answer","text":"Valrico luxury offers more space and privacy than FishHawk Ranch, which adds CDD fees of $200-$350 per month. South Tampa provides urban walkability but at 2-3x the price per square foot with much smaller lots. Valrico gives you larger lots, strong school zones (Bloomingdale HS, Newsome HS), and better value per square foot. Contact Barrett Henry at (813) 733-7907 for a detailed comparison."}},
-          {"@type":"Question","name":"What is The RE/MAX Collection?","acceptedAnswer":{"@type":"Answer","text":"The RE/MAX Collection is the luxury division of REMAX, providing enhanced marketing for high-end properties. Collection listings receive premium placement on remax.com, international syndication across 110+ countries, professional photography, drone video, and virtual tours. Barrett Henry, Broker Associate at REMAX Collective, is qualified to list and represent buyers through The Collection. Call (813) 733-7907."}},
+          {"@type":"Question","name":"What is The REMAX Collection?","acceptedAnswer":{"@type":"Answer","text":"The REMAX Collection is the luxury division of REMAX, providing enhanced marketing for high-end properties. Collection listings receive premium placement on remax.com, international syndication across 110+ countries, professional photography, drone video, and virtual tours. Barrett Henry, Broker Associate at REMAX Collective, is qualified to list and represent buyers through The Collection. Call (813) 733-7907."}},
           {"@type":"Question","name":"Are there waterfront luxury homes in Valrico?","acceptedAnswer":{"@type":"Answer","text":"Yes. Custom homes on Lake Valrico offer waterfront luxury with lots exceeding one acre, many with no HOA. Prices range from $450K to $700K+. River Hills also has Alafia River frontage properties at $600K-$1.5M+. Barrett Henry with REMAX Collective has 23+ years of real estate experience and knows every waterfront opportunity in Valrico. Call (813) 733-7907 or email barrett@nowtb.com."}}
         ]
       })}} />
