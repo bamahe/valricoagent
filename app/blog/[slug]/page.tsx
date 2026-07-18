@@ -240,9 +240,14 @@ export default async function BlogPostPage({
           <span>{post.reading_time} min read</span>
         </div>
 
-        {/* Hero image */}
+        {/* Hero image — clickable, links to MLS source for compliance */}
         {post.featured_image && (
-          <div className="relative w-full aspect-[16/9] rounded-xl overflow-hidden mb-10">
+          <a
+            href={post.featured_image}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block relative w-full aspect-[16/9] rounded-xl overflow-hidden mb-10"
+          >
             <Image
               src={post.featured_image}
               alt={post.featured_image_alt || `${post.title} — Valrico, FL`}
@@ -251,7 +256,10 @@ export default async function BlogPostPage({
               priority
               sizes="(max-width: 768px) 100vw, 768px"
             />
-          </div>
+            <span className="absolute bottom-3 right-3 bg-black/60 text-white text-xs px-3 py-1 rounded">
+              Photo: Stellar MLS
+            </span>
+          </a>
         )}
 
         {/* Content */}
@@ -366,28 +374,6 @@ export default async function BlogPostPage({
           professional for advice specific to your situation.
         </p>
 
-        {/* Free Housing Resources */}
-        <p
-          style={{
-            fontSize: 11,
-            color: '#888',
-            marginTop: 12,
-            lineHeight: 1.8,
-          }}
-        >
-          Free Housing Resources: HUD Housing Counseling:{' '}
-          <a href="tel:+18005694287" style={{ color: '#888', textDecoration: 'underline' }}>
-            1-800-569-4287
-          </a>{' '}
-          | FHA Resource Center:{' '}
-          <a href="tel:+18002255342" style={{ color: '#888', textDecoration: 'underline' }}>
-            1-800-225-5342
-          </a>{' '}
-          | HOPE Hotline:{' '}
-          <a href="tel:+18889954673" style={{ color: '#888', textDecoration: 'underline' }}>
-            1-888-995-4673
-          </a>
-        </p>
       </article>
     </>
   );
