@@ -21,6 +21,10 @@ interface PropertySearchProps {
   poolOnly?: boolean;
   /** Pre-filter: waterfront only */
   waterfrontOnly?: boolean;
+  /** Pre-filter: no HOA only */
+  noHoa?: boolean;
+  /** Hidden default min price (e.g. for luxury pages) */
+  defaultMinPrice?: string;
   /** Hidden filter: single MLS subdivision name (exact match) */
   defaultSubdivision?: string;
   /** Hidden filter: multiple MLS subdivision names (OR match) */
@@ -37,6 +41,8 @@ export default function PropertySearch({
   heading,
   poolOnly: defaultPoolOnly = false,
   waterfrontOnly: defaultWaterfrontOnly = false,
+  noHoa: defaultNoHoa = false,
+  defaultMinPrice,
   defaultSubdivision,
   defaultSubdivisions,
   showRentToggle = false,
@@ -44,13 +50,14 @@ export default function PropertySearch({
 }: PropertySearchProps) {
   // Filter state
   const [listingType, setListingType] = useState<'sale' | 'rent'>(defaultListingType);
-  const [minPrice, setMinPrice] = useState('');
+  const [minPrice, setMinPrice] = useState(defaultMinPrice || '');
   const [maxPrice, setMaxPrice] = useState('');
   const [minBeds, setMinBeds] = useState('');
   const [minBaths, setMinBaths] = useState('');
   const [sortBy, setSortBy] = useState('newest');
   const [poolOnly, setPoolOnly] = useState(defaultPoolOnly);
   const [waterfrontOnly, setWaterfrontOnly] = useState(defaultWaterfrontOnly);
+  const [noHoa, setNoHoa] = useState(defaultNoHoa);
 
   // Results
   const [listings, setListings] = useState<BridgeListing[]>([]);
@@ -72,6 +79,7 @@ export default function PropertySearch({
     if (minBaths) params.set('minBaths', minBaths);
     if (poolOnly) params.set('poolOnly', 'true');
     if (waterfrontOnly) params.set('waterfrontOnly', 'true');
+    if (noHoa) params.set('noHoa', 'true');
     params.set('listingType', listingType);
     // Hidden subdivision filters — passed with every request, not shown in UI
     if (defaultSubdivisions && defaultSubdivisions.length > 0) {
@@ -95,7 +103,7 @@ export default function PropertySearch({
     } finally {
       setLoading(false);
     }
-  }, [defaultCity, defaultZip, minPrice, maxPrice, minBeds, minBaths, poolOnly, waterfrontOnly, sortBy, listingType, defaultSubdivision, defaultSubdivisions]);
+  }, [defaultCity, defaultZip, minPrice, maxPrice, minBeds, minBaths, poolOnly, waterfrontOnly, noHoa, sortBy, listingType, defaultSubdivision, defaultSubdivisions]);
 
   // Initial fetch
   useEffect(() => {
@@ -279,6 +287,10 @@ export default function PropertySearch({
           <label style={{ display: 'flex', alignItems: 'center', gap: 6, fontSize: 13, color: '#555', cursor: 'pointer' }}>
             <input type="checkbox" checked={waterfrontOnly} onChange={(e) => setWaterfrontOnly(e.target.checked)} />
             Waterfront Only
+          </label>
+          <label style={{ display: 'flex', alignItems: 'center', gap: 6, fontSize: 13, color: '#555', cursor: 'pointer' }}>
+            <input type="checkbox" checked={noHoa} onChange={(e) => setNoHoa(e.target.checked)} />
+            No HOA
           </label>
         </div>
       </form>

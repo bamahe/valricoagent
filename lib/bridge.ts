@@ -162,6 +162,7 @@ function buildQueryParams(params: PropertySearchParams): URLSearchParams {
   if (params.maxSqft) q.set('LivingArea.lte', params.maxSqft.toString());
   if (params.poolOnly) q.set('PoolPrivateYN', 'true');
   if (params.waterfrontOnly) q.set('WaterfrontYN', 'true');
+  if (params.noHoa) q.set('AssociationYN', 'false');
 
   // Subdivision filter — array uses .in operator, single string uses exact match
   if (params.subdivisions && params.subdivisions.length > 0) {

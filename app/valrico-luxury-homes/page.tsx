@@ -19,7 +19,7 @@ export default function LuxuryHomes() {
 
       {/* PROPERTY SEARCH */}
       <div className="max-w-[1140px] mx-auto px-7 pt-10">
-        <PropertySearch defaultCity="Valrico" heading="Valrico Luxury Homes for Sale" />
+        <PropertySearch defaultCity="Valrico" heading="Valrico Luxury Homes for Sale" defaultMinPrice="1000000" />
       </div>
 
       <div className="max-w-[1140px] mx-auto px-7 py-16 space-y-6" style={{color:'var(--ink-soft)'}}>
