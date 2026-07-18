@@ -12,7 +12,7 @@ export default function SchoolZones() {
         </div>
       </div>
 
-      <div className="max-w-[780px] mx-auto px-7 py-16 space-y-6" style={{color:'var(--ink-soft)'}}>
+      <div className="max-w-[1140px] mx-auto px-7 py-16 space-y-6" style={{color:'var(--ink-soft)'}}>
         <h2 className="font-serif text-2xl" style={{color:'var(--ink)'}}>The two high schools that define Valrico real estate</h2>
         <p className="text-[15px] leading-[1.8]">Valrico is served primarily by two A-rated high schools: Bloomingdale High School and Lennard J. Newsome High School (commonly called Newsome). Both consistently rank among the top public high schools in Hillsborough County. The school you are zoned for depends on your specific street address, and the boundaries do not always follow intuitive geographic lines.</p>
 

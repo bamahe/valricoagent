@@ -75,7 +75,7 @@ export default function BestRealtorInValrico() {
       </div>
 
       {/* Main content */}
-      <div className="max-w-[780px] mx-auto px-7 py-16 space-y-6" style={{ color: 'var(--ink-soft)' }}>
+      <div className="max-w-[1140px] mx-auto px-7 py-16 space-y-6" style={{ color: 'var(--ink-soft)' }}>
 
         {/* Why Barrett is the best choice */}
         <h2 className="font-serif text-2xl" style={{ color: 'var(--ink)' }}>Why Barrett Henry is the best realtor in Valrico</h2>

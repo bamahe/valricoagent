@@ -14,7 +14,7 @@ export default function MarketReport() {
       </div>
     </div>
 
-    <div className="max-w-[780px] mx-auto px-7 py-16 space-y-6" style={{color:'var(--ink-soft)'}}>
+    <div className="max-w-[1140px] mx-auto px-7 py-16 space-y-6" style={{color:'var(--ink-soft)'}}>
       <h2 className="font-serif text-2xl" style={{color:'var(--ink)'}}>Latest reports</h2>
       <div className="border rounded-md p-6 hover:shadow-md transition-shadow" style={{borderColor:'var(--border)'}}>
         <Link href="/blog/valrico-housing-market-q1-2026/" className="no-underline"><h3 className="font-serif text-xl mb-2" style={{color:'var(--ink)'}}>Valrico Housing Market Q1 2026</h3><p className="text-sm">Median prices, inventory shifts, days on market by neighborhood, and what it means for buyers and sellers in 33594 and 33596.</p><span className="text-xs mt-2 inline-block" style={{color:'var(--accent)'}}>Read the full report &rarr;</span></Link>

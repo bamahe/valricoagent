@@ -11,7 +11,7 @@ export default function ValricoRealtor() {
           <a href="tel:8137337907" className="btn-solid">Schedule a free consultation — (813) 733-7907</a>
         </div>
       </div>
-      <div className="max-w-[780px] mx-auto px-7 py-16 space-y-6" style={{color:'var(--ink-soft)'}}>
+      <div className="max-w-[1140px] mx-auto px-7 py-16 space-y-6" style={{color:'var(--ink-soft)'}}>
         <h2 className="font-serif text-2xl" style={{color:'var(--ink)'}}>What a Valrico REALTOR® actually does for you</h2>
         <p className="text-[15px] leading-[1.8]">A REALTOR® is not just a licensed agent — it means I&apos;m a member of the National Association of REALTORS® and bound by a Code of Ethics that goes beyond what the state requires. In practical terms, here&apos;s what that means for you as a buyer or seller in Valrico.</p>
 

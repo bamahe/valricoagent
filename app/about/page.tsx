@@ -95,7 +95,7 @@ export default function AboutBarrettHenry() {
       </div>
 
       {/* Main content */}
-      <div className="max-w-[780px] mx-auto px-7 py-16 space-y-6" style={{ color: 'var(--ink-soft)' }}>
+      <div className="max-w-[1140px] mx-auto px-7 py-16 space-y-6" style={{ color: 'var(--ink-soft)' }}>
 
         {/* Professional bio */}
         <h2 className="font-serif text-2xl" style={{ color: 'var(--ink)' }}>What Is Barrett Henry&apos;s Professional Background?</h2>

@@ -12,7 +12,7 @@ export default function ValricoAgent() {
         </div>
       </div>
 
-      <div className="max-w-[780px] mx-auto px-7 py-16 space-y-6" style={{color:'var(--ink-soft)'}}>
+      <div className="max-w-[1140px] mx-auto px-7 py-16 space-y-6" style={{color:'var(--ink-soft)'}}>
         <h2 className="font-serif text-2xl" style={{color:'var(--ink)'}}>What makes Barrett Henry different as a Valrico real estate agent</h2>
         <p className="text-[15px] leading-[1.8]">There are over 1,000 agents who claim to serve Valrico. Most of them live in Tampa or Riverview and drive out here when a lead comes in from Zillow. Barrett lives and works this market every day from the <a href="https://nowtb.com" target="_blank" rel="noopener" className="font-semibold no-underline" style={{color:'var(--accent)'}}>REMAX Collective Brandon office</a> on Lithia Pinecrest Road — five minutes from every Valrico neighborhood.</p>
         <p className="text-[15px] leading-[1.8]">23 years in real estate. 5.0 Google rating. Deep knowledge of every subdivision in 33594 and 33596. Broker Associate with REMAX Collective, which means you get the global reach and referral network of one of the most recognized brands in real estate, combined with neighborhood-level knowledge that most agents simply don&apos;t have.</p>

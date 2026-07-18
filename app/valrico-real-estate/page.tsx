@@ -92,7 +92,7 @@ export default function ValricoRealEstate() {
       </div>
 
       {/* Main content */}
-      <div className="max-w-[780px] mx-auto px-7 py-16 space-y-6" style={{ color: 'var(--ink-soft)' }}>
+      <div className="max-w-[1140px] mx-auto px-7 py-16 space-y-6" style={{ color: 'var(--ink-soft)' }}>
 
         {/* Intro paragraphs */}
         <h2 className="font-serif text-2xl" style={{ color: 'var(--ink)' }}>Valrico FL real estate overview</h2>
