@@ -43,8 +43,8 @@ export default function RiverHillsMastersPage() {
       <div style={{ background: 'var(--blue-deep)' }} className="text-white py-16 px-7">
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
-          <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">River Hills Masters Homes for Sale &mdash; Valrico FL 33596</h1>
-          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>River Hills Masters is the most affordable section within Valrico&apos;s premier gated golf community. Same guard gate, same trails, same amenities &mdash; lower price point. $350K&ndash;$550K. Bloomingdale HS zone. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
+          <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">River Hills Masters Homes for Sale, Valrico FL 33596</h1>
+          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>River Hills Masters is the most affordable section within Valrico&apos;s premier gated golf community. Same guard gate, same trails, same amenities, lower price point. $350K&ndash;$550K. Bloomingdale HS zone. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search River Hills Masters listings</Link>
             <Link href="/valrico-fl-home-values/" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">What&apos;s my home worth?</Link>
@@ -88,9 +88,9 @@ export default function RiverHillsMastersPage() {
           <div>
             {/* --- About --- */}
             <h2 className="font-serif text-2xl mb-4">About River Hills Masters, Valrico FL</h2>
-            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>River Hills Masters is the entry point into Valrico&apos;s most exclusive gated community. Situated within the broader River Hills development, the Masters section offers the same 24/7 guard-gated security, private Alafia River trails, community pools, and tennis courts as the premium golf frontage homes &mdash; at a price point that starts roughly $100K lower. For buyers who want the River Hills lifestyle without the golf course premium, this is where to look.</p>
-            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Homes in the Masters section range from approximately 1,800 to 3,200 square feet with 3 to 5 bedrooms. Most are concrete block construction from the 1980s through the 2000s, consistent with the rest of River Hills. The lots are interior positions &mdash; meaning no direct golf course frontage &mdash; but the mature landscaping, winding streets, and oak canopy create the same premium residential feel that defines River Hills overall.</p>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>The value proposition is clear: pay $350K to $550K and live behind the same guard gate as homeowners in $800K+ golf frontage properties. You get the same trails along the Alafia River, the same community pools, the same tennis courts, and the same option to join the River Hills Country Club. The only difference is the view from your lanai &mdash; and for most buyers, the savings more than compensate.</p>
+            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>River Hills Masters is the entry point into Valrico&apos;s most exclusive gated community. Situated within the broader River Hills development, the Masters section offers the same 24/7 guard-gated security, private Alafia River trails, community pools, and tennis courts as the premium golf frontage homes, at a price point that starts roughly $100K lower. For buyers who want the River Hills lifestyle without the golf course premium, this is where to look.</p>
+            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Homes in the Masters section range from approximately 1,800 to 3,200 square feet with 3 to 5 bedrooms. Most are concrete block construction from the 1980s through the 2000s, consistent with the rest of River Hills. The lots are interior positions, meaning no direct golf course frontage, but the mature landscaping, winding streets, and oak canopy create the same premium residential feel that defines River Hills overall.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>The value proposition is clear: pay $350K to $550K and live behind the same guard gate as homeowners in $800K+ golf frontage properties. You get the same trails along the Alafia River, the same community pools, the same tennis courts, and the same option to join the River Hills Country Club. The only difference is the view from your lanai, and for most buyers, the savings more than compensate.</p>
 
             {/* --- Schools --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Schools Serving River Hills Masters</h2>
@@ -112,11 +112,11 @@ export default function RiverHillsMastersPage() {
 
             {/* --- HOA --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">HOA and Community Fees</h2>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>River Hills Masters is part of the broader River Hills HOA, which funds the 24/7 guard gate, community pools, tennis courts, Alafia River trail maintenance, and common area upkeep. Country club membership is separate and optional. HOA fees reflect the premium amenity package shared across all River Hills sections. Barrett Henry can break down the exact current fees &mdash; call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>River Hills Masters is part of the broader River Hills HOA, which funds the 24/7 guard gate, community pools, tennis courts, Alafia River trail maintenance, and common area upkeep. Country club membership is separate and optional. HOA fees reflect the premium amenity package shared across all River Hills sections. Barrett Henry can break down the exact current fees, call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
 
             {/* --- Comparison --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">How River Hills Masters Compares to Nearby Neighborhoods</h2>
-            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>River Hills Masters occupies a unique niche &mdash; guard-gated community access at a mid-range price. Here&apos;s the comparison:</p>
+            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>River Hills Masters occupies a unique niche, guard-gated community access at a mid-range price. Here&apos;s the comparison:</p>
             <div className="overflow-x-auto mb-6">
               <table className="w-full text-[14px] border-collapse" style={{ color: 'var(--ink-soft)' }}>
                 <thead>
@@ -219,7 +219,7 @@ export default function RiverHillsMastersPage() {
             {/* Selling CTA */}
             <div className="rounded-md p-6" style={{ background: 'var(--blue-deep)' }}>
               <h3 className="font-serif text-lg text-white mb-3">Selling in River Hills Masters?</h3>
-              <p className="text-sm mb-4" style={{ color: 'rgba(255,255,255,.7)' }}>Free CMA from Barrett Henry, REALTOR&reg;. Section-specific comps within River Hills &mdash; not a generic estimate.</p>
+              <p className="text-sm mb-4" style={{ color: 'rgba(255,255,255,.7)' }}>Free CMA from Barrett Henry, REALTOR&reg;. Section-specific comps within River Hills, not a generic estimate.</p>
               <Link href="/valrico-fl-home-values/" className="btn-white block text-center text-sm">Get your home value</Link>
             </div>
           </div>

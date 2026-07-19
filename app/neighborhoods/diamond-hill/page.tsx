@@ -44,7 +44,7 @@ export default function DiamondHillPage() {
       <div style={{ background: 'var(--blue-deep)' }} className="text-white py-16 px-7">
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
-          <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Diamond Hill Homes for Sale &mdash; Valrico FL 33594</h1>
+          <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Diamond Hill Homes for Sale, Valrico FL 33594</h1>
           <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Diamond Hill is a gated golf community centered around the Diamond Hill Golf Club in Valrico (33594). Resort-style amenities, prices from $350K&ndash;$550K. School zone varies by section. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Diamond Hill listings</Link>
@@ -101,7 +101,7 @@ export default function DiamondHillPage() {
           <div>
             {/* --- About --- */}
             <h2 className="font-serif text-2xl mb-4">About Diamond Hill, Valrico FL</h2>
-            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Diamond Hill is the gated golf community that gives Valrico its country-club lifestyle at a fraction of what you would pay in River Hills or South Tampa. Centered around the Diamond Hill Golf Club &mdash; a Chic Adams-designed par-72 course stretching 6,920 yards &mdash; the community wraps approximately 1,300 homes around fairways, conservation areas, and lakes that create an environment more resort than suburb.</p>
+            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Diamond Hill is the gated golf community that gives Valrico its country-club lifestyle at a fraction of what you would pay in River Hills or South Tampa. Centered around the Diamond Hill Golf Club, a Chic Adams-designed par-72 course stretching 6,920 yards, the community wraps approximately 1,300 homes around fairways, conservation areas, and lakes that create an environment more resort than suburb.</p>
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Homes range from 2-bedroom patio homes starting around $350K to expansive 5-6 bedroom family estates with 3,600+ square feet reaching $550K and above. Many properties back directly to the golf course with unobstructed views of fairways and greens. Construction dates primarily from 2004 to 2006 with newer infill on remaining lots. The variety of home sizes makes Diamond Hill accessible to first-time buyers, growing families, and retirees looking for single-story patio home options.</p>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>The amenity package is the standout. Diamond Hill features an Olympic-sized pool, fully equipped fitness center, a clubhouse with event space, playground, basketball court, and tennis facilities. The gated entrance provides 24/7 access control. For buyers who want resort-style amenities inside their neighborhood gates, Diamond Hill delivers a lifestyle that most Valrico communities simply do not offer at this price point.</p>
 
@@ -125,7 +125,7 @@ export default function DiamondHillPage() {
 
             {/* --- HOA --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">HOA and Community Fees</h2>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Diamond Hill has a mandatory HOA that maintains the gated entrance, Olympic-sized pool, fitness center, clubhouse, playground, basketball court, tennis facilities, and all common areas. Monthly HOA fees vary by section and typically run $150&ndash;$300. Golf club membership is separate from the HOA. Some sections may carry a CDD assessment on the property tax bill. Barrett Henry can pull the exact HOA, CDD, and golf membership costs for any Diamond Hill address &mdash; call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Diamond Hill has a mandatory HOA that maintains the gated entrance, Olympic-sized pool, fitness center, clubhouse, playground, basketball court, tennis facilities, and all common areas. Monthly HOA fees vary by section and typically run $150&ndash;$300. Golf club membership is separate from the HOA. Some sections may carry a CDD assessment on the property tax bill. Barrett Henry can pull the exact HOA, CDD, and golf membership costs for any Diamond Hill address, call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
 
             {/* --- Comparison --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">How Diamond Hill Compares to Nearby Neighborhoods</h2>
@@ -229,7 +229,7 @@ export default function DiamondHillPage() {
 
             <div className="rounded-md p-6" style={{ background: 'var(--blue-deep)' }}>
               <h3 className="font-serif text-lg text-white mb-3">Selling in Diamond Hill?</h3>
-              <p className="text-sm mb-4" style={{ color: 'rgba(255,255,255,.7)' }}>Free CMA from Barrett Henry, REALTOR&reg;. Actual comps from your section of Diamond Hill &mdash; not a Zestimate.</p>
+              <p className="text-sm mb-4" style={{ color: 'rgba(255,255,255,.7)' }}>Free CMA from Barrett Henry, REALTOR&reg;. Actual comps from your section of Diamond Hill, not a Zestimate.</p>
               <Link href="/valrico-fl-home-values/" className="btn-white block text-center text-sm">Get your home value</Link>
             </div>
           </div>

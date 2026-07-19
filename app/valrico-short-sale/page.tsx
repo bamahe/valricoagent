@@ -11,7 +11,7 @@ export default function ValricoShortSale() {
           <h1 className="font-serif text-[clamp(28px,4vw,40px)] leading-tight tracking-tight mb-4">Valrico Short Sale Assistance</h1>
           <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{color:'rgba(255,255,255,.75)'}}>If you owe more on your Valrico home than it is currently worth, a short sale allows you to sell without going through foreclosure. The bank agrees to accept less than the full mortgage balance, and you move on with significantly less damage to your credit.</p>
           <div className="flex gap-3 flex-wrap">
-            <a href="tel:8137337907" className="btn-solid">Call Barrett &mdash; (813) 733-7907</a>
+            <a href="tel:8137337907" className="btn-solid">Call<br/>(813) 733-7907</a>
             <a href="https://flforeclosurehelp.com" target="_blank" rel="noopener" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">Visit flforeclosurehelp.com</a>
           </div>
         </div>
@@ -26,8 +26,8 @@ export default function ValricoShortSale() {
             <p className="text-[15px] leading-[1.8] mb-4" style={{color:'var(--ink-soft)'}}>A short sale happens when a homeowner sells their property for less than the remaining mortgage balance, and the bank (lender) agrees to accept the reduced payoff. The bank takes a loss, but avoids the cost and timeline of a full foreclosure proceeding.</p>
             <p className="text-[15px] leading-[1.8] mb-4" style={{color:'var(--ink-soft)'}}>For the homeowner, a short sale offers several advantages over foreclosure:</p>
             <ul className="list-disc pl-6 space-y-2 mb-8">
-              <li className="text-[15px] leading-[1.8]" style={{color:'var(--ink-soft)'}}>Less credit damage &mdash; a short sale typically impacts your credit score 50-100 points less than a foreclosure</li>
-              <li className="text-[15px] leading-[1.8]" style={{color:'var(--ink-soft)'}}>Shorter waiting period to buy again &mdash; 2 years after a short sale vs. 3-7 years after foreclosure (depending on loan type)</li>
+              <li className="text-[15px] leading-[1.8]" style={{color:'var(--ink-soft)'}}>Less credit damage, a short sale typically impacts your credit score 50-100 points less than a foreclosure</li>
+              <li className="text-[15px] leading-[1.8]" style={{color:'var(--ink-soft)'}}>Shorter waiting period to buy again, 2 years after a short sale vs. 3-7 years after foreclosure (depending on loan type)</li>
               <li className="text-[15px] leading-[1.8]" style={{color:'var(--ink-soft)'}}>No foreclosure on your public record</li>
               <li className="text-[15px] leading-[1.8]" style={{color:'var(--ink-soft)'}}>Potential to negotiate forgiveness of the remaining balance (deficiency waiver)</li>
             </ul>
@@ -37,9 +37,9 @@ export default function ValricoShortSale() {
             <p className="text-[15px] leading-[1.8] mb-4" style={{color:'var(--ink-soft)'}}>Banks do not approve short sales for everyone. You generally need to meet these criteria:</p>
             <div className="space-y-4 mb-10">
               {[
-                ['Financial hardship','You must demonstrate a legitimate financial hardship &mdash; job loss, divorce, medical bills, death of a co-borrower, business failure, military relocation, or adjustable-rate mortgage reset. The bank will require a hardship letter explaining your situation.'],
+                ['Financial hardship','You must demonstrate a legitimate financial hardship, job loss, divorce, medical bills, death of a co-borrower, business failure, military relocation, or adjustable-rate mortgage reset. The bank will require a hardship letter explaining your situation.'],
                 ['Inability to pay','You need to show the bank that you cannot continue making payments. This is documented through bank statements, tax returns, and pay stubs showing income decline or insufficient funds.'],
-                ['Property value below mortgage balance','The home must be worth less than what you owe. An appraisal or broker price opinion (BPO) will confirm this. If you have equity, a short sale is not applicable &mdash; you would just sell traditionally.'],
+                ['Property value below mortgage balance','The home must be worth less than what you owe. An appraisal or broker price opinion (BPO) will confirm this. If you have equity, a short sale is not applicable, you would just sell traditionally.'],
               ].map(([title, desc]) => (
                 <div key={title} className="border rounded-md p-5" style={{borderColor:'var(--border)'}}>
                   <h3 className="font-semibold text-base mb-2">{title}</h3>
@@ -57,7 +57,7 @@ export default function ValricoShortSale() {
                 ['1. Contact Barrett for a confidential consultation','We review your financial situation, mortgage balance, and current home value to determine if a short sale is the right path. No cost, no obligation, no judgment.'],
                 ['2. Gather your financial documentation','You will need to provide: hardship letter, last 2 years of tax returns, last 2 months of bank statements, recent pay stubs, a list of monthly expenses, and proof of the hardship (divorce decree, medical bills, termination letter, etc.).'],
                 ['3. List the property on the market','Barrett lists your home at current market value. The home needs to be listed and marketed to demonstrate to the bank that the sale price is fair. A real buyer making a real offer is what moves the bank to approve.'],
-                ['4. Submit the short sale package to the bank','Once we have a purchase offer, Barrett submits the complete package to your lender: the offer, your financial documents, a hardship letter, and a comparative market analysis showing the home\'s current value. This is where most agents fail &mdash; the package has to be complete and properly formatted for the specific lender\'s requirements.'],
+                ['4. Submit the short sale package to the bank','Once we have a purchase offer, Barrett submits the complete package to your lender: the offer, your financial documents, a hardship letter, and a comparative market analysis showing the home\'s current value. This is where most agents fail, the package has to be complete and properly formatted for the specific lender\'s requirements.'],
                 ['5. Negotiate with the bank','The bank assigns a negotiator who reviews the file, orders a BPO (broker price opinion), and decides whether to approve, counter, or deny. Barrett handles all bank communication, follows up consistently, and escalates when the file stalls. This stage can take 30 to 120 days depending on the lender.'],
                 ['6. Close the sale','Once the bank approves, the sale closes like a normal transaction. The bank releases the lien, the buyer gets the property, and you are released from your mortgage obligation (typically with a deficiency waiver, which Barrett negotiates for).'],
               ].map(([title, desc]) => (
@@ -131,7 +131,7 @@ export default function ValricoShortSale() {
               <p className="text-[15px] leading-[1.8] font-semibold mb-2" style={{color:'var(--ink)'}}>If you are behind on payments, call Barrett before it goes to foreclosure.</p>
               <p className="text-[15px] leading-[1.8] mb-4" style={{color:'var(--ink-soft)'}}>There may be options you do not know about. The earlier you call, the more options you have.</p>
               <div className="flex gap-3 flex-wrap">
-                <a href="tel:8137337907" className="btn-solid">Call Barrett &mdash; (813) 733-7907</a>
+                <a href="tel:8137337907" className="btn-solid">Call<br/>(813) 733-7907</a>
                 <a href="https://flforeclosurehelp.com" target="_blank" rel="noopener" className="btn-ghost">flforeclosurehelp.com</a>
               </div>
             </div>
@@ -158,7 +158,7 @@ export default function ValricoShortSale() {
             <div className="rounded-md p-6 border" style={{borderColor:'var(--border)',background:'var(--cream-warm)'}}>
               <h3 className="font-serif text-lg mb-3">Confidential consultation</h3>
               <p className="text-sm mb-4 leading-relaxed" style={{color:'var(--ink-soft)'}}>Barrett Henry, REALTOR® at REMAX Collective. 23+ years of real estate experience. Short sale consultations are free, private, and no-obligation.</p>
-              <a href="tel:8137337907" className="btn-solid block text-center mb-2 text-sm">Call (813) 733-7907</a>
+              <a href="tel:8137337907" className="btn-solid block text-center mb-2 text-sm">Call<br/>(813) 733-7907</a>
               <a href="mailto:barrett@nowtb.com" className="btn-ghost block text-center text-sm">Email Barrett</a>
             </div>
             <div className="rounded-md p-6 border" style={{borderColor:'var(--border)'}}>

@@ -1,5 +1,5 @@
 /**
- * PropertyCard — displays a single MLS listing in a grid card.
+ * PropertyCard, displays a single MLS listing in a grid card.
  * Shows photo, price, beds/baths/sqft, address, and status badge.
  */
 

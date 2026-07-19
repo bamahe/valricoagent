@@ -51,7 +51,7 @@ export default function FirstTimeHomeBuyer() {
           <h1 className="font-serif text-[clamp(28px,4vw,40px)] leading-tight tracking-tight mb-4">First-Time Home Buyer Guide for Valrico, FL</h1>
           <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{color:'rgba(255,255,255,.75)'}}>Buying your first home is a big deal. This guide covers what Valrico actually costs, which down payment programs you qualify for, what neighborhoods fit your budget, and the stuff most agents forget to mention until it&apos;s too late.</p>
           <div className="flex gap-3 flex-wrap">
-            <a href="tel:8137337907" className="btn-solid">Call Barrett — (813) 733-7907</a>
+            <a href="tel:8137337907" className="btn-solid">Call<br/>(813) 733-7907</a>
             <Link href="/valrico-fl-homes-for-sale/" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">Search Valrico Homes</Link>
           </div>
         </div>
@@ -92,12 +92,12 @@ export default function FirstTimeHomeBuyer() {
 
             <div className="space-y-4 mb-10">
               {[
-                ['Conventional (3-5% down)','Standard loans through Fannie Mae and Freddie Mac. Put down 3% with HomeReady or Home Possible programs, or 5% with a standard conventional loan. You\'ll pay PMI (private mortgage insurance) until you hit 20% equity, but PMI drops off automatically — unlike FHA.'],
+                ['Conventional (3-5% down)','Standard loans through Fannie Mae and Freddie Mac. Put down 3% with HomeReady or Home Possible programs, or 5% with a standard conventional loan. You\'ll pay PMI (private mortgage insurance) until you hit 20% equity, but PMI drops off automatically, unlike FHA.'],
                 ['FHA (3.5% down)','Federal Housing Administration loans. Credit score requirement is lower (580+ for 3.5% down). The catch: you pay mortgage insurance for the life of the loan, not just until you hit 20% equity. Good option if your credit score is below 700.'],
                 ['VA (0% down)','If you\'re a veteran or active military, VA loans are the best deal in real estate. Zero down payment, no PMI, and competitive interest rates. Read the full VA loan guide for Valrico.'],
-                ['USDA (0% down)','Zero down payment for homes in USDA-eligible rural areas. Parts of eastern Hillsborough County near Valrico may qualify. Worth checking the USDA eligibility map — the boundaries might surprise you.'],
-                ['Florida Hometown Heroes Program','This is the big one. Up to 5% of the loan amount for down payment and closing costs. Available to all W-2 workers in Florida — not just first responders despite the name. 0% interest, no monthly payments, forgiven after 5 years. If you qualify, this program can cover most or all of your out-of-pocket costs.'],
-                ['Hillsborough County SHIP Program','Income-based down payment assistance up to $50,000 for down payment and closing costs. Must be a primary residence in Hillsborough County. Income limits apply. Funding comes and goes — when it\'s available, grab it.'],
+                ['USDA (0% down)','Zero down payment for homes in USDA-eligible rural areas. Parts of eastern Hillsborough County near Valrico may qualify. Worth checking the USDA eligibility map, the boundaries might surprise you.'],
+                ['Florida Hometown Heroes Program','This is the big one. Up to 5% of the loan amount for down payment and closing costs. Available to all W-2 workers in Florida, not just first responders despite the name. 0% interest, no monthly payments, forgiven after 5 years. If you qualify, this program can cover most or all of your out-of-pocket costs.'],
+                ['Hillsborough County SHIP Program','Income-based down payment assistance up to $50,000 for down payment and closing costs. Must be a primary residence in Hillsborough County. Income limits apply. Funding comes and goes, when it\'s available, grab it.'],
               ].map(([title, desc]) => (
                 <div key={title} className="border rounded-md p-5" style={{borderColor:'var(--border)'}}>
                   <h3 className="font-semibold text-base mb-2" style={{color:'var(--ink)'}}>{title}</h3>
@@ -112,10 +112,10 @@ export default function FirstTimeHomeBuyer() {
 
             <div className="space-y-8 mb-10">
               {[
-                ['CDD Fees','Some newer Valrico communities carry CDD (Community Development District) fees — an annual assessment on top of your property taxes. These can add $1,500 to $4,000+ per year. The CDD doesn\'t show up on Zillow. Always ask before making an offer.'],
+                ['CDD Fees','Some newer Valrico communities carry CDD (Community Development District) fees, an annual assessment on top of your property taxes. These can add $1,500 to $4,000+ per year. The CDD doesn\'t show up on Zillow. Always ask before making an offer.'],
                 ['Flood Zones','Most of Valrico is not in a flood zone, but pockets near the Alafia River and low-lying areas are. Flood insurance can add $1,500-$3,000+ per year. Check the FEMA flood map before you fall in love with a house.'],
                 ['HOA Fees','HOA fees in Valrico range from $30/month (basic deed restrictions) to $300+/month (gated communities with amenities). Read the HOA docs. Some HOAs restrict rentals, parking, and even paint colors.'],
-                ['Roof Age','Florida insurance companies are strict about roofs. If the roof is over 15 years old, you may have trouble getting affordable homeowners insurance — or getting insurance at all. Roof age should be one of your first questions.'],
+                ['Roof Age','Florida insurance companies are strict about roofs. If the roof is over 15 years old, you may have trouble getting affordable homeowners insurance, or getting insurance at all. Roof age should be one of your first questions.'],
                 ['AC Age','Central AC systems in Florida last 10-15 years. If the AC is 12+ years old, budget $5,000-$8,000 for replacement in the near future. This is negotiation leverage during the inspection period.'],
                 ['Polybutylene Pipes','Some Valrico homes built in the 1980s and early 1990s have polybutylene (poly-b) plumbing. These pipes are known to fail. Insurance companies may require a full re-pipe before issuing a policy. A good home inspector will catch this, but you should know to look for it.'],
               ].map(([title, desc]) => (
@@ -133,7 +133,7 @@ export default function FirstTimeHomeBuyer() {
             <h2 className="font-serif text-2xl mb-4 mt-10">School Zones Matter in Valrico</h2>
             <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>Valrico is split between two main high school zones: <strong>Bloomingdale High School</strong> and <strong>Newsome High School</strong>. This matters more than most first-time buyers realize. See the full <Link href="/valrico-school-zones/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Valrico school zone guide</Link> for maps and pricing data.</p>
             <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>Homes zoned for Newsome HS typically sell for <strong>5-10% more</strong> than comparable homes zoned for Bloomingdale HS. Newsome consistently ranks higher in state ratings and draws families willing to pay a premium. If you&apos;re buying for the long term, school zoning affects your resale value whether or not you have kids.</p>
-            <p className="text-[15px] leading-[1.8] mb-10" style={{color:'var(--ink-soft)'}}>Both are solid schools. Bloomingdale HS has strong athletics and IB programs. Newsome HS has higher overall test scores and newer facilities. Either zone is a good place to raise a family — but the price difference is real and you should factor it into your budget.</p>
+            <p className="text-[15px] leading-[1.8] mb-10" style={{color:'var(--ink-soft)'}}>Both are solid schools. Bloomingdale HS has strong athletics and IB programs. Newsome HS has higher overall test scores and newer facilities. Either zone is a good place to raise a family, but the price difference is real and you should factor it into your budget.</p>
 
             {/* STEPS TO BUY */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Steps to Buy Your First Home in Valrico</h2>
@@ -141,11 +141,11 @@ export default function FirstTimeHomeBuyer() {
 
             <div className="space-y-4 mb-10">
               {[
-                ['1. Get Pre-Approved','Not pre-qualified — pre-approved. Talk to a lender, provide your income docs, and get a real number. This tells you exactly what you can afford and shows sellers you\'re serious. Barrett can recommend lenders who know Valrico and close on time.'],
+                ['1. Get Pre-Approved','Not pre-qualified, pre-approved. Talk to a lender, provide your income docs, and get a real number. This tells you exactly what you can afford and shows sellers you\'re serious. Barrett can recommend lenders who know Valrico and close on time.'],
                 ['2. Find a REALTOR® Who Knows Valrico','You need someone who knows the difference between Bloomingdale Oaks and Bloomingdale Ridge, knows which streets flood, and knows what a home in each sub-neighborhood should actually sell for. That\'s Barrett Henry.'],
                 ['3. Search and Tour Homes','Barrett sets up a custom search based on your budget, must-haves, and preferred neighborhoods. You\'ll tour homes, ask questions, and narrow down your list. No pressure, no rushing.'],
-                ['4. Make an Offer','When you find the right home, Barrett writes a competitive offer based on actual recent comps in that specific neighborhood. Not Zestimate guesses — real data.'],
-                ['5. Inspection Period','You\'ll hire a licensed home inspector (Barrett has recommendations). The inspection report is your negotiation tool. Roof issues, AC problems, plumbing concerns — this is where you protect yourself. After closing, Best Valrico Handyman (bestvalricohandyman.com) can handle your move-in punch list — TV mounting, door adjustments, shelving, and minor repairs.'],
+                ['4. Make an Offer','When you find the right home, Barrett writes a competitive offer based on actual recent comps in that specific neighborhood. Not Zestimate guesses, real data.'],
+                ['5. Inspection Period','You\'ll hire a licensed home inspector (Barrett has recommendations). The inspection report is your negotiation tool. Roof issues, AC problems, plumbing concerns, this is where you protect yourself. After closing, Best Valrico Handyman (bestvalricohandyman.com) can handle your move-in punch list - TV mounting, door adjustments, shelving, and minor repairs.'],
                 ['6. Appraisal, Title, and Closing','Your lender orders an appraisal. Title company runs a title search. Barrett coordinates the timeline and keeps everyone on track. Closing day, you sign the papers and get your keys. The whole process typically takes 30-45 days from accepted offer to closing.'],
               ].map(([title, desc]) => (
                 <div key={title} className="border rounded-md p-5" style={{borderColor:'var(--border)'}}>
@@ -158,9 +158,9 @@ export default function FirstTimeHomeBuyer() {
             {/* CTA */}
             <div className="rounded-lg p-8 mt-10 text-center" style={{background:'var(--blue-deep)',color:'#fff'}}>
               <h2 className="font-serif text-2xl mb-3">Ready to Buy Your First Valrico Home?</h2>
-              <p className="text-[15px] leading-relaxed mb-6" style={{color:'rgba(255,255,255,.75)',maxWidth:540,margin:'0 auto 24px'}}>Barrett Henry has 23+ years of real estate experience and knows every Valrico neighborhood, school zone, and price trend. No pressure, no sales pitch — just straight answers about what you can afford and where to look.</p>
+              <p className="text-[15px] leading-relaxed mb-6" style={{color:'rgba(255,255,255,.75)',maxWidth:540,margin:'0 auto 24px'}}>Barrett Henry has 23+ years of real estate experience and knows every Valrico neighborhood, school zone, and price trend. No pressure, no sales pitch, just straight answers about what you can afford and where to look.</p>
               <div className="flex gap-3 justify-center flex-wrap">
-                <a href="tel:8137337907" className="inline-block py-3 px-8 bg-white font-semibold text-[15px] rounded no-underline" style={{color:'var(--accent)'}}>Call (813) 733-7907</a>
+                <a href="tel:8137337907" className="inline-block py-3 px-8 bg-white font-semibold text-[15px] rounded no-underline" style={{color:'var(--accent)'}}>Call<br/>(813) 733-7907</a>
                 <a href="mailto:barrett@nowtb.com" className="inline-block py-3 px-8 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">Email Barrett</a>
               </div>
             </div>
@@ -187,8 +187,8 @@ export default function FirstTimeHomeBuyer() {
           <div className="space-y-6">
             <div className="rounded-md p-6 border" style={{borderColor:'var(--border)',background:'var(--cream-warm)'}}>
               <h3 className="font-serif text-lg mb-3">Talk to Barrett First</h3>
-              <p className="text-sm mb-4 leading-relaxed" style={{color:'var(--ink-soft)'}}>Before you start browsing Zillow, talk to a local REALTOR® who knows Valrico. Barrett Henry helps first-time buyers every month — no pressure, just straight answers about what you can afford and where to look.</p>
-              <a href="tel:8137337907" className="btn-solid block text-center mb-2 text-sm">Call (813) 733-7907</a>
+              <p className="text-sm mb-4 leading-relaxed" style={{color:'var(--ink-soft)'}}>Before you start browsing Zillow, talk to a local REALTOR® who knows Valrico. Barrett Henry helps first-time buyers every month, no pressure, just straight answers about what you can afford and where to look.</p>
+              <a href="tel:8137337907" className="btn-solid block text-center mb-2 text-sm">Call<br/>(813) 733-7907</a>
               <a href="mailto:barrett@nowtb.com" className="btn-ghost block text-center text-sm">Email Barrett</a>
             </div>
             <div className="rounded-md p-6 border" style={{borderColor:'var(--border)'}}>

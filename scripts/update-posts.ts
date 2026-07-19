@@ -34,7 +34,7 @@ async function main() {
     const { error } = await sb.from('blog_posts').update({ content }).eq('slug', slug);
 
     if (error) {
-      console.log(`  ERROR: ${slug} — ${error.message}`);
+      console.log(`  ERROR: ${slug}, ${error.message}`);
       errors++;
     } else {
       console.log(`  Updated: ${slug} (${wordCount} words)`);

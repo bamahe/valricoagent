@@ -43,7 +43,7 @@ export default function BuckhornSpringsManorPage() {
       <div style={{ background: 'var(--blue-deep)' }} className="text-white py-16 px-7">
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
-          <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Buckhorn Springs Manor Homes for Sale &mdash; Valrico FL 33596</h1>
+          <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Buckhorn Springs Manor Homes for Sale, Valrico FL 33596</h1>
           <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Buckhorn Springs Manor is an established subdivision of larger homes near Buckhorn Springs Golf Club in south Valrico (33596). Prices from $350K&ndash;$550K. Newsome High School zone. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Buckhorn Springs Manor listings</Link>
@@ -89,7 +89,7 @@ export default function BuckhornSpringsManorPage() {
             {/* --- About --- */}
             <h2 className="font-serif text-2xl mb-4">About Buckhorn Springs Manor, Valrico FL</h2>
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Buckhorn Springs Manor is an established subdivision adjacent to the Buckhorn Springs Golf and Country Club in south Valrico (33596). Unlike many newer communities in the Buckhorn corridor that were built on tighter lots, Buckhorn Springs Manor features generous lot sizes with mature oak canopy, established landscaping, and a settled neighborhood feel that takes decades to develop.</p>
-            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Homes range from 1,500 to 3,500+ square feet with 3 to 5 bedrooms. The diversity of home sizes and styles gives buyers options &mdash; from updated ranch-style homes for empty nesters to spacious two-story family residences with pools and outdoor kitchens. Many properties feature screened pool enclosures, extended lanais, and mature landscaping that provides natural privacy between neighbors.</p>
+            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Homes range from 1,500 to 3,500+ square feet with 3 to 5 bedrooms. The diversity of home sizes and styles gives buyers options, from updated ranch-style homes for empty nesters to spacious two-story family residences with pools and outdoor kitchens. Many properties feature screened pool enclosures, extended lanais, and mature landscaping that provides natural privacy between neighbors.</p>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>The proximity to Buckhorn Springs Golf Club is a defining feature. Several homes back directly to the golf course with panoramic fairway views, though golf club membership is separate from subdivision residency. For buyers who appreciate an established neighborhood with character, space, and the prestige of the golf club address, Buckhorn Springs Manor occupies a sweet spot that newer construction simply cannot replicate.</p>
 
             {/* --- Schools --- */}
@@ -112,7 +112,7 @@ export default function BuckhornSpringsManorPage() {
 
             {/* --- HOA --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">HOA and Community Fees</h2>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Buckhorn Springs Manor has an HOA that maintains community standards and common areas. As an established community, HOA fees are generally lower than newer developments &mdash; typically $50&ndash;$150 per month. The community does not carry CDD fees, which is a meaningful cost advantage over newer Buckhorn corridor subdivisions that may add $1,000&ndash;$2,500 per year to the tax bill. Barrett Henry can confirm the exact HOA details for any Buckhorn Springs Manor property &mdash; call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Buckhorn Springs Manor has an HOA that maintains community standards and common areas. As an established community, HOA fees are generally lower than newer developments, typically $50&ndash;$150 per month. The community does not carry CDD fees, which is a meaningful cost advantage over newer Buckhorn corridor subdivisions that may add $1,000&ndash;$2,500 per year to the tax bill. Barrett Henry can confirm the exact HOA details for any Buckhorn Springs Manor property, call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
 
             {/* --- Comparison --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">How Buckhorn Springs Manor Compares to Nearby Neighborhoods</h2>
@@ -215,7 +215,7 @@ export default function BuckhornSpringsManorPage() {
 
             <div className="rounded-md p-6" style={{ background: 'var(--blue-deep)' }}>
               <h3 className="font-serif text-lg text-white mb-3">Selling in Buckhorn Springs Manor?</h3>
-              <p className="text-sm mb-4" style={{ color: 'rgba(255,255,255,.7)' }}>Free CMA from Barrett Henry, REALTOR&reg;. Actual comps from your section of Buckhorn Springs Manor &mdash; not a Zestimate.</p>
+              <p className="text-sm mb-4" style={{ color: 'rgba(255,255,255,.7)' }}>Free CMA from Barrett Henry, REALTOR&reg;. Actual comps from your section of Buckhorn Springs Manor, not a Zestimate.</p>
               <Link href="/valrico-fl-home-values/" className="btn-white block text-center text-sm">Get your home value</Link>
             </div>
           </div>

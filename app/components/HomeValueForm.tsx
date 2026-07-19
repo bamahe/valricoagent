@@ -89,7 +89,7 @@ export function HomeValueForm() {
         What&apos;s My Valrico Home Worth?
       </h2>
       <p style={{ fontSize: 14, color: '#555', marginBottom: 20 }}>
-        Free CMA based on actual closed comps in your subdivision — not a Zestimate.
+        Free CMA based on actual closed comps in your subdivision, not a Zestimate.
       </p>
 
       <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>

@@ -44,7 +44,7 @@ export default function RiverHillsPage() {
       <div style={{ background: 'var(--blue-deep)' }} className="text-white py-16 px-7">
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
-          <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">River Hills Homes for Sale &mdash; Valrico FL 33596</h1>
+          <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">River Hills Homes for Sale, Valrico FL 33596</h1>
           <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>River Hills is Valrico&apos;s premier gated golf community, anchored by the River Hills Country Club and its 18-hole Joe Lee-designed championship course. Guard gate, Alafia River trails, and custom homes from $400K&ndash;$800K+. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search River Hills listings</Link>
@@ -71,14 +71,14 @@ export default function RiverHillsPage() {
         <div className="relative w-full rounded-lg overflow-hidden" style={{ aspectRatio: '16/7' }}>
           <Image
             src="/river-hills-valrico.jpg"
-            alt="River Hills community entrance in Valrico, Florida — guard-gated golf community"
+            alt="River Hills community entrance in Valrico, Florida, guard-gated golf community"
             fill
             className="object-cover"
             priority
             sizes="(max-width: 1140px) 100vw, 1140px"
           />
         </div>
-        <p className="text-xs mt-2 mb-0" style={{ color: 'var(--ink-muted)' }}>River Hills community entrance — Valrico, FL 33596</p>
+        <p className="text-xs mt-2 mb-0" style={{ color: 'var(--ink-muted)' }}>River Hills community entrance - Valrico, FL 33596</p>
       </div>
 
       {/* ===== QUICK STATS ===== */}
@@ -104,9 +104,9 @@ export default function RiverHillsPage() {
           <div>
             {/* --- About --- */}
             <h2 className="font-serif text-2xl mb-4">About River Hills, Valrico FL</h2>
-            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>River Hills is the defining luxury community in Valrico &mdash; and there is nothing else quite like it in the broader Brandon/Valrico market. Anchored by the River Hills Country Club and its 18-hole Joe Lee-designed championship course stretching 7,007 yards, the community spans south Valrico with approximately 1,326 custom-built homes behind a 24/7 guard-gated entrance. The streets wind through natural topography under mature oak canopies that feel more like the Carolina Lowcountry than typical Florida suburbs.</p>
+            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>River Hills is the defining luxury community in Valrico, and there is nothing else quite like it in the broader Brandon/Valrico market. Anchored by the River Hills Country Club and its 18-hole Joe Lee-designed championship course stretching 7,007 yards, the community spans south Valrico with approximately 1,326 custom-built homes behind a 24/7 guard-gated entrance. The streets wind through natural topography under mature oak canopies that feel more like the Carolina Lowcountry than typical Florida suburbs.</p>
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>The housing stock spans a wide range. Interior lots without golf views start around $400K with 1,800 to 2,500 square feet. Mid-range homes on larger lots or with partial course views run $500K to $700K. Premium golf course frontage properties command $700K to over $1 million, featuring custom architecture, expansive lanais, and direct fairway views. Most homes are concrete block construction built from the 1980s through the 2000s, with custom homebuilding continuing today.</p>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Beyond golf, the community delivers amenities that most Valrico neighborhoods cannot match: private hiking trails along the Alafia River, community pools, tennis courts, and the country club&apos;s dining and social calendar. The guard gate operates around the clock with professional staffing. For buyers who want a complete lifestyle community &mdash; not just a house in a subdivision &mdash; River Hills is the benchmark in this market.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Beyond golf, the community delivers amenities that most Valrico neighborhoods cannot match: private hiking trails along the Alafia River, community pools, tennis courts, and the country club&apos;s dining and social calendar. The guard gate operates around the clock with professional staffing. For buyers who want a complete lifestyle community, not just a house in a subdivision, River Hills is the benchmark in this market.</p>
 
             {/* --- Schools --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Schools Serving River Hills</h2>
@@ -128,7 +128,7 @@ export default function RiverHillsPage() {
 
             {/* --- HOA --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">HOA, Country Club, and Community Fees</h2>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>River Hills has a mandatory HOA that funds the 24/7 guard gate, community pools, tennis courts, trail maintenance, and common area upkeep. The country club membership is separate and optional &mdash; you can live in River Hills without being a club member, though many residents join for the golf, dining, and social events. HOA fees reflect the premium amenity package. Barrett Henry can break down the exact current HOA fee and country club membership costs &mdash; call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>River Hills has a mandatory HOA that funds the 24/7 guard gate, community pools, tennis courts, trail maintenance, and common area upkeep. The country club membership is separate and optional, you can live in River Hills without being a club member, though many residents join for the golf, dining, and social events. HOA fees reflect the premium amenity package. Barrett Henry can break down the exact current HOA fee and country club membership costs, call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
 
             {/* --- Comparison --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">How River Hills Compares to Other Premium Neighborhoods</h2>
@@ -235,7 +235,7 @@ export default function RiverHillsPage() {
             {/* Selling CTA */}
             <div className="rounded-md p-6" style={{ background: 'var(--blue-deep)' }}>
               <h3 className="font-serif text-lg text-white mb-3">Selling in River Hills?</h3>
-              <p className="text-sm mb-4" style={{ color: 'rgba(255,255,255,.7)' }}>Free CMA from Barrett Henry, REALTOR&reg;. Golf frontage, interior, and waterfront comps require local expertise &mdash; not an algorithm.</p>
+              <p className="text-sm mb-4" style={{ color: 'rgba(255,255,255,.7)' }}>Free CMA from Barrett Henry, REALTOR&reg;. Golf frontage, interior, and waterfront comps require local expertise, not an algorithm.</p>
               <Link href="/valrico-fl-home-values/" className="btn-white block text-center text-sm">Get your home value</Link>
             </div>
           </div>

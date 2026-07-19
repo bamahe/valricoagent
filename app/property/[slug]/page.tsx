@@ -1,5 +1,5 @@
 /**
- * Property detail page — /property/[slug]/
+ * Property detail page, /property/[slug]/
  *
  * SEO-friendly URL pattern: /property/{address-city-state-zip-mlsid}/
  * Example: /property/2530-cross-more-street-valrico-fl-33596-TB8417278/
@@ -55,7 +55,7 @@ export async function generateMetadata(
     description: `${listing.BedroomsTotal} bed, ${listing.BathroomsTotalInteger} bath home at ${address} for ${price}. ${formatSqft(listing.LivingArea)} sqft, built ${listing.YearBuilt || 'N/A'}. MLS# ${listing.ListingId}. Contact Barrett Henry (813) 733-7907.`,
     alternates: { canonical: `/property/${slug}/` },
     openGraph: {
-      title: `${address} — ${price}`,
+      title: `${address}, ${price}`,
       description: `${listing.BedroomsTotal}bd/${listing.BathroomsTotalInteger}ba · ${formatSqft(listing.LivingArea)} sqft · ${listing.SubdivisionName || listing.City}`,
       images: [{ url: getPrimaryPhoto(listing), width: 800, height: 600 }],
       type: 'website',
@@ -108,11 +108,11 @@ export default async function PropertyDetailPage(
           <span aria-hidden="true">›</span>
           <Link href="/valrico-fl-homes-for-sale/" style={{ color: '#003da5' }}>Homes for Sale</Link>
           <span aria-hidden="true">›</span>
-          <span style={{ color: '#222', fontWeight: 500 }} aria-current="page">MLS# {listing.ListingId} — {address}</span>
+          <span style={{ color: '#222', fontWeight: 500 }} aria-current="page">MLS# {listing.ListingId}, {address}</span>
         </div>
       </nav>
 
-      {/* Photo Gallery — hero scroller + thumbnails + lightbox */}
+      {/* Photo Gallery, hero scroller + thumbnails + lightbox */}
       <div style={{ maxWidth: 1200, margin: '0 auto' }}>
         <PhotoGallery photos={photos} address={address} autoScroll />
       </div>
@@ -122,7 +122,7 @@ export default async function PropertyDetailPage(
         {/* Main content grid: details left, CTA right */}
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 380px', gap: 40 }}>
 
-          {/* Left column — listing info */}
+          {/* Left column, listing info */}
           <div>
             {/* Address (H1) + Price */}
             <div style={{ marginBottom: 24 }}>
@@ -149,9 +149,9 @@ export default async function PropertyDetailPage(
               {([
                 [listing.BedroomsTotal, 'Beds', 'bed'],
                 [listing.BathroomsTotalInteger, 'Baths', 'bathtub'],
-                [listing.LivingArea > 0 ? formatSqft(listing.LivingArea) : '—', 'Sq Ft', 'straighten'],
-                [listing.YearBuilt || '—', 'Built', 'calendar_today'],
-                [listing.LotSizeAcres ? `${listing.LotSizeAcres} ac` : '—', 'Lot', 'grass'],
+                [listing.LivingArea > 0 ? formatSqft(listing.LivingArea) : ' - ', 'Sq Ft', 'straighten'],
+                [listing.YearBuilt || ' - ', 'Built', 'calendar_today'],
+                [listing.LotSizeAcres ? `${listing.LotSizeAcres} ac` : ' - ', 'Lot', 'grass'],
                 [listing.GarageSpaces || 0, 'Garage', 'garage'],
               ] as [string | number, string, string][]).map(([val, label, icon]) => (
                 <div key={label} style={{ textAlign: 'center' }}>
@@ -189,11 +189,11 @@ export default async function PropertyDetailPage(
                   ['Property Type', listing.PropertySubType || listing.PropertyType],
                   ['Status', listing.MlsStatus || listing.StandardStatus],
                   ['MLS #', listing.ListingId],
-                  ['Days on Market', listing.DaysOnMarket != null ? `${listing.DaysOnMarket} days` : '—'],
-                  ['Subdivision', listing.SubdivisionName || '—'],
-                  ['Year Built', listing.YearBuilt || '—'],
-                  ['Living Area', listing.LivingArea > 0 ? `${formatSqft(listing.LivingArea)} sqft` : '—'],
-                  ['Lot Size', listing.LotSizeAcres ? `${listing.LotSizeAcres} acres` : listing.LotSizeSquareFeet ? `${formatSqft(listing.LotSizeSquareFeet)} sqft` : '—'],
+                  ['Days on Market', listing.DaysOnMarket != null ? `${listing.DaysOnMarket} days` : ' - '],
+                  ['Subdivision', listing.SubdivisionName || ' - '],
+                  ['Year Built', listing.YearBuilt || ' - '],
+                  ['Living Area', listing.LivingArea > 0 ? `${formatSqft(listing.LivingArea)} sqft` : ' - '],
+                  ['Lot Size', listing.LotSizeAcres ? `${listing.LotSizeAcres} acres` : listing.LotSizeSquareFeet ? `${formatSqft(listing.LotSizeSquareFeet)} sqft` : ' - '],
                   ['Pool', listing.PoolPrivateYN ? 'Yes' : 'No'],
                   ['Waterfront', listing.WaterfrontYN ? 'Yes' : 'No'],
                   ['Garage', listing.GarageSpaces ? `${listing.GarageSpaces} spaces` : 'No'],
@@ -306,7 +306,7 @@ export default async function PropertyDetailPage(
             </div>
           </div>
 
-          {/* Right column — sticky contact CTA */}
+          {/* Right column, sticky contact CTA */}
           <div>
             <div style={{
               position: 'sticky', top: 80,
@@ -366,7 +366,7 @@ export default async function PropertyDetailPage(
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "RealEstateListing",
-        "name": `${address} — Home for Sale in ${listing.City}, ${listing.StateOrProvince}`,
+        "name": `${address} - Home for Sale in ${listing.City}, ${listing.StateOrProvince}`,
         "description": listing.PublicRemarks?.slice(0, 300) || `${listing.BedroomsTotal} bed, ${listing.BathroomsTotalInteger} bath home in ${listing.City}`,
         "url": `https://valricoagent.com/property/${slug}/`,
         "image": photos.slice(0, 6).map(p => p.MediaURL),

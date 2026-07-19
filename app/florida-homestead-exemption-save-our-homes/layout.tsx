@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: 'Florida Homestead Exemption & Save Our Homes — Valrico Guide',
+  title: 'Florida Homestead Exemption & Save Our Homes - Valrico Guide',
   description: 'How the Florida homestead exemption saves Valrico homeowners ~$50,000 in assessed value. Save Our Homes cap, portability, deadlines, and how to file. Barrett Henry, REMAX Collective. (813) 733-7907.',
   alternates: { canonical: "/florida-homestead-exemption-save-our-homes/" },
   openGraph: {
-    title: "Florida Homestead Exemption & Save Our Homes — Valrico Guide",
+    title: "Florida Homestead Exemption & Save Our Homes - Valrico Guide",
     description: "How the Florida homestead exemption saves Valrico homeowners ~$50,000 in assessed value. Save Our Homes cap, portability, deadlines, and how to file.",
     url: "https://valricoagent.com/florida-homestead-exemption-save-our-homes/",
     siteName: "ValricoAgent.com",

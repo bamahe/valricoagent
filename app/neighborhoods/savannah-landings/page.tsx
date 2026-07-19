@@ -43,7 +43,7 @@ export default function SavannahLandingsPage() {
       <div style={{ background: 'var(--blue-deep)' }} className="text-white py-16 px-7">
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
-          <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Savannah Landings Homes for Sale &mdash; Valrico FL 33596</h1>
+          <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Savannah Landings Homes for Sale, Valrico FL 33596</h1>
           <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Savannah Landings is an affordable townhome community in south Valrico (33596) with HOA-maintained exteriors and Bloomingdale HS zoning. Prices from $300K&ndash;$375K. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Savannah Landings listings</Link>
@@ -88,9 +88,9 @@ export default function SavannahLandingsPage() {
           <div>
             {/* --- About --- */}
             <h2 className="font-serif text-2xl mb-4">About Savannah Landings, Valrico FL</h2>
-            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Savannah Landings is a townhome community in south Valrico (33596) that solves a common buyer problem: how to get into the Bloomingdale High School zone without stretching into single-family home territory. The community delivers newer construction, HOA-maintained exteriors, and community amenities at a price point that competes with apartments &mdash; except you are building equity instead of paying someone else&apos;s mortgage.</p>
-            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Units range from 1,300 to 1,800 square feet with 2 to 3 bedrooms. The layouts are functional and modern &mdash; open-concept living areas on the main floor, owners suites with walk-in closets, and attached garages in some configurations. Built in the late 2000s to early 2010s, Savannah Landings is newer than Kings Mill and shows it in the floor plans, finishes, and energy efficiency.</p>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>The HOA handles exterior maintenance, landscaping, and common area upkeep. This is a genuine lifestyle benefit &mdash; no weekend lawn mowing, no pressure washing the driveway, no coordinating roof repairs. For young professionals, first-time buyers, or downsizers who value their time over yard work, the maintenance-included format is a selling point, not a compromise.</p>
+            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Savannah Landings is a townhome community in south Valrico (33596) that solves a common buyer problem: how to get into the Bloomingdale High School zone without stretching into single-family home territory. The community delivers newer construction, HOA-maintained exteriors, and community amenities at a price point that competes with apartments, except you are building equity instead of paying someone else&apos;s mortgage.</p>
+            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Units range from 1,300 to 1,800 square feet with 2 to 3 bedrooms. The layouts are functional and modern, open-concept living areas on the main floor, owners suites with walk-in closets, and attached garages in some configurations. Built in the late 2000s to early 2010s, Savannah Landings is newer than Kings Mill and shows it in the floor plans, finishes, and energy efficiency.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>The HOA handles exterior maintenance, landscaping, and common area upkeep. This is a genuine lifestyle benefit, no weekend lawn mowing, no pressure washing the driveway, no coordinating roof repairs. For young professionals, first-time buyers, or downsizers who value their time over yard work, the maintenance-included format is a selling point, not a compromise.</p>
 
             {/* --- Schools --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Schools Serving Savannah Landings</h2>
@@ -112,7 +112,7 @@ export default function SavannahLandingsPage() {
 
             {/* --- HOA --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">HOA and Community Fees</h2>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Savannah Landings has a mandatory HOA that covers exterior maintenance, landscaping, and common area upkeep. The maintenance-included model keeps individual owner costs predictable and eliminates the surprise expenses that come with single-family home ownership (roof repairs, exterior painting, lawn care). Barrett Henry can pull the exact current HOA fee for any Savannah Landings unit &mdash; call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Savannah Landings has a mandatory HOA that covers exterior maintenance, landscaping, and common area upkeep. The maintenance-included model keeps individual owner costs predictable and eliminates the surprise expenses that come with single-family home ownership (roof repairs, exterior painting, lawn care). Barrett Henry can pull the exact current HOA fee for any Savannah Landings unit, call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
 
             {/* --- Comparison --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">How Savannah Landings Compares to Nearby Neighborhoods</h2>
@@ -218,7 +218,7 @@ export default function SavannahLandingsPage() {
             {/* Selling CTA */}
             <div className="rounded-md p-6" style={{ background: 'var(--blue-deep)' }}>
               <h3 className="font-serif text-lg text-white mb-3">Selling in Savannah Landings?</h3>
-              <p className="text-sm mb-4" style={{ color: 'rgba(255,255,255,.7)' }}>Free CMA from Barrett Henry, REALTOR&reg;. Actual comps from your section of Savannah Landings &mdash; not a Zestimate.</p>
+              <p className="text-sm mb-4" style={{ color: 'rgba(255,255,255,.7)' }}>Free CMA from Barrett Henry, REALTOR&reg;. Actual comps from your section of Savannah Landings, not a Zestimate.</p>
               <Link href="/valrico-fl-home-values/" className="btn-white block text-center text-sm">Get your home value</Link>
             </div>
           </div>

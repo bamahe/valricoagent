@@ -43,7 +43,7 @@ export default function CanterburyOaksPage() {
       <div style={{ background: 'var(--blue-deep)' }} className="text-white py-16 px-7">
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
-          <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Canterbury Oaks Homes for Sale &mdash; Valrico FL 33596</h1>
+          <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Canterbury Oaks Homes for Sale, Valrico FL 33596</h1>
           <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Canterbury Oaks is an established community with pool and tennis amenities in south Valrico (33596). Prices from $350K&ndash;$475K. Bloomingdale High School zone. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Canterbury Oaks listings</Link>
@@ -88,7 +88,7 @@ export default function CanterburyOaksPage() {
           <div>
             {/* --- About --- */}
             <h2 className="font-serif text-2xl mb-4">About Canterbury Oaks, Valrico FL</h2>
-            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Canterbury Oaks is one of south Valrico&apos;s most well-rounded established communities. Tucked into the 33596 ZIP code, the neighborhood delivers something many Valrico subdivisions lack &mdash; a community pool and tennis courts maintained through the HOA. For families who want recreational amenities without a private club membership, Canterbury Oaks checks that box at a mid-range price point.</p>
+            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Canterbury Oaks is one of south Valrico&apos;s most well-rounded established communities. Tucked into the 33596 ZIP code, the neighborhood delivers something many Valrico subdivisions lack, a community pool and tennis courts maintained through the HOA. For families who want recreational amenities without a private club membership, Canterbury Oaks checks that box at a mid-range price point.</p>
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Homes in Canterbury Oaks range from 1,500 to 2,600 square feet with 3 to 5 bedrooms. Built primarily in the mid-1990s through early 2000s, the homes feature traditional Florida floor plans with split bedroom layouts, tile roofs, and screened lanais. The community has a settled, well-maintained appearance driven by consistent HOA standards. Curb appeal is uniform throughout, which protects property values across the board.</p>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Many Canterbury Oaks homes have been updated over the years with modern kitchens, quartz countertops, and luxury vinyl plank flooring. Pool homes are available but represent a smaller portion of the inventory. The lots are standard suburban size with enough room for screened pool additions. For buyers who want a proven, established neighborhood with active community amenities, Canterbury Oaks remains one of south Valrico&apos;s strongest options under $475K.</p>
 
@@ -112,7 +112,7 @@ export default function CanterburyOaksPage() {
 
             {/* --- HOA --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">HOA and Community Fees</h2>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Canterbury Oaks has a mandatory HOA that maintains the community pool, tennis courts, common areas, and neighborhood appearance standards. Monthly HOA fees typically run $75&ndash;$175, which includes access to the pool and tennis facilities. Canterbury Oaks does not carry CDD fees, keeping the total monthly cost of ownership lower than many newer Valrico developments. Barrett Henry can confirm the exact HOA fee for any Canterbury Oaks property &mdash; call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Canterbury Oaks has a mandatory HOA that maintains the community pool, tennis courts, common areas, and neighborhood appearance standards. Monthly HOA fees typically run $75&ndash;$175, which includes access to the pool and tennis facilities. Canterbury Oaks does not carry CDD fees, keeping the total monthly cost of ownership lower than many newer Valrico developments. Barrett Henry can confirm the exact HOA fee for any Canterbury Oaks property, call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
 
             {/* --- Comparison --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">How Canterbury Oaks Compares to Nearby Neighborhoods</h2>
@@ -215,7 +215,7 @@ export default function CanterburyOaksPage() {
 
             <div className="rounded-md p-6" style={{ background: 'var(--blue-deep)' }}>
               <h3 className="font-serif text-lg text-white mb-3">Selling in Canterbury Oaks?</h3>
-              <p className="text-sm mb-4" style={{ color: 'rgba(255,255,255,.7)' }}>Free CMA from Barrett Henry, REALTOR&reg;. Actual comps from your section of Canterbury Oaks &mdash; not a Zestimate.</p>
+              <p className="text-sm mb-4" style={{ color: 'rgba(255,255,255,.7)' }}>Free CMA from Barrett Henry, REALTOR&reg;. Actual comps from your section of Canterbury Oaks, not a Zestimate.</p>
               <Link href="/valrico-fl-home-values/" className="btn-white block text-center text-sm">Get your home value</Link>
             </div>
           </div>

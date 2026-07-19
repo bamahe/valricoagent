@@ -1,5 +1,5 @@
 // =============================================================================
-// API Response Cache — prevents Bridge API from getting hammered
+// API Response Cache, prevents Bridge API from getting hammered
 //
 // In-memory cache with 5-minute TTL per unique query.
 // Same city + filter combo within 5 min = cached response, zero API calls.
@@ -34,7 +34,7 @@ export function getCached<T>(key: string): T | undefined {
  * Set a cached value with automatic TTL.
  */
 export function setCached<T>(key: string, data: T): void {
-  // Prevent cache from growing unbounded — evict old entries if over 500
+  // Prevent cache from growing unbounded, evict old entries if over 500
   if (cache.size > 500) {
     const now = Date.now();
     const keysToDelete: string[] = [];

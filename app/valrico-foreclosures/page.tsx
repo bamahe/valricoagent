@@ -10,9 +10,9 @@ export default function ValricoForeclosures() {
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{color:'rgba(255,255,255,.5)'}}>Distressed Properties</div>
           <h1 className="font-serif text-[clamp(28px,4vw,40px)] leading-tight tracking-tight mb-4">Valrico Foreclosure Homes</h1>
-          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{color:'rgba(255,255,255,.75)'}}>Foreclosure homes in Valrico can offer below-market pricing, but they come with risks most buyers don&apos;t anticipate. Florida is a judicial foreclosure state, which means every foreclosure goes through the court system. That process creates opportunities at different stages &mdash; if you know where to look and what to watch for.</p>
+          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{color:'rgba(255,255,255,.75)'}}>Foreclosure homes in Valrico can offer below-market pricing, but they come with risks most buyers don&apos;t anticipate. Florida is a judicial foreclosure state, which means every foreclosure goes through the court system. That process creates opportunities at different stages, if you know where to look and what to watch for.</p>
           <div className="flex gap-3 flex-wrap">
-            <a href="tel:8137337907" className="btn-solid">Call Barrett &mdash; (813) 733-7907</a>
+            <a href="tel:8137337907" className="btn-solid">Call<br/>(813) 733-7907</a>
             <a href="https://flforeclosurehelp.com" target="_blank" rel="noopener" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">Visit flforeclosurehelp.com</a>
           </div>
         </div>
@@ -21,7 +21,7 @@ export default function ValricoForeclosures() {
       <div style={{ maxWidth: 1140, margin: '0 auto', padding: '24px 24px 0' }}>
         <div style={{ background: '#fafafa', border: '1px solid #e8e8e8', borderRadius: 10, padding: '20px 24px', marginBottom: 24 }}>
           <p style={{ fontSize: 15, color: '#222', lineHeight: 1.7, margin: 0 }}>
-            <strong>Yes, there are foreclosure and pre-foreclosure homes available in Valrico FL, though inventory is limited compared to the 2008-2012 foreclosure wave. Florida is a judicial foreclosure state, meaning every foreclosure goes through the court system. Buyers can find opportunities at the pre-foreclosure, courthouse auction, bank-owned (REO), and HUD home stages — each with different risks, requirements, and potential savings.</strong>
+            <strong>Yes, there are foreclosure and pre-foreclosure homes available in Valrico FL, though inventory is limited compared to the 2008-2012 foreclosure wave. Florida is a judicial foreclosure state, meaning every foreclosure goes through the court system. Buyers can find opportunities at the pre-foreclosure, courthouse auction, bank-owned (REO), and HUD home stages, each with different risks, requirements, and potential savings.</strong>
           </p>
         </div>
       </div>
@@ -62,7 +62,7 @@ export default function ValricoForeclosures() {
                 ['1. Get pre-approved for financing','Before you start looking, get a pre-approval letter from a lender. Some foreclosures require cash, but many REO and HUD properties accept FHA, VA, and conventional financing. Know your budget and your loan type before you start shopping.'],
                 ['2. Find an agent who knows distressed properties','Not every agent understands the foreclosure process. REO transactions have different contracts, different timelines, and different negotiation dynamics than traditional sales. Barrett Henry has been working with distressed properties for over 20 years.'],
                 ['3. Search for available foreclosures','Barrett monitors REO listings across Stellar MLS, bank asset management portals, HUD listings, and auction schedules for Hillsborough County. You get access to properties as soon as they hit the market.'],
-                ['4. Inspect carefully (but understand AS-IS)','Most foreclosures sell AS-IS, meaning the bank will not make repairs. You can still inspect the property (except at auction), and you should. But your inspection is for your information only &mdash; it is not a negotiation tool for repair credits like in a traditional sale.'],
+                ['4. Inspect carefully (but understand AS-IS)','Most foreclosures sell AS-IS, meaning the bank will not make repairs. You can still inspect the property (except at auction), and you should. But your inspection is for your information only, it is not a negotiation tool for repair credits like in a traditional sale.'],
                 ['5. Make an offer','REO offers go through a bank asset manager, which means longer response times (sometimes 2-4 weeks). HUD homes use a sealed bid process. Barrett structures your offer to meet bank requirements and maximize your chances of acceptance.'],
                 ['6. Close the deal','Foreclosure closings often take longer than traditional sales due to bank bureaucracy, title issues, and HOA lien negotiations. Expect 45-60 days from accepted offer to closing on most REO transactions.'],
               ].map(([title, desc]) => (
@@ -93,7 +93,7 @@ export default function ValricoForeclosures() {
 
             {/* Current Activity */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Current Foreclosure Activity in Valrico</h2>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>Foreclosure inventory in Valrico is low as of 2026. Strong home equity levels and a stable local economy mean fewer homeowners are falling into distress compared to 2008-2012. However, opportunities still exist &mdash; particularly in cases involving divorce, probate, job loss, or adjustable-rate mortgage resets.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>Foreclosure inventory in Valrico is low as of 2026. Strong home equity levels and a stable local economy mean fewer homeowners are falling into distress compared to 2008-2012. However, opportunities still exist, particularly in cases involving divorce, probate, job loss, or adjustable-rate mortgage resets.</p>
             <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>For courthouse auction schedules, check the <a href="https://www.hillsclerk.com" target="_blank" rel="noopener" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Hillsborough County Clerk of Court</a> website. Barrett monitors these listings and can alert you when properties in Valrico ZIP codes (33594, 33596) come up for sale.</p>
 
             {/* Barrett's Advantage */}
@@ -102,7 +102,7 @@ export default function ValricoForeclosures() {
             <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>Whether you are an investor looking for a deal or a homebuyer trying to stretch your budget, Barrett can help you find, evaluate, and close on foreclosure properties in Valrico and the surrounding Tampa Bay area. You may also want to explore <Link href="/valrico-short-sale/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>short sale options</Link>, <Link href="/valrico-cash-offer/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>cash offers for quick sales</Link>, or check current <Link href="/valrico-fl-home-values/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Valrico home values</Link> to compare foreclosure pricing to market value. If you are a homeowner facing foreclosure, read the <Link href="/valrico-pre-foreclosure/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>pre-foreclosure guide</Link> for your options, or consider <Link href="/sell-my-home-valrico/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>selling your home</Link> before it goes to auction.</p>
 
             <div className="flex gap-3 flex-wrap mt-8 mb-12">
-              <a href="tel:8137337907" className="btn-solid">Call Barrett &mdash; (813) 733-7907</a>
+              <a href="tel:8137337907" className="btn-solid">Call<br/>(813) 733-7907</a>
               <a href="mailto:barrett@nowtb.com" className="btn-ghost">Email barrett@nowtb.com</a>
             </div>
 
@@ -128,7 +128,7 @@ export default function ValricoForeclosures() {
             <div className="rounded-md p-6 border" style={{borderColor:'var(--border)',background:'var(--cream-warm)'}}>
               <h3 className="font-serif text-lg mb-3">Talk to Barrett</h3>
               <p className="text-sm mb-4 leading-relaxed" style={{color:'var(--ink-soft)'}}>Barrett Henry, REALTOR® at REMAX Collective, has 23+ years of real estate experience including distressed property transactions. Free, confidential consultation.</p>
-              <a href="tel:8137337907" className="btn-solid block text-center mb-2 text-sm">Call (813) 733-7907</a>
+              <a href="tel:8137337907" className="btn-solid block text-center mb-2 text-sm">Call<br/>(813) 733-7907</a>
               <a href="mailto:barrett@nowtb.com" className="btn-ghost block text-center text-sm">Email Barrett</a>
             </div>
             <div className="rounded-md p-6 border" style={{borderColor:'var(--border)'}}>

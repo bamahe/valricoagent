@@ -43,7 +43,7 @@ export default function BloomingdaleEastPage() {
       <div style={{ background: 'var(--blue-deep)' }} className="text-white py-16 px-7">
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
-          <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Bloomingdale East Homes for Sale &mdash; Valrico FL 33596</h1>
+          <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Bloomingdale East Homes for Sale, Valrico FL 33596</h1>
           <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Bloomingdale East sits on the eastern edge of the broader Bloomingdale community in south Valrico (33596). Larger lots, deeper backyards, and mature oaks. Prices from $350K&ndash;$500K. Bloomingdale HS zone. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Bloomingdale East listings</Link>
@@ -88,7 +88,7 @@ export default function BloomingdaleEastPage() {
           <div>
             {/* --- About --- */}
             <h2 className="font-serif text-2xl mb-4">About Bloomingdale East, Valrico FL</h2>
-            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Bloomingdale East sits on the eastern edge of the broader Bloomingdale community in south Valrico (33596). This section transitions from the denser core of Bloomingdale into a slightly more rural feel with larger lots &mdash; typically a quarter-acre to half-acre &mdash; and mature oak canopy that gives the streets a settled, established character you cannot replicate in newer construction.</p>
+            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Bloomingdale East sits on the eastern edge of the broader Bloomingdale community in south Valrico (33596). This section transitions from the denser core of Bloomingdale into a slightly more rural feel with larger lots, typically a quarter-acre to half-acre, and mature oak canopy that gives the streets a settled, established character you cannot replicate in newer construction.</p>
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Homes here are primarily concrete block construction from the late 1980s through the 1990s. Many have been updated with modern kitchens, impact windows, and renovated pool areas. Screened pools are common and command premiums in this section. The lots tend to be deeper than in core Bloomingdale, which appeals to buyers who want backyard space without paying River Hills or Crestwood Estates prices.</p>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>The eastern edge position means slightly less traffic noise and a more peaceful residential atmosphere. Homes face east-facing morning sun in the backyards, which many Florida homeowners prefer for outdoor entertaining in the cooler parts of the day. The trade-off is a couple extra minutes to reach I-75 or the commercial corridor, but most residents consider the added space well worth it.</p>
 
@@ -112,7 +112,7 @@ export default function BloomingdaleEastPage() {
 
             {/* --- HOA --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">HOA and Community Fees</h2>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>HOA structure varies within Bloomingdale East as part of the broader Bloomingdale community. Some sections have mandatory HOAs, others are voluntary or have no formal association. The diversity of HOA options means buyers can find both deed-restricted and unrestricted properties within the same general area. Barrett Henry can confirm the exact HOA status for any Bloomingdale East address &mdash; call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>HOA structure varies within Bloomingdale East as part of the broader Bloomingdale community. Some sections have mandatory HOAs, others are voluntary or have no formal association. The diversity of HOA options means buyers can find both deed-restricted and unrestricted properties within the same general area. Barrett Henry can confirm the exact HOA status for any Bloomingdale East address, call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
 
             {/* --- Comparison --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">How Bloomingdale East Compares to Nearby Neighborhoods</h2>
@@ -215,7 +215,7 @@ export default function BloomingdaleEastPage() {
 
             <div className="rounded-md p-6" style={{ background: 'var(--blue-deep)' }}>
               <h3 className="font-serif text-lg text-white mb-3">Selling in Bloomingdale East?</h3>
-              <p className="text-sm mb-4" style={{ color: 'rgba(255,255,255,.7)' }}>Free CMA from Barrett Henry, REALTOR&reg;. Actual comps from the East section &mdash; not a Zestimate.</p>
+              <p className="text-sm mb-4" style={{ color: 'rgba(255,255,255,.7)' }}>Free CMA from Barrett Henry, REALTOR&reg;. Actual comps from the East section, not a Zestimate.</p>
               <Link href="/valrico-fl-home-values/" className="btn-white block text-center text-sm">Get your home value</Link>
             </div>
           </div>

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     default: "Valrico Realtor | Barrett Henry | REMAX Collective",
     template: "%s | ValricoAgent.com",
   },
-  description: "Barrett Henry — Valrico realtor and Broker Associate with REMAX Collective. Search homes in 33594 & 33596, explore 32 neighborhoods, get your home value.",
+  description: "Barrett Henry - Valrico realtor and Broker Associate with REMAX Collective. Search homes in 33594 & 33596, explore 32 neighborhoods, get your home value.",
   keywords: "Valrico real estate agent, Valrico realtor, homes for sale Valrico FL, Valrico home values, sell my home Valrico, Valrico REMAX, 33594, 33596, Barrett Henry",
   metadataBase: new URL("https://valricoagent.com"),
   alternates: { canonical: "/" },
@@ -70,7 +70,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         >
           Skip to main content
         </a>
-        {/* GA4 + Clarity — only load after cookie consent is accepted */}
+        {/* GA4 + Clarity, only load after cookie consent is accepted */}
         {(process.env.NEXT_PUBLIC_GA_ID || process.env.NEXT_PUBLIC_CLARITY_ID) && (
           <script dangerouslySetInnerHTML={{__html:`
 (function(){
@@ -103,9 +103,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Nav />
         <main id="main-content">{children}</main>
         <Footer />
-        {/* Sticky mobile bottom bar — Call + Text buttons, hidden on desktop */}
+        {/* Sticky mobile bottom bar - Call + Text buttons, hidden on desktop */}
         <MobileBottomBar />
-        {/* Cookie consent banner — shows on first visit, dismissible */}
+        {/* Cookie consent banner, shows on first visit, dismissible */}
         <CookieConsent />
         <SpeedInsights />
         <Analytics />

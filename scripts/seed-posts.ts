@@ -710,7 +710,7 @@ I work with first-time buyers regularly. I will walk you through every step, rec
   },
 
   // ========== PILLAR 2: AGENT/TRUST (9 posts) ==========
-  // Continuing with abbreviated content for space — same structure, full posts
+  // Continuing with abbreviated content for space, same structure, full posts
 
   {
     title: "How to Choose the Best Real Estate Agent in Valrico",
@@ -1054,7 +1054,7 @@ I am happy to answer all five of these questions for your specific home in a fre
     related_slugs: ["step-by-step-checklist-to-sell-your-valrico-home-for-top-dollar", "questions-to-ask-before-hiring-a-valrico-listing-agent"]
   },
 
-  // ========== REMAINING PILLARS (abbreviated for seed — same full structure) ==========
+  // ========== REMAINING PILLARS (abbreviated for seed, same full structure) ==========
   // Posts 23-66: Market Reports, Seller Content, Relocation, remaining topics
   // Each follows the same pattern: full content, FAQ data, related slugs
 
@@ -1341,7 +1341,7 @@ I am happy to answer all five of these questions for your specific home in a fre
 // PUBLISH PRIORITY MAPPING
 // ============================================================
 
-// Priority titles — these get specific publish slots
+// Priority titles, these get specific publish slots
 const priorityMap: Record<string, number> = {
   "Valrico Real Estate Market Report Q1 2026": 1,
   "Best Neighborhoods in Valrico for Buyers in 2026": 2,

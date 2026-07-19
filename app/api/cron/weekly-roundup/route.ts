@@ -12,7 +12,7 @@ export const maxDuration = 60;
 
 // System prompt for the weekly roundup writer
 function buildSystemPrompt(): string {
-  return `You are a real estate content writer for Barrett Henry, REALTOR and Broker Associate at REMAX Collective (never write "RE/MAX" — always "REMAX" with no slash).
+  return `You are a real estate content writer for Barrett Henry, REALTOR and Broker Associate at REMAX Collective (never write "RE/MAX", always "REMAX" with no slash).
 
 Barrett has 23+ years of real estate experience (never tie this to Tampa Bay specifically).
 
@@ -22,7 +22,7 @@ School zones: Bloomingdale High School and Newsome High School.
 Contact: (813) 733-7907, barrett@nowtb.com
 
 RULES:
-- Always say "owners suite" — NEVER "master suite"
+- Always say "owners suite" - NEVER "master suite"
 - NEVER mention mobile homes or manufactured homes
 - Personal brand (Barrett Henry) always takes priority
 - Write in plain English, no fluff, no AI-sounding transitions
@@ -35,11 +35,11 @@ function buildUserPrompt(weekDate: string): string {
   return `Write a weekly real estate roundup blog post for the week of ${weekDate} in Valrico FL.
 
 The post should have these sections (use ## H2 headings):
-1. **Market Snapshot** — General Valrico market conditions, trends, inventory commentary
-2. **Neighborhood Spotlight** — Pick one Valrico neighborhood and highlight what makes it great for buyers or sellers right now
-3. **Buyer Tip of the Week** — One actionable tip for home buyers in Valrico
-4. **Seller Tip of the Week** — One actionable tip for home sellers in Valrico
-5. **What to Watch Next Week** — Brief forward-looking commentary
+1. **Market Snapshot** - General Valrico market conditions, trends, inventory commentary
+2. **Neighborhood Spotlight** - Pick one Valrico neighborhood and highlight what makes it great for buyers or sellers right now
+3. **Buyer Tip of the Week** - One actionable tip for home buyers in Valrico
+4. **Seller Tip of the Week** - One actionable tip for home sellers in Valrico
+5. **What to Watch Next Week** - Brief forward-looking commentary
 
 Target 600-800 words total. End with a CTA for Barrett Henry (813) 733-7907.
 
@@ -63,7 +63,7 @@ Return a single JSON object with these exact keys:
 
 Rules:
 - The slug must be unique and URL-safe
-- Do NOT use "master suite" — always "owners suite"
+- Do NOT use "master suite", always "owners suite"
 - Do NOT mention mobile/manufactured homes
 - Write "REMAX" not "RE/MAX"
 - Return ONLY the JSON object, nothing else`;
@@ -149,7 +149,7 @@ export async function GET(request: NextRequest) {
     if (error) {
       console.error('Supabase insert error:', error);
 
-      // Handle slug collision — append timestamp and retry once
+      // Handle slug collision, append timestamp and retry once
       if (error.code === '23505') {
         const retrySlug = `${postData.slug}-${Date.now()}`;
         const { data: retryData, error: retryError } = await supabase

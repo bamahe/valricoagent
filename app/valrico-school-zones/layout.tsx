@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 
 // SEO metadata for the Valrico School Zones page
 export const metadata: Metadata = {
-  title: "Valrico FL School Zones — Bloomingdale HS & Newsome HS",
+  title: "Valrico FL School Zones - Bloomingdale HS & Newsome HS",
   description:
     "Valrico school zone guide: Bloomingdale HS and Newsome HS attendance areas, elementary schools, ratings, and how zones affect home values.",
   openGraph: {
-    title: "Valrico FL School Zones — Bloomingdale HS & Newsome HS",
+    title: "Valrico FL School Zones - Bloomingdale HS & Newsome HS",
     description:
       "Valrico school zone guide: Bloomingdale HS and Newsome HS attendance areas, elementary schools, ratings, and how zones affect home values.",
     url: "https://valricoagent.com/valrico-school-zones/",

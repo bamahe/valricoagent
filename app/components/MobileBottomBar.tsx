@@ -1,7 +1,7 @@
 /**
  * app/components/MobileBottomBar.tsx
  *
- * Sticky bottom bar for mobile users — Call button (2/3 width) + Text/Get Help button (1/3 width).
+ * Sticky bottom bar for mobile users - Call button (2/3 width) + Text/Get Help button (1/3 width).
  * Only visible below 768px. z-index 80 (below cookie consent at 90).
  * Includes safe-area padding for iPhone home indicator.
  */
@@ -25,7 +25,7 @@ export default function MobileBottomBar() {
         boxShadow: '0 -2px 10px rgba(0,0,0,0.08)',
       }}
     >
-      {/* Call button — 2/3 width, navy background */}
+      {/* Call button, 2/3 width, navy background */}
       <a
         href="tel:+18137337907"
         aria-label="Call Barrett Henry at (813) 733-7907"
@@ -61,7 +61,7 @@ export default function MobileBottomBar() {
         (813) 733-7907
       </a>
 
-      {/* Text / Get Help button — 1/3 width, lighter style */}
+      {/* Text / Get Help button, 1/3 width, lighter style */}
       <a
         href="/get-help/"
         aria-label="Get help from Barrett Henry"

@@ -7,9 +7,9 @@ export default function ValricoVsRiverview() {
       {/* --- Hero --- */}
       <section style={{background:'linear-gradient(135deg,#003da5 0%,#001f5c 100%)',color:'#fff',padding:'64px 0'}}>
         <div style={{maxWidth:900,margin:'0 auto',padding:'0 24px'}}>
-          <h1 style={{fontFamily:'Merriweather,serif',fontSize:'clamp(26px,4vw,38px)',lineHeight:1.25,marginBottom:16}}>Valrico vs Riverview FL — New Builds, Established Neighborhoods & Everything Between</h1>
+          <h1 style={{fontFamily:'Merriweather,serif',fontSize:'clamp(26px,4vw,38px)',lineHeight:1.25,marginBottom:16}}>Valrico vs Riverview FL - New Builds, Established Neighborhoods & Everything Between</h1>
           <p style={{fontSize:17,lineHeight:1.7,maxWidth:640,marginBottom:24,color:'rgba(255,255,255,.75)'}}>These two east-Hillsborough neighbors attract similar buyers but deliver very different living experiences. Riverview is booming with new construction. Valrico is established with mature streetscapes. Barrett Henry, REALTOR&reg; with REMAX Collective, compares them head to head.</p>
-          <a href="tel:8137337907" className="btn-solid">(813) 733-7907 — Ask Barrett</a>
+          <a href="tel:8137337907" className="btn-solid">(813) 733-7907 - Ask Barrett</a>
         </div>
       </section>
 
@@ -90,7 +90,7 @@ export default function ValricoVsRiverview() {
 
           {/* Bottom line */}
           <h2 style={{fontFamily:'Merriweather,serif',fontSize:24,fontWeight:700,color:'#003da5',marginBottom:16,marginTop:40}}>The bottom line</h2>
-          <p style={{fontSize:15,lineHeight:1.8,color:'#333',marginBottom:16}}>Valrico offers character, school quality, and stability. Riverview offers newness, growth, and modern floor plans. Barrett Henry, REALTOR&reg; helps buyers weigh these tradeoffs every week. <a href="tel:8137337907" style={{color:'#003da5',fontWeight:600,textDecoration:'none'}}>Call (813) 733-7907</a> to talk through your priorities, or <Link href="/valrico-fl-homes-for-sale/" style={{color:'#003da5',fontWeight:600,textDecoration:'none'}}>browse current Valrico listings</Link> to compare what your budget buys in each community.</p>
+          <p style={{fontSize:15,lineHeight:1.8,color:'#333',marginBottom:16}}>Valrico offers character, school quality, and stability. Riverview offers newness, growth, and modern floor plans. Barrett Henry, REALTOR&reg; helps buyers weigh these tradeoffs every week. <a href="tel:8137337907" style={{color:'#003da5',fontWeight:600,textDecoration:'none'}}>Call<br/>(813) 733-7907</a> to talk through your priorities, or <Link href="/valrico-fl-homes-for-sale/" style={{color:'#003da5',fontWeight:600,textDecoration:'none'}}>browse current Valrico listings</Link> to compare what your budget buys in each community.</p>
 
           {/* FAQ */}
           <h2 style={{fontFamily:'Merriweather,serif',fontSize:24,fontWeight:700,color:'#003da5',marginBottom:16,marginTop:48}}>Frequently asked questions</h2>

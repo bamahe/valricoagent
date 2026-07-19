@@ -9,7 +9,7 @@ export default function IsValricoSafe() {
         <div style={{maxWidth:900,margin:'0 auto',padding:'0 24px'}}>
           <h1 style={{fontFamily:'Merriweather,serif',fontSize:'clamp(26px,4vw,38px)',lineHeight:1.25,marginBottom:16}}>Is Valrico FL Safe? An Honest Look at Safety, Crime & Neighborhoods</h1>
           <p style={{fontSize:17,lineHeight:1.7,maxWidth:640,marginBottom:24,color:'rgba(255,255,255,.75)'}}>Short answer: yes. Valrico is widely considered one of the safer suburban communities in the Tampa Bay metro area. But &quot;safe&quot; means different things to different families. Barrett Henry, REALTOR&reg; with REMAX Collective, provides a transparent overview of crime, law enforcement, and which neighborhoods offer the highest peace of mind.</p>
-          <a href="tel:8137337907" className="btn-solid">(813) 733-7907 — Ask Barrett About Neighborhoods</a>
+          <a href="tel:8137337907" className="btn-solid">(813) 733-7907 - Ask Barrett About Neighborhoods</a>
         </div>
       </section>
 
@@ -66,7 +66,7 @@ export default function IsValricoSafe() {
           {/* What to watch for */}
           <h2 style={{fontFamily:'Merriweather,serif',fontSize:24,fontWeight:700,color:'#003da5',marginBottom:16,marginTop:40}}>What to be aware of</h2>
           <p style={{fontSize:15,lineHeight:1.8,color:'#333',marginBottom:16}}>No community is crime-free. The most common incidents in Valrico include vehicle break-ins (overwhelmingly targeting unlocked cars), package theft from porches, and occasional car theft. These are crimes of opportunity that are largely preventable. Lock your car, do not leave valuables visible, and use package delivery lockers or require signatures for high-value deliveries.</p>
-          <p style={{fontSize:15,lineHeight:1.8,color:'#333',marginBottom:16}}>Some pockets of north Valrico (parts of ZIP 33594 closer to SR-60) have slightly higher incident rates than south Valrico (33596). This is consistent with the general pattern across east Hillsborough County: proximity to commercial corridors correlates with more property crime. Barrett Henry, REALTOR&reg; can provide neighborhood-specific context for any address you are considering. <a href="tel:8137337907" style={{color:'#003da5',fontWeight:600,textDecoration:'none'}}>Call (813) 733-7907</a>.</p>
+          <p style={{fontSize:15,lineHeight:1.8,color:'#333',marginBottom:16}}>Some pockets of north Valrico (parts of ZIP 33594 closer to SR-60) have slightly higher incident rates than south Valrico (33596). This is consistent with the general pattern across east Hillsborough County: proximity to commercial corridors correlates with more property crime. Barrett Henry, REALTOR&reg; can provide neighborhood-specific context for any address you are considering. <a href="tel:8137337907" style={{color:'#003da5',fontWeight:600,textDecoration:'none'}}>Call<br/>(813) 733-7907</a>.</p>
 
           {/* Comparison context */}
           <h2 style={{fontFamily:'Merriweather,serif',fontSize:24,fontWeight:700,color:'#003da5',marginBottom:16,marginTop:40}}>How Valrico compares to nearby communities</h2>
@@ -92,7 +92,7 @@ export default function IsValricoSafe() {
           {/* CTA */}
           <div style={{marginTop:48,padding:32,borderRadius:8,background:'#faf8f5',textAlign:'center'}}>
             <h3 style={{fontFamily:'Merriweather,serif',fontSize:20,marginBottom:8}}>Want neighborhood-specific safety info?</h3>
-            <p style={{fontSize:14,color:'#555',marginBottom:16}}>Barrett Henry, REALTOR&reg; with REMAX Collective knows every Valrico neighborhood. Get honest, street-level context — not just statistics.</p>
+            <p style={{fontSize:14,color:'#555',marginBottom:16}}>Barrett Henry, REALTOR&reg; with REMAX Collective knows every Valrico neighborhood. Get honest, street-level context, not just statistics.</p>
             <a href="tel:8137337907" className="btn-solid" style={{marginRight:8}}>(813) 733-7907</a>
             <a href="mailto:barrett@nowtb.com" className="btn-ghost">Email Barrett</a>
           </div>

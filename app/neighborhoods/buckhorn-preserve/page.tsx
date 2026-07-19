@@ -43,7 +43,7 @@ export default function BuckhornPreservePage() {
       <div style={{ background: 'var(--blue-deep)' }} className="text-white py-16 px-7">
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
-          <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Buckhorn Preserve Homes for Sale &mdash; Valrico FL 33596</h1>
+          <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Buckhorn Preserve Homes for Sale, Valrico FL 33596</h1>
           <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Buckhorn Preserve is a gated newer construction community with dedicated park amenities in the Buckhorn corridor of south Valrico (33596). Prices from $350K&ndash;$500K. Newsome High School zone. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Buckhorn Preserve listings</Link>
@@ -90,7 +90,7 @@ export default function BuckhornPreservePage() {
             <h2 className="font-serif text-2xl mb-4">About Buckhorn Preserve, Valrico FL</h2>
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Buckhorn Preserve is one of the most sought-after communities in the Buckhorn corridor of south Valrico (33596). With approximately 419 single-family homes built to modern construction standards, the community stands out for its dedicated park with playground equipment, covered pavilions, a disc golf course, and paved walking trails that wind through conservation areas.</p>
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Homes in Buckhorn Preserve range from 1,700 to 3,000 square feet with 3 to 5 bedrooms. Floor plans lean toward open-concept living with first-floor owners suites, modern kitchens with granite or quartz countertops, and covered lanais that extend the living space outdoors. Many homes feature conservation or pond views, which add privacy without the premium of waterfront pricing.</p>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>The gated entrance provides both real and perceived security value. Inside the gates, the streets are well-maintained with consistent landscaping standards enforced by the HOA. The community park is the centerpiece &mdash; it functions as a gathering point for families, with organized events throughout the year. For buyers who want a neighborhood that feels like a community rather than just a collection of houses, Buckhorn Preserve delivers.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>The gated entrance provides both real and perceived security value. Inside the gates, the streets are well-maintained with consistent landscaping standards enforced by the HOA. The community park is the centerpiece, it functions as a gathering point for families, with organized events throughout the year. For buyers who want a neighborhood that feels like a community rather than just a collection of houses, Buckhorn Preserve delivers.</p>
 
             {/* --- Schools --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Schools Serving Buckhorn Preserve</h2>
@@ -112,7 +112,7 @@ export default function BuckhornPreservePage() {
 
             {/* --- HOA --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">HOA and Community Fees</h2>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Buckhorn Preserve has a mandatory HOA that maintains the gated entrance, community park, playground, disc golf course, pavilions, walking trails, and neighborhood appearance standards. Monthly HOA fees typically run $100&ndash;$200 depending on the section. Some sections may also carry a CDD (Community Development District) assessment on the property tax bill, typically $1,000&ndash;$2,000 per year. Barrett Henry can pull the exact HOA and CDD amounts for any specific Buckhorn Preserve address &mdash; call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Buckhorn Preserve has a mandatory HOA that maintains the gated entrance, community park, playground, disc golf course, pavilions, walking trails, and neighborhood appearance standards. Monthly HOA fees typically run $100&ndash;$200 depending on the section. Some sections may also carry a CDD (Community Development District) assessment on the property tax bill, typically $1,000&ndash;$2,000 per year. Barrett Henry can pull the exact HOA and CDD amounts for any specific Buckhorn Preserve address, call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
 
             {/* --- Comparison --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">How Buckhorn Preserve Compares to Nearby Neighborhoods</h2>
@@ -152,9 +152,9 @@ export default function BuckhornPreservePage() {
             <h2 className="font-serif text-2xl mb-4 mt-10">Who Buckhorn Preserve Fits Best</h2>
             <ul className="text-[15px] leading-[1.8] mb-6 space-y-2 pl-5 list-disc" style={{ color: 'var(--ink-soft)' }}>
               <li>Families who want Newsome HS zoning with modern construction and gated security</li>
-              <li>Buyers who value community park amenities &mdash; playground, disc golf, walking trails</li>
+              <li>Buyers who value community park amenities, playground, disc golf, walking trails</li>
               <li>Professionals commuting to Tampa or Brandon who want gated convenience</li>
-              <li>Families with middle schoolers &mdash; Mulrennan Middle is walking distance</li>
+              <li>Families with middle schoolers, Mulrennan Middle is walking distance</li>
               <li>Military families stationed at MacDill AFB (32&ndash;42 min commute)</li>
             </ul>
 
@@ -218,7 +218,7 @@ export default function BuckhornPreservePage() {
             {/* Selling CTA */}
             <div className="rounded-md p-6" style={{ background: 'var(--blue-deep)' }}>
               <h3 className="font-serif text-lg text-white mb-3">Selling in Buckhorn Preserve?</h3>
-              <p className="text-sm mb-4" style={{ color: 'rgba(255,255,255,.7)' }}>Free CMA from Barrett Henry, REALTOR&reg;. Actual comps from your section of Buckhorn Preserve &mdash; not a Zestimate.</p>
+              <p className="text-sm mb-4" style={{ color: 'rgba(255,255,255,.7)' }}>Free CMA from Barrett Henry, REALTOR&reg;. Actual comps from your section of Buckhorn Preserve, not a Zestimate.</p>
               <Link href="/valrico-fl-home-values/" className="btn-white block text-center text-sm">Get your home value</Link>
             </div>
           </div>

@@ -7,16 +7,16 @@ export default function ValricoVsBrandon() {
       {/* --- Hero --- */}
       <section style={{background:'linear-gradient(135deg,#003da5 0%,#001f5c 100%)',color:'#fff',padding:'64px 0'}}>
         <div style={{maxWidth:900,margin:'0 auto',padding:'0 24px'}}>
-          <h1 style={{fontFamily:'Merriweather,serif',fontSize:'clamp(26px,4vw,38px)',lineHeight:1.25,marginBottom:16}}>Valrico vs Brandon FL — Which Suburb Is Right for You?</h1>
+          <h1 style={{fontFamily:'Merriweather,serif',fontSize:'clamp(26px,4vw,38px)',lineHeight:1.25,marginBottom:16}}>Valrico vs Brandon FL - Which Suburb Is Right for You?</h1>
           <p style={{fontSize:17,lineHeight:1.7,maxWidth:640,marginBottom:24,color:'rgba(255,255,255,.75)'}}>Both communities sit in eastern Hillsborough County, share overlapping ZIP codes, and feed into some of the same schools. But the feel, the price points, and the long-term value trajectories are different. Barrett Henry, REALTOR&reg; with REMAX Collective, breaks down the comparison so you can choose with confidence.</p>
-          <a href="tel:8137337907" className="btn-solid">(813) 733-7907 — Ask Barrett</a>
+          <a href="tel:8137337907" className="btn-solid">(813) 733-7907 - Ask Barrett</a>
         </div>
       </section>
 
       <div style={{ maxWidth: 1140, margin: '0 auto', padding: '24px 24px 0' }}>
         <div style={{ background: '#fafafa', border: '1px solid #e8e8e8', borderRadius: 10, padding: '20px 24px', marginBottom: 24 }}>
           <p style={{ fontSize: 15, color: '#222', lineHeight: 1.7, margin: 0 }}>
-            <strong>Valrico and Brandon are neighboring communities in eastern Hillsborough County, but they differ in key ways. Valrico has a higher median home price (~$415K vs ~$365K), larger lot sizes (0.20-0.50 acre vs 0.10-0.25 acre), and access to both Bloomingdale HS and Newsome HS school zones. Brandon offers a shorter commute to downtown Tampa, more commercial amenities, and lower price points — making it a better fit for buyers prioritizing affordability and convenience over space and school zoning.</strong>
+            <strong>Valrico and Brandon are neighboring communities in eastern Hillsborough County, but they differ in key ways. Valrico has a higher median home price (~$415K vs ~$365K), larger lot sizes (0.20-0.50 acre vs 0.10-0.25 acre), and access to both Bloomingdale HS and Newsome HS school zones. Brandon offers a shorter commute to downtown Tampa, more commercial amenities, and lower price points, making it a better fit for buyers prioritizing affordability and convenience over space and school zoning.</strong>
           </p>
         </div>
       </div>
@@ -94,7 +94,7 @@ export default function ValricoVsBrandon() {
 
           {/* Bottom line */}
           <h2 style={{fontFamily:'Merriweather,serif',fontSize:24,fontWeight:700,color:'#003da5',marginBottom:16,marginTop:40}}>The bottom line</h2>
-          <p style={{fontSize:15,lineHeight:1.8,color:'#333',marginBottom:16}}>Valrico and Brandon are not competitors so much as they are complements. Many Valrico families do their shopping in Brandon and consider it part of their extended community. The question is not &quot;which is better&quot; but &quot;which matches your priorities.&quot; Barrett Henry, REALTOR&reg; has helped hundreds of buyers navigate this exact decision. <a href="tel:8137337907" style={{color:'#003da5',fontWeight:600,textDecoration:'none'}}>Call (813) 733-7907</a> for a no-pressure conversation about which community fits your family. <Link href="/valrico-fl-homes-for-sale/" style={{color:'#003da5',fontWeight:600,textDecoration:'none'}}>Browse Valrico homes</Link> or <Link href="/valrico-fl-home-values/" style={{color:'#003da5',fontWeight:600,textDecoration:'none'}}>get your home value</Link> to start comparing real numbers.</p>
+          <p style={{fontSize:15,lineHeight:1.8,color:'#333',marginBottom:16}}>Valrico and Brandon are not competitors so much as they are complements. Many Valrico families do their shopping in Brandon and consider it part of their extended community. The question is not &quot;which is better&quot; but &quot;which matches your priorities.&quot; Barrett Henry, REALTOR&reg; has helped hundreds of buyers navigate this exact decision. <a href="tel:8137337907" style={{color:'#003da5',fontWeight:600,textDecoration:'none'}}>Call<br/>(813) 733-7907</a> for a no-pressure conversation about which community fits your family. <Link href="/valrico-fl-homes-for-sale/" style={{color:'#003da5',fontWeight:600,textDecoration:'none'}}>Browse Valrico homes</Link> or <Link href="/valrico-fl-home-values/" style={{color:'#003da5',fontWeight:600,textDecoration:'none'}}>get your home value</Link> to start comparing real numbers.</p>
 
           {/* FAQ */}
           <h2 style={{fontFamily:'Merriweather,serif',fontSize:24,fontWeight:700,color:'#003da5',marginBottom:16,marginTop:48}}>Frequently asked questions</h2>

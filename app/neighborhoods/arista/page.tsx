@@ -43,7 +43,7 @@ export default function AristaPage() {
       <div style={{ background: 'var(--blue-deep)' }} className="text-white py-16 px-7">
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
-          <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Arista Homes for Sale &mdash; Valrico FL 33594</h1>
+          <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Arista Homes for Sale, Valrico FL 33594</h1>
           <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Arista is a gated community of newer construction homes between Diamond Hill Golf Course and Lake Valrico in north Valrico (33594). Prices from $425K&ndash;$575K. Newsome High School zone. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Arista listings</Link>
@@ -89,7 +89,7 @@ export default function AristaPage() {
             {/* --- About --- */}
             <h2 className="font-serif text-2xl mb-4">About Arista, Valrico FL</h2>
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Arista is a gated community of sizable homes located between Diamond Hill Golf Course and Lake Valrico in north Valrico (33594). Built primarily from the mid-2010s through the early 2020s, Arista features some of the newest construction available in the Valrico area. The community offers modern open floor plans with upscale finishes including granite or quartz countertops, stainless steel appliances, and energy-efficient systems.</p>
-            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Homes in Arista range from 3 to 5 bedrooms with approximately 1,800 to 3,200 square feet of living space. The gated entrance provides both real and perceived security value &mdash; a meaningful selling point for families and professionals. The location between two of north Valrico&apos;s most recognizable landmarks (the golf course and the lake) provides scenic surroundings without the premium of direct waterfront or golf course frontage.</p>
+            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Homes in Arista range from 3 to 5 bedrooms with approximately 1,800 to 3,200 square feet of living space. The gated entrance provides both real and perceived security value, a meaningful selling point for families and professionals. The location between two of north Valrico&apos;s most recognizable landmarks (the golf course and the lake) provides scenic surroundings without the premium of direct waterfront or golf course frontage.</p>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Most Arista homes were built by regional builders and feature owner&apos;s suites on the first floor, open kitchens, and covered lanais. The community maintains a well-kept appearance through its HOA, which manages the gated entrance, common areas, and landscaping standards. For buyers who want newer construction in Valrico without building from scratch, Arista is one of the top options in the 33594 ZIP code.</p>
 
             {/* --- Schools --- */}
@@ -112,7 +112,7 @@ export default function AristaPage() {
 
             {/* --- HOA --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">HOA and Community Fees</h2>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Arista has a mandatory HOA that maintains the gated entrance, common areas, and community appearance standards. Monthly HOA fees typically run $150&ndash;$250 depending on the section. Some sections may also carry a CDD (Community Development District) assessment that appears on your property tax bill, typically $1,000&ndash;$2,500 per year. Barrett Henry can pull the exact HOA and CDD amounts for any specific Arista address &mdash; call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Arista has a mandatory HOA that maintains the gated entrance, common areas, and community appearance standards. Monthly HOA fees typically run $150&ndash;$250 depending on the section. Some sections may also carry a CDD (Community Development District) assessment that appears on your property tax bill, typically $1,000&ndash;$2,500 per year. Barrett Henry can pull the exact HOA and CDD amounts for any specific Arista address, call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
 
             {/* --- Comparison --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">How Arista Compares to Nearby Neighborhoods</h2>
@@ -219,7 +219,7 @@ export default function AristaPage() {
             {/* Selling CTA */}
             <div className="rounded-md p-6" style={{ background: 'var(--blue-deep)' }}>
               <h3 className="font-serif text-lg text-white mb-3">Selling in Arista?</h3>
-              <p className="text-sm mb-4" style={{ color: 'rgba(255,255,255,.7)' }}>Free CMA from Barrett Henry, REALTOR&reg;. Actual comps from your section of Arista &mdash; not a Zestimate.</p>
+              <p className="text-sm mb-4" style={{ color: 'rgba(255,255,255,.7)' }}>Free CMA from Barrett Henry, REALTOR&reg;. Actual comps from your section of Arista, not a Zestimate.</p>
               <Link href="/valrico-fl-home-values/" className="btn-white block text-center text-sm">Get your home value</Link>
             </div>
           </div>

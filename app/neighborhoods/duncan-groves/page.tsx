@@ -43,7 +43,7 @@ export default function DuncanGrovesPage() {
       <div style={{ background: 'var(--blue-deep)' }} className="text-white py-16 px-7">
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
-          <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Duncan Groves Homes for Sale &mdash; Valrico FL 33596</h1>
+          <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Duncan Groves Homes for Sale, Valrico FL 33596</h1>
           <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Duncan Groves is an established subdivision near Lithia Pinecrest Road in south Valrico (33596). Affordable entry into the Bloomingdale HS zone. Prices from $350K&ndash;$450K. Near parks and outdoor recreation. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Duncan Groves listings</Link>
@@ -88,9 +88,9 @@ export default function DuncanGrovesPage() {
           <div>
             {/* --- About --- */}
             <h2 className="font-serif text-2xl mb-4">About Duncan Groves, Valrico FL</h2>
-            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Duncan Groves is an established subdivision in south Valrico (33596) that delivers something increasingly hard to find &mdash; affordable south Valrico living in the Bloomingdale High School zone. Located near Lithia Pinecrest Road, the community sits in a pocket of Valrico that prioritizes outdoor access and family-oriented living over resort-style amenities and gated entrances.</p>
+            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Duncan Groves is an established subdivision in south Valrico (33596) that delivers something increasingly hard to find, affordable south Valrico living in the Bloomingdale High School zone. Located near Lithia Pinecrest Road, the community sits in a pocket of Valrico that prioritizes outdoor access and family-oriented living over resort-style amenities and gated entrances.</p>
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Homes range from 1,400 to 2,400 square feet with 3 to 4 bedrooms. The construction dates from the 1990s through early 2000s, which means mature oak trees, settled landscaping, and a neighborhood feel that takes decades to develop. Lot sizes are reasonable by Valrico standards, and many properties feature screened pools, fenced yards, and covered lanais that take advantage of Florida&apos;s outdoor living climate.</p>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>What sets Duncan Groves apart from many south Valrico subdivisions is proximity to some of Hillsborough County&apos;s best outdoor recreation. Lithia Springs Park &mdash; one of the county&apos;s most popular parks with natural springs and swimming areas &mdash; is a short drive. Alafia River State Park offers mountain biking, hiking, and equestrian trails. For families who spend weekends outdoors, this location advantage is hard to replicate from other Valrico neighborhoods.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>What sets Duncan Groves apart from many south Valrico subdivisions is proximity to some of Hillsborough County&apos;s best outdoor recreation. Lithia Springs Park, one of the county&apos;s most popular parks with natural springs and swimming areas, is a short drive. Alafia River State Park offers mountain biking, hiking, and equestrian trails. For families who spend weekends outdoors, this location advantage is hard to replicate from other Valrico neighborhoods.</p>
 
             {/* --- Schools --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Schools Serving Duncan Groves</h2>
@@ -112,7 +112,7 @@ export default function DuncanGrovesPage() {
 
             {/* --- HOA --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">HOA and Community Fees</h2>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Duncan Groves has a more relaxed neighborhood structure compared to newer HOA-governed communities. HOA requirements may be minimal or voluntary depending on the section, and monthly fees where applicable tend to be among the lowest in south Valrico. The community does not carry CDD fees, which keeps the total cost of ownership lower than many newer developments. Barrett Henry can confirm the exact HOA situation for any Duncan Groves property &mdash; call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Duncan Groves has a more relaxed neighborhood structure compared to newer HOA-governed communities. HOA requirements may be minimal or voluntary depending on the section, and monthly fees where applicable tend to be among the lowest in south Valrico. The community does not carry CDD fees, which keeps the total cost of ownership lower than many newer developments. Barrett Henry can confirm the exact HOA situation for any Duncan Groves property, call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
 
             {/* --- Comparison --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">How Duncan Groves Compares to Nearby Neighborhoods</h2>
@@ -215,7 +215,7 @@ export default function DuncanGrovesPage() {
 
             <div className="rounded-md p-6" style={{ background: 'var(--blue-deep)' }}>
               <h3 className="font-serif text-lg text-white mb-3">Selling in Duncan Groves?</h3>
-              <p className="text-sm mb-4" style={{ color: 'rgba(255,255,255,.7)' }}>Free CMA from Barrett Henry, REALTOR&reg;. Actual comps from your section of Duncan Groves &mdash; not a Zestimate.</p>
+              <p className="text-sm mb-4" style={{ color: 'rgba(255,255,255,.7)' }}>Free CMA from Barrett Henry, REALTOR&reg;. Actual comps from your section of Duncan Groves, not a Zestimate.</p>
               <Link href="/valrico-fl-home-values/" className="btn-white block text-center text-sm">Get your home value</Link>
             </div>
           </div>

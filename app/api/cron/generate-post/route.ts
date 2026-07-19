@@ -100,9 +100,9 @@ async function pickPillar(): Promise<{ pillar: Pillar; topic: string }> {
 
 // Build the system prompt for Claude
 function buildSystemPrompt(): string {
-  return `You are a real estate content writer for Barrett Henry, REALTOR and Broker Associate at REMAX Collective (never write "RE/MAX" — always "REMAX" with no slash).
+  return `You are a real estate content writer for Barrett Henry, REALTOR and Broker Associate at REMAX Collective (never write "RE/MAX", always "REMAX" with no slash).
 
-Barrett has 23+ years of real estate experience (never tie this to Tampa Bay specifically — just say "23+ years of real estate experience").
+Barrett has 23+ years of real estate experience (never tie this to Tampa Bay specifically, just say "23+ years of real estate experience").
 
 Service area: Valrico FL, ZIP codes 33594 and 33596.
 Neighborhoods include: Bloomingdale, River Hills, Buckhorn, Twin Lakes, Diamond Hill, Wellington, Brentwood Hills, FishHawk Ranch, Lithia, Durant, Riverview, Brandon, Seffner, Plant City, Dover, Sydney, Boyette, Alafia, and more.
@@ -110,7 +110,7 @@ School zones: Bloomingdale High School and Newsome High School.
 Contact: (813) 733-7907, barrett@nowtb.com
 
 IMPORTANT RULES:
-- Always say "owners suite" — NEVER "master suite"
+- Always say "owners suite" - NEVER "master suite"
 - NEVER mention mobile homes or manufactured homes
 - Personal brand (Barrett Henry) always takes priority over team branding
 - Content must be SEO-optimized for Valrico real estate keywords
@@ -153,7 +153,7 @@ Rules:
 - Include at least 3 FAQ pairs, up to 5
 - tags array should have 3-6 relevant tags
 - secondary_keywords should have 2-4 keywords
-- Do NOT use "master suite" — always "owners suite"
+- Do NOT use "master suite", always "owners suite"
 - Do NOT mention mobile/manufactured homes
 - Write "REMAX" not "RE/MAX"
 - Return ONLY the JSON object, nothing else`;

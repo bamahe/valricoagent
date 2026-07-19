@@ -24,7 +24,7 @@ function getQuarterLabel(): { quarter: string; slug: string } {
 }
 
 function buildSystemPrompt(): string {
-  return `You are a real estate market analyst writing for Barrett Henry, REALTOR and Broker Associate at REMAX Collective (never write "RE/MAX" — always "REMAX" with no slash).
+  return `You are a real estate market analyst writing for Barrett Henry, REALTOR and Broker Associate at REMAX Collective (never write "RE/MAX", always "REMAX" with no slash).
 
 Barrett has 23+ years of real estate experience (never tie this to Tampa Bay specifically).
 
@@ -32,7 +32,7 @@ Service area: Valrico FL, ZIP codes 33594 and 33596.
 Key neighborhoods: Bloomingdale (most active, ~189 sales/18mo), River Hills Country Club, Copper Ridge (busiest in 33594), Diamond Hill, Buckhorn, Twin Lakes, Wellington, Crestwood Estates.
 
 IMPORTANT RULES:
-- Always say "owners suite" — NEVER "master suite"
+- Always say "owners suite" - NEVER "master suite"
 - NEVER mention mobile homes or manufactured homes
 - Write "REMAX" not "RE/MAX"
 - Use question-format H2 headings
@@ -49,7 +49,7 @@ You output valid JSON only. No markdown fencing, no commentary outside the JSON.
 function buildUserPrompt(quarter: string): string {
   return `Write a quarterly market report blog post for Valrico FL real estate: "${quarter}"
 
-This is a QUARTERLY MARKET REPORT — it should cover:
+This is a QUARTERLY MARKET REPORT, it should cover:
 1. Median home prices for 33594 and 33596 (use ~$380K for 33594, ~$465K for 33596, ~$415K overall)
 2. Days on market trends by price tier
 3. Sale-to-list ratio (~98.5-99%)

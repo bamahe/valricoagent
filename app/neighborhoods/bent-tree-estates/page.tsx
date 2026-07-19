@@ -43,7 +43,7 @@ export default function BentTreeEstatesPage() {
       <div style={{ background: 'var(--blue-deep)' }} className="text-white py-16 px-7">
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
-          <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Bent Tree Estates Homes for Sale &mdash; Valrico FL 33596</h1>
+          <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Bent Tree Estates Homes for Sale, Valrico FL 33596</h1>
           <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Bent Tree Estates is an established subdivision in south Valrico (33596) with mature trees, larger-than-average lots, and quiet residential streets. Prices from $375K&ndash;$500K. Bloomingdale HS zone. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Bent Tree Estates listings</Link>
@@ -90,7 +90,7 @@ export default function BentTreeEstatesPage() {
             <h2 className="font-serif text-2xl mb-4">About Bent Tree Estates, Valrico FL</h2>
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Bent Tree Estates is an established subdivision in south Valrico (33596) characterized by mature trees, larger-than-average lot sizes, and quiet residential streets with minimal through-traffic. The neighborhood sits near the Bloomingdale Avenue commercial corridor, giving residents quick access to shopping and dining without the noise of a main road.</p>
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Homes typically range from 1,800 to 3,000 square feet with 3 to 5 bedrooms. Construction dates primarily from the 1990s with concrete block builds that are standard for Florida. Many properties feature screened pools, extended lanais, and generously sized backyards that benefit from the mature tree canopy. The lots here tend to be wider and deeper than what you find in the core Bloomingdale sections, which appeals to buyers who want yard space for kids, pets, or entertaining.</p>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Updated homes with modern kitchens, impact windows, and renovated bathrooms command the higher end of the price range. Original-condition homes with 1990s finishes still sell but at a noticeable discount per square foot. The mature tree canopy provides natural shade that reduces cooling costs &mdash; a meaningful advantage in Florida&apos;s 9-month warm season.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Updated homes with modern kitchens, impact windows, and renovated bathrooms command the higher end of the price range. Original-condition homes with 1990s finishes still sell but at a noticeable discount per square foot. The mature tree canopy provides natural shade that reduces cooling costs, a meaningful advantage in Florida&apos;s 9-month warm season.</p>
 
             {/* --- Schools --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Schools Serving Bent Tree Estates</h2>
@@ -112,7 +112,7 @@ export default function BentTreeEstatesPage() {
 
             {/* --- HOA --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">HOA and Community Fees</h2>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Bent Tree Estates has a voluntary or minimal HOA structure typical of established 1990s-era Valrico subdivisions. This means homeowners enjoy lower monthly costs compared to newer communities with mandatory HOAs and CDD fees. The trade-off is fewer community amenities like pools or clubhouses, but many homes have private pools. Barrett Henry can confirm the exact HOA status for any Bent Tree Estates property &mdash; call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Bent Tree Estates has a voluntary or minimal HOA structure typical of established 1990s-era Valrico subdivisions. This means homeowners enjoy lower monthly costs compared to newer communities with mandatory HOAs and CDD fees. The trade-off is fewer community amenities like pools or clubhouses, but many homes have private pools. Barrett Henry can confirm the exact HOA status for any Bent Tree Estates property, call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
 
             {/* --- Comparison --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">How Bent Tree Estates Compares to Nearby Neighborhoods</h2>
@@ -219,7 +219,7 @@ export default function BentTreeEstatesPage() {
             {/* Selling CTA */}
             <div className="rounded-md p-6" style={{ background: 'var(--blue-deep)' }}>
               <h3 className="font-serif text-lg text-white mb-3">Selling in Bent Tree Estates?</h3>
-              <p className="text-sm mb-4" style={{ color: 'rgba(255,255,255,.7)' }}>Free CMA from Barrett Henry, REALTOR&reg;. Actual comps from your section &mdash; not a Zestimate.</p>
+              <p className="text-sm mb-4" style={{ color: 'rgba(255,255,255,.7)' }}>Free CMA from Barrett Henry, REALTOR&reg;. Actual comps from your section, not a Zestimate.</p>
               <Link href="/valrico-fl-home-values/" className="btn-white block text-center text-sm">Get your home value</Link>
             </div>
           </div>

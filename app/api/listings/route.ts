@@ -35,7 +35,7 @@ export async function GET(request: NextRequest) {
   if (sp.get('subdivisions')) {
     params.subdivisions = sp.get('subdivisions')!.split(',').map(s => s.trim()).filter(Boolean);
   }
-  // Sale vs rent — defaults to "sale" in bridge.ts if not specified
+  // Sale vs rent, defaults to "sale" in bridge.ts if not specified
   if (sp.get('listingType') === 'rent' || sp.get('listingType') === 'sale') {
     params.listingType = sp.get('listingType') as 'sale' | 'rent';
   }
@@ -47,7 +47,7 @@ export async function GET(request: NextRequest) {
 
   // Add rate limit header for debugging
   const headers: Record<string, string> = {
-    // Layer 3: CDN cache — 5 min fresh, 10 min stale-while-revalidate
+    // Layer 3: CDN cache, 5 min fresh, 10 min stale-while-revalidate
     'Cache-Control': 'public, s-maxage=300, stale-while-revalidate=600',
   };
   if (isRateLimited()) {

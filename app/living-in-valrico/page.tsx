@@ -3,8 +3,8 @@ import Link from 'next/link';
 export default function LivingInValrico() {
   return (<>
     <div style={{background:'var(--blue-deep)'}} className="text-white py-16 px-7"><div className="max-w-[1140px] mx-auto">
-      <h1 className="font-serif text-[clamp(28px,4vw,38px)] leading-tight tracking-tight mb-4">Living in Valrico FL — The Complete Guide for New Residents</h1>
-      <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{color:'rgba(255,255,255,.75)'}}>Thinking about moving to Valrico? This guide covers neighborhoods, schools, cost of living, commute times, parks, dining, and what it&apos;s actually like to live here — written by a REALTOR® who works this market every day.</p>
+      <h1 className="font-serif text-[clamp(28px,4vw,38px)] leading-tight tracking-tight mb-4">Living in Valrico FL - The Complete Guide for New Residents</h1>
+      <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{color:'rgba(255,255,255,.75)'}}>Thinking about moving to Valrico? This guide covers neighborhoods, schools, cost of living, commute times, parks, dining, and what it&apos;s actually like to live here, written by a REALTOR® who works this market every day.</p>
     </div></div>
 
     <div className="max-w-[1140px] mx-auto px-7 py-16 space-y-6" style={{color:'var(--ink-soft)'}}>
@@ -16,7 +16,7 @@ export default function LivingInValrico() {
       <p className="text-[15px] leading-[1.8]">The <Link href="/valrico-fl-home-values/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>median home price</Link> is approximately $415K. Property taxes run roughly $3,000 to $5,000 per year depending on assessed value and homestead exemption. Homeowners insurance costs have increased statewide, but Valrico&apos;s location inland (away from coastal flood zones) helps keep rates lower than beach communities. Most of Valrico is in Flood Zone X, meaning flood insurance is not required.</p>
 
       <h2 className="font-serif text-2xl mt-10" style={{color:'var(--ink)'}}>Schools</h2>
-      <p className="text-[15px] leading-[1.8]">This is the big one. <Link href="/valrico-school-zones/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Bloomingdale High School and Newsome High School</Link> are both A-rated and among the top public high schools in Hillsborough County. School zoning is the single biggest price driver in Valrico — homes in the Newsome zone command measurable premiums. Read the <Link href="/valrico-school-zones/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>school zone guide</Link> for details.</p>
+      <p className="text-[15px] leading-[1.8]">This is the big one. <Link href="/valrico-school-zones/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Bloomingdale High School and Newsome High School</Link> are both A-rated and among the top public high schools in Hillsborough County. School zoning is the single biggest price driver in Valrico, homes in the Newsome zone command measurable premiums. Read the <Link href="/valrico-school-zones/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>school zone guide</Link> for details.</p>
 
       <h2 className="font-serif text-2xl mt-10" style={{color:'var(--ink)'}}>Commute</h2>
       <p className="text-[15px] leading-[1.8]">Downtown Tampa is approximately 30 minutes via the Lee Roy Selmon Expressway (toll) or 35-45 minutes via I-75 depending on traffic. MacDill AFB is about 35 minutes. Brandon and Riverview commercial areas are 10-15 minutes. Plant City and Lakeland are accessible via SR-60 and I-4 eastbound.</p>

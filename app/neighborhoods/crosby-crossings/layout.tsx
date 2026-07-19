@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Crosby Crossings Homes for Sale — Valrico FL",
+  title: "Crosby Crossings Homes for Sale - Valrico FL",
   description:
     "Crosby Crossings homes for sale in Valrico FL 33596. Newer construction, $370K-$475K, Bloomingdale HS zone. Modern open floor plans. Call (813) 733-7907.",
   alternates: { canonical: "/neighborhoods/crosby-crossings/" },
   openGraph: {
-    title: "Crosby Crossings Homes for Sale — Valrico FL",
+    title: "Crosby Crossings Homes for Sale - Valrico FL",
     description:
       "Newer construction community in south Valrico. $370K-$475K. Bloomingdale HS zone. Open-concept floor plans with modern finishes. Barrett Henry, REALTOR® at REMAX Collective.",
     url: "https://valricoagent.com/neighborhoods/crosby-crossings/",

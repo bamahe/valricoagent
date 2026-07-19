@@ -43,7 +43,7 @@ export default function ValricoOaksPage() {
       <div style={{ background: 'var(--blue-deep)' }} className="text-white py-16 px-7">
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
-          <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Valrico Oaks Homes for Sale &mdash; Valrico FL 33594</h1>
+          <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Valrico Oaks Homes for Sale, Valrico FL 33594</h1>
           <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Valrico Oaks is a well-positioned neighborhood in the Newsome High School zone offering solid homes at competitive prices in Valrico (33594). Prices from $350K&ndash;$500K. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Valrico Oaks listings</Link>
@@ -88,8 +88,8 @@ export default function ValricoOaksPage() {
           <div>
             {/* --- About --- */}
             <h2 className="font-serif text-2xl mb-4">About Valrico Oaks, Valrico FL</h2>
-            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Valrico Oaks offers one of the most straightforward value propositions in north Valrico: Newsome High School zoning at a price point that undercuts the premium communities in the same feeder pattern. While neighborhoods like Arista and Diamond Hill command $425K+ for the Newsome zone, Valrico Oaks starts in the mid-$300s &mdash; making it the accessible entry point to one of the area&apos;s most sought-after school assignments.</p>
-            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Homes in Valrico Oaks range from 1,600 to 2,800 square feet with 3 to 5 bedrooms. Most were built during the 1990s and 2000s, placing them in a construction sweet spot &mdash; old enough to have mature landscaping and established character, new enough that major systems (roof, HVAC, plumbing) aren&apos;t all reaching end-of-life simultaneously. Block construction is standard, and floor plans include both single-story ranch layouts and two-story designs with first-floor owners suites.</p>
+            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Valrico Oaks offers one of the most straightforward value propositions in north Valrico: Newsome High School zoning at a price point that undercuts the premium communities in the same feeder pattern. While neighborhoods like Arista and Diamond Hill command $425K+ for the Newsome zone, Valrico Oaks starts in the mid-$300s, making it the accessible entry point to one of the area&apos;s most sought-after school assignments.</p>
+            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Homes in Valrico Oaks range from 1,600 to 2,800 square feet with 3 to 5 bedrooms. Most were built during the 1990s and 2000s, placing them in a construction sweet spot, old enough to have mature landscaping and established character, new enough that major systems (roof, HVAC, plumbing) aren&apos;t all reaching end-of-life simultaneously. Block construction is standard, and floor plans include both single-story ranch layouts and two-story designs with first-floor owners suites.</p>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>The neighborhood has a straightforward, no-frills quality that appeals to practical buyers. Streets are established and well-maintained. Lots are standard suburban sizes with fenced backyards and screened lanais on many homes. You won&apos;t find a resort-style pool or a staffed gatehouse, but you also won&apos;t pay the HOA and CDD premiums that come with those amenities. For buyers who want the Newsome zone and would rather put their money into the house than into community fees, Valrico Oaks hits the mark.</p>
 
             {/* --- Schools --- */}
@@ -218,7 +218,7 @@ export default function ValricoOaksPage() {
             {/* Selling CTA */}
             <div className="rounded-md p-6" style={{ background: 'var(--blue-deep)' }}>
               <h3 className="font-serif text-lg text-white mb-3">Selling in Valrico Oaks?</h3>
-              <p className="text-sm mb-4" style={{ color: 'rgba(255,255,255,.7)' }}>Free CMA from Barrett Henry, REALTOR&reg;. Comps from your section of Valrico Oaks &mdash; not a Zestimate.</p>
+              <p className="text-sm mb-4" style={{ color: 'rgba(255,255,255,.7)' }}>Free CMA from Barrett Henry, REALTOR&reg;. Comps from your section of Valrico Oaks, not a Zestimate.</p>
               <Link href="/valrico-fl-home-values/" className="btn-white block text-center text-sm">Get your home value</Link>
             </div>
           </div>

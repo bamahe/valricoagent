@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Valrico Hills Homes for Sale — Valrico FL 33594",
+  title: "Valrico Hills Homes for Sale - Valrico FL 33594",
   description:
     "Valrico Hills homes for sale in Valrico FL 33594. Established mid-range neighborhood, $325K-$425K. Mature landscaping and convenient commute access. Call (813) 733-7907.",
   alternates: { canonical: "/neighborhoods/valrico-hills/" },
   openGraph: {
-    title: "Valrico Hills Homes for Sale — Valrico FL 33594",
+    title: "Valrico Hills Homes for Sale - Valrico FL 33594",
     description:
       "Established mid-range neighborhood in Valrico 33594. $325K-$425K. Solid homes with mature landscaping and convenient commute access. Barrett Henry, REALTOR® at REMAX Collective.",
     url: "https://valricoagent.com/neighborhoods/valrico-hills/",

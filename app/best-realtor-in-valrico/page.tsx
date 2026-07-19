@@ -46,7 +46,7 @@ export default function BestRealtorInValrico() {
           "name": "How do I choose a Valrico realtor?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Look for a realtor who specializes in Valrico specifically — not just Tampa Bay in general. Ask how many homes they have sold in Valrico, whether they know the sub-neighborhoods and school zones, and what designations they hold. A Broker Associate with local expertise will outperform a generalist agent every time."
+            "text": "Look for a realtor who specializes in Valrico specifically, not just Tampa Bay in general. Ask how many homes they have sold in Valrico, whether they know the sub-neighborhoods and school zones, and what designations they hold. A Broker Associate with local expertise will outperform a generalist agent every time."
           }
         },
         {
@@ -70,7 +70,7 @@ export default function BestRealtorInValrico() {
           <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>
             Barrett Henry is a Broker Associate with REMAX Collective, has 23+ years of real estate experience, 50+ five-star reviews, and covers every neighborhood in Valrico. Here&apos;s why clients consistently rate him the best realtor in Valrico FL.
           </p>
-          <a href="tel:8137337907" className="btn-solid">Call Barrett — (813) 733-7907</a>
+          <a href="tel:8137337907" className="btn-solid">Call<br/>(813) 733-7907</a>
         </div>
       </div>
 
@@ -80,7 +80,7 @@ export default function BestRealtorInValrico() {
         {/* Why Barrett is the best choice */}
         <h2 className="font-serif text-2xl" style={{ color: 'var(--ink)' }}>Why Barrett Henry is the best realtor in Valrico</h2>
         <p className="text-[15px] leading-[1.8]">
-          There are hundreds of agents who claim to serve Valrico. Most of them live elsewhere and drive in when a lead comes through a portal. Barrett Henry works this market every single day from the REMAX Collective Brandon office on Lithia Pinecrest Road — five minutes from every Valrico neighborhood. He has been licensed since 2003, holds a Broker Associate license since 2017, and has built a reputation based on straight talk, data-driven pricing, and results.
+          There are hundreds of agents who claim to serve Valrico. Most of them live elsewhere and drive in when a lead comes through a portal. Barrett Henry works this market every single day from the REMAX Collective Brandon office on Lithia Pinecrest Road, five minutes from every Valrico neighborhood. He has been licensed since 2003, holds a Broker Associate license since 2017, and has built a reputation based on straight talk, data-driven pricing, and results.
         </p>
         <p className="text-[15px] leading-[1.8]">
           With 50+ five-star reviews across Google and Zillow, Barrett&apos;s clients consistently highlight his deep local knowledge, responsiveness, and no-pressure approach. Whether you are <Link href="/valrico-fl-homes-for-sale/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>buying a home in Valrico</Link>, <Link href="/sell-my-home-valrico/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>selling your Valrico home</Link>, or investing in rental properties, Barrett brings the experience and credentials that set him apart.
@@ -89,7 +89,7 @@ export default function BestRealtorInValrico() {
         {/* Broker Associate explained */}
         <h2 className="font-serif text-2xl mt-10" style={{ color: 'var(--ink)' }}>What does Broker Associate mean?</h2>
         <p className="text-[15px] leading-[1.8]">
-          A Broker Associate holds a Florida real estate broker license — a higher level of licensing than a standard sales associate. It requires additional coursework, more experience, and passing the broker exam. Barrett earned his Broker Associate license in 2017 and operates under REMAX Collective, which means you get broker-level expertise combined with the global reach, referral network, and brand recognition of one of the most recognized names in real estate.
+          A Broker Associate holds a Florida real estate broker license, a higher level of licensing than a standard sales associate. It requires additional coursework, more experience, and passing the broker exam. Barrett earned his Broker Associate license in 2017 and operates under REMAX Collective, which means you get broker-level expertise combined with the global reach, referral network, and brand recognition of one of the most recognized names in real estate.
         </p>
 
         {/* 32 neighborhoods */}
@@ -102,10 +102,10 @@ export default function BestRealtorInValrico() {
         <h2 className="font-serif text-2xl mt-10" style={{ color: 'var(--ink)' }}>Professional designations</h2>
         <p className="text-[15px] leading-[1.8]">Barrett holds designations that directly benefit his clients:</p>
         <ul className="list-disc pl-6 space-y-2 text-[15px] leading-[1.8]">
-          <li><strong>Broker Associate</strong> — Higher-level Florida real estate license (since 2017)</li>
-          <li><strong>e-PRO</strong> — Certified in digital marketing and technology for real estate</li>
-          <li><strong>MRP (Military Relocation Professional)</strong> — Trained to help military families relocate to and from the MacDill AFB / Tampa Bay area</li>
-          <li><strong>SRS (Seller Representative Specialist)</strong> — Advanced training in representing home sellers and maximizing net proceeds</li>
+          <li><strong>Broker Associate</strong> - Higher-level Florida real estate license (since 2017)</li>
+          <li><strong>e-PRO</strong> - Certified in digital marketing and technology for real estate</li>
+          <li><strong>MRP (Military Relocation Professional)</strong> - Trained to help military families relocate to and from the MacDill AFB / Tampa Bay area</li>
+          <li><strong>SRS (Seller Representative Specialist)</strong> - Advanced training in representing home sellers and maximizing net proceeds</li>
         </ul>
         <div className="flex flex-wrap gap-2 my-4">
           {['Broker Associate', 'e-PRO (digital marketing)', 'MRP (military relocation)', 'SRS (seller representation)', 'REMAX Collective', 'REMAX Commercial'].map(c => (
@@ -136,9 +136,9 @@ export default function BestRealtorInValrico() {
         <h2 className="font-serif text-2xl mt-10" style={{ color: 'var(--ink)' }}>What clients say</h2>
         <div className="space-y-4 mt-4">
           {[
-            ['"Barrett knew our Bloomingdale sub-neighborhood inside and out. He priced our home perfectly and we had multiple offers in 3 days."', '— Bloomingdale seller, 5-star Google review'],
-            ['"We relocated from out of state and Barrett made the entire process smooth. He knew which streets to avoid, which school zones mattered, and which homes were overpriced. Best realtor we have ever worked with."', '— Valrico buyer, 5-star Zillow review'],
-            ['"No pressure, no games. Barrett gave us the data, explained our options, and let us make the decision. Refreshing experience."', '— Buckhorn seller, 5-star Google review'],
+            ['"Barrett knew our Bloomingdale sub-neighborhood inside and out. He priced our home perfectly and we had multiple offers in 3 days."', '- Bloomingdale seller, 5-star Google review'],
+            ['"We relocated from out of state and Barrett made the entire process smooth. He knew which streets to avoid, which school zones mattered, and which homes were overpriced. Best realtor we have ever worked with."', '- Valrico buyer, 5-star Zillow review'],
+            ['"No pressure, no games. Barrett gave us the data, explained our options, and let us make the decision. Refreshing experience."', '- Buckhorn seller, 5-star Google review'],
           ].map(([quote, attr]) => (
             <div key={attr as string} className="border-l-4 pl-5 py-3" style={{ borderColor: 'var(--accent)' }}>
               <p className="text-[15px] leading-[1.8] italic">{quote}</p>
@@ -152,8 +152,8 @@ export default function BestRealtorInValrico() {
         <div className="space-y-4 mt-4">
           {[
             ['Who is the best realtor in Valrico?', 'Barrett Henry is consistently rated one of the best realtors in Valrico FL. He is a Broker Associate with REMAX Collective, holds e-PRO, MRP, and SRS designations, has 23+ years of real estate experience, 50+ five-star reviews, and covers all 32 Valrico neighborhoods across ZIP codes 33594 and 33596.'],
-            ['How do I choose a Valrico realtor?', 'Look for a realtor who specializes in Valrico specifically — not just Tampa Bay in general. Ask how many homes they have sold in Valrico, whether they know the sub-neighborhoods and school zones, and what designations they hold. A Broker Associate with local expertise will outperform a generalist agent every time.'],
-            ['What does a Broker Associate mean?', 'A Broker Associate holds a Florida real estate broker license — a higher level of licensing than a standard sales associate. It requires additional coursework, more experience, and passing the broker exam. Barrett has held his Broker Associate license since 2017.'],
+            ['How do I choose a Valrico realtor?', 'Look for a realtor who specializes in Valrico specifically, not just Tampa Bay in general. Ask how many homes they have sold in Valrico, whether they know the sub-neighborhoods and school zones, and what designations they hold. A Broker Associate with local expertise will outperform a generalist agent every time.'],
+            ['What does a Broker Associate mean?', 'A Broker Associate holds a Florida real estate broker license, a higher level of licensing than a standard sales associate. It requires additional coursework, more experience, and passing the broker exam. Barrett has held his Broker Associate license since 2017.'],
           ].map(([q, a]) => (
             <div key={q as string} className="border rounded-md p-5" style={{ borderColor: 'var(--border)' }}>
               <h3 className="font-semibold text-base mb-2">{q}</h3>

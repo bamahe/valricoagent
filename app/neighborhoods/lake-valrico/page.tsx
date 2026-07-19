@@ -43,7 +43,7 @@ export default function LakeValricoPage() {
       <div style={{ background: 'var(--blue-deep)' }} className="text-white py-16 px-7">
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
-          <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Lake Valrico Area Homes for Sale &mdash; Valrico FL 33594</h1>
+          <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Lake Valrico Area Homes for Sale, Valrico FL 33594</h1>
           <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>The Lake Valrico area features waterfront and lakefront properties on larger lots in north Valrico (33594). No HOA on most properties, with prices from $350K&ndash;$500K. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Lake Valrico listings</Link>
@@ -88,14 +88,14 @@ export default function LakeValricoPage() {
           <div>
             {/* --- About --- */}
             <h2 className="font-serif text-2xl mb-4">About the Lake Valrico Area, Valrico FL</h2>
-            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>The Lake Valrico area encompasses the residential properties surrounding Lake Valrico in north Valrico (33594). Unlike the planned subdivisions that define most of Valrico&apos;s housing stock, this area developed organically over decades. The result is a mix of custom-built homes, renovated ranch properties, and occasional new construction &mdash; all united by proximity to one of Valrico&apos;s most recognizable natural features.</p>
+            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>The Lake Valrico area encompasses the residential properties surrounding Lake Valrico in north Valrico (33594). Unlike the planned subdivisions that define most of Valrico&apos;s housing stock, this area developed organically over decades. The result is a mix of custom-built homes, renovated ranch properties, and occasional new construction, all united by proximity to one of Valrico&apos;s most recognizable natural features.</p>
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Lot sizes here dwarf what you&apos;ll find in typical subdivisions. Quarter-acre parcels are the minimum, and many properties sit on a full acre or more. Waterfront lots with direct lake access represent the premium tier, offering fishing, kayaking, and sunset views from your backyard. Even non-waterfront homes in the area benefit from the quiet, semi-rural character and the absence of HOA restrictions that govern most neighboring communities.</p>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Homes vary widely in size and style &mdash; from modest 1,200 square foot ranch homes to 3,000+ square foot custom builds. Many longtime owners have invested heavily in renovations, so updated kitchens, expanded owners suites, and screened pool enclosures are common. The diversity of housing stock means there is something for nearly every buyer profile, from the young couple wanting acreage to the retiree seeking waterfront tranquility.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Homes vary widely in size and style, from modest 1,200 square foot ranch homes to 3,000+ square foot custom builds. Many longtime owners have invested heavily in renovations, so updated kitchens, expanded owners suites, and screened pool enclosures are common. The diversity of housing stock means there is something for nearly every buyer profile, from the young couple wanting acreage to the retiree seeking waterfront tranquility.</p>
 
             {/* --- Schools --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Schools Serving the Lake Valrico Area</h2>
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>School zoning in the Lake Valrico area varies by specific address since the area spans a broader section of the 33594 ZIP code. Some properties are zoned for <strong>Mintz Elementary</strong>, <strong>Mulrennan Middle</strong>, and <strong>Newsome High School</strong>, while others may feed into different schools depending on their exact location.</p>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Because school zoning is address-specific in this area, verifying the exact assignment before making an offer is essential. Barrett Henry can confirm zoning for any Lake Valrico property &mdash; a detail that directly impacts both livability and resale value. Read the <Link href="/valrico-school-zones/" className="no-underline font-semibold" style={{ color: 'var(--accent)' }}>full Valrico school zone guide</Link> for an overview of all feeder patterns.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Because school zoning is address-specific in this area, verifying the exact assignment before making an offer is essential. Barrett Henry can confirm zoning for any Lake Valrico property, a detail that directly impacts both livability and resale value. Read the <Link href="/valrico-school-zones/" className="no-underline font-semibold" style={{ color: 'var(--accent)' }}>full Valrico school zone guide</Link> for an overview of all feeder patterns.</p>
 
             {/* --- Location & Commute --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Location and Commute</h2>
@@ -108,11 +108,11 @@ export default function LakeValricoPage() {
               <li><strong>Lakeland:</strong> ~25 miles / 30 minutes via I-4</li>
               <li><strong>Tampa International Airport:</strong> ~25 miles / 30&ndash;40 minutes</li>
             </ul>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Despite the semi-rural feel, daily conveniences are close. Publix, Winn-Dixie, and Walmart along SR-60 are within 2 miles. The area balances a countryside atmosphere with suburban accessibility &mdash; something few Valrico neighborhoods can claim.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Despite the semi-rural feel, daily conveniences are close. Publix, Winn-Dixie, and Walmart along SR-60 are within 2 miles. The area balances a countryside atmosphere with suburban accessibility, something few Valrico neighborhoods can claim.</p>
 
             {/* --- HOA --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">HOA and Community Fees</h2>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Most properties in the Lake Valrico area have no HOA. No monthly dues, no architectural review boards, and no restrictions on what you can park in your driveway or build on your lot. This is a significant draw for buyers who value property freedom. A few newer pockets near the lake may carry deed restrictions, so Barrett Henry recommends confirming HOA status on any property before making an offer &mdash; call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Most properties in the Lake Valrico area have no HOA. No monthly dues, no architectural review boards, and no restrictions on what you can park in your driveway or build on your lot. This is a significant draw for buyers who value property freedom. A few newer pockets near the lake may carry deed restrictions, so Barrett Henry recommends confirming HOA status on any property before making an offer, call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
 
             {/* --- Comparison --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">How Lake Valrico Compares to Nearby Neighborhoods</h2>
@@ -219,7 +219,7 @@ export default function LakeValricoPage() {
             {/* Selling CTA */}
             <div className="rounded-md p-6" style={{ background: 'var(--blue-deep)' }}>
               <h3 className="font-serif text-lg text-white mb-3">Selling Near Lake Valrico?</h3>
-              <p className="text-sm mb-4" style={{ color: 'rgba(255,255,255,.7)' }}>Free CMA from Barrett Henry, REALTOR&reg;. Waterfront and lakefront comps require local expertise &mdash; not an algorithm.</p>
+              <p className="text-sm mb-4" style={{ color: 'rgba(255,255,255,.7)' }}>Free CMA from Barrett Henry, REALTOR&reg;. Waterfront and lakefront comps require local expertise, not an algorithm.</p>
               <Link href="/valrico-fl-home-values/" className="btn-white block text-center text-sm">Get your home value</Link>
             </div>
           </div>

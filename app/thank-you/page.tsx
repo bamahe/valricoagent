@@ -36,7 +36,7 @@ export default function ThankYouPage() {
           className="font-serif"
           style={{ fontSize: 'clamp(1.6rem, 4vw, 2.2rem)', fontWeight: 700, color: '#1a1a1a', marginBottom: 12 }}
         >
-          Thank You &mdash; We Got Your Message
+          Thank You, We Got Your Message
         </h1>
         <p style={{ fontSize: 16, color: '#555', marginBottom: 48, maxWidth: 520, marginLeft: 'auto', marginRight: 'auto' }}>
           Your request is on Barrett&apos;s desk. Here&apos;s what happens next:
@@ -95,7 +95,7 @@ export default function ThankYouPage() {
             Can&apos;t wait?
           </p>
           <p style={{ fontSize: 14, color: '#555', marginBottom: 16, marginTop: 0 }}>
-            Call Barrett directly &mdash; he picks up.
+            Call Barrett directly, he picks up.
           </p>
           <a
             href="tel:+18137337907"

@@ -2,13 +2,13 @@ import type { Metadata } from "next";
 
 // SEO metadata for the Valrico Real Estate Agent page
 export const metadata: Metadata = {
-  title: "Valrico Real Estate Agent — Local Expert",
+  title: "Valrico Real Estate Agent - Local Expert",
   description:
-    "Looking for a Valrico real estate agent who knows every neighborhood and price trend? Barrett Henry — local expert for 33594 and 33596.",
+    "Looking for a Valrico real estate agent who knows every neighborhood and price trend? Barrett Henry, local expert for 33594 and 33596.",
   openGraph: {
-    title: "Valrico Real Estate Agent — Local Expert",
+    title: "Valrico Real Estate Agent - Local Expert",
     description:
-      "Looking for a Valrico real estate agent who knows every neighborhood and price trend? Barrett Henry — local expert for 33594 and 33596.",
+      "Looking for a Valrico real estate agent who knows every neighborhood and price trend? Barrett Henry, local expert for 33594 and 33596.",
     url: "https://valricoagent.com/valrico-real-estate-agent/",
     siteName: "ValricoAgent.com",
     type: "website",

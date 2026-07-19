@@ -43,7 +43,7 @@ export default function CrosbyCrossingsPage() {
       <div style={{ background: 'var(--blue-deep)' }} className="text-white py-16 px-7">
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
-          <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Crosby Crossings Homes for Sale &mdash; Valrico FL 33596</h1>
+          <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Crosby Crossings Homes for Sale, Valrico FL 33596</h1>
           <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Crosby Crossings is a newer construction community in the Bloomingdale corridor of south Valrico (33596). Prices from $370K&ndash;$475K. Bloomingdale High School zone. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Crosby Crossings listings</Link>
@@ -88,14 +88,14 @@ export default function CrosbyCrossingsPage() {
           <div>
             {/* --- About --- */}
             <h2 className="font-serif text-2xl mb-4">About Crosby Crossings, Valrico FL</h2>
-            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Crosby Crossings is one of the newer residential developments in the Bloomingdale corridor of south Valrico (33596). For buyers who prioritize modern construction over established charm, Crosby Crossings delivers open-concept floor plans, contemporary finishes, and building standards that meet current Florida energy and wind codes &mdash; something homes built before 2002 simply cannot match.</p>
-            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Homes range from 1,800 to 2,800 square feet with 3 to 5 bedrooms. Interior features include granite or quartz countertops, stainless steel appliances, tile and luxury vinyl plank flooring, and spacious owners suites with walk-in closets and double vanities. Many floor plans place the owners suite on the first floor with secondary bedrooms upstairs &mdash; a layout that appeals to families who want separation between the primary and secondary sleeping areas.</p>
+            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Crosby Crossings is one of the newer residential developments in the Bloomingdale corridor of south Valrico (33596). For buyers who prioritize modern construction over established charm, Crosby Crossings delivers open-concept floor plans, contemporary finishes, and building standards that meet current Florida energy and wind codes, something homes built before 2002 simply cannot match.</p>
+            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Homes range from 1,800 to 2,800 square feet with 3 to 5 bedrooms. Interior features include granite or quartz countertops, stainless steel appliances, tile and luxury vinyl plank flooring, and spacious owners suites with walk-in closets and double vanities. Many floor plans place the owners suite on the first floor with secondary bedrooms upstairs, a layout that appeals to families who want separation between the primary and secondary sleeping areas.</p>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>The community occupies a strategic position between Valrico and Riverview, giving residents access to two commercial corridors. Bloomingdale Avenue and Lithia Pinecrest Road provide grocery stores, restaurants, and services within minutes. For buyers who want a modern home in the Bloomingdale High School zone without paying for golf or gated amenities, Crosby Crossings hits the right balance of newer construction at a mid-range price point.</p>
 
             {/* --- Schools --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Schools Serving Crosby Crossings</h2>
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Crosby Crossings falls within the Hillsborough County School District and is zoned for <strong>Alafia Elementary</strong> (or <strong>Cimino Elementary</strong> depending on address), <strong>Burns Middle School</strong>, and <strong>Bloomingdale High School</strong>. Bloomingdale High offers a range of AP courses, dual enrollment options, and competitive athletics programs.</p>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>The newer construction means lower near-term maintenance costs &mdash; newer roof, HVAC, water heater, and windows all translate to years before major replacement expenses hit. For young families and first-time buyers, this reduces the total cost of ownership significantly compared to 1990s-era homes in nearby subdivisions. Read the <Link href="/valrico-school-zones/" className="no-underline font-semibold" style={{ color: 'var(--accent)' }}>full Valrico school zone guide</Link> for details.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>The newer construction means lower near-term maintenance costs, newer roof, HVAC, water heater, and windows all translate to years before major replacement expenses hit. For young families and first-time buyers, this reduces the total cost of ownership significantly compared to 1990s-era homes in nearby subdivisions. Read the <Link href="/valrico-school-zones/" className="no-underline font-semibold" style={{ color: 'var(--accent)' }}>full Valrico school zone guide</Link> for details.</p>
 
             {/* --- Location & Commute --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Location and Commute</h2>
@@ -112,7 +112,7 @@ export default function CrosbyCrossingsPage() {
 
             {/* --- HOA --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">HOA and Community Fees</h2>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Crosby Crossings has a mandatory HOA that maintains community standards and common areas. Monthly HOA fees typically run $100&ndash;$200. As a newer construction community, some sections may carry a CDD (Community Development District) assessment on the property tax bill, typically $1,000&ndash;$2,500 per year. The CDD funded infrastructure development and is a fixed cost that declines over time as bonds are paid off. Barrett Henry can confirm exact HOA and CDD amounts for any Crosby Crossings address &mdash; call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Crosby Crossings has a mandatory HOA that maintains community standards and common areas. Monthly HOA fees typically run $100&ndash;$200. As a newer construction community, some sections may carry a CDD (Community Development District) assessment on the property tax bill, typically $1,000&ndash;$2,500 per year. The CDD funded infrastructure development and is a fixed cost that declines over time as bonds are paid off. Barrett Henry can confirm exact HOA and CDD amounts for any Crosby Crossings address, call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
 
             {/* --- Comparison --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">How Crosby Crossings Compares to Nearby Neighborhoods</h2>
@@ -215,7 +215,7 @@ export default function CrosbyCrossingsPage() {
 
             <div className="rounded-md p-6" style={{ background: 'var(--blue-deep)' }}>
               <h3 className="font-serif text-lg text-white mb-3">Selling in Crosby Crossings?</h3>
-              <p className="text-sm mb-4" style={{ color: 'rgba(255,255,255,.7)' }}>Free CMA from Barrett Henry, REALTOR&reg;. Actual comps from your section of Crosby Crossings &mdash; not a Zestimate.</p>
+              <p className="text-sm mb-4" style={{ color: 'rgba(255,255,255,.7)' }}>Free CMA from Barrett Henry, REALTOR&reg;. Actual comps from your section of Crosby Crossings, not a Zestimate.</p>
               <Link href="/valrico-fl-home-values/" className="btn-white block text-center text-sm">Get your home value</Link>
             </div>
           </div>

@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Valrico vs Riverview FL — Prices, New Construction & Growth Compared",
+  title: "Valrico vs Riverview FL - Prices, New Construction & Growth Compared",
   description:
-    "Valrico vs Riverview FL comparison — home prices, new builds, schools, flood zones, and commute to Tampa. Barrett Henry, REMAX Collective.",
+    "Valrico vs Riverview FL comparison, home prices, new builds, schools, flood zones, and commute to Tampa. Barrett Henry, REMAX Collective.",
   alternates: { canonical: "/valrico-vs-riverview/" },
   openGraph: {
-    title: "Valrico vs Riverview FL — Prices, New Construction & Growth Compared",
+    title: "Valrico vs Riverview FL - Prices, New Construction & Growth Compared",
     description:
-      "Valrico vs Riverview FL comparison — home prices, new builds, schools, flood zones, and commute to Tampa. Barrett Henry, REMAX Collective.",
+      "Valrico vs Riverview FL comparison, home prices, new builds, schools, flood zones, and commute to Tampa. Barrett Henry, REMAX Collective.",
     url: "https://valricoagent.com/valrico-vs-riverview/",
     siteName: "ValricoAgent.com",
     type: "website",

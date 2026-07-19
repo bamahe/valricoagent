@@ -8,7 +8,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Privacy Policy',
   description:
-    'Privacy policy for ValricoAgent.com — how we collect, use, and protect your personal information.',
+    'Privacy policy for ValricoAgent.com, how we collect, use, and protect your personal information.',
   alternates: { canonical: '/privacy-policy/' },
 };
 
@@ -40,7 +40,7 @@ export default function PrivacyPolicyPage() {
       </h2>
       <p style={{ fontSize: 14, color: '#555', lineHeight: 1.7, marginBottom: 24 }}>
         Your contact information is sent to Follow Up Boss, our customer relationship management
-        (CRM) platform, so Barrett Henry can respond to your inquiry — typically within 2 hours.
+        (CRM) platform, so Barrett Henry can respond to your inquiry, typically within 2 hours.
         We use your information solely to follow up on your real estate question and provide the
         service you requested. We do not use your data for automated decision-making or profiling.
       </p>
@@ -50,7 +50,7 @@ export default function PrivacyPolicyPage() {
         Cookies and Analytics
       </h2>
       <p style={{ fontSize: 14, color: '#555', lineHeight: 1.7, marginBottom: 24 }}>
-        This site uses Google Analytics 4 (GA4) to understand how visitors use the site — pages
+        This site uses Google Analytics 4 (GA4) to understand how visitors use the site, pages
         visited, time on site, and general geographic region. Analytics cookies are only loaded
         after you accept cookies via the consent banner. You can decline analytics cookies and
         still use the site normally.

@@ -44,7 +44,7 @@ export default function BloomingdalePage() {
       <div style={{ background: 'var(--blue-deep)' }} className="text-white py-16 px-7">
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
-          <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Bloomingdale Homes for Sale &mdash; Valrico FL 33596</h1>
+          <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Bloomingdale Homes for Sale, Valrico FL 33596</h1>
           <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Bloomingdale is one of the largest planned communities in Tampa Bay with 5,200+ homes across 32+ sub-neighborhoods in south Valrico (33596). Prices from $300K&ndash;$500K. Bloomingdale High School zone. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Bloomingdale listings</Link>
@@ -76,7 +76,7 @@ export default function BloomingdalePage() {
             sizes="(max-width: 1140px) 100vw, 1140px"
           />
         </div>
-        <p className="text-xs mt-2 mb-0" style={{ color: 'var(--ink-muted)' }}>Bloomingdale community entrance — Valrico, FL 33596</p>
+        <p className="text-xs mt-2 mb-0" style={{ color: 'var(--ink-muted)' }}>Bloomingdale community entrance - Valrico, FL 33596</p>
       </div>
 
       {/* ===== QUICK STATS ===== */}
@@ -103,13 +103,13 @@ export default function BloomingdalePage() {
             {/* --- About --- */}
             <h2 className="font-serif text-2xl mb-4">About Bloomingdale, Valrico FL</h2>
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Bloomingdale sits in south Valrico along both sides of Bloomingdale Avenue, straddling the Brandon and Valrico line. The Valrico side features slightly larger lots and homes with a more suburban-to-rural transition compared to the Brandon sections. The community was developed primarily through the 1980s and 1990s, with some infill and renovation continuing into the 2000s and 2010s. That age range means many homes have been tastefully updated with modern kitchens, impact windows, and refreshed landscaping while retaining the generous lot sizes and mature tree canopy that newer communities simply cannot offer.</p>
-            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>With 32+ individual sub-neighborhoods and approximately 5,200 homes, Bloomingdale is not a single community &mdash; it&apos;s a collection of neighborhoods that share the Bloomingdale name but vary significantly in price, HOA structure, lot size, and feel. Some sections carry mandatory HOAs with strict standards; others are voluntary. This creates flexibility for buyers who want community standards without rigid restrictions.</p>
+            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>With 32+ individual sub-neighborhoods and approximately 5,200 homes, Bloomingdale is not a single community, it&apos;s a collection of neighborhoods that share the Bloomingdale name but vary significantly in price, HOA structure, lot size, and feel. Some sections carry mandatory HOAs with strict standards; others are voluntary. This creates flexibility for buyers who want community standards without rigid restrictions.</p>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Prices on the Valrico side generally run $300K to $500K, with updated pool homes on larger lots pushing toward the top of that range. The sheer size of the community means there is almost always inventory available, which gives buyers more negotiating power than they get in smaller neighborhoods where listings are scarce. Barrett Henry has <a href="https://nowtb.com/valrico/" target="_blank" rel="noopener" className="no-underline font-semibold" style={{ color: 'var(--accent)' }}>deep knowledge of every Bloomingdale sub-neighborhood</a> and can tell you which sections hold value strongest.</p>
 
             {/* --- Schools --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Schools Serving Bloomingdale</h2>
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Most of Bloomingdale falls within the Bloomingdale High School attendance zone. Bloomingdale HS is A-rated by Niche, ranked among the top Tampa area public high schools, and carries a GreatSchools rating of 8/10. The school offers AP courses, Cambridge International curriculum, and a Gifted and Talented program. For families, the school zone is often the primary reason they choose Bloomingdale over comparable neighborhoods in Brandon or Riverview.</p>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Feeder schools include <strong>Burns Middle School</strong> and elementary schools like <strong>Alafia Elementary</strong>, <strong>Cimino Elementary</strong>, and <strong>Brooker Elementary</strong>. The school zone adds measurable value &mdash; comparable homes inside the Bloomingdale HS zone consistently sell for more than similar homes zoned for other high schools. Read the <Link href="/valrico-school-zones/" className="no-underline font-semibold" style={{ color: 'var(--accent)' }}>full Valrico school zone guide</Link> for details on how zoning affects pricing.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Feeder schools include <strong>Burns Middle School</strong> and elementary schools like <strong>Alafia Elementary</strong>, <strong>Cimino Elementary</strong>, and <strong>Brooker Elementary</strong>. The school zone adds measurable value, comparable homes inside the Bloomingdale HS zone consistently sell for more than similar homes zoned for other high schools. Read the <Link href="/valrico-school-zones/" className="no-underline font-semibold" style={{ color: 'var(--accent)' }}>full Valrico school zone guide</Link> for details on how zoning affects pricing.</p>
 
             {/* --- Location & Commute --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Location and Commute</h2>
@@ -126,7 +126,7 @@ export default function BloomingdalePage() {
 
             {/* --- HOA --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">HOA and Community Structure</h2>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Bloomingdale&apos;s HOA landscape is mixed. Roughly half of the 32+ sub-neighborhoods have mandatory HOAs with fees typically ranging from $50 to $200 per month. The other half have voluntary associations or no formal HOA at all. This makes Bloomingdale one of the few large Valrico communities where <Link href="/valrico-no-hoa-homes/" className="no-underline font-semibold" style={{ color: 'var(--accent)' }}>no-HOA homes</Link> are available without leaving the neighborhood. Barrett Henry can tell you the exact HOA status for any Bloomingdale address &mdash; call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Bloomingdale&apos;s HOA landscape is mixed. Roughly half of the 32+ sub-neighborhoods have mandatory HOAs with fees typically ranging from $50 to $200 per month. The other half have voluntary associations or no formal HOA at all. This makes Bloomingdale one of the few large Valrico communities where <Link href="/valrico-no-hoa-homes/" className="no-underline font-semibold" style={{ color: 'var(--accent)' }}>no-HOA homes</Link> are available without leaving the neighborhood. Barrett Henry can tell you the exact HOA status for any Bloomingdale address, call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
 
             {/* --- Comparison --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">How Bloomingdale Compares to Nearby Neighborhoods</h2>
@@ -234,7 +234,7 @@ export default function BloomingdalePage() {
             {/* Selling CTA */}
             <div className="rounded-md p-6" style={{ background: 'var(--blue-deep)' }}>
               <h3 className="font-serif text-lg text-white mb-3">Selling in Bloomingdale?</h3>
-              <p className="text-sm mb-4" style={{ color: 'rgba(255,255,255,.7)' }}>Free CMA from Barrett Henry, REALTOR&reg;. Actual comps from your sub-neighborhood &mdash; not a Zestimate.</p>
+              <p className="text-sm mb-4" style={{ color: 'rgba(255,255,255,.7)' }}>Free CMA from Barrett Henry, REALTOR&reg;. Actual comps from your sub-neighborhood, not a Zestimate.</p>
               <Link href="/valrico-fl-home-values/" className="btn-white block text-center text-sm">Get your home value</Link>
             </div>
           </div>

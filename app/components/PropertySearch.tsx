@@ -1,7 +1,7 @@
 'use client';
 
 /**
- * PropertySearch — client-side search UI with filters.
+ * PropertySearch, client-side search UI with filters.
  * Fetches from /api/listings and displays PropertyCard grid.
  * Filters: price range, beds, baths, property type, pool, waterfront, sort.
  */
@@ -29,7 +29,7 @@ interface PropertySearchProps {
   defaultSubdivision?: string;
   /** Hidden filter: multiple MLS subdivision names (OR match) */
   defaultSubdivisions?: string[];
-  /** "sale" (default) or "rent" — shows a toggle when true */
+  /** "sale" (default) or "rent", shows a toggle when true */
   showRentToggle?: boolean;
   /** Force listing type without showing toggle */
   defaultListingType?: 'sale' | 'rent';
@@ -85,7 +85,7 @@ export default function PropertySearch({
     if (noHoa) params.set('noHoa', 'true');
     if (newConstructionOnly) params.set('newConstruction', 'true');
     params.set('listingType', listingType);
-    // Hidden subdivision filters — passed with every request, not shown in UI
+    // Hidden subdivision filters, passed with every request, not shown in UI
     if (defaultSubdivisions && defaultSubdivisions.length > 0) {
       params.set('subdivisions', defaultSubdivisions.join(','));
     } else if (defaultSubdivision) {
@@ -174,7 +174,7 @@ export default function PropertySearch({
         marginBottom: 32,
       }}>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))', gap: 12, alignItems: 'end' }}>
-          {/* Price range — switches between sale prices and monthly rent */}
+          {/* Price range, switches between sale prices and monthly rent */}
           <div>
             <label style={labelStyle}>{listingType === 'rent' ? 'Min Rent' : 'Min Price'}</label>
             <select value={minPrice} onChange={(e) => setMinPrice(e.target.value)} style={selectStyle}>
@@ -373,7 +373,7 @@ export default function PropertySearch({
         </div>
       )}
 
-      {/* MLS disclaimer — required by Stellar MLS */}
+      {/* MLS disclaimer, required by Stellar MLS */}
       <div style={{
         marginTop: 40, padding: 20, background: '#fafafa',
         borderRadius: 8, border: '1px solid #e8e8e8',

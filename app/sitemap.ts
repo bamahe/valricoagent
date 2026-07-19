@@ -81,7 +81,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 0.6,
     }))
   } catch {
-    // Supabase not configured yet — skip blog entries
+    // Supabase not configured yet, skip blog entries
   }
 
   return [

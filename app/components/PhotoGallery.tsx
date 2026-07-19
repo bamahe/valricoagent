@@ -1,5 +1,5 @@
 // =============================================================================
-// PhotoGallery — Full-width hero image + horizontal thumbnail strip below
+// PhotoGallery - Full-width hero image + horizontal thumbnail strip below
 // Click any thumbnail to swap the hero; click the hero to open lightbox
 // Lightbox has arrow navigation + thumbnail strip at the bottom
 // Uses Material Icons (already loaded sitewide) instead of lucide-react
@@ -71,7 +71,7 @@ export default function PhotoGallery({ photos, address, autoScroll = false }: Ph
 
   return (
     <>
-      {/* ===== Full-width hero image — click to open lightbox ===== */}
+      {/* ===== Full-width hero image, click to open lightbox ===== */}
       <div
         style={{ position: 'relative', width: '100%', overflow: 'hidden', background: '#1a1a1a' }}
         onMouseEnter={() => setPaused(true)}
@@ -85,7 +85,7 @@ export default function PhotoGallery({ photos, address, autoScroll = false }: Ph
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src={photos[heroIndex].MediaURL}
-            alt={photos[heroIndex].ShortDescription || `${address} — photo ${heroIndex + 1}`}
+            alt={photos[heroIndex].ShortDescription || `${address}, photo ${heroIndex + 1}`}
             style={{ width: '100%', aspectRatio: '2/1', objectFit: 'cover', display: 'block', transition: 'transform .5s' }}
           />
         </button>
@@ -116,7 +116,7 @@ export default function PhotoGallery({ photos, address, autoScroll = false }: Ph
         </span>
       </div>
 
-      {/* ===== Thumbnail strip below the hero — horizontal scroll ===== */}
+      {/* ===== Thumbnail strip below the hero, horizontal scroll ===== */}
       {photos.length > 1 && (
         <div style={{ display: 'flex', gap: 6, overflowX: 'auto', padding: '8px 0' }}>
           {photos.map((photo, index) => (
@@ -135,7 +135,7 @@ export default function PhotoGallery({ photos, address, autoScroll = false }: Ph
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={photo.MediaURL}
-                alt={photo.ShortDescription || `${address} — thumbnail ${index + 1}`}
+                alt={photo.ShortDescription || `${address}, thumbnail ${index + 1}`}
                 style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                 loading="lazy"
               />
@@ -183,7 +183,7 @@ export default function PhotoGallery({ photos, address, autoScroll = false }: Ph
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={photos[lightboxIndex].MediaURL}
-              alt={photos[lightboxIndex].ShortDescription || `${address} — photo ${lightboxIndex + 1}`}
+              alt={photos[lightboxIndex].ShortDescription || `${address}, photo ${lightboxIndex + 1}`}
               style={{ width: '100%', height: '100%', objectFit: 'contain' }}
             />
           </div>
@@ -221,7 +221,7 @@ export default function PhotoGallery({ photos, address, autoScroll = false }: Ph
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
                       src={photo.MediaURL}
-                      alt={photo.ShortDescription || `${address} — photo ${index + 1}`}
+                      alt={photo.ShortDescription || `${address}, photo ${index + 1}`}
                       style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                       loading="lazy"
                     />

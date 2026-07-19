@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Lake Valrico Homes for Sale — Valrico FL 33594",
+  title: "Lake Valrico Homes for Sale - Valrico FL 33594",
   description:
     "Lake Valrico area homes for sale in Valrico FL 33594. Waterfront and lakefront properties, $350K-$500K, large lots, no HOA. Call (813) 733-7907.",
   alternates: { canonical: "/neighborhoods/lake-valrico/" },
   openGraph: {
-    title: "Lake Valrico Homes for Sale — Valrico FL 33594",
+    title: "Lake Valrico Homes for Sale - Valrico FL 33594",
     description:
       "Waterfront and lakefront properties in north Valrico. $350K-$500K. Large lots, no HOA restrictions. Fishing, kayaking, and privacy. Barrett Henry, REALTOR® at REMAX Collective.",
     url: "https://valricoagent.com/neighborhoods/lake-valrico/",

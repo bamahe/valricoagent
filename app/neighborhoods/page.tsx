@@ -3,7 +3,7 @@ import Link from 'next/link';
 import FAQSchema from '../components/FAQSchema';
 
 /**
- * Neighborhoods Hub Page — lists all 32 Valrico neighborhoods
+ * Neighborhoods Hub Page, lists all 32 Valrico neighborhoods
  * as a grid of cards with price ranges, school zones, and links.
  */
 
@@ -63,11 +63,11 @@ const faqItems = [
   },
   {
     question: 'Which Valrico neighborhoods have no HOA?',
-    answer: 'Several Valrico neighborhoods have no mandatory HOA, including Diamond Hill, Duncan Groves, and portions of Bloomingdale. About half of Bloomingdale\'s 32+ sub-neighborhoods operate with voluntary or no HOA. No-HOA homes appeal to buyers who want fewer restrictions and no monthly fees. Barrett Henry can identify every no-HOA option — call (813) 733-7907.',
+    answer: 'Several Valrico neighborhoods have no mandatory HOA, including Diamond Hill, Duncan Groves, and portions of Bloomingdale. About half of Bloomingdale\'s 32+ sub-neighborhoods operate with voluntary or no HOA. No-HOA homes appeal to buyers who want fewer restrictions and no monthly fees. Barrett Henry can identify every no-HOA option, call (813) 733-7907.',
   },
   {
     question: 'What school zones cover Valrico neighborhoods?',
-    answer: 'Valrico neighborhoods are primarily zoned for two high schools: Bloomingdale High School (western Valrico — Bloomingdale, Lake Valrico, Valri Park, and others) and Newsome High School (eastern and southern Valrico — Buckhorn, River Hills, Arista, Twin Lakes, and others). School zoning is the single biggest price driver in Valrico real estate.',
+    answer: 'Valrico neighborhoods are primarily zoned for two high schools: Bloomingdale High School (western Valrico - Bloomingdale, Lake Valrico, Valri Park, and others) and Newsome High School (eastern and southern Valrico - Buckhorn, River Hills, Arista, Twin Lakes, and others). School zoning is the single biggest price driver in Valrico real estate.',
   },
 ];
 
@@ -80,14 +80,14 @@ export default function NeighborhoodsHubPage() {
           {/* Eyebrow text */}
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Real Estate</div>
 
-          {/* H1 — primary keyword first */}
+          {/* H1, primary keyword first */}
           <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">
-            Valrico FL Neighborhoods &mdash; 32 Communities, One Local Expert
+            Valrico FL Neighborhoods, 32 Communities, One Local Expert
           </h1>
 
           {/* Hero paragraph */}
           <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>
-            Barrett Henry, REALTOR&reg; and Broker Associate with REMAX Collective, covers every neighborhood in Valrico. From Bloomingdale to River Hills to Buckhorn &mdash; 32 communities across ZIP codes 33594 and 33596. Browse them all below and find the one that fits your budget, lifestyle, and school zone.
+            Barrett Henry, REALTOR&reg; and Broker Associate with REMAX Collective, covers every neighborhood in Valrico. From Bloomingdale to River Hills to Buckhorn, 32 communities across ZIP codes 33594 and 33596. Browse them all below and find the one that fits your budget, lifestyle, and school zone.
           </p>
 
           {/* CTA buttons */}
@@ -108,7 +108,7 @@ export default function NeighborhoodsHubPage() {
       <div style={{ maxWidth: 1140, margin: '0 auto', padding: '8px 24px 0' }}>
         <div style={{ background: '#fafafa', border: '1px solid #e8e8e8', borderRadius: 10, padding: '20px 24px', marginBottom: 24 }}>
           <p style={{ fontSize: 15, color: '#222', lineHeight: 1.7, margin: 0 }}>
-            <strong>Valrico, Florida has 32 neighborhoods across two ZIP codes (33594 and 33596).</strong> Bloomingdale is the largest (5,200+ homes, $300K–$500K). River Hills and Crestwood Estates are luxury options ($500K–$1M+). Buckhorn and Arista offer newer construction with Newsome HS zoning. Diamond Hill provides large lots with no HOA. Barrett Henry, REALTOR® with REMAX Collective, covers all 32 — call <a href="tel:8137337907" style={{ color: '#003da5', fontWeight: 600 }}>(813) 733-7907</a>.
+            <strong>Valrico, Florida has 32 neighborhoods across two ZIP codes (33594 and 33596).</strong> Bloomingdale is the largest (5,200+ homes, $300K–$500K). River Hills and Crestwood Estates are luxury options ($500K–$1M+). Buckhorn and Arista offer newer construction with Newsome HS zoning. Diamond Hill provides large lots with no HOA. Barrett Henry, REALTOR® with REMAX Collective, covers all 32, call <a href="tel:8137337907" style={{ color: '#003da5', fontWeight: 600 }}>(813) 733-7907</a>.
           </p>
         </div>
       </div>
@@ -134,14 +134,14 @@ export default function NeighborhoodsHubPage() {
       <section className="max-w-[1140px] mx-auto px-7 py-16">
         <div style={{ textAlign: 'center', marginBottom: 40 }}>
           <h2 className="font-serif text-[clamp(22px,3vw,30px)] mb-3" style={{ color: 'var(--ink)' }}>
-            Every Valrico Neighborhood — At a Glance
+            Every Valrico Neighborhood - At a Glance
           </h2>
           <p className="text-[15px] leading-relaxed max-w-[640px] mx-auto" style={{ color: 'var(--ink-soft)' }}>
             Click any neighborhood for a detailed guide with pricing, schools, HOA info, commute times, and who it fits best. Barrett knows every section of every community.
           </p>
         </div>
 
-        {/* Card grid — 3 columns on desktop, 2 on tablet, 1 on mobile */}
+        {/* Card grid, 3 columns on desktop, 2 on tablet, 1 on mobile */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {neighborhoods.map((n) => (
             <Link
@@ -192,13 +192,13 @@ export default function NeighborhoodsHubPage() {
                 How Does Barrett Henry Help You Choose the Right Valrico Neighborhood?
               </h2>
               <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>
-                Picking a neighborhood in Valrico is not just about price. School zoning, HOA structure, lot size, flood zone risk, commute routes, and resale trends all factor in. Barrett Henry brings 23+ years of real estate experience to every conversation &mdash; and he will tell you the truth about each neighborhood, including the ones he would not recommend for your situation.
+                Picking a neighborhood in Valrico is not just about price. School zoning, HOA structure, lot size, flood zone risk, commute routes, and resale trends all factor in. Barrett Henry brings 23+ years of real estate experience to every conversation, and he will tell you the truth about each neighborhood, including the ones he would not recommend for your situation.
               </p>
               <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>
                 Most agents cover a wide area and know a little about everywhere. Barrett specializes in Valrico. He knows which sub-neighborhoods inside Bloomingdale hold value strongest, which sections of Buckhorn are in flood zones, and which streets in River Hills back up to the golf course. That level of detail protects your investment.
               </p>
               <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>
-                Whether you are a first-time buyer looking for affordable homes with strong schools, a growing family that needs more space, or an investor targeting rental-friendly neighborhoods &mdash; Barrett matches you with the right community. No pressure, no runaround. Call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a> or <Link href="/get-help/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>send a message</Link>.
+                Whether you are a first-time buyer looking for affordable homes with strong schools, a growing family that needs more space, or an investor targeting rental-friendly neighborhoods, Barrett matches you with the right community. No pressure, no runaround. Call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a> or <Link href="/get-help/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>send a message</Link>.
               </p>
 
               {/* What Barrett covers checklist */}
@@ -206,27 +206,27 @@ export default function NeighborhoodsHubPage() {
                 {[
                   ['Sub-neighborhood pricing', 'Comps from your specific section, not ZIP code averages'],
                   ['School zone guidance', 'Bloomingdale HS vs. Newsome HS zoning mapped to every street'],
-                  ['HOA research', 'Mandatory, voluntary, or no HOA — verified before you offer'],
+                  ['HOA research', 'Mandatory, voluntary, or no HOA, verified before you offer'],
                   ['Flood zone checks', 'FEMA zone status and insurance cost estimates for any address'],
                   ['Investment analysis', 'Rental yield, appreciation trends, and tenant demand by neighborhood'],
                 ].map(([title, desc]) => (
                   <div key={title} className="flex gap-3 items-start">
                     <span className="material-icons mt-0.5 flex-shrink-0" style={{ fontSize: 20, color: 'var(--accent, #003da5)' }}>check_circle</span>
                     <p className="text-[14px] leading-relaxed" style={{ color: 'var(--ink-soft)' }}>
-                      <strong style={{ color: 'var(--ink)' }}>{title}</strong> &mdash; {desc}
+                      <strong style={{ color: 'var(--ink)' }}>{title}</strong>, {desc}
                     </p>
                   </div>
                 ))}
               </div>
             </div>
 
-            {/* Right sidebar — CTA card */}
+            {/* Right sidebar - CTA card */}
             <div className="space-y-6">
               {/* Phone CTA */}
               <div className="rounded-md p-6" style={{ background: 'var(--blue-deep, #003da5)' }}>
                 <h3 className="font-serif text-lg text-white mb-3">Talk to Barrett About Neighborhoods</h3>
                 <p className="text-sm mb-4" style={{ color: 'rgba(255,255,255,.7)' }}>
-                  Not sure which Valrico neighborhood fits? Barrett will walk you through the options based on your budget, schools, and lifestyle &mdash; no pressure.
+                  Not sure which Valrico neighborhood fits? Barrett will walk you through the options based on your budget, schools, and lifestyle, no pressure.
                 </p>
                 <a href="tel:8137337907" className="btn-solid block text-center text-sm mb-3">
                   <span className="material-icons" style={{ fontSize: 16, verticalAlign: 'middle', marginRight: 6 }}>phone</span>
@@ -260,7 +260,7 @@ export default function NeighborhoodsHubPage() {
               <div className="rounded-md p-6 border" style={{ borderColor: 'var(--border)', background: 'var(--cream-warm, #fdf8f0)' }}>
                 <h3 className="font-serif text-lg mb-3" style={{ color: 'var(--ink)' }}>Selling Your Valrico Home?</h3>
                 <p className="text-sm mb-4" style={{ color: 'var(--ink-soft)' }}>
-                  Free CMA based on actual closed comps in your subdivision &mdash; not a Zestimate.
+                  Free CMA based on actual closed comps in your subdivision, not a Zestimate.
                 </p>
                 <Link href="/valrico-fl-home-values/" className="btn-solid block text-center text-sm">Get Your Home Value</Link>
               </div>
@@ -330,7 +330,7 @@ export default function NeighborhoodsHubPage() {
             Not Sure Which Valrico Neighborhood Fits?
           </h2>
           <p className="text-[15px] mb-7 max-w-[560px] mx-auto" style={{ color: 'rgba(255,255,255,.7)' }}>
-            Tell Barrett your budget, school preference, and must-haves. He will narrow 32 neighborhoods down to the 2 or 3 that actually match &mdash; and tell you which ones to avoid.
+            Tell Barrett your budget, school preference, and must-haves. He will narrow 32 neighborhoods down to the 2 or 3 that actually match, and tell you which ones to avoid.
           </p>
           <div className="flex gap-3 justify-center flex-wrap">
             <a href="tel:8137337907" className="btn-solid">
@@ -347,7 +347,7 @@ export default function NeighborhoodsHubPage() {
 
       {/* ═══ FAQ SECTION ═══ */}
       <FAQSchema
-        heading="Valrico Neighborhoods — Frequently Asked Questions"
+        heading="Valrico Neighborhoods - Frequently Asked Questions"
         items={faqItems}
       />
 
@@ -410,7 +410,7 @@ export default function NeighborhoodsHubPage() {
           },
           {
             "@type": "WebPage",
-            "name": "Valrico FL Neighborhoods — 32 Communities, One Local Expert",
+            "name": "Valrico FL Neighborhoods, 32 Communities, One Local Expert",
             "url": "https://valricoagent.com/neighborhoods/",
             "description": "Explore all 32 Valrico FL neighborhoods with price ranges, school zones, and detailed guides. Barrett Henry, REALTOR® with REMAX Collective. (813) 733-7907.",
             "breadcrumb": { "@id": "https://valricoagent.com/neighborhoods/#breadcrumb" },

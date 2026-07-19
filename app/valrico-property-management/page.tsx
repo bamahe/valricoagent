@@ -7,10 +7,10 @@ export default function PropertyManagement() {
       <div style={{background:'var(--blue-deep)'}} className="text-white py-16 px-7">
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{color:'rgba(255,255,255,.5)'}}>Property Management</div>
-          <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Valrico Property Management — Rental Management for Landlords &amp; Investors</h1>
+          <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Valrico Property Management - Rental Management for Landlords &amp; Investors</h1>
           <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{color:'rgba(255,255,255,.75)'}}>Own a rental property in Valrico? Barrett Henry manages single-family rentals, townhomes, and small multi-family properties across 33594 and 33596 through ViVi Property Management. Full-service management with in-house maintenance, tenant screening, rent collection, and compliance handled for you.</p>
           <div className="flex gap-3 flex-wrap">
-            <a href="tel:8137337907" className="btn-solid">(813) 733-7907 — Talk to Barrett</a>
+            <a href="tel:8137337907" className="btn-solid">(813) 733-7907 - Talk to Barrett</a>
             <a href="mailto:barrett@nowtb.com" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">Email for PM info</a>
           </div>
         </div>
@@ -47,7 +47,7 @@ export default function PropertyManagement() {
             <p className="text-[15px] leading-[1.8]">Typical rental rates in Valrico range from $1,800 to $2,800/month for single-family homes depending on size, condition, pool, and school zone. Homes in the Newsome HS zone often command slightly higher rents due to concentrated demand from FishHawk-priced-out families.</p>
 
             <h2 className="font-serif text-2xl mt-10" style={{color:'var(--ink)'}}>Already own a rental? Thinking about converting?</h2>
-            <p className="text-[15px] leading-[1.8]">Whether you already have a tenant and need better management, or you are considering converting your Valrico home to a rental instead of selling, Barrett can run the numbers both ways. A rental analysis includes estimated monthly rent, projected cash flow after expenses, cap rate, and comparison to selling proceeds. Sometimes renting makes more sense. Sometimes selling does. The math tells the story. <a href="tel:8137337907" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Call (813) 733-7907</a> for a free rental analysis.</p>
+            <p className="text-[15px] leading-[1.8]">Whether you already have a tenant and need better management, or you are considering converting your Valrico home to a rental instead of selling, Barrett can run the numbers both ways. A rental analysis includes estimated monthly rent, projected cash flow after expenses, cap rate, and comparison to selling proceeds. Sometimes renting makes more sense. Sometimes selling does. The math tells the story. <a href="tel:8137337907" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Call<br/>(813) 733-7907</a> for a free rental analysis.</p>
 
             <h2 className="font-serif text-2xl mt-10" style={{color:'var(--ink)'}}>Frequently asked questions</h2>
             <div className="space-y-4">
@@ -74,7 +74,7 @@ export default function PropertyManagement() {
             </div>
             <div className="rounded-md p-6 border" style={{borderColor:'var(--border)'}}>
               <h3 className="font-serif text-lg mb-3">Office</h3>
-              <p className="text-sm leading-relaxed" style={{color:'var(--ink-soft)'}}>REMAX Collective — Brandon<br />417 Lithia Pinecrest Rd<br />Brandon, FL 33511</p>
+              <p className="text-sm leading-relaxed" style={{color:'var(--ink-soft)'}}>REMAX Collective - Brandon<br />417 Lithia Pinecrest Rd<br />Brandon, FL 33511</p>
               <p className="text-sm mt-2" style={{color:'var(--ink-muted)'}}>(813) 733-7907 &middot; barrett@nowtb.com</p>
             </div>
             <div className="rounded-md p-6 border" style={{borderColor:'var(--border)'}}>
@@ -86,7 +86,7 @@ export default function PropertyManagement() {
                 <li><Link href="/valrico-fl-homes-for-sale/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Search Valrico homes &rarr;</Link></li>
                 <li><a href="https://nowtb.com/commercial/" target="_blank" rel="noopener" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Investment properties on nowtb.com &rarr;</a></li>
                 <li><a href="https://bestvalricohandyman.com" target="_blank" rel="noopener" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Best Valrico Handyman &rarr;</a></li>
-                <li><a href="https://bestbayservices.com" target="_blank" rel="noopener" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Best Bay Services — Maintenance &rarr;</a></li>
+                <li><a href="https://bestbayservices.com" target="_blank" rel="noopener" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Best Bay Services - Maintenance &rarr;</a></li>
               </ul>
             </div>
           </div>

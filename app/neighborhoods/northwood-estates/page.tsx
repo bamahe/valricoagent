@@ -43,7 +43,7 @@ export default function NorthwoodEstatesPage() {
       <div style={{ background: 'var(--blue-deep)' }} className="text-white py-16 px-7">
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
-          <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Northwood Estates Homes for Sale &mdash; Valrico FL 33594</h1>
+          <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Northwood Estates Homes for Sale, Valrico FL 33594</h1>
           <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Northwood Estates is a boutique community of WestBay-built homes on larger lots in north Valrico (33594). No CDD fees, Newsome HS zone, and premium finishes. Prices from $425K&ndash;$575K. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Northwood Estates listings</Link>
@@ -88,14 +88,14 @@ export default function NorthwoodEstatesPage() {
           <div>
             {/* --- About --- */}
             <h2 className="font-serif text-2xl mb-4">About Northwood Estates, Valrico FL</h2>
-            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Northwood Estates is a boutique community in north Valrico (33594) that punches above its weight class. Built by WestBay &mdash; a regional builder known for quality over volume &mdash; the homes here feature designer-level finishes that set them apart from standard production builds. LVP flooring throughout, quartz countertops, stainless steel appliances, and thoughtfully designed floor plans come standard, not as upgrades.</p>
+            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Northwood Estates is a boutique community in north Valrico (33594) that punches above its weight class. Built by WestBay, a regional builder known for quality over volume, the homes here feature designer-level finishes that set them apart from standard production builds. LVP flooring throughout, quartz countertops, stainless steel appliances, and thoughtfully designed floor plans come standard, not as upgrades.</p>
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>The community is intentionally small, which creates a neighborhood dynamic more like a cul-de-sac than a sprawling subdivision. Homes range from approximately 2,000 to 3,200 square feet with 3 to 5 bedrooms. Lot sizes run larger than average for the area, giving owners more yard space and breathing room between homes. Most floor plans feature first-floor owners suites, open-concept living areas, and covered lanais that extend the living space into Florida&apos;s outdoors.</p>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>The financial structure here matters: Northwood Estates has no CDD assessment. In a market where many competing new-construction communities tack on $100 to $250 per month in CDD fees, Northwood Estates keeps the total monthly cost lower. Combined with relatively low HOA fees, the true cost of ownership in Northwood Estates is often better than communities with lower sticker prices but higher recurring fees.</p>
 
             {/* --- Schools --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Schools Serving Northwood Estates</h2>
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Northwood Estates falls within the Hillsborough County School District and is zoned for <strong>Mintz Elementary</strong>, <strong>Mulrennan Middle School</strong>, and <strong>Newsome High School</strong>. Newsome High is consistently one of the top-performing public high schools in Hillsborough County, with an A rating, strong AP course offerings, and competitive athletics and extracurricular programs.</p>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>The Newsome HS zone drives a measurable premium on home values in north Valrico. Buyers in Northwood Estates get this school zone benefit alongside the no-CDD advantage &mdash; a combination that few other communities in the area can match. Read the <Link href="/valrico-school-zones/" className="no-underline font-semibold" style={{ color: 'var(--accent)' }}>full Valrico school zone guide</Link> for details on every feeder pattern.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>The Newsome HS zone drives a measurable premium on home values in north Valrico. Buyers in Northwood Estates get this school zone benefit alongside the no-CDD advantage, a combination that few other communities in the area can match. Read the <Link href="/valrico-school-zones/" className="no-underline font-semibold" style={{ color: 'var(--accent)' }}>full Valrico school zone guide</Link> for details on every feeder pattern.</p>
 
             {/* --- Location & Commute --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Location and Commute</h2>
@@ -108,11 +108,11 @@ export default function NorthwoodEstatesPage() {
               <li><strong>Lakeland:</strong> ~26 miles / 30 minutes via I-4</li>
               <li><strong>Tampa International Airport:</strong> ~26 miles / 30&ndash;40 minutes</li>
             </ul>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Daily shopping along SR-60 is within minutes &mdash; Publix, Winn-Dixie, Walmart, and a full range of restaurants and services. The north Valrico position balances suburban accessibility with a quieter residential feel away from the busier commercial corridors.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Daily shopping along SR-60 is within minutes, Publix, Winn-Dixie, Walmart, and a full range of restaurants and services. The north Valrico position balances suburban accessibility with a quieter residential feel away from the busier commercial corridors.</p>
 
             {/* --- HOA --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">HOA and Community Fees</h2>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Northwood Estates has a mandatory HOA with fees that run on the lower end compared to similar communities. The critical financial advantage is the absence of a CDD assessment. In nearby communities, CDD fees add $1,200 to $3,000 annually to the property tax bill &mdash; Northwood Estates owners skip that cost entirely. Barrett Henry can provide the exact current HOA fee and a total monthly cost comparison against competing neighborhoods &mdash; call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Northwood Estates has a mandatory HOA with fees that run on the lower end compared to similar communities. The critical financial advantage is the absence of a CDD assessment. In nearby communities, CDD fees add $1,200 to $3,000 annually to the property tax bill, Northwood Estates owners skip that cost entirely. Barrett Henry can provide the exact current HOA fee and a total monthly cost comparison against competing neighborhoods, call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
 
             {/* --- Comparison --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">How Northwood Estates Compares to Nearby Neighborhoods</h2>
@@ -219,7 +219,7 @@ export default function NorthwoodEstatesPage() {
             {/* Selling CTA */}
             <div className="rounded-md p-6" style={{ background: 'var(--blue-deep)' }}>
               <h3 className="font-serif text-lg text-white mb-3">Selling in Northwood Estates?</h3>
-              <p className="text-sm mb-4" style={{ color: 'rgba(255,255,255,.7)' }}>Free CMA from Barrett Henry, REALTOR&reg;. Actual comps from Northwood Estates &mdash; not a Zestimate.</p>
+              <p className="text-sm mb-4" style={{ color: 'rgba(255,255,255,.7)' }}>Free CMA from Barrett Henry, REALTOR&reg;. Actual comps from Northwood Estates, not a Zestimate.</p>
               <Link href="/valrico-fl-home-values/" className="btn-white block text-center text-sm">Get your home value</Link>
             </div>
           </div>

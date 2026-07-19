@@ -1,6 +1,6 @@
 /**
- * FAQSchema — Renders visible FAQ section + JSON-LD FAQPage schema.
- * Designed for AEO (Answer Engine Optimization) — helps AI engines
+ * FAQSchema - Renders visible FAQ section + JSON-LD FAQPage schema.
+ * Designed for AEO (Answer Engine Optimization), helps AI engines
  * extract structured Q&A pairs from the page.
  * Server component (no 'use client' directive).
  */
@@ -60,7 +60,7 @@ export default function FAQSchema({ items, heading = "Frequently Asked Questions
         </div>
       </div>
 
-      {/* JSON-LD FAQPage schema — invisible to users, consumed by search engines */}
+      {/* JSON-LD FAQPage schema, invisible to users, consumed by search engines */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}

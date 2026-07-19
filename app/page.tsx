@@ -4,7 +4,7 @@ import FAQSchema from './components/FAQSchema';
 import { ContactForm } from './components/ContactForm';
 
 /**
- * Page-level metadata — exported from a Server Component so Next.js
+ * Page-level metadata, exported from a Server Component so Next.js
  * can inject title/description into the <head> at build time.
  * Targets "Valrico homes for sale" (22,200 mo. searches).
  */
@@ -69,7 +69,7 @@ export default function Home() {
       <div style={{ maxWidth: 1140, margin: '0 auto', padding: '8px 24px 0' }}>
         <div style={{ background: '#fafafa', border: '1px solid #e8e8e8', borderRadius: 10, padding: '20px 24px', marginBottom: 24 }}>
           <p style={{ fontSize: 15, color: '#222', lineHeight: 1.7, margin: 0 }}>
-            <strong>Barrett Henry is a top-rated Valrico real estate agent with REMAX Collective and 23+ years of experience.</strong> As a Broker Associate specializing in Valrico, Florida&apos;s 32 neighborhoods — from Bloomingdale to Buckhorn to River Hills — Barrett helps buyers and sellers navigate the local market with hands-on expertise and straight talk. Call <a href="tel:8137337907" style={{ color: '#003da5', fontWeight: 600 }}>(813) 733-7907</a>.
+            <strong>Barrett Henry is a top-rated Valrico real estate agent with REMAX Collective and 23+ years of experience.</strong> As a Broker Associate specializing in Valrico, Florida&apos;s 32 neighborhoods, from Bloomingdale to Buckhorn to River Hills - Barrett helps buyers and sellers navigate the local market with hands-on expertise and straight talk. Call <a href="tel:8137337907" style={{ color: '#003da5', fontWeight: 600 }}>(813) 733-7907</a>.
           </p>
         </div>
       </div>
@@ -83,11 +83,11 @@ export default function Home() {
           </div>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 20 }}>
             {[
-              { icon: 'search', title: 'Search Homes for Sale', desc: 'Every active Valrico FL home for sale — updated directly from Stellar MLS.', href: '/valrico-fl-homes-for-sale/', cta: 'Start Search' },
+              { icon: 'search', title: 'Search Homes for Sale', desc: 'Every active Valrico FL home for sale, updated directly from Stellar MLS.', href: '/valrico-fl-homes-for-sale/', cta: 'Start Search' },
               { icon: 'trending_up', title: 'Sell Your Home', desc: 'Strategic pricing from sub-neighborhood comps. Professional marketing. Sharp negotiation.', href: '/sell-my-home-valrico/', cta: 'Selling Guide' },
-              { icon: 'assessment', title: "What's My Home Worth?", desc: 'Free CMA from actual closed comps in your section of Valrico, Florida — not a Zestimate.', href: '/valrico-fl-home-values/', cta: 'Get Your Value' },
+              { icon: 'assessment', title: "What's My Home Worth?", desc: 'Free CMA from actual closed comps in your section of Valrico, Florida, not a Zestimate.', href: '/valrico-fl-home-values/', cta: 'Get Your Value' },
               { icon: 'map', title: '32 Neighborhoods', desc: 'Detailed guides for every subdivision with pricing, schools, and who fits best.', href: '/neighborhoods/', cta: 'Explore' },
-              { icon: 'school', title: 'School Zones', desc: 'Bloomingdale HS & Newsome HS zones — how school zoning affects homes for sale and home values.', href: '/valrico-school-zones/', cta: 'School Guide' },
+              { icon: 'school', title: 'School Zones', desc: 'Bloomingdale HS & Newsome HS zones, how school zoning affects homes for sale and home values.', href: '/valrico-school-zones/', cta: 'School Guide' },
               { icon: 'apartment', title: 'Property Management', desc: 'Full-service rental management for Valrico landlords. In-house maintenance.', href: '/valrico-property-management/', cta: 'Learn More' },
             ].map((s) => (
               <Link key={s.title} href={s.href} className="card" style={{ padding: '28px 24px', textDecoration: 'none', display: 'block' }}>
@@ -125,7 +125,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ═══ LOCAL RESOURCES — outbound authority links for SEO ═══ */}
+      {/* ═══ LOCAL RESOURCES, outbound authority links for SEO ═══ */}
       <section style={{ padding: '24px 0', background: '#fafafa', borderBottom: '1px solid #e8e8e8' }}>
         <div className="section-inner">
           <p style={{ fontSize: 13, fontWeight: 600, color: '#1a1a1a', textAlign: 'center', marginBottom: 12 }}>Valrico &amp; Hillsborough County Resources</p>
@@ -133,8 +133,8 @@ export default function Home() {
             {[
               ['Hillsborough County Property Appraiser', 'https://www.hcpafl.org'],
               ['Hillsborough County Public Schools', 'https://www.hillsboroughschools.org'],
-              ['Bloomingdale HS — GreatSchools', 'https://www.greatschools.org/florida/valrico/1288-Bloomingdale-Senior-High-School/'],
-              ['Newsome HS — GreatSchools', 'https://www.greatschools.org/florida/lithia/6474-Lennard-High-School/'],
+              ['Bloomingdale HS - GreatSchools', 'https://www.greatschools.org/florida/valrico/1288-Bloomingdale-Senior-High-School/'],
+              ['Newsome HS - GreatSchools', 'https://www.greatschools.org/florida/lithia/6474-Lennard-High-School/'],
               ['Florida DBPR License Verify', 'https://www.myfloridalicense.com/wl11.asp'],
             ].map(([label, href]) => (
               <a key={label} href={href} target="_blank" rel="noopener" style={{ padding: '8px 16px', background: '#fff', borderRadius: 8, fontSize: 12, fontWeight: 500, color: '#003da5', border: '1px solid #e8e8e8' }}>{label}</a>
@@ -147,7 +147,7 @@ export default function Home() {
       <section className="section">
         <div className="section-inner">
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 56, alignItems: 'center' }}>
-            {/* Left — Why sellers choose Barrett */}
+            {/* Left - Why sellers choose Barrett */}
             <div>
               <div className="section-eyebrow" style={{ color: '#cc0000' }}>For Sellers</div>
               <h2 style={{ fontFamily: "'Merriweather', Georgia, serif", fontSize: 'clamp(22px, 3vw, 30px)', fontWeight: 700, marginBottom: 20, lineHeight: 1.3, color: '#1a1a1a' }}>
@@ -164,7 +164,7 @@ export default function Home() {
                   <div key={title} style={{ display: 'flex', gap: 12, alignItems: 'flex-start' }}>
                     <span className="material-icons" style={{ fontSize: 20, color: '#003da5', marginTop: 2, flexShrink: 0 }}>check_circle</span>
                     <p style={{ fontSize: 14, color: '#555', lineHeight: 1.6 }}>
-                      <strong style={{ color: '#1a1a1a' }}>{title}</strong> — {desc}
+                      <strong style={{ color: '#1a1a1a' }}>{title}</strong>, {desc}
                     </p>
                   </div>
                 ))}
@@ -175,7 +175,7 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Right — Market snapshot */}
+            {/* Right - Market snapshot */}
             <div style={{ background: '#fafafa', borderRadius: 16, padding: 36, border: '1px solid #e8e8e8' }}>
               <h3 style={{ fontFamily: "'Merriweather', Georgia, serif", fontSize: 20, textAlign: 'center', marginBottom: 24 }}>Valrico Market Snapshot</h3>
               <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 14 }}>
@@ -206,7 +206,7 @@ export default function Home() {
             Well-priced Valrico homes for sale go under contract in 30-55 days. Get a free, no-obligation valuation based on actual recent sales in your subdivision.
           </p>
           <div style={{ display: 'flex', gap: 12, justifyContent: 'center', flexWrap: 'wrap' }}>
-            <Link href="/valrico-fl-home-values/" className="btn-white">Get My Home Value — Free</Link>
+            <Link href="/valrico-fl-home-values/" className="btn-white">Get My Home Value, Free</Link>
             <Link href="/sell-my-home-valrico/" className="btn-ghost-white">Read the Selling Guide</Link>
           </div>
         </div>
@@ -304,7 +304,7 @@ export default function Home() {
                   <p style={{ fontSize: 14, lineHeight: 1.8, color: '#555', fontStyle: 'italic' }}>&ldquo;{t.quote}&rdquo;</p>
                 </div>
                 <div style={{ borderTop: '1px solid #f0f0f0', paddingTop: 16, marginTop: 20 }}>
-                  <div style={{ fontFamily: "'Merriweather', Georgia, serif", fontSize: 14, fontWeight: 700, color: '#1a1a1a' }}>— {t.author}</div>
+                  <div style={{ fontFamily: "'Merriweather', Georgia, serif", fontSize: 14, fontWeight: 700, color: '#1a1a1a' }}> -  {t.author}</div>
                   <div style={{ fontSize: 12, color: '#888', marginTop: 2 }}>{t.label}, {t.year}</div>
                 </div>
               </div>
@@ -318,14 +318,14 @@ export default function Home() {
 
       {/* ═══ FAQ ═══ */}
       <FAQSchema
-        heading="Valrico Real Estate — Frequently Asked Questions"
+        heading="Valrico Real Estate - Frequently Asked Questions"
         items={[
           { question: "Who is the best real estate agent in Valrico FL?", answer: "Barrett Henry is a top-rated Broker Associate with REMAX Collective, serving Valrico with 23+ years of real estate experience. He covers all 32 Valrico neighborhoods across ZIP codes 33594 and 33596, holds e-PRO, MRP, and SRS designations, and maintains a 5.0-star rating. Call (813) 733-7907." },
-          { question: "How long does it take to sell a home in Valrico?", answer: "A properly priced Valrico home typically goes under contract within 15-30 days and closes 30-45 days later — roughly 45-75 days total. Overpriced homes sit for months. The key is accurate pricing from day one using actual closed comps from your specific sub-neighborhood, not ZIP code averages." },
+          { question: "How long does it take to sell a home in Valrico?", answer: "A properly priced Valrico home typically goes under contract within 15-30 days and closes 30-45 days later, roughly 45-75 days total. Overpriced homes sit for months. The key is accurate pricing from day one using actual closed comps from your specific sub-neighborhood, not ZIP code averages." },
           { question: "What is the median home price in Valrico FL?", answer: "The median home price in Valrico is approximately $415,000 as of Q3 2026. Prices range from around $275K in entry-level neighborhoods to over $1M in River Hills and Crestwood Estates. Price per square foot averages $210-$220 depending on the subdivision and condition." },
           { question: "What are the best neighborhoods in Valrico?", answer: "It depends on your priorities. Bloomingdale offers the largest community (5,200+ homes, $300K-$500K). River Hills and Crestwood Estates are luxury options ($600K-$1M+). Buckhorn Preserve and Brentwood Hills have newer construction ($350K-$500K). Diamond Hill provides larger lots with no HOA. Barrett covers all 32 neighborhoods and matches buyers to the right fit." },
           { question: "Is Valrico FL a good place to live?", answer: "Valrico consistently ranks among the best suburbs in Hillsborough County, Florida for families. Top-rated schools (Bloomingdale HS, Newsome HS), low crime rates, easy access to I-75 and the Selmon Expressway, and a mix of established and newer neighborhoods make it a strong choice for buyers who want suburban space with Tampa Bay access. Homes for sale in Valrico range from the $275K range to over $1M." },
-          { question: "What school zones are in Valrico?", answer: "Valrico is primarily served by two high school zones: Bloomingdale High School (western Valrico) and Newsome High School (eastern/southern portions including Buckhorn). School zoning is the single biggest price driver in Valrico — homes in top zones consistently sell faster and for more money." },
+          { question: "What school zones are in Valrico?", answer: "Valrico is primarily served by two high school zones: Bloomingdale High School (western Valrico) and Newsome High School (eastern/southern portions including Buckhorn). School zoning is the single biggest price driver in Valrico, homes in top zones consistently sell faster and for more money." },
           { question: "Does Valrico have HOA communities?", answer: "Yes, most Valrico subdivisions have HOAs with fees ranging from $50-$400/month depending on amenities. Some neighborhoods like Diamond Hill and Duncan Groves have no HOA at all. Barrett Henry can help you find the right balance of community amenities vs. freedom based on your preferences." },
           { question: "How do I find new construction homes in Valrico?", answer: "Active new construction communities in Valrico include Arista, Heritage Crest, and Valrico Forest, with prices typically $380K-$550K. Having your own buyer's agent (like Barrett Henry) when purchasing new construction costs you nothing extra and protects your interests during builder contract negotiations." },
         ]}
@@ -353,7 +353,7 @@ export default function Home() {
 
               <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
                 {[
-                  ['business', 'REMAX Collective — Brandon Office', '417 Lithia Pinecrest Rd, Brandon FL 33511'],
+                  ['business', 'REMAX Collective - Brandon Office', '417 Lithia Pinecrest Rd, Brandon FL 33511'],
                   ['phone', '(813) 733-7907', null, 'tel:8137337907'],
                   ['email', 'barrett@nowtb.com', null, 'mailto:barrett@nowtb.com'],
                   ['language', 'nowtb.com', null, 'https://nowtb.com'],
@@ -442,10 +442,10 @@ export default function Home() {
           "priceRange": "$",
           "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "bestRating": "5", "worstRating": "1", "reviewCount": "85", "ratingCount": "85" },
           "review": [
-            { "@type": "Review", "author": { "@type": "Person", "name": "Sarah M." }, "reviewBody": "Barrett made the entire process smooth from start to finish. He knows Valrico inside and out — every neighborhood, every school zone, every price trend.", "reviewRating": { "@type": "Rating", "ratingValue": 5, "bestRating": 5 }, "datePublished": "2025-06-01" },
+            { "@type": "Review", "author": { "@type": "Person", "name": "Sarah M." }, "reviewBody": "Barrett made the entire process smooth from start to finish. He knows Valrico inside and out, every neighborhood, every school zone, every price trend.", "reviewRating": { "@type": "Rating", "ratingValue": 5, "bestRating": 5 }, "datePublished": "2025-06-01" },
             { "@type": "Review", "author": { "@type": "Person", "name": "David & Lisa R." }, "reviewBody": "We interviewed three agents before choosing Barrett. He was the only one who showed us actual comparable sales data. Our home sold in 22 days at 98% of asking price.", "reviewRating": { "@type": "Rating", "ratingValue": 5, "bestRating": 5 }, "datePublished": "2025-03-15" },
             { "@type": "Review", "author": { "@type": "Person", "name": "Marcus J." }, "reviewBody": "As a first-time buyer, Barrett walked me through every step, explained everything in plain English, and made sure I didn't overpay. Found a great home in Twin Lakes.", "reviewRating": { "@type": "Rating", "ratingValue": 5, "bestRating": 5 }, "datePublished": "2024-11-01" },
-            { "@type": "Review", "author": { "@type": "Person", "name": "The Thompson Family" }, "reviewBody": "We relocated from Ohio and Barrett was our guide to everything Valrico. Schools, commute times, flood zones, insurance costs — he covered it all.", "reviewRating": { "@type": "Rating", "ratingValue": 5, "bestRating": 5 }, "datePublished": "2025-08-01" },
+            { "@type": "Review", "author": { "@type": "Person", "name": "The Thompson Family" }, "reviewBody": "We relocated from Ohio and Barrett was our guide to everything Valrico. Schools, commute times, flood zones, insurance costs, he covered it all.", "reviewRating": { "@type": "Rating", "ratingValue": 5, "bestRating": 5 }, "datePublished": "2025-08-01" },
             { "@type": "Review", "author": { "@type": "Person", "name": "Jennifer W." }, "reviewBody": "Barrett told us NOT to sell when we first contacted him. Six months later when it made sense, he listed our home and got us top dollar. That kind of honesty is rare.", "reviewRating": { "@type": "Rating", "ratingValue": 5, "bestRating": 5 }, "datePublished": "2026-01-15" },
           ],
           "sameAs": [

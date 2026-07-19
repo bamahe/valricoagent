@@ -43,7 +43,7 @@ export default function CrestwoodEstatesPage() {
       <div style={{ background: 'var(--blue-deep)' }} className="text-white py-16 px-7">
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
-          <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Crestwood Estates Homes for Sale &mdash; Valrico FL 33596</h1>
+          <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Crestwood Estates Homes for Sale, Valrico FL 33596</h1>
           <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Crestwood Estates is one of Valrico&apos;s most exclusive residential areas, featuring estate-sized lots and custom-built homes in south Valrico (33596). Prices from $500K&ndash;$900K+. Bloomingdale High School zone. No CDD fees. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Crestwood Estates listings</Link>
@@ -88,9 +88,9 @@ export default function CrestwoodEstatesPage() {
           <div>
             {/* --- About --- */}
             <h2 className="font-serif text-2xl mb-4">About Crestwood Estates, Valrico FL</h2>
-            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Crestwood Estates is the kind of neighborhood that serious buyers discover when they realize they want more than what typical Valrico subdivisions offer. Located in south Valrico (33596), this exclusive enclave features estate-sized lots &mdash; many exceeding half an acre &mdash; with custom-built homes that range from upscale family residences to properties approaching and exceeding $900,000.</p>
-            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Homes range from 2,500 to 5,000+ square feet with custom layouts, premium finishes, and generous setbacks from the street. Unlike cookie-cutter developments, each home in Crestwood Estates has its own architectural identity. You will find custom tile work, upgraded cabinetry, owners suites with sitting areas and spa-style bathrooms, and outdoor living spaces that take full advantage of the oversized lots &mdash; resort-style pools, outdoor kitchens, and screened enclosures are common.</p>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>A defining advantage of Crestwood Estates is the absence of CDD fees. Newer Valrico developments routinely tack on $1,000 to $2,500+ per year in CDD assessments on top of property taxes. Crestwood Estates avoids that entirely, which makes the effective cost of ownership more competitive than the sticker price suggests. Mature oak canopy, established landscaping, and the privacy of oversized lots give Crestwood Estates an atmosphere that takes decades to develop &mdash; something no new construction can replicate.</p>
+            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Crestwood Estates is the kind of neighborhood that serious buyers discover when they realize they want more than what typical Valrico subdivisions offer. Located in south Valrico (33596), this exclusive enclave features estate-sized lots, many exceeding half an acre, with custom-built homes that range from upscale family residences to properties approaching and exceeding $900,000.</p>
+            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Homes range from 2,500 to 5,000+ square feet with custom layouts, premium finishes, and generous setbacks from the street. Unlike cookie-cutter developments, each home in Crestwood Estates has its own architectural identity. You will find custom tile work, upgraded cabinetry, owners suites with sitting areas and spa-style bathrooms, and outdoor living spaces that take full advantage of the oversized lots, resort-style pools, outdoor kitchens, and screened enclosures are common.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>A defining advantage of Crestwood Estates is the absence of CDD fees. Newer Valrico developments routinely tack on $1,000 to $2,500+ per year in CDD assessments on top of property taxes. Crestwood Estates avoids that entirely, which makes the effective cost of ownership more competitive than the sticker price suggests. Mature oak canopy, established landscaping, and the privacy of oversized lots give Crestwood Estates an atmosphere that takes decades to develop, something no new construction can replicate.</p>
 
             {/* --- Schools --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Schools Serving Crestwood Estates</h2>
@@ -108,11 +108,11 @@ export default function CrestwoodEstatesPage() {
               <li><strong>Lakeland:</strong> ~26 miles / 30 minutes via I-4</li>
               <li><strong>Tampa International Airport:</strong> ~26 miles / 30&ndash;40 minutes</li>
             </ul>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Despite its estate feel, Crestwood Estates is not remote. Publix, Winn-Dixie, and dining options along Bloomingdale Avenue are minutes away. The location delivers the privacy of estate living with the convenience of suburban commercial access &mdash; a combination that is hard to find in Hillsborough County.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Despite its estate feel, Crestwood Estates is not remote. Publix, Winn-Dixie, and dining options along Bloomingdale Avenue are minutes away. The location delivers the privacy of estate living with the convenience of suburban commercial access, a combination that is hard to find in Hillsborough County.</p>
 
             {/* --- HOA --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">HOA and Community Fees</h2>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Crestwood Estates has a minimal HOA structure that maintains basic community standards without the heavy restrictions of newer developments. Monthly HOA fees are modest. The standout financial advantage is zero CDD fees &mdash; a savings of $1,000&ndash;$2,500+ per year compared to newer Valrico communities. This no-CDD status makes Crestwood Estates more cost-effective on a monthly basis than many properties priced $100K&ndash;$200K lower. Barrett Henry can confirm exact HOA details for any Crestwood Estates property &mdash; call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Crestwood Estates has a minimal HOA structure that maintains basic community standards without the heavy restrictions of newer developments. Monthly HOA fees are modest. The standout financial advantage is zero CDD fees, a savings of $1,000&ndash;$2,500+ per year compared to newer Valrico communities. This no-CDD status makes Crestwood Estates more cost-effective on a monthly basis than many properties priced $100K&ndash;$200K lower. Barrett Henry can confirm exact HOA details for any Crestwood Estates property, call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
 
             {/* --- Comparison --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">How Crestwood Estates Compares to Nearby Neighborhoods</h2>
@@ -215,7 +215,7 @@ export default function CrestwoodEstatesPage() {
 
             <div className="rounded-md p-6" style={{ background: 'var(--blue-deep)' }}>
               <h3 className="font-serif text-lg text-white mb-3">Selling in Crestwood Estates?</h3>
-              <p className="text-sm mb-4" style={{ color: 'rgba(255,255,255,.7)' }}>Free CMA from Barrett Henry, REALTOR&reg;. Actual comps from Crestwood Estates &mdash; not a Zestimate.</p>
+              <p className="text-sm mb-4" style={{ color: 'rgba(255,255,255,.7)' }}>Free CMA from Barrett Henry, REALTOR&reg;. Actual comps from Crestwood Estates, not a Zestimate.</p>
               <Link href="/valrico-fl-home-values/" className="btn-white block text-center text-sm">Get your home value</Link>
             </div>
           </div>

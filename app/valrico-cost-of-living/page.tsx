@@ -7,9 +7,9 @@ export default function ValricoCostOfLiving() {
       {/* --- Hero --- */}
       <section style={{background:'linear-gradient(135deg,#003da5 0%,#001f5c 100%)',color:'#fff',padding:'64px 0'}}>
         <div style={{maxWidth:900,margin:'0 auto',padding:'0 24px'}}>
-          <h1 style={{fontFamily:'Merriweather,serif',fontSize:'clamp(26px,4vw,38px)',lineHeight:1.25,marginBottom:16}}>Cost of Living in Valrico FL — Full Breakdown for 2025-2026</h1>
-          <p style={{fontSize:17,lineHeight:1.7,maxWidth:640,marginBottom:24,color:'rgba(255,255,255,.75)'}}>What does it actually cost to live in Valrico? Not vague index numbers — real dollars for housing, taxes, insurance, utilities, and daily expenses. Barrett Henry, REALTOR&reg; with REMAX Collective, puts actual numbers on every line item so you can budget with confidence.</p>
-          <a href="tel:8137337907" className="btn-solid">(813) 733-7907 — Get Personalized Numbers</a>
+          <h1 style={{fontFamily:'Merriweather,serif',fontSize:'clamp(26px,4vw,38px)',lineHeight:1.25,marginBottom:16}}>Cost of Living in Valrico FL - Full Breakdown for 2025-2026</h1>
+          <p style={{fontSize:17,lineHeight:1.7,maxWidth:640,marginBottom:24,color:'rgba(255,255,255,.75)'}}>What does it actually cost to live in Valrico? Not vague index numbers, real dollars for housing, taxes, insurance, utilities, and daily expenses. Barrett Henry, REALTOR&reg; with REMAX Collective, puts actual numbers on every line item so you can budget with confidence.</p>
+          <a href="tel:8137337907" className="btn-solid">(813) 733-7907 - Get Personalized Numbers</a>
         </div>
       </section>
 
@@ -84,7 +84,7 @@ export default function ValricoCostOfLiving() {
 
           {/* Transportation */}
           <h2 style={{fontFamily:'Merriweather,serif',fontSize:24,fontWeight:700,color:'#003da5',marginBottom:16,marginTop:40}}>Transportation</h2>
-          <p style={{fontSize:15,lineHeight:1.8,color:'#333',marginBottom:16}}>Valrico is car-dependent. Public transit options are limited to HART bus routes that primarily serve Brandon. Most households maintain two vehicles. Gas prices in the Tampa Bay area typically run $0.05 to $0.15 above the national average. Car insurance in Florida is notoriously expensive — expect $1,800 to $3,000 per year per vehicle for full coverage, though rates vary significantly by driver profile.</p>
+          <p style={{fontSize:15,lineHeight:1.8,color:'#333',marginBottom:16}}>Valrico is car-dependent. Public transit options are limited to HART bus routes that primarily serve Brandon. Most households maintain two vehicles. Gas prices in the Tampa Bay area typically run $0.05 to $0.15 above the national average. Car insurance in Florida is notoriously expensive, expect $1,800 to $3,000 per year per vehicle for full coverage, though rates vary significantly by driver profile.</p>
 
           {/* Healthcare */}
           <h2 style={{fontFamily:'Merriweather,serif',fontSize:24,fontWeight:700,color:'#003da5',marginBottom:16,marginTop:40}}>Healthcare</h2>

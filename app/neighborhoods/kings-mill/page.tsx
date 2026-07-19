@@ -43,7 +43,7 @@ export default function KingsMillPage() {
       <div style={{ background: 'var(--blue-deep)' }} className="text-white py-16 px-7">
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
-          <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Kings Mill Homes for Sale &mdash; Valrico FL 33596</h1>
+          <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Kings Mill Homes for Sale, Valrico FL 33596</h1>
           <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Kings Mill is a gated townhome community off Bloomingdale Avenue in south Valrico (33596). The most affordable entry into the Bloomingdale High School zone, with prices from $275K&ndash;$350K. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Kings Mill listings</Link>
@@ -89,13 +89,13 @@ export default function KingsMillPage() {
             {/* --- About --- */}
             <h2 className="font-serif text-2xl mb-4">About Kings Mill, Valrico FL</h2>
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Kings Mill is a gated townhome community located off Bloomingdale Avenue in south Valrico (33596). Built between 2004 and 2006, the community offers the lowest entry price in the entire Valrico market while still delivering gated security and Bloomingdale High School zoning. For first-time buyers trying to break into Valrico, Kings Mill is often the starting point.</p>
-            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Units range from 1,345 to 1,560 square feet with 2 to 3 bedrooms. The townhome format means shared walls, but the tradeoff is straightforward: the HOA handles exterior maintenance, landscaping, and roof upkeep, which cuts your monthly maintenance burden significantly compared to a single-family home. Many owners have updated interiors since original construction &mdash; expect to see modern flooring, refreshed kitchens, and updated bathrooms in recently renovated units.</p>
+            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Units range from 1,345 to 1,560 square feet with 2 to 3 bedrooms. The townhome format means shared walls, but the tradeoff is straightforward: the HOA handles exterior maintenance, landscaping, and roof upkeep, which cuts your monthly maintenance burden significantly compared to a single-family home. Many owners have updated interiors since original construction, expect to see modern flooring, refreshed kitchens, and updated bathrooms in recently renovated units.</p>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>The gated entrance provides both real security and perceived value at resale. Concrete block construction is standard throughout, built to Florida building codes. The community sits within easy reach of Bloomingdale Avenue shopping, dining, and the Bloomingdale regional library. For buyers watching their budget, Kings Mill delivers the Valrico lifestyle at a price point that competes with apartments.</p>
 
             {/* --- Schools --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Schools Serving Kings Mill</h2>
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Kings Mill falls within the Hillsborough County School District and is zoned for <strong>Alafia Elementary</strong>, <strong>Burns Middle School</strong>, and <strong>Bloomingdale High School</strong>. Bloomingdale High is an A-rated school earning a GreatSchools rating of 8/10, with strong AP course offerings, dual enrollment options, and competitive athletics programs.</p>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>The Bloomingdale HS zone is a significant driver of property values in south Valrico. Kings Mill gives buyers access to this school zone at the lowest price point available &mdash; a meaningful advantage for families who prioritize school quality but have tighter budgets. Read the <Link href="/valrico-school-zones/" className="no-underline font-semibold" style={{ color: 'var(--accent)' }}>full Valrico school zone guide</Link> for details on every feeder pattern.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>The Bloomingdale HS zone is a significant driver of property values in south Valrico. Kings Mill gives buyers access to this school zone at the lowest price point available, a meaningful advantage for families who prioritize school quality but have tighter budgets. Read the <Link href="/valrico-school-zones/" className="no-underline font-semibold" style={{ color: 'var(--accent)' }}>full Valrico school zone guide</Link> for details on every feeder pattern.</p>
 
             {/* --- Location & Commute --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Location and Commute</h2>
@@ -112,7 +112,7 @@ export default function KingsMillPage() {
 
             {/* --- HOA --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">HOA and Community Fees</h2>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Kings Mill has a mandatory HOA that covers the gated entrance, exterior maintenance, roof maintenance, landscaping, and common areas. The HOA-maintained exterior is a key selling point for buyers who want minimal upkeep. Monthly fees cover these services and keep the community looking consistent and well-maintained. Barrett Henry can pull the exact current HOA fee for any Kings Mill unit &mdash; call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Kings Mill has a mandatory HOA that covers the gated entrance, exterior maintenance, roof maintenance, landscaping, and common areas. The HOA-maintained exterior is a key selling point for buyers who want minimal upkeep. Monthly fees cover these services and keep the community looking consistent and well-maintained. Barrett Henry can pull the exact current HOA fee for any Kings Mill unit, call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
 
             {/* --- Comparison --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">How Kings Mill Compares to Nearby Neighborhoods</h2>
@@ -218,7 +218,7 @@ export default function KingsMillPage() {
             {/* Selling CTA */}
             <div className="rounded-md p-6" style={{ background: 'var(--blue-deep)' }}>
               <h3 className="font-serif text-lg text-white mb-3">Selling in Kings Mill?</h3>
-              <p className="text-sm mb-4" style={{ color: 'rgba(255,255,255,.7)' }}>Free CMA from Barrett Henry, REALTOR&reg;. Actual comps from your section of Kings Mill &mdash; not a Zestimate.</p>
+              <p className="text-sm mb-4" style={{ color: 'rgba(255,255,255,.7)' }}>Free CMA from Barrett Henry, REALTOR&reg;. Actual comps from your section of Kings Mill, not a Zestimate.</p>
               <Link href="/valrico-fl-home-values/" className="btn-white block text-center text-sm">Get your home value</Link>
             </div>
           </div>

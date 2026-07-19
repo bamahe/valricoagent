@@ -43,7 +43,7 @@ export default function BuckhornPage() {
       <div style={{ background: 'var(--blue-deep)' }} className="text-white py-16 px-7">
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
-          <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Buckhorn Homes for Sale &mdash; Valrico FL 33596</h1>
+          <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Buckhorn Homes for Sale, Valrico FL 33596</h1>
           <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>The Buckhorn / Boyette corridor is one of Valrico&apos;s fastest-growing real estate areas. A mix of established and newer construction with Newsome HS zoning. Prices from $350K&ndash;$500K. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Buckhorn listings</Link>
@@ -112,7 +112,7 @@ export default function BuckhornPage() {
 
             {/* --- HOA --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">HOA and Community Fees</h2>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>HOA structure varies across the Buckhorn corridor. Newer communities like Buckhorn Preserve and Crosby Crossings have mandatory HOAs that maintain parks, trails, and common areas. Some older sections along Boyette Road have no HOA at all. A key advantage over FishHawk Ranch is that many Buckhorn sections do not carry CDD assessments, which can save buyers $1,500 to $3,000+ per year on their property tax bill. Barrett Henry can confirm the exact HOA and CDD status for any Buckhorn property &mdash; call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>HOA structure varies across the Buckhorn corridor. Newer communities like Buckhorn Preserve and Crosby Crossings have mandatory HOAs that maintain parks, trails, and common areas. Some older sections along Boyette Road have no HOA at all. A key advantage over FishHawk Ranch is that many Buckhorn sections do not carry CDD assessments, which can save buyers $1,500 to $3,000+ per year on their property tax bill. Barrett Henry can confirm the exact HOA and CDD status for any Buckhorn property, call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
 
             {/* --- Comparison --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">How Buckhorn Compares to Nearby Neighborhoods</h2>
@@ -215,7 +215,7 @@ export default function BuckhornPage() {
 
             <div className="rounded-md p-6" style={{ background: 'var(--blue-deep)' }}>
               <h3 className="font-serif text-lg text-white mb-3">Selling in Buckhorn?</h3>
-              <p className="text-sm mb-4" style={{ color: 'rgba(255,255,255,.7)' }}>Free CMA from Barrett Henry, REALTOR&reg;. Actual comps from your Buckhorn section &mdash; not a Zestimate.</p>
+              <p className="text-sm mb-4" style={{ color: 'rgba(255,255,255,.7)' }}>Free CMA from Barrett Henry, REALTOR&reg;. Actual comps from your Buckhorn section, not a Zestimate.</p>
               <Link href="/valrico-fl-home-values/" className="btn-white block text-center text-sm">Get your home value</Link>
             </div>
           </div>

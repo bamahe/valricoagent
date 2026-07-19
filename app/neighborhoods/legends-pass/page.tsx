@@ -43,7 +43,7 @@ export default function LegendsPassPage() {
       <div style={{ background: 'var(--blue-deep)' }} className="text-white py-16 px-7">
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
-          <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Legends Pass Homes for Sale &mdash; Valrico FL 33594</h1>
+          <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Legends Pass Homes for Sale, Valrico FL 33594</h1>
           <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Legends Pass is a newer construction community near the Diamond Hill corridor in north Valrico (33594). Modern floor plans and Newsome HS zoning, with prices from $400K&ndash;$550K. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Legends Pass listings</Link>
@@ -89,7 +89,7 @@ export default function LegendsPassPage() {
             {/* --- About --- */}
             <h2 className="font-serif text-2xl mb-4">About Legends Pass, Valrico FL</h2>
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Legends Pass is a newer construction community positioned near the Diamond Hill corridor in north Valrico (33594). The community delivers what many buyers are searching for in the current market: modern floor plans with contemporary finishes in one of Valrico&apos;s most sought-after school zones. If you want a home that feels current without the timeline and cost of building new, Legends Pass belongs on your shortlist.</p>
-            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Homes range from approximately 1,800 to 3,000 square feet with 3 to 5 bedrooms. The floor plans are distinctly modern &mdash; open-concept kitchens flow into great rooms, owners suites feature walk-in closets and dual vanities, and covered lanais extend the living space outdoors. Many homes include screened pools, which are nearly essential for Florida living. The construction quality reflects mid-2010s to early 2020s building standards with energy-efficient HVAC systems and updated electrical.</p>
+            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Homes range from approximately 1,800 to 3,000 square feet with 3 to 5 bedrooms. The floor plans are distinctly modern, open-concept kitchens flow into great rooms, owners suites feature walk-in closets and dual vanities, and covered lanais extend the living space outdoors. Many homes include screened pools, which are nearly essential for Florida living. The construction quality reflects mid-2010s to early 2020s building standards with energy-efficient HVAC systems and updated electrical.</p>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>The community&apos;s location near the Diamond Hill corridor puts it within striking distance of SR-60 (Brandon Blvd) shopping and dining while maintaining a residential feel. The HOA keeps the neighborhood consistent and well-maintained, protecting both curb appeal and property values across the community. For buyers who have outgrown older Valrico homes and want to step up to something more modern, Legends Pass hits the mark.</p>
 
             {/* --- Schools --- */}
@@ -112,7 +112,7 @@ export default function LegendsPassPage() {
 
             {/* --- HOA --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">HOA and Community Fees</h2>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Legends Pass has a mandatory HOA that maintains community standards, common area landscaping, and architectural guidelines. The HOA protects property values by ensuring consistent upkeep across the neighborhood. Some homes may also carry a CDD (Community Development District) assessment on the property tax bill. Barrett Henry can pull the exact HOA and any CDD amounts for any specific Legends Pass address &mdash; call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Legends Pass has a mandatory HOA that maintains community standards, common area landscaping, and architectural guidelines. The HOA protects property values by ensuring consistent upkeep across the neighborhood. Some homes may also carry a CDD (Community Development District) assessment on the property tax bill. Barrett Henry can pull the exact HOA and any CDD amounts for any specific Legends Pass address, call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
 
             {/* --- Comparison --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">How Legends Pass Compares to Nearby Neighborhoods</h2>
@@ -219,7 +219,7 @@ export default function LegendsPassPage() {
             {/* Selling CTA */}
             <div className="rounded-md p-6" style={{ background: 'var(--blue-deep)' }}>
               <h3 className="font-serif text-lg text-white mb-3">Selling in Legends Pass?</h3>
-              <p className="text-sm mb-4" style={{ color: 'rgba(255,255,255,.7)' }}>Free CMA from Barrett Henry, REALTOR&reg;. Actual comps from your section of Legends Pass &mdash; not a Zestimate.</p>
+              <p className="text-sm mb-4" style={{ color: 'rgba(255,255,255,.7)' }}>Free CMA from Barrett Henry, REALTOR&reg;. Actual comps from your section of Legends Pass, not a Zestimate.</p>
               <Link href="/valrico-fl-home-values/" className="btn-white block text-center text-sm">Get your home value</Link>
             </div>
           </div>

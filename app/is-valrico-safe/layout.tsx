@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Is Valrico FL Safe? — Crime, Neighborhoods & Safety Overview",
+  title: "Is Valrico FL Safe? - Crime, Neighborhoods & Safety Overview",
   description:
     "Is Valrico FL safe? Honest safety overview covering crime stats, safest neighborhoods, schools, and why families choose Valrico. Barrett Henry, REMAX.",
   alternates: { canonical: "/is-valrico-safe/" },
   openGraph: {
-    title: "Is Valrico FL Safe? — Crime, Neighborhoods & Safety Overview",
+    title: "Is Valrico FL Safe? - Crime, Neighborhoods & Safety Overview",
     description:
       "Is Valrico FL safe? Honest safety overview covering crime stats, safest neighborhoods, schools, and why families choose Valrico. Barrett Henry, REMAX.",
     url: "https://valricoagent.com/is-valrico-safe/",

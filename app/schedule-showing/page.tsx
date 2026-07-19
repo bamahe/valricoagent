@@ -7,12 +7,12 @@ import type { Metadata } from 'next';
 import { ScheduleShowingForm } from '../components/ScheduleShowingForm';
 
 export const metadata: Metadata = {
-  title: 'Schedule a Showing — Valrico FL Homes | Barrett Henry',
+  title: 'Schedule a Showing - Valrico FL Homes | Barrett Henry',
   description:
     'Book a private showing of any Valrico home for sale. Barrett Henry responds within 2 hours. Call (813) 733-7907 or fill out the form.',
   alternates: { canonical: '/schedule-showing/' },
   openGraph: {
-    title: 'Schedule a Showing — Valrico FL Homes | Barrett Henry',
+    title: 'Schedule a Showing - Valrico FL Homes | Barrett Henry',
     description:
       'Book a private showing of any Valrico home for sale. Barrett Henry responds within 2 hours. Call (813) 733-7907 or fill out the form.',
     url: 'https://valricoagent.com/schedule-showing/',
@@ -38,7 +38,7 @@ export default function ScheduleShowingPage() {
       </h1>
       <p style={{ fontSize: 15, color: '#555', marginBottom: 32, lineHeight: 1.6 }}>
         Found a home you want to see in person? Fill out the form below and Barrett will confirm
-        your showing within 2 hours — or call{' '}
+        your showing within 2 hours, or call{' '}
         <a href="tel:+18137337907" style={{ color: '#003da5', fontWeight: 600 }}>
           (813) 733-7907
         </a>{' '}
@@ -59,7 +59,7 @@ export default function ScheduleShowingPage() {
 
       {/* Trust signal */}
       <p style={{ fontSize: 13, color: '#888', marginTop: 20, textAlign: 'center' }}>
-        Your information is confidential. Barrett Henry, REALTOR® — 23+ years of real estate experience.
+        Your information is confidential. Barrett Henry, REALTOR®, 23+ years of real estate experience.
       </p>
     </main>
   );

@@ -1,5 +1,5 @@
 /**
- * Listing detail page — /listing/[id]/
+ * Listing detail page, /listing/[id]/
  *
  * Shows full details for a single MLS listing:
  * photo gallery, price, address, description, features, school info,
@@ -29,7 +29,7 @@ export async function generateMetadata(
     title: `${address} | ${price} | Valrico Home for Sale`,
     description: `${listing.BedroomsTotal} bed, ${listing.BathroomsTotalInteger} bath, ${formatSqft(listing.LivingArea)} sqft home for sale at ${address}. Listed at ${price}. Contact Barrett Henry, REALTOR® at (813) 733-7907.`,
     openGraph: {
-      title: `${address} — ${price}`,
+      title: `${address}, ${price}`,
       description: `${listing.BedroomsTotal}bd/${listing.BathroomsTotalInteger}ba · ${formatSqft(listing.LivingArea)} sqft · ${listing.SubdivisionName || listing.City}`,
       images: [{ url: getPrimaryPhoto(listing), width: 800, height: 600 }],
     },
@@ -84,7 +84,7 @@ export default async function ListingDetailPage(
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={photos[0].MediaURL}
-                alt={`${address} — main photo`}
+                alt={`${address}, main photo`}
                 style={{ width: '100%', height: '100%', objectFit: 'cover', minHeight: 300 }}
               />
               {/* Side photos (up to 2) */}
@@ -117,7 +117,7 @@ export default async function ListingDetailPage(
 
         {/* Main content grid */}
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 380px', gap: 40 }}>
-          {/* Left column — listing details */}
+          {/* Left column, listing details */}
           <div>
             {/* Price + address */}
             <div style={{ marginBottom: 24 }}>
@@ -140,9 +140,9 @@ export default async function ListingDetailPage(
               {[
                 [listing.BedroomsTotal, 'Beds', 'bed'],
                 [listing.BathroomsTotalInteger, 'Baths', 'bathtub'],
-                [listing.LivingArea > 0 ? formatSqft(listing.LivingArea) : '—', 'Sq Ft', 'straighten'],
-                [listing.YearBuilt || '—', 'Built', 'calendar_today'],
-                [listing.LotSizeAcres ? `${listing.LotSizeAcres} ac` : '—', 'Lot', 'grass'],
+                [listing.LivingArea > 0 ? formatSqft(listing.LivingArea) : ' - ', 'Sq Ft', 'straighten'],
+                [listing.YearBuilt || ' - ', 'Built', 'calendar_today'],
+                [listing.LotSizeAcres ? `${listing.LotSizeAcres} ac` : ' - ', 'Lot', 'grass'],
                 [listing.GarageSpaces || 0, 'Garage', 'garage'],
               ].map(([val, label, icon]) => (
                 <div key={label as string} style={{ textAlign: 'center' }}>
@@ -169,11 +169,11 @@ export default async function ListingDetailPage(
                   ['Property Type', listing.PropertySubType || listing.PropertyType],
                   ['Status', listing.MlsStatus || listing.StandardStatus],
                   ['MLS #', listing.ListingId],
-                  ['Days on Market', listing.DaysOnMarket != null ? `${listing.DaysOnMarket} days` : '—'],
-                  ['Subdivision', listing.SubdivisionName || '—'],
-                  ['Year Built', listing.YearBuilt || '—'],
-                  ['Living Area', listing.LivingArea > 0 ? `${formatSqft(listing.LivingArea)} sqft` : '—'],
-                  ['Lot Size', listing.LotSizeAcres ? `${listing.LotSizeAcres} acres` : listing.LotSizeSquareFeet ? `${formatSqft(listing.LotSizeSquareFeet)} sqft` : '—'],
+                  ['Days on Market', listing.DaysOnMarket != null ? `${listing.DaysOnMarket} days` : ' - '],
+                  ['Subdivision', listing.SubdivisionName || ' - '],
+                  ['Year Built', listing.YearBuilt || ' - '],
+                  ['Living Area', listing.LivingArea > 0 ? `${formatSqft(listing.LivingArea)} sqft` : ' - '],
+                  ['Lot Size', listing.LotSizeAcres ? `${listing.LotSizeAcres} acres` : listing.LotSizeSquareFeet ? `${formatSqft(listing.LotSizeSquareFeet)} sqft` : ' - '],
                   ['Pool', listing.PoolPrivateYN ? 'Yes' : 'No'],
                   ['Waterfront', listing.WaterfrontYN ? 'Yes' : 'No'],
                   ['Garage', listing.GarageSpaces ? `${listing.GarageSpaces} spaces` : 'No'],
@@ -257,7 +257,7 @@ export default async function ListingDetailPage(
             </div>
           </div>
 
-          {/* Right column — contact CTA */}
+          {/* Right column, contact CTA */}
           <div>
             <div style={{
               position: 'sticky', top: 80,
@@ -317,7 +317,7 @@ export default async function ListingDetailPage(
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Product",
-        "name": `${address} — Home for Sale`,
+        "name": `${address} - Home for Sale`,
         "description": listing.PublicRemarks?.slice(0, 200) || `${listing.BedroomsTotal} bed, ${listing.BathroomsTotalInteger} bath home in ${listing.City}`,
         "image": photos[0]?.MediaURL,
         "offers": {

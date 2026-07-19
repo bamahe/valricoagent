@@ -43,7 +43,7 @@ export default function WellingtonPage() {
       <div style={{ background: 'var(--blue-deep)' }} className="text-white py-16 px-7">
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
-          <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Wellington Homes for Sale &mdash; Valrico FL 33596</h1>
+          <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Wellington Homes for Sale, Valrico FL 33596</h1>
           <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Wellington is an established neighborhood with generous lots in south Valrico (33596). Prices from $375K&ndash;$475K. Bloomingdale High School zone. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Wellington listings</Link>
@@ -88,8 +88,8 @@ export default function WellingtonPage() {
           <div>
             {/* --- About --- */}
             <h2 className="font-serif text-2xl mb-4">About Wellington, Valrico FL</h2>
-            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Wellington is one of south Valrico&apos;s established residential anchors &mdash; a community that was built when developers still gave buyers meaningful lot sizes instead of maximizing density. Homes here sit on generous parcels, often a quarter acre or larger, with mature oaks, palms, and landscaping that provide shade and privacy between neighbors. It&apos;s the kind of neighborhood where you can actually use your backyard, not just look at it through your lanai screen.</p>
-            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>The housing stock in Wellington spans 3 to 5 bedrooms, with most homes falling between 1,600 and 2,800 square feet. Construction dates range primarily from the mid-1980s through the 1990s. Floor plans reflect the preferences of that era &mdash; split-bedroom layouts, formal living and dining rooms, and Florida rooms or screened enclosures that extend the living space. Many homes have been thoughtfully updated by long-term owners: you&apos;ll find renovated kitchens with quartz counters, newer flooring throughout, and modernized owners suites alongside the original solid block construction.</p>
+            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Wellington is one of south Valrico&apos;s established residential anchors, a community that was built when developers still gave buyers meaningful lot sizes instead of maximizing density. Homes here sit on generous parcels, often a quarter acre or larger, with mature oaks, palms, and landscaping that provide shade and privacy between neighbors. It&apos;s the kind of neighborhood where you can actually use your backyard, not just look at it through your lanai screen.</p>
+            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>The housing stock in Wellington spans 3 to 5 bedrooms, with most homes falling between 1,600 and 2,800 square feet. Construction dates range primarily from the mid-1980s through the 1990s. Floor plans reflect the preferences of that era, split-bedroom layouts, formal living and dining rooms, and Florida rooms or screened enclosures that extend the living space. Many homes have been thoughtfully updated by long-term owners: you&apos;ll find renovated kitchens with quartz counters, newer flooring throughout, and modernized owners suites alongside the original solid block construction.</p>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Wellington&apos;s location along the Bloomingdale Avenue corridor places it within easy reach of daily shopping, restaurants, and I-75 access. The neighborhood attracts buyers who want the Bloomingdale High School zone with more property than newer subdivisions can offer. If your priority list includes yard space, established trees, and a neighborhood that doesn&apos;t feel like it was stamped from a builder&apos;s template, Wellington checks those boxes at a price that still leaves room in the budget.</p>
 
             {/* --- Schools --- */}
@@ -112,7 +112,7 @@ export default function WellingtonPage() {
 
             {/* --- HOA --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">HOA and Community Fees</h2>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Wellington has a homeowners association that manages community standards and common area upkeep. HOA fees vary by section within the neighborhood. As a community built in the 1980s and 1990s, Wellington predates the CDD (Community Development District) financing model &mdash; meaning no CDD assessments are tacked onto your tax bill. That keeps total monthly housing costs below what comparably priced newer communities charge. For exact HOA details, call Barrett Henry at <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Wellington has a homeowners association that manages community standards and common area upkeep. HOA fees vary by section within the neighborhood. As a community built in the 1980s and 1990s, Wellington predates the CDD (Community Development District) financing model, meaning no CDD assessments are tacked onto your tax bill. That keeps total monthly housing costs below what comparably priced newer communities charge. For exact HOA details, call Barrett Henry at <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
 
             {/* --- Comparison --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">How Wellington Compares to Nearby Neighborhoods</h2>
@@ -218,7 +218,7 @@ export default function WellingtonPage() {
             {/* Selling CTA */}
             <div className="rounded-md p-6" style={{ background: 'var(--blue-deep)' }}>
               <h3 className="font-serif text-lg text-white mb-3">Selling in Wellington?</h3>
-              <p className="text-sm mb-4" style={{ color: 'rgba(255,255,255,.7)' }}>Free CMA from Barrett Henry, REALTOR&reg;. Real Wellington comps &mdash; not an online estimate.</p>
+              <p className="text-sm mb-4" style={{ color: 'rgba(255,255,255,.7)' }}>Free CMA from Barrett Henry, REALTOR&reg;. Real Wellington comps, not an online estimate.</p>
               <Link href="/valrico-fl-home-values/" className="btn-white block text-center text-sm">Get your home value</Link>
             </div>
           </div>

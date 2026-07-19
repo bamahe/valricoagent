@@ -43,7 +43,7 @@ export default function BloomingdaleOaksPage() {
       <div style={{ background: 'var(--blue-deep)' }} className="text-white py-16 px-7">
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
-          <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Bloomingdale Oaks Homes for Sale &mdash; Valrico FL 33596</h1>
+          <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Bloomingdale Oaks Homes for Sale, Valrico FL 33596</h1>
           <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Bloomingdale Oaks is one of the most recognizable and sought-after sub-neighborhoods within the Bloomingdale community in south Valrico (33596). Prices from $350K&ndash;$475K. Bloomingdale HS zone. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Bloomingdale Oaks listings</Link>
@@ -88,14 +88,14 @@ export default function BloomingdaleOaksPage() {
           <div>
             {/* --- About --- */}
             <h2 className="font-serif text-2xl mb-4">About Bloomingdale Oaks, Valrico FL</h2>
-            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Bloomingdale Oaks is one of the most recognizable and sought-after sub-neighborhoods within the broader Bloomingdale community. Located in south Valrico (33596), it features well-maintained streets with sidewalks, mature landscaping, and a mix of updated and original homes from the 1980s and 1990s. The sidewalks throughout the neighborhood make it one of the more walkable sections of Bloomingdale &mdash; a feature that families with young children consistently value.</p>
+            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Bloomingdale Oaks is one of the most recognizable and sought-after sub-neighborhoods within the broader Bloomingdale community. Located in south Valrico (33596), it features well-maintained streets with sidewalks, mature landscaping, and a mix of updated and original homes from the 1980s and 1990s. The sidewalks throughout the neighborhood make it one of the more walkable sections of Bloomingdale, a feature that families with young children consistently value.</p>
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Pool homes are especially common here and consistently command a $20K to $40K premium over non-pool comparables. Homes typically range from 1,600 to 2,800 square feet with 3 to 5 bedrooms. Updated kitchens with granite or quartz countertops, stainless appliances, and LVP flooring are the standard buyers expect in this section. Original homes with 1990s finishes still sell but at a measurable discount per square foot.</p>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>What sets Bloomingdale Oaks apart from other Bloomingdale sub-neighborhoods is its name recognition and community identity. Buyers specifically search for &ldquo;Bloomingdale Oaks&rdquo; rather than just &ldquo;Bloomingdale,&rdquo; which creates organic demand that supports resale values. The streets feel cared for, the homes are well-maintained, and the neighborhood has a distinct personality that newer subdivisions struggle to replicate.</p>
 
             {/* --- Schools --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Schools Serving Bloomingdale Oaks</h2>
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Bloomingdale Oaks is zoned for <strong>Cimino Elementary</strong>, <strong>Burns Middle School</strong>, and <strong>Bloomingdale High School</strong>. Bloomingdale HS is A-rated by the Florida Department of Education with a GreatSchools rating of 8/10. The school offers AP courses, Cambridge International curriculum, and competitive athletics programs.</p>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>The consistent school zoning and strong community identity make Bloomingdale Oaks one of the most stable sections for resale value in all of Valrico. Families specifically target this section because the school zone is confirmed and consistent &mdash; no boundary surprises. Read the <Link href="/valrico-school-zones/" className="no-underline font-semibold" style={{ color: 'var(--accent)' }}>full Valrico school zone guide</Link> for details.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>The consistent school zoning and strong community identity make Bloomingdale Oaks one of the most stable sections for resale value in all of Valrico. Families specifically target this section because the school zone is confirmed and consistent, no boundary surprises. Read the <Link href="/valrico-school-zones/" className="no-underline font-semibold" style={{ color: 'var(--accent)' }}>full Valrico school zone guide</Link> for details.</p>
 
             {/* --- Location & Commute --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Location and Commute</h2>
@@ -112,7 +112,7 @@ export default function BloomingdaleOaksPage() {
 
             {/* --- HOA --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">HOA and Community Fees</h2>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>HOA structure in Bloomingdale Oaks follows the broader Bloomingdale community model, which varies by section. The sidewalks and well-maintained common areas suggest some level of community management. Barrett Henry can confirm the exact HOA status and fees for any specific Bloomingdale Oaks property &mdash; call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>HOA structure in Bloomingdale Oaks follows the broader Bloomingdale community model, which varies by section. The sidewalks and well-maintained common areas suggest some level of community management. Barrett Henry can confirm the exact HOA status and fees for any specific Bloomingdale Oaks property, call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
 
             {/* --- Comparison --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">How Bloomingdale Oaks Compares to Nearby Neighborhoods</h2>
@@ -216,7 +216,7 @@ export default function BloomingdaleOaksPage() {
 
             <div className="rounded-md p-6" style={{ background: 'var(--blue-deep)' }}>
               <h3 className="font-serif text-lg text-white mb-3">Selling in Bloomingdale Oaks?</h3>
-              <p className="text-sm mb-4" style={{ color: 'rgba(255,255,255,.7)' }}>Free CMA from Barrett Henry, REALTOR&reg;. Actual comps from Bloomingdale Oaks &mdash; not a Zestimate.</p>
+              <p className="text-sm mb-4" style={{ color: 'rgba(255,255,255,.7)' }}>Free CMA from Barrett Henry, REALTOR&reg;. Actual comps from Bloomingdale Oaks, not a Zestimate.</p>
               <Link href="/valrico-fl-home-values/" className="btn-white block text-center text-sm">Get your home value</Link>
             </div>
           </div>

@@ -5,10 +5,10 @@
  * Docs: https://bridgedataoutput.com/docs/platform/API
  *
  * CACHING STRATEGY (multi-layer):
- * 1. In-memory cache (api-cache.ts) — 5 min TTL per unique query
- * 2. Next.js fetch() revalidate — 30 min ISR cache
- * 3. CDN s-maxage + stale-while-revalidate — set in API routes
- * 4. Rate limit protection — 1 min cooldown on 429s
+ * 1. In-memory cache (api-cache.ts), 5 min TTL per unique query
+ * 2. Next.js fetch() revalidate, 30 min ISR cache
+ * 3. CDN s-maxage + stale-while-revalidate, set in API routes
+ * 4. Rate limit protection, 1 min cooldown on 429s
  */
 
 import { getCached, setCached, makeCacheKey } from './api-cache';
@@ -102,9 +102,9 @@ export interface PropertySearchParams {
   noHoa?: boolean;
   /** Single exact MLS subdivision name match */
   subdivision?: string;
-  /** Multiple MLS subdivision names — uses .in operator for OR matching */
+  /** Multiple MLS subdivision names, uses .in operator for OR matching */
   subdivisions?: string[];
-  /** "sale" (default) or "rent" — filters by PropertyType */
+  /** "sale" (default) or "rent", filters by PropertyType */
   listingType?: 'sale' | 'rent';
   /** Only show new construction listings */
   newConstructionOnly?: boolean;
@@ -134,7 +134,7 @@ export function isRateLimited(): boolean {
 /** Mark the API as rate-limited for 1 minute cooldown */
 function markRateLimited(): void {
   rateLimitedUntil = Date.now() + 60 * 1000;
-  console.warn('[Bridge] Rate limited — pausing API calls for 1 minute');
+  console.warn('[Bridge] Rate limited, pausing API calls for 1 minute');
 }
 
 // --- Sale vs Rent property type groups ---
@@ -167,7 +167,7 @@ function buildQueryParams(params: PropertySearchParams): URLSearchParams {
   if (params.noHoa) q.set('AssociationYN', 'false');
   if (params.newConstructionOnly) q.set('NewConstructionYN', 'true');
 
-  // Subdivision filter — array uses .in operator, single string uses exact match
+  // Subdivision filter, array uses .in operator, single string uses exact match
   if (params.subdivisions && params.subdivisions.length > 0) {
     q.set('SubdivisionName.in', params.subdivisions.join(','));
   } else if (params.subdivision) {
@@ -177,11 +177,11 @@ function buildQueryParams(params: PropertySearchParams): URLSearchParams {
   // Only active listings
   q.set('StandardStatus', 'Active');
 
-  // Sale vs Rent — filter by PropertyType groups
+  // Sale vs Rent, filter by PropertyType groups
   if (params.listingType === 'rent') {
     q.set('PropertyType.in', RENT_TYPES.join(','));
   } else if (params.listingType === 'sale' || !params.listingType) {
-    // Default to sales only — exclude leases
+    // Default to sales only, exclude leases
     q.set('PropertyType.in', SALE_TYPES.join(','));
   }
 
@@ -250,7 +250,7 @@ export async function searchListings(params: PropertySearchParams = {}): Promise
   const url = `${BASE_URL}/${DATASET}/listings?${q.toString()}`;
 
   try {
-    // Layer 2: Next.js fetch ISR — 30 min revalidation
+    // Layer 2: Next.js fetch ISR, 30 min revalidation
     const res = await fetch(url, {
       next: { revalidate: 1800 },
     });

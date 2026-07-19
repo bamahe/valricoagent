@@ -33,7 +33,7 @@ export async function POST(req: Request) {
     timeframe,
   } = body;
 
-  // Basic validation — all forms require name, phone, email
+  // Basic validation, all forms require name, phone, email
   if (!firstName || !phone || !email) {
     return NextResponse.json({ success: false, message: 'Name, phone, and email are required.' }, { status: 400 });
   }
@@ -80,7 +80,7 @@ export async function POST(req: Request) {
   const apiKey = process.env.FUB_API_KEY;
   if (!apiKey) {
     // If no FUB key, log but still return success (lead captured in logs)
-    console.error('[leads] FUB_API_KEY not set — lead NOT forwarded to FUB');
+    console.error('[leads] FUB_API_KEY not set, lead NOT forwarded to FUB');
     console.log('[leads] Lead data:', JSON.stringify(body));
     return NextResponse.json({ success: true, message: 'Thank you! Barrett will be in touch shortly.' });
   }

@@ -8,13 +8,13 @@ export default function ValricoOpenHouses() {
       {/* --- Hero --- */}
       <section style={{background:'linear-gradient(135deg,#003da5 0%,#001f5c 100%)',color:'#fff',padding:'64px 0'}}>
         <div style={{maxWidth:900,margin:'0 auto',padding:'0 24px'}}>
-          <h1 style={{fontFamily:'Merriweather,serif',fontSize:'clamp(26px,4vw,38px)',lineHeight:1.25,marginBottom:16}}>Valrico Open Houses This Weekend — Tour Homes in 33594 & 33596</h1>
-          <p style={{fontSize:17,lineHeight:1.7,maxWidth:640,marginBottom:24,color:'rgba(255,255,255,.75)'}}>Open houses are the fastest way to get a feel for Valrico&apos;s neighborhoods, compare floor plans, and see what your budget actually buys. Barrett Henry, REALTOR&reg; with REMAX Collective, can set up private showings for any Valrico listing — not just the ones holding open houses.</p>
-          <a href="tel:8137337907" className="btn-solid">(813) 733-7907 — Schedule a Showing</a>
+          <h1 style={{fontFamily:'Merriweather,serif',fontSize:'clamp(26px,4vw,38px)',lineHeight:1.25,marginBottom:16}}>Valrico Open Houses This Weekend - Tour Homes in 33594 & 33596</h1>
+          <p style={{fontSize:17,lineHeight:1.7,maxWidth:640,marginBottom:24,color:'rgba(255,255,255,.75)'}}>Open houses are the fastest way to get a feel for Valrico&apos;s neighborhoods, compare floor plans, and see what your budget actually buys. Barrett Henry, REALTOR&reg; with REMAX Collective, can set up private showings for any Valrico listing, not just the ones holding open houses.</p>
+          <a href="tel:8137337907" className="btn-solid">(813) 733-7907 - Schedule a Showing</a>
         </div>
       </section>
 
-      {/* PROPERTY SEARCH — homes first */}
+      {/* PROPERTY SEARCH, homes first */}
       <div className="max-w-[900px] mx-auto px-6 pt-8">
         <PropertySearch defaultCity="Valrico" heading="Valrico Open Houses" />
       </div>
@@ -67,7 +67,7 @@ export default function ValricoOpenHouses() {
           <h2 style={{fontFamily:'Merriweather,serif',fontSize:24,fontWeight:700,color:'#003da5',marginBottom:16,marginTop:40}}>Private showings vs open houses</h2>
           <p style={{fontSize:15,lineHeight:1.8,color:'#333',marginBottom:16}}>Open houses are great for browsing, but private showings give you more time and privacy to evaluate a property seriously. With a private showing, Barrett can spend 30 to 45 minutes walking you through the home, pointing out potential issues, and discussing the property&apos;s value relative to comparable recent sales.</p>
           <p style={{fontSize:15,lineHeight:1.8,color:'#333',marginBottom:16}}>More importantly, a private showing means you are not competing with a crowd of other buyers for the listing agent&apos;s attention. You can open cabinets, test water pressure, check the garage, and inspect the yard without feeling rushed. For any home you are seriously considering, a private showing with your own agent is the smarter move.</p>
-          <p style={{fontSize:15,lineHeight:1.8,color:'#333',marginBottom:16}}>Barrett Henry schedules private showings seven days a week across all Valrico neighborhoods. Same-day showings are often possible for active MLS listings. <a href="tel:8137337907" style={{color:'#003da5',fontWeight:600,textDecoration:'none'}}>Call (813) 733-7907</a> or <a href="mailto:barrett@nowtb.com" style={{color:'#003da5',fontWeight:600,textDecoration:'none'}}>email barrett@nowtb.com</a> to schedule.</p>
+          <p style={{fontSize:15,lineHeight:1.8,color:'#333',marginBottom:16}}>Barrett Henry schedules private showings seven days a week across all Valrico neighborhoods. Same-day showings are often possible for active MLS listings. <a href="tel:8137337907" style={{color:'#003da5',fontWeight:600,textDecoration:'none'}}>Call<br/>(813) 733-7907</a> or <a href="mailto:barrett@nowtb.com" style={{color:'#003da5',fontWeight:600,textDecoration:'none'}}>email barrett@nowtb.com</a> to schedule.</p>
 
           {/* Open house etiquette */}
           <h2 style={{fontFamily:'Merriweather,serif',fontSize:24,fontWeight:700,color:'#003da5',marginBottom:16,marginTop:40}}>Open house etiquette tips</h2>
@@ -75,7 +75,7 @@ export default function ValricoOpenHouses() {
           <ul style={{fontSize:15,lineHeight:2,color:'#333',paddingLeft:20,marginBottom:16}}>
             <li>Remove shoes if the seller requests it (many do in Florida due to mud and grass).</li>
             <li>Do not open closed doors without asking the hosting agent first.</li>
-            <li>If you are already working with a buyer&apos;s agent, mention it upfront. The open house agent will ask you to sign in — include your agent&apos;s name.</li>
+            <li>If you are already working with a buyer&apos;s agent, mention it upfront. The open house agent will ask you to sign in, include your agent&apos;s name.</li>
             <li>Do not discuss your budget, timeline, or negotiating strategy within earshot of the listing agent. Save those conversations for your own agent afterward.</li>
             <li>Drive the neighborhood after the open house. Visit at different times of day to assess traffic, noise, and general activity levels.</li>
           </ul>
@@ -105,7 +105,7 @@ export default function ValricoOpenHouses() {
           {/* CTA */}
           <div style={{marginTop:48,padding:32,borderRadius:8,background:'#faf8f5',textAlign:'center'}}>
             <h3 style={{fontFamily:'Merriweather,serif',fontSize:20,marginBottom:8}}>Ready to tour Valrico homes?</h3>
-            <p style={{fontSize:14,color:'#555',marginBottom:16}}>Barrett Henry, REALTOR&reg; with REMAX Collective schedules private showings 7 days a week. Skip the crowd — get one-on-one time with every home on your list.</p>
+            <p style={{fontSize:14,color:'#555',marginBottom:16}}>Barrett Henry, REALTOR&reg; with REMAX Collective schedules private showings 7 days a week. Skip the crowd, get one-on-one time with every home on your list.</p>
             <a href="tel:8137337907" className="btn-solid" style={{marginRight:8}}>(813) 733-7907</a>
             <a href="mailto:barrett@nowtb.com" className="btn-ghost">Email Barrett</a>
           </div>

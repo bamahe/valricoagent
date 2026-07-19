@@ -9,9 +9,9 @@ export default function ValricoCashOffer() {
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{color:'rgba(255,255,255,.5)'}}>Sell Your Home Fast</div>
           <h1 className="font-serif text-[clamp(28px,4vw,40px)] leading-tight tracking-tight mb-4">Get a Cash Offer on Your Valrico Home</h1>
-          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{color:'rgba(255,255,255,.75)'}}>24-hour response. Any condition. No obligation. If you need to sell your Valrico home fast &mdash; without repairs, showings, or the uncertainty of waiting for the right buyer &mdash; a cash offer might be the right move.</p>
+          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{color:'rgba(255,255,255,.75)'}}>24-hour response. Any condition. No obligation. If you need to sell your Valrico home fast, without repairs, showings, or the uncertainty of waiting for the right buyer, a cash offer might be the right move.</p>
           <div className="flex gap-3 flex-wrap">
-            <a href="tel:8137337907" className="btn-solid">Call Barrett &mdash; (813) 733-7907</a>
+            <a href="tel:8137337907" className="btn-solid">Call<br/>(813) 733-7907</a>
             <Link href="/sell-my-home-valrico/" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">Compare with traditional listing</Link>
           </div>
         </div>
@@ -36,8 +36,8 @@ export default function ValricoCashOffer() {
             <div className="space-y-8 mb-10">
               {[
                 ['1. Tell Barrett about your home','Call (813) 733-7907, email barrett@nowtb.com, or fill out the form on the sell-my-home page. Share your address, basic property details, and your timeline. That is all Barrett needs to get started.'],
-                ['2. Get a cash offer within 24 hours','Barrett evaluates your property based on current Valrico market data, condition, and comparable sales. You receive a written cash offer within 24 hours &mdash; no obligation, no pressure, no games.'],
-                ['3. Close on your timeline','Accept the offer and close in as little as 7-14 days. Or pick a date that works for you &mdash; 30 days, 60 days, whenever you need. You choose the closing date.'],
+                ['2. Get a cash offer within 24 hours','Barrett evaluates your property based on current Valrico market data, condition, and comparable sales. You receive a written cash offer within 24 hours, no obligation, no pressure, no games.'],
+                ['3. Close on your timeline','Accept the offer and close in as little as 7-14 days. Or pick a date that works for you, 30 days, 60 days, whenever you need. You choose the closing date.'],
               ].map(([title, desc]) => (
                 <div key={title}>
                   <h3 className="font-semibold text-lg mb-2" style={{color:'var(--ink)'}}>{title}</h3>
@@ -55,7 +55,7 @@ export default function ValricoCashOffer() {
                 ['Inherited property','You inherited a home you do not want to manage, repair, or maintain.'],
                 ['Divorce','You need to liquidate quickly as part of a divorce settlement.'],
                 ['Relocation','Job transfer or life change requires you to move fast.'],
-                ['Deferred maintenance','The house needs major work &mdash; roof, AC, foundation &mdash; and you do not want to invest in repairs.'],
+                ['Deferred maintenance','The house needs major work, roof, AC, foundation, and you do not want to invest in repairs.'],
                 ['Behind on payments','You are facing foreclosure and need to sell before it goes to auction. See pre-foreclosure options.'],
                 ['Tired landlord','You are done being a landlord and want out of a rental property.'],
                 ['Hoarder house','The property needs extensive cleanout and you do not have the time or energy.'],
@@ -92,7 +92,7 @@ export default function ValricoCashOffer() {
                   </tr>
                   <tr>
                     <td className="p-3 border font-medium" style={{borderColor:'var(--border)',color:'var(--ink)'}}>Repairs needed</td>
-                    <td className="p-3 border" style={{borderColor:'var(--border)'}}>None &mdash; sell AS-IS</td>
+                    <td className="p-3 border" style={{borderColor:'var(--border)'}}>None, sell AS-IS</td>
                     <td className="p-3 border" style={{borderColor:'var(--border)'}}>Usually some prep/repairs</td>
                   </tr>
                   <tr style={{background:'var(--cream-warm)'}}>
@@ -102,7 +102,7 @@ export default function ValricoCashOffer() {
                   </tr>
                   <tr>
                     <td className="p-3 border font-medium" style={{borderColor:'var(--border)',color:'var(--ink)'}}>Certainty</td>
-                    <td className="p-3 border" style={{borderColor:'var(--border)'}}>High &mdash; no financing contingency</td>
+                    <td className="p-3 border" style={{borderColor:'var(--border)'}}>High, no financing contingency</td>
                     <td className="p-3 border" style={{borderColor:'var(--border)'}}>Deals can fall through</td>
                   </tr>
                   <tr style={{background:'var(--cream-warm)'}}>
@@ -126,12 +126,12 @@ export default function ValricoCashOffer() {
 
             <div className="rounded-md p-8 mt-4 mb-12" style={{background:'var(--cream-warm)',border:'1px solid var(--border)'}}>
               <p className="text-[15px] leading-[1.8] italic" style={{color:'var(--ink)'}}>&ldquo;I am not going to lowball you and flip your house. I am going to show you real numbers for both paths and let you decide what makes sense for your situation.&rdquo;</p>
-              <p className="text-sm mt-2 font-semibold" style={{color:'var(--ink-soft)'}}>— Barrett Henry, REALTOR®</p>
+              <p className="text-sm mt-2 font-semibold" style={{color:'var(--ink-soft)'}}>- Barrett Henry, REALTOR®</p>
             </div>
 
             {/* CTA */}
             <div className="flex gap-3 flex-wrap mt-8 mb-12">
-              <a href="tel:8137337907" className="btn-solid">Call Barrett &mdash; (813) 733-7907</a>
+              <a href="tel:8137337907" className="btn-solid">Call<br/>(813) 733-7907</a>
               <Link href="/sell-my-home-valrico/" className="btn-ghost">Learn about traditional listing</Link>
             </div>
 
@@ -141,8 +141,8 @@ export default function ValricoCashOffer() {
               {[
                 ['How much will I get for a cash offer on my Valrico home?','Cash offers are typically 70-85% of market value, depending on condition, location, and repair needs. Barrett provides a transparent breakdown showing how the number is calculated, and compares it to what you would net from a traditional listing after commissions, repairs, and carrying costs.'],
                 ['Is there any obligation if I request a cash offer?','None. The cash offer is free, and you are under no pressure to accept. Barrett provides both the cash offer and a traditional listing analysis so you can make an informed decision.'],
-                ['Can I get a cash offer if my home needs major repairs?','Yes. Cash offers are designed for properties in any condition &mdash; roof damage, outdated systems, cosmetic issues, code violations, or anything else. No repairs needed from you.'],
-                ['How fast can I actually close?','As fast as 7 days if title is clear. Most cash closings happen in 10-14 days. If you need more time, you pick the closing date &mdash; there is no rush from the buyer side.'],
+                ['Can I get a cash offer if my home needs major repairs?','Yes. Cash offers are designed for properties in any condition, roof damage, outdated systems, cosmetic issues, code violations, or anything else. No repairs needed from you.'],
+                ['How fast can I actually close?','As fast as 7 days if title is clear. Most cash closings happen in 10-14 days. If you need more time, you pick the closing date, there is no rush from the buyer side.'],
               ].map(([q, a]) => (
                 <div key={q} className="border rounded-md p-5" style={{borderColor:'var(--border)'}}>
                   <h3 className="font-semibold text-base mb-2">{q}</h3>
@@ -157,7 +157,7 @@ export default function ValricoCashOffer() {
             <div className="rounded-md p-6 border" style={{borderColor:'var(--border)',background:'var(--cream-warm)'}}>
               <h3 className="font-serif text-lg mb-3">Get your cash offer</h3>
               <p className="text-sm mb-4 leading-relaxed" style={{color:'var(--ink-soft)'}}>Barrett Henry, REALTOR® at REMAX Collective. Cash offer within 24 hours. No obligation. No repairs. No commission.</p>
-              <a href="tel:8137337907" className="btn-solid block text-center mb-2 text-sm">Call (813) 733-7907</a>
+              <a href="tel:8137337907" className="btn-solid block text-center mb-2 text-sm">Call<br/>(813) 733-7907</a>
               <a href="mailto:barrett@nowtb.com" className="btn-ghost block text-center text-sm">Email Barrett</a>
             </div>
             <div className="rounded-md p-6 border" style={{borderColor:'var(--border)'}}>

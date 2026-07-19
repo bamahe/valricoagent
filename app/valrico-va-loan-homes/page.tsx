@@ -8,10 +8,10 @@ export default function VALoanHomes() {
       <div style={{background:'var(--blue-deep)'}} className="text-white py-16 px-7">
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{color:'rgba(255,255,255,.5)'}}>VA Home Loans</div>
-          <h1 className="font-serif text-[clamp(28px,4vw,40px)] leading-tight tracking-tight mb-4">VA Loan Homes in Valrico, FL — Zero Down for Veterans</h1>
-          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{color:'rgba(255,255,255,.75)'}}>Your VA loan benefit is one of the most powerful homebuying tools available. Zero down payment, no PMI, and competitive interest rates. Barrett Henry works with VA buyers regularly and knows how to get VA offers accepted in Valrico — even in competitive situations.</p>
+          <h1 className="font-serif text-[clamp(28px,4vw,40px)] leading-tight tracking-tight mb-4">VA Loan Homes in Valrico, FL - Zero Down for Veterans</h1>
+          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{color:'rgba(255,255,255,.75)'}}>Your VA loan benefit is one of the most powerful homebuying tools available. Zero down payment, no PMI, and competitive interest rates. Barrett Henry works with VA buyers regularly and knows how to get VA offers accepted in Valrico, even in competitive situations.</p>
           <div className="flex gap-3 flex-wrap">
-            <a href="tel:8137337907" className="btn-solid">Call Barrett — (813) 733-7907</a>
+            <a href="tel:8137337907" className="btn-solid">Call<br/>(813) 733-7907</a>
             <Link href="/valrico-fl-homes-for-sale/" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">Search Valrico Homes</Link>
           </div>
         </div>
@@ -28,7 +28,7 @@ export default function VALoanHomes() {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
               {[
                 ['0% Down Payment','No down payment required. Buy a home with zero out of pocket (other than closing costs and prepaid items).'],
-                ['No PMI','Conventional loans charge private mortgage insurance when you put less than 20% down. VA loans never have PMI — saving $150-$300/month on a typical Valrico home.'],
+                ['No PMI','Conventional loans charge private mortgage insurance when you put less than 20% down. VA loans never have PMI, saving $150-$300/month on a typical Valrico home.'],
                 ['Competitive Rates','VA loan rates are typically 0.25% to 0.5% lower than conventional rates. Over 30 years, that adds up to tens of thousands in savings.'],
                 ['Easier Qualification','VA loans are more forgiving on credit scores and debt-to-income ratios than conventional loans. Most VA lenders work with credit scores as low as 580-620.'],
               ].map(([title,desc])=>(
@@ -41,7 +41,7 @@ export default function VALoanHomes() {
 
             {/* LOAN LIMITS */}
             <h2 className="font-serif text-2xl mb-4 mt-10">VA loan limits in Hillsborough County</h2>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>As of 2026, VA loans have no official loan limit for borrowers with full entitlement — meaning you can buy a home at any price with zero down as long as the lender approves it. For borrowers with reduced entitlement (previous VA loan still active), the conforming loan limit for Hillsborough County applies (currently $766,550). Most Valrico homes fall well within these limits. The median home price in Valrico is around $415K, which is comfortably within full-entitlement VA financing range. Even homes in River Hills and Crestwood Estates ($600K–$1M+) can be purchased with a VA loan if you have full entitlement.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>As of 2026, VA loans have no official loan limit for borrowers with full entitlement, meaning you can buy a home at any price with zero down as long as the lender approves it. For borrowers with reduced entitlement (previous VA loan still active), the conforming loan limit for Hillsborough County applies (currently $766,550). Most Valrico homes fall well within these limits. The median home price in Valrico is around $415K, which is comfortably within full-entitlement VA financing range. Even homes in River Hills and Crestwood Estates ($600K–$1M+) can be purchased with a VA loan if you have full entitlement.</p>
 
             {/* WHICH HOMES QUALIFY */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Which Valrico homes qualify for VA loans?</h2>
@@ -63,13 +63,13 @@ export default function VALoanHomes() {
 
             {/* VA APPRAISAL PROCESS */}
             <h2 className="font-serif text-2xl mb-4 mt-10">The VA appraisal process</h2>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>The VA appraisal is not a home inspection — it is a value determination and minimum property check performed by a VA-assigned appraiser. The appraiser verifies the home meets MPRs and confirms the value supports the purchase price. If the appraisal comes in low, you have options: negotiate with the seller to reduce the price, pay the difference out of pocket, request a Reconsideration of Value (ROV) with additional comparable sales, or walk away with your earnest money. Barrett prepares a comparable market analysis before every offer to minimize the chance of an appraisal shortfall.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>The VA appraisal is not a home inspection, it is a value determination and minimum property check performed by a VA-assigned appraiser. The appraiser verifies the home meets MPRs and confirms the value supports the purchase price. If the appraisal comes in low, you have options: negotiate with the seller to reduce the price, pay the difference out of pocket, request a Reconsideration of Value (ROV) with additional comparable sales, or walk away with your earnest money. Barrett prepares a comparable market analysis before every offer to minimize the chance of an appraisal shortfall.</p>
 
             {/* COMMON VA ISSUES */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Common VA loan issues in Valrico</h2>
             <div className="space-y-4 mb-6">
               {[
-                ['WDO (pest) inspection','Florida requires a Wood Destroying Organism inspection for VA loans. Termite activity is common in Florida. Treatment cost is typically $500-$1,500. Repair costs depend on damage extent. Usually the seller handles this — Barrett negotiates it into the contract.'],
+                ['WDO (pest) inspection','Florida requires a Wood Destroying Organism inspection for VA loans. Termite activity is common in Florida. Treatment cost is typically $500-$1,500. Repair costs depend on damage extent. Usually the seller handles this - Barrett negotiates it into the contract.'],
                 ['Older roofs','Many Valrico homes built in the 1990s-2000s have roofs approaching or past their expected lifespan. VA appraisers will flag roofs with less than 2-3 years of remaining life. This is the most common VA appraisal issue in Valrico. Barrett checks roof age and condition before you make an offer.'],
                 ['Peeling paint on older homes','The VA requires all exterior painted surfaces to be in good condition. Peeling or chipping paint on homes built before 1978 triggers lead-based paint requirements. This is usually a minor repair but can delay closing if not addressed early.'],
                 ['HOA certification for condos','Condos purchased with VA financing must be on the VA-approved condo list or obtain individual approval. Not all Valrico condo communities are VA-approved. Barrett checks VA condo approval status before showing you condos.'],
@@ -90,9 +90,9 @@ export default function VALoanHomes() {
             <div className="space-y-4">
               {[
                 ['Can I use my VA loan more than once?','Yes. VA loan entitlement is reusable. Once you sell a home purchased with a VA loan (or refinance into a conventional loan), your entitlement is restored. You can also have two VA loans at the same time if you have enough remaining entitlement. Barrett can help you understand your current entitlement status.'],
-                ['Who pays for the VA appraisal?','The buyer pays for the VA appraisal, typically $500-$700 in Hillsborough County. The appraisal is ordered through the VA portal by your lender — you cannot choose the appraiser. Turnaround time is usually 7-14 business days.'],
+                ['Who pays for the VA appraisal?','The buyer pays for the VA appraisal, typically $500-$700 in Hillsborough County. The appraisal is ordered through the VA portal by your lender, you cannot choose the appraiser. Turnaround time is usually 7-14 business days.'],
                 ['Do sellers not like VA offers?','Some listing agents push back on VA offers because they assume complications. The reality is that a VA offer from a qualified buyer with a reputable lender closes just as smoothly as conventional. Barrett writes clean VA offers and educates listing agents on the process when needed. Having an experienced agent matters here.'],
-                ['What is the VA funding fee?','The VA charges a funding fee (typically 2.15% for first-time use with zero down) that can be financed into the loan. Disabled veterans with a VA-rated disability are exempt from the funding fee entirely. The funding fee replaces PMI — even with it, VA loans are usually cheaper monthly than conventional loans with PMI.'],
+                ['What is the VA funding fee?','The VA charges a funding fee (typically 2.15% for first-time use with zero down) that can be financed into the loan. Disabled veterans with a VA-rated disability are exempt from the funding fee entirely. The funding fee replaces PMI, even with it, VA loans are usually cheaper monthly than conventional loans with PMI.'],
               ].map(([q,a])=>(
                 <div key={q} className="border rounded-md p-5" style={{borderColor:'var(--border)'}}>
                   <h3 className="font-semibold text-base mb-2">{q}</h3>
@@ -107,7 +107,7 @@ export default function VALoanHomes() {
             <div className="rounded-md p-6 border" style={{borderColor:'var(--border)',background:'var(--cream-warm)'}}>
               <h3 className="font-serif text-lg mb-3">Using your VA loan in Valrico?</h3>
               <p className="text-sm mb-4 leading-relaxed" style={{color:'var(--ink-soft)'}}>Barrett Henry, REALTOR® at REMAX Collective, works with VA buyers regularly. 23+ years of real estate experience. He knows which homes will pass VA appraisal, how to negotiate VA-specific issues, and how to get your offer accepted.</p>
-              <a href="tel:8137337907" className="btn-solid block text-center mb-2 text-sm">Call (813) 733-7907</a>
+              <a href="tel:8137337907" className="btn-solid block text-center mb-2 text-sm">Call<br/>(813) 733-7907</a>
               <a href="mailto:barrett@nowtb.com" className="btn-ghost block text-center text-sm">Email Barrett</a>
             </div>
             <div className="rounded-md p-6 border" style={{borderColor:'var(--border)'}}>
@@ -132,7 +132,7 @@ export default function VALoanHomes() {
           <h2 className="font-serif text-2xl mb-3">Thank You for Your Service</h2>
           <p className="text-sm mb-6 max-w-[560px] mx-auto" style={{color:'rgba(255,255,255,.7)'}}>Barrett Henry, REALTOR® with REMAX Collective, is proud to work with veterans and active-duty service members. 23+ years of real estate experience. Let Barrett help you use your VA benefit to buy the right home in Valrico.</p>
           <div className="flex gap-3 justify-center flex-wrap">
-            <a href="tel:8137337907" className="btn-solid" style={{background:'#fff',color:'#003da5'}}>Call (813) 733-7907</a>
+            <a href="tel:8137337907" className="btn-solid" style={{background:'#fff',color:'#003da5'}}>Call<br/>(813) 733-7907</a>
             <a href="mailto:barrett@nowtb.com" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-sm rounded no-underline">Email Barrett</a>
           </div>
         </div>

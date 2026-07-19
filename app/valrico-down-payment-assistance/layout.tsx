@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: 'Down Payment Assistance — Valrico FL',
+  title: 'Down Payment Assistance - Valrico FL',
   description: 'Florida down payment assistance programs available to Valrico buyers. Hometown Heroes, SHIP, FHA, VA, and more. Barrett Henry, REMAX Collective.',
   alternates: { canonical: "/valrico-down-payment-assistance/" },
   openGraph: {
-    title: "Down Payment Assistance — Valrico FL",
+    title: "Down Payment Assistance - Valrico FL",
     description: "Florida down payment assistance programs available to Valrico buyers. Hometown Heroes, SHIP, FHA, VA, and more. Barrett Henry, REMAX Collective.",
     url: "https://valricoagent.com/valrico-down-payment-assistance/",
     siteName: "ValricoAgent.com",

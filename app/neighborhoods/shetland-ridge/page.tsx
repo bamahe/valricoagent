@@ -43,7 +43,7 @@ export default function ShetlandRidgePage() {
       <div style={{ background: 'var(--blue-deep)' }} className="text-white py-16 px-7">
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
-          <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Shetland Ridge Homes for Sale &mdash; Valrico FL 33596</h1>
+          <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Shetland Ridge Homes for Sale, Valrico FL 33596</h1>
           <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Shetland Ridge is an established neighborhood of spacious homes on generous lots in south Valrico (33596). Prices from $400K&ndash;$550K. Bloomingdale High School zone. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Shetland Ridge listings</Link>
@@ -88,8 +88,8 @@ export default function ShetlandRidgePage() {
           <div>
             {/* --- About --- */}
             <h2 className="font-serif text-2xl mb-4">About Shetland Ridge, Valrico FL</h2>
-            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Shetland Ridge sits in the heart of south Valrico&apos;s 33596 ZIP code, tucked along the Bloomingdale Avenue corridor where most of Valrico&apos;s daily errands can be handled within a few minutes. The neighborhood was largely built out during the late 1980s and 1990s, giving it the mature tree canopy and settled feel that newer subdivisions simply don&apos;t have. Most streets are lined with live oaks and crepe myrtles that provide genuine shade &mdash; a noticeable difference from the sun-baked concrete of post-2010 developments.</p>
-            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Homes in Shetland Ridge typically range from 1,600 to 2,800 square feet across 3 to 5 bedrooms. Floor plans reflect the era &mdash; you&apos;ll find split bedroom layouts, formal dining rooms, and Florida rooms that many buyers prefer to today&apos;s open-concept trend. Lot sizes skew larger than what builders offer in 2024-era communities, with many parcels at a quarter acre or more. That extra yard space is a major draw for pet owners, families with children, and anyone who simply wants breathing room between homes.</p>
+            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Shetland Ridge sits in the heart of south Valrico&apos;s 33596 ZIP code, tucked along the Bloomingdale Avenue corridor where most of Valrico&apos;s daily errands can be handled within a few minutes. The neighborhood was largely built out during the late 1980s and 1990s, giving it the mature tree canopy and settled feel that newer subdivisions simply don&apos;t have. Most streets are lined with live oaks and crepe myrtles that provide genuine shade, a noticeable difference from the sun-baked concrete of post-2010 developments.</p>
+            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Homes in Shetland Ridge typically range from 1,600 to 2,800 square feet across 3 to 5 bedrooms. Floor plans reflect the era, you&apos;ll find split bedroom layouts, formal dining rooms, and Florida rooms that many buyers prefer to today&apos;s open-concept trend. Lot sizes skew larger than what builders offer in 2024-era communities, with many parcels at a quarter acre or more. That extra yard space is a major draw for pet owners, families with children, and anyone who simply wants breathing room between homes.</p>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Many Shetland Ridge homes have been updated over the decades. Renovated kitchens with granite or quartz countertops, updated owners suites, and newer roof systems are common. A few homes remain in original condition, which can mean opportunity for buyers willing to invest in cosmetic upgrades. The neighborhood&apos;s combination of location, lot size, and school zoning keeps demand steady even in shifting market conditions.</p>
 
             {/* --- Schools --- */}
@@ -108,7 +108,7 @@ export default function ShetlandRidgePage() {
               <li><strong>Lakeland:</strong> ~28 miles / 30&ndash;35 minutes via I-4</li>
               <li><strong>Tampa International Airport:</strong> ~27 miles / 30&ndash;40 minutes</li>
             </ul>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Bloomingdale Avenue provides the essentials within a short drive &mdash; Publix, Walmart, medical offices, banks, and restaurants are all within 2 miles. The Bloomingdale Golfers Club and local parks add recreation options nearby.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Bloomingdale Avenue provides the essentials within a short drive, Publix, Walmart, medical offices, banks, and restaurants are all within 2 miles. The Bloomingdale Golfers Club and local parks add recreation options nearby.</p>
 
             {/* --- HOA --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">HOA and Community Fees</h2>
@@ -218,7 +218,7 @@ export default function ShetlandRidgePage() {
             {/* Selling CTA */}
             <div className="rounded-md p-6" style={{ background: 'var(--blue-deep)' }}>
               <h3 className="font-serif text-lg text-white mb-3">Selling in Shetland Ridge?</h3>
-              <p className="text-sm mb-4" style={{ color: 'rgba(255,255,255,.7)' }}>Free CMA from Barrett Henry, REALTOR&reg;. Actual comps from your section of Shetland Ridge &mdash; not a Zestimate.</p>
+              <p className="text-sm mb-4" style={{ color: 'rgba(255,255,255,.7)' }}>Free CMA from Barrett Henry, REALTOR&reg;. Actual comps from your section of Shetland Ridge, not a Zestimate.</p>
               <Link href="/valrico-fl-home-values/" className="btn-white block text-center text-sm">Get your home value</Link>
             </div>
           </div>

@@ -11,7 +11,7 @@ export default function ValricoRealEstate() {
       "url": "https://valricoagent.com/valrico-real-estate/",
       "telephone": "+1-813-733-7907",
       "email": "barrett@nowtb.com",
-      "description": "Barrett Henry is a Broker Associate with REMAX Collective specializing in Valrico FL real estate — homes for sale, market data, neighborhood guides, and expert guidance.",
+      "description": "Barrett Henry is a Broker Associate with REMAX Collective specializing in Valrico FL real estate, homes for sale, market data, neighborhood guides, and expert guidance.",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "417 Lithia Pinecrest Rd",
@@ -87,7 +87,7 @@ export default function ValricoRealEstate() {
           <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>
             Everything you need to know about Valrico FL real estate: homes for sale, market reports, neighborhood guides, home values, and expert guidance from a Broker Associate who covers every neighborhood in 33594 and 33596.
           </p>
-          <a href="tel:8137337907" className="btn-solid">Talk to Barrett — (813) 733-7907</a>
+          <a href="tel:8137337907" className="btn-solid">Talk to Barrett, (813) 733-7907</a>
         </div>
       </div>
 
@@ -120,7 +120,7 @@ export default function ValricoRealEstate() {
         {/* What's Your Home Worth */}
         <h2 className="font-serif text-2xl mt-10" style={{ color: 'var(--ink)' }}>What&apos;s your Valrico home worth?</h2>
         <p className="text-[15px] leading-[1.8]">
-          Get a free home valuation based on actual comparable sales from your specific sub-neighborhood — not a ZIP code average or an algorithm guess. Barrett pulls real comps, adjusts for condition and upgrades, and gives you a number you can trust.
+          Get a free home valuation based on actual comparable sales from your specific sub-neighborhood, not a ZIP code average or an algorithm guess. Barrett pulls real comps, adjusts for condition and upgrades, and gives you a number you can trust.
         </p>
         <Link href="/valrico-fl-home-values/" className="inline-block mt-2 font-semibold no-underline" style={{ color: 'var(--accent)' }}>
           Get your free home valuation &rarr;

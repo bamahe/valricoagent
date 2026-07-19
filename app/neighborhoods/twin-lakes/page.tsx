@@ -43,7 +43,7 @@ export default function TwinLakesPage() {
       <div style={{ background: 'var(--blue-deep)' }} className="text-white py-16 px-7">
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
-          <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Twin Lakes Homes for Sale &mdash; Valrico FL 33596</h1>
+          <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Twin Lakes Homes for Sale, Valrico FL 33596</h1>
           <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Twin Lakes is a mixed-era neighborhood in south Valrico (33596) with a blend of original and fully updated homes. Prices from $375K&ndash;$475K. Bloomingdale High School zone. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Twin Lakes listings</Link>
@@ -88,8 +88,8 @@ export default function TwinLakesPage() {
           <div>
             {/* --- About --- */}
             <h2 className="font-serif text-2xl mb-4">About Twin Lakes, Valrico FL</h2>
-            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Twin Lakes sits in the 33596 ZIP code along the south Valrico corridor, offering a neighborhood experience that blends older character homes with modern renovations. Unlike communities built in a single phase, Twin Lakes features homes from different construction periods &mdash; giving buyers a wider range of styles, conditions, and price points to choose from within the same streets.</p>
-            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Homes here typically range from 1,500 to 2,600 square feet with 3 to 4 bedrooms. The older portions of Twin Lakes feature block construction with the solid bones that Florida builders favored in the 1980s and early 1990s &mdash; concrete block walls, tile roofs on some models, and split-plan layouts. Many of these homes have been renovated with updated kitchens, modern flooring, and refreshed owners suites. The newer or fully renovated homes in Twin Lakes feel current without the CDD fees or tight lot spacing of recent subdivisions.</p>
+            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Twin Lakes sits in the 33596 ZIP code along the south Valrico corridor, offering a neighborhood experience that blends older character homes with modern renovations. Unlike communities built in a single phase, Twin Lakes features homes from different construction periods, giving buyers a wider range of styles, conditions, and price points to choose from within the same streets.</p>
+            <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Homes here typically range from 1,500 to 2,600 square feet with 3 to 4 bedrooms. The older portions of Twin Lakes feature block construction with the solid bones that Florida builders favored in the 1980s and early 1990s, concrete block walls, tile roofs on some models, and split-plan layouts. Many of these homes have been renovated with updated kitchens, modern flooring, and refreshed owners suites. The newer or fully renovated homes in Twin Lakes feel current without the CDD fees or tight lot spacing of recent subdivisions.</p>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>What makes Twin Lakes practical for buyers is the range of entry points. A home in original condition might price near $375,000, while a comparable floor plan with a full kitchen and bath renovation could list closer to $475,000. That spread creates opportunity for both move-in-ready buyers and those who prefer to add sweat equity. The neighborhood also benefits from its Bloomingdale High School zoning, which supports long-term resale value regardless of the home&apos;s condition when purchased.</p>
 
             {/* --- Schools --- */}
@@ -218,7 +218,7 @@ export default function TwinLakesPage() {
             {/* Selling CTA */}
             <div className="rounded-md p-6" style={{ background: 'var(--blue-deep)' }}>
               <h3 className="font-serif text-lg text-white mb-3">Selling in Twin Lakes?</h3>
-              <p className="text-sm mb-4" style={{ color: 'rgba(255,255,255,.7)' }}>Free CMA from Barrett Henry, REALTOR&reg;. Real comps from Twin Lakes &mdash; not an algorithm guess.</p>
+              <p className="text-sm mb-4" style={{ color: 'rgba(255,255,255,.7)' }}>Free CMA from Barrett Henry, REALTOR&reg;. Real comps from Twin Lakes, not an algorithm guess.</p>
               <Link href="/valrico-fl-home-values/" className="btn-white block text-center text-sm">Get your home value</Link>
             </div>
           </div>

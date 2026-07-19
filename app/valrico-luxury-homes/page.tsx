@@ -8,7 +8,7 @@ export default function LuxuryHomes() {
       <div style={{background:'var(--blue-deep)'}} className="text-white py-16 px-7">
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{color:'rgba(255,255,255,.5)'}}>The REMAX Collection</div>
-          <h1 className="font-serif text-[clamp(28px,4vw,38px)] leading-tight tracking-tight mb-4">Valrico Luxury Homes for Sale — Estates, Golf Course &amp; Waterfront Properties</h1>
+          <h1 className="font-serif text-[clamp(28px,4vw,38px)] leading-tight tracking-tight mb-4">Valrico Luxury Homes for Sale - Estates, Golf Course &amp; Waterfront Properties</h1>
           <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{color:'rgba(255,255,255,.75)'}}>Luxury in Valrico is not about marble foyers and crystal chandeliers. It is about space, privacy, and lifestyle. Estate lots in Crestwood, golf course frontage in River Hills, waterfront living on Lake Valrico, and gated security in Diamond Hill and Arista. Barrett Henry, REALTOR&reg; with REMAX Collective handles luxury transactions through The REMAX Collection.</p>
           <div className="flex gap-3 flex-wrap">
             <a href="https://nowtb.com/luxury/" target="_blank" rel="noopener" className="btn-solid">Browse luxury listings on nowtb.com</a>
@@ -36,23 +36,23 @@ export default function LuxuryHomes() {
 
         <div className="space-y-8 mt-8">
           <div>
-            <h3 className="font-serif text-xl mb-2"><Link href="/neighborhoods/river-hills/" className="no-underline" style={{color:'var(--ink)'}}>River Hills — $600K to $1M+ &rarr;</Link></h3>
+            <h3 className="font-serif text-xl mb-2"><Link href="/neighborhoods/river-hills/" className="no-underline" style={{color:'var(--ink)'}}>River Hills, $600K to $1M+ &rarr;</Link></h3>
             <p className="text-[15px] leading-[1.8]">Guard-gated golf community with 1,326 custom homes along the Joe Lee-designed championship course. Golf course frontage lots represent the top tier. The Alafia River trails, country club dining, and social programming create a lifestyle that justifies premium pricing. Most homes are concrete block from the 1980s-2000s with custom builds continuing today. Bloomingdale HS zone.</p>
           </div>
           <div>
-            <h3 className="font-serif text-xl mb-2"><Link href="/neighborhoods/crestwood-estates/" className="no-underline" style={{color:'var(--ink)'}}>Crestwood Estates — $500K to $900K+ &rarr;</Link></h3>
+            <h3 className="font-serif text-xl mb-2"><Link href="/neighborhoods/crestwood-estates/" className="no-underline" style={{color:'var(--ink)'}}>Crestwood Estates, $500K to $900K+ &rarr;</Link></h3>
             <p className="text-[15px] leading-[1.8]">Estate-sized lots, many exceeding half an acre, with custom-built homes in south Valrico. The distinguishing factor is no CDD fees, which saves $150-$300/month compared to newer luxury developments. Multi-acre properties with true privacy are available. Some homes approach and exceed $1 million. Bloomingdale HS zone.</p>
           </div>
           <div>
-            <h3 className="font-serif text-xl mb-2"><Link href="/neighborhoods/diamond-hill/" className="no-underline" style={{color:'var(--ink)'}}>Diamond Hill — $500K to $700K+ &rarr;</Link></h3>
+            <h3 className="font-serif text-xl mb-2"><Link href="/neighborhoods/diamond-hill/" className="no-underline" style={{color:'var(--ink)'}}>Diamond Hill, $500K to $700K+ &rarr;</Link></h3>
             <p className="text-[15px] leading-[1.8]">Gated community centered around the Chic Adams par-72 course (6,920 yards). Olympic-sized pool, fitness center, and clubhouse included. Executive homes from 3,000 to 6,000+ square feet with golf course and conservation views. The gated entry and resort amenities position Diamond Hill as a full-lifestyle community.</p>
           </div>
           <div>
-            <h3 className="font-serif text-xl mb-2"><Link href="/neighborhoods/arista/" className="no-underline" style={{color:'var(--ink)'}}>Arista — $500K to $600K+ &rarr;</Link></h3>
+            <h3 className="font-serif text-xl mb-2"><Link href="/neighborhoods/arista/" className="no-underline" style={{color:'var(--ink)'}}>Arista, $500K to $600K+ &rarr;</Link></h3>
             <p className="text-[15px] leading-[1.8]">Gated new construction between Lake Valrico and Diamond Hill Golf Course. Modern floor plans with upscale finishes. The newest luxury product available in Valrico, appealing to buyers who want contemporary design with gated security.</p>
           </div>
           <div>
-            <h3 className="font-serif text-xl mb-2"><Link href="/neighborhoods/lake-valrico/" className="no-underline" style={{color:'var(--ink)'}}>Lake Valrico Waterfront — $450K to $700K+ &rarr;</Link></h3>
+            <h3 className="font-serif text-xl mb-2"><Link href="/neighborhoods/lake-valrico/" className="no-underline" style={{color:'var(--ink)'}}>Lake Valrico Waterfront, $450K to $700K+ &rarr;</Link></h3>
             <p className="text-[15px] leading-[1.8]">Custom homes on waterfront lots surrounding Lake Valrico. Some parcels exceed one acre. No HOA in many sections. This is Valrico&apos;s most unique luxury segment: waterfront living with privacy and acreage, minutes from schools and commercial areas.</p>
           </div>
         </div>
@@ -83,7 +83,7 @@ export default function LuxuryHomes() {
 
         <h2 className="font-serif text-2xl mt-12" style={{color:'var(--ink)'}}>Valrico luxury vs. FishHawk and South Tampa</h2>
         <p className="text-[15px] leading-[1.8]">Buyers at the $600K+ level often compare Valrico to FishHawk Ranch and South Tampa. FishHawk offers newer master-planned luxury with resort amenities but adds CDD fees of $200-$350/month on top of HOA. South Tampa provides urban proximity and walkability but at 2-3x the price per square foot with significantly smaller lots. Valrico occupies the middle: more space and privacy than FishHawk, more value per square foot than South Tampa, with the school zones (Bloomingdale HS, Newsome HS) that families prioritize.</p>
-        <p className="text-[15px] leading-[1.8]">For long-term value, Valrico luxury properties have appreciated steadily without the volatility of waterfront or downtown markets. Barrett Henry, REALTOR&reg; can run a detailed comparison for your specific situation. <a href="tel:8137337907" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Call (813) 733-7907</a>. Thinking of selling your luxury home? <Link href="/valrico-fl-home-values/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Get your home value</Link> or read the <Link href="/sell-my-home-valrico/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>selling guide</Link>. Also explore <Link href="/valrico-waterfront-homes/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>waterfront properties</Link> and <Link href="/valrico-pool-homes/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>pool homes</Link> in the area.</p>
+        <p className="text-[15px] leading-[1.8]">For long-term value, Valrico luxury properties have appreciated steadily without the volatility of waterfront or downtown markets. Barrett Henry, REALTOR&reg; can run a detailed comparison for your specific situation. <a href="tel:8137337907" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Call<br/>(813) 733-7907</a>. Thinking of selling your luxury home? <Link href="/valrico-fl-home-values/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Get your home value</Link> or read the <Link href="/sell-my-home-valrico/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>selling guide</Link>. Also explore <Link href="/valrico-waterfront-homes/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>waterfront properties</Link> and <Link href="/valrico-pool-homes/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>pool homes</Link> in the area.</p>
 
         <div className="mt-10 p-6 rounded-md text-center" style={{background:'var(--cream-warm)'}}>
           <h3 className="font-serif text-lg mb-2">Considering a luxury home in Valrico?</h3>

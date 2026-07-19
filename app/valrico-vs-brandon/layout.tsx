@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Valrico vs Brandon FL — Home Prices, Schools & Lifestyle Compared",
+  title: "Valrico vs Brandon FL - Home Prices, Schools & Lifestyle Compared",
   description:
-    "Compare Valrico and Brandon FL side by side — median prices, school ratings, commute times, taxes, and lifestyle. Barrett Henry, REMAX Collective.",
+    "Compare Valrico and Brandon FL side by side, median prices, school ratings, commute times, taxes, and lifestyle. Barrett Henry, REMAX Collective.",
   alternates: { canonical: "/valrico-vs-brandon/" },
   openGraph: {
-    title: "Valrico vs Brandon FL — Home Prices, Schools & Lifestyle Compared",
+    title: "Valrico vs Brandon FL - Home Prices, Schools & Lifestyle Compared",
     description:
-      "Compare Valrico and Brandon FL side by side — median prices, school ratings, commute times, taxes, and lifestyle. Barrett Henry, REMAX Collective.",
+      "Compare Valrico and Brandon FL side by side, median prices, school ratings, commute times, taxes, and lifestyle. Barrett Henry, REMAX Collective.",
     url: "https://valricoagent.com/valrico-vs-brandon/",
     siteName: "ValricoAgent.com",
     type: "website",

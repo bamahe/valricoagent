@@ -1,7 +1,7 @@
 /**
  * app/not-found.tsx
  *
- * Custom 404 page — friendly message with links to key pages.
+ * Custom 404 page, friendly message with links to key pages.
  */
 import Link from 'next/link';
 
@@ -77,7 +77,7 @@ export default function NotFound() {
 
       {/* Trust signal */}
       <p style={{ fontSize: 13, color: '#888', marginTop: 40 }}>
-        Barrett Henry, REALTOR® &amp; Broker Associate — REMAX Collective — 23+ years of real estate experience.
+        Barrett Henry, REALTOR® &amp; Broker Associate - REMAX Collective, 23+ years of real estate experience.
       </p>
     </main>
   );

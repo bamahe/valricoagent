@@ -47,7 +47,7 @@ export async function generateMetadata({
   };
 }
 
-// CTA configs matched to post intent — links match actual site routes
+// CTA configs matched to post intent, links match actual site routes
 const ctaConfig: Record<string, { headline: string; subtext: string; buttonText: string; buttonLink: string }> = {
   buyer: {
     headline: 'Looking for Homes in Valrico?',
@@ -171,13 +171,13 @@ export default async function BlogPostPage({
 
   return (
     <>
-      {/* JSON-LD Schema — Article/BlogPosting */}
+      {/* JSON-LD Schema - Article/BlogPosting */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
-      {/* JSON-LD Schema — BreadcrumbList */}
+      {/* JSON-LD Schema - BreadcrumbList */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -240,7 +240,7 @@ export default async function BlogPostPage({
           <span>{post.reading_time} min read</span>
         </div>
 
-        {/* Hero image — clickable, links to MLS source for compliance */}
+        {/* Hero image, clickable, links to MLS source for compliance */}
         {post.featured_image && (
           <a
             href={post.featured_image}
@@ -250,7 +250,7 @@ export default async function BlogPostPage({
           >
             <Image
               src={post.featured_image}
-              alt={post.featured_image_alt || `${post.title} — Valrico, FL`}
+              alt={post.featured_image_alt || `${post.title} - Valrico, FL`}
               fill
               className="object-cover"
               priority

@@ -22,7 +22,7 @@ export default function robots() {
       { userAgent: 'Applebot-Extended', allow: '/' },
       { userAgent: 'cohere-ai', allow: '/' },
       { userAgent: 'Meta-ExternalAgent', allow: '/' },
-      // Block SEO scraper bots — they consume bandwidth without benefit
+      // Block SEO scraper bots, they consume bandwidth without benefit
       { userAgent: 'SemrushBot', disallow: '/' },
       { userAgent: 'AhrefsBot', disallow: '/' },
       { userAgent: 'MJ12bot', disallow: '/' },

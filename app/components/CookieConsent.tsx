@@ -1,7 +1,7 @@
 "use client";
 
 /**
- * CookieConsent.tsx — Bottom banner for cookie/tracking consent.
+ * CookieConsent.tsx - Bottom banner for cookie/tracking consent.
  * Shows on first visit. Stores choice in localStorage as "cookie-consent".
  * "OK" accepts all. "Manage Preferences" lets users toggle categories.
  */
@@ -80,15 +80,15 @@ export default function CookieConsent() {
         </div>
       </div>
 
-      {/* Preferences panel — slides open when "Manage Preferences" is clicked */}
+      {/* Preferences panel, slides open when "Manage Preferences" is clicked */}
       {prefsOpen && (
         <div className="border-t border-white/10 bg-[#333] px-4 py-4">
           <div className="max-w-5xl mx-auto space-y-3">
-            {/* Essential — always on */}
+            {/* Essential, always on */}
             <label className="flex items-center justify-between text-sm">
               <div>
                 <span className="font-semibold">Essential</span>
-                <span className="text-white/50 ml-2">— Required for site operation</span>
+                <span className="text-white/50 ml-2">- Required for site operation</span>
               </div>
               <span className="text-white/40 text-xs">Always on</span>
             </label>
@@ -97,7 +97,7 @@ export default function CookieConsent() {
             <label className="flex items-center justify-between text-sm cursor-pointer">
               <div>
                 <span className="font-semibold">Analytics</span>
-                <span className="text-white/50 ml-2">— Usage data to improve the site</span>
+                <span className="text-white/50 ml-2">- Usage data to improve the site</span>
               </div>
               <input
                 type="checkbox"
@@ -111,7 +111,7 @@ export default function CookieConsent() {
             <label className="flex items-center justify-between text-sm cursor-pointer">
               <div>
                 <span className="font-semibold">Advertising</span>
-                <span className="text-white/50 ml-2">— Personalized ads and retargeting</span>
+                <span className="text-white/50 ml-2">- Personalized ads and retargeting</span>
               </div>
               <input
                 type="checkbox"

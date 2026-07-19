@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Wellington Homes for Sale — Valrico FL 33596",
+  title: "Wellington Homes for Sale - Valrico FL 33596",
   description:
     "Wellington homes for sale in Valrico FL 33596. Established neighborhood, $375K-$475K, Bloomingdale HS zone. Generous lots with mature trees. Call (813) 733-7907.",
   alternates: { canonical: "/neighborhoods/wellington/" },
   openGraph: {
-    title: "Wellington Homes for Sale — Valrico FL 33596",
+    title: "Wellington Homes for Sale - Valrico FL 33596",
     description:
       "Established neighborhood in south Valrico. $375K-$475K. Bloomingdale HS zone. Generous lots with mature landscaping. Barrett Henry, REALTOR® at REMAX Collective.",
     url: "https://valricoagent.com/neighborhoods/wellington/",

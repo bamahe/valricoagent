@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from 'react';
 
 /**
- * NeighborhoodMap — renders a Google Map centered on a neighborhood.
+ * NeighborhoodMap, renders a Google Map centered on a neighborhood.
  * Uses the Google Maps JavaScript API loaded via a script tag.
  * Requires NEXT_PUBLIC_GOOGLE_MAPS_API_KEY env var.
  */
@@ -51,11 +51,11 @@ export default function NeighborhoodMap({ center, zoom = 14, neighborhoodName }:
     }
 
     if (existingScript) {
-      // Script already loaded — just init the map
+      // Script already loaded, just init the map
       if ((window as any).google?.maps) {
         initMap();
       } else {
-        // Script is loading but not ready yet — wait for it
+        // Script is loading but not ready yet, wait for it
         existingScript.addEventListener('load', initMap);
       }
     } else {
@@ -79,7 +79,7 @@ export default function NeighborhoodMap({ center, zoom = 14, neighborhoodName }:
           className="w-full flex items-center justify-center rounded-lg border text-sm"
           style={{ height: '400px', borderColor: 'var(--border)', background: 'var(--cream)', color: 'var(--ink-muted)' }}
         >
-          Map unavailable — Google Maps API key not configured.
+          Map unavailable - Google Maps API key not configured.
         </div>
       </div>
     );
