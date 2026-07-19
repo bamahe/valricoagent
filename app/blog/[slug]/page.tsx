@@ -256,9 +256,6 @@ export default async function BlogPostPage({
               priority
               sizes="(max-width: 768px) 100vw, 768px"
             />
-            <span className="absolute bottom-3 right-3 bg-black/60 text-white text-xs px-3 py-1 rounded">
-              Photo: Stellar MLS
-            </span>
           </a>
         )}
 
