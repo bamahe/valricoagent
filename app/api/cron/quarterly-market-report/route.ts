@@ -43,6 +43,19 @@ IMPORTANT RULES:
 - Internal links: /neighborhoods/bloomingdale, /neighborhoods/river-hills, /neighborhoods/copper-ridge, /get-help
 - FAQ answers must start with a direct, complete sentence
 
+INTERNAL LINKS — only use these exact URLs when linking to site pages:
+- /valrico-fl-homes-for-sale/ (search homes)
+- /valrico-fl-home-values/ (home values / CMA)
+- /sell-my-home-valrico/ (selling guide)
+- /neighborhoods/bloomingdale/ (Bloomingdale)
+- /neighborhoods/river-hills/ (River Hills)
+- /neighborhoods/copper-ridge/ (Copper Ridge)
+- /neighborhoods/buckhorn/ (Buckhorn)
+- /neighborhoods/ (all neighborhoods)
+- /get-help/ (contact form)
+- /blog/ (all blog posts)
+Do NOT invent URLs. Only link to the pages listed above.
+
 You output valid JSON only. No markdown fencing, no commentary outside the JSON.`;
 }
 

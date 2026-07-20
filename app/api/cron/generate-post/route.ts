@@ -119,6 +119,32 @@ IMPORTANT RULES:
 - Give a direct answer in the first 2-4 sentences of each section
 - End every post with a CTA mentioning Barrett Henry and his phone number
 
+INTERNAL LINKS — only use these exact URLs when linking to site pages:
+- /valrico-fl-homes-for-sale/ (search homes)
+- /valrico-fl-home-values/ (home values / CMA)
+- /sell-my-home-valrico/ (selling guide)
+- /valrico-market-report/ (market report)
+- /valrico-school-zones/ (school zones)
+- /valrico-relocation-guide/ (relocation guide)
+- /valrico-first-time-homebuyer/ (first-time buyers)
+- /valrico-property-management/ (property management)
+- /valrico-pool-homes/ (pool homes)
+- /valrico-luxury-homes/ (luxury homes)
+- /valrico-new-construction-homes/ (new construction)
+- /valrico-no-hoa-homes/ (no HOA homes)
+- /valrico-foreclosures/ (foreclosures)
+- /valrico-cash-offer/ (cash offer)
+- /neighborhoods/bloomingdale/ (Bloomingdale)
+- /neighborhoods/river-hills/ (River Hills)
+- /neighborhoods/buckhorn/ (Buckhorn)
+- /neighborhoods/diamond-hill/ (Diamond Hill)
+- /neighborhoods/copper-ridge/ (Copper Ridge)
+- /neighborhoods/ (all neighborhoods)
+- /get-help/ (contact form)
+- /about/ (about Barrett)
+- /blog/ (all blog posts)
+Do NOT invent URLs. Only link to the pages listed above.
+
 You output valid JSON only. No markdown fencing, no commentary outside the JSON.`;
 }
 
