@@ -4,11 +4,11 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Barrett Henry, REALTOR® - Valrico Real Estate Agent",
   description:
-    "Meet Barrett Henry, your Valrico FL REALTOR® and Broker Associate with REMAX Collective. 23+ years experience, 38 neighborhoods, e-PRO, MRP, SRS designations. Call (813) 733-7907.",
+    "Meet Barrett Henry, your Valrico FL REALTOR® and Broker Associate with REMAX Collective. 23+ years experience, 42 neighborhoods, e-PRO, MRP, SRS designations. Call (813) 733-7907.",
   openGraph: {
     title: "Barrett Henry, REALTOR® - Valrico Real Estate Agent",
     description:
-      "Meet Barrett Henry, your Valrico FL REALTOR® and Broker Associate with REMAX Collective. 23+ years experience, 38 neighborhoods, e-PRO, MRP, SRS designations. Call (813) 733-7907.",
+      "Meet Barrett Henry, your Valrico FL REALTOR® and Broker Associate with REMAX Collective. 23+ years experience, 42 neighborhoods, e-PRO, MRP, SRS designations. Call (813) 733-7907.",
     url: "https://valricoagent.com/about/",
     siteName: "ValricoAgent.com",
     type: "website",

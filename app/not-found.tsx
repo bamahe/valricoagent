@@ -65,7 +65,7 @@ export default function NotFound() {
           href="/neighborhoods/"
           style={{ fontSize: 15, color: '#003da5', fontWeight: 500, textDecoration: 'underline' }}
         >
-          Explore 38 Neighborhoods
+          Explore 42 Neighborhoods
         </Link>
         <Link
           href="/get-help/"

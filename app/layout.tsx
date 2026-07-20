@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     default: "Valrico Realtor | Barrett Henry | REMAX Collective",
     template: "%s | ValricoAgent.com",
   },
-  description: "Barrett Henry - Valrico realtor and Broker Associate with REMAX Collective. Search homes in 33594 & 33596, explore 38 neighborhoods, get your home value.",
+  description: "Barrett Henry - Valrico realtor and Broker Associate with REMAX Collective. Search homes in 33594 & 33596, explore 42 neighborhoods, get your home value.",
   keywords: "Valrico real estate agent, Valrico realtor, homes for sale Valrico FL, Valrico home values, sell my home Valrico, Valrico REMAX, 33594, 33596, Barrett Henry",
   metadataBase: new URL("https://valricoagent.com"),
   alternates: { canonical: "/" },
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   manifest: "/site.webmanifest",
   openGraph: {
     title: "Valrico Realtor | Barrett Henry | REMAX Collective",
-    description: "Your Valrico real estate agent with 23+ years experience. Search homes, explore 38 neighborhoods, get your home value. (813) 733-7907.",
+    description: "Your Valrico real estate agent with 23+ years experience. Search homes, explore 42 neighborhoods, get your home value. (813) 733-7907.",
     url: "https://valricoagent.com",
     siteName: "ValricoAgent.com",
     locale: "en_US",

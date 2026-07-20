@@ -1,5 +1,5 @@
 /**
- * Center coordinates for all 38 Valrico neighborhoods.
+ * Center coordinates for all 42 Valrico neighborhoods.
  * Keys are URL slugs (kebab-case). Values are { lat, lng } objects.
  * Used by NeighborhoodMap component to place a marker on the map.
  */
@@ -42,4 +42,8 @@ export const neighborhoodCoords: Record<string, { lat: number; lng: number }> = 
   'oak-creek': { lat: 27.8865, lng: -82.2590 },
   'lithia-springs': { lat: 27.9170, lng: -82.2760 },
   'valrico-village': { lat: 27.8925, lng: -82.2490 },
+  'cimmaron': { lat: 27.9040, lng: -82.2620 },
+  'buckhorn-golf-club-estates': { lat: 27.9030, lng: -82.2660 },
+  'durant-oaks': { lat: 27.8990, lng: -82.2610 },
+  'copper-ridge': { lat: 27.8920, lng: -82.2530 },
 };

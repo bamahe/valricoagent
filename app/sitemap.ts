@@ -5,7 +5,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = 'https://valricoagent.com'
   const now = new Date().toISOString()
 
-  // All 38 neighborhoods
+  // All 42 neighborhoods
   const neighborhoods = [
     'bloomingdale','river-hills','diamond-hill','buckhorn','twin-lakes','brentwood-hills',
     'crestwood-estates','bloomingdale-east','bloomingdale-oaks','canterbury-oaks',
@@ -15,6 +15,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     'lake-valrico','legends-pass','valrico-oaks','valrico-hills','valri-park',
     'arista','valrico-forest','heritage-crest','northwood-estates',
     'magnolia-park','providence-lakes','summerfield','oak-creek','lithia-springs','valrico-village',
+    'cimmaron','buckhorn-golf-club-estates','durant-oaks','copper-ridge',
   ]
 
   // Core static pages
