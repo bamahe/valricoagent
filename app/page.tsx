@@ -86,7 +86,7 @@ export default function Home() {
               { icon: 'search', title: 'Search Homes for Sale', desc: 'Every active Valrico FL home for sale, updated directly from Stellar MLS.', href: '/valrico-fl-homes-for-sale/', cta: 'Start Search' },
               { icon: 'trending_up', title: 'Sell Your Home', desc: 'Strategic pricing from sub-neighborhood comps. Professional marketing. Sharp negotiation.', href: '/sell-my-home-valrico/', cta: 'Selling Guide' },
               { icon: 'assessment', title: "What's My Home Worth?", desc: 'Free CMA from actual closed comps in your section of Valrico, Florida, not a Zestimate.', href: '/valrico-fl-home-values/', cta: 'Get Your Value' },
-              { icon: 'map', title: '32 Neighborhoods', desc: 'Detailed guides for every subdivision with pricing, schools, and who fits best.', href: '/neighborhoods/', cta: 'Explore' },
+              { icon: 'map', title: '38 Neighborhoods', desc: 'Detailed guides for every subdivision with pricing, schools, and who fits best.', href: '/neighborhoods/', cta: 'Explore' },
               { icon: 'school', title: 'School Zones', desc: 'Bloomingdale HS & Newsome HS zones, how school zoning affects homes for sale and home values.', href: '/valrico-school-zones/', cta: 'School Guide' },
               { icon: 'apartment', title: 'Property Management', desc: 'Full-service rental management for Valrico landlords. In-house maintenance.', href: '/valrico-property-management/', cta: 'Learn More' },
             ].map((s) => (
@@ -248,7 +248,7 @@ export default function Home() {
         <div className="section-inner">
           <div style={{ textAlign: 'center', marginBottom: 36 }}>
             <div className="section-eyebrow" style={{ color: '#003da5' }}>Explore Valrico</div>
-            <h2 className="section-title" style={{ margin: '0 auto' }}>32 Neighborhoods, One Local Expert</h2>
+            <h2 className="section-title" style={{ margin: '0 auto' }}>38 Neighborhoods, One Local Expert</h2>
             <p className="section-intro" style={{ margin: '12px auto 0', textAlign: 'center' }}>Click below for detailed neighborhood guides with current homes for sale, pricing, schools, and honest takes on who each Valrico, Florida community is best for.</p>
           </div>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 12 }}>
@@ -273,7 +273,7 @@ export default function Home() {
           </div>
           <p style={{ textAlign: 'center', marginTop: 24 }}>
             <Link href="/neighborhoods/" style={{ fontWeight: 600, fontSize: 14, color: '#003da5' }}>
-              View All 32 Neighborhoods →
+              View All 38 Neighborhoods →
             </Link>
           </p>
         </div>
