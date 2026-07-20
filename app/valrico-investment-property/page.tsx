@@ -51,7 +51,7 @@ export default function InvestmentProperty() {
                 </div>
               ))}
             </div>
-            <p className="text-sm mb-6" style={{color:'var(--ink-muted)'}}>Q1 2026 estimates based on Stellar MLS rental data and Barrett&apos;s property management portfolio. Actual rents vary by condition, location, and school zone.</p>
+            <p className="text-sm mb-6" style={{color:'var(--ink-muted)'}}>Q3 2026 estimates based on Stellar MLS rental data and Barrett&apos;s property management portfolio. Actual rents vary by condition, location, and school zone.</p>
 
             {/* CAP RATES */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Cap rates and cash flow</h2>
