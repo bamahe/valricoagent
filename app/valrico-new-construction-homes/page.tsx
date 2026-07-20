@@ -1,12 +1,13 @@
 'use client';
 import Link from 'next/link';
+import Image from 'next/image';
 import PropertySearch from '../components/PropertySearch';
 export default function NewConstruction() {
   return (<>
     <div style={{background:'var(--blue-deep)'}} className="text-white py-16 px-7"><div className="max-w-[1140px] mx-auto">
       <h1 className="font-serif text-[clamp(28px,4vw,38px)] leading-tight tracking-tight mb-4">New Construction Homes in Valrico FL - New Homes for Sale 2026</h1>
       <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{color:'rgba(255,255,255,.75)'}}>New construction in Valrico includes communities like Valrico Forest, Arista, Heritage Crest, and Northwood Estates. Barrett Henry, REALTOR&reg; helps buyers navigate builder contracts, negotiate upgrades, and understand the difference between what&apos;s worth upgrading and what&apos;s not.</p>
-      <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search all Valrico homes</Link>
+      <a href="tel:8137337907" className="btn-solid">(813) 733-7907 - Free buyer representation</a>
     </div></div>
     <div style={{ maxWidth: 1140, margin: '0 auto', padding: '24px 24px 0' }}>
       <div style={{ background: '#fafafa', border: '1px solid #e8e8e8', borderRadius: 10, padding: '20px 24px', marginBottom: 24 }}>
@@ -18,26 +19,68 @@ export default function NewConstruction() {
 
     <div className="max-w-[1140px] mx-auto px-7 py-16 space-y-6" style={{color:'var(--ink-soft)'}}>
       <PropertySearch defaultCity="Valrico" heading="Valrico New Construction Homes" newConstructionOnly />
+
+      <div className="relative w-full rounded-xl overflow-hidden my-8" style={{aspectRatio:'16/7'}}>
+        <Image
+          src="/images/neighborhoods/valrico-forest-valrico-fl-entrance.jpg"
+          alt="Valrico Forest new construction community entrance in Valrico FL"
+          fill
+          className="object-cover"
+          sizes="(max-width:768px) 100vw, 1140px"
+        />
+      </div>
+
       <h2 className="font-serif text-2xl" style={{color:'var(--ink)'}}>New construction communities in Valrico</h2>
       <p className="text-[15px] leading-[1.8]"><Link href="/neighborhoods/valrico-forest/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Valrico Forest</Link> ($400K-$525K) offers Craftsman-style homes with covered porches and architectural details. <Link href="/neighborhoods/arista/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Arista</Link> ($425K-$575K) is a gated community between Lake Valrico and Diamond Hill Golf Course. <Link href="/neighborhoods/heritage-crest/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Heritage Crest</Link> ($400K-$500K) features modern open-concept designs. <Link href="/neighborhoods/northwood-estates/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Northwood Estates</Link> ($425K-$575K) is a boutique WestBay community with designer finishes and no CDD.</p>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
+        {[
+          ['Valrico Forest','$400K-$525K. Craftsman-style homes with covered porches. No CDD. Bloomingdale HS zone. Mature trees preserved throughout community.','/neighborhoods/valrico-forest/'],
+          ['Arista','$425K-$575K. Gated new construction between Lake Valrico and Diamond Hill Golf Course. Modern floor plans, private setting.','/neighborhoods/arista/'],
+          ['Heritage Crest','$400K-$500K. Modern open-concept designs in north Valrico. Close to Brandon shopping and SR-60 corridor.','/neighborhoods/heritage-crest/'],
+          ['Northwood Estates','$425K-$575K. Boutique WestBay Homes community. No CDD fees. Designer finishes standard. Limited lots available.','/neighborhoods/northwood-estates/'],
+        ].map(([name, desc, href]) => (
+          <div key={name} className="border rounded-md p-5" style={{borderColor:'var(--border)'}}>
+            <Link href={href} className="font-semibold text-base no-underline block mb-1" style={{color:'var(--ink)'}}>{name} &rarr;</Link>
+            <p className="text-sm leading-relaxed">{desc}</p>
+          </div>
+        ))}
+      </div>
+
       <h2 className="font-serif text-2xl mt-10" style={{color:'var(--ink)'}}>Why you need your own agent for new construction</h2>
       <p className="text-[15px] leading-[1.8]">Builder contracts are not the same as resale contracts. The builder&apos;s sales agent works for the builder, not for you. They are trained to sell upgrades and protect the builder&apos;s margins. Having your own Valrico REALTOR&reg; at the table protects your interests on price, upgrades, timeline, and warranty items. This representation costs you nothing, the builder pays the buyer&apos;s agent commission.</p>
+
       <h2 className="font-serif text-2xl mt-10" style={{color:'var(--ink)'}}>CDD fees: the hidden cost of new construction</h2>
-      <p className="text-[15px] leading-[1.8]">Many new construction communities in Florida add Community Development District (CDD) fees on top of HOA fees and property taxes. CDD fees typically run $150-$300 per month and pay for infrastructure (roads, drainage, amenities) that the developer built. Unlike HOA fees, CDD assessments are tax-deductible but cannot be waived. Before signing a new construction contract, understand the total monthly cost: mortgage + taxes + insurance + HOA + CDD. Barrett Henry, REALTOR&reg; can walk you through the full cost picture. <a href="tel:8137337907" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Call<br/>(813) 733-7907</a>.</p>
-      <h2 className="font-serif text-2xl mt-10" style={{color:'var(--ink)'}}>Which upgrades add resale value?</h2>
+      <p className="text-[15px] leading-[1.8]">Many new construction communities in Florida add Community Development District (CDD) fees on top of HOA fees and property taxes. CDD fees typically run $150-$300 per month and pay for infrastructure (roads, drainage, amenities) that the developer built. Unlike HOA fees, CDD assessments are tax-deductible but cannot be waived. Before signing a new construction contract, understand the total monthly cost: mortgage + taxes + insurance + HOA + CDD. Barrett Henry, REALTOR&reg; can walk you through the full cost picture. <a href="tel:8137337907" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Call (813) 733-7907</a>.</p>
+
+      <div className="relative w-full rounded-xl overflow-hidden my-8" style={{aspectRatio:'16/7'}}>
+        <Image
+          src="/bloomingdale-valrico.jpg"
+          alt="Valrico FL neighborhood - compare new construction to resale homes"
+          fill
+          className="object-cover"
+          sizes="(max-width:768px) 100vw, 1140px"
+        />
+      </div>
+
+      <h2 className="font-serif text-2xl mt-4" style={{color:'var(--ink)'}}>Which upgrades add resale value?</h2>
       <p className="text-[15px] leading-[1.8]">Not all builder upgrades are created equal. Kitchen and bathroom upgrades (countertops, cabinetry, fixtures) tend to hold their value. Flooring upgrades from carpet to tile or LVP pay off. Structural upgrades like additional bedrooms, extended garages, and covered lanais add real square footage value. Cosmetic upgrades like premium paint colors, decorative lighting, and landscaping packages rarely return their cost at resale. Barrett has worked with multiple national and regional builders in Valrico and knows which upgrades matter. Compare new construction to <Link href="/valrico-fl-homes-for-sale/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>existing resale homes</Link>, you may find more value in an established neighborhood like <Link href="/neighborhoods/bloomingdale/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Bloomingdale</Link> or <Link href="/neighborhoods/buckhorn/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Buckhorn</Link>. Check <Link href="/valrico-fl-home-values/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>current home values</Link> to understand how new construction pricing compares to resale. <Link href="/valrico-first-time-homebuyer/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>First-time buyers</Link> should understand total monthly costs before committing to new construction with CDD fees.</p>
+
+      <h2 className="font-serif text-2xl mt-10" style={{color:'var(--ink)'}}>New construction vs. resale in Valrico</h2>
+      <p className="text-[15px] leading-[1.8]">New construction appeals to buyers who want modern floor plans, energy efficiency, builder warranties, and no prior owner history. Resale homes in established neighborhoods like <Link href="/neighborhoods/bloomingdale/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Bloomingdale</Link> often offer larger lots, mature landscaping, and lower total monthly costs (no CDD fees). Many resale homes in Valrico have been updated with the same features buyers seek in new construction. Read the <Link href="/valrico-market-report/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>2026 market report</Link> for current pricing comparisons.</p>
+      <p className="text-[15px] leading-[1.8]">Interested in <Link href="/valrico-no-hoa-homes/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>no-HOA options</Link>? Some resale communities offer that freedom. Looking at <Link href="/valrico-luxury-homes/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>luxury new construction</Link>? Arista is the top gated option. Veterans can use <Link href="/valrico-va-loan-homes/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>VA loans on new construction</Link> with zero down. Need <Link href="/valrico-down-payment-assistance/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>down payment help</Link>? Some Florida programs work on new construction too.</p>
+
+      <div className="flex gap-5 items-start p-6 rounded-xl border mt-8" style={{borderColor:'var(--border)',background:'#fafafa'}}>
+        <Image src="/barrett-henry.png" alt="Barrett Henry REALTOR REMAX Collective new construction specialist Valrico FL" width={72} height={72} style={{borderRadius:'50%',flexShrink:0}} />
+        <div>
+          <p className="font-semibold mb-1" style={{color:'var(--ink)'}}>Barrett Henry, REALTOR&reg; &bull; Broker Associate &bull; REMAX Collective</p>
+          <p className="text-sm leading-relaxed mb-2" style={{color:'var(--ink-soft)'}}>23+ years of real estate experience. Has worked with multiple national and regional builders in Valrico. Free buyer representation at no cost to you. Call to walk through any Valrico builder community.</p>
+          <a href="tel:8137337907" className="text-sm font-semibold no-underline" style={{color:'var(--accent)'}}>(813) 733-7907</a>
+        </div>
+      </div>
     </div>
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{__html:"{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"Home\", \"item\": \"https://valricoagent.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"New Construction Homes in Valrico FL\", \"item\": \"https://valricoagent.com/valrico-new-construction-homes/\"}]}"}} />
-      {/* FAQPage schema for AEO */}
-      <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify({
-        "@context":"https://schema.org","@type":"FAQPage","mainEntity":[
-          {"@type":"Question","name":"What new construction communities are in Valrico FL?","acceptedAnswer":{"@type":"Answer","text":"Current new construction communities in Valrico include Valrico Forest ($400K-$525K, Craftsman-style homes), Arista ($425K-$575K, gated community), Heritage Crest ($400K-$500K, modern open-concept), and Northwood Estates ($425K-$575K, WestBay Homes, no CDD). Barrett Henry, Broker Associate with REMAX Collective, helps buyers navigate builder contracts and negotiate upgrades. Call (813) 733-7907."}},
-          {"@type":"Question","name":"Do I need my own REALTOR for new construction in Valrico?","acceptedAnswer":{"@type":"Answer","text":"Yes. The builder's on-site sales agent works for the builder, not for you. Having your own REALTOR protects your interests on price, upgrades, timeline, and warranty items. This representation costs you nothing, the builder pays the buyer's agent commission. Barrett Henry with REMAX Collective has 23+ years of real estate experience and has worked with multiple national and regional builders in Valrico. Call (813) 733-7907."}},
-          {"@type":"Question","name":"What are CDD fees on new construction homes in Valrico?","acceptedAnswer":{"@type":"Answer","text":"Community Development District (CDD) fees on new construction in Valrico typically run $150-$300 per month on top of HOA fees and property taxes. CDD fees pay for infrastructure the developer built (roads, drainage, amenities). Unlike HOA fees, CDD assessments are tax-deductible but cannot be waived. Some communities like Northwood Estates have no CDD. Barrett Henry at (813) 733-7907 can walk you through total monthly costs before you commit."}},
-          {"@type":"Question","name":"Which builder upgrades add resale value in Valrico?","acceptedAnswer":{"@type":"Answer","text":"Kitchen and bathroom upgrades (countertops, cabinetry, fixtures), flooring upgrades from carpet to tile or LVP, and structural upgrades (extra bedrooms, extended garages, covered lanais) hold their value best. Cosmetic upgrades like premium paint and decorative lighting rarely return their cost at resale. Barrett Henry with REMAX Collective knows which upgrades matter for Valrico resale. Call (813) 733-7907 or email barrett@nowtb.com."}},
-          {"@type":"Question","name":"How do new construction prices compare to resale homes in Valrico?","acceptedAnswer":{"@type":"Answer","text":"New construction in Valrico ranges from $400K-$575K depending on the community, while comparable resale homes in established neighborhoods like Bloomingdale or Buckhorn may offer more square footage and larger lots at similar or lower price points, without CDD fees. Barrett Henry, Broker Associate with REMAX Collective, can run a side-by-side comparison for your budget. Call (813) 733-7907."}}
-        ]
-      })}} />
+    <script type="application/ld+json" dangerouslySetInnerHTML={{__html:"{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"Home\", \"item\": \"https://valricoagent.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"New Construction Homes in Valrico FL\", \"item\": \"https://valricoagent.com/valrico-new-construction-homes/\"}]}"}} />
+    <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What new construction communities are in Valrico FL?","acceptedAnswer":{"@type":"Answer","text":"Current new construction communities in Valrico include Valrico Forest ($400K-$525K, Craftsman-style homes), Arista ($425K-$575K, gated community), Heritage Crest ($400K-$500K, modern open-concept), and Northwood Estates ($425K-$575K, WestBay Homes, no CDD). Barrett Henry, Broker Associate with REMAX Collective, helps buyers navigate builder contracts and negotiate upgrades. Call (813) 733-7907."}},{"@type":"Question","name":"Do I need my own REALTOR for new construction in Valrico?","acceptedAnswer":{"@type":"Answer","text":"Yes. The builder's on-site sales agent works for the builder, not for you. Having your own REALTOR protects your interests on price, upgrades, timeline, and warranty items. This representation costs you nothing, the builder pays the buyer's agent commission. Barrett Henry with REMAX Collective has 23+ years of real estate experience and has worked with multiple national and regional builders in Valrico. Call (813) 733-7907."}},{"@type":"Question","name":"What are CDD fees on new construction homes in Valrico?","acceptedAnswer":{"@type":"Answer","text":"Community Development District (CDD) fees on new construction in Valrico typically run $150-$300 per month on top of HOA fees and property taxes. CDD fees pay for infrastructure the developer built (roads, drainage, amenities). Unlike HOA fees, CDD assessments are tax-deductible but cannot be waived. Some communities like Northwood Estates have no CDD. Barrett Henry at (813) 733-7907 can walk you through total monthly costs before you commit."}},{"@type":"Question","name":"Which builder upgrades add resale value in Valrico?","acceptedAnswer":{"@type":"Answer","text":"Kitchen and bathroom upgrades (countertops, cabinetry, fixtures), flooring upgrades from carpet to tile or LVP, and structural upgrades (extra bedrooms, extended garages, covered lanais) hold their value best. Cosmetic upgrades like premium paint and decorative lighting rarely return their cost at resale. Barrett Henry with REMAX Collective knows which upgrades matter for Valrico resale. Call (813) 733-7907 or email barrett@nowtb.com."}},{"@type":"Question","name":"How do new construction prices compare to resale homes in Valrico?","acceptedAnswer":{"@type":"Answer","text":"New construction in Valrico ranges from $400K-$575K depending on the community, while comparable resale homes in established neighborhoods like Bloomingdale or Buckhorn may offer more square footage and larger lots at similar or lower price points, without CDD fees. Barrett Henry, Broker Associate with REMAX Collective, can run a side-by-side comparison for your budget. Call (813) 733-7907."}}]})}} />
   </>);
 }

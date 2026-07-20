@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function SchoolZones() {
   return (
@@ -13,6 +14,17 @@ export default function SchoolZones() {
       </div>
 
       <div className="max-w-[1140px] mx-auto px-7 py-16 space-y-6" style={{color:'var(--ink-soft)'}}>
+
+        <div className="relative w-full rounded-xl overflow-hidden mb-8" style={{aspectRatio:'16/7'}}>
+          <Image
+            src="/bloomingdale-valrico.jpg"
+            alt="Bloomingdale neighborhood in Valrico FL - zoned for Bloomingdale High School"
+            fill
+            className="object-cover"
+            sizes="(max-width:768px) 100vw, 1140px"
+          />
+        </div>
+
         <h2 className="font-serif text-2xl" style={{color:'var(--ink)'}}>The two high schools that define Valrico real estate</h2>
         <p className="text-[15px] leading-[1.8]">Valrico is served primarily by two A-rated high schools: Bloomingdale High School and Lennard J. Newsome High School (commonly called Newsome). Both consistently rank among the top public high schools in Hillsborough County. The school you are zoned for depends on your specific street address, and the boundaries do not always follow intuitive geographic lines.</p>
 
@@ -42,8 +54,38 @@ export default function SchoolZones() {
         <h2 className="font-serif text-2xl mt-10" style={{color:'var(--ink)'}}>ZIP code 33596 school zoning</h2>
         <p className="text-[15px] leading-[1.8]">The <Link href="/homes-for-sale-33596/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>33596 ZIP code</Link> (south Valrico) is almost entirely within the Bloomingdale HS or Newsome HS zones. This consistency is a primary reason 33596 commands premium pricing. Buyers in 33596 can be confident they are in one of Valrico&apos;s two A-rated high school zones regardless of which specific subdivision they choose.</p>
 
+        <div className="relative w-full rounded-xl overflow-hidden my-8" style={{aspectRatio:'16/7'}}>
+          <Image
+            src="/images/neighborhoods/buckhorn-preserve-valrico-fl-entrance-sign.jpg"
+            alt="Buckhorn Preserve neighborhood entrance in Valrico FL - zoned for Newsome High School"
+            fill
+            className="object-cover"
+            sizes="(max-width:768px) 100vw, 1140px"
+          />
+        </div>
+
+        <h2 className="font-serif text-2xl mt-4" style={{color:'var(--ink)'}}>School zone impact by price tier</h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 my-6">
+          {[
+            ['Entry Level ($300K-$380K)','School zone matters most here. A $20K-$40K premium for Bloomingdale HS or Newsome HS zone is a larger percentage of the purchase price. Verify school zoning before any offer.'],
+            ['Mid Market ($380K-$550K)','Most of this range falls within premium school zones in 33596. Bloomingdale and Buckhorn corridor both offer A-rated high school access.'],
+            ['Luxury ($550K+)','River Hills and Crestwood Estates buyers are virtually guaranteed Bloomingdale HS zone. School zoning is a given at this price tier; lifestyle and lot size drive the premium.'],
+          ].map(([t,d])=>(
+            <div key={t} className="border rounded-md p-5" style={{borderColor:'var(--border)'}}><h3 className="font-semibold text-sm mb-2" style={{color:'var(--ink)'}}>{t}</h3><p className="text-xs leading-relaxed">{d}</p></div>
+          ))}
+        </div>
+
         <h2 className="font-serif text-2xl mt-10" style={{color:'var(--ink)'}}>How to verify school zones</h2>
-        <p className="text-[15px] leading-[1.8]">Hillsborough County Public Schools provides an online school assignment lookup tool. However, boundaries can change between school years. Barrett Henry, REALTOR&reg; verifies school zone assignments as part of every buyer consultation and every listing analysis. Do not rely on Zillow or Redfin school zone information, portal data can lag behind official boundary changes by months. <a href="tel:8137337907" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Call<br/>(813) 733-7907</a> to verify the school zone for any Valrico address. Ready to start your search? <Link href="/valrico-fl-homes-for-sale/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Browse current Valrico listings</Link>. Selling in a premium school zone? <Link href="/valrico-fl-home-values/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Get your home value</Link>, your school zone adds measurable equity. <Link href="/valrico-first-time-homebuyer/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>First-time buyers</Link> should factor school zoning into their budget from day one.</p>
+        <p className="text-[15px] leading-[1.8]">Hillsborough County Public Schools provides an online school assignment lookup tool. However, boundaries can change between school years. Barrett Henry, REALTOR&reg; verifies school zone assignments as part of every buyer consultation and every listing analysis. Do not rely on Zillow or Redfin school zone information, portal data can lag behind official boundary changes by months. <a href="tel:8137337907" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Call (813) 733-7907</a> to verify the school zone for any Valrico address. Ready to start your search? <Link href="/valrico-fl-homes-for-sale/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Browse current Valrico listings</Link>. Selling in a premium school zone? <Link href="/valrico-fl-home-values/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Get your home value</Link>, your school zone adds measurable equity. <Link href="/valrico-first-time-homebuyer/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>First-time buyers</Link> should factor school zoning into their budget from day one. Compare <Link href="/homes-for-sale-33594/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>33594 homes</Link> vs <Link href="/homes-for-sale-33596/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>33596 homes</Link> to understand the ZIP-level school premium.</p>
+
+        <div className="flex gap-5 items-start p-6 rounded-xl border mt-8" style={{borderColor:'var(--border)',background:'#fafafa'}}>
+          <Image src="/barrett-henry.png" alt="Barrett Henry REALTOR Valrico FL school zone expert" width={72} height={72} style={{borderRadius:'50%',flexShrink:0}} />
+          <div>
+            <p className="font-semibold mb-1" style={{color:'var(--ink)'}}>Barrett Henry, REALTOR&reg; &bull; Broker Associate &bull; REMAX Collective</p>
+            <p className="text-sm leading-relaxed mb-2" style={{color:'var(--ink-soft)'}}>23+ years of real estate experience in Valrico. Verifies school zone assignments for every property. Knows exactly which streets feed into Bloomingdale HS vs. Newsome HS. Serving 33594 and 33596.</p>
+            <a href="tel:8137337907" className="text-sm font-semibold no-underline" style={{color:'var(--accent)'}}>(813) 733-7907</a>
+          </div>
+        </div>
 
         <div className="space-y-4 mt-10">
           {[

@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function SellMyHome() {
   return (
@@ -19,8 +20,18 @@ export default function SellMyHome() {
       <div className="max-w-[1140px] mx-auto px-7 py-16">
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_340px] gap-14">
           <div>
+            <div className="relative w-full rounded-xl overflow-hidden mb-8" style={{aspectRatio:'16/7'}}>
+              <Image
+                src="/bloomingdale-valrico.jpg"
+                alt="Bloomingdale neighborhood Valrico FL - Barrett Henry REMAX Collective sells homes here"
+                fill
+                className="object-cover"
+                sizes="(max-width:768px) 100vw, 900px"
+              />
+            </div>
+
             <h2 className="font-serif text-2xl mb-4">How I sell Valrico homes</h2>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>Every Valrico listing I take gets the same process. It&apos;s not complicated, but most agents skip half of it. Here&apos;s what you get when you list with Barrett Henry, REALTOR® at <a href="https://nowtb.com" target="_blank" rel="noopener" className="font-semibold no-underline" style={{color:'var(--accent)'}}>REMAX Collective</a>.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>Every Valrico listing I take gets the same process. It&apos;s not complicated, but most agents skip half of it. Here&apos;s what you get when you list with Barrett Henry, REALTOR&reg; at <a href="https://nowtb.com" target="_blank" rel="noopener" className="font-semibold no-underline" style={{color:'var(--accent)'}}>REMAX Collective</a>.</p>
 
             <div className="space-y-8 mb-10">
               {[
@@ -36,6 +47,25 @@ export default function SellMyHome() {
                   <p className="text-[15px] leading-[1.8]" style={{color:'var(--ink-soft)'}} dangerouslySetInnerHTML={{__html:desc}} />
                 </div>
               ))}
+            </div>
+
+            <div className="relative w-full rounded-xl overflow-hidden my-8" style={{aspectRatio:'16/7'}}>
+              <Image
+                src="/river-hills-valrico.jpg"
+                alt="River Hills luxury homes in Valrico FL - Barrett Henry REALTOR REMAX Collective"
+                fill
+                className="object-cover"
+                sizes="(max-width:768px) 100vw, 900px"
+              />
+            </div>
+
+            <div className="flex gap-5 items-start p-6 rounded-xl border mb-8" style={{borderColor:'var(--border)',background:'#fafafa'}}>
+              <Image src="/barrett-henry.png" alt="Barrett Henry REALTOR Valrico FL - seller representation specialist" width={72} height={72} style={{borderRadius:'50%',flexShrink:0}} />
+              <div>
+                <p className="font-semibold mb-1" style={{color:'var(--ink)'}}>Barrett Henry, REALTOR&reg; &bull; Broker Associate &bull; REMAX Collective</p>
+                <p className="text-sm leading-relaxed mb-2" style={{color:'var(--ink-soft)'}}>23+ years of real estate experience. SRS (Seller Representation Specialist) designation. Serving every Valrico neighborhood in 33594 and 33596. See the <Link href="/valrico-market-report/" className="no-underline" style={{color:'var(--accent)'}}>market report</Link> for current pricing data, <Link href="/valrico-fl-home-values/" className="no-underline" style={{color:'var(--accent)'}}>get your home value</Link>, or explore <Link href="/valrico-cash-offer/" className="no-underline" style={{color:'var(--accent)'}}>cash offer options</Link>.</p>
+                <a href="tel:8137337907" className="text-sm font-semibold no-underline" style={{color:'var(--accent)'}}>(813) 733-7907</a>
+              </div>
             </div>
 
             <h2 className="font-serif text-2xl mb-4 mt-10">What sellers in Valrico ask me most</h2>

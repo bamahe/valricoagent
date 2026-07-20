@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import Image from 'next/image';
 import PropertySearch from '../components/PropertySearch';
 
 export default function LuxuryHomes() {
@@ -31,6 +32,17 @@ export default function LuxuryHomes() {
       </div>
 
       <div className="max-w-[1140px] mx-auto px-7 py-16 space-y-6" style={{color:'var(--ink-soft)'}}>
+
+        <div className="relative w-full rounded-xl overflow-hidden mb-8" style={{aspectRatio:'16/7'}}>
+          <Image
+            src="/images/neighborhoods/river-hills-golf-country-club-valrico-fl-entrance.jpg"
+            alt="River Hills Golf and Country Club entrance in Valrico FL - guard-gated luxury community"
+            fill
+            className="object-cover"
+            sizes="(max-width:768px) 100vw, 1140px"
+          />
+        </div>
+
         <h2 className="font-serif text-2xl" style={{color:'var(--ink)'}}>Where luxury lives in Valrico</h2>
         <p className="text-[15px] leading-[1.8]">Valrico&apos;s luxury market starts around $600K and extends past $1.2 million for the most exclusive properties. Unlike South Tampa or Harbour Island, luxury here is defined by lot size, privacy, and community amenities rather than urban proximity. The trade-off is intentional: buyers at this level want space, not density.</p>
 
@@ -57,7 +69,17 @@ export default function LuxuryHomes() {
           </div>
         </div>
 
-        <h2 className="font-serif text-2xl mt-12" style={{color:'var(--ink)'}}>Search luxury listings now</h2>
+        <div className="relative w-full rounded-xl overflow-hidden my-8" style={{aspectRatio:'16/7'}}>
+          <Image
+            src="/images/neighborhoods/diamond-hill-valrico-fl-entrance.jpg"
+            alt="Diamond Hill gated golf community entrance in Valrico FL - luxury living"
+            fill
+            className="object-cover"
+            sizes="(max-width:768px) 100vw, 1140px"
+          />
+        </div>
+
+        <h2 className="font-serif text-2xl mt-4" style={{color:'var(--ink)'}}>Search luxury listings now</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <a href="https://nowtb.com/luxury/" target="_blank" rel="noopener" className="border rounded-md p-5 no-underline hover:shadow-md transition-shadow block" style={{borderColor:'var(--border)',color:'var(--ink)'}}>
             <span className="font-serif text-lg block mb-1">All Valrico Luxury</span>
@@ -85,7 +107,16 @@ export default function LuxuryHomes() {
         <p className="text-[15px] leading-[1.8]">Buyers at the $600K+ level often compare Valrico to FishHawk Ranch and South Tampa. FishHawk offers newer master-planned luxury with resort amenities but adds CDD fees of $200-$350/month on top of HOA. South Tampa provides urban proximity and walkability but at 2-3x the price per square foot with significantly smaller lots. Valrico occupies the middle: more space and privacy than FishHawk, more value per square foot than South Tampa, with the school zones (Bloomingdale HS, Newsome HS) that families prioritize.</p>
         <p className="text-[15px] leading-[1.8]">For long-term value, Valrico luxury properties have appreciated steadily without the volatility of waterfront or downtown markets. Barrett Henry, REALTOR&reg; can run a detailed comparison for your specific situation. <a href="tel:8137337907" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Call<br/>(813) 733-7907</a>. Thinking of selling your luxury home? <Link href="/valrico-fl-home-values/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Get your home value</Link> or read the <Link href="/sell-my-home-valrico/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>selling guide</Link>. Also explore <Link href="/valrico-waterfront-homes/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>waterfront properties</Link> and <Link href="/valrico-pool-homes/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>pool homes</Link> in the area.</p>
 
-        <div className="mt-10 p-6 rounded-md text-center" style={{background:'var(--cream-warm)'}}>
+        <div className="flex gap-5 items-start p-6 rounded-xl border mt-8 mb-6" style={{borderColor:'var(--border)',background:'#fafafa'}}>
+          <Image src="/barrett-henry.png" alt="Barrett Henry REALTOR REMAX Collection luxury specialist Valrico FL" width={72} height={72} style={{borderRadius:'50%',flexShrink:0}} />
+          <div>
+            <p className="font-semibold mb-1" style={{color:'var(--ink)'}}>Barrett Henry, REALTOR&reg; &bull; Broker Associate &bull; REMAX Collection</p>
+            <p className="text-sm leading-relaxed mb-2" style={{color:'var(--ink-soft)'}}>23+ years of real estate experience. Qualified to list and represent buyers through The REMAX Collection for luxury properties across Tampa Bay. Serving River Hills, Diamond Hill, Crestwood Estates, and Lake Valrico waterfront properties. Explore <Link href="/valrico-waterfront-homes/" className="no-underline" style={{color:'var(--accent)'}}>waterfront homes</Link>, <Link href="/neighborhoods/river-hills/" className="no-underline" style={{color:'var(--accent)'}}>River Hills</Link>, and <Link href="/valrico-pool-homes/" className="no-underline" style={{color:'var(--accent)'}}>pool homes</Link>.</p>
+            <a href="tel:8137337907" className="text-sm font-semibold no-underline" style={{color:'var(--accent)'}}>(813) 733-7907</a>
+          </div>
+        </div>
+
+        <div className="mt-4 p-6 rounded-md text-center" style={{background:'var(--cream-warm)'}}>
           <h3 className="font-serif text-lg mb-2">Considering a luxury home in Valrico?</h3>
           <p className="text-sm mb-4" style={{color:'var(--ink-soft)'}}>Barrett Henry, REALTOR&reg; &middot; REMAX Collection &middot; Broker Associate</p>
           <a href="tel:8137337907" className="btn-solid mr-2">(813) 733-7907</a>
