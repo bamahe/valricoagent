@@ -176,6 +176,39 @@ a { color: inherit; text-decoration: none; }
   transform: translateY(-1px);
   box-shadow: 0 4px 16px rgba(0, 61, 165, 0.25);
 }
+
+/*
+ * Fix invisible btn-solid on blue backgrounds.
+ * When btn-solid is inside a container with a blue/navy background,
+ * flip it to white background with blue text so it's visible.
+ */
+[style*="--blue-deep"] .btn-solid:not([style*="background"]),
+[style*="linear-gradient(135deg, #003da5"] .btn-solid:not([style*="background"]),
+[style*="linear-gradient(160deg, #003da5"] .btn-solid:not([style*="background"]) {
+  background: #fff;
+  color: #003da5 !important;
+}
+[style*="--blue-deep"] .btn-solid:not([style*="background"]):hover,
+[style*="linear-gradient(135deg, #003da5"] .btn-solid:not([style*="background"]):hover,
+[style*="linear-gradient(160deg, #003da5"] .btn-solid:not([style*="background"]):hover {
+  background: #f0f0f0;
+  box-shadow: 0 4px 16px rgba(255,255,255,0.25);
+}
+
+/* Also fix btn-ghost on blue backgrounds - make it white outline */
+[style*="--blue-deep"] .btn-ghost,
+[style*="linear-gradient(135deg, #003da5"] .btn-ghost,
+[style*="linear-gradient(160deg, #003da5"] .btn-ghost {
+  border-color: rgba(255,255,255,0.4);
+  color: #fff;
+}
+[style*="--blue-deep"] .btn-ghost:hover,
+[style*="linear-gradient(135deg, #003da5"] .btn-ghost:hover,
+[style*="linear-gradient(160deg, #003da5"] .btn-ghost:hover {
+  border-color: #fff;
+  background: rgba(255,255,255,0.1);
+  color: #fff;
+}
 .btn-ghost {
   display: inline-flex;
   align-items: center;

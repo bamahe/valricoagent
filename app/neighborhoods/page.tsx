@@ -3,7 +3,7 @@ import Link from 'next/link';
 import FAQSchema from '../components/FAQSchema';
 
 /**
- * Neighborhoods Hub Page, lists all 32 Valrico neighborhoods
+ * Neighborhoods Hub Page, lists all 38 Valrico neighborhoods
  * as a grid of cards with price ranges, school zones, and links.
  */
 
@@ -41,17 +41,23 @@ const neighborhoods = [
   { name: 'Valrico Hills', slug: 'valrico-hills', price: '$300K–$450K', school: 'Bloomingdale HS', homes: '150+', highlight: 'Affordable, close to shopping' },
   { name: 'Valrico Oaks', slug: 'valrico-oaks', price: '$300K–$450K', school: 'Bloomingdale HS', homes: '150+', highlight: 'Oak-canopy streets, no HOA' },
   { name: 'Wellington', slug: 'wellington', price: '$350K–$500K', school: 'Newsome HS', homes: '200+', highlight: 'Well-maintained, community pool' },
+  { name: 'Magnolia Park', slug: 'magnolia-park', price: '$325K–$475K', school: 'Bloomingdale HS', homes: '150+', highlight: 'Quiet streets, close to shopping' },
+  { name: 'Providence Lakes', slug: 'providence-lakes', price: '$300K–$450K', school: 'Bloomingdale HS', homes: '200+', highlight: 'Lake access, family-friendly' },
+  { name: 'Summerfield', slug: 'summerfield', price: '$350K–$500K', school: 'Newsome HS', homes: '150+', highlight: 'Newer construction, community amenities' },
+  { name: 'Oak Creek', slug: 'oak-creek', price: '$275K–$400K', school: 'Bloomingdale HS', homes: '100+', highlight: 'Affordable entry, no HOA options' },
+  { name: 'Lithia Springs', slug: 'lithia-springs', price: '$375K–$525K', school: 'Newsome HS', homes: '100+', highlight: 'Spacious lots, semi-rural setting' },
+  { name: 'Valrico Village', slug: 'valrico-village', price: '$280K–$400K', school: 'Bloomingdale HS', homes: '100+', highlight: 'Established community, mature trees' },
 ];
 
 /* ── FAQ items for the FAQ section + schema ── */
 const faqItems = [
   {
     question: 'What are the best neighborhoods in Valrico FL?',
-    answer: 'The best Valrico neighborhood depends on your priorities. Bloomingdale ($300K–$500K) is the largest with 5,200+ homes and Bloomingdale HS zoning. River Hills ($500K–$1M+) is gated luxury with a golf course. Buckhorn ($350K–$500K) offers Newsome HS zoning along the Boyette corridor. Diamond Hill ($350K–$550K+) has large lots with no HOA. Barrett Henry covers all 32 neighborhoods and matches buyers to the right fit. Call (813) 733-7907.',
+    answer: 'The best Valrico neighborhood depends on your priorities. Bloomingdale ($300K–$500K) is the largest with 5,200+ homes and Bloomingdale HS zoning. River Hills ($500K–$1M+) is gated luxury with a golf course. Buckhorn ($350K–$500K) offers Newsome HS zoning along the Boyette corridor. Diamond Hill ($350K–$550K+) has large lots with no HOA. Barrett Henry covers all 38 neighborhoods and matches buyers to the right fit. Call (813) 733-7907.',
   },
   {
     question: 'How many neighborhoods are in Valrico FL?',
-    answer: 'Valrico has 32 distinct neighborhoods and subdivisions spread across ZIP codes 33594 and 33596. These range from large planned communities like Bloomingdale (5,200+ homes) to smaller subdivisions like Shetland Ridge and Legends Pass. Each has its own character, price range, HOA structure, and school zoning.',
+    answer: 'Valrico has 38 distinct neighborhoods and subdivisions spread across ZIP codes 33594 and 33596. These range from large planned communities like Bloomingdale (5,200+ homes) to smaller subdivisions like Shetland Ridge and Legends Pass. Each has its own character, price range, HOA structure, and school zoning.',
   },
   {
     question: 'What is the cheapest neighborhood in Valrico?',
@@ -63,7 +69,7 @@ const faqItems = [
   },
   {
     question: 'Which Valrico neighborhoods have no HOA?',
-    answer: 'Several Valrico neighborhoods have no mandatory HOA, including Diamond Hill, Duncan Groves, and portions of Bloomingdale. About half of Bloomingdale\'s 32+ sub-neighborhoods operate with voluntary or no HOA. No-HOA homes appeal to buyers who want fewer restrictions and no monthly fees. Barrett Henry can identify every no-HOA option, call (813) 733-7907.',
+    answer: 'Several Valrico neighborhoods have no mandatory HOA, including Diamond Hill, Duncan Groves, and portions of Bloomingdale. About half of Bloomingdale\'s 38+ sub-neighborhoods operate with voluntary or no HOA. No-HOA homes appeal to buyers who want fewer restrictions and no monthly fees. Barrett Henry can identify every no-HOA option, call (813) 733-7907.',
   },
   {
     question: 'What school zones cover Valrico neighborhoods?',
@@ -82,12 +88,12 @@ export default function NeighborhoodsHubPage() {
 
           {/* H1, primary keyword first */}
           <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">
-            Valrico FL Neighborhoods, 32 Communities, One Local Expert
+            Valrico FL Neighborhoods, 38 Communities, One Local Expert
           </h1>
 
           {/* Hero paragraph */}
           <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>
-            Barrett Henry, REALTOR&reg; and Broker Associate with REMAX Collective, covers every neighborhood in Valrico. From Bloomingdale to River Hills to Buckhorn, 32 communities across ZIP codes 33594 and 33596. Browse them all below and find the one that fits your budget, lifestyle, and school zone.
+            Barrett Henry, REALTOR&reg; and Broker Associate with REMAX Collective, covers every neighborhood in Valrico. From Bloomingdale to River Hills to Buckhorn, 38 communities across ZIP codes 33594 and 33596. Browse them all below and find the one that fits your budget, lifestyle, and school zone.
           </p>
 
           {/* CTA buttons */}
@@ -108,7 +114,7 @@ export default function NeighborhoodsHubPage() {
       <div style={{ maxWidth: 1140, margin: '0 auto', padding: '8px 24px 0' }}>
         <div style={{ background: '#fafafa', border: '1px solid #e8e8e8', borderRadius: 10, padding: '20px 24px', marginBottom: 24 }}>
           <p style={{ fontSize: 15, color: '#222', lineHeight: 1.7, margin: 0 }}>
-            <strong>Valrico, Florida has 32 neighborhoods across two ZIP codes (33594 and 33596).</strong> Bloomingdale is the largest (5,200+ homes, $300K–$500K). River Hills and Crestwood Estates are luxury options ($500K–$1M+). Buckhorn and Arista offer newer construction with Newsome HS zoning. Diamond Hill provides large lots with no HOA. Barrett Henry, REALTOR® with REMAX Collective, covers all 32, call <a href="tel:8137337907" style={{ color: '#003da5', fontWeight: 600 }}>(813) 733-7907</a>.
+            <strong>Valrico, Florida has 38 neighborhoods across two ZIP codes (33594 and 33596).</strong> Bloomingdale is the largest (5,200+ homes, $300K–$500K). River Hills and Crestwood Estates are luxury options ($500K–$1M+). Buckhorn and Arista offer newer construction with Newsome HS zoning. Diamond Hill provides large lots with no HOA. Barrett Henry, REALTOR® with REMAX Collective, covers all 38, call <a href="tel:8137337907" style={{ color: '#003da5', fontWeight: 600 }}>(813) 733-7907</a>.
           </p>
         </div>
       </div>
@@ -117,7 +123,7 @@ export default function NeighborhoodsHubPage() {
       <div style={{ background: 'var(--cream, #faf8f5)' }}>
         <div className="max-w-[1140px] mx-auto px-7 py-12 grid grid-cols-2 md:grid-cols-4 gap-5">
           {[
-            ['32', 'Neighborhoods'],
+            ['38', 'Neighborhoods'],
             ['$275K–$1M+', 'Price range'],
             ['33594 & 33596', 'ZIP codes'],
             ['2 High Schools', 'Bloomingdale & Newsome'],
@@ -130,7 +136,7 @@ export default function NeighborhoodsHubPage() {
         </div>
       </div>
 
-      {/* ═══ ALL 32 NEIGHBORHOODS GRID ═══ */}
+      {/* ═══ ALL 38 NEIGHBORHOODS GRID ═══ */}
       <section className="max-w-[1140px] mx-auto px-7 py-16">
         <div style={{ textAlign: 'center', marginBottom: 40 }}>
           <h2 className="font-serif text-[clamp(22px,3vw,30px)] mb-3" style={{ color: 'var(--ink)' }}>
@@ -275,7 +281,7 @@ export default function NeighborhoodsHubPage() {
           Valrico Neighborhoods by School Zone
         </h2>
         <p className="text-[15px] text-center mb-10 max-w-[640px] mx-auto" style={{ color: 'var(--ink-soft)' }}>
-          School zoning is the single biggest price driver in Valrico. Here is how the 32 neighborhoods split between the two high school zones.
+          School zoning is the single biggest price driver in Valrico. Here is how the 38 neighborhoods split between the two high school zones.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -330,7 +336,7 @@ export default function NeighborhoodsHubPage() {
             Not Sure Which Valrico Neighborhood Fits?
           </h2>
           <p className="text-[15px] mb-7 max-w-[560px] mx-auto" style={{ color: 'rgba(255,255,255,.7)' }}>
-            Tell Barrett your budget, school preference, and must-haves. He will narrow 32 neighborhoods down to the 2 or 3 that actually match, and tell you which ones to avoid.
+            Tell Barrett your budget, school preference, and must-haves. He will narrow 38 neighborhoods down to the 2 or 3 that actually match, and tell you which ones to avoid.
           </p>
           <div className="flex gap-3 justify-center flex-wrap">
             <a href="tel:8137337907" className="btn-solid">
@@ -386,7 +392,7 @@ export default function NeighborhoodsHubPage() {
             "email": "barrett@nowtb.com",
             "url": "https://valricoagent.com",
             "jobTitle": "Broker Associate",
-            "description": "Barrett Henry is a licensed Broker Associate with REMAX Collective covering all 32 Valrico FL neighborhoods. 23+ years of real estate experience. Specializes in Bloomingdale, River Hills, Buckhorn, Diamond Hill, and all Valrico communities.",
+            "description": "Barrett Henry is a licensed Broker Associate with REMAX Collective covering all 38 Valrico FL neighborhoods. 23+ years of real estate experience. Specializes in Bloomingdale, River Hills, Buckhorn, Diamond Hill, and all Valrico communities.",
             "image": "https://valricoagent.com/barrett-henry.png",
             "worksFor": { "@type": "Organization", "name": "REMAX Collective" },
             "areaServed": {
@@ -410,9 +416,9 @@ export default function NeighborhoodsHubPage() {
           },
           {
             "@type": "WebPage",
-            "name": "Valrico FL Neighborhoods, 32 Communities, One Local Expert",
+            "name": "Valrico FL Neighborhoods, 38 Communities, One Local Expert",
             "url": "https://valricoagent.com/neighborhoods/",
-            "description": "Explore all 32 Valrico FL neighborhoods with price ranges, school zones, and detailed guides. Barrett Henry, REALTOR® with REMAX Collective. (813) 733-7907.",
+            "description": "Explore all 38 Valrico FL neighborhoods with price ranges, school zones, and detailed guides. Barrett Henry, REALTOR® with REMAX Collective. (813) 733-7907.",
             "breadcrumb": { "@id": "https://valricoagent.com/neighborhoods/#breadcrumb" },
           },
         ],

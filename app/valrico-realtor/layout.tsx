@@ -4,11 +4,11 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Best Valrico Realtor - Barrett Henry, Broker Associate (2026)",
   description:
-    "Barrett Henry is a top-rated Valrico REALTOR® and Broker Associate with REMAX Collective. 23+ years experience, 32 neighborhoods, ZIP 33594 & 33596. Call (813) 733-7907.",
+    "Barrett Henry is a top-rated Valrico REALTOR® and Broker Associate with REMAX Collective. 23+ years experience, 38 neighborhoods, ZIP 33594 & 33596. Call (813) 733-7907.",
   openGraph: {
     title: "Best Valrico Realtor - Barrett Henry, Broker Associate (2026)",
     description:
-      "Barrett Henry is a top-rated Valrico REALTOR® and Broker Associate with REMAX Collective. 23+ years experience, 32 neighborhoods, ZIP 33594 & 33596. Call (813) 733-7907.",
+      "Barrett Henry is a top-rated Valrico REALTOR® and Broker Associate with REMAX Collective. 23+ years experience, 38 neighborhoods, ZIP 33594 & 33596. Call (813) 733-7907.",
     url: "https://valricoagent.com/valrico-realtor/",
     siteName: "ValricoAgent.com",
     type: "website",

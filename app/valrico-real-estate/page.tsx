@@ -100,7 +100,7 @@ export default function ValricoRealEstate() {
           Valrico is an unincorporated community in eastern Hillsborough County, roughly 15 miles east of downtown Tampa. With A-rated schools, larger lot sizes than neighboring Brandon and Riverview, no city taxes, and easy access to the Selmon Expressway, Valrico has become one of the most sought-after suburbs in Tampa Bay. The market includes everything from starter homes in the low $300s to gated golf course estates over $800K.
         </p>
         <p className="text-[15px] leading-[1.8]">
-          Barrett Henry is a Broker Associate with REMAX Collective who has been selling real estate since 2003. He covers all 32+ Valrico neighborhoods and provides <Link href="/valrico-fl-home-values/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>data-driven home valuations</Link>, <Link href="/valrico-market-report/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>market analysis</Link>, and hands-on guidance for buyers, sellers, and investors. This page is your hub for everything Valrico real estate.
+          Barrett Henry is a Broker Associate with REMAX Collective who has been selling real estate since 2003. He covers all 38+ Valrico neighborhoods and provides <Link href="/valrico-fl-home-values/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>data-driven home valuations</Link>, <Link href="/valrico-market-report/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>market analysis</Link>, and hands-on guidance for buyers, sellers, and investors. This page is your hub for everything Valrico real estate.
         </p>
 
         {/* Search Valrico Homes */}
@@ -177,7 +177,7 @@ export default function ValricoRealEstate() {
           ))}
         </div>
         <p className="text-sm mt-4">
-          <Link href="/neighborhoods/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>View all 32 Valrico neighborhoods &rarr;</Link>
+          <Link href="/neighborhoods/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>View all 38 Valrico neighborhoods &rarr;</Link>
         </p>
 
         {/* Property Types */}

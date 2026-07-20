@@ -1,5 +1,5 @@
 /**
- * Center coordinates for all 32 Valrico neighborhoods.
+ * Center coordinates for all 38 Valrico neighborhoods.
  * Keys are URL slugs (kebab-case). Values are { lat, lng } objects.
  * Used by NeighborhoodMap component to place a marker on the map.
  */
@@ -36,4 +36,10 @@ export const neighborhoodCoords: Record<string, { lat: number; lng: number }> = 
   'valrico-oaks': { lat: 27.8870, lng: -82.2540 },
   'wellington': { lat: 27.9070, lng: -82.2580 },
   'bent-tree-estates': { lat: 27.9190, lng: -82.2720 },
+  'magnolia-park': { lat: 27.8945, lng: -82.2610 },
+  'providence-lakes': { lat: 27.8855, lng: -82.2470 },
+  'summerfield': { lat: 27.9110, lng: -82.2730 },
+  'oak-creek': { lat: 27.8865, lng: -82.2590 },
+  'lithia-springs': { lat: 27.9170, lng: -82.2760 },
+  'valrico-village': { lat: 27.8925, lng: -82.2490 },
 };
