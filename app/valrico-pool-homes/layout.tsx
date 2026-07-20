@@ -4,11 +4,11 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Valrico Pool Homes for Sale",
   description:
-    "Search pool homes for sale in Valrico FL. Screened, heated, and saltwater pools across 42 neighborhoods. Barrett Henry, REMAX Collective.",
+    "Search pool homes for sale in Valrico FL. Screened, heated, and saltwater pools across 38 neighborhoods. Barrett Henry, REMAX Collective.",
   openGraph: {
     title: "Valrico Pool Homes for Sale",
     description:
-      "Search pool homes for sale in Valrico FL. Screened, heated, and saltwater pools across 42 neighborhoods. Barrett Henry, REMAX Collective.",
+      "Search pool homes for sale in Valrico FL. Screened, heated, and saltwater pools across 38 neighborhoods. Barrett Henry, REMAX Collective.",
     url: "https://valricoagent.com/valrico-pool-homes/",
     siteName: "ValricoAgent.com",
     type: "website",

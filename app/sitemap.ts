@@ -5,7 +5,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = 'https://valricoagent.com'
   const now = new Date().toISOString()
 
-  // All 42 neighborhoods
+  // All 38 neighborhoods
   const neighborhoods = [
     'bloomingdale','river-hills','diamond-hill','buckhorn','twin-lakes','brentwood-hills',
     'crestwood-estates','bloomingdale-east','bloomingdale-oaks','canterbury-oaks',

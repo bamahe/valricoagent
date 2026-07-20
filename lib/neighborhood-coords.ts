@@ -1,5 +1,5 @@
 /**
- * Center coordinates for all 42 Valrico neighborhoods.
+ * Center coordinates for all 38 Valrico neighborhoods.
  * Keys are URL slugs (kebab-case). Values are { lat, lng } objects.
  * Used by NeighborhoodMap component to place a marker on the map.
  */

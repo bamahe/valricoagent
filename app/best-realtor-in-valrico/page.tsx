@@ -38,7 +38,7 @@ export default function BestRealtorInValrico() {
           "name": "Who is the best realtor in Valrico?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Barrett Henry is consistently rated one of the best realtors in Valrico FL. He is a Broker Associate with REMAX Collective, holds e-PRO, MRP, and SRS designations, has 23+ years of real estate experience, 50+ five-star reviews, and covers all 42 Valrico neighborhoods across ZIP codes 33594 and 33596."
+            "text": "Barrett Henry is consistently rated one of the best realtors in Valrico FL. He is a Broker Associate with REMAX Collective, holds e-PRO, MRP, and SRS designations, has 23+ years of real estate experience, 50+ five-star reviews, and covers all 38 Valrico neighborhoods across ZIP codes 33594 and 33596."
           }
         },
         {
@@ -92,8 +92,8 @@ export default function BestRealtorInValrico() {
           A Broker Associate holds a Florida real estate broker license, a higher level of licensing than a standard sales associate. It requires additional coursework, more experience, and passing the broker exam. Barrett earned his Broker Associate license in 2017 and operates under REMAX Collective, which means you get broker-level expertise combined with the global reach, referral network, and brand recognition of one of the most recognized names in real estate.
         </p>
 
-        {/* 42 neighborhoods */}
-        <h2 className="font-serif text-2xl mt-10" style={{ color: 'var(--ink)' }}>42 Valrico neighborhoods covered</h2>
+        {/* 38 neighborhoods */}
+        <h2 className="font-serif text-2xl mt-10" style={{ color: 'var(--ink)' }}>38 Valrico neighborhoods covered</h2>
         <p className="text-[15px] leading-[1.8]">
           Barrett covers every subdivision in ZIP codes 33594 and 33596: <Link href="/neighborhoods/bloomingdale/" className="no-underline" style={{ color: 'var(--accent)' }}>Bloomingdale</Link> (5,200+ homes, 32+ sub-neighborhoods), <Link href="/neighborhoods/river-hills/" className="no-underline" style={{ color: 'var(--accent)' }}>River Hills</Link> (gated golf community, $400K-$800K+), <Link href="/neighborhoods/diamond-hill/" className="no-underline" style={{ color: 'var(--accent)' }}>Diamond Hill</Link> (gated golf, $350K-$550K+), <Link href="/neighborhoods/buckhorn/" className="no-underline" style={{ color: 'var(--accent)' }}>Buckhorn/Boyette</Link> (Newsome HS zone), <Link href="/neighborhoods/twin-lakes/" className="no-underline" style={{ color: 'var(--accent)' }}>Twin Lakes</Link>, <Link href="/neighborhoods/brentwood-hills/" className="no-underline" style={{ color: 'var(--accent)' }}>Brentwood Hills</Link>, <Link href="/neighborhoods/crestwood-estates/" className="no-underline" style={{ color: 'var(--accent)' }}>Crestwood Estates</Link>, Canterbury Oaks, Bent Tree Estates, Crosby Crossings, Duncan Groves, and many more. Plus bordering areas: FishHawk Ranch (Lithia), Brandon, Riverview, and Plant City.
         </p>
@@ -151,7 +151,7 @@ export default function BestRealtorInValrico() {
         <h2 className="font-serif text-2xl mt-10" style={{ color: 'var(--ink)' }}>Frequently asked questions</h2>
         <div className="space-y-4 mt-4">
           {[
-            ['Who is the best realtor in Valrico?', 'Barrett Henry is consistently rated one of the best realtors in Valrico FL. He is a Broker Associate with REMAX Collective, holds e-PRO, MRP, and SRS designations, has 23+ years of real estate experience, 50+ five-star reviews, and covers all 42 Valrico neighborhoods across ZIP codes 33594 and 33596.'],
+            ['Who is the best realtor in Valrico?', 'Barrett Henry is consistently rated one of the best realtors in Valrico FL. He is a Broker Associate with REMAX Collective, holds e-PRO, MRP, and SRS designations, has 23+ years of real estate experience, 50+ five-star reviews, and covers all 38 Valrico neighborhoods across ZIP codes 33594 and 33596.'],
             ['How do I choose a Valrico realtor?', 'Look for a realtor who specializes in Valrico specifically, not just Tampa Bay in general. Ask how many homes they have sold in Valrico, whether they know the sub-neighborhoods and school zones, and what designations they hold. A Broker Associate with local expertise will outperform a generalist agent every time.'],
             ['What does a Broker Associate mean?', 'A Broker Associate holds a Florida real estate broker license, a higher level of licensing than a standard sales associate. It requires additional coursework, more experience, and passing the broker exam. Barrett has held his Broker Associate license since 2017.'],
           ].map(([q, a]) => (

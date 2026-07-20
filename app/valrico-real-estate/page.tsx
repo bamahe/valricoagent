@@ -177,7 +177,7 @@ export default function ValricoRealEstate() {
           ))}
         </div>
         <p className="text-sm mt-4">
-          <Link href="/neighborhoods/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>View all 42 Valrico neighborhoods &rarr;</Link>
+          <Link href="/neighborhoods/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>View all 38 Valrico neighborhoods &rarr;</Link>
         </p>
 
         {/* Property Types */}
