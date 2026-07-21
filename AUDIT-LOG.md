@@ -1,5 +1,28 @@
 # SEO Audit Log
 
+## 2026-07-21
+
+**10 pages improved:**
+
+1. `valrico-pool-homes` - Added Image import, bloomingdale-valrico image before pricing section, river-hills-golf-country-club image before insurance section, EEAT author block, 9-item internal links grid, related links paragraph
+2. `valrico-fl-homes-for-sale` - Added `'use client'` directive (was missing), Image import, bloomingdale-valrico image before "Why buy" section, buckhorn-preserve image before FAQs, 3 new FAQs, EEAT author block, river-hills-valrico image, 8-item related links
+3. `valrico-waterfront-homes` - Added Image import, river-hills-valrico image before "what waterfront means" section, bloomingdale-valrico image before "price premiums" section, EEAT author block with 7-item related links paragraph
+4. `is-valrico-safe` - Added Image import, bloomingdale-valrico image before overview, valrico-fl-sr-60 road image before comparison section, EEAT author block before CTA, buckhorn-preserve image, expanded related links to 11 items
+5. `valrico-vs-brandon` - Added Image import, bloomingdale-avenue image before home prices, bloomingdale-valrico image before bottom line, EEAT author block before CTA, expanded related links from 6 to 10 items
+6. `valrico-vs-riverview` - Added Image import, bloomingdale-valrico image before home prices, river-hills-valrico image before bottom line, EEAT author block before CTA, expanded related links from 6 to 11 items
+7. `valrico-first-time-homebuyer` - Added Image import, bloomingdale-valrico image before CTA section, buckhorn-preserve image before FAQ section, sidebar EEAT card (56px headshot) at top of sidebar
+8. `valrico-relocation-guide` - Added Image import, bloomingdale-avenue image before "why valrico" section, bloomingdale-valrico image before FAQ, sidebar EEAT card before existing "Related" links card, expanded related links from 8 to 11 items
+9. `valrico-fl-home-values` - Added Image import, bloomingdale-valrico image before "Why automated home values are wrong" section, river-hills-valrico image before "33594 vs 33596 ZIP comparison", sidebar EEAT card at top of sidebar
+10. `valrico-cost-of-living` - Added Image import, bloomingdale-valrico image before "Housing" section, valrico-fl-sr-60 image before FAQ section, EEAT author block before CTA, expanded related links from 6 to 12 items
+
+**Pattern applied across all pages:**
+- 3+ images per page using `<Image fill className="object-cover" sizes="..." />` in `aspect-ratio:16/7` containers
+- EEAT author block: barrett-henry.png 72px headshot (or 56px sidebar card) + credentials + phone
+- 10+ internal links per page
+- All original content preserved (no deletions)
+
+---
+
 ## 2026-07-20
 
 **10 pages improved:**
