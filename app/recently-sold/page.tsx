@@ -45,10 +45,10 @@ export default function RecentlySoldPage() {
       {/* Hero */}
       <div style={{ background: 'var(--blue-deep)' }} className="text-white py-16 px-7">
         <div className="max-w-[1140px] mx-auto">
-          <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Track Record</div>
-          <h1 className="font-serif text-[clamp(28px,4vw,40px)] leading-tight tracking-tight mb-4">Recently Sold by Barrett Henry</h1>
+          <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Recent Transactions</div>
+          <h1 className="font-serif text-[clamp(28px,4vw,40px)] leading-tight tracking-tight mb-4">Recent Sales in Valrico &amp; Tampa Bay</h1>
           <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>
-            124+ homes sold across Tampa Bay. Real results, real closings. Barrett Henry, REALTOR® and Broker Associate with REMAX Collective — 23+ years of real estate experience.
+            A look at recent closings Barrett has handled across the Tampa Bay area. Real homes, real numbers, real results.
           </p>
           <div className="flex gap-3 flex-wrap">
             <a href="tel:8137337907" className="btn-solid">(813) 733-7907</a>
@@ -96,7 +96,6 @@ export default function RecentlySoldPage() {
             {listings.map((l) => {
               const photoUrl = l.Media?.[0]?.MediaURL || '/images/no-photo.jpg';
               const ratio = l.ListPrice ? Math.round((l.ClosePrice / l.ListPrice) * 100) : 0;
-              const closeDate = new Date(l.CloseDate).toLocaleDateString('en-US', { month: 'short', year: 'numeric' });
 
               return (
                 <div key={l.ListingId} className="bg-white rounded-xl border overflow-hidden" style={{ borderColor: 'var(--border)' }}>
@@ -121,7 +120,6 @@ export default function RecentlySoldPage() {
                     </div>
 
                     <div className="flex justify-between items-center text-xs pt-3 border-t" style={{ borderColor: 'var(--border)', color: 'var(--ink-soft)' }}>
-                      <span>Closed {closeDate}</span>
                       <span>{l.DaysOnMarket} days on market</span>
                       {ratio > 0 && <span className="font-semibold" style={{ color: ratio >= 100 ? '#15803D' : 'var(--ink-soft)' }}>{ratio}% of list</span>}
                     </div>

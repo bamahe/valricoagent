@@ -97,12 +97,15 @@ export default function Footer() {
               ].map(([h, n]) => (
                 <li key={h}><Link href={h}>{n}</Link></li>
               ))}
-              <li style={{ marginTop: 10 }}><Link href="/neighborhoods/" style={{ color: '#fff', fontWeight: 600 }}>all 38 Neighborhoods →</Link></li>
+              <li style={{ marginTop: 10 }}><Link href="/neighborhoods/" style={{ color: '#fff', fontWeight: 600 }}>All 42 Neighborhoods →</Link></li>
             </ul>
 
             <div className="footer-more">
               <p className="footer-heading">More</p>
               {[
+                ['/why-barrett/', 'Why Barrett'],
+                ['/testimonials/', 'Client Reviews'],
+                ['/recently-sold/', 'Recently Sold'],
                 ['https://nowtb.com', 'nowtb.com'],
                 ['https://bestbayservices.com', 'Best Bay Services'],
                 ['https://valrico.blog', 'Valrico Blog'],
