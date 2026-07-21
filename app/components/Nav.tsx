@@ -33,7 +33,7 @@ const hoodLinks = [
   { href: '/neighborhoods/buckhorn/', text: 'Buckhorn' },
   { href: '/neighborhoods/crestwood-estates/', text: 'Crestwood Estates' },
   { href: '/neighborhoods/twin-lakes/', text: 'Twin Lakes' },
-  { href: '/neighborhoods/', text: 'All 42 Neighborhoods →' },
+  { href: '/neighborhoods/', text: 'all 38 Neighborhoods →' },
 ];
 
 export default function Nav() {

@@ -12,7 +12,7 @@ export default function ValricoShortSale() {
           <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{color:'rgba(255,255,255,.75)'}}>If you owe more on your Valrico home than it is currently worth, a short sale allows you to sell without going through foreclosure. The bank agrees to accept less than the full mortgage balance, and you move on with significantly less damage to your credit.</p>
           <div className="flex gap-3 flex-wrap">
             <a href="tel:8137337907" className="btn-solid">Call<br/>(813) 733-7907</a>
-            <a href="https://flforeclosurehelp.com" target="_blank" rel="noopener" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">Visit flforeclosurehelp.com</a>
+            <a href="#short-sale-form" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">Get Confidential Help</a>
           </div>
         </div>
       </div>
@@ -131,8 +131,8 @@ export default function ValricoShortSale() {
               <p className="text-[15px] leading-[1.8] font-semibold mb-2" style={{color:'var(--ink)'}}>If you are behind on payments, call Barrett before it goes to foreclosure.</p>
               <p className="text-[15px] leading-[1.8] mb-4" style={{color:'var(--ink-soft)'}}>There may be options you do not know about. The earlier you call, the more options you have.</p>
               <div className="flex gap-3 flex-wrap">
-                <a href="tel:8137337907" className="btn-solid">Call<br/>(813) 733-7907</a>
-                <a href="https://flforeclosurehelp.com" target="_blank" rel="noopener" className="btn-ghost">flforeclosurehelp.com</a>
+                <a href="tel:8137337907" className="btn-solid">Call (813) 733-7907</a>
+                <a href="#short-sale-form" className="btn-ghost">Fill Out the Form Below</a>
               </div>
             </div>
 
@@ -155,12 +155,50 @@ export default function ValricoShortSale() {
 
           {/* Sidebar */}
           <div className="space-y-6">
-            <div className="rounded-md p-6 border" style={{borderColor:'var(--border)',background:'var(--cream-warm)'}}>
-              <h3 className="font-serif text-lg mb-3">Confidential consultation</h3>
-              <p className="text-sm mb-4 leading-relaxed" style={{color:'var(--ink-soft)'}}>Barrett Henry, REALTOR® at REMAX Collective. 23+ years of real estate experience. Short sale consultations are free, private, and no-obligation.</p>
-              <a href="tel:8137337907" className="btn-solid block text-center mb-2 text-sm">Call<br/>(813) 733-7907</a>
-              <a href="mailto:barrett@nowtb.com" className="btn-ghost block text-center text-sm">Email Barrett</a>
+            {/* Short Sale Lead Form */}
+            <div id="short-sale-form" className="rounded-md p-6 border scroll-mt-24" style={{borderColor:'var(--accent)',background:'var(--cream-warm)'}}>
+              <h3 className="font-serif text-lg mb-1">Confidential Short Sale Consultation</h3>
+              <p className="text-sm mb-4 leading-relaxed" style={{color:'var(--ink-soft)'}}>Free. Private. No obligation. Barrett will review your situation and explain your options.</p>
+              <form onSubmit={async (e) => {
+                e.preventDefault();
+                const form = e.target as HTMLFormElement;
+                const data = Object.fromEntries(new FormData(form));
+                try {
+                  await fetch('/api/lead', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ ...data, source: 'valricoagent', page: 'short-sale', intent: 'short-sale' }),
+                  });
+                  form.reset();
+                  alert('Submitted. Barrett will call you within 2 hours.');
+                } catch { alert('Error — please call (813) 733-7907 directly.'); }
+              }} className="space-y-3">
+                <input name="name" required placeholder="Your name" className="w-full px-3 py-2.5 text-sm border rounded" style={{borderColor:'var(--border)'}} />
+                <input name="phone" required placeholder="Phone number" type="tel" className="w-full px-3 py-2.5 text-sm border rounded" style={{borderColor:'var(--border)'}} />
+                <input name="email" placeholder="Email (optional)" type="email" className="w-full px-3 py-2.5 text-sm border rounded" style={{borderColor:'var(--border)'}} />
+                <input name="address" placeholder="Property address" className="w-full px-3 py-2.5 text-sm border rounded" style={{borderColor:'var(--border)'}} />
+                <select name="situation" className="w-full px-3 py-2.5 text-sm border rounded" style={{borderColor:'var(--border)',color:'var(--ink-soft)'}}>
+                  <option value="">What best describes your situation?</option>
+                  <option value="behind-payments">Behind on payments</option>
+                  <option value="underwater">Owe more than home is worth</option>
+                  <option value="pre-foreclosure">Received foreclosure notice</option>
+                  <option value="hardship">Financial hardship (job loss, divorce, medical)</option>
+                  <option value="exploring">Just exploring options</option>
+                </select>
+                <textarea name="message" placeholder="Anything else Barrett should know? (optional)" rows={3} className="w-full px-3 py-2.5 text-sm border rounded" style={{borderColor:'var(--border)'}} />
+                <button type="submit" className="btn-solid w-full text-center text-sm py-3">Get Confidential Help</button>
+                <p className="text-xs text-center" style={{color:'var(--ink-soft)'}}>Your information is 100% confidential.</p>
+              </form>
             </div>
+
+            {/* Quick call */}
+            <div className="rounded-md p-6 border text-center" style={{borderColor:'var(--border)'}}>
+              <p className="text-sm font-semibold mb-2" style={{color:'var(--ink)'}}>Prefer to talk?</p>
+              <a href="tel:8137337907" className="btn-solid block text-center text-sm">Call (813) 733-7907</a>
+              <p className="text-xs mt-2" style={{color:'var(--ink-soft)'}}>Barrett responds within 2 hours</p>
+            </div>
+
+            {/* Related */}
             <div className="rounded-md p-6 border" style={{borderColor:'var(--border)'}}>
               <h3 className="font-serif text-lg mb-3">Related</h3>
               <ul className="space-y-2">
@@ -169,7 +207,6 @@ export default function ValricoShortSale() {
                 <li><Link href="/valrico-cash-offer/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Get a cash offer &rarr;</Link></li>
                 <li><Link href="/valrico-fl-home-values/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>What is my home worth? &rarr;</Link></li>
                 <li><Link href="/sell-my-home-valrico/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Sell my home (traditional) &rarr;</Link></li>
-                <li><a href="https://flforeclosurehelp.com" target="_blank" rel="noopener" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>flforeclosurehelp.com &rarr;</a></li>
               </ul>
             </div>
           </div>

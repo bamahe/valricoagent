@@ -150,7 +150,7 @@ export default function InvestmentProperty() {
             "url":"https://valricoagent.com/valrico-investment-property/",
             "telephone":"(813) 733-7907",
             "email":"barrett@nowtb.com",
-            "address":{"@type":"PostalAddress","streetAddress":"417 Lithia Pinecrest Rd","addressLocality":"Brandon","addressRegion":"FL","postalCode":"33511","addressCountry":"US"},
+            "address":{"@type":"PostalAddress","streetAddress":"205 E Brandon Blvd","addressLocality":"Brandon","addressRegion":"FL","postalCode":"33511","addressCountry":"US"},
             "areaServed":{"@type":"City","name":"Valrico, FL"}
           },
           {

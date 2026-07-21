@@ -74,7 +74,7 @@ export default function PropertyManagement() {
             </div>
             <div className="rounded-md p-6 border" style={{borderColor:'var(--border)'}}>
               <h3 className="font-serif text-lg mb-3">Office</h3>
-              <p className="text-sm leading-relaxed" style={{color:'var(--ink-soft)'}}>REMAX Collective - Brandon<br />417 Lithia Pinecrest Rd<br />Brandon, FL 33511</p>
+              <p className="text-sm leading-relaxed" style={{color:'var(--ink-soft)'}}>REMAX Collective - Brandon<br />205 E Brandon Blvd<br />Brandon, FL 33511</p>
               <p className="text-sm mt-2" style={{color:'var(--ink-muted)'}}>(813) 733-7907 &middot; barrett@nowtb.com</p>
             </div>
             <div className="rounded-md p-6 border" style={{borderColor:'var(--border)'}}>

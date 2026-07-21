@@ -12,7 +12,7 @@ export default function ValricoPreForeclosure() {
           <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{color:'rgba(255,255,255,.75)'}}>If you have missed mortgage payments on your Valrico home, you are not out of options. Pre-foreclosure is a window, not a dead end. The earlier you act, the more paths you have to protect your credit, keep your home, or sell on your own terms.</p>
           <div className="flex gap-3 flex-wrap">
             <a href="tel:8137337907" className="btn-solid">Call<br/>(813) 733-7907</a>
-            <a href="https://flforeclosurehelp.com" target="_blank" rel="noopener" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">Visit flforeclosurehelp.com</a>
+            <a href="#help-form" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">Get Confidential Help</a>
           </div>
         </div>
       </div>
@@ -116,7 +116,6 @@ export default function ValricoPreForeclosure() {
                 <li><Link href="/valrico-cash-offer/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Get a cash offer &rarr;</Link></li>
                 <li><Link href="/sell-my-home-valrico/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Sell my Valrico home &rarr;</Link></li>
                 <li><Link href="/valrico-fl-home-values/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>What is my home worth? &rarr;</Link></li>
-                <li><a href="https://flforeclosurehelp.com" target="_blank" rel="noopener" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>flforeclosurehelp.com &rarr;</a></li>
               </ul>
             </div>
           </div>

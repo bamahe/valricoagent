@@ -16,7 +16,7 @@ export default function Footer() {
                 <div style={{ fontSize: 11, color: 'rgba(255,255,255,.45)' }}>REALTOR® · Broker Associate</div>
               </div>
             </div>
-            <p className="footer-address">REMAX Collective<br />417 Lithia Pinecrest Rd<br />Brandon, FL 33511</p>
+            <p className="footer-address">REMAX Collective<br />205 E Brandon Blvd<br />Brandon, FL 33511</p>
             <p style={{ marginTop: 16 }}>
               <a href="tel:8137337907" className="footer-phone">(813) 733-7907</a>
             </p>
@@ -97,7 +97,7 @@ export default function Footer() {
               ].map(([h, n]) => (
                 <li key={h}><Link href={h}>{n}</Link></li>
               ))}
-              <li style={{ marginTop: 10 }}><Link href="/neighborhoods/" style={{ color: '#fff', fontWeight: 600 }}>All 42 Neighborhoods →</Link></li>
+              <li style={{ marginTop: 10 }}><Link href="/neighborhoods/" style={{ color: '#fff', fontWeight: 600 }}>all 38 Neighborhoods →</Link></li>
             </ul>
 
             <div className="footer-more">
@@ -107,7 +107,7 @@ export default function Footer() {
                 ['https://bestbayservices.com', 'Best Bay Services'],
                 ['https://valrico.blog', 'Valrico Blog'],
                 ['https://vivipm.com', 'ViVi PM'],
-                ['https://flforeclosurehelp.com', 'FL Foreclosure Help'],
+                ['/valrico-short-sale/', 'Short Sale Help'],
               ].map(([h, n]) => (
                 <a key={h} href={h} target="_blank" rel="noopener" className="footer-ext-link">{n}</a>
               ))}
