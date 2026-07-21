@@ -87,8 +87,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id='+ga;
       document.head.appendChild(s);
       window.dataLayer=window.dataLayer||[];
-      function gtag(){dataLayer.push(arguments)}
-      gtag('js',new Date());gtag('config',ga);
+      window.gtag=function(){dataLayer.push(arguments)};
+      window.gtag('js',new Date());window.gtag('config',ga);
     }
     if(cl&&!window._clLoaded){
       window._clLoaded=true;
