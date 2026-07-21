@@ -23,6 +23,7 @@ const sellLinks = [
   { href: '/valrico-short-sale/', text: 'Short Sale Help' },
   { href: '/valrico-foreclosures/', text: 'Foreclosures' },
   { href: '/valrico-market-report/', text: 'Market Report' },
+  { href: '/recently-sold/', text: 'Recently Sold' },
   { href: '/valrico-property-management/', text: 'Property Management' },
 ];
 
