@@ -170,6 +170,11 @@ export function HomeValueForm() {
         >
           {status === 'loading' ? 'Submitting...' : 'Get My Free Home Value'}
         </button>
+
+        {/* Trust signal — response time guarantee */}
+        <p style={{ fontSize: 12, color: '#6b7280', textAlign: 'center', margin: 0 }}>
+          Typically responds within 2 hours &middot; Based on real comps, not algorithms &middot; 100% confidential
+        </p>
       </form>
     </div>
   );

@@ -142,6 +142,11 @@ export function ContactForm() {
       >
         {status === 'loading' ? 'Sending...' : '✉ Send Message'}
       </button>
+
+      {/* Trust signal — response time guarantee */}
+      <p style={{ fontSize: 12, color: '#6b7280', textAlign: 'center', margin: 0 }}>
+        Typically responds within 2 hours &middot; 23+ years experience &middot; Your info stays confidential
+      </p>
     </form>
   );
 }
