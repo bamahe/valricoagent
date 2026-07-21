@@ -11,7 +11,7 @@ import { ContactForm } from './components/ContactForm';
 export const metadata: Metadata = {
   title: "Valrico Homes for Sale | Barrett Henry, REALTOR\u00AE | REMAX Collective",
   description:
-    "Search all Valrico FL homes for sale in 33594 & 33596. Barrett Henry, Broker Associate with REMAX Collective, has 23+ years of real estate experience. Explore 38 neighborhoods, get your home value, or sell with confidence. (813) 733-7907.",
+    "Search all Valrico FL homes for sale in 33594 & 33596. Barrett Henry, Broker Associate with REMAX Collective, has 23+ years of real estate experience. Explore 42 neighborhoods, get your home value, or sell with confidence. (813) 733-7907.",
   alternates: { canonical: "/" },
 };
 
@@ -36,7 +36,7 @@ export default function Home() {
               Buy, Sell, or Invest in Valrico with <span style={{ color: '#fff' }}>Confidence</span>
             </h1>
             <p style={{ fontSize: 17, lineHeight: 1.75, opacity: 0.85, marginBottom: 32, maxWidth: 520 }}>
-              38 neighborhoods. Two ZIP codes. One REALTOR® who knows every Valrico, Florida homes for sale listing. Barrett Henry brings 23+ years of real estate experience and straight-talk guidance to every deal in the Tampa Bay area.
+              42 neighborhoods. Two ZIP codes. One REALTOR® who knows every Valrico, Florida homes for sale listing. Barrett Henry brings 23+ years of real estate experience and straight-talk guidance to every deal in the Tampa Bay area.
             </p>
             <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap' }}>
               <Link href="/valrico-fl-homes-for-sale/" className="btn-white">
@@ -69,7 +69,7 @@ export default function Home() {
       <div style={{ maxWidth: 1140, margin: '0 auto', padding: '8px 24px 0' }}>
         <div style={{ background: '#fafafa', border: '1px solid #e8e8e8', borderRadius: 10, padding: '20px 24px', marginBottom: 24 }}>
           <p style={{ fontSize: 15, color: '#222', lineHeight: 1.7, margin: 0 }}>
-            <strong>Barrett Henry is a top-rated Valrico real estate agent with REMAX Collective and 23+ years of experience.</strong> As a Broker Associate specializing in Valrico, Florida&apos;s 38 neighborhoods, from Bloomingdale to Buckhorn to River Hills - Barrett helps buyers and sellers navigate the local market with hands-on expertise and straight talk. Call <a href="tel:8137337907" style={{ color: '#003da5', fontWeight: 600 }}>(813) 733-7907</a>.
+            <strong>Barrett Henry is a top-rated Valrico real estate agent with REMAX Collective and 23+ years of experience.</strong> As a Broker Associate specializing in Valrico, Florida&apos;s 42 neighborhoods, from Bloomingdale to Buckhorn to River Hills - Barrett helps buyers and sellers navigate the local market with hands-on expertise and straight talk. Call <a href="tel:8137337907" style={{ color: '#003da5', fontWeight: 600 }}>(813) 733-7907</a>.
           </p>
         </div>
       </div>
@@ -273,7 +273,7 @@ export default function Home() {
           </div>
           <p style={{ textAlign: 'center', marginTop: 24 }}>
             <Link href="/neighborhoods/" style={{ fontWeight: 600, fontSize: 14, color: '#003da5' }}>
-              View All 38 Neighborhoods →
+              View All 42 Neighborhoods →
             </Link>
           </p>
         </div>
@@ -320,10 +320,10 @@ export default function Home() {
       <FAQSchema
         heading="Valrico Real Estate - Frequently Asked Questions"
         items={[
-          { question: "Who is the best real estate agent in Valrico FL?", answer: "Barrett Henry is a top-rated Broker Associate with REMAX Collective, serving Valrico with 23+ years of real estate experience. He covers all 38 Valrico neighborhoods across ZIP codes 33594 and 33596, holds e-PRO, MRP, and SRS designations, and maintains a 5.0-star rating. Call (813) 733-7907." },
+          { question: "Who is the best real estate agent in Valrico FL?", answer: "Barrett Henry is a top-rated Broker Associate with REMAX Collective, serving Valrico with 23+ years of real estate experience. He covers all 42 Valrico neighborhoods across ZIP codes 33594 and 33596, holds e-PRO, MRP, and SRS designations, and maintains a 5.0-star rating. Call (813) 733-7907." },
           { question: "How long does it take to sell a home in Valrico?", answer: "A properly priced Valrico home typically goes under contract within 15-30 days and closes 30-45 days later, roughly 45-75 days total. Overpriced homes sit for months. The key is accurate pricing from day one using actual closed comps from your specific sub-neighborhood, not ZIP code averages." },
           { question: "What is the median home price in Valrico FL?", answer: "The median home price in Valrico is approximately $415,000 as of Q3 2026. Prices range from around $275K in entry-level neighborhoods to over $1M in River Hills and Crestwood Estates. Price per square foot averages $210-$220 depending on the subdivision and condition." },
-          { question: "What are the best neighborhoods in Valrico?", answer: "It depends on your priorities. Bloomingdale offers the largest community (5,200+ homes, $300K-$500K). River Hills and Crestwood Estates are luxury options ($600K-$1M+). Buckhorn Preserve and Brentwood Hills have newer construction ($350K-$500K). Diamond Hill provides larger lots with no HOA. Barrett covers all 38 neighborhoods and matches buyers to the right fit." },
+          { question: "What are the best neighborhoods in Valrico?", answer: "It depends on your priorities. Bloomingdale offers the largest community (5,200+ homes, $300K-$500K). River Hills and Crestwood Estates are luxury options ($600K-$1M+). Buckhorn Preserve and Brentwood Hills have newer construction ($350K-$500K). Diamond Hill provides larger lots with no HOA. Barrett covers all 42 neighborhoods and matches buyers to the right fit." },
           { question: "Is Valrico FL a good place to live?", answer: "Valrico consistently ranks among the best suburbs in Hillsborough County, Florida for families. Top-rated schools (Bloomingdale HS, Newsome HS), low crime rates, easy access to I-75 and the Selmon Expressway, and a mix of established and newer neighborhoods make it a strong choice for buyers who want suburban space with Tampa Bay access. Homes for sale in Valrico range from the $275K range to over $1M." },
           { question: "What school zones are in Valrico?", answer: "Valrico is primarily served by two high school zones: Bloomingdale High School (western Valrico) and Newsome High School (eastern/southern portions including Buckhorn). School zoning is the single biggest price driver in Valrico, homes in top zones consistently sell faster and for more money." },
           { question: "Does Valrico have HOA communities?", answer: "Yes, most Valrico subdivisions have HOAs with fees ranging from $50-$400/month depending on amenities. Some neighborhoods like Diamond Hill and Duncan Groves have no HOA at all. Barrett Henry can help you find the right balance of community amenities vs. freedom based on your preferences." },
@@ -415,7 +415,7 @@ export default function Home() {
           "name": "Barrett Henry, REALTOR®",
           "givenName": "Barrett", "familyName": "Henry",
           "jobTitle": "Broker Associate",
-          "description": "Barrett Henry is a licensed Broker Associate with REMAX Collective specializing in Valrico FL real estate. 23+ years of experience serving ZIP codes 33594 and 33596 across 38 neighborhoods.",
+          "description": "Barrett Henry is a licensed Broker Associate with REMAX Collective specializing in Valrico FL real estate. 23+ years of experience serving ZIP codes 33594 and 33596 across 42 neighborhoods.",
           "url": "https://valricoagent.com",
           "telephone": "(813) 733-7907",
           "email": "barrett@nowtb.com",

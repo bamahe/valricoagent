@@ -27,6 +27,7 @@ export default function robots() {
       { userAgent: 'AhrefsBot', disallow: '/' },
       { userAgent: 'MJ12bot', disallow: '/' },
       { userAgent: 'DotBot', disallow: '/' },
+      { userAgent: 'BLEXBot', disallow: '/' },
     ],
     sitemap: 'https://valricoagent.com/sitemap.xml',
   };

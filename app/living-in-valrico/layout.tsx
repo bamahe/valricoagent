@@ -4,11 +4,11 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Living in Valrico FL - Pros, Cons, Schools & Cost (2026)",
   description:
-    "What is it really like living in Valrico FL? Schools, 38 neighborhoods, cost of living, commute times, safety, and honest pros/cons from a local REALTOR® with 23+ years experience.",
+    "What is it really like living in Valrico FL? Schools, 42 neighborhoods, cost of living, commute times, safety, and honest pros/cons from a local REALTOR® with 23+ years experience.",
   openGraph: {
     title: "Living in Valrico FL - Pros, Cons, Schools & Cost (2026)",
     description:
-      "What is it really like living in Valrico FL? Schools, 38 neighborhoods, cost of living, commute times, safety, and honest pros/cons from a local REALTOR® with 23+ years experience.",
+      "What is it really like living in Valrico FL? Schools, 42 neighborhoods, cost of living, commute times, safety, and honest pros/cons from a local REALTOR® with 23+ years experience.",
     url: "https://valricoagent.com/living-in-valrico/",
     siteName: "ValricoAgent.com",
     type: "website",
