@@ -108,7 +108,7 @@ export default async function PropertyDetailPage(
           <span aria-hidden="true">›</span>
           <Link href="/valrico-fl-homes-for-sale/" style={{ color: '#003da5' }}>Homes for Sale</Link>
           <span aria-hidden="true">›</span>
-          <span style={{ color: '#222', fontWeight: 500 }} aria-current="page">MLS# {listing.ListingId}, {address}</span>
+          <span style={{ color: '#222', fontWeight: 500 }} aria-current="page">{address}</span>
         </div>
       </nav>
 
