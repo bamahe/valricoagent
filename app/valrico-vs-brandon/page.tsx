@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import Image from 'next/image';
 import { ContactForm } from '../components/ContactForm';
 
 export default function ValricoVsBrandon() {
@@ -60,6 +61,10 @@ export default function ValricoVsBrandon() {
             </table>
           </div>
 
+          <div className="relative mb-8 rounded-md overflow-hidden" style={{aspectRatio:'16/7'}}>
+            <Image src="/images/roads/valrico-fl-bloomingdale-avenue-td-bank.jpg" alt="Bloomingdale Avenue Valrico FL corridor" fill className="object-cover" sizes="(max-width:768px) 100vw, 780px" />
+          </div>
+
           {/* Home prices */}
           <h2 style={{fontFamily:'Merriweather,serif',fontSize:24,fontWeight:700,color:'#003da5',marginBottom:16}}>Home prices: Valrico vs Brandon</h2>
           <p style={{fontSize:15,lineHeight:1.8,color:'#333',marginBottom:16}}>Valrico&apos;s median sale price sits around $415,000, roughly $50,000 above Brandon&apos;s median of approximately $365,000. The gap is driven by larger lot sizes, stronger school zoning (both Bloomingdale HS and Newsome HS are A-rated), and lower housing density. In Valrico&apos;s <Link href="/neighborhoods/river-hills/" style={{color:'#003da5',fontWeight:600,textDecoration:'none'}}>River Hills</Link> and <Link href="/neighborhoods/bloomingdale/" style={{color:'#003da5',fontWeight:600,textDecoration:'none'}}>Bloomingdale</Link> neighborhoods, you will find homes on half-acre lots with mature oak canopies that simply do not exist in most Brandon subdivisions.</p>
@@ -93,6 +98,10 @@ export default function ValricoVsBrandon() {
           <h2 style={{fontFamily:'Merriweather,serif',fontSize:24,fontWeight:700,color:'#003da5',marginBottom:16,marginTop:24}}>Who should choose Brandon?</h2>
           <p style={{fontSize:15,lineHeight:1.8,color:'#333',marginBottom:16}}>Commuters who work in Tampa or need fast highway access. Budget-conscious buyers looking for more home per dollar. People who want walkable shopping and dining options. Investors targeting rental properties (Brandon&apos;s population density supports stronger rental demand). Anyone who values convenience over lot size.</p>
 
+          <div className="relative mb-8 rounded-md overflow-hidden" style={{aspectRatio:'16/7'}}>
+            <Image src="/bloomingdale-valrico.jpg" alt="Bloomingdale Valrico FL established neighborhood vs Brandon" fill className="object-cover" sizes="(max-width:768px) 100vw, 780px" />
+          </div>
+
           {/* Bottom line */}
           <h2 style={{fontFamily:'Merriweather,serif',fontSize:24,fontWeight:700,color:'#003da5',marginBottom:16,marginTop:40}}>The bottom line</h2>
           <p style={{fontSize:15,lineHeight:1.8,color:'#333',marginBottom:16}}>Valrico and Brandon are not competitors so much as they are complements. Many Valrico families do their shopping in Brandon and consider it part of their extended community. The question is not &quot;which is better&quot; but &quot;which matches your priorities.&quot; Barrett Henry, REALTOR&reg; has helped hundreds of buyers navigate this exact decision. <a href="tel:8137337907" style={{color:'#003da5',fontWeight:600,textDecoration:'none'}}>Call<br/>(813) 733-7907</a> for a no-pressure conversation about which community fits your family. <Link href="/valrico-fl-homes-for-sale/" style={{color:'#003da5',fontWeight:600,textDecoration:'none'}}>Browse Valrico homes</Link> or <Link href="/valrico-fl-home-values/" style={{color:'#003da5',fontWeight:600,textDecoration:'none'}}>get your home value</Link> to start comparing real numbers.</p>
@@ -114,6 +123,16 @@ export default function ValricoVsBrandon() {
             ))}
           </div>
 
+          {/* EEAT Author Block */}
+          <div className="flex items-start gap-4 mt-10 p-5 border rounded-md" style={{border:'1px solid #e5e7eb',background:'#faf8f5'}}>
+            <Image src="/barrett-henry.png" alt="Barrett Henry REMAX Collective Valrico REALTOR" width={72} height={72} className="rounded-full flex-shrink-0" />
+            <div>
+              <p className="font-semibold text-base" style={{color:'#111'}}>Barrett Henry, REALTOR® | Broker Associate</p>
+              <p className="text-sm mt-1" style={{color:'#555'}}>REMAX Collective | 23+ years of Valrico and Brandon real estate experience | e-PRO, MRP, SRS</p>
+              <p className="text-sm mt-2" style={{color:'#555'}}>Barrett has helped hundreds of families decide between Valrico and Brandon. He lives and works in this market daily and provides data-driven guidance on which community fits your school zone, budget, and lifestyle priorities. <a href="tel:8137337907" style={{color:'#003da5',fontWeight:600,textDecoration:'none'}}>Call (813) 733-7907</a> &middot; <Link href="/valrico-realtor/" style={{color:'#003da5',fontWeight:600,textDecoration:'none'}}>About Barrett</Link> &middot; <Link href="/valrico-real-estate-agent/" style={{color:'#003da5',fontWeight:600,textDecoration:'none'}}>Valrico real estate agent</Link></p>
+            </div>
+          </div>
+
           {/* CTA */}
           <div style={{marginTop:48,padding:32,borderRadius:8,background:'#faf8f5',textAlign:'center'}}>
             <h3 style={{fontFamily:'Merriweather,serif',fontSize:20,marginBottom:8}}>Not sure which community fits?</h3>
@@ -130,7 +149,11 @@ export default function ValricoVsBrandon() {
             <Link href="/valrico-school-zones/" style={{color:'#003da5',textDecoration:'none'}}>School Zones</Link>{' | '}
             <Link href="/valrico-vs-riverview/" style={{color:'#003da5',textDecoration:'none'}}>Valrico vs Riverview</Link>{' | '}
             <Link href="/valrico-cost-of-living/" style={{color:'#003da5',textDecoration:'none'}}>Cost of Living</Link>{' | '}
-            <Link href="/valrico-first-time-homebuyer/" style={{color:'#003da5',textDecoration:'none'}}>First-Time Buyer Guide</Link>
+            <Link href="/valrico-first-time-homebuyer/" style={{color:'#003da5',textDecoration:'none'}}>First-Time Buyer Guide</Link>{' | '}
+            <Link href="/is-valrico-safe/" style={{color:'#003da5',textDecoration:'none'}}>Is Valrico Safe?</Link>{' | '}
+            <Link href="/valrico-relocation-guide/" style={{color:'#003da5',textDecoration:'none'}}>Relocation Guide</Link>{' | '}
+            <Link href="/neighborhoods/bloomingdale/" style={{color:'#003da5',textDecoration:'none'}}>Bloomingdale</Link>{' | '}
+            <Link href="/valrico-market-report/" style={{color:'#003da5',textDecoration:'none'}}>Market Report</Link>
           </div>
         </div>
       </section>

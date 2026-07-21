@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import Image from 'next/image';
 import { ContactForm } from '../components/ContactForm';
 
 export default function ValricoVsRiverview() {
@@ -52,6 +53,10 @@ export default function ValricoVsRiverview() {
             </table>
           </div>
 
+          <div className="relative mb-8 rounded-md overflow-hidden" style={{aspectRatio:'16/7'}}>
+            <Image src="/bloomingdale-valrico.jpg" alt="Bloomingdale Valrico FL established neighborhood vs Riverview" fill className="object-cover" sizes="(max-width:768px) 100vw, 780px" />
+          </div>
+
           {/* Home prices */}
           <h2 style={{fontFamily:'Merriweather,serif',fontSize:24,fontWeight:700,color:'#003da5',marginBottom:16}}>Home prices and appreciation</h2>
           <p style={{fontSize:15,lineHeight:1.8,color:'#333',marginBottom:16}}>Valrico&apos;s median sale price of approximately $415,000 runs about $30,000 above Riverview&apos;s median of $385,000. The gap is narrower than the Valrico-vs-Brandon spread because Riverview&apos;s newer construction commands solid pricing. However, the composition is very different. In Valrico, that $415,000 buys an established home on a generous lot in a neighborhood like <Link href="/neighborhoods/bloomingdale/" style={{color:'#003da5',fontWeight:600,textDecoration:'none'}}>Bloomingdale</Link> or <Link href="/neighborhoods/buckhorn/" style={{color:'#003da5',fontWeight:600,textDecoration:'none'}}>Buckhorn</Link>. In Riverview, it buys a newer-build home on a compact lot in a master-planned community with mandatory HOA.</p>
@@ -89,6 +94,10 @@ export default function ValricoVsRiverview() {
           <h2 style={{fontFamily:'Merriweather,serif',fontSize:24,fontWeight:700,color:'#003da5',marginBottom:16,marginTop:24}}>Who should choose Riverview?</h2>
           <p style={{fontSize:15,lineHeight:1.8,color:'#333',marginBottom:16}}>Buyers who want new construction with a builder warranty. Families comfortable with HOA-managed communities and uniform aesthetics. Budget-conscious buyers who want modern finishes at a lower price point. Investors targeting rapid-growth areas with strong rental demand. Commuters who prefer the I-75 / US-301 corridor.</p>
 
+          <div className="relative mb-8 rounded-md overflow-hidden" style={{aspectRatio:'16/7'}}>
+            <Image src="/river-hills-valrico.jpg" alt="River Hills gated community Valrico FL vs Riverview new construction" fill className="object-cover" sizes="(max-width:768px) 100vw, 780px" />
+          </div>
+
           {/* Bottom line */}
           <h2 style={{fontFamily:'Merriweather,serif',fontSize:24,fontWeight:700,color:'#003da5',marginBottom:16,marginTop:40}}>The bottom line</h2>
           <p style={{fontSize:15,lineHeight:1.8,color:'#333',marginBottom:16}}>Valrico offers character, school quality, and stability. Riverview offers newness, growth, and modern floor plans. Barrett Henry, REALTOR&reg; helps buyers weigh these tradeoffs every week. <a href="tel:8137337907" style={{color:'#003da5',fontWeight:600,textDecoration:'none'}}>Call<br/>(813) 733-7907</a> to talk through your priorities, or <Link href="/valrico-fl-homes-for-sale/" style={{color:'#003da5',fontWeight:600,textDecoration:'none'}}>browse current Valrico listings</Link> to compare what your budget buys in each community.</p>
@@ -110,6 +119,16 @@ export default function ValricoVsRiverview() {
             ))}
           </div>
 
+          {/* EEAT Author Block */}
+          <div className="flex items-start gap-4 mt-10 p-5 border rounded-md" style={{border:'1px solid #e5e7eb',background:'#faf8f5'}}>
+            <Image src="/barrett-henry.png" alt="Barrett Henry REMAX Collective Valrico REALTOR" width={72} height={72} className="rounded-full flex-shrink-0" />
+            <div>
+              <p className="font-semibold text-base" style={{color:'#111'}}>Barrett Henry, REALTOR® | Broker Associate</p>
+              <p className="text-sm mt-1" style={{color:'#555'}}>REMAX Collective | 23+ years of east Hillsborough County real estate experience | e-PRO, MRP, SRS</p>
+              <p className="text-sm mt-2" style={{color:'#555'}}>Barrett knows the tradeoffs between Valrico and Riverview intimately, covering both markets daily. He helps buyers understand flood zones, school zones, and appreciation trends before making a decision. <a href="tel:8137337907" style={{color:'#003da5',fontWeight:600,textDecoration:'none'}}>Call (813) 733-7907</a> &middot; <Link href="/valrico-realtor/" style={{color:'#003da5',fontWeight:600,textDecoration:'none'}}>About Barrett</Link> &middot; <Link href="/valrico-real-estate/" style={{color:'#003da5',fontWeight:600,textDecoration:'none'}}>Valrico real estate overview</Link></p>
+            </div>
+          </div>
+
           {/* CTA */}
           <div style={{marginTop:48,padding:32,borderRadius:8,background:'#faf8f5',textAlign:'center'}}>
             <h3 style={{fontFamily:'Merriweather,serif',fontSize:20,marginBottom:8}}>Need help deciding?</h3>
@@ -126,7 +145,12 @@ export default function ValricoVsRiverview() {
             <Link href="/valrico-school-zones/" style={{color:'#003da5',textDecoration:'none'}}>School Zones</Link>{' | '}
             <Link href="/valrico-cost-of-living/" style={{color:'#003da5',textDecoration:'none'}}>Cost of Living</Link>{' | '}
             <Link href="/is-valrico-safe/" style={{color:'#003da5',textDecoration:'none'}}>Is Valrico Safe?</Link>{' | '}
-            <Link href="/valrico-no-hoa-homes/" style={{color:'#003da5',textDecoration:'none'}}>No-HOA Homes</Link>
+            <Link href="/valrico-no-hoa-homes/" style={{color:'#003da5',textDecoration:'none'}}>No-HOA Homes</Link>{' | '}
+            <Link href="/valrico-new-construction-homes/" style={{color:'#003da5',textDecoration:'none'}}>New Construction</Link>{' | '}
+            <Link href="/valrico-market-report/" style={{color:'#003da5',textDecoration:'none'}}>Market Report</Link>{' | '}
+            <Link href="/valrico-relocation-guide/" style={{color:'#003da5',textDecoration:'none'}}>Relocation Guide</Link>{' | '}
+            <Link href="/neighborhoods/river-hills/" style={{color:'#003da5',textDecoration:'none'}}>River Hills</Link>{' | '}
+            <Link href="/neighborhoods/buckhorn/" style={{color:'#003da5',textDecoration:'none'}}>Buckhorn</Link>
           </div>
         </div>
       </section>

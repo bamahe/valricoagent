@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import Image from 'next/image';
 import PropertySearch from '../components/PropertySearch';
 import { ContactForm } from '../components/ContactForm';
 export default function PoolHomes() {
@@ -22,13 +23,61 @@ export default function PoolHomes() {
       <h2 className="font-serif text-2xl" style={{color:'var(--ink)'}}>What to know about buying a pool home in Valrico</h2>
       <p className="text-[15px] leading-[1.8]">The vast majority of Valrico pools have aluminum-framed screen enclosures (pool cages). A cage in good condition adds significant value, replacement costs for a full cage run $5,000 to $15,000 depending on size, so cage condition is a key inspection item. Saltwater systems have surged in popularity due to lower maintenance and softer water.</p>
       <p className="text-[15px] leading-[1.8]">Pool homes are prevalent in <Link href="/neighborhoods/bloomingdale/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Bloomingdale</Link>, <Link href="/neighborhoods/river-hills/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>River Hills</Link>, <Link href="/neighborhoods/diamond-hill/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Diamond Hill</Link>, and the <Link href="/neighborhoods/buckhorn/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Buckhorn</Link> corridor. Budget for pool inspection ($150-$300), resurfacing timeline (every 10-15 years, $4,000-$8,000), and equipment age when evaluating resale pool properties.</p>
+      <div className="relative mt-8 mb-4 rounded-md overflow-hidden" style={{aspectRatio:'16/7'}}>
+        <Image src="/bloomingdale-valrico.jpg" alt="Bloomingdale Valrico FL pool home neighborhood" fill className="object-cover" sizes="(max-width:768px) 100vw, 1140px" />
+      </div>
+
       <h2 className="font-serif text-2xl mt-10" style={{color:'var(--ink)'}}>Pool home pricing in Valrico</h2>
       <p className="text-[15px] leading-[1.8]">A screened pool with a good cage typically adds $20K-$40K in value over a comparable non-pool home in the same subdivision. However, a pool with a deteriorated cage, outdated equipment, or needed resurfacing can actually reduce perceived value because buyers factor in the repair costs. Heated pools and saltwater systems command additional premiums.</p>
       <p className="text-[15px] leading-[1.8]">Pool homes in <Link href="/neighborhoods/bloomingdale-oaks/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Bloomingdale Oaks</Link> ($370K-$475K) represent the sweet spot for families. <Link href="/neighborhoods/river-hills/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>River Hills</Link> pool homes with golf course views reach $600K-$800K+. New construction in <Link href="/neighborhoods/valrico-forest/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Valrico Forest</Link> and <Link href="/neighborhoods/arista/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Arista</Link> sometimes includes pool-ready packages from the builder.</p>
+      <div className="relative mt-8 mb-4 rounded-md overflow-hidden" style={{aspectRatio:'16/7'}}>
+        <Image src="/images/neighborhoods/river-hills-golf-country-club-valrico-fl-entrance.jpg" alt="River Hills golf community Valrico FL luxury pool homes" fill className="object-cover" sizes="(max-width:768px) 100vw, 1140px" />
+      </div>
+
       <h2 className="font-serif text-2xl mt-10" style={{color:'var(--ink)'}}>Insurance and maintenance considerations</h2>
       <p className="text-[15px] leading-[1.8]">Florida homeowners insurance typically requires a 4-point inspection for homes over 15 years old, and pool equipment condition is part of that evaluation. A well-maintained pool with current equipment and an intact cage generally does not increase insurance costs significantly. However, pools without proper fencing or cages may trigger additional liability requirements from insurers.</p>
       <p className="text-[15px] leading-[1.8]">Monthly pool maintenance runs approximately $100-$200 for professional service. Many Valrico homeowners maintain their own pools and spend $50-$80/month on chemicals and supplies. Barrett Henry, REALTOR&reg; can help you evaluate pool condition, estimate maintenance costs, and negotiate based on pool-related inspection findings. <a href="tel:8137337907" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Call<br/>(813) 733-7907</a>.</p>
       <p className="text-[15px] leading-[1.8]">For the full guide, see <a href="https://nowtb.com/valrico/valrico-homes-with-pool/" target="_blank" rel="noopener" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Valrico pool homes on nowtb.com</a>. If you own a pool home and are thinking of selling, <Link href="/valrico-fl-home-values/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>get your home value</Link>, your pool likely adds $20K-$40K to your number. For buyers, <Link href="/valrico-fl-homes-for-sale/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>search all current Valrico listings</Link> or explore <Link href="/valrico-waterfront-homes/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>waterfront homes</Link> for the ultimate backyard upgrade.</p>
+
+      {/* EEAT Author Block */}
+      <div className="flex items-start gap-4 mt-8 p-5 border rounded-md" style={{borderColor:'var(--border)',background:'var(--cream-warm)'}}>
+        <Image src="/barrett-henry.png" alt="Barrett Henry REMAX Collective Valrico REALTOR" width={72} height={72} className="rounded-full flex-shrink-0" />
+        <div>
+          <p className="font-semibold text-base" style={{color:'var(--ink)'}}>Barrett Henry, REALTOR® | Broker Associate</p>
+          <p className="text-sm mt-1" style={{color:'var(--ink-soft)'}}>REMAX Collective | 23+ years of Valrico real estate experience | e-PRO, MRP, SRS</p>
+          <p className="text-sm mt-2" style={{color:'var(--ink-soft)'}}>Barrett has helped buyers and sellers navigate pool home transactions in Valrico since 2003, evaluating pool condition, cage integrity, and equipment age on every deal. <a href="tel:8137337907" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Call (813) 733-7907</a> or <Link href="/valrico-realtor/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>learn more about working with Barrett</Link>.</p>
+        </div>
+      </div>
+
+      {/* Third image */}
+      <div className="relative mt-8 mb-4 rounded-md overflow-hidden" style={{aspectRatio:'16/7'}}>
+        <Image src="/barrett-henry.png" alt="Barrett Henry Valrico REALTOR REMAX Collective" fill className="object-cover object-top" sizes="(max-width:768px) 100vw, 1140px" />
+      </div>
+
+      {/* Additional internal links */}
+      <h2 className="font-serif text-2xl mt-10" style={{color:'var(--ink)'}}>More Valrico home searches</h2>
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-3 mt-4">
+        {[
+          ['Luxury Homes','/valrico-luxury-homes/'],
+          ['No HOA Homes','/valrico-no-hoa-homes/'],
+          ['New Construction','/valrico-new-construction-homes/'],
+          ['Waterfront Homes','/valrico-waterfront-homes/'],
+          ['33596 Homes','/homes-for-sale-33596/'],
+          ['33594 Homes','/homes-for-sale-33594/'],
+          ['Bloomingdale','/neighborhoods/bloomingdale/'],
+          ['River Hills','/neighborhoods/river-hills/'],
+          ['Buckhorn','/neighborhoods/buckhorn/'],
+        ].map(([n,h])=>(
+          <Link key={n} href={h} className="border rounded-md px-4 py-3 text-sm font-semibold no-underline hover:bg-[var(--cream)] transition-colors" style={{borderColor:'var(--border)',color:'var(--accent)'}}>{n} &rarr;</Link>
+        ))}
+      </div>
+
+      <p className="text-sm mt-6" style={{color:'var(--ink-soft)'}}>
+        Also explore: <Link href="/valrico-school-zones/" className="no-underline font-semibold" style={{color:'var(--accent)'}}>School zones</Link> &middot;{' '}
+        <Link href="/valrico-market-report/" className="no-underline font-semibold" style={{color:'var(--accent)'}}>Market report</Link> &middot;{' '}
+        <Link href="/valrico-real-estate/" className="no-underline font-semibold" style={{color:'var(--accent)'}}>Valrico real estate overview</Link> &middot;{' '}
+        <Link href="/valrico-first-time-homebuyer/" className="no-underline font-semibold" style={{color:'var(--accent)'}}>First-time buyer guide</Link>
+      </p>
     </div>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html:"{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"Home\", \"item\": \"https://valricoagent.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"Valrico Pool Homes for Sale\", \"item\": \"https://valricoagent.com/valrico-pool-homes/\"}]}"}} />

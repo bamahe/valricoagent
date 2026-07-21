@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import Image from 'next/image';
 import { ContactForm } from '../components/ContactForm';
 
 export default function IsValricoSafe() {
@@ -17,6 +18,10 @@ export default function IsValricoSafe() {
       {/* --- Main content --- */}
       <section style={{padding:'64px 0',background:'#fff'}}>
         <div style={{maxWidth:780,margin:'0 auto',padding:'0 24px'}}>
+
+          <div className="relative mb-8 rounded-md overflow-hidden" style={{aspectRatio:'16/7'}}>
+            <Image src="/bloomingdale-valrico.jpg" alt="Bloomingdale Valrico FL safe family neighborhood" fill className="object-cover" sizes="(max-width:768px) 100vw, 780px" />
+          </div>
 
           {/* Overview */}
           <h2 style={{fontFamily:'Merriweather,serif',fontSize:24,fontWeight:700,color:'#003da5',marginBottom:16}}>Valrico safety overview</h2>
@@ -69,6 +74,10 @@ export default function IsValricoSafe() {
           <p style={{fontSize:15,lineHeight:1.8,color:'#333',marginBottom:16}}>No community is crime-free. The most common incidents in Valrico include vehicle break-ins (overwhelmingly targeting unlocked cars), package theft from porches, and occasional car theft. These are crimes of opportunity that are largely preventable. Lock your car, do not leave valuables visible, and use package delivery lockers or require signatures for high-value deliveries.</p>
           <p style={{fontSize:15,lineHeight:1.8,color:'#333',marginBottom:16}}>Some pockets of north Valrico (parts of ZIP 33594 closer to SR-60) have slightly higher incident rates than south Valrico (33596). This is consistent with the general pattern across east Hillsborough County: proximity to commercial corridors correlates with more property crime. Barrett Henry, REALTOR&reg; can provide neighborhood-specific context for any address you are considering. <a href="tel:8137337907" style={{color:'#003da5',fontWeight:600,textDecoration:'none'}}>Call<br/>(813) 733-7907</a>.</p>
 
+          <div className="relative mb-8 rounded-md overflow-hidden" style={{aspectRatio:'16/7'}}>
+            <Image src="/images/roads/valrico-fl-sr-60-brandon-blvd-corridor.jpg" alt="Valrico FL SR-60 Brandon Boulevard neighborhood corridor" fill className="object-cover" sizes="(max-width:768px) 100vw, 780px" />
+          </div>
+
           {/* Comparison context */}
           <h2 style={{fontFamily:'Merriweather,serif',fontSize:24,fontWeight:700,color:'#003da5',marginBottom:16,marginTop:40}}>How Valrico compares to nearby communities</h2>
           <p style={{fontSize:15,lineHeight:1.8,color:'#333',marginBottom:16}}>Compared to Brandon, Valrico has a lower crime rate per capita, largely due to lower commercial density. Compared to Riverview, the numbers are similar, though Riverview&apos;s rapid growth has brought growing pains including higher traffic accident rates. Compared to Tampa proper, Valrico&apos;s crime rate is significantly lower across all categories. For families <Link href="/valrico-relocation-guide/" style={{color:'#003da5',fontWeight:600,textDecoration:'none'}}>relocating to the Tampa Bay area</Link>, Valrico consistently ranks among the safest options within a reasonable commute distance.</p>
@@ -90,12 +99,26 @@ export default function IsValricoSafe() {
             ))}
           </div>
 
+          {/* EEAT Author Block */}
+          <div className="flex items-start gap-4 mt-10 p-5 border rounded-md" style={{border:'1px solid #e5e7eb',background:'#faf8f5'}}>
+            <Image src="/barrett-henry.png" alt="Barrett Henry REMAX Collective Valrico REALTOR" width={72} height={72} className="rounded-full flex-shrink-0" />
+            <div>
+              <p className="font-semibold text-base" style={{color:'#111'}}>Barrett Henry, REALTOR® | Broker Associate</p>
+              <p className="text-sm mt-1" style={{color:'#555'}}>REMAX Collective | 23+ years of Valrico real estate experience | e-PRO, MRP, SRS</p>
+              <p className="text-sm mt-2" style={{color:'#555'}}>Barrett has helped families find safe, well-located homes across every Valrico neighborhood since 2003. He knows which streets have higher incident rates and which subdivisions offer the most peace of mind. <a href="tel:8137337907" style={{color:'#003da5',fontWeight:600,textDecoration:'none'}}>Call (813) 733-7907</a> &middot; <Link href="/valrico-realtor/" style={{color:'#003da5',fontWeight:600,textDecoration:'none'}}>About Barrett</Link></p>
+            </div>
+          </div>
+
           {/* CTA */}
           <div style={{marginTop:48,padding:32,borderRadius:8,background:'#faf8f5',textAlign:'center'}}>
             <h3 style={{fontFamily:'Merriweather,serif',fontSize:20,marginBottom:8}}>Want neighborhood-specific safety info?</h3>
             <p style={{fontSize:14,color:'#555',marginBottom:16}}>Barrett Henry, REALTOR&reg; with REMAX Collective knows every Valrico neighborhood. Get honest, street-level context, not just statistics.</p>
             <a href="tel:8137337907" className="btn-solid" style={{marginRight:8}}>(813) 733-7907</a>
             <a href="mailto:barrett@nowtb.com" className="btn-ghost">Email Barrett</a>
+          </div>
+
+          <div className="relative mt-8 mb-4 rounded-md overflow-hidden" style={{aspectRatio:'16/7'}}>
+            <Image src="/images/neighborhoods/buckhorn-preserve-valrico-fl-entrance-sign.jpg" alt="Buckhorn Preserve Valrico FL safe gated neighborhood" fill className="object-cover" sizes="(max-width:768px) 100vw, 780px" />
           </div>
 
           {/* Related links */}
@@ -105,9 +128,13 @@ export default function IsValricoSafe() {
             <Link href="/neighborhoods/bloomingdale/" style={{color:'#003da5',textDecoration:'none'}}>Bloomingdale</Link>{' | '}
             <Link href="/neighborhoods/river-hills/" style={{color:'#003da5',textDecoration:'none'}}>River Hills</Link>{' | '}
             <Link href="/neighborhoods/buckhorn/" style={{color:'#003da5',textDecoration:'none'}}>Buckhorn</Link>{' | '}
+            <Link href="/neighborhoods/diamond-hill/" style={{color:'#003da5',textDecoration:'none'}}>Diamond Hill</Link>{' | '}
             <Link href="/valrico-school-zones/" style={{color:'#003da5',textDecoration:'none'}}>School Zones</Link>{' | '}
             <Link href="/valrico-cost-of-living/" style={{color:'#003da5',textDecoration:'none'}}>Cost of Living</Link>{' | '}
-            <Link href="/valrico-relocation-guide/" style={{color:'#003da5',textDecoration:'none'}}>Relocation Guide</Link>
+            <Link href="/valrico-relocation-guide/" style={{color:'#003da5',textDecoration:'none'}}>Relocation Guide</Link>{' | '}
+            <Link href="/living-in-valrico/" style={{color:'#003da5',textDecoration:'none'}}>Living in Valrico</Link>{' | '}
+            <Link href="/valrico-vs-brandon/" style={{color:'#003da5',textDecoration:'none'}}>Valrico vs Brandon</Link>{' | '}
+            <Link href="/valrico-vs-riverview/" style={{color:'#003da5',textDecoration:'none'}}>Valrico vs Riverview</Link>
           </div>
         </div>
       </section>

@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import Image from 'next/image';
 import { ContactForm } from '../components/ContactForm';
 
 export default function RelocationGuide() {
@@ -22,6 +23,10 @@ export default function RelocationGuide() {
       <div className="max-w-[1140px] mx-auto px-7 py-16">
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_340px] gap-14">
           <div>
+
+            <div className="relative mb-8 rounded-md overflow-hidden" style={{aspectRatio:'16/7'}}>
+              <Image src="/images/roads/valrico-fl-bloomingdale-avenue-td-bank.jpg" alt="Bloomingdale Avenue Valrico FL relocation guide" fill className="object-cover" sizes="(max-width:768px) 100vw, 760px" />
+            </div>
 
             {/* WHY VALRICO */}
             <h2 className="font-serif text-2xl mb-4">Why people relocate to Valrico</h2>
@@ -106,6 +111,10 @@ export default function RelocationGuide() {
               ))}
             </div>
 
+            <div className="relative mt-8 mb-4 rounded-md overflow-hidden" style={{aspectRatio:'16/7'}}>
+              <Image src="/bloomingdale-valrico.jpg" alt="Bloomingdale Valrico FL relocation family neighborhood" fill className="object-cover" sizes="(max-width:768px) 100vw, 760px" />
+            </div>
+
             {/* FAQ */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Relocation FAQ</h2>
             <div className="space-y-4">
@@ -131,6 +140,18 @@ export default function RelocationGuide() {
               <a href="tel:8137337907" className="btn-solid block text-center mb-2 text-sm">Call<br/>(813) 733-7907</a>
               <a href="mailto:barrett@nowtb.com" className="btn-ghost block text-center text-sm">Email Barrett</a>
             </div>
+            {/* EEAT Author Block */}
+            <div className="flex flex-col gap-3 p-5 border rounded-md" style={{borderColor:'var(--border)',background:'var(--cream-warm)'}}>
+              <div className="flex items-center gap-3">
+                <Image src="/barrett-henry.png" alt="Barrett Henry REMAX Collective Valrico REALTOR" width={56} height={56} className="rounded-full flex-shrink-0" />
+                <div>
+                  <p className="font-semibold text-sm" style={{color:'var(--ink)'}}>Barrett Henry, REALTOR®</p>
+                  <p className="text-xs mt-0.5" style={{color:'var(--ink-soft)'}}>Broker Associate | REMAX Collective | 23+ yrs</p>
+                </div>
+              </div>
+              <p className="text-sm leading-relaxed" style={{color:'var(--ink-soft)'}}>MRP (Military Relocation Professional) designation. Barrett has helped dozens of families relocate to Valrico from out of state, including virtual tours and remote closings.</p>
+              <Link href="/valrico-realtor/" className="text-xs no-underline font-semibold" style={{color:'var(--accent)'}}>About Barrett &rarr;</Link>
+            </div>
             <div className="rounded-md p-6 border" style={{borderColor:'var(--border)'}}>
               <h3 className="font-serif text-lg mb-3">Related</h3>
               <ul className="space-y-2">
@@ -141,6 +162,9 @@ export default function RelocationGuide() {
                 <li><Link href="/valrico-fl-home-values/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Valrico home values &rarr;</Link></li>
                 <li><Link href="/valrico-down-payment-assistance/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Down payment assistance &rarr;</Link></li>
                 <li><Link href="/valrico-va-loan-homes/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>VA loan homes &rarr;</Link></li>
+                <li><Link href="/is-valrico-safe/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Is Valrico safe? &rarr;</Link></li>
+                <li><Link href="/valrico-vs-brandon/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Valrico vs Brandon &rarr;</Link></li>
+                <li><Link href="/valrico-cost-of-living/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Cost of living &rarr;</Link></li>
                 <li><a href="https://bestvalricohandyman.com" target="_blank" rel="noopener" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Move-in repairs - Best Valrico Handyman &rarr;</a></li>
               </ul>
             </div>

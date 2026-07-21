@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import Image from 'next/image';
 import { ContactForm } from '../components/ContactForm';
 
 export default function ValricoCostOfLiving() {
@@ -57,6 +58,10 @@ export default function ValricoCostOfLiving() {
             </table>
           </div>
 
+          <div className="relative mb-8 rounded-md overflow-hidden" style={{aspectRatio:'16/7'}}>
+            <Image src="/bloomingdale-valrico.jpg" alt="Bloomingdale Valrico FL cost of living neighborhood" fill className="object-cover" sizes="(max-width:768px) 100vw, 780px" />
+          </div>
+
           {/* Housing */}
           <h2 style={{fontFamily:'Merriweather,serif',fontSize:24,fontWeight:700,color:'#003da5',marginBottom:16}}>Housing: the biggest line item</h2>
           <p style={{fontSize:15,lineHeight:1.8,color:'#333',marginBottom:16}}>Valrico&apos;s median home sale price is approximately $415,000. With a 20% down payment ($83,000) and a 30-year mortgage at current rates, the principal and interest payment runs approximately $2,100 to $2,350 per month. Add property taxes, insurance, and any HOA fees, and the total monthly housing cost for a median-priced home lands between $3,100 and $3,600.</p>
@@ -112,6 +117,10 @@ export default function ValricoCostOfLiving() {
           </div>
           <p style={{fontSize:15,lineHeight:1.8,color:'#333',marginBottom:16}}>This does not include discretionary spending (entertainment, clothing, savings, childcare). <Link href="/valrico-first-time-homebuyer/" style={{color:'#003da5',fontWeight:600,textDecoration:'none'}}>First-time buyers</Link> can explore options to reduce the housing portion through <Link href="/valrico-down-payment-assistance/" style={{color:'#003da5',fontWeight:600,textDecoration:'none'}}>down payment assistance programs</Link>.</p>
 
+          <div className="relative mt-8 mb-4 rounded-md overflow-hidden" style={{aspectRatio:'16/7'}}>
+            <Image src="/images/roads/valrico-fl-sr-60-brandon-blvd-corridor.jpg" alt="Valrico FL SR-60 corridor cost of living commercial area" fill className="object-cover" sizes="(max-width:768px) 100vw, 780px" />
+          </div>
+
           {/* FAQ */}
           <h2 style={{fontFamily:'Merriweather,serif',fontSize:24,fontWeight:700,color:'#003da5',marginBottom:16,marginTop:48}}>Frequently asked questions</h2>
           <div style={{display:'flex',flexDirection:'column',gap:16}}>
@@ -127,6 +136,16 @@ export default function ValricoCostOfLiving() {
                 <p style={{fontSize:14,lineHeight:1.7,color:'#555'}}>{a}</p>
               </div>
             ))}
+          </div>
+
+          {/* EEAT Author Block */}
+          <div className="flex items-start gap-4 mt-10 p-5 border rounded-md" style={{border:'1px solid #e5e7eb',background:'#faf8f5'}}>
+            <Image src="/barrett-henry.png" alt="Barrett Henry REMAX Collective Valrico REALTOR" width={72} height={72} className="rounded-full flex-shrink-0" />
+            <div>
+              <p className="font-semibold text-base" style={{color:'#111'}}>Barrett Henry, REALTOR® | Broker Associate</p>
+              <p className="text-sm mt-1" style={{color:'#555'}}>REMAX Collective | 23+ years of Valrico real estate experience | e-PRO, MRP, SRS</p>
+              <p className="text-sm mt-2" style={{color:'#555'}}>Barrett helps buyers from high-cost states understand what their dollar actually buys in Valrico, breaking down real costs by neighborhood, school zone, and property type. <a href="tel:8137337907" style={{color:'#003da5',fontWeight:600,textDecoration:'none'}}>Call (813) 733-7907</a> &middot; <Link href="/valrico-realtor/" style={{color:'#003da5',fontWeight:600,textDecoration:'none'}}>About Barrett</Link> &middot; <Link href="/valrico-relocation-guide/" style={{color:'#003da5',fontWeight:600,textDecoration:'none'}}>Relocation guide</Link></p>
+            </div>
           </div>
 
           {/* CTA */}
@@ -145,7 +164,13 @@ export default function ValricoCostOfLiving() {
             <Link href="/valrico-first-time-homebuyer/" style={{color:'#003da5',textDecoration:'none'}}>First-Time Buyer Guide</Link>{' | '}
             <Link href="/valrico-vs-brandon/" style={{color:'#003da5',textDecoration:'none'}}>Valrico vs Brandon</Link>{' | '}
             <Link href="/valrico-vs-riverview/" style={{color:'#003da5',textDecoration:'none'}}>Valrico vs Riverview</Link>{' | '}
-            <Link href="/is-valrico-safe/" style={{color:'#003da5',textDecoration:'none'}}>Is Valrico Safe?</Link>
+            <Link href="/is-valrico-safe/" style={{color:'#003da5',textDecoration:'none'}}>Is Valrico Safe?</Link>{' | '}
+            <Link href="/valrico-relocation-guide/" style={{color:'#003da5',textDecoration:'none'}}>Relocation Guide</Link>{' | '}
+            <Link href="/valrico-school-zones/" style={{color:'#003da5',textDecoration:'none'}}>School Zones</Link>{' | '}
+            <Link href="/living-in-valrico/" style={{color:'#003da5',textDecoration:'none'}}>Living in Valrico</Link>{' | '}
+            <Link href="/valrico-market-report/" style={{color:'#003da5',textDecoration:'none'}}>Market Report</Link>{' | '}
+            <Link href="/homes-for-sale-33596/" style={{color:'#003da5',textDecoration:'none'}}>33596 Homes</Link>{' | '}
+            <Link href="/homes-for-sale-33594/" style={{color:'#003da5',textDecoration:'none'}}>33594 Homes</Link>
           </div>
         </div>
       </section>

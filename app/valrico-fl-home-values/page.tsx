@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import Image from 'next/image';
 import { HomeValueForm } from '../components/HomeValueForm';
 
 export default function HomeValues() {
@@ -33,6 +34,10 @@ export default function HomeValues() {
       <div className="max-w-[1140px] mx-auto px-7 py-16">
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_340px] gap-14">
           <div>
+            <div className="relative mb-8 rounded-md overflow-hidden" style={{aspectRatio:'16/7'}}>
+              <Image src="/bloomingdale-valrico.jpg" alt="Bloomingdale Valrico FL home values neighborhood" fill className="object-cover" sizes="(max-width:768px) 100vw, 760px" />
+            </div>
+
             <h2 className="font-serif text-2xl mb-4">Why automated home values are wrong in Valrico</h2>
             <p className="text-[15px] leading-[1.8] mb-4" style={{color:'var(--ink-soft)'}}>Automated valuation models (AVMs) like Zillow&apos;s Zestimate pull from public records and broad market data. They don&apos;t know that your kitchen was remodeled last year. They don&apos;t know that the house two doors down sold low because of a divorce. They can&apos;t tell the difference between Bloomingdale Oaks and Bloomingdale Ridge, even though those two sub-neighborhoods trade at different price-per-square-foot numbers.</p>
             <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>A comparative market analysis (CMA) from a REALTOR® who works Valrico every day uses actual closed sales from your specific section, adjusts for the things that matter locally, and gives you a number you can actually price from. That&apos;s what I provide, free, no obligation, no pressure to list. Once you know your number, read the <Link href="/sell-my-home-valrico/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>full selling guide</Link> or check the latest <Link href="/valrico-market-report/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>market report</Link> for current trends. Need to sell fast? Consider a <Link href="/valrico-cash-offer/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>cash offer</Link>.</p>
@@ -79,6 +84,10 @@ export default function HomeValues() {
             </div>
             <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>For a home value estimate specific to your neighborhood and property, <a href="tel:8137337907" className="font-semibold no-underline" style={{color:'var(--accent)'}}>call Barrett at (813) 733-7907</a> or <a href="mailto:barrett@nowtb.com" className="font-semibold no-underline" style={{color:'var(--accent)'}}>email barrett@nowtb.com</a>. I&apos;ll pull comps from your exact sub-neighborhood and give you a realistic number, not an algorithm&apos;s guess.</p>
 
+            <div className="relative mt-8 mb-4 rounded-md overflow-hidden" style={{aspectRatio:'16/7'}}>
+              <Image src="/river-hills-valrico.jpg" alt="River Hills Valrico FL high value neighborhood home prices" fill className="object-cover" sizes="(max-width:768px) 100vw, 760px" />
+            </div>
+
             <h2 className="font-serif text-2xl mb-4 mt-10">33594 vs 33596: does your ZIP code matter?</h2>
             <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>Yes. The 33596 ZIP code (south Valrico) generally trades at a slight premium over 33594 (north Valrico), largely because of school zoning. 33596 includes Bloomingdale, River Hills, and the Buckhorn/Boyette corridor — all of which are zoned for either Bloomingdale HS or Newsome HS. 33594 includes Diamond Hill, parts of Brentwood Hills, and older sections of north Valrico that may be zoned for other schools. The price-per-square-foot difference between the two ZIPs is typically $10 to $20, but it varies significantly by subdivision. Read the <Link href="/blog/valrico-housing-market-q1-2026/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Q3 2026 Valrico market report</Link> for more detail.</p>
 
@@ -99,6 +108,18 @@ export default function HomeValues() {
           </div>
 
           <div className="space-y-6">
+            {/* EEAT Author Block */}
+            <div className="flex flex-col gap-3 p-5 border rounded-md" style={{borderColor:'var(--border)',background:'var(--cream-warm)'}}>
+              <div className="flex items-center gap-3">
+                <Image src="/barrett-henry.png" alt="Barrett Henry REMAX Collective Valrico REALTOR" width={56} height={56} className="rounded-full flex-shrink-0" />
+                <div>
+                  <p className="font-semibold text-sm" style={{color:'var(--ink)'}}>Barrett Henry, REALTOR®</p>
+                  <p className="text-xs mt-0.5" style={{color:'var(--ink-soft)'}}>Broker Associate | REMAX Collective | 23+ yrs</p>
+                </div>
+              </div>
+              <p className="text-sm leading-relaxed" style={{color:'var(--ink-soft)'}}>SRS (Seller Representative Specialist). Barrett provides free CMAs based on actual comparable sales from your specific Valrico sub-neighborhood, not algorithm estimates.</p>
+              <Link href="/valrico-realtor/" className="text-xs no-underline font-semibold" style={{color:'var(--accent)'}}>About Barrett &rarr;</Link>
+            </div>
             <div className="rounded-md p-6 border" style={{borderColor:'var(--border)',background:'var(--cream-warm)'}}>
               <h3 className="font-serif text-lg mb-3">Get your free Valrico home value</h3>
               <p className="text-sm mb-4 leading-relaxed" style={{color:'var(--ink-soft)'}}>Barrett Henry, REALTOR® will pull actual comps from your specific Valrico sub-neighborhood. No obligation, no automated guesses.</p>

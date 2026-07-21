@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import Image from 'next/image';
 import PropertySearch from '../components/PropertySearch';
 import { ContactForm } from '../components/ContactForm';
 
@@ -29,6 +30,10 @@ export default function WaterfrontHomes() {
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_340px] gap-14">
           <div>
 
+            <div className="relative mb-8 rounded-md overflow-hidden" style={{aspectRatio:'16/7'}}>
+              <Image src="/river-hills-valrico.jpg" alt="River Hills waterfront lake homes Valrico FL" fill className="object-cover" sizes="(max-width:768px) 100vw, 900px" />
+            </div>
+
             {/* WHAT WATERFRONT MEANS */}
             <h2 className="font-serif text-2xl mb-4">What &quot;waterfront&quot; means in Valrico</h2>
             <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>When people search for waterfront homes in Valrico, they are not looking at oceanfront or bay views. Valrico is about 30 miles inland from the Gulf of Mexico. Waterfront here means lakefront, pond-front, or canal-adjacent properties. The appeal is different from coastal waterfront, you get peaceful water views, wildlife, privacy from rear neighbors, and often larger lots. No saltwater corrosion, no flood surge risk, and significantly lower insurance costs than anything on the coast.</p>
@@ -56,6 +61,10 @@ export default function WaterfrontHomes() {
               ))}
             </div>
 
+            <div className="relative mb-8 rounded-md overflow-hidden" style={{aspectRatio:'16/7'}}>
+              <Image src="/bloomingdale-valrico.jpg" alt="Bloomingdale pond front homes Valrico FL" fill className="object-cover" sizes="(max-width:768px) 100vw, 900px" />
+            </div>
+
             {/* PRICE PREMIUMS */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Price premiums for water views</h2>
             <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>Water-view properties in Valrico consistently sell for more than interior lots in the same neighborhood. The premium depends on the type of water feature:</p>
@@ -76,6 +85,28 @@ export default function WaterfrontHomes() {
             {/* FLOOD ZONES */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Flood zone considerations</h2>
             <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>Most Valrico properties are in FEMA Flood Zone X (minimal flood risk), which means flood insurance is not required by lenders. However, some lakefront and riverfront properties, particularly along the Alafia River corridor and parts of Lake Valrico, fall in Zone A or AE, which requires flood insurance. Flood insurance costs vary widely: $400/year for a preferred-risk property in Zone X to $2,000+/year for a home in a high-risk zone. Barrett always checks flood zone status before you make an offer. It is one of the first things to verify on any water-adjacent property in Valrico.</p>
+
+            {/* EEAT Author Block */}
+            <div className="flex items-start gap-4 mt-10 p-5 border rounded-md" style={{borderColor:'var(--border)',background:'var(--cream-warm)'}}>
+              <Image src="/barrett-henry.png" alt="Barrett Henry REMAX Collective Valrico REALTOR" width={72} height={72} className="rounded-full flex-shrink-0" />
+              <div>
+                <p className="font-semibold text-base" style={{color:'var(--ink)'}}>Barrett Henry, REALTOR® | Broker Associate</p>
+                <p className="text-sm mt-1" style={{color:'var(--ink-soft)'}}>REMAX Collective | 23+ years of Valrico real estate experience | e-PRO, MRP, SRS</p>
+                <p className="text-sm mt-2" style={{color:'var(--ink-soft)'}}>Barrett knows every pond, lake, and water-view lot in Valrico. He always checks flood zone status before clients make offers on waterfront properties. <a href="tel:8137337907" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Call (813) 733-7907</a> &middot; <Link href="/valrico-realtor/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Why choose Barrett</Link> &middot; <Link href="/valrico-fl-home-values/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Get a water-view home valuation</Link></p>
+              </div>
+            </div>
+
+            {/* Additional internal links */}
+            <p className="text-sm mt-6" style={{color:'var(--ink-soft)'}}>
+              <strong>Related searches:</strong>{' '}
+              <Link href="/valrico-pool-homes/" className="no-underline font-semibold" style={{color:'var(--accent)'}}>Pool homes</Link> &middot;{' '}
+              <Link href="/valrico-luxury-homes/" className="no-underline font-semibold" style={{color:'var(--accent)'}}>Luxury homes</Link> &middot;{' '}
+              <Link href="/valrico-fl-homes-for-sale/" className="no-underline font-semibold" style={{color:'var(--accent)'}}>All Valrico homes</Link> &middot;{' '}
+              <Link href="/homes-for-sale-33596/" className="no-underline font-semibold" style={{color:'var(--accent)'}}>33596 listings</Link> &middot;{' '}
+              <Link href="/valrico-no-hoa-homes/" className="no-underline font-semibold" style={{color:'var(--accent)'}}>No HOA homes</Link> &middot;{' '}
+              <Link href="/valrico-school-zones/" className="no-underline font-semibold" style={{color:'var(--accent)'}}>School zones</Link> &middot;{' '}
+              <Link href="/is-valrico-safe/" className="no-underline font-semibold" style={{color:'var(--accent)'}}>Is Valrico safe?</Link>
+            </p>
 
             {/* FAQ */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Waterfront homes FAQ</h2>

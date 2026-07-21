@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import Image from 'next/image';
 import { ContactForm } from '../components/ContactForm';
 
 /* ── JSON-LD FAQPage schema ── */
@@ -156,6 +157,10 @@ export default function FirstTimeHomeBuyer() {
               ))}
             </div>
 
+            <div className="relative mt-8 mb-4 rounded-md overflow-hidden" style={{aspectRatio:'16/7'}}>
+              <Image src="/bloomingdale-valrico.jpg" alt="Bloomingdale Valrico FL first time homebuyer neighborhood" fill className="object-cover" sizes="(max-width:768px) 100vw, 760px" />
+            </div>
+
             {/* CTA */}
             <div className="rounded-lg p-8 mt-10 text-center" style={{background:'var(--blue-deep)',color:'#fff'}}>
               <h2 className="font-serif text-2xl mb-3">Ready to Buy Your First Valrico Home?</h2>
@@ -164,6 +169,10 @@ export default function FirstTimeHomeBuyer() {
                 <a href="tel:8137337907" className="inline-block py-3 px-8 bg-white font-semibold text-[15px] rounded no-underline" style={{color:'var(--accent)'}}>Call<br/>(813) 733-7907</a>
                 <a href="mailto:barrett@nowtb.com" className="inline-block py-3 px-8 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">Email Barrett</a>
               </div>
+            </div>
+
+            <div className="relative mt-8 mb-4 rounded-md overflow-hidden" style={{aspectRatio:'16/7'}}>
+              <Image src="/images/neighborhoods/buckhorn-preserve-valrico-fl-entrance-sign.jpg" alt="Buckhorn Preserve Valrico FL neighborhood entry level homes" fill className="object-cover" sizes="(max-width:768px) 100vw, 760px" />
             </div>
 
             {/* FAQ */}
@@ -186,6 +195,19 @@ export default function FirstTimeHomeBuyer() {
 
           {/* SIDEBAR */}
           <div className="space-y-6">
+            {/* EEAT Author Block */}
+            <div className="flex flex-col gap-3 p-5 border rounded-md" style={{borderColor:'var(--border)',background:'var(--cream-warm)'}}>
+              <div className="flex items-center gap-3">
+                <Image src="/barrett-henry.png" alt="Barrett Henry REMAX Collective Valrico REALTOR" width={56} height={56} className="rounded-full flex-shrink-0" />
+                <div>
+                  <p className="font-semibold text-sm" style={{color:'var(--ink)'}}>Barrett Henry, REALTOR®</p>
+                  <p className="text-xs mt-0.5" style={{color:'var(--ink-soft)'}}>Broker Associate | REMAX Collective | 23+ yrs</p>
+                </div>
+              </div>
+              <p className="text-sm leading-relaxed" style={{color:'var(--ink-soft)'}}>e-PRO, MRP, SRS designations. Barrett helps first-time buyers navigate Valrico every month, from down payment programs to school zone decisions.</p>
+              <a href="tel:8137337907" className="btn-solid block text-center text-sm">(813) 733-7907</a>
+              <Link href="/valrico-realtor/" className="text-xs text-center no-underline font-semibold block mt-1" style={{color:'var(--accent)'}}>Why choose Barrett &rarr;</Link>
+            </div>
             <div className="rounded-md p-6 border" style={{borderColor:'var(--border)',background:'var(--cream-warm)'}}>
               <h3 className="font-serif text-lg mb-3">Talk to Barrett First</h3>
               <p className="text-sm mb-4 leading-relaxed" style={{color:'var(--ink-soft)'}}>Before you start browsing Zillow, talk to a local REALTOR® who knows Valrico. Barrett Henry helps first-time buyers every month, no pressure, just straight answers about what you can afford and where to look.</p>
