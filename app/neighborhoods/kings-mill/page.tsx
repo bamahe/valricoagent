@@ -47,7 +47,7 @@ export default function KingsMillPage() {
           <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Kings Mill is a gated townhome community off Bloomingdale Avenue in south Valrico (33596). The most affordable entry into the Bloomingdale High School zone, with prices from $275K&ndash;$350K. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Kings Mill listings</Link>
-            <Link href="/valrico-fl-home-values/" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">What&apos;s my home worth?</Link>
+            <Link href="/valrico-fl-home-values/" className="inline-block py-3 px-7 border-2 border-white text-white font-semibold text-[15px] rounded no-underline hover:bg-white/20">What&apos;s my home worth?</Link>
           </div>
         </div>
       </div>

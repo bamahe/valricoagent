@@ -11,7 +11,7 @@ export default function PropertyManagement() {
           <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{color:'rgba(255,255,255,.75)'}}>Own a rental property in Valrico? Barrett Henry manages single-family rentals, townhomes, and small multi-family properties across 33594 and 33596 through ViVi Property Management. Full-service management with in-house maintenance, tenant screening, rent collection, and compliance handled for you.</p>
           <div className="flex gap-3 flex-wrap">
             <a href="tel:8137337907" className="btn-solid">(813) 733-7907 - Talk to Barrett</a>
-            <a href="mailto:barrett@nowtb.com" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">Email for PM info</a>
+            <a href="mailto:barrett@nowtb.com" className="inline-block py-3 px-7 border-2 border-white text-white font-semibold text-[15px] rounded no-underline hover:bg-white/20">Email for PM info</a>
           </div>
         </div>
       </div>

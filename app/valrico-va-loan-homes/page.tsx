@@ -12,7 +12,7 @@ export default function VALoanHomes() {
           <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{color:'rgba(255,255,255,.75)'}}>Your VA loan benefit is one of the most powerful homebuying tools available. Zero down payment, no PMI, and competitive interest rates. Barrett Henry works with VA buyers regularly and knows how to get VA offers accepted in Valrico, even in competitive situations.</p>
           <div className="flex gap-3 flex-wrap">
             <a href="tel:8137337907" className="btn-solid">Call<br/>(813) 733-7907</a>
-            <Link href="/valrico-fl-homes-for-sale/" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">Search Valrico Homes</Link>
+            <Link href="/valrico-fl-homes-for-sale/" className="inline-block py-3 px-7 border-2 border-white text-white font-semibold text-[15px] rounded no-underline hover:bg-white/20">Search Valrico Homes</Link>
           </div>
         </div>
       </div>
@@ -133,7 +133,7 @@ export default function VALoanHomes() {
           <p className="text-sm mb-6 max-w-[560px] mx-auto" style={{color:'rgba(255,255,255,.7)'}}>Barrett Henry, REALTOR® with REMAX Collective, is proud to work with veterans and active-duty service members. 23+ years of real estate experience. Let Barrett help you use your VA benefit to buy the right home in Valrico.</p>
           <div className="flex gap-3 justify-center flex-wrap">
             <a href="tel:8137337907" className="btn-solid" style={{background:'#fff',color:'#003da5'}}>Call<br/>(813) 733-7907</a>
-            <a href="mailto:barrett@nowtb.com" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-sm rounded no-underline">Email Barrett</a>
+            <a href="mailto:barrett@nowtb.com" className="inline-block py-3 px-7 border-2 border-white text-white font-semibold text-sm rounded no-underline hover:bg-white/20">Email Barrett</a>
           </div>
         </div>
       </section>

@@ -52,7 +52,7 @@ export default function RecentlySoldPage() {
           </p>
           <div className="flex gap-3 flex-wrap">
             <a href="tel:8137337907" className="btn-solid">(813) 733-7907</a>
-            <Link href="/valrico-fl-home-values/" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">What&apos;s my home worth?</Link>
+            <Link href="/valrico-fl-home-values/" className="inline-block py-3 px-7 border-2 border-white text-white font-semibold text-[15px] rounded no-underline hover:bg-white/20">What&apos;s my home worth?</Link>
           </div>
         </div>
       </div>
@@ -137,8 +137,8 @@ export default function RecentlySoldPage() {
           <h2 className="font-serif text-2xl mb-3">Ready to Be Next?</h2>
           <p className="text-sm mb-6" style={{ color: 'rgba(255,255,255,.7)' }}>Whether you&apos;re buying or selling in Valrico, Barrett Henry delivers results. 23+ years of real estate experience. Free consultation, no pressure.</p>
           <div className="flex gap-3 justify-center flex-wrap">
-            <a href="tel:8137337907" className="btn-solid" style={{ background: '#fff', color: '#003da5' }}>(813) 733-7907</a>
-            <Link href="/valrico-fl-home-values/" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-sm rounded no-underline">Get My Home Value</Link>
+            <a href="tel:8137337907" style={{ display: 'inline-block', padding: '13px 28px', background: '#fff', color: '#003da5', fontWeight: 700, fontSize: 14, borderRadius: 8, textDecoration: 'none' }}>(813) 733-7907</a>
+            <Link href="/valrico-fl-home-values/" style={{ display: 'inline-block', padding: '13px 28px', background: '#cc0000', color: '#fff', fontWeight: 700, fontSize: 14, borderRadius: 8, textDecoration: 'none' }}>Get My Home Value</Link>
           </div>
         </div>
       </section>

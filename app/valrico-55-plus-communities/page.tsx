@@ -12,7 +12,7 @@ export default function FiftyFivePlus() {
           <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{color:'rgba(255,255,255,.75)'}}>Whether you want a dedicated 55+ community with resort-style amenities or a single-story home in a regular Valrico neighborhood, this area gives you options. No state income tax, affordable homes, and healthcare nearby.</p>
           <div className="flex gap-3 flex-wrap">
             <a href="tel:8137337907" className="btn-solid">Call<br/>(813) 733-7907</a>
-            <Link href="/valrico-fl-homes-for-sale/" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">Search Valrico Homes</Link>
+            <Link href="/valrico-fl-homes-for-sale/" className="inline-block py-3 px-7 border-2 border-white text-white font-semibold text-[15px] rounded no-underline hover:bg-white/20">Search Valrico Homes</Link>
           </div>
         </div>
       </div>
@@ -116,7 +116,7 @@ export default function FiftyFivePlus() {
           <p className="text-sm mb-6 max-w-[560px] mx-auto" style={{color:'rgba(255,255,255,.7)'}}>Barrett Henry, REALTOR® with REMAX Collective, helps retirees and downsizers find the right home in Valrico and surrounding communities. No state income tax, affordable living, and 23+ years of experience guiding buyers through the process.</p>
           <div className="flex gap-3 justify-center flex-wrap">
             <a href="tel:8137337907" className="btn-solid" style={{background:'#fff',color:'#003da5'}}>Call<br/>(813) 733-7907</a>
-            <a href="mailto:barrett@nowtb.com" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-sm rounded no-underline">Email Barrett</a>
+            <a href="mailto:barrett@nowtb.com" className="inline-block py-3 px-7 border-2 border-white text-white font-semibold text-sm rounded no-underline hover:bg-white/20">Email Barrett</a>
           </div>
         </div>
       </section>
