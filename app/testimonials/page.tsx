@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import { ContactForm } from '../components/ContactForm';
 
 // All client reviews — add new ones at the top
 const reviews = [
@@ -119,6 +120,12 @@ export default function TestimonialsPage() {
           datePublished: `${r.year}-01-01`,
         })),
       }) }} />
+      
+      {/* Lead Capture Form */}
+      <div className="max-w-[1140px] mx-auto px-7 py-12">
+        <ContactForm />
+      </div>
+
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org", "@type": "BreadcrumbList",
         itemListElement: [

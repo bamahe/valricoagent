@@ -2,6 +2,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import PropertySearch from '../components/PropertySearch';
+import { ContactForm } from '../components/ContactForm';
 
 export default function LuxuryHomes() {
   return (
@@ -126,6 +127,12 @@ export default function LuxuryHomes() {
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html:"{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"Home\", \"item\": \"https://valricoagent.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"Valrico Luxury Homes for Sale\", \"item\": \"https://valricoagent.com/valrico-luxury-homes/\"}]}"}} />
       {/* FAQPage schema for AEO */}
+      
+      {/* Lead Capture Form */}
+      <div className="max-w-[1140px] mx-auto px-7 py-12">
+        <ContactForm />
+      </div>
+
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify({
         "@context":"https://schema.org","@type":"FAQPage","mainEntity":[
           {"@type":"Question","name":"What is the starting price for luxury homes in Valrico FL?","acceptedAnswer":{"@type":"Answer","text":"Luxury homes in Valrico generally start around $500K-$600K and extend past $1.2 million for the most exclusive properties. Gated golf communities like River Hills and Diamond Hill represent the upper end. Barrett Henry, Broker Associate with REMAX Collective, specializes in Valrico luxury real estate through The REMAX Collection. Call (813) 733-7907 for a private showing or market analysis."}},

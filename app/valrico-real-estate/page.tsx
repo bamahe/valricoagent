@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import { ContactForm } from '../components/ContactForm';
 
 export default function ValricoRealEstate() {
   /* JSON-LD structured data: RealEstateAgent + FAQPage */
@@ -259,6 +260,12 @@ export default function ValricoRealEstate() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema[1]) }} />
 
       {/* BreadcrumbList JSON-LD */}
+      
+      {/* Lead Capture Form */}
+      <div className="max-w-[1140px] mx-auto px-7 py-12">
+        <ContactForm />
+      </div>
+
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",

@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import { ContactForm } from '../components/ContactForm';
 
 export default function AboutBarrettHenry() {
   /**
@@ -216,6 +217,12 @@ export default function AboutBarrettHenry() {
       {/* JSON-LD structured data, full @graph: Organization + Person + AboutPage */}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutSchema) }} />
       {/* FAQPage schema for AEO */}
+      
+      {/* Lead Capture Form */}
+      <div className="max-w-[1140px] mx-auto px-7 py-12">
+        <ContactForm />
+      </div>
+
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify({
         "@context":"https://schema.org","@type":"FAQPage","mainEntity":[
           {"@type":"Question","name":"Who is Barrett Henry?","acceptedAnswer":{"@type":"Answer","text":"Barrett Henry is a licensed REALTOR and Broker Associate with REMAX Collective, serving Valrico, Brandon, Riverview, and Lithia in the Tampa Bay area. He has been licensed since 2003 with 23+ years of real estate experience. He holds e-PRO, MRP, and SRS designations (License #3313308) and formed The NOW Team in 2015. Call (813) 733-7907 or email barrett@nowtb.com."}},

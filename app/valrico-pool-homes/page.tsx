@@ -1,6 +1,7 @@
 'use client';
 import Link from 'next/link';
 import PropertySearch from '../components/PropertySearch';
+import { ContactForm } from '../components/ContactForm';
 export default function PoolHomes() {
   return (<>
     <div style={{background:'var(--blue-deep)'}} className="text-white py-16 px-7"><div className="max-w-[1140px] mx-auto">
@@ -31,6 +32,12 @@ export default function PoolHomes() {
     </div>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html:"{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"Home\", \"item\": \"https://valricoagent.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"Valrico Pool Homes for Sale\", \"item\": \"https://valricoagent.com/valrico-pool-homes/\"}]}"}} />
+      
+      {/* Lead Capture Form */}
+      <div className="max-w-[1140px] mx-auto px-7 py-12">
+        <ContactForm />
+      </div>
+
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify({
         "@context":"https://schema.org","@type":"FAQPage","mainEntity":[
           {"@type":"Question","name":"How much do pool homes cost in Valrico FL?","acceptedAnswer":{"@type":"Answer","text":"Pool homes in Valrico range from $370K in communities like Bloomingdale Oaks to $800K+ in luxury neighborhoods like River Hills. A screened pool with a good cage typically adds $20,000-$40,000 in value over a comparable non-pool home in the same subdivision. Contact Barrett Henry at (813) 733-7907 for current pool home listings."}},

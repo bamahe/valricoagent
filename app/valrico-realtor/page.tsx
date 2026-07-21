@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import { ContactForm } from '../components/ContactForm';
 
 export default function ValricoRealtor() {
   return (
@@ -91,6 +92,12 @@ export default function ValricoRealtor() {
           <a href="mailto:barrett@nowtb.com" className="btn-ghost">Email Barrett</a>
         </div>
       </div>
+      
+      {/* Lead Capture Form */}
+      <div className="max-w-[1140px] mx-auto px-7 py-12">
+        <ContactForm />
+      </div>
+
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What should I ask a Valrico REALTOR® before hiring them?","acceptedAnswer":{"@type":"Answer","text":"Ask how many homes they've sold in Valrico specifically, whether they know the sub-neighborhoods, how they price homes, and what their marketing plan includes beyond MLS."}},{"@type":"Question","name":"What does a Valrico REALTOR® do for buyers?","acceptedAnswer":{"@type":"Answer","text":"A Valrico REALTOR® previews properties, identifies neighborhood-specific issues, negotiates on your behalf, coordinates inspections, and manages the timeline to closing."}},{"@type":"Question","name":"What designations does Barrett Henry hold?","acceptedAnswer":{"@type":"Answer","text":"Barrett Henry holds e-PRO (digital marketing), MRP (military relocation), and SRS (seller representation) designations, and is a Broker Associate with REMAX Collective."}}]})}} />
     </>
   );

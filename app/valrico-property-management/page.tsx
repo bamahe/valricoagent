@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import { ContactForm } from '../components/ContactForm';
 
 export default function PropertyManagement() {
   return (
@@ -91,6 +92,12 @@ export default function PropertyManagement() {
             </div>
           </div>
         </div>
+      </div>
+
+      
+      {/* Lead Capture Form */}
+      <div className="max-w-[1140px] mx-auto px-7 py-12">
+        <ContactForm />
       </div>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify({"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://valricoagent.com/"},{"@type":"ListItem","position":2,"name":"Valrico Property Management","item":"https://valricoagent.com/valrico-property-management/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What areas do you manage rental properties in?","acceptedAnswer":{"@type":"Answer","text":"We manage properties in Valrico (33594 and 33596), Brandon, Bloomingdale, Buckhorn/Boyette, and east Hillsborough County."}},{"@type":"Question","name":"What is the property management fee?","acceptedAnswer":{"@type":"Answer","text":"10% of collected rent with no hidden fees or maintenance markups."}},{"@type":"Question","name":"Do you handle Airbnb and short-term rentals?","acceptedAnswer":{"@type":"Answer","text":"Yes. Best Bay Services provides Airbnb turnover service including cleaning, restocking, and guest coordination."}},{"@type":"Question","name":"Can you help me buy an investment property in Valrico?","acceptedAnswer":{"@type":"Answer","text":"Yes. Barrett Henry handles both acquisition and management through REMAX Collective and ViVi Property Management."}}]}]})}} />

@@ -1,6 +1,7 @@
 'use client';
 import Link from 'next/link';
 import PropertySearch from '../components/PropertySearch';
+import { ContactForm } from '../components/ContactForm';
 
 export default function WaterfrontHomes() {
   return (
@@ -130,6 +131,12 @@ export default function WaterfrontHomes() {
       </section>
 
       {/* JSON-LD SCHEMA */}
+      
+      {/* Lead Capture Form */}
+      <div className="max-w-[1140px] mx-auto px-7 py-12">
+        <ContactForm />
+      </div>
+
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify({
         "@context":"https://schema.org",
         "@graph":[

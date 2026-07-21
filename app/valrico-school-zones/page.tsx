@@ -1,6 +1,7 @@
 'use client';
 import Link from 'next/link';
 import Image from 'next/image';
+import { ContactForm } from '../components/ContactForm';
 
 export default function SchoolZones() {
   return (
@@ -112,6 +113,12 @@ export default function SchoolZones() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What high school is Bloomingdale Valrico zoned for?","acceptedAnswer":{"@type":"Answer","text":"Bloomingdale is zoned for Bloomingdale High School (A-rated). All sub-neighborhoods feed into BHS."}},{"@type":"Question","name":"What high school is Buckhorn Valrico zoned for?","acceptedAnswer":{"@type":"Answer","text":"The Buckhorn/Boyette corridor is zoned for Newsome High School (A-rated)."}},{"@type":"Question","name":"Do school zones affect home prices in Valrico FL?","acceptedAnswer":{"@type":"Answer","text":"Yes. Homes in Bloomingdale HS and Newsome HS zones trade at a $10-$25/sqft premium over equivalent homes in other zones."}},{"@type":"Question","name":"How do I check what school my Valrico address is zoned for?","acceptedAnswer":{"@type":"Answer","text":"Contact Barrett Henry REALTOR® at (813) 733-7907 for verified school zone info, or use the Hillsborough County Public Schools website."}}]})}} />
 
       {/* BreadcrumbList JSON-LD */}
+      
+      {/* Lead Capture Form */}
+      <div className="max-w-[1140px] mx-auto px-7 py-12">
+        <ContactForm />
+      </div>
+
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",

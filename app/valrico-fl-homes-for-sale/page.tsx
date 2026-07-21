@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import PropertySearch from '../components/PropertySearch';
+import { ContactForm } from '../components/ContactForm';
 
 export default function HomesForSale() {
   return (
@@ -52,6 +53,12 @@ export default function HomesForSale() {
             </div>
           ))}
         </div>
+      </div>
+
+      
+      {/* Lead Capture Form */}
+      <div className="max-w-[1140px] mx-auto px-7 py-12">
+        <ContactForm />
       </div>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How much do homes cost in Valrico FL?","acceptedAnswer":{"@type":"Answer","text":"The median home price is approximately $415K. Prices range from the low $300Ks to over $1M."}},{"@type":"Question","name":"What are the best neighborhoods in Valrico?","acceptedAnswer":{"@type":"Answer","text":"Top neighborhoods include Bloomingdale, River Hills, Diamond Hill, Buckhorn/Boyette, and Twin Lakes."}},{"@type":"Question","name":"Can I find no HOA homes in Valrico?","acceptedAnswer":{"@type":"Answer","text":"Yes. Several neighborhoods have voluntary or no HOA, including sections of Bloomingdale and Lake Valrico."}}]})}} />

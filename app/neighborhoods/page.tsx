@@ -1,6 +1,7 @@
 'use client';
 import Link from 'next/link';
 import FAQSchema from '../components/FAQSchema';
+import { ContactForm } from '../components/ContactForm';
 
 /**
  * Neighborhoods Hub Page, lists all 38 Valrico neighborhoods
@@ -379,6 +380,12 @@ export default function NeighborhoodsHubPage() {
       </section>
 
       {/* ═══ SCHEMA: BreadcrumbList + RealEstateAgent ═══ */}
+      
+      {/* Lead Capture Form */}
+      <div className="max-w-[1140px] mx-auto px-7 py-12">
+        <ContactForm />
+      </div>
+
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@graph": [

@@ -2,6 +2,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import PropertySearch from '../components/PropertySearch';
+import { ContactForm } from '../components/ContactForm';
 export default function Homes33596() {
   return (<>
     <div style={{background:'var(--blue-deep)'}} className="text-white py-16 px-7"><div className="max-w-[1140px] mx-auto">
@@ -95,6 +96,12 @@ export default function Homes33596() {
       </div>
     </div>
     <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What neighborhoods are in Valrico 33596?","acceptedAnswer":{"@type":"Answer","text":"Bloomingdale, River Hills, Buckhorn/Boyette, Twin Lakes, Canterbury Oaks, Crosby Crossings, and parts of Brentwood Hills."}},{"@type":"Question","name":"Why does 33596 cost more than 33594?","acceptedAnswer":{"@type":"Answer","text":"School zoning. Both A-rated Bloomingdale HS and Newsome HS fall within 33596, driving higher buyer demand."}},{"@type":"Question","name":"Is River Hills in Valrico 33596?","acceptedAnswer":{"@type":"Answer","text":"Yes. River Hills Golf and Country Club is in 33596. Homes range from $600K to $1M+ for golf course frontage."}},{"@type":"Question","name":"Are there pool homes in Valrico 33596?","acceptedAnswer":{"@type":"Answer","text":"Yes. Pool homes are common in Bloomingdale, River Hills, and Buckhorn. A screened pool typically adds $20K-$40K in value."}}]})}} />
-    <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://valricoagent.com/"},{"@type":"ListItem","position":2,"name":"33596 Homes for Sale","item":"https://valricoagent.com/homes-for-sale-33596/"}]})}} />
+    
+      {/* Lead Capture Form */}
+      <div className="max-w-[1140px] mx-auto px-7 py-12">
+        <ContactForm />
+      </div>
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://valricoagent.com/"},{"@type":"ListItem","position":2,"name":"33596 Homes for Sale","item":"https://valricoagent.com/homes-for-sale-33596/"}]})}} />
   </>);
 }

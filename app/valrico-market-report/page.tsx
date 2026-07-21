@@ -1,6 +1,7 @@
 'use client';
 import Link from 'next/link';
 import Image from 'next/image';
+import { ContactForm } from '../components/ContactForm';
 export default function MarketReport() {
   return (<>
     <div style={{background:'var(--blue-deep)'}} className="text-white py-16 px-7"><div className="max-w-[1140px] mx-auto">
@@ -94,6 +95,12 @@ export default function MarketReport() {
     </div>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html:"{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"Home\", \"item\": \"https://valricoagent.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"Valrico Housing Market Report 2026\", \"item\": \"https://valricoagent.com/valrico-market-report/\"}]}"}} />
+      
+      {/* Lead Capture Form */}
+      <div className="max-w-[1140px] mx-auto px-7 py-12">
+        <ContactForm />
+      </div>
+
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify({
         "@context":"https://schema.org","@type":"FAQPage","mainEntity":[
           {"@type":"Question","name":"What is the median home price in Valrico FL in 2026?","acceptedAnswer":{"@type":"Answer","text":"The median home price in Valrico is approximately $415,000 as of Q3 2026. Prices range from $275K in entry-level neighborhoods like Kings Mill and Valri Park to over $1M in luxury communities like River Hills and Crestwood Estates. Price per square foot averages $210-$220 across both ZIP codes (33594 and 33596). Contact Barrett Henry at (813) 733-7907 for a neighborhood-specific market analysis."}},

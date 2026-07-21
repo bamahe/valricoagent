@@ -1,6 +1,7 @@
 'use client';
 import Link from 'next/link';
 import Image from 'next/image';
+import { ContactForm } from '../components/ContactForm';
 
 export default function SellMyHome() {
   return (
@@ -106,6 +107,12 @@ export default function SellMyHome() {
             </div>
           </div>
         </div>
+      </div>
+
+      
+      {/* Lead Capture Form */}
+      <div className="max-w-[1140px] mx-auto px-7 py-12">
+        <ContactForm />
       </div>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How long does it take to sell a house in Valrico FL?","acceptedAnswer":{"@type":"Answer","text":"Properly priced homes in Valrico sell in 30 to 55 days on average as of Q3 2026."}},{"@type":"Question","name":"What does it cost to sell a house in Valrico FL?","acceptedAnswer":{"@type":"Answer","text":"Typical costs include agent commission, title insurance, documentary stamps, prorated taxes, and negotiated repairs or credits."}},{"@type":"Question","name":"Is now a good time to sell in Valrico FL?","acceptedAnswer":{"@type":"Answer","text":"Valrico's market is balanced. Homes priced accurately based on current comps are selling in reasonable timeframes."}},{"@type":"Question","name":"What improvements should I make before selling in Valrico?","acceptedAnswer":{"@type":"Answer","text":"Focus on roof, AC, kitchen, and pool cage condition. Cosmetic updates like paint, landscaping, and pressure washing offer the best ROI."}}]})}} />

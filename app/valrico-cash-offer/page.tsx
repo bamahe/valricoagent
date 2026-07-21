@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import { ContactForm } from '../components/ContactForm';
 
 export default function ValricoCashOffer() {
   return (
@@ -178,6 +179,12 @@ export default function ValricoCashOffer() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How much will I get for a cash offer on my Valrico home?","acceptedAnswer":{"@type":"Answer","text":"Cash offers are typically 70-85% of market value, depending on condition, location, and repair needs. Barrett provides a transparent breakdown and compares it to what you would net from a traditional listing."}},{"@type":"Question","name":"Is there any obligation if I request a cash offer?","acceptedAnswer":{"@type":"Answer","text":"None. The cash offer is free, and you are under no pressure to accept."}},{"@type":"Question","name":"Can I get a cash offer if my home needs major repairs?","acceptedAnswer":{"@type":"Answer","text":"Yes. Cash offers are designed for properties in any condition. No repairs needed from you."}},{"@type":"Question","name":"How fast can I actually close on a cash offer?","acceptedAnswer":{"@type":"Answer","text":"As fast as 7 days if title is clear. Most cash closings happen in 10-14 days. You pick the closing date."}}]})}} />
 
       {/* RealEstateAgent JSON-LD */}
+      
+      {/* Lead Capture Form */}
+      <div className="max-w-[1140px] mx-auto px-7 py-12">
+        <ContactForm />
+      </div>
+
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify({"@context":"https://schema.org","@type":"RealEstateAgent","name":"Barrett Henry","jobTitle":"REALTOR® & Broker Associate","url":"https://valricoagent.com/valrico-cash-offer/","telephone":"(813) 733-7907","email":"barrett@nowtb.com","image":"https://valricoagent.com/barrett-henry.jpg","address":{"@type":"PostalAddress","addressLocality":"Valrico","addressRegion":"FL","addressCountry":"US"},"worksFor":{"@type":"RealEstateOrganization","name":"REMAX Collective"},"description":"Barrett Henry is a REALTOR® and Broker Associate at REMAX Collective with 23+ years of real estate experience. Get a cash offer on your Valrico home in 24 hours."})}} />
     </>
   );

@@ -1,6 +1,7 @@
 'use client';
 import Link from 'next/link';
 import PropertySearch from '../components/PropertySearch';
+import { ContactForm } from '../components/ContactForm';
 
 export default function ValricoForeclosures() {
   return (
@@ -149,6 +150,12 @@ export default function ValricoForeclosures() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Are foreclosures cheaper than regular homes in Valrico?","acceptedAnswer":{"@type":"Answer","text":"Generally yes, but not always. REO and auction properties often sell 10-20% below market value, but repair costs can eat into that discount. Factor in purchase price plus repairs to determine if it is a good deal."}},{"@type":"Question","name":"Can I use an FHA loan to buy a foreclosure in Valrico?","acceptedAnswer":{"@type":"Answer","text":"You can use FHA financing on REO and HUD properties, but the home must meet FHA minimum property standards. A 203(k) renovation loan is an option for properties needing significant work."}},{"@type":"Question","name":"How do I find foreclosures in Valrico before they hit the market?","acceptedAnswer":{"@type":"Answer","text":"Barrett monitors lis pendens filings, auction schedules, and bank REO pipelines. Pre-foreclosure properties can sometimes be purchased through short sales before they reach auction."}},{"@type":"Question","name":"Is it safe to buy a foreclosure at auction in Hillsborough County?","acceptedAnswer":{"@type":"Answer","text":"Auction purchases carry the highest risk. You cannot inspect the property and must pay cash. Most first-time foreclosure buyers should stick with REO or HUD properties."}}]})}} />
 
       {/* RealEstateAgent JSON-LD */}
+      
+      {/* Lead Capture Form */}
+      <div className="max-w-[1140px] mx-auto px-7 py-12">
+        <ContactForm />
+      </div>
+
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify({"@context":"https://schema.org","@type":"RealEstateAgent","name":"Barrett Henry","jobTitle":"REALTOR® & Broker Associate","url":"https://valricoagent.com/valrico-foreclosures/","telephone":"(813) 733-7907","email":"barrett@nowtb.com","image":"https://valricoagent.com/barrett-henry.jpg","address":{"@type":"PostalAddress","addressLocality":"Valrico","addressRegion":"FL","addressCountry":"US"},"worksFor":{"@type":"RealEstateOrganization","name":"REMAX Collective"},"description":"Barrett Henry is a REALTOR® and Broker Associate at REMAX Collective with 23+ years of real estate experience, specializing in foreclosure and distressed property transactions in Valrico FL."})}} />
     </>
   );
