@@ -120,6 +120,7 @@ export default function RecentlySoldPage() {
                     </div>
 
                     <div className="flex justify-between items-center text-xs pt-3 border-t" style={{ borderColor: 'var(--border)', color: 'var(--ink-soft)' }}>
+                      <span>Closed {new Date(l.CloseDate).toLocaleDateString('en-US', { month: 'short', year: 'numeric' })}</span>
                       <span>{l.DaysOnMarket} days on market</span>
                       {ratio > 0 && <span className="font-semibold" style={{ color: ratio >= 100 ? '#15803D' : 'var(--ink-soft)' }}>{ratio}% of list</span>}
                     </div>
