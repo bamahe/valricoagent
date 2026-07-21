@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import { HomeValueForm } from '../components/HomeValueForm';
 
 export default function HomeValues() {
   return (
@@ -120,6 +121,11 @@ export default function HomeValues() {
             </div>
           </div>
         </div>
+      </div>
+
+      {/* Home Value Request Form */}
+      <div className="max-w-[1140px] mx-auto px-7 py-12">
+        <HomeValueForm />
       </div>
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How much is my home worth in Valrico FL?","acceptedAnswer":{"@type":"Answer","text":"The median home price in Valrico is approximately $415K as of Q3 2026, but your specific value depends on neighborhood, condition, updates, pool, lot size, and school zone. Contact Barrett Henry, REALTOR® for a free CMA."}},{"@type":"Question","name":"Are Valrico home values going up or down?","acceptedAnswer":{"@type":"Answer","text":"Valrico home values have stabilized after the post-pandemic correction. Prices are roughly flat year-over-year, which is healthy and balanced."}},{"@type":"Question","name":"How accurate is a Zillow Zestimate for Valrico?","acceptedAnswer":{"@type":"Answer","text":"Zillow can be off by $20K-$50K in Valrico because it can't distinguish sub-neighborhoods or account for updates, condition, and school zones."}},{"@type":"Question","name":"What is the price per square foot in Valrico?","acceptedAnswer":{"@type":"Answer","text":"Price per square foot ranges from $195 to $230 depending on subdivision, age, condition, and updates."}}]})}} />
