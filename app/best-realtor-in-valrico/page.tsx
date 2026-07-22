@@ -1,4 +1,5 @@
 'use client';
+import Image from 'next/image';
 import Link from 'next/link';
 import { ContactForm } from '../components/ContactForm';
 
@@ -78,6 +79,11 @@ export default function BestRealtorInValrico() {
       {/* Main content */}
       <div className="max-w-[1140px] mx-auto px-7 py-16 space-y-6" style={{ color: 'var(--ink-soft)' }}>
 
+        {/* Bloomingdale image */}
+        <div style={{ position: 'relative', aspectRatio: '16/7', marginBottom: 24, borderRadius: 8, overflow: 'hidden' }}>
+          <Image src="/bloomingdale-valrico.jpg" alt="Bloomingdale Valrico FL neighborhood served by top-rated REALTOR Barrett Henry" fill className="object-cover" sizes="(max-width:768px) 100vw, 1140px" />
+        </div>
+
         {/* Why Barrett is the best choice */}
         <h2 className="font-serif text-2xl" style={{ color: 'var(--ink)' }}>Why Barrett Henry is the best realtor in Valrico</h2>
         <p className="text-[15px] leading-[1.8]">
@@ -92,6 +98,11 @@ export default function BestRealtorInValrico() {
         <p className="text-[15px] leading-[1.8]">
           A Broker Associate holds a Florida real estate broker license, a higher level of licensing than a standard sales associate. It requires additional coursework, more experience, and passing the broker exam. Barrett earned his Broker Associate license in 2017 and operates under REMAX Collective, which means you get broker-level expertise combined with the global reach, referral network, and brand recognition of one of the most recognized names in real estate.
         </p>
+
+        {/* River Hills image */}
+        <div style={{ position: 'relative', aspectRatio: '16/7', marginTop: 32, marginBottom: 8, borderRadius: 8, overflow: 'hidden' }}>
+          <Image src="/images/neighborhoods/river-hills-golf-country-club-valrico-fl-entrance.jpg" alt="River Hills golf country club Valrico FL best REALTOR" fill className="object-cover" sizes="(max-width:768px) 100vw, 1140px" />
+        </div>
 
         {/* 38 neighborhoods */}
         <h2 className="font-serif text-2xl mt-10" style={{ color: 'var(--ink)' }}>38 Valrico neighborhoods covered</h2>
@@ -133,6 +144,24 @@ export default function BestRealtorInValrico() {
           ))}
         </div>
 
+        {/* Barrett EEAT author block */}
+        <div className="flex items-center gap-4 p-5 rounded-md border mt-10" style={{ borderColor: 'var(--border)', background: 'var(--cream-warm)' }}>
+          <div style={{ position: 'relative', width: 72, height: 72, borderRadius: '50%', overflow: 'hidden', flexShrink: 0 }}>
+            <Image src="/barrett-henry.png" alt="Barrett Henry best REALTOR Valrico FL" fill className="object-cover" sizes="72px" />
+          </div>
+          <div>
+            <p className="font-semibold text-sm" style={{ color: 'var(--ink)' }}>Barrett Henry, REALTOR® | Broker Associate, REMAX Collective</p>
+            <p className="text-xs mt-0.5" style={{ color: 'var(--ink-soft)' }}>Licensed 2003 | Broker Associate since 2017 | e-PRO, MRP, SRS | 23+ years Valrico experience</p>
+            <p className="text-xs mt-1" style={{ color: 'var(--ink-soft)' }}>205 E Brandon Blvd, Brandon, FL 33511 | Serving all 38+ Valrico neighborhoods</p>
+            <a href="tel:8137337907" className="text-xs font-semibold no-underline mt-1 inline-block" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>
+          </div>
+        </div>
+
+        {/* Diamond Hill image */}
+        <div style={{ position: 'relative', aspectRatio: '16/7', marginTop: 24, marginBottom: 8, borderRadius: 8, overflow: 'hidden' }}>
+          <Image src="/images/neighborhoods/diamond-hill-valrico-fl-entrance.jpg" alt="Diamond Hill gated community Valrico FL" fill className="object-cover" sizes="(max-width:768px) 100vw, 1140px" />
+        </div>
+
         {/* Testimonials */}
         <h2 className="font-serif text-2xl mt-10" style={{ color: 'var(--ink)' }}>What clients say</h2>
         <div className="space-y-4 mt-4">
@@ -170,7 +199,15 @@ export default function BestRealtorInValrico() {
             <Link href="/valrico-realtor/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Valrico REALTOR® services</Link> &middot;{' '}
             <Link href="/valrico-fl-homes-for-sale/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Search Valrico homes for sale</Link> &middot;{' '}
             <Link href="/valrico-fl-home-values/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Valrico home values</Link> &middot;{' '}
-            <Link href="/sell-my-home-valrico/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Sell my Valrico home</Link>
+            <Link href="/sell-my-home-valrico/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Sell my Valrico home</Link> &middot;{' '}
+            <Link href="/valrico-market-report/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Market report</Link> &middot;{' '}
+            <Link href="/valrico-real-estate/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Valrico real estate</Link> &middot;{' '}
+            <Link href="/neighborhoods/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>All neighborhoods</Link> &middot;{' '}
+            <Link href="/valrico-school-zones/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>School zones</Link> &middot;{' '}
+            <Link href="/valrico-relocation-guide/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Relocation guide</Link> &middot;{' '}
+            <Link href="/testimonials/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Client reviews</Link> &middot;{' '}
+            <Link href="/valrico-cash-offer/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Cash offer</Link> &middot;{' '}
+            <Link href="/about/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>About Barrett</Link>
           </p>
         </div>
 

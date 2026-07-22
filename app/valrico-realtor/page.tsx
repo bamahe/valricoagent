@@ -1,4 +1,5 @@
 'use client';
+import Image from 'next/image';
 import Link from 'next/link';
 import { ContactForm } from '../components/ContactForm';
 
@@ -13,6 +14,11 @@ export default function ValricoRealtor() {
         </div>
       </div>
       <div className="max-w-[1140px] mx-auto px-7 py-16 space-y-6" style={{color:'var(--ink-soft)'}}>
+        {/* Bloomingdale image */}
+        <div style={{ position: 'relative', aspectRatio: '16/7', marginBottom: 24, borderRadius: 8, overflow: 'hidden' }}>
+          <Image src="/bloomingdale-valrico.jpg" alt="Bloomingdale community Valrico FL homes for sale" fill className="object-cover" sizes="(max-width:768px) 100vw, 1140px" />
+        </div>
+
         <h2 className="font-serif text-2xl" style={{color:'var(--ink)'}}>What a Valrico REALTOR® actually does for you</h2>
         <p className="text-[15px] leading-[1.8]">A REALTOR® is not just a licensed agent, it means I&apos;m a member of the National Association of REALTORS® and bound by a Code of Ethics that goes beyond what the state requires. In practical terms, here&apos;s what that means for you as a buyer or seller in Valrico.</p>
 
@@ -22,6 +28,11 @@ export default function ValricoRealtor() {
         <h3 className="font-serif text-xl mt-8" style={{color:'var(--ink)'}}>For sellers</h3>
         <p className="text-[15px] leading-[1.8]">I price your home based on actual comps from your sub-neighborhood, not the whole ZIP code. I market it with professional photography and syndication across every major portal plus my own <a href="https://nowtb.com/valrico/" target="_blank" rel="noopener" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Valrico-focused website</a>. And I negotiate to protect your net proceeds through inspection, appraisal, and closing. <Link href="/sell-my-home-valrico/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>See the full selling process</Link>. Start with a free <Link href="/valrico-fl-home-values/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>home valuation</Link> based on real comps. Need speed? Get a <Link href="/valrico-cash-offer/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>cash offer in 24 hours</Link>. See the latest <Link href="/valrico-market-report/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>market data</Link> for pricing trends.</p>
 
+        {/* River Hills image */}
+        <div style={{ position: 'relative', aspectRatio: '16/7', marginTop: 32, marginBottom: 8, borderRadius: 8, overflow: 'hidden' }}>
+          <Image src="/images/neighborhoods/river-hills-golf-country-club-valrico-fl-entrance.jpg" alt="River Hills golf community Valrico FL REALTOR" fill className="object-cover" sizes="(max-width:768px) 100vw, 1140px" />
+        </div>
+
         <h3 className="font-serif text-xl mt-8" style={{color:'var(--ink)'}}>Credentials</h3>
         <div className="flex flex-wrap gap-2 my-4">
           {['Broker Associate','e-PRO (digital marketing)','MRP (military relocation)','SRS (seller representation)','REMAX Collective','REMAX Commercial'].map(c=>(<span key={c} className="text-xs font-semibold px-2.5 py-1 border rounded" style={{borderColor:'var(--border)',color:'var(--ink-soft)'}}>{c}</span>))}
@@ -29,6 +40,41 @@ export default function ValricoRealtor() {
 
         <h3 className="font-serif text-xl mt-8" style={{color:'var(--ink)'}}>Valrico neighborhoods I cover</h3>
         <p className="text-[15px] leading-[1.8]">Every subdivision in 33594 and 33596: <Link href="/neighborhoods/bloomingdale/" className="no-underline" style={{color:'var(--accent)'}}>Bloomingdale</Link>, <Link href="/neighborhoods/river-hills/" className="no-underline" style={{color:'var(--accent)'}}>River Hills</Link>, <Link href="/neighborhoods/diamond-hill/" className="no-underline" style={{color:'var(--accent)'}}>Diamond Hill</Link>, <Link href="/neighborhoods/buckhorn/" className="no-underline" style={{color:'var(--accent)'}}>Buckhorn/Boyette</Link>, <Link href="/neighborhoods/twin-lakes/" className="no-underline" style={{color:'var(--accent)'}}>Twin Lakes</Link>, <Link href="/neighborhoods/brentwood-hills/" className="no-underline" style={{color:'var(--accent)'}}>Brentwood Hills</Link>, Canterbury Oaks, Bent Tree Estates, Crosby Crossings, Crestwood Estates, and more. Plus bordering areas: FishHawk Ranch, Lithia, Brandon, Riverview, and Plant City.</p>
+
+        {/* Buckhorn Preserve image */}
+        <div style={{ position: 'relative', aspectRatio: '16/7', marginTop: 32, marginBottom: 8, borderRadius: 8, overflow: 'hidden' }}>
+          <Image src="/images/neighborhoods/buckhorn-preserve-valrico-fl-entrance-sign.jpg" alt="Buckhorn Preserve entrance Valrico FL" fill className="object-cover" sizes="(max-width:768px) 100vw, 1140px" />
+        </div>
+
+        {/* EEAT author block */}
+        <div className="flex items-center gap-4 p-5 rounded-md border mt-6" style={{ borderColor: 'var(--border)', background: 'var(--cream-warm)' }}>
+          <div style={{ position: 'relative', width: 72, height: 72, borderRadius: '50%', overflow: 'hidden', flexShrink: 0 }}>
+            <Image src="/barrett-henry.png" alt="Barrett Henry REALTOR Valrico FL" fill className="object-cover" sizes="72px" />
+          </div>
+          <div>
+            <p className="font-semibold text-sm" style={{ color: 'var(--ink)' }}>Barrett Henry, REALTOR® | Broker Associate, REMAX Collective</p>
+            <p className="text-xs mt-0.5" style={{ color: 'var(--ink-soft)' }}>Licensed since 2003 · 23+ years Valrico market expertise · e-PRO, MRP, SRS</p>
+            <p className="text-xs mt-1" style={{ color: 'var(--ink-soft)' }}>Serving every subdivision in 33594 and 33596</p>
+            <a href="tel:8137337907" className="text-xs font-semibold no-underline mt-1 inline-block" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>
+          </div>
+        </div>
+
+        {/* Expanded internal links */}
+        <div className="mt-6 text-[15px] leading-[1.8]">
+          <p>
+            <strong style={{ color: 'var(--ink)' }}>More resources:</strong>{' '}
+            <Link href="/valrico-fl-homes-for-sale/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Valrico homes for sale</Link> &middot;{' '}
+            <Link href="/valrico-market-report/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Market report</Link> &middot;{' '}
+            <Link href="/valrico-fl-home-values/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Home values</Link> &middot;{' '}
+            <Link href="/sell-my-home-valrico/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Sell my home</Link> &middot;{' '}
+            <Link href="/valrico-cash-offer/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Cash offer</Link> &middot;{' '}
+            <Link href="/valrico-real-estate/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Valrico real estate</Link> &middot;{' '}
+            <Link href="/best-realtor-in-valrico/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Best realtor in Valrico</Link> &middot;{' '}
+            <Link href="/neighborhoods/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>All neighborhoods</Link> &middot;{' '}
+            <Link href="/valrico-school-zones/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>School zones</Link> &middot;{' '}
+            <Link href="/testimonials/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Client reviews</Link>
+          </p>
+        </div>
 
         <h2 className="font-serif text-2xl mt-10" style={{color:'var(--ink)'}}>Questions to ask before hiring a Valrico REALTOR®</h2>
         <div className="space-y-4 mt-4">

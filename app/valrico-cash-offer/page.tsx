@@ -1,4 +1,5 @@
 'use client';
+import Image from 'next/image';
 import Link from 'next/link';
 import { ContactForm } from '../components/ContactForm';
 
@@ -30,6 +31,11 @@ export default function ValricoCashOffer() {
       <div className="max-w-[1140px] mx-auto px-7 py-16">
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_340px] gap-14">
           <div>
+            {/* Bloomingdale image */}
+            <div style={{ position: 'relative', aspectRatio: '16/7', marginBottom: 24, borderRadius: 8, overflow: 'hidden' }}>
+              <Image src="/bloomingdale-valrico.jpg" alt="Bloomingdale neighborhood Valrico FL homes cash offer" fill className="object-cover" sizes="(max-width:768px) 100vw, 900px" />
+            </div>
+
             {/* How It Works */}
             <h2 className="font-serif text-2xl mb-4">How It Works</h2>
             <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>Three steps. No surprises.</p>
@@ -120,14 +126,49 @@ export default function ValricoCashOffer() {
               </table>
             </div>
 
+            {/* Diamond Hill image */}
+            <div style={{ position: 'relative', aspectRatio: '16/7', marginTop: 32, marginBottom: 8, borderRadius: 8, overflow: 'hidden' }}>
+              <Image src="/images/neighborhoods/diamond-hill-valrico-fl-entrance.jpg" alt="Diamond Hill Valrico FL neighborhood cash offer homes" fill className="object-cover" sizes="(max-width:768px) 100vw, 900px" />
+            </div>
+
             {/* The Barrett Henry Difference */}
             <h2 className="font-serif text-2xl mb-4 mt-10">The Barrett Henry Difference</h2>
             <p className="text-[15px] leading-[1.8] mb-4" style={{color:'var(--ink-soft)'}}>Barrett is not a wholesaler. He is not going to lowball you, lock you into a contract, and then flip your deal to another investor for a fee. Barrett Henry is a licensed REALTOR® and Broker Associate at REMAX Collective with 23+ years of real estate experience.</p>
             <p className="text-[15px] leading-[1.8] mb-4" style={{color:'var(--ink-soft)'}}>Here is what makes this different: Barrett shows you <strong>both options</strong>. The cash offer number and what you would likely net from a <Link href="/sell-my-home-valrico/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>traditional listing</Link>. Side by side. Real numbers. Then you decide which path makes sense for your situation. Start by checking your <Link href="/valrico-fl-home-values/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>current Valrico home value</Link>.</p>
 
-            <div className="rounded-md p-8 mt-4 mb-12" style={{background:'var(--cream-warm)',border:'1px solid var(--border)'}}>
+            <div className="rounded-md p-8 mt-4 mb-8" style={{background:'var(--cream-warm)',border:'1px solid var(--border)'}}>
               <p className="text-[15px] leading-[1.8] italic" style={{color:'var(--ink)'}}>&ldquo;I am not going to lowball you and flip your house. I am going to show you real numbers for both paths and let you decide what makes sense for your situation.&rdquo;</p>
               <p className="text-sm mt-2 font-semibold" style={{color:'var(--ink-soft)'}}>- Barrett Henry, REALTOR®</p>
+            </div>
+
+            {/* EEAT author block */}
+            <div className="flex items-center gap-4 p-5 rounded-md border mb-8" style={{ borderColor: 'var(--border)', background: 'var(--cream-warm)' }}>
+              <div style={{ position: 'relative', width: 72, height: 72, borderRadius: '50%', overflow: 'hidden', flexShrink: 0 }}>
+                <Image src="/barrett-henry.png" alt="Barrett Henry REALTOR Valrico FL" fill className="object-cover" sizes="72px" />
+              </div>
+              <div>
+                <p className="font-semibold text-sm" style={{ color: 'var(--ink)' }}>Barrett Henry, REALTOR® | Broker Associate, REMAX Collective</p>
+                <p className="text-xs mt-0.5" style={{ color: 'var(--ink-soft)' }}>23+ years experience · Licensed since 2003 · e-PRO, MRP, SRS designations</p>
+                <p className="text-xs mt-1" style={{ color: 'var(--ink-soft)' }}>Transparent cash offers with side-by-side traditional listing comparison</p>
+                <a href="tel:8137337907" className="text-xs font-semibold no-underline mt-1 inline-block" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>
+              </div>
+            </div>
+
+            {/* Expanded internal links */}
+            <div className="mb-8 text-[15px] leading-[1.8]">
+              <p>
+                <strong style={{ color: 'var(--ink)' }}>Related resources:</strong>{' '}
+                <Link href="/sell-my-home-valrico/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Sell my home (traditional)</Link> &middot;{' '}
+                <Link href="/valrico-fl-home-values/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Home values</Link> &middot;{' '}
+                <Link href="/valrico-short-sale/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Short sale help</Link> &middot;{' '}
+                <Link href="/valrico-pre-foreclosure/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Pre-foreclosure options</Link> &middot;{' '}
+                <Link href="/valrico-foreclosures/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Valrico foreclosures</Link> &middot;{' '}
+                <Link href="/valrico-market-report/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Market report</Link> &middot;{' '}
+                <Link href="/valrico-investment-property/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Investment properties</Link> &middot;{' '}
+                <Link href="/valrico-real-estate/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Valrico real estate</Link> &middot;{' '}
+                <Link href="/valrico-realtor/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Your Valrico REALTOR®</Link> &middot;{' '}
+                <Link href="/about/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>About Barrett</Link>
+              </p>
             </div>
 
             {/* CTA */}

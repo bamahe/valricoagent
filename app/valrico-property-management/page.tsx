@@ -1,4 +1,5 @@
 'use client';
+import Image from 'next/image';
 import Link from 'next/link';
 import { ContactForm } from '../components/ContactForm';
 
@@ -20,6 +21,11 @@ export default function PropertyManagement() {
       <div className="max-w-[1140px] mx-auto px-7 py-16">
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_340px] gap-14">
           <div className="space-y-6" style={{color:'var(--ink-soft)'}}>
+            {/* Bloomingdale image */}
+            <div style={{ position: 'relative', aspectRatio: '16/7', marginBottom: 24, borderRadius: 8, overflow: 'hidden' }}>
+              <Image src="/bloomingdale-valrico.jpg" alt="Bloomingdale Valrico FL property management rental homes" fill className="object-cover" sizes="(max-width:768px) 100vw, 900px" />
+            </div>
+
             <h2 className="font-serif text-2xl" style={{color:'var(--ink)'}}>Why Valrico landlords choose ViVi Property Management</h2>
             <p className="text-[15px] leading-[1.8]">Most property management companies are either too big to care about your single rental or too small to handle the work professionally. ViVi PM operates through Collective Rental Resource (CRR) under REMAX Collective, which means you get the accountability of a licensed brokerage, the local market knowledge of a Valrico REALTOR&reg; who knows every neighborhood, and in-house maintenance through Best Bay Services that keeps your costs down and response times fast.</p>
 
@@ -43,12 +49,52 @@ export default function PropertyManagement() {
             <h2 className="font-serif text-2xl mt-10" style={{color:'var(--ink)'}}>Management fee: 10%</h2>
             <p className="text-[15px] leading-[1.8]">ViVi PM charges 10% of collected rent. No hidden fees, no upcharges on maintenance, no percentage of repair costs. If rent is $2,000/month, management is $200/month. The fee covers everything listed above. Maintenance and repairs are billed at cost through <a href="https://bestvalricohandyman.com" target="_blank" rel="noopener" style={{color:'var(--accent)',fontWeight:600,textDecoration:'none'}}>Best Valrico Handyman</a> (Best Bay Services) with no management markup.</p>
 
+            {/* Buckhorn image */}
+            <div style={{ position: 'relative', aspectRatio: '16/7', marginTop: 32, marginBottom: 8, borderRadius: 8, overflow: 'hidden' }}>
+              <Image src="/images/neighborhoods/buckhorn-preserve-valrico-fl-entrance-sign.jpg" alt="Buckhorn Preserve Valrico FL rental property management" fill className="object-cover" sizes="(max-width:768px) 100vw, 900px" />
+            </div>
+
             <h2 className="font-serif text-2xl mt-10" style={{color:'var(--ink)'}}>Why Valrico rentals perform well</h2>
             <p className="text-[15px] leading-[1.8]">Valrico&apos;s rental market benefits from the same factors that drive home sales: strong school zones, no city taxes, and suburban character. Families who want Bloomingdale HS or Newsome HS zoning but cannot yet buy will rent in these zones. This creates consistent demand for well-maintained rental properties, particularly 3-4 bedroom single-family homes with pools.</p>
             <p className="text-[15px] leading-[1.8]">Typical rental rates in Valrico range from $1,800 to $2,800/month for single-family homes depending on size, condition, pool, and school zone. Homes in the Newsome HS zone often command slightly higher rents due to concentrated demand from FishHawk-priced-out families.</p>
 
             <h2 className="font-serif text-2xl mt-10" style={{color:'var(--ink)'}}>Already own a rental? Thinking about converting?</h2>
             <p className="text-[15px] leading-[1.8]">Whether you already have a tenant and need better management, or you are considering converting your Valrico home to a rental instead of selling, Barrett can run the numbers both ways. A rental analysis includes estimated monthly rent, projected cash flow after expenses, cap rate, and comparison to selling proceeds. Sometimes renting makes more sense. Sometimes selling does. The math tells the story. <a href="tel:8137337907" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Call<br/>(813) 733-7907</a> for a free rental analysis.</p>
+
+            {/* River Hills image */}
+            <div style={{ position: 'relative', aspectRatio: '16/7', marginTop: 32, marginBottom: 8, borderRadius: 8, overflow: 'hidden' }}>
+              <Image src="/river-hills-valrico.jpg" alt="River Hills Valrico FL luxury rental property management" fill className="object-cover" sizes="(max-width:768px) 100vw, 900px" />
+            </div>
+
+            {/* EEAT author block */}
+            <div className="flex items-center gap-4 p-5 rounded-md border mt-6 mb-6" style={{ borderColor: 'var(--border)', background: 'var(--cream-warm)' }}>
+              <div style={{ position: 'relative', width: 72, height: 72, borderRadius: '50%', overflow: 'hidden', flexShrink: 0 }}>
+                <Image src="/barrett-henry.png" alt="Barrett Henry REALTOR Valrico FL property management" fill className="object-cover" sizes="72px" />
+              </div>
+              <div>
+                <p className="font-semibold text-sm" style={{ color: 'var(--ink)' }}>Barrett Henry, REALTOR® | Broker Associate, REMAX Collective</p>
+                <p className="text-xs mt-0.5" style={{ color: 'var(--ink-soft)' }}>23+ years experience · ViVi Property Management · 10% flat fee · In-house maintenance via Best Bay Services</p>
+                <p className="text-xs mt-1" style={{ color: 'var(--ink-soft)' }}>Managing rentals in Valrico 33594 and 33596 · Free rental analysis</p>
+                <a href="tel:8137337907" className="text-xs font-semibold no-underline mt-1 inline-block" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>
+              </div>
+            </div>
+
+            {/* Expanded internal links */}
+            <div className="mb-6 text-[15px] leading-[1.8]">
+              <p>
+                <strong style={{ color: 'var(--ink)' }}>Related resources:</strong>{' '}
+                <Link href="/valrico-investment-property/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Investment property guide</Link> &middot;{' '}
+                <Link href="/valrico-fl-home-values/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Home values</Link> &middot;{' '}
+                <Link href="/sell-my-home-valrico/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Sell my home</Link> &middot;{' '}
+                <Link href="/valrico-fl-homes-for-sale/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Search Valrico homes</Link> &middot;{' '}
+                <Link href="/valrico-market-report/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Market report</Link> &middot;{' '}
+                <Link href="/valrico-no-hoa-homes/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>No-HOA homes</Link> &middot;{' '}
+                <Link href="/neighborhoods/bloomingdale/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Bloomingdale</Link> &middot;{' '}
+                <Link href="/valrico-school-zones/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>School zones</Link> &middot;{' '}
+                <Link href="/valrico-cash-offer/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Cash offer option</Link> &middot;{' '}
+                <Link href="/valrico-real-estate/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Valrico real estate</Link>
+              </p>
+            </div>
 
             <h2 className="font-serif text-2xl mt-10" style={{color:'var(--ink)'}}>Frequently asked questions</h2>
             <div className="space-y-4">

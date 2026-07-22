@@ -1,4 +1,5 @@
 'use client';
+import Image from 'next/image';
 import Link from 'next/link';
 import PropertySearch from '../components/PropertySearch';
 import { ContactForm } from '../components/ContactForm';
@@ -36,6 +37,11 @@ export default function ValricoForeclosures() {
       <div className="max-w-[1140px] mx-auto px-7 py-16">
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_340px] gap-14">
           <div>
+            {/* Bloomingdale image */}
+            <div style={{ position: 'relative', aspectRatio: '16/7', marginBottom: 24, borderRadius: 8, overflow: 'hidden' }}>
+              <Image src="/bloomingdale-valrico.jpg" alt="Bloomingdale Valrico FL foreclosure homes for sale" fill className="object-cover" sizes="(max-width:768px) 100vw, 900px" />
+            </div>
+
             {/* Types of Foreclosures */}
             <h2 className="font-serif text-2xl mb-4">Types of Foreclosures in Valrico</h2>
             <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>Not all foreclosures are the same. Where a property sits in the foreclosure process determines how you buy it, what risks you take, and what kind of deal is possible.</p>
@@ -74,6 +80,11 @@ export default function ValricoForeclosures() {
               ))}
             </div>
 
+            {/* Diamond Hill image */}
+            <div style={{ position: 'relative', aspectRatio: '16/7', marginTop: 32, marginBottom: 8, borderRadius: 8, overflow: 'hidden' }}>
+              <Image src="/images/neighborhoods/diamond-hill-valrico-fl-entrance.jpg" alt="Diamond Hill Valrico FL foreclosure and REO homes" fill className="object-cover" sizes="(max-width:768px) 100vw, 900px" />
+            </div>
+
             {/* What to Watch For */}
             <h2 className="font-serif text-2xl mb-4 mt-10">What to Watch For</h2>
             <div className="space-y-4 mb-10">
@@ -96,6 +107,41 @@ export default function ValricoForeclosures() {
             <h2 className="font-serif text-2xl mb-4 mt-10">Current Foreclosure Activity in Valrico</h2>
             <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>Foreclosure inventory in Valrico is low as of 2026. Strong home equity levels and a stable local economy mean fewer homeowners are falling into distress compared to 2008-2012. However, opportunities still exist, particularly in cases involving divorce, probate, job loss, or adjustable-rate mortgage resets.</p>
             <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>For courthouse auction schedules, check the <a href="https://www.hillsclerk.com" target="_blank" rel="noopener" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Hillsborough County Clerk of Court</a> website. Barrett monitors these listings and can alert you when properties in Valrico ZIP codes (33594, 33596) come up for sale.</p>
+
+            {/* Buckhorn image */}
+            <div style={{ position: 'relative', aspectRatio: '16/7', marginTop: 32, marginBottom: 8, borderRadius: 8, overflow: 'hidden' }}>
+              <Image src="/images/neighborhoods/buckhorn-preserve-valrico-fl-entrance-sign.jpg" alt="Buckhorn Preserve Valrico FL distressed property opportunities" fill className="object-cover" sizes="(max-width:768px) 100vw, 900px" />
+            </div>
+
+            {/* EEAT author block */}
+            <div className="flex items-center gap-4 p-5 rounded-md border mt-6 mb-6" style={{ borderColor: 'var(--border)', background: 'var(--cream-warm)' }}>
+              <div style={{ position: 'relative', width: 72, height: 72, borderRadius: '50%', overflow: 'hidden', flexShrink: 0 }}>
+                <Image src="/barrett-henry.png" alt="Barrett Henry REALTOR Valrico FL foreclosure specialist" fill className="object-cover" sizes="72px" />
+              </div>
+              <div>
+                <p className="font-semibold text-sm" style={{ color: 'var(--ink)' }}>Barrett Henry, REALTOR® | Broker Associate, REMAX Collective</p>
+                <p className="text-xs mt-0.5" style={{ color: 'var(--ink-soft)' }}>23+ years experience · REO transactions · Bank negotiation · Title resolution on distressed properties</p>
+                <p className="text-xs mt-1" style={{ color: 'var(--ink-soft)' }}>Free, confidential consultation for buyers and sellers facing distress</p>
+                <a href="tel:8137337907" className="text-xs font-semibold no-underline mt-1 inline-block" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>
+              </div>
+            </div>
+
+            {/* Expanded internal links */}
+            <div className="mb-6 text-[15px] leading-[1.8]">
+              <p>
+                <strong style={{ color: 'var(--ink)' }}>Related resources:</strong>{' '}
+                <Link href="/valrico-pre-foreclosure/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Pre-foreclosure options</Link> &middot;{' '}
+                <Link href="/valrico-short-sale/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Short sale help</Link> &middot;{' '}
+                <Link href="/valrico-cash-offer/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Cash offer in 24 hours</Link> &middot;{' '}
+                <Link href="/sell-my-home-valrico/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Sell my home</Link> &middot;{' '}
+                <Link href="/valrico-fl-home-values/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Home values</Link> &middot;{' '}
+                <Link href="/valrico-investment-property/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Investment properties</Link> &middot;{' '}
+                <Link href="/valrico-market-report/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Market report</Link> &middot;{' '}
+                <Link href="/valrico-fl-homes-for-sale/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Search all homes</Link> &middot;{' '}
+                <Link href="/homes-for-sale-33594/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>33594 listings</Link> &middot;{' '}
+                <Link href="/homes-for-sale-33596/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>33596 listings</Link>
+              </p>
+            </div>
 
             {/* Barrett's Advantage */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Why Work with Barrett on Foreclosures</h2>

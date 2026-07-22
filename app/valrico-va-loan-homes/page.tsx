@@ -1,4 +1,5 @@
 'use client';
+import Image from 'next/image';
 import Link from 'next/link';
 import { ContactForm } from '../components/ContactForm';
 
@@ -22,6 +23,11 @@ export default function VALoanHomes() {
       <div className="max-w-[1140px] mx-auto px-7 py-16">
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_340px] gap-14">
           <div>
+
+            {/* Bloomingdale image */}
+            <div style={{ position: 'relative', aspectRatio: '16/7', marginBottom: 24, borderRadius: 8, overflow: 'hidden' }}>
+              <Image src="/bloomingdale-valrico.jpg" alt="Bloomingdale Valrico FL neighborhood VA loan homes for sale" fill className="object-cover" sizes="(max-width:768px) 100vw, 900px" />
+            </div>
 
             {/* VA LOAN BASICS */}
             <h2 className="font-serif text-2xl mb-4">VA loan basics</h2>
@@ -82,9 +88,44 @@ export default function VALoanHomes() {
               ))}
             </div>
 
+            {/* River Hills image */}
+            <div style={{ position: 'relative', aspectRatio: '16/7', marginTop: 32, marginBottom: 8, borderRadius: 8, overflow: 'hidden' }}>
+              <Image src="/images/neighborhoods/river-hills-golf-country-club-valrico-fl-entrance.jpg" alt="River Hills Valrico FL VA loan eligible homes" fill className="object-cover" sizes="(max-width:768px) 100vw, 900px" />
+            </div>
+
             {/* MACDILL AFB */}
             <h2 className="font-serif text-2xl mb-4 mt-10">MacDill AFB proximity</h2>
             <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>MacDill Air Force Base is located about 15 miles west of Valrico on the southern tip of the Tampa peninsula. The commute from Valrico to MacDill is approximately 25-35 minutes depending on traffic and gate access. Many military families stationed at MacDill choose Valrico for the <Link href="/valrico-school-zones/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>school quality</Link>, affordable homes, and family-friendly neighborhoods. If you receive PCS orders to MacDill, Valrico is one of the most popular off-base housing options. Barrett has worked with MacDill families for years and understands the PCS timeline, BAH considerations, and the urgency of finding a home within a reporting window. See the <Link href="/valrico-relocation-guide/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>relocation guide</Link> for more on moving to the area.</p>
+
+            {/* EEAT author block */}
+            <div className="flex items-center gap-4 p-5 rounded-md border mt-10 mb-4" style={{ borderColor: 'var(--border)', background: 'var(--cream-warm)' }}>
+              <div style={{ position: 'relative', width: 72, height: 72, borderRadius: '50%', overflow: 'hidden', flexShrink: 0 }}>
+                <Image src="/barrett-henry.png" alt="Barrett Henry REALTOR Valrico FL VA loan specialist" fill className="object-cover" sizes="72px" />
+              </div>
+              <div>
+                <p className="font-semibold text-sm" style={{ color: 'var(--ink)' }}>Barrett Henry, REALTOR® | Broker Associate, REMAX Collective</p>
+                <p className="text-xs mt-0.5" style={{ color: 'var(--ink-soft)' }}>MRP (Military Relocation Professional) · 23+ years experience · Works with MacDill AFB families regularly</p>
+                <p className="text-xs mt-1" style={{ color: 'var(--ink-soft)' }}>Knows which Valrico homes pass VA appraisal and how to negotiate VA-specific issues</p>
+                <a href="tel:8137337907" className="text-xs font-semibold no-underline mt-1 inline-block" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>
+              </div>
+            </div>
+
+            {/* Expanded internal links */}
+            <div className="mb-8 text-[15px] leading-[1.8]">
+              <p>
+                <strong style={{ color: 'var(--ink)' }}>Related resources:</strong>{' '}
+                <Link href="/valrico-fl-homes-for-sale/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Search Valrico homes</Link> &middot;{' '}
+                <Link href="/valrico-first-time-homebuyer/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>First-time buyer guide</Link> &middot;{' '}
+                <Link href="/valrico-down-payment-assistance/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Down payment assistance</Link> &middot;{' '}
+                <Link href="/valrico-relocation-guide/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Relocation guide</Link> &middot;{' '}
+                <Link href="/valrico-school-zones/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>School zones</Link> &middot;{' '}
+                <Link href="/valrico-market-report/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Market report</Link> &middot;{' '}
+                <Link href="/neighborhoods/bloomingdale/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Bloomingdale</Link> &middot;{' '}
+                <Link href="/neighborhoods/river-hills/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>River Hills</Link> &middot;{' '}
+                <Link href="/valrico-real-estate/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Valrico real estate</Link> &middot;{' '}
+                <Link href="/valrico-fl-home-values/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Home values</Link>
+              </p>
+            </div>
 
             {/* FAQ */}
             <h2 className="font-serif text-2xl mb-4 mt-10">VA loan FAQ</h2>

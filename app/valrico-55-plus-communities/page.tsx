@@ -1,4 +1,5 @@
 'use client';
+import Image from 'next/image';
 import Link from 'next/link';
 import { ContactForm } from '../components/ContactForm';
 
@@ -23,6 +24,11 @@ export default function FiftyFivePlus() {
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_340px] gap-14">
           <div>
 
+            {/* Bloomingdale image */}
+            <div style={{ position: 'relative', aspectRatio: '16/7', marginBottom: 24, borderRadius: 8, overflow: 'hidden' }}>
+              <Image src="/bloomingdale-valrico.jpg" alt="Bloomingdale neighborhood Valrico FL 55 plus active adult communities" fill className="object-cover" sizes="(max-width:768px) 100vw, 900px" />
+            </div>
+
             {/* OVERVIEW */}
             <h2 className="font-serif text-2xl mb-4">Active adult living in the Valrico area</h2>
             <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>Valrico and eastern Hillsborough County are popular retirement destinations for a reason: no state income tax on pensions, Social Security, or retirement distributions. Homes are affordable compared to most of the country. Healthcare is accessible. The weather is mild eight months of the year. And the pace of life is slower than Tampa or St. Petersburg without being isolated. You have options here, dedicated 55+ communities with clubhouses and organized activities, or single-story homes in regular neighborhoods where you can live on your own terms.</p>
@@ -41,6 +47,11 @@ export default function FiftyFivePlus() {
                   <p className="text-sm leading-relaxed" style={{color:'var(--ink-soft)'}}>{desc}</p>
                 </div>
               ))}
+            </div>
+
+            {/* River Hills image */}
+            <div style={{ position: 'relative', aspectRatio: '16/7', marginTop: 32, marginBottom: 8, borderRadius: 8, overflow: 'hidden' }}>
+              <Image src="/river-hills-valrico.jpg" alt="River Hills country club Valrico FL retirement community" fill className="object-cover" sizes="(max-width:768px) 100vw, 900px" />
             </div>
 
             {/* SINGLE-STORY IN VALRICO */}
@@ -70,6 +81,41 @@ export default function FiftyFivePlus() {
             {/* PACE OF LIFE */}
             <h2 className="font-serif text-2xl mb-4 mt-10">The pace of life in Valrico</h2>
             <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>Valrico is not a retirement resort. It is a regular suburban community where families, young professionals, and retirees all live side by side. The pace is slower than Tampa but it is not sleepy. You have easy access to restaurants, shopping, and entertainment in Brandon (5-10 minutes) and Tampa (20-30 minutes). Golf courses are nearby, including the semi-private course at River Hills. Alafia River State Park offers hiking, mountain biking, and kayaking minutes from Valrico. The Riverwalk and entertainment districts in downtown Tampa are a short drive. You get quiet living without isolation.</p>
+
+            {/* Buckhorn image */}
+            <div style={{ position: 'relative', aspectRatio: '16/7', marginTop: 32, marginBottom: 8, borderRadius: 8, overflow: 'hidden' }}>
+              <Image src="/images/neighborhoods/buckhorn-preserve-valrico-fl-entrance-sign.jpg" alt="Buckhorn Preserve Valrico FL single story retirement homes" fill className="object-cover" sizes="(max-width:768px) 100vw, 900px" />
+            </div>
+
+            {/* EEAT author block */}
+            <div className="flex items-center gap-4 p-5 rounded-md border mt-6 mb-6" style={{ borderColor: 'var(--border)', background: 'var(--cream-warm)' }}>
+              <div style={{ position: 'relative', width: 72, height: 72, borderRadius: '50%', overflow: 'hidden', flexShrink: 0 }}>
+                <Image src="/barrett-henry.png" alt="Barrett Henry REALTOR Valrico FL 55 plus communities" fill className="object-cover" sizes="72px" />
+              </div>
+              <div>
+                <p className="font-semibold text-sm" style={{ color: 'var(--ink)' }}>Barrett Henry, REALTOR® | Broker Associate, REMAX Collective</p>
+                <p className="text-xs mt-0.5" style={{ color: 'var(--ink-soft)' }}>23+ years experience helping retirees find the right fit in Valrico and eastern Hillsborough County</p>
+                <p className="text-xs mt-1" style={{ color: 'var(--ink-soft)' }}>Honest advice on 55+ communities vs. single-story homes in regular neighborhoods</p>
+                <a href="tel:8137337907" className="text-xs font-semibold no-underline mt-1 inline-block" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>
+              </div>
+            </div>
+
+            {/* Expanded internal links */}
+            <div className="mb-6 text-[15px] leading-[1.8]">
+              <p>
+                <strong style={{ color: 'var(--ink)' }}>Related resources:</strong>{' '}
+                <Link href="/valrico-fl-homes-for-sale/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Search Valrico homes</Link> &middot;{' '}
+                <Link href="/valrico-waterfront-homes/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Waterfront homes</Link> &middot;{' '}
+                <Link href="/valrico-no-hoa-homes/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>No-HOA homes</Link> &middot;{' '}
+                <Link href="/valrico-relocation-guide/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Relocation guide</Link> &middot;{' '}
+                <Link href="/valrico-fl-home-values/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Home values</Link> &middot;{' '}
+                <Link href="/valrico-cost-of-living/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Cost of living</Link> &middot;{' '}
+                <Link href="/living-in-valrico/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Living in Valrico</Link> &middot;{' '}
+                <Link href="/florida-homestead-exemption-save-our-homes/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Florida homestead exemption</Link> &middot;{' '}
+                <Link href="/neighborhoods/twin-lakes/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Twin Lakes</Link> &middot;{' '}
+                <Link href="/valrico-real-estate/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Valrico real estate</Link>
+              </p>
+            </div>
 
             {/* FAQ */}
             <h2 className="font-serif text-2xl mb-4 mt-10">55+ community FAQ</h2>

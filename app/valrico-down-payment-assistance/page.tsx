@@ -1,4 +1,5 @@
 'use client';
+import Image from 'next/image';
 import Link from 'next/link';
 import { ContactForm } from '../components/ContactForm';
 
@@ -62,6 +63,11 @@ export default function DownPaymentAssistance() {
       <div className="max-w-[1140px] mx-auto px-7 py-16">
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_340px] gap-14">
           <div>
+
+            {/* Bloomingdale image */}
+            <div style={{ position: 'relative', aspectRatio: '16/7', marginBottom: 24, borderRadius: 8, overflow: 'hidden' }}>
+              <Image src="/bloomingdale-valrico.jpg" alt="Bloomingdale Valrico FL neighborhood down payment assistance first time buyers" fill className="object-cover" sizes="(max-width:768px) 100vw, 900px" />
+            </div>
 
             {/* HOMETOWN HEROES */}
             <h2 className="font-serif text-2xl mb-4">Florida Hometown Heroes Program</h2>
@@ -161,6 +167,11 @@ export default function DownPaymentAssistance() {
               </div>
             </div>
 
+            {/* Buckhorn image */}
+            <div style={{ position: 'relative', aspectRatio: '16/7', marginTop: 32, marginBottom: 8, borderRadius: 8, overflow: 'hidden' }}>
+              <Image src="/images/neighborhoods/buckhorn-preserve-valrico-fl-entrance-sign.jpg" alt="Buckhorn Preserve Valrico FL down payment assistance homes" fill className="object-cover" sizes="(max-width:768px) 100vw, 900px" />
+            </div>
+
             {/* HOW MUCH TABLE */}
             <h2 className="font-serif text-2xl mb-4 mt-10">How Much Do You Actually Need?</h2>
             <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>Here&apos;s what different down payment percentages look like on typical Valrico home prices. These are down payment amounts only, closing costs (roughly 2-3% of the purchase price) are additional.</p>
@@ -204,6 +215,41 @@ export default function DownPaymentAssistance() {
                 <a href="tel:8137337907" className="inline-block py-3 px-8 bg-white font-semibold text-[15px] rounded no-underline" style={{color:'var(--accent)'}}>Call<br/>(813) 733-7907</a>
                 <a href="mailto:barrett@nowtb.com" className="inline-block py-3 px-8 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">Email Barrett</a>
               </div>
+            </div>
+
+            {/* SR-60 road image */}
+            <div style={{ position: 'relative', aspectRatio: '16/7', marginTop: 32, marginBottom: 8, borderRadius: 8, overflow: 'hidden' }}>
+              <Image src="/images/roads/valrico-fl-sr-60-brandon-blvd-corridor.jpg" alt="Valrico FL SR-60 Brandon Boulevard corridor" fill className="object-cover" sizes="(max-width:768px) 100vw, 900px" />
+            </div>
+
+            {/* EEAT author block */}
+            <div className="flex items-center gap-4 p-5 rounded-md border mt-6 mb-6" style={{ borderColor: 'var(--border)', background: 'var(--cream-warm)' }}>
+              <div style={{ position: 'relative', width: 72, height: 72, borderRadius: '50%', overflow: 'hidden', flexShrink: 0 }}>
+                <Image src="/barrett-henry.png" alt="Barrett Henry REALTOR Valrico FL down payment assistance" fill className="object-cover" sizes="72px" />
+              </div>
+              <div>
+                <p className="font-semibold text-sm" style={{ color: 'var(--ink)' }}>Barrett Henry, REALTOR® | Broker Associate, REMAX Collective</p>
+                <p className="text-xs mt-0.5" style={{ color: 'var(--ink-soft)' }}>23+ years experience · Connects buyers with lenders specializing in DPA programs for Valrico</p>
+                <p className="text-xs mt-1" style={{ color: 'var(--ink-soft)' }}>Hometown Heroes, SHIP, FHA, VA, HomeReady, and Home Possible experience</p>
+                <a href="tel:8137337907" className="text-xs font-semibold no-underline mt-1 inline-block" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>
+              </div>
+            </div>
+
+            {/* Expanded internal links */}
+            <div className="mb-6 text-[15px] leading-[1.8]">
+              <p>
+                <strong style={{ color: 'var(--ink)' }}>Related resources:</strong>{' '}
+                <Link href="/valrico-first-time-homebuyer/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>First-time buyer guide</Link> &middot;{' '}
+                <Link href="/valrico-va-loan-homes/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>VA loan homes</Link> &middot;{' '}
+                <Link href="/valrico-fl-homes-for-sale/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Search Valrico homes</Link> &middot;{' '}
+                <Link href="/valrico-market-report/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Market report</Link> &middot;{' '}
+                <Link href="/valrico-fl-home-values/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Home values</Link> &middot;{' '}
+                <Link href="/valrico-school-zones/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>School zones</Link> &middot;{' '}
+                <Link href="/neighborhoods/bloomingdale/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Bloomingdale</Link> &middot;{' '}
+                <Link href="/homes-for-sale-33594/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Homes in 33594</Link> &middot;{' '}
+                <Link href="/homes-for-sale-33596/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Homes in 33596</Link> &middot;{' '}
+                <Link href="/valrico-relocation-guide/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Relocation guide</Link>
+              </p>
             </div>
 
             {/* FAQ */}

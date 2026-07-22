@@ -1,4 +1,5 @@
 'use client';
+import Image from 'next/image';
 import Link from 'next/link';
 import PropertySearch from '../components/PropertySearch';
 import { ContactForm } from '../components/ContactForm';
@@ -28,6 +29,11 @@ export default function InvestmentProperty() {
       <div className="max-w-[1140px] mx-auto px-7 py-16">
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_340px] gap-14">
           <div>
+
+            {/* Bloomingdale image */}
+            <div style={{ position: 'relative', aspectRatio: '16/7', marginBottom: 24, borderRadius: 8, overflow: 'hidden' }}>
+              <Image src="/bloomingdale-valrico.jpg" alt="Bloomingdale Valrico FL investment properties and rental homes" fill className="object-cover" sizes="(max-width:768px) 100vw, 900px" />
+            </div>
 
             {/* WHY VALRICO FOR INVESTORS */}
             <h2 className="font-serif text-2xl mb-4">Why invest in Valrico real estate?</h2>
@@ -74,6 +80,11 @@ export default function InvestmentProperty() {
               ))}
             </div>
 
+            {/* Buckhorn image */}
+            <div style={{ position: 'relative', aspectRatio: '16/7', marginTop: 32, marginBottom: 8, borderRadius: 8, overflow: 'hidden' }}>
+              <Image src="/images/neighborhoods/buckhorn-preserve-valrico-fl-entrance-sign.jpg" alt="Buckhorn Preserve Valrico FL investment rental property neighborhood" fill className="object-cover" sizes="(max-width:768px) 100vw, 900px" />
+            </div>
+
             {/* PROPERTY MANAGEMENT */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Property management through ViVi PM</h2>
             <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>Barrett Henry also runs <a href="https://vivipm.com" target="_blank" rel="noopener" className="font-semibold no-underline" style={{color:'var(--accent)'}}>ViVi PM</a>, a full-service property management company serving Valrico and east Hillsborough County. When you buy an investment property through Barrett, you get a single point of contact for acquisition, tenant placement, and ongoing management. Maintenance is handled in-house through <a href="https://bestvalricohandyman.com" target="_blank" rel="noopener" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Best Valrico Handyman</a> (Best Bay Services), no third-party markups. Management fee is 10% of collected rent. This means your investment is managed by someone who actually knows the neighborhood, not a call center.</p>
@@ -85,6 +96,41 @@ export default function InvestmentProperty() {
             {/* WHY EAST HILLSBOROUGH */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Why east Hillsborough County?</h2>
             <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>East Hillsborough - Valrico, Brandon, Riverview, Lithia, is where the growth is happening. New commercial development, road improvements, school construction, and population growth all point east. Prices are still below the Hillsborough County average, which means more room for appreciation compared to South Tampa, Westchase, or other established areas where prices have already peaked. For investors, the combination of rising rents, population growth, and below-average entry prices creates a window that will not stay open forever. Review the latest <Link href="/valrico-market-report/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Valrico market report</Link> for current pricing data and trends, or check <Link href="/valrico-fl-home-values/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>current home values by neighborhood</Link>.</p>
+
+            {/* River Hills image */}
+            <div style={{ position: 'relative', aspectRatio: '16/7', marginTop: 32, marginBottom: 8, borderRadius: 8, overflow: 'hidden' }}>
+              <Image src="/images/neighborhoods/river-hills-golf-country-club-valrico-fl-entrance.jpg" alt="River Hills Valrico FL luxury investment homes" fill className="object-cover" sizes="(max-width:768px) 100vw, 900px" />
+            </div>
+
+            {/* EEAT author block */}
+            <div className="flex items-center gap-4 p-5 rounded-md border mt-6 mb-6" style={{ borderColor: 'var(--border)', background: 'var(--cream-warm)' }}>
+              <div style={{ position: 'relative', width: 72, height: 72, borderRadius: '50%', overflow: 'hidden', flexShrink: 0 }}>
+                <Image src="/barrett-henry.png" alt="Barrett Henry REALTOR Valrico FL investment property" fill className="object-cover" sizes="72px" />
+              </div>
+              <div>
+                <p className="font-semibold text-sm" style={{ color: 'var(--ink)' }}>Barrett Henry, REALTOR® | Broker Associate, REMAX Collective</p>
+                <p className="text-xs mt-0.5" style={{ color: 'var(--ink-soft)' }}>23+ years experience · Investment property specialist · Also manages rentals through ViVi PM</p>
+                <p className="text-xs mt-1" style={{ color: 'var(--ink-soft)' }}>In-house maintenance via Best Bay Services · No third-party markups</p>
+                <a href="tel:8137337907" className="text-xs font-semibold no-underline mt-1 inline-block" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>
+              </div>
+            </div>
+
+            {/* Expanded internal links */}
+            <div className="mb-6 text-[15px] leading-[1.8]">
+              <p>
+                <strong style={{ color: 'var(--ink)' }}>Related resources:</strong>{' '}
+                <Link href="/valrico-property-management/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Property management</Link> &middot;{' '}
+                <Link href="/valrico-market-report/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Market report</Link> &middot;{' '}
+                <Link href="/valrico-fl-homes-for-sale/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Search Valrico homes</Link> &middot;{' '}
+                <Link href="/valrico-fl-home-values/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Home values</Link> &middot;{' '}
+                <Link href="/valrico-no-hoa-homes/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>No-HOA homes</Link> &middot;{' '}
+                <Link href="/valrico-cash-offer/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Cash offer</Link> &middot;{' '}
+                <Link href="/valrico-foreclosures/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Foreclosures</Link> &middot;{' '}
+                <Link href="/neighborhoods/bloomingdale/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Bloomingdale</Link> &middot;{' '}
+                <Link href="/valrico-school-zones/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>School zones</Link> &middot;{' '}
+                <Link href="/valrico-real-estate/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Valrico real estate</Link>
+              </p>
+            </div>
 
             {/* FAQ */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Investment property FAQ</h2>
