@@ -1,5 +1,28 @@
 # SEO Audit Log
 
+## 2026-07-22
+
+**10 pages improved:**
+
+1. `valrico-real-estate` - Added Image import, bloomingdale-valrico image before neighborhoods grid, river-hills-golf-country-club image before property types, EEAT author block, bloomingdale-avenue road image, expanded related links to 10 items
+2. `valrico-realtor` - Added Image import, bloomingdale-valrico image before intro, river-hills-golf-country-club image before credentials, buckhorn-preserve image, EEAT author block with 10-item related links paragraph
+3. `valrico-cash-offer` - Added Image import, bloomingdale-valrico image before How It Works, diamond-hill image before Barrett Henry Difference section, EEAT author block after quote, 10-item related links paragraph
+4. `valrico-va-loan-homes` - Added Image import, bloomingdale-valrico image before VA loan basics, river-hills-golf-country-club image before MacDill section, EEAT MRP-highlighted author block, 10-item related links before FAQ
+5. `valrico-55-plus-communities` - Added Image import, bloomingdale-valrico image before overview, river-hills-valrico image before single-story section, buckhorn-preserve image, EEAT author block, 10-item related links before FAQ
+6. `valrico-down-payment-assistance` - Added Image import, bloomingdale-valrico image before Hometown Heroes, buckhorn-preserve image before table section, sr-60 road image, EEAT author block, 10-item related links before FAQ
+7. `best-realtor-in-valrico` - Added Image import, bloomingdale-valrico image before intro, river-hills-golf-country-club image before neighborhoods section, EEAT author block with full credentials, diamond-hill image before testimonials, expanded related links to 12 items
+8. `valrico-investment-property` - Added Image import, bloomingdale-valrico image before intro, buckhorn-preserve image before property management, river-hills-golf-country-club image before FAQ, EEAT author block, 10-item related links
+9. `valrico-foreclosures` - Added Image import, bloomingdale-valrico image before types section, diamond-hill image before watch-for section, buckhorn-preserve image, EEAT author block with distressed property credentials, 10-item related links
+10. `valrico-property-management` - Added Image import, bloomingdale-valrico image before intro, buckhorn-preserve image before why Valrico rents well, river-hills-valrico image, EEAT author block with ViVi PM details, 10-item related links before FAQ
+
+**Pattern applied across all pages:**
+- 3+ images per page using `<Image fill className="object-cover" sizes="..." />` in `aspect-ratio:16/7` containers
+- EEAT author block: barrett-henry.png 72px headshot + role-specific credentials + phone
+- 10+ internal links per page
+- All original content preserved (no deletions)
+
+---
+
 ## 2026-07-21
 
 **10 pages improved:**
