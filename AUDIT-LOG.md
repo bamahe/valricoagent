@@ -1,5 +1,28 @@
 # SEO Audit Log
 
+## 2026-07-23
+
+**10 pages improved:**
+
+1. `valrico-open-houses` - Added Image import, bloomingdale-valrico image before How To Find section, valrico-fl-sr-60 road image before Best Neighborhoods section, river-hills-golf-country-club image before Stellar MLS section, EEAT author block with Barrett Henry headshot and 23+ years credentials, expanded related links to 11 items
+2. `valrico-short-sale` - Added Image import, bloomingdale-valrico image before What Is A Short Sale, valrico-fl-sr-60 road image before Barrett Experience section, diamond-hill entrance image before FAQ, EEAT author block with short sale expertise credentials, expanded sidebar related links to 10 items
+3. `valrico-pre-foreclosure` - Added Image import, bloomingdale-valrico image before What Is Pre-Foreclosure, bloomingdale-avenue image before Florida Timeline section, buckhorn-preserve entrance image before Why Act Now, EEAT author block with foreclosure expertise credentials, expanded sidebar related links to 10 items
+4. `why-barrett` - Added Image import, bloomingdale-valrico image before main content, bloomingdale-avenue road image before Coverage section, river-hills-golf-country-club image before EEAT block, EEAT author block with full credentials and 10-item related links
+5. `florida-homestead-exemption-save-our-homes` - Added Image import, bloomingdale-valrico image before The Short Version, valrico-fl-sr-60 road image before What Happens When You Sell, river-hills-valrico image before Portability section, EEAT author block with 10-item related links
+6. `neighborhoods/river-hills` - Added river-hills-golf-country-club image before Schools section, bloomingdale-valrico image before FAQ section, EEAT author block with luxury/golf expertise and 10 internal links
+7. `neighborhoods/bloomingdale` - Added bloomingdale-avenue road image before Schools section, river-hills-valrico comparison image before FAQ section, EEAT author block with sub-neighborhood expertise and 10 internal links
+8. `neighborhoods/buckhorn` - Added Image import, buckhorn-preserve entrance image (community photo hero), bloomingdale-avenue road image before Schools section, bloomingdale-valrico comparison image before FAQ, EEAT author block with Newsome HS zone expertise and 10 internal links
+9. `neighborhoods/diamond-hill` - Added buckhorn-preserve entrance comparison image before HOA section, valrico-fl-sr-60 road image before FAQ section, EEAT author block with golf community expertise and 10 internal links
+10. `neighborhoods/buckhorn-preserve` - Added Image import, buckhorn-preserve entrance image (community photo hero), bloomingdale-avenue road image before Location section, bloomingdale-valrico comparison image before FAQ, EEAT author block with CDD/HOA expertise and 10 internal links
+
+**Pattern applied across all pages:**
+- 3 images per page using `<Image fill className="object-cover" sizes="..." />` in `aspect-ratio:16/7` containers
+- EEAT author block: barrett-henry.png 72px headshot + role-specific credentials + phone + 10-item internal links
+- 10+ internal links per page
+- All original content preserved (no deletions)
+
+---
+
 ## 2026-07-22
 
 **10 pages improved:**
