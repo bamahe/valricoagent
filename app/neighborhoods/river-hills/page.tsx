@@ -108,6 +108,12 @@ export default function RiverHillsPage() {
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>The housing stock spans a wide range. Interior lots without golf views start around $400K with 1,800 to 2,500 square feet. Mid-range homes on larger lots or with partial course views run $500K to $700K. Premium golf course frontage properties command $700K to over $1 million, featuring custom architecture, expansive lanais, and direct fairway views. Most homes are concrete block construction built from the 1980s through the 2000s, with custom homebuilding continuing today.</p>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Beyond golf, the community delivers amenities that most Valrico neighborhoods cannot match: private hiking trails along the Alafia River, community pools, tennis courts, and the country club&apos;s dining and social calendar. The guard gate operates around the clock with professional staffing. For buyers who want a complete lifestyle community, not just a house in a subdivision, River Hills is the benchmark in this market.</p>
 
+            {/* Golf course entrance photo */}
+            <div className="relative w-full rounded-lg overflow-hidden my-8" style={{aspectRatio:'16/7'}}>
+              <Image src="/images/neighborhoods/river-hills-golf-country-club-valrico-fl-entrance.jpg" alt="River Hills Golf Country Club entrance in Valrico FL 33596" fill className="object-cover" sizes="(max-width: 1140px) 100vw, 1140px" />
+            </div>
+            <p className="text-xs mt-2 mb-6" style={{color:'var(--ink-muted)'}}>River Hills Golf Country Club entrance - Valrico, FL 33596</p>
+
             {/* --- Schools --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Schools Serving River Hills</h2>
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>River Hills falls within the Hillsborough County School District and is zoned for <strong>Bloomingdale High School</strong>. The feeder pattern includes area elementary schools and <strong>Burns Middle School</strong>. Bloomingdale High is an A-rated school with a GreatSchools rating of 8/10, offering AP courses, dual enrollment, and competitive athletics.</p>
@@ -174,6 +180,32 @@ export default function RiverHillsPage() {
               <li>Retirees who want community amenities, trails, and social programming</li>
               <li>Buyers relocating from out of state who want a ready-made lifestyle community</li>
             </ul>
+
+            {/* Bloomingdale community photo for context */}
+            <div className="relative w-full rounded-lg overflow-hidden my-8" style={{aspectRatio:'16/7'}}>
+              <Image src="/bloomingdale-valrico.jpg" alt="Valrico FL community neighborhood - comparing River Hills to surrounding communities" fill className="object-cover" sizes="(max-width: 1140px) 100vw, 1140px" />
+            </div>
+
+            {/* EEAT author block */}
+            <div className="rounded-md p-6 mt-4 mb-6" style={{background:'var(--cream-warm)',border:'1px solid var(--border)',display:'flex',gap:20,alignItems:'flex-start'}}>
+              <Image src="/barrett-henry.png" alt="Barrett Henry, Broker Associate at REMAX Collective, Valrico FL" width={72} height={72} style={{borderRadius:'50%',flexShrink:0}} />
+              <div>
+                <p className="font-semibold text-base mb-1" style={{color:'var(--ink)'}}>Barrett Henry, Broker Associate | REMAX Collective</p>
+                <p className="text-sm leading-relaxed mb-2" style={{color:'var(--ink-soft)'}}>23+ years of Valrico real estate experience with deep expertise in River Hills. MRP, SRS, e-PRO certified. REMAX Hall of Fame 2024. Barrett knows every section of River Hills, from golf frontage lots to interior builds, and can guide you to the right home within the community. <a href="tel:8137337907" className="font-semibold no-underline" style={{color:'var(--accent)'}}>(813) 733-7907</a></p>
+                <p className="text-xs leading-loose" style={{color:'var(--ink-soft)'}}>
+                  <Link href="/valrico-real-estate/" className="no-underline" style={{color:'var(--accent)'}}>Valrico Real Estate</Link>{' | '}
+                  <Link href="/valrico-fl-homes-for-sale/" className="no-underline" style={{color:'var(--accent)'}}>Homes for Sale</Link>{' | '}
+                  <Link href="/valrico-luxury-homes/" className="no-underline" style={{color:'var(--accent)'}}>Luxury Homes</Link>{' | '}
+                  <Link href="/valrico-school-zones/" className="no-underline" style={{color:'var(--accent)'}}>School Zones</Link>{' | '}
+                  <Link href="/valrico-fl-home-values/" className="no-underline" style={{color:'var(--accent)'}}>Home Values</Link>{' | '}
+                  <Link href="/sell-my-home-valrico/" className="no-underline" style={{color:'var(--accent)'}}>Sell My Home</Link>{' | '}
+                  <Link href="/valrico-pool-homes/" className="no-underline" style={{color:'var(--accent)'}}>Pool Homes</Link>{' | '}
+                  <Link href="/valrico-waterfront-homes/" className="no-underline" style={{color:'var(--accent)'}}>Waterfront Homes</Link>{' | '}
+                  <Link href="/neighborhoods/" className="no-underline" style={{color:'var(--accent)'}}>All Neighborhoods</Link>{' | '}
+                  <Link href="/about/" className="no-underline" style={{color:'var(--accent)'}}>About Barrett</Link>
+                </p>
+              </div>
+            </div>
 
             {/* --- FAQ --- */}
             <h2 className="font-serif text-2xl mb-6 mt-10">River Hills FAQ</h2>

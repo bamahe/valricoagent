@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import Image from 'next/image';
 import { ContactForm } from '../components/ContactForm';
 
 export default function ValricoPreForeclosure() {
@@ -22,6 +23,11 @@ export default function ValricoPreForeclosure() {
       <div className="max-w-[1140px] mx-auto px-7 py-16">
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_340px] gap-14">
           <div>
+            {/* Community photo */}
+            <div className="relative w-full rounded-lg overflow-hidden mb-10" style={{aspectRatio:'16/7'}}>
+              <Image src="/bloomingdale-valrico.jpg" alt="Bloomingdale community in Valrico FL - Barrett Henry helps homeowners facing pre-foreclosure" fill className="object-cover" sizes="(max-width: 780px) 100vw, 780px" />
+            </div>
+
             {/* What Is Pre-Foreclosure */}
             <h2 className="font-serif text-2xl mb-4">What Is Pre-Foreclosure?</h2>
             <p className="text-[15px] leading-[1.8] mb-4" style={{color:'var(--ink-soft)'}}>Pre-foreclosure means you have missed mortgage payments and your lender has filed a lis pendens, a public notice that foreclosure proceedings have started. But the sale has not happened yet. Your home has not gone to auction. This is your window to act.</p>
@@ -49,6 +55,11 @@ export default function ValricoPreForeclosure() {
               ))}
             </div>
 
+            {/* Road image */}
+            <div className="relative w-full rounded-lg overflow-hidden my-8" style={{aspectRatio:'16/7'}}>
+              <Image src="/images/roads/valrico-fl-bloomingdale-avenue-td-bank.jpg" alt="Bloomingdale Avenue in Valrico FL - Barrett Henry real estate office area" fill className="object-cover" sizes="(max-width: 780px) 100vw, 780px" />
+            </div>
+
             {/* Florida Foreclosure Timeline */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Timeline: How Foreclosure Works in Florida</h2>
             <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>Florida is a <strong>judicial foreclosure state</strong>, meaning every foreclosure must go through the court system. This makes the process slower than in non-judicial states, which gives you more time to act, but only if you use that time wisely.</p>
@@ -68,6 +79,11 @@ export default function ValricoPreForeclosure() {
               ))}
             </div>
 
+            {/* River Hills image */}
+            <div className="relative w-full rounded-lg overflow-hidden my-8" style={{aspectRatio:'16/7'}}>
+              <Image src="/images/neighborhoods/buckhorn-preserve-valrico-fl-entrance-sign.jpg" alt="Buckhorn Preserve neighborhood in Valrico FL - Barrett handles pre-foreclosure across all neighborhoods" fill className="object-cover" sizes="(max-width: 780px) 100vw, 780px" />
+            </div>
+
             {/* Why Act Now */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Why You Should Act Now</h2>
             <p className="text-[15px] leading-[1.8] mb-4" style={{color:'var(--ink-soft)'}}>Every month of delay limits your options. In the early stages of delinquency, you can potentially modify your loan, sell your home with equity, or negotiate a forbearance. Once a lis pendens is filed and the case goes to court, your options narrow and your credit damage deepens.</p>
@@ -81,6 +97,27 @@ export default function ValricoPreForeclosure() {
               <div className="flex gap-3 flex-wrap">
                 <a href="tel:8137337907" className="btn-solid">Call<br/>(813) 733-7907</a>
                 <a href="mailto:barrett@nowtb.com" className="btn-ghost">Email barrett@nowtb.com</a>
+              </div>
+            </div>
+
+            {/* EEAT author block */}
+            <div className="rounded-md p-6 mt-2 mb-4" style={{background:'var(--cream-warm)',border:'1px solid var(--border)',display:'flex',gap:20,alignItems:'flex-start'}}>
+              <Image src="/barrett-henry.png" alt="Barrett Henry, Broker Associate at REMAX Collective" width={72} height={72} style={{borderRadius:'50%',flexShrink:0}} />
+              <div>
+                <p className="font-semibold text-base mb-1" style={{color:'var(--ink)'}}>Barrett Henry, Broker Associate | REMAX Collective</p>
+                <p className="text-sm leading-relaxed mb-2" style={{color:'var(--ink-soft)'}}>23+ years of Valrico real estate experience helping homeowners navigate pre-foreclosure, loan modifications, and distressed property situations. MRP, SRS, e-PRO certified. REMAX Hall of Fame 2024. Free confidential consultations, no obligation. <a href="tel:8137337907" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Call (813) 733-7907</a></p>
+                <p className="text-xs leading-loose" style={{color:'var(--ink-soft)'}}>
+                  <Link href="/valrico-short-sale/" className="no-underline" style={{color:'var(--accent)'}}>Short Sale Help</Link>{' | '}
+                  <Link href="/valrico-foreclosures/" className="no-underline" style={{color:'var(--accent)'}}>Foreclosure Homes</Link>{' | '}
+                  <Link href="/valrico-cash-offer/" className="no-underline" style={{color:'var(--accent)'}}>Cash Offer</Link>{' | '}
+                  <Link href="/valrico-fl-home-values/" className="no-underline" style={{color:'var(--accent)'}}>Home Values</Link>{' | '}
+                  <Link href="/sell-my-home-valrico/" className="no-underline" style={{color:'var(--accent)'}}>Sell My Home</Link>{' | '}
+                  <Link href="/valrico-market-report/" className="no-underline" style={{color:'var(--accent)'}}>Market Report</Link>{' | '}
+                  <Link href="/valrico-investment-property/" className="no-underline" style={{color:'var(--accent)'}}>Investment Property</Link>{' | '}
+                  <Link href="/valrico-real-estate/" className="no-underline" style={{color:'var(--accent)'}}>Valrico Real Estate</Link>{' | '}
+                  <Link href="/why-barrett/" className="no-underline" style={{color:'var(--accent)'}}>Why Barrett</Link>{' | '}
+                  <Link href="/about/" className="no-underline" style={{color:'var(--accent)'}}>About Barrett</Link>
+                </p>
               </div>
             </div>
 
@@ -117,6 +154,11 @@ export default function ValricoPreForeclosure() {
                 <li><Link href="/valrico-cash-offer/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Get a cash offer &rarr;</Link></li>
                 <li><Link href="/sell-my-home-valrico/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Sell my Valrico home &rarr;</Link></li>
                 <li><Link href="/valrico-fl-home-values/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>What is my home worth? &rarr;</Link></li>
+                <li><Link href="/valrico-market-report/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Valrico market report &rarr;</Link></li>
+                <li><Link href="/valrico-investment-property/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Investment property &rarr;</Link></li>
+                <li><Link href="/valrico-real-estate/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Valrico real estate &rarr;</Link></li>
+                <li><Link href="/valrico-relocation-guide/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Relocation guide &rarr;</Link></li>
+                <li><Link href="/why-barrett/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Why choose Barrett &rarr;</Link></li>
               </ul>
             </div>
           </div>

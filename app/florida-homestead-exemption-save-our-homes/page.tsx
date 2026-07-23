@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import Image from 'next/image';
 import { ContactForm } from '../components/ContactForm';
 
 /* ── JSON-LD FAQPage schema ── */
@@ -79,6 +80,11 @@ export default function FloridaHomesteadExemption() {
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_340px] gap-14">
           <div>
 
+            {/* Community photo */}
+            <div className="relative w-full rounded-lg overflow-hidden mb-10" style={{aspectRatio:'16/7'}}>
+              <Image src="/bloomingdale-valrico.jpg" alt="Bloomingdale community in Valrico FL - homestead exemption applies to primary residences like these" fill className="object-cover" sizes="(max-width: 780px) 100vw, 780px" />
+            </div>
+
             {/* THE SHORT VERSION */}
             <h2 className="font-serif text-2xl mb-4">The Short Version</h2>
             <p className="text-[15px] leading-[1.8] mb-4" style={{color:'var(--ink-soft)'}}>If you own a home in Valrico (or anywhere in Florida) and it&apos;s your primary residence, you need to know these three things:</p>
@@ -126,6 +132,11 @@ export default function FloridaHomesteadExemption() {
               <p className="text-sm leading-relaxed font-semibold" style={{color:'var(--ink)'}}>That $95,000 gap means you&apos;re saving roughly $1,900+ per year in property taxes compared to a new buyer of the same home. The longer you own, the wider the gap grows.</p>
             </div>
 
+            {/* Neighborhood image */}
+            <div className="relative w-full rounded-lg overflow-hidden my-8" style={{aspectRatio:'16/7'}}>
+              <Image src="/images/roads/valrico-fl-sr-60-brandon-blvd-corridor.jpg" alt="SR-60 corridor in Valrico FL - Hillsborough County homestead exemption applies to all Valrico homes" fill className="object-cover" sizes="(max-width: 780px) 100vw, 780px" />
+            </div>
+
             {/* WHAT HAPPENS WHEN YOU SELL */}
             <h2 className="font-serif text-2xl mb-4 mt-10">What Happens When You Sell?</h2>
             <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>When you sell your homestead property, the Save Our Homes cap resets. The new buyer&apos;s assessed value starts at the full purchase price (market value). All those years of capped increases you enjoyed? Gone for the new owner, they start fresh.</p>
@@ -140,6 +151,11 @@ export default function FloridaHomesteadExemption() {
                 <a href="tel:8137337907" className="inline-block py-3 px-8 bg-white font-semibold text-[15px] rounded no-underline" style={{color:'var(--accent)'}}>Call<br/>(813) 733-7907</a>
                 <a href="mailto:barrett@nowtb.com" className="inline-block py-3 px-8 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">Email Barrett</a>
               </div>
+            </div>
+
+            {/* River Hills image */}
+            <div className="relative w-full rounded-lg overflow-hidden my-8" style={{aspectRatio:'16/7'}}>
+              <Image src="/river-hills-valrico.jpg" alt="River Hills community in Valrico FL - long-term homeowners here benefit most from Save Our Homes cap" fill className="object-cover" sizes="(max-width: 780px) 100vw, 780px" />
             </div>
 
             {/* PORTABILITY */}
@@ -223,6 +239,27 @@ export default function FloridaHomesteadExemption() {
                   <p className="text-sm leading-relaxed" style={{color:'var(--ink-soft)'}}>{a}</p>
                 </div>
               ))}
+            </div>
+
+            {/* EEAT author block */}
+            <div className="rounded-md p-6 mt-10" style={{background:'var(--cream-warm)',border:'1px solid var(--border)',display:'flex',gap:20,alignItems:'flex-start'}}>
+              <Image src="/barrett-henry.png" alt="Barrett Henry, Broker Associate at REMAX Collective" width={72} height={72} style={{borderRadius:'50%',flexShrink:0}} />
+              <div>
+                <p className="font-semibold text-base mb-1" style={{color:'var(--ink)'}}>Barrett Henry, Broker Associate | REMAX Collective</p>
+                <p className="text-sm leading-relaxed mb-2" style={{color:'var(--ink-soft)'}}>23+ years of real estate experience in Valrico, FL. MRP, SRS, e-PRO certified. REMAX Hall of Fame 2024. Barrett helps Valrico buyers and sellers understand homestead exemptions, portability, and how property taxes affect every transaction. <a href="tel:8137337907" className="font-semibold no-underline" style={{color:'var(--accent)'}}>(813) 733-7907</a></p>
+                <p className="text-xs leading-loose" style={{color:'var(--ink-soft)'}}>
+                  <Link href="/valrico-fl-home-values/" className="no-underline" style={{color:'var(--accent)'}}>Home Values</Link>{' | '}
+                  <Link href="/valrico-fl-homes-for-sale/" className="no-underline" style={{color:'var(--accent)'}}>Homes for Sale</Link>{' | '}
+                  <Link href="/valrico-first-time-homebuyer/" className="no-underline" style={{color:'var(--accent)'}}>First-Time Buyers</Link>{' | '}
+                  <Link href="/sell-my-home-valrico/" className="no-underline" style={{color:'var(--accent)'}}>Sell My Home</Link>{' | '}
+                  <Link href="/valrico-market-report/" className="no-underline" style={{color:'var(--accent)'}}>Market Report</Link>{' | '}
+                  <Link href="/valrico-investment-property/" className="no-underline" style={{color:'var(--accent)'}}>Investment Property</Link>{' | '}
+                  <Link href="/valrico-down-payment-assistance/" className="no-underline" style={{color:'var(--accent)'}}>Down Payment Help</Link>{' | '}
+                  <Link href="/valrico-relocation-guide/" className="no-underline" style={{color:'var(--accent)'}}>Relocation Guide</Link>{' | '}
+                  <Link href="/neighborhoods/" className="no-underline" style={{color:'var(--accent)'}}>All Neighborhoods</Link>{' | '}
+                  <Link href="/about/" className="no-underline" style={{color:'var(--accent)'}}>About Barrett</Link>
+                </p>
+              </div>
             </div>
 
             {/* FREE RESOURCES */}

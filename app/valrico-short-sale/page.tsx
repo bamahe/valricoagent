@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function ValricoShortSale() {
   return (
@@ -21,6 +22,11 @@ export default function ValricoShortSale() {
       <div className="max-w-[1140px] mx-auto px-7 py-16">
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_340px] gap-14">
           <div>
+            {/* Community image */}
+            <div className="relative w-full rounded-lg overflow-hidden mb-10" style={{aspectRatio:'16/7'}}>
+              <Image src="/bloomingdale-valrico.jpg" alt="Bloomingdale community in Valrico FL - Barrett Henry handles short sales across all Valrico neighborhoods" fill className="object-cover" sizes="(max-width: 780px) 100vw, 780px" />
+            </div>
+
             {/* What Is a Short Sale */}
             <h2 className="font-serif text-2xl mb-4">What Is a Short Sale?</h2>
             <p className="text-[15px] leading-[1.8] mb-4" style={{color:'var(--ink-soft)'}}>A short sale happens when a homeowner sells their property for less than the remaining mortgage balance, and the bank (lender) agrees to accept the reduced payoff. The bank takes a loss, but avoids the cost and timeline of a full foreclosure proceeding.</p>
@@ -121,6 +127,11 @@ export default function ValricoShortSale() {
               </table>
             </div>
 
+            {/* Road image */}
+            <div className="relative w-full rounded-lg overflow-hidden my-8" style={{aspectRatio:'16/7'}}>
+              <Image src="/images/roads/valrico-fl-sr-60-brandon-blvd-corridor.jpg" alt="SR-60 Brandon Blvd corridor Valrico FL - serving all Valrico homeowners facing short sales" fill className="object-cover" sizes="(max-width: 780px) 100vw, 780px" />
+            </div>
+
             {/* Barrett's Experience */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Barrett&apos;s Short Sale Experience</h2>
             <p className="text-[15px] leading-[1.8] mb-4" style={{color:'var(--ink-soft)'}}>Barrett Henry has been handling short sales for over 20 years. He knows how to package files for specific lenders, how to escalate stalled negotiations, and how to get deficiency waivers included in the approval. Most importantly, he knows how to set realistic expectations so you are not blindsided by the timeline or process.</p>
@@ -133,6 +144,32 @@ export default function ValricoShortSale() {
               <div className="flex gap-3 flex-wrap">
                 <a href="tel:8137337907" className="btn-solid">Call (813) 733-7907</a>
                 <a href="#short-sale-form" className="btn-ghost">Fill Out the Form Below</a>
+              </div>
+            </div>
+
+            {/* Diamond Hill image */}
+            <div className="relative w-full rounded-lg overflow-hidden my-8" style={{aspectRatio:'16/7'}}>
+              <Image src="/images/neighborhoods/diamond-hill-valrico-fl-entrance.jpg" alt="Diamond Hill neighborhood entrance in Valrico FL - Barrett handles short sales across all price ranges" fill className="object-cover" sizes="(max-width: 780px) 100vw, 780px" />
+            </div>
+
+            {/* EEAT author block */}
+            <div className="rounded-md p-6 mt-4 mb-4" style={{background:'var(--cream-warm)',border:'1px solid var(--border)',display:'flex',gap:20,alignItems:'flex-start'}}>
+              <Image src="/barrett-henry.png" alt="Barrett Henry, Broker Associate at REMAX Collective" width={72} height={72} style={{borderRadius:'50%',flexShrink:0}} />
+              <div>
+                <p className="font-semibold text-base mb-1" style={{color:'var(--ink)'}}>Barrett Henry, Broker Associate | REMAX Collective</p>
+                <p className="text-sm leading-relaxed mb-2" style={{color:'var(--ink-soft)'}}>23+ years of Valrico real estate experience including extensive short sale expertise. MRP, SRS, e-PRO certified. REMAX Hall of Fame 2024. Barrett has negotiated deficiency waivers and navigated complex lender timelines for Valrico homeowners for over two decades. <a href="tel:8137337907" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Call (813) 733-7907</a></p>
+                <p className="text-xs leading-loose" style={{color:'var(--ink-soft)'}}>
+                  <Link href="/valrico-foreclosures/" className="no-underline" style={{color:'var(--accent)'}}>Foreclosure Homes</Link>{' | '}
+                  <Link href="/valrico-pre-foreclosure/" className="no-underline" style={{color:'var(--accent)'}}>Pre-Foreclosure</Link>{' | '}
+                  <Link href="/valrico-cash-offer/" className="no-underline" style={{color:'var(--accent)'}}>Cash Offer</Link>{' | '}
+                  <Link href="/valrico-fl-home-values/" className="no-underline" style={{color:'var(--accent)'}}>Home Values</Link>{' | '}
+                  <Link href="/sell-my-home-valrico/" className="no-underline" style={{color:'var(--accent)'}}>Sell My Home</Link>{' | '}
+                  <Link href="/valrico-market-report/" className="no-underline" style={{color:'var(--accent)'}}>Market Report</Link>{' | '}
+                  <Link href="/valrico-investment-property/" className="no-underline" style={{color:'var(--accent)'}}>Investment Property</Link>{' | '}
+                  <Link href="/valrico-real-estate/" className="no-underline" style={{color:'var(--accent)'}}>Valrico Real Estate</Link>{' | '}
+                  <Link href="/valrico-relocation-guide/" className="no-underline" style={{color:'var(--accent)'}}>Relocation Guide</Link>{' | '}
+                  <Link href="/about/" className="no-underline" style={{color:'var(--accent)'}}>About Barrett</Link>
+                </p>
               </div>
             </div>
 
@@ -207,6 +244,11 @@ export default function ValricoShortSale() {
                 <li><Link href="/valrico-cash-offer/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Get a cash offer &rarr;</Link></li>
                 <li><Link href="/valrico-fl-home-values/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>What is my home worth? &rarr;</Link></li>
                 <li><Link href="/sell-my-home-valrico/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Sell my home (traditional) &rarr;</Link></li>
+                <li><Link href="/valrico-market-report/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Valrico market report &rarr;</Link></li>
+                <li><Link href="/valrico-investment-property/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Investment property &rarr;</Link></li>
+                <li><Link href="/valrico-real-estate/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Valrico real estate &rarr;</Link></li>
+                <li><Link href="/valrico-relocation-guide/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Relocation guide &rarr;</Link></li>
+                <li><Link href="/why-barrett/" className="text-sm no-underline hover:underline" style={{color:'var(--accent)'}}>Why choose Barrett &rarr;</Link></li>
               </ul>
             </div>
           </div>

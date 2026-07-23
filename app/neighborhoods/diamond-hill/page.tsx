@@ -123,6 +123,17 @@ export default function DiamondHillPage() {
             </ul>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Daily essentials are minutes away. Publix, Winn-Dixie, and Walmart are within 2 miles along SR-60 (Brandon Blvd). Restaurants, banks, and medical offices line Lithia Pinecrest Road and Bloomingdale Avenue. The central Valrico location means quick access to both north and south commercial corridors.</p>
 
+            {/* Buckhorn Preserve entrance image */}
+            <div className="relative w-full rounded-lg overflow-hidden my-8" style={{ aspectRatio: '16/7' }}>
+              <Image
+                src="/images/neighborhoods/buckhorn-preserve-valrico-fl-entrance-sign.jpg"
+                alt="Valrico FL neighborhood entrance - comparing Diamond Hill to nearby Buckhorn communities"
+                fill
+                className="object-cover"
+                sizes="(max-width: 1140px) 100vw, 1140px"
+              />
+            </div>
+
             {/* --- HOA --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">HOA and Community Fees</h2>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Diamond Hill has a mandatory HOA that maintains the gated entrance, Olympic-sized pool, fitness center, clubhouse, playground, basketball court, tennis facilities, and all common areas. Monthly HOA fees vary by section and typically run $150&ndash;$300. Golf club membership is separate from the HOA. Some sections may carry a CDD assessment on the property tax bill. Barrett Henry can pull the exact HOA, CDD, and golf membership costs for any Diamond Hill address, call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
@@ -171,6 +182,38 @@ export default function DiamondHillPage() {
               <li>Buyers who value gated security and community programming</li>
               <li>Military families at MacDill AFB who want gated living with amenities (30&ndash;40 min commute)</li>
             </ul>
+
+            {/* Road image */}
+            <div className="relative w-full rounded-lg overflow-hidden my-8" style={{ aspectRatio: '16/7' }}>
+              <Image
+                src="/images/roads/valrico-fl-sr-60-brandon-blvd-corridor.jpg"
+                alt="SR-60 Brandon Blvd corridor in Valrico FL - Diamond Hill is minutes from this main highway access"
+                fill
+                className="object-cover"
+                sizes="(max-width: 1140px) 100vw, 1140px"
+              />
+            </div>
+
+            {/* EEAT author block */}
+            <div className="rounded-md p-6 mt-4 mb-6" style={{ background: 'var(--cream-warm)', border: '1px solid var(--border)', display: 'flex', gap: 20, alignItems: 'flex-start' }}>
+              <Image src="/barrett-henry.png" alt="Barrett Henry, Broker Associate at REMAX Collective, Valrico FL" width={72} height={72} style={{ borderRadius: '50%', flexShrink: 0 }} />
+              <div>
+                <p className="font-semibold text-base mb-1" style={{ color: 'var(--ink)' }}>Barrett Henry, Broker Associate | REMAX Collective</p>
+                <p className="text-sm leading-relaxed mb-2" style={{ color: 'var(--ink-soft)' }}>23+ years of Valrico real estate experience with detailed knowledge of Diamond Hill's sections, HOA fees, school zone variations, and golf course premium lots. MRP, SRS, e-PRO certified. REMAX Hall of Fame 2024. Barrett can identify the exact school zone for any Diamond Hill address before you make an offer. <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a></p>
+                <p className="text-xs leading-loose" style={{ color: 'var(--ink-soft)' }}>
+                  <Link href="/valrico-real-estate/" className="no-underline" style={{ color: 'var(--accent)' }}>Valrico Real Estate</Link>{' | '}
+                  <Link href="/valrico-fl-homes-for-sale/" className="no-underline" style={{ color: 'var(--accent)' }}>Homes for Sale</Link>{' | '}
+                  <Link href="/valrico-luxury-homes/" className="no-underline" style={{ color: 'var(--accent)' }}>Luxury Homes</Link>{' | '}
+                  <Link href="/valrico-school-zones/" className="no-underline" style={{ color: 'var(--accent)' }}>School Zones</Link>{' | '}
+                  <Link href="/valrico-fl-home-values/" className="no-underline" style={{ color: 'var(--accent)' }}>Home Values</Link>{' | '}
+                  <Link href="/sell-my-home-valrico/" className="no-underline" style={{ color: 'var(--accent)' }}>Sell My Home</Link>{' | '}
+                  <Link href="/valrico-pool-homes/" className="no-underline" style={{ color: 'var(--accent)' }}>Pool Homes</Link>{' | '}
+                  <Link href="/valrico-market-report/" className="no-underline" style={{ color: 'var(--accent)' }}>Market Report</Link>{' | '}
+                  <Link href="/neighborhoods/" className="no-underline" style={{ color: 'var(--accent)' }}>All Neighborhoods</Link>{' | '}
+                  <Link href="/about/" className="no-underline" style={{ color: 'var(--accent)' }}>About Barrett</Link>
+                </p>
+              </div>
+            </div>
 
             {/* --- FAQ --- */}
             <h2 className="font-serif text-2xl mb-6 mt-10">Diamond Hill FAQ</h2>

@@ -106,6 +106,12 @@ export default function BloomingdalePage() {
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>With 32+ individual sub-neighborhoods and approximately 5,200 homes, Bloomingdale is not a single community, it&apos;s a collection of neighborhoods that share the Bloomingdale name but vary significantly in price, HOA structure, lot size, and feel. Some sections carry mandatory HOAs with strict standards; others are voluntary. This creates flexibility for buyers who want community standards without rigid restrictions.</p>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Prices on the Valrico side generally run $300K to $500K, with updated pool homes on larger lots pushing toward the top of that range. The sheer size of the community means there is almost always inventory available, which gives buyers more negotiating power than they get in smaller neighborhoods where listings are scarce. Barrett Henry has <a href="https://nowtb.com/valrico/" target="_blank" rel="noopener" className="no-underline font-semibold" style={{ color: 'var(--accent)' }}>deep knowledge of every Bloomingdale sub-neighborhood</a> and can tell you which sections hold value strongest.</p>
 
+            {/* Road image */}
+            <div className="relative w-full rounded-lg overflow-hidden my-8" style={{aspectRatio:'16/7'}}>
+              <Image src="/images/roads/valrico-fl-bloomingdale-avenue-td-bank.jpg" alt="Bloomingdale Avenue in Valrico FL - the main corridor running through the Bloomingdale community" fill className="object-cover" sizes="(max-width: 1140px) 100vw, 1140px" />
+            </div>
+            <p className="text-xs mt-2 mb-6" style={{color:'var(--ink-muted)'}}>Bloomingdale Avenue - Valrico, FL 33596</p>
+
             {/* --- Schools --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Schools Serving Bloomingdale</h2>
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Most of Bloomingdale falls within the Bloomingdale High School attendance zone. Bloomingdale HS is A-rated by Niche, ranked among the top Tampa area public high schools, and carries a GreatSchools rating of 8/10. The school offers AP courses, Cambridge International curriculum, and a Gifted and Talented program. For families, the school zone is often the primary reason they choose Bloomingdale over comparable neighborhoods in Brandon or Riverview.</p>
@@ -172,6 +178,32 @@ export default function BloomingdalePage() {
               <li>Homeowners who want a no-HOA option without leaving a recognized community</li>
               <li>Military families stationed at MacDill AFB (35&ndash;45 min commute)</li>
             </ul>
+
+            {/* River Hills comparison image */}
+            <div className="relative w-full rounded-lg overflow-hidden my-8" style={{aspectRatio:'16/7'}}>
+              <Image src="/river-hills-valrico.jpg" alt="River Hills community in Valrico FL - comparison to Bloomingdale for south Valrico buyers" fill className="object-cover" sizes="(max-width: 1140px) 100vw, 1140px" />
+            </div>
+
+            {/* EEAT author block */}
+            <div className="rounded-md p-6 mt-4 mb-6" style={{background:'var(--cream-warm)',border:'1px solid var(--border)',display:'flex',gap:20,alignItems:'flex-start'}}>
+              <Image src="/barrett-henry.png" alt="Barrett Henry, Broker Associate at REMAX Collective, Valrico FL" width={72} height={72} style={{borderRadius:'50%',flexShrink:0}} />
+              <div>
+                <p className="font-semibold text-base mb-1" style={{color:'var(--ink)'}}>Barrett Henry, Broker Associate | REMAX Collective</p>
+                <p className="text-sm leading-relaxed mb-2" style={{color:'var(--ink-soft)'}}>23+ years of Valrico real estate experience with in-depth knowledge of all 32+ Bloomingdale sub-neighborhoods. MRP, SRS, e-PRO certified. REMAX Hall of Fame 2024. Barrett knows which Bloomingdale sections hold value strongest and which have mandatory HOAs. <a href="tel:8137337907" className="font-semibold no-underline" style={{color:'var(--accent)'}}>(813) 733-7907</a></p>
+                <p className="text-xs leading-loose" style={{color:'var(--ink-soft)'}}>
+                  <Link href="/valrico-real-estate/" className="no-underline" style={{color:'var(--accent)'}}>Valrico Real Estate</Link>{' | '}
+                  <Link href="/valrico-fl-homes-for-sale/" className="no-underline" style={{color:'var(--accent)'}}>Homes for Sale</Link>{' | '}
+                  <Link href="/valrico-school-zones/" className="no-underline" style={{color:'var(--accent)'}}>School Zones</Link>{' | '}
+                  <Link href="/valrico-fl-home-values/" className="no-underline" style={{color:'var(--accent)'}}>Home Values</Link>{' | '}
+                  <Link href="/valrico-no-hoa-homes/" className="no-underline" style={{color:'var(--accent)'}}>No HOA Homes</Link>{' | '}
+                  <Link href="/sell-my-home-valrico/" className="no-underline" style={{color:'var(--accent)'}}>Sell My Home</Link>{' | '}
+                  <Link href="/valrico-pool-homes/" className="no-underline" style={{color:'var(--accent)'}}>Pool Homes</Link>{' | '}
+                  <Link href="/valrico-market-report/" className="no-underline" style={{color:'var(--accent)'}}>Market Report</Link>{' | '}
+                  <Link href="/neighborhoods/" className="no-underline" style={{color:'var(--accent)'}}>All Neighborhoods</Link>{' | '}
+                  <Link href="/about/" className="no-underline" style={{color:'var(--accent)'}}>About Barrett</Link>
+                </p>
+              </div>
+            </div>
 
             {/* --- FAQ --- */}
             <h2 className="font-serif text-2xl mb-6 mt-10">Bloomingdale FAQ</h2>

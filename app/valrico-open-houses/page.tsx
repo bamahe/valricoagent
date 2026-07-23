@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import Image from 'next/image';
 import PropertySearch from '../components/PropertySearch';
 import { ContactForm } from '../components/ContactForm';
 
@@ -24,6 +25,11 @@ export default function ValricoOpenHouses() {
       <section style={{padding:'64px 0',background:'#fff'}}>
         <div style={{maxWidth:780,margin:'0 auto',padding:'0 24px'}}>
 
+          {/* Community photo */}
+          <div className="relative w-full rounded-lg overflow-hidden mb-10" style={{aspectRatio:'16/7'}}>
+            <Image src="/bloomingdale-valrico.jpg" alt="Bloomingdale community entrance in Valrico FL - popular area for open houses" fill className="object-cover" sizes="(max-width: 780px) 100vw, 780px" />
+          </div>
+
           {/* How to find open houses */}
           <h2 style={{fontFamily:'Merriweather,serif',fontSize:24,fontWeight:700,color:'#003da5',marginBottom:16}}>How to find Valrico open houses</h2>
           <p style={{fontSize:15,lineHeight:1.8,color:'#333',marginBottom:16}}>Open house schedules in Valrico change weekly and are posted on the Stellar MLS, which feeds directly to Zillow, Realtor.com, and Redfin. Most Valrico open houses happen on Saturdays and Sundays between 12:00 PM and 3:00 PM, though some agents offer weekday evening showings.</p>
@@ -33,6 +39,11 @@ export default function ValricoOpenHouses() {
           <h2 style={{fontFamily:'Merriweather,serif',fontSize:24,fontWeight:700,color:'#003da5',marginBottom:16,marginTop:40}}>Why attend open houses in Valrico</h2>
           <p style={{fontSize:15,lineHeight:1.8,color:'#333',marginBottom:16}}>Online listings give you photos and square footage. Open houses give you context. Walking through a Valrico home in person reveals things photos cannot: the sound of traffic (or silence), the quality of natural light, the slope of the lot, the condition of neighboring properties, and the general feel of the street.</p>
           <p style={{fontSize:15,lineHeight:1.8,color:'#333',marginBottom:16}}>For buyers who are still deciding between neighborhoods, a Saturday spent visiting three or four open houses across different parts of Valrico is worth more than hours of online research. You will quickly develop a sense of which areas match your lifestyle and which ones do not.</p>
+
+          {/* Road image */}
+          <div className="relative w-full rounded-lg overflow-hidden my-8" style={{aspectRatio:'16/7'}}>
+            <Image src="/images/roads/valrico-fl-sr-60-brandon-blvd-corridor.jpg" alt="SR-60 Brandon Blvd corridor in Valrico FL - main access road for home tours" fill className="object-cover" sizes="(max-width: 780px) 100vw, 780px" />
+          </div>
 
           {/* Best neighborhoods to tour */}
           <h2 style={{fontFamily:'Merriweather,serif',fontSize:24,fontWeight:700,color:'#003da5',marginBottom:16,marginTop:40}}>Best Valrico neighborhoods to tour</h2>
@@ -81,6 +92,11 @@ export default function ValricoOpenHouses() {
             <li>Drive the neighborhood after the open house. Visit at different times of day to assess traffic, noise, and general activity levels.</li>
           </ul>
 
+          {/* River Hills image */}
+          <div className="relative w-full rounded-lg overflow-hidden my-8" style={{aspectRatio:'16/7'}}>
+            <Image src="/images/neighborhoods/river-hills-golf-country-club-valrico-fl-entrance.jpg" alt="River Hills Golf Country Club entrance in Valrico FL - open house tours available" fill className="object-cover" sizes="(max-width: 780px) 100vw, 780px" />
+          </div>
+
           {/* MLS and listings */}
           <h2 style={{fontFamily:'Merriweather,serif',fontSize:24,fontWeight:700,color:'#003da5',marginBottom:16,marginTop:40}}>Valrico listings updated from Stellar MLS</h2>
           <p style={{fontSize:15,lineHeight:1.8,color:'#333',marginBottom:16}}>All Valrico home listings pull from the Stellar MLS, which is the regional multiple listing service used by REALTORS&reg; across central Florida. Barrett Henry has direct MLS access and can search for properties by price, square footage, lot size, school zone, pool, age, and dozens of other criteria. <Link href="/valrico-fl-homes-for-sale/" style={{color:'#003da5',fontWeight:600,textDecoration:'none'}}>Browse current Valrico listings</Link> or let Barrett create a custom search tailored to your priorities.</p>
@@ -111,14 +127,39 @@ export default function ValricoOpenHouses() {
             <a href="mailto:barrett@nowtb.com" className="btn-ghost">Email Barrett</a>
           </div>
 
+          {/* EEAT author block */}
+          <div style={{marginTop:40,padding:24,borderRadius:8,background:'#faf8f5',border:'1px solid #e5e7eb',display:'flex',gap:20,alignItems:'flex-start'}}>
+            <Image src="/barrett-henry.png" alt="Barrett Henry, Broker Associate at REMAX Collective" width={72} height={72} style={{borderRadius:'50%',flexShrink:0}} />
+            <div>
+              <p style={{fontWeight:700,color:'#111',marginBottom:4}}>Barrett Henry, Broker Associate | REMAX Collective</p>
+              <p style={{fontSize:14,color:'#555',lineHeight:1.7,marginBottom:8}}>23+ years of Valrico real estate experience. MRP, SRS, e-PRO certified. REMAX Hall of Fame 2024. Barrett schedules private showings 7 days a week and has deep knowledge of every Valrico neighborhood and open house activity. <a href="tel:8137337907" style={{color:'#003da5',fontWeight:600,textDecoration:'none'}}>(813) 733-7907</a></p>
+              <p style={{fontSize:13,color:'#555',lineHeight:2}}>
+                <Link href="/valrico-fl-homes-for-sale/" style={{color:'#003da5',textDecoration:'none'}}>Homes for Sale</Link>{' | '}
+                <Link href="/valrico-real-estate/" style={{color:'#003da5',textDecoration:'none'}}>Valrico Real Estate</Link>{' | '}
+                <Link href="/valrico-market-report/" style={{color:'#003da5',textDecoration:'none'}}>Market Report</Link>{' | '}
+                <Link href="/valrico-school-zones/" style={{color:'#003da5',textDecoration:'none'}}>School Zones</Link>{' | '}
+                <Link href="/valrico-first-time-homebuyer/" style={{color:'#003da5',textDecoration:'none'}}>First-Time Buyers</Link>{' | '}
+                <Link href="/sell-my-home-valrico/" style={{color:'#003da5',textDecoration:'none'}}>Sell My Home</Link>{' | '}
+                <Link href="/valrico-fl-home-values/" style={{color:'#003da5',textDecoration:'none'}}>Home Values</Link>{' | '}
+                <Link href="/valrico-relocation-guide/" style={{color:'#003da5',textDecoration:'none'}}>Relocation Guide</Link>{' | '}
+                <Link href="/neighborhoods/" style={{color:'#003da5',textDecoration:'none'}}>All Neighborhoods</Link>{' | '}
+                <Link href="/about/" style={{color:'#003da5',textDecoration:'none'}}>About Barrett</Link>
+              </p>
+            </div>
+          </div>
+
           {/* Related links */}
-          <div style={{marginTop:40,fontSize:14,color:'#555',lineHeight:2}}>
+          <div style={{marginTop:32,fontSize:14,color:'#555',lineHeight:2}}>
             <strong style={{color:'#111'}}>Related pages:</strong>{' '}
             <Link href="/valrico-fl-homes-for-sale/" style={{color:'#003da5',textDecoration:'none'}}>Valrico Homes for Sale</Link>{' | '}
             <Link href="/valrico-first-time-homebuyer/" style={{color:'#003da5',textDecoration:'none'}}>First-Time Buyer Guide</Link>{' | '}
             <Link href="/valrico-school-zones/" style={{color:'#003da5',textDecoration:'none'}}>School Zones</Link>{' | '}
             <Link href="/neighborhoods/bloomingdale/" style={{color:'#003da5',textDecoration:'none'}}>Bloomingdale</Link>{' | '}
             <Link href="/neighborhoods/buckhorn/" style={{color:'#003da5',textDecoration:'none'}}>Buckhorn</Link>{' | '}
+            <Link href="/neighborhoods/river-hills/" style={{color:'#003da5',textDecoration:'none'}}>River Hills</Link>{' | '}
+            <Link href="/valrico-vs-brandon/" style={{color:'#003da5',textDecoration:'none'}}>Valrico vs Brandon</Link>{' | '}
+            <Link href="/homes-for-sale-33594/" style={{color:'#003da5',textDecoration:'none'}}>Homes in 33594</Link>{' | '}
+            <Link href="/homes-for-sale-33596/" style={{color:'#003da5',textDecoration:'none'}}>Homes in 33596</Link>{' | '}
             <Link href="/sell-my-home-valrico/" style={{color:'#003da5',textDecoration:'none'}}>Sell My Home</Link>{' | '}
             <Link href="/about/" style={{color:'#003da5',textDecoration:'none'}}>About Barrett</Link>
           </div>

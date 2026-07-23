@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import Image from 'next/image';
 import { ContactForm } from '../components/ContactForm';
 
 export default function WhyBarrettPage() {
@@ -45,6 +46,13 @@ export default function WhyBarrettPage() {
               <div className="text-xs uppercase tracking-wider mt-1" style={{ color: 'var(--ink-soft)' }}>Associate</div>
             </div>
           </div>
+        </div>
+      </div>
+
+      {/* Community photo */}
+      <div className="max-w-[1140px] mx-auto px-7 pt-10">
+        <div className="relative w-full rounded-lg overflow-hidden" style={{aspectRatio:'16/7'}}>
+          <Image src="/bloomingdale-valrico.jpg" alt="Bloomingdale community in Valrico FL - one of the neighborhoods Barrett Henry serves" fill className="object-cover" sizes="(max-width: 1140px) 100vw, 1140px" priority />
         </div>
       </div>
 
@@ -100,11 +108,46 @@ export default function WhyBarrettPage() {
           </div>
         </div>
 
+        {/* Road photo */}
+        <div>
+          <div className="relative w-full rounded-lg overflow-hidden mb-12" style={{aspectRatio:'16/7'}}>
+            <Image src="/images/roads/valrico-fl-bloomingdale-avenue-td-bank.jpg" alt="Bloomingdale Avenue in Valrico FL - the main corridor Barrett Henry knows inside out" fill className="object-cover" sizes="(max-width: 1140px) 100vw, 1140px" />
+          </div>
+        </div>
+
         {/* Coverage */}
         <div>
           <h2 className="font-serif text-2xl mb-4" style={{ color: 'var(--ink)' }}>Local Knowledge That Cannot Be Googled</h2>
           <p className="text-[15px] leading-[1.8] mb-4">Barrett covers all <Link href="/neighborhoods/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>42 Valrico neighborhoods</Link> across ZIP codes 33594 and 33596. He knows which streets flood after heavy rain, which sections of Bloomingdale feed into which middle school, where the CDD fees are highest, and which builders cut corners on their spec homes.</p>
           <p className="text-[15px] leading-[1.8]">This is not information you find on Zillow. It comes from selling 124+ homes in the area and driving these streets every week. When Barrett tells you a home is overpriced, under-maintained, or in the wrong school zone — he is not guessing. He has the receipts.</p>
+        </div>
+
+        {/* River Hills photo */}
+        <div>
+          <div className="relative w-full rounded-lg overflow-hidden mb-12" style={{aspectRatio:'16/7'}}>
+            <Image src="/images/neighborhoods/river-hills-golf-country-club-valrico-fl-entrance.jpg" alt="River Hills Golf Country Club entrance in Valrico FL - a community Barrett Henry specializes in" fill className="object-cover" sizes="(max-width: 1140px) 100vw, 1140px" />
+          </div>
+        </div>
+
+        {/* EEAT author block */}
+        <div className="rounded-md p-6" style={{background:'var(--cream-warm)',border:'1px solid var(--border)',display:'flex',gap:20,alignItems:'flex-start'}}>
+          <Image src="/barrett-henry.png" alt="Barrett Henry, Broker Associate at REMAX Collective, Valrico FL" width={72} height={72} style={{borderRadius:'50%',flexShrink:0}} />
+          <div>
+            <p className="font-semibold text-base mb-1" style={{color:'var(--ink)'}}>Barrett Henry, Broker Associate | REMAX Collective</p>
+            <p className="text-sm leading-relaxed mb-2" style={{color:'var(--ink-soft)'}}>23+ years of real estate experience in Valrico, FL. MRP, SRS, e-PRO certified. REMAX Hall of Fame 2024. Barrett has sold 124+ homes in the Valrico area and covers all 42 neighborhoods across ZIP codes 33594 and 33596. <a href="tel:8137337907" className="font-semibold no-underline" style={{color:'var(--accent)'}}>(813) 733-7907</a></p>
+            <p className="text-xs leading-loose" style={{color:'var(--ink-soft)'}}>
+              <Link href="/valrico-real-estate/" className="no-underline" style={{color:'var(--accent)'}}>Valrico Real Estate</Link>{' | '}
+              <Link href="/valrico-fl-homes-for-sale/" className="no-underline" style={{color:'var(--accent)'}}>Homes for Sale</Link>{' | '}
+              <Link href="/sell-my-home-valrico/" className="no-underline" style={{color:'var(--accent)'}}>Sell My Home</Link>{' | '}
+              <Link href="/valrico-market-report/" className="no-underline" style={{color:'var(--accent)'}}>Market Report</Link>{' | '}
+              <Link href="/valrico-school-zones/" className="no-underline" style={{color:'var(--accent)'}}>School Zones</Link>{' | '}
+              <Link href="/valrico-fl-home-values/" className="no-underline" style={{color:'var(--accent)'}}>Home Values</Link>{' | '}
+              <Link href="/valrico-relocation-guide/" className="no-underline" style={{color:'var(--accent)'}}>Relocation Guide</Link>{' | '}
+              <Link href="/valrico-cash-offer/" className="no-underline" style={{color:'var(--accent)'}}>Cash Offer</Link>{' | '}
+              <Link href="/neighborhoods/" className="no-underline" style={{color:'var(--accent)'}}>All Neighborhoods</Link>{' | '}
+              <Link href="/testimonials/" className="no-underline" style={{color:'var(--accent)'}}>Testimonials</Link>
+            </p>
+          </div>
         </div>
 
         {/* Awards timeline */}
