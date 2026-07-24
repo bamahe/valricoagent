@@ -67,19 +67,7 @@ export default function BentTreeEstatesPage() {
       </div>
 
       {/* ===== COMMUNITY PHOTO ===== */}
-      <div className="max-w-[1140px] mx-auto px-7 pt-10 pb-0">
-        <div className="relative w-full rounded-lg overflow-hidden" style={{ aspectRatio: '16/7' }}>
-          <Image
-            src="/images/neighborhoods/valrico-fl-bloomingdale-avenue-td-bank.jpg"
-            alt="Bloomingdale Avenue south Valrico FL - major corridor near Bent Tree Estates"
-            fill
-            className="object-cover"
-            priority
-            sizes="(max-width: 1140px) 100vw, 1140px"
-          />
-        </div>
-        <p className="text-xs mt-2 mb-0" style={{ color: 'var(--ink-muted)' }}>Bloomingdale Avenue commercial corridor - minutes from Bent Tree Estates, Valrico FL 33596</p>
-      </div>
+      {/* Image removed: Bloomingdale Avenue road photo does not belong on Bent Tree Estates page */}
 
       {/* ===== QUICK STATS ===== */}
       <div style={{ background: 'var(--cream)' }}>
@@ -113,16 +101,7 @@ export default function BentTreeEstatesPage() {
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Bent Tree Estates falls within the Hillsborough County School District and is zoned for <strong>Alafia Elementary</strong> or <strong>Cimino Elementary</strong> (depending on exact address), <strong>Burns Middle School</strong>, and <strong>Bloomingdale High School</strong>. Bloomingdale HS is A-rated with a GreatSchools rating of 8/10, offering AP courses, Cambridge International curriculum, and competitive athletics programs.</p>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>The quiet streets and larger lots make Bent Tree Estates particularly popular with families who have young children and want safe outdoor play areas without heavy traffic. The Bloomingdale HS zone adds long-term resale value. Read the <Link href="/valrico-school-zones/" className="no-underline font-semibold" style={{ color: 'var(--accent)' }}>full Valrico school zone guide</Link> for details on how zoning affects pricing.</p>
 
-            {/* SR-60 road image */}
-            <div className="relative w-full rounded-lg overflow-hidden my-8" style={{ aspectRatio: '16/7' }}>
-              <Image
-                src="/images/neighborhoods/valrico-fl-sr-60-brandon-blvd-corridor.jpg"
-                alt="SR-60 Brandon Blvd corridor Valrico FL - commute route from Bent Tree Estates to I-75"
-                fill
-                className="object-cover"
-                sizes="(max-width: 1140px) 100vw, 1140px"
-              />
-            </div>
+            {/* Image removed: SR-60 road photo filler does not belong on Bent Tree Estates page */}
 
             {/* --- Location & Commute --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Location and Commute</h2>
@@ -186,16 +165,7 @@ export default function BentTreeEstatesPage() {
               <li>Pet owners who want generous backyard space with tree shade</li>
             </ul>
 
-            {/* Buckhorn Preserve comparison image */}
-            <div className="relative w-full rounded-lg overflow-hidden my-8" style={{ aspectRatio: '16/7' }}>
-              <Image
-                src="/images/neighborhoods/buckhorn-preserve-valrico-fl-entrance-sign.jpg"
-                alt="South Valrico FL gated community - comparing Bent Tree Estates to nearby neighborhoods"
-                fill
-                className="object-cover"
-                sizes="(max-width: 1140px) 100vw, 1140px"
-              />
-            </div>
+            {/* Image removed: Buckhorn Preserve entrance photo does not belong on Bent Tree Estates page */}
 
             {/* EEAT author block */}
             <div className="rounded-md p-6 mt-4 mb-6" style={{ background: 'var(--cream-warm)', border: '1px solid var(--border)', display: 'flex', gap: 20, alignItems: 'flex-start' }}>

@@ -123,17 +123,6 @@ export default function DiamondHillPage() {
             </ul>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Daily essentials are minutes away. Publix, Winn-Dixie, and Walmart are within 2 miles along SR-60 (Brandon Blvd). Restaurants, banks, and medical offices line Lithia Pinecrest Road and Bloomingdale Avenue. The central Valrico location means quick access to both north and south commercial corridors.</p>
 
-            {/* Buckhorn Preserve entrance image */}
-            <div className="relative w-full rounded-lg overflow-hidden my-8" style={{ aspectRatio: '16/7' }}>
-              <Image
-                src="/images/neighborhoods/buckhorn-preserve-valrico-fl-entrance-sign.jpg"
-                alt="Valrico FL neighborhood entrance - comparing Diamond Hill to nearby Buckhorn communities"
-                fill
-                className="object-cover"
-                sizes="(max-width: 1140px) 100vw, 1140px"
-              />
-            </div>
-
             {/* --- HOA --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">HOA and Community Fees</h2>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Diamond Hill has a mandatory HOA that maintains the gated entrance, Olympic-sized pool, fitness center, clubhouse, playground, basketball court, tennis facilities, and all common areas. Monthly HOA fees vary by section and typically run $150&ndash;$300. Golf club membership is separate from the HOA. Some sections may carry a CDD assessment on the property tax bill. Barrett Henry can pull the exact HOA, CDD, and golf membership costs for any Diamond Hill address, call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
@@ -182,17 +171,6 @@ export default function DiamondHillPage() {
               <li>Buyers who value gated security and community programming</li>
               <li>Military families at MacDill AFB who want gated living with amenities (30&ndash;40 min commute)</li>
             </ul>
-
-            {/* Road image */}
-            <div className="relative w-full rounded-lg overflow-hidden my-8" style={{ aspectRatio: '16/7' }}>
-              <Image
-                src="/images/roads/valrico-fl-sr-60-brandon-blvd-corridor.jpg"
-                alt="SR-60 Brandon Blvd corridor in Valrico FL - Diamond Hill is minutes from this main highway access"
-                fill
-                className="object-cover"
-                sizes="(max-width: 1140px) 100vw, 1140px"
-              />
-            </div>
 
             {/* EEAT author block */}
             <div className="rounded-md p-6 mt-4 mb-6" style={{ background: 'var(--cream-warm)', border: '1px solid var(--border)', display: 'flex', gap: 20, alignItems: 'flex-start' }}>

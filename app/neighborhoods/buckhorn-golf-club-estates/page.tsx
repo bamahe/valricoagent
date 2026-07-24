@@ -67,19 +67,7 @@ export default function BuckhornGolfClubEstatesPage() {
       </div>
 
       {/* ===== COMMUNITY PHOTO ===== */}
-      <div className="max-w-[1140px] mx-auto px-7 pt-10 pb-0">
-        <div className="relative w-full rounded-lg overflow-hidden" style={{ aspectRatio: '16/7' }}>
-          <Image
-            src="/images/neighborhoods/river-hills-golf-country-club-valrico-fl-entrance.jpg"
-            alt="Buckhorn Golf Club Estates Valrico FL - golf community entrance in south Valrico"
-            fill
-            className="object-cover"
-            priority
-            sizes="(max-width: 1140px) 100vw, 1140px"
-          />
-        </div>
-        <p className="text-xs mt-2 mb-0" style={{ color: 'var(--ink-muted)' }}>Golf community entrance in south Valrico - Buckhorn Golf Club Estates sits adjacent to Buckhorn Springs Golf Club, Valrico FL 33596</p>
-      </div>
+      {/* Image removed: River Hills entrance photo does not belong on Buckhorn Golf Club Estates page */}
 
       {/* ===== QUICK STATS ===== */}
       <div style={{ background: 'var(--cream)' }}>
@@ -113,16 +101,7 @@ export default function BuckhornGolfClubEstatesPage() {
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Buckhorn Golf Club Estates falls within the Hillsborough County School District and is zoned for <strong>Newsome High School</strong>. Newsome High is consistently rated among the top public high schools in the Tampa Bay area, earning an A grade from the Florida Department of Education and a GreatSchools rating of 8/10. The school offers AP courses, dual enrollment, and competitive athletics programs.</p>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>The Newsome High School zone is one of the primary drivers of home values in this part of Valrico. Comparable homes inside the Newsome zone consistently sell for more than similar homes zoned for other high schools. For families with school-age children, the zoning adds meaningful value to a Buckhorn Golf Club Estates purchase. Read the <Link href="/valrico-school-zones/" className="no-underline font-semibold" style={{ color: 'var(--accent)' }}>full Valrico school zone guide</Link> for details.</p>
 
-            {/* Bloomingdale Avenue image */}
-            <div className="relative w-full rounded-lg overflow-hidden my-8" style={{ aspectRatio: '16/7' }}>
-              <Image
-                src="/images/neighborhoods/valrico-fl-bloomingdale-avenue-td-bank.jpg"
-                alt="Bloomingdale Avenue Valrico FL - daily services corridor near Buckhorn Golf Club Estates"
-                fill
-                className="object-cover"
-                sizes="(max-width: 1140px) 100vw, 1140px"
-              />
-            </div>
+            {/* Image removed: Bloomingdale Avenue road photo filler does not belong on Buckhorn Golf Club Estates page */}
 
             {/* --- Location & Commute --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Location and Commute</h2>
@@ -186,16 +165,7 @@ export default function BuckhornGolfClubEstatesPage() {
               <li>Investors seeking high owner-occupancy (82%) neighborhoods with stable values</li>
             </ul>
 
-            {/* Buckhorn Preserve comparison image */}
-            <div className="relative w-full rounded-lg overflow-hidden my-8" style={{ aspectRatio: '16/7' }}>
-              <Image
-                src="/images/neighborhoods/buckhorn-preserve-valrico-fl-entrance-sign.jpg"
-                alt="South Valrico FL community entrance - comparing Buckhorn Golf Club Estates to nearby neighborhoods"
-                fill
-                className="object-cover"
-                sizes="(max-width: 1140px) 100vw, 1140px"
-              />
-            </div>
+            {/* Image removed: Buckhorn Preserve entrance photo does not belong on Buckhorn Golf Club Estates page */}
 
             {/* EEAT author block */}
             <div className="rounded-md p-6 mt-4 mb-6" style={{ background: 'var(--cream-warm)', border: '1px solid var(--border)', display: 'flex', gap: 20, alignItems: 'flex-start' }}>

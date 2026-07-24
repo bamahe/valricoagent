@@ -67,19 +67,7 @@ export default function BrentwoodHillsPage() {
       </div>
 
       {/* ===== COMMUNITY PHOTO ===== */}
-      <div className="max-w-[1140px] mx-auto px-7 pt-10 pb-0">
-        <div className="relative w-full rounded-lg overflow-hidden" style={{ aspectRatio: '16/7' }}>
-          <Image
-            src="/images/neighborhoods/buckhorn-preserve-valrico-fl-entrance-sign.jpg"
-            alt="Brentwood Hills Valrico FL - south Valrico gated community entrance"
-            fill
-            className="object-cover"
-            priority
-            sizes="(max-width: 1140px) 100vw, 1140px"
-          />
-        </div>
-        <p className="text-xs mt-2 mb-0" style={{ color: 'var(--ink-muted)' }}>South Valrico community entrance - Brentwood Hills is part of the established 33596 neighborhood corridor</p>
-      </div>
+      {/* Image removed: buckhorn-preserve entrance photo does not belong on Brentwood Hills page */}
 
       {/* ===== QUICK STATS ===== */}
       <div style={{ background: 'var(--cream)' }}>
@@ -113,16 +101,7 @@ export default function BrentwoodHillsPage() {
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Brentwood Hills is zoned for <strong>Alafia Elementary</strong> or <strong>Cimino Elementary</strong> (depending on exact address), <strong>Burns Middle School</strong>, and <strong>Bloomingdale High School</strong>. Bloomingdale HS is A-rated by the Florida Department of Education with a GreatSchools rating of 8/10.</p>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>The straddling of two ZIP codes does not affect school zoning, the entire Brentwood Hills community feeds into the Bloomingdale HS zone. Barrett Henry can confirm the exact ZIP and school assignment for any Brentwood Hills address. Read the <Link href="/valrico-school-zones/" className="no-underline font-semibold" style={{ color: 'var(--accent)' }}>full Valrico school zone guide</Link> for details.</p>
 
-            {/* Bloomingdale Avenue image */}
-            <div className="relative w-full rounded-lg overflow-hidden my-8" style={{ aspectRatio: '16/7' }}>
-              <Image
-                src="/images/neighborhoods/valrico-fl-bloomingdale-avenue-td-bank.jpg"
-                alt="Bloomingdale Avenue Valrico FL - primary shopping and dining corridor for Brentwood Hills"
-                fill
-                className="object-cover"
-                sizes="(max-width: 1140px) 100vw, 1140px"
-              />
-            </div>
+            {/* Image removed: Bloomingdale Avenue road photo filler does not belong on Brentwood Hills page */}
 
             {/* --- Location & Commute --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Location and Commute</h2>
@@ -185,16 +164,7 @@ export default function BrentwoodHillsPage() {
               <li>Military families stationed at MacDill AFB (33&ndash;43 min commute) who want school stability</li>
             </ul>
 
-            {/* SR-60 comparison image */}
-            <div className="relative w-full rounded-lg overflow-hidden my-8" style={{ aspectRatio: '16/7' }}>
-              <Image
-                src="/images/neighborhoods/valrico-fl-sr-60-brandon-blvd-corridor.jpg"
-                alt="SR-60 Brandon Blvd Valrico FL - highway access corridor for Brentwood Hills commuters"
-                fill
-                className="object-cover"
-                sizes="(max-width: 1140px) 100vw, 1140px"
-              />
-            </div>
+            {/* Image removed: SR-60 road photo filler does not belong on Brentwood Hills page */}
 
             {/* EEAT author block */}
             <div className="rounded-md p-6 mt-4 mb-6" style={{ background: 'var(--cream-warm)', border: '1px solid var(--border)', display: 'flex', gap: 20, alignItems: 'flex-start' }}>

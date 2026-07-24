@@ -67,19 +67,7 @@ export default function BuckhornBloomingdalePage() {
       </div>
 
       {/* ===== COMMUNITY PHOTO ===== */}
-      <div className="max-w-[1140px] mx-auto px-7 pt-10 pb-0">
-        <div className="relative w-full rounded-lg overflow-hidden" style={{ aspectRatio: '16/7' }}>
-          <Image
-            src="/images/neighborhoods/buckhorn-preserve-valrico-fl-entrance-sign.jpg"
-            alt="Buckhorn Bloomingdale Valrico FL - Buckhorn corridor neighborhood entrance"
-            fill
-            className="object-cover"
-            priority
-            sizes="(max-width: 1140px) 100vw, 1140px"
-          />
-        </div>
-        <p className="text-xs mt-2 mb-0" style={{ color: 'var(--ink-muted)' }}>Buckhorn corridor community entrance - Buckhorn Bloomingdale, Valrico FL 33596</p>
-      </div>
+      {/* Image removed: buckhorn-preserve entrance photo does not belong on Buckhorn Bloomingdale page */}
 
       {/* ===== QUICK STATS ===== */}
       <div style={{ background: 'var(--cream)' }}>
@@ -113,16 +101,7 @@ export default function BuckhornBloomingdalePage() {
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Buckhorn Bloomingdale is zoned for <strong>Alafia Elementary</strong>, <strong>Burns Middle School</strong>, and <strong>Bloomingdale High School</strong>. Bloomingdale HS is A-rated by the Florida Department of Education with a GreatSchools rating of 8/10. The school offers AP courses, Cambridge International curriculum, and competitive athletics.</p>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>The affordable pricing combined with the A-rated Bloomingdale HS zone is the core value proposition of Buckhorn Bloomingdale. Comparable school zone access in other neighborhoods costs $50K to $100K more. Read the <Link href="/valrico-school-zones/" className="no-underline font-semibold" style={{ color: 'var(--accent)' }}>full Valrico school zone guide</Link> for details.</p>
 
-            {/* Bloomingdale Avenue image */}
-            <div className="relative w-full rounded-lg overflow-hidden my-8" style={{ aspectRatio: '16/7' }}>
-              <Image
-                src="/images/neighborhoods/valrico-fl-bloomingdale-avenue-td-bank.jpg"
-                alt="Bloomingdale Avenue Valrico FL - shopping corridor accessed by Buckhorn Bloomingdale residents"
-                fill
-                className="object-cover"
-                sizes="(max-width: 1140px) 100vw, 1140px"
-              />
-            </div>
+            {/* Image removed: Bloomingdale Avenue road photo filler does not belong on Buckhorn Bloomingdale page */}
 
             {/* --- Location & Commute --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Location and Commute</h2>
@@ -185,16 +164,7 @@ export default function BuckhornBloomingdalePage() {
               <li>Homeowners who want minimal HOA restrictions and no CDD fees</li>
             </ul>
 
-            {/* River Hills comparison image */}
-            <div className="relative w-full rounded-lg overflow-hidden my-8" style={{ aspectRatio: '16/7' }}>
-              <Image
-                src="/images/neighborhoods/river-hills-golf-country-club-valrico-fl-entrance.jpg"
-                alt="Valrico FL community entrance - comparing Buckhorn Bloomingdale to nearby neighborhoods"
-                fill
-                className="object-cover"
-                sizes="(max-width: 1140px) 100vw, 1140px"
-              />
-            </div>
+            {/* Image removed: River Hills entrance photo does not belong on Buckhorn Bloomingdale page */}
 
             {/* EEAT author block */}
             <div className="rounded-md p-6 mt-4 mb-6" style={{ background: 'var(--cream-warm)', border: '1px solid var(--border)', display: 'flex', gap: 20, alignItems: 'flex-start' }}>

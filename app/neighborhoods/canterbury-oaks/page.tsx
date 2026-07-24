@@ -113,16 +113,7 @@ export default function CanterburyOaksPage() {
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Canterbury Oaks falls within the Hillsborough County School District and is zoned for <strong>Alafia Elementary</strong> (or <strong>Cimino Elementary</strong> depending on the specific address), <strong>Burns Middle School</strong>, and <strong>Bloomingdale High School</strong>. Bloomingdale High is a well-regarded public high school with strong academics, athletics, and extracurricular programs.</p>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>The Bloomingdale High School zone covers much of south Valrico and portions of the Bloomingdale area. While the Newsome zone commands the highest premium, the Bloomingdale zone still drives solid home values and is preferred by many families for its location and school offerings. Barrett Henry can verify the exact school assignment for any Canterbury Oaks address. See the <Link href="/valrico-school-zones/" className="no-underline font-semibold" style={{ color: 'var(--accent)' }}>full Valrico school zone guide</Link> for details.</p>
 
-            {/* Bloomingdale Avenue image */}
-            <div className="relative w-full rounded-lg overflow-hidden my-8" style={{ aspectRatio: '16/7' }}>
-              <Image
-                src="/images/neighborhoods/valrico-fl-bloomingdale-avenue-td-bank.jpg"
-                alt="Bloomingdale Avenue Valrico FL - shopping and dining corridor near Canterbury Oaks"
-                fill
-                className="object-cover"
-                sizes="(max-width: 1140px) 100vw, 1140px"
-              />
-            </div>
+            {/* Image removed: Bloomingdale Avenue road photo filler does not belong on Canterbury Oaks page */}
 
             {/* --- Location & Commute --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Location and Commute</h2>
@@ -185,16 +176,7 @@ export default function CanterburyOaksPage() {
               <li>Military families stationed at MacDill AFB (30&ndash;40 min commute)</li>
             </ul>
 
-            {/* Buckhorn Preserve comparison image */}
-            <div className="relative w-full rounded-lg overflow-hidden my-8" style={{ aspectRatio: '16/7' }}>
-              <Image
-                src="/images/neighborhoods/buckhorn-preserve-valrico-fl-entrance-sign.jpg"
-                alt="South Valrico FL community entrance - comparing Canterbury Oaks to nearby neighborhoods"
-                fill
-                className="object-cover"
-                sizes="(max-width: 1140px) 100vw, 1140px"
-              />
-            </div>
+            {/* Image removed: Buckhorn Preserve entrance photo does not belong on Canterbury Oaks page */}
 
             {/* EEAT author block */}
             <div className="rounded-md p-6 mt-4 mb-6" style={{ background: 'var(--cream-warm)', border: '1px solid var(--border)', display: 'flex', gap: 20, alignItems: 'flex-start' }}>

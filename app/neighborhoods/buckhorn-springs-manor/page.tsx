@@ -67,19 +67,7 @@ export default function BuckhornSpringsManorPage() {
       </div>
 
       {/* ===== COMMUNITY PHOTO ===== */}
-      <div className="max-w-[1140px] mx-auto px-7 pt-10 pb-0">
-        <div className="relative w-full rounded-lg overflow-hidden" style={{ aspectRatio: '16/7' }}>
-          <Image
-            src="/images/neighborhoods/buckhorn-preserve-valrico-fl-entrance-sign.jpg"
-            alt="Buckhorn Springs Manor Valrico FL - established Buckhorn corridor neighborhood"
-            fill
-            className="object-cover"
-            priority
-            sizes="(max-width: 1140px) 100vw, 1140px"
-          />
-        </div>
-        <p className="text-xs mt-2 mb-0" style={{ color: 'var(--ink-muted)' }}>Buckhorn corridor community - Buckhorn Springs Manor, Valrico FL 33596</p>
-      </div>
+      {/* Image removed: buckhorn-preserve entrance photo does not belong on Buckhorn Springs Manor page */}
 
       {/* ===== QUICK STATS ===== */}
       <div style={{ background: 'var(--cream)' }}>
@@ -113,16 +101,7 @@ export default function BuckhornSpringsManorPage() {
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Buckhorn Springs Manor falls within the Hillsborough County School District and is zoned for <strong>Mintz Elementary</strong>, <strong>Mulrennan Middle School</strong>, and <strong>Newsome High School</strong>. Newsome High consistently earns an A grade from the Florida Department of Education and ranks among the top public high schools in the Tampa Bay area.</p>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>The Newsome High School zone is a primary value driver for the entire Buckhorn corridor. Homes inside the Newsome zone command a measurable premium over comparable properties zoned for other area high schools. For families relocating to the area, the school zone alone justifies the price difference between Buckhorn Springs Manor and similar neighborhoods outside the Newsome zone. See the <Link href="/valrico-school-zones/" className="no-underline font-semibold" style={{ color: 'var(--accent)' }}>full Valrico school zone guide</Link> for details.</p>
 
-            {/* Bloomingdale Avenue image */}
-            <div className="relative w-full rounded-lg overflow-hidden my-8" style={{ aspectRatio: '16/7' }}>
-              <Image
-                src="/images/neighborhoods/valrico-fl-bloomingdale-avenue-td-bank.jpg"
-                alt="Bloomingdale Avenue Valrico FL - grocery and retail corridor for Buckhorn Springs Manor"
-                fill
-                className="object-cover"
-                sizes="(max-width: 1140px) 100vw, 1140px"
-              />
-            </div>
+            {/* Image removed: Bloomingdale Avenue road photo filler does not belong on Buckhorn Springs Manor page */}
 
             {/* --- Location & Commute --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Location and Commute</h2>
@@ -185,16 +164,7 @@ export default function BuckhornSpringsManorPage() {
               <li>Professionals commuting to Tampa or Brandon who value space and privacy</li>
             </ul>
 
-            {/* SR-60 comparison image */}
-            <div className="relative w-full rounded-lg overflow-hidden my-8" style={{ aspectRatio: '16/7' }}>
-              <Image
-                src="/images/neighborhoods/valrico-fl-sr-60-brandon-blvd-corridor.jpg"
-                alt="SR-60 Brandon Blvd Valrico FL - major highway corridor near Buckhorn Springs Manor"
-                fill
-                className="object-cover"
-                sizes="(max-width: 1140px) 100vw, 1140px"
-              />
-            </div>
+            {/* Image removed: SR-60 road photo filler does not belong on Buckhorn Springs Manor page */}
 
             {/* EEAT author block */}
             <div className="rounded-md p-6 mt-4 mb-6" style={{ background: 'var(--cream-warm)', border: '1px solid var(--border)', display: 'flex', gap: 20, alignItems: 'flex-start' }}>
