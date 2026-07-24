@@ -4,6 +4,7 @@ import { useState } from 'react';
 import PropertySearch from '../../components/PropertySearch';
 import NeighborhoodMap from '../../components/NeighborhoodMap';
 import { neighborhoodCoords } from '../../../lib/neighborhood-coords';
+import Image from 'next/image';
 
 export default function BloomingdaleEastPage() {
   /* --- Lead form state --- */
@@ -65,6 +66,21 @@ export default function BloomingdaleEastPage() {
         />
       </div>
 
+      {/* ===== COMMUNITY PHOTO ===== */}
+      <div className="max-w-[1140px] mx-auto px-7 pt-10 pb-0">
+        <div className="relative w-full rounded-lg overflow-hidden" style={{ aspectRatio: '16/7' }}>
+          <Image
+            src="/images/neighborhoods/valrico-fl-bloomingdale-avenue-td-bank.jpg"
+            alt="Bloomingdale Avenue Valrico FL - access corridor for Bloomingdale East residents"
+            fill
+            className="object-cover"
+            priority
+            sizes="(max-width: 1140px) 100vw, 1140px"
+          />
+        </div>
+        <p className="text-xs mt-2 mb-0" style={{ color: 'var(--ink-muted)' }}>Bloomingdale Avenue commercial corridor - primary access road for Bloomingdale East, Valrico FL 33596</p>
+      </div>
+
       {/* ===== QUICK STATS ===== */}
       <div style={{ background: 'var(--cream)' }}>
         <div className="max-w-[1140px] mx-auto px-7 py-12 grid grid-cols-2 md:grid-cols-4 gap-5">
@@ -96,6 +112,17 @@ export default function BloomingdaleEastPage() {
             <h2 className="font-serif text-2xl mb-4 mt-10">Schools Serving Bloomingdale East</h2>
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Bloomingdale East is zoned for <strong>Alafia Elementary</strong>, <strong>Burns Middle School</strong>, and <strong>Bloomingdale High School</strong> in the Hillsborough County School District. Bloomingdale HS is A-rated with a GreatSchools rating of 8/10 and offers AP courses, Cambridge International curriculum, and competitive athletics.</p>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>School zoning is consistent across the entire Bloomingdale East section, unlike some other parts of Valrico where boundaries can shift by street. This predictability is important for families making a purchase decision based on school access. Read the <Link href="/valrico-school-zones/" className="no-underline font-semibold" style={{ color: 'var(--accent)' }}>full Valrico school zone guide</Link> for details.</p>
+
+            {/* SR-60 road image */}
+            <div className="relative w-full rounded-lg overflow-hidden my-8" style={{ aspectRatio: '16/7' }}>
+              <Image
+                src="/images/neighborhoods/valrico-fl-sr-60-brandon-blvd-corridor.jpg"
+                alt="SR-60 Brandon Blvd Valrico FL - access corridor for Bloomingdale East commuters"
+                fill
+                className="object-cover"
+                sizes="(max-width: 1140px) 100vw, 1140px"
+              />
+            </div>
 
             {/* --- Location & Commute --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Location and Commute</h2>
@@ -157,6 +184,38 @@ export default function BloomingdaleEastPage() {
               <li>Outdoor enthusiasts who want easier access to Lithia Springs Park and Alafia River</li>
               <li>Homeowners who want a semi-rural feel while staying within a recognized community</li>
             </ul>
+
+            {/* Buckhorn Preserve comparison image */}
+            <div className="relative w-full rounded-lg overflow-hidden my-8" style={{ aspectRatio: '16/7' }}>
+              <Image
+                src="/images/neighborhoods/buckhorn-preserve-valrico-fl-entrance-sign.jpg"
+                alt="South Valrico FL community entrance - comparing Bloomingdale East to nearby neighborhoods"
+                fill
+                className="object-cover"
+                sizes="(max-width: 1140px) 100vw, 1140px"
+              />
+            </div>
+
+            {/* EEAT author block */}
+            <div className="rounded-md p-6 mt-4 mb-6" style={{ background: 'var(--cream-warm)', border: '1px solid var(--border)', display: 'flex', gap: 20, alignItems: 'flex-start' }}>
+              <Image src="/barrett-henry.png" alt="Barrett Henry, Broker Associate at REMAX Collective, Valrico FL" width={72} height={72} style={{ borderRadius: '50%', flexShrink: 0 }} />
+              <div>
+                <p className="font-semibold text-base mb-1" style={{ color: 'var(--ink)' }}>Barrett Henry, Broker Associate | REMAX Collective</p>
+                <p className="text-sm leading-relaxed mb-2" style={{ color: 'var(--ink-soft)' }}>23+ years of Valrico real estate experience including the east Bloomingdale corridor, larger-lot subdivisions in 33596, and Bloomingdale HS zone pricing. MRP, SRS, e-PRO certified. REMAX Hall of Fame 2024. Barrett can answer specific questions about Bloomingdale East before you make an offer. <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a></p>
+                <p className="text-xs leading-loose" style={{ color: 'var(--ink-soft)' }}>
+                  <Link href="/valrico-real-estate/" className="no-underline" style={{ color: 'var(--accent)' }}>Valrico Real Estate</Link>{' | '}
+                  <Link href="/valrico-fl-homes-for-sale/" className="no-underline" style={{ color: 'var(--accent)' }}>Homes for Sale</Link>{' | '}
+                  <Link href="/valrico-school-zones/" className="no-underline" style={{ color: 'var(--accent)' }}>School Zones</Link>{' | '}
+                  <Link href="/valrico-fl-home-values/" className="no-underline" style={{ color: 'var(--accent)' }}>Home Values</Link>{' | '}
+                  <Link href="/valrico-pool-homes/" className="no-underline" style={{ color: 'var(--accent)' }}>Pool Homes</Link>{' | '}
+                  <Link href="/sell-my-home-valrico/" className="no-underline" style={{ color: 'var(--accent)' }}>Sell My Home</Link>{' | '}
+                  <Link href="/valrico-first-time-homebuyer/" className="no-underline" style={{ color: 'var(--accent)' }}>First-Time Buyers</Link>{' | '}
+                  <Link href="/valrico-market-report/" className="no-underline" style={{ color: 'var(--accent)' }}>Market Report</Link>{' | '}
+                  <Link href="/neighborhoods/" className="no-underline" style={{ color: 'var(--accent)' }}>All Neighborhoods</Link>{' | '}
+                  <Link href="/about/" className="no-underline" style={{ color: 'var(--accent)' }}>About Barrett</Link>
+                </p>
+              </div>
+            </div>
 
             {/* --- FAQ --- */}
             <h2 className="font-serif text-2xl mb-6 mt-10">Bloomingdale East FAQ</h2>

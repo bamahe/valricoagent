@@ -4,6 +4,7 @@ import { useState } from 'react';
 import PropertySearch from '../../components/PropertySearch';
 import NeighborhoodMap from '../../components/NeighborhoodMap';
 import { neighborhoodCoords } from '../../../lib/neighborhood-coords';
+import Image from 'next/image';
 
 export default function BuckhornSpringsManorPage() {
   /* --- Lead form state --- */
@@ -65,6 +66,21 @@ export default function BuckhornSpringsManorPage() {
         />
       </div>
 
+      {/* ===== COMMUNITY PHOTO ===== */}
+      <div className="max-w-[1140px] mx-auto px-7 pt-10 pb-0">
+        <div className="relative w-full rounded-lg overflow-hidden" style={{ aspectRatio: '16/7' }}>
+          <Image
+            src="/images/neighborhoods/buckhorn-preserve-valrico-fl-entrance-sign.jpg"
+            alt="Buckhorn Springs Manor Valrico FL - established Buckhorn corridor neighborhood"
+            fill
+            className="object-cover"
+            priority
+            sizes="(max-width: 1140px) 100vw, 1140px"
+          />
+        </div>
+        <p className="text-xs mt-2 mb-0" style={{ color: 'var(--ink-muted)' }}>Buckhorn corridor community - Buckhorn Springs Manor, Valrico FL 33596</p>
+      </div>
+
       {/* ===== QUICK STATS ===== */}
       <div style={{ background: 'var(--cream)' }}>
         <div className="max-w-[1140px] mx-auto px-7 py-12 grid grid-cols-2 md:grid-cols-4 gap-5">
@@ -96,6 +112,17 @@ export default function BuckhornSpringsManorPage() {
             <h2 className="font-serif text-2xl mb-4 mt-10">Schools Serving Buckhorn Springs Manor</h2>
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Buckhorn Springs Manor falls within the Hillsborough County School District and is zoned for <strong>Mintz Elementary</strong>, <strong>Mulrennan Middle School</strong>, and <strong>Newsome High School</strong>. Newsome High consistently earns an A grade from the Florida Department of Education and ranks among the top public high schools in the Tampa Bay area.</p>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>The Newsome High School zone is a primary value driver for the entire Buckhorn corridor. Homes inside the Newsome zone command a measurable premium over comparable properties zoned for other area high schools. For families relocating to the area, the school zone alone justifies the price difference between Buckhorn Springs Manor and similar neighborhoods outside the Newsome zone. See the <Link href="/valrico-school-zones/" className="no-underline font-semibold" style={{ color: 'var(--accent)' }}>full Valrico school zone guide</Link> for details.</p>
+
+            {/* Bloomingdale Avenue image */}
+            <div className="relative w-full rounded-lg overflow-hidden my-8" style={{ aspectRatio: '16/7' }}>
+              <Image
+                src="/images/neighborhoods/valrico-fl-bloomingdale-avenue-td-bank.jpg"
+                alt="Bloomingdale Avenue Valrico FL - grocery and retail corridor for Buckhorn Springs Manor"
+                fill
+                className="object-cover"
+                sizes="(max-width: 1140px) 100vw, 1140px"
+              />
+            </div>
 
             {/* --- Location & Commute --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Location and Commute</h2>
@@ -157,6 +184,38 @@ export default function BuckhornSpringsManorPage() {
               <li>Homeowners who want lower HOA fees without CDD assessments</li>
               <li>Professionals commuting to Tampa or Brandon who value space and privacy</li>
             </ul>
+
+            {/* SR-60 comparison image */}
+            <div className="relative w-full rounded-lg overflow-hidden my-8" style={{ aspectRatio: '16/7' }}>
+              <Image
+                src="/images/neighborhoods/valrico-fl-sr-60-brandon-blvd-corridor.jpg"
+                alt="SR-60 Brandon Blvd Valrico FL - major highway corridor near Buckhorn Springs Manor"
+                fill
+                className="object-cover"
+                sizes="(max-width: 1140px) 100vw, 1140px"
+              />
+            </div>
+
+            {/* EEAT author block */}
+            <div className="rounded-md p-6 mt-4 mb-6" style={{ background: 'var(--cream-warm)', border: '1px solid var(--border)', display: 'flex', gap: 20, alignItems: 'flex-start' }}>
+              <Image src="/barrett-henry.png" alt="Barrett Henry, Broker Associate at REMAX Collective, Valrico FL" width={72} height={72} style={{ borderRadius: '50%', flexShrink: 0 }} />
+              <div>
+                <p className="font-semibold text-base mb-1" style={{ color: 'var(--ink)' }}>Barrett Henry, Broker Associate | REMAX Collective</p>
+                <p className="text-sm leading-relaxed mb-2" style={{ color: 'var(--ink-soft)' }}>23+ years of Valrico real estate experience including Buckhorn Springs Manor's larger-lot character, golf course adjacency, and south Valrico pricing. MRP, SRS, e-PRO certified. REMAX Hall of Fame 2024. Barrett can identify the best lots in Buckhorn Springs Manor before you make an offer. <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a></p>
+                <p className="text-xs leading-loose" style={{ color: 'var(--ink-soft)' }}>
+                  <Link href="/valrico-real-estate/" className="no-underline" style={{ color: 'var(--accent)' }}>Valrico Real Estate</Link>{' | '}
+                  <Link href="/valrico-fl-homes-for-sale/" className="no-underline" style={{ color: 'var(--accent)' }}>Homes for Sale</Link>{' | '}
+                  <Link href="/valrico-school-zones/" className="no-underline" style={{ color: 'var(--accent)' }}>School Zones</Link>{' | '}
+                  <Link href="/valrico-fl-home-values/" className="no-underline" style={{ color: 'var(--accent)' }}>Home Values</Link>{' | '}
+                  <Link href="/valrico-luxury-homes/" className="no-underline" style={{ color: 'var(--accent)' }}>Luxury Homes</Link>{' | '}
+                  <Link href="/sell-my-home-valrico/" className="no-underline" style={{ color: 'var(--accent)' }}>Sell My Home</Link>{' | '}
+                  <Link href="/valrico-first-time-homebuyer/" className="no-underline" style={{ color: 'var(--accent)' }}>First-Time Buyers</Link>{' | '}
+                  <Link href="/valrico-market-report/" className="no-underline" style={{ color: 'var(--accent)' }}>Market Report</Link>{' | '}
+                  <Link href="/neighborhoods/" className="no-underline" style={{ color: 'var(--accent)' }}>All Neighborhoods</Link>{' | '}
+                  <Link href="/about/" className="no-underline" style={{ color: 'var(--accent)' }}>About Barrett</Link>
+                </p>
+              </div>
+            </div>
 
             {/* --- FAQ --- */}
             <h2 className="font-serif text-2xl mb-6 mt-10">Buckhorn Springs Manor FAQ</h2>
