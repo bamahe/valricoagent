@@ -63,6 +63,19 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
       </head>
       <body>
+        {/* WebSite schema — tells Google the site name to display in search results */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "name": "Barrett Henry, Valrico REALTOR\u00ae",
+              "alternateName": "ValricoAgent.com",
+              "url": "https://valricoagent.com",
+            }),
+          }}
+        />
         {/* Skip link for keyboard/screen reader users */}
         <a
           href="#main-content"
