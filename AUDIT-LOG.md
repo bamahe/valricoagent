@@ -1,5 +1,29 @@
 # SEO Audit Log
 
+## 2026-07-24
+
+**10 pages improved:**
+
+1. `neighborhoods/arista` - Added Image import, diamond-hill entrance image (community hero), sr-60 road image before Location section, river-hills-golf-country-club comparison image before FAQ, EEAT author block with gated newer-construction/Newsome HS zone expertise and 10 internal links
+2. `neighborhoods/bent-tree-estates` - Added Image import, bloomingdale-avenue image (community hero), sr-60 road image before Location section, buckhorn-preserve comparison image before FAQ, EEAT author block with established south Valrico/Bloomingdale HS zone expertise and 10 internal links
+3. `neighborhoods/bloomingdale-cove` - Added Image import, bloomingdale-avenue image (community hero), sr-60 road image before Location section, buckhorn-preserve comparison image before FAQ, EEAT author block with Bloomingdale sub-community expertise and 10 internal links
+4. `neighborhoods/bloomingdale-east` - Added Image import, bloomingdale-avenue image (community hero), sr-60 road image before Location section, buckhorn-preserve comparison image before FAQ, EEAT author block with east Bloomingdale corridor expertise and 10 internal links
+5. `neighborhoods/bloomingdale-oaks` - Added Image import, bloomingdale-avenue image (community hero), sr-60 road image before Location section, buckhorn-preserve comparison image before FAQ, EEAT author block with Bloomingdale Oaks pool home pricing expertise and 10 internal links
+6. `neighborhoods/brentwood-hills` - Added Image import, buckhorn-preserve image (community hero), bloomingdale-avenue road image before Location section, sr-60 comparison image before FAQ, EEAT author block with dual ZIP south Valrico expertise and 10 internal links
+7. `neighborhoods/buckhorn-bloomingdale` - Added Image import, buckhorn-preserve image (community hero), bloomingdale-avenue road image before Location section, river-hills-golf-country-club comparison image before FAQ, EEAT author block with Buckhorn-Bloomingdale corridor expertise and 10 internal links
+8. `neighborhoods/buckhorn-golf-club-estates` - Added Image import, river-hills-golf-country-club image (golf community hero), bloomingdale-avenue road image before Location section, buckhorn-preserve comparison image before FAQ, EEAT author block with golf community south Valrico expertise and 10 internal links
+9. `neighborhoods/buckhorn-springs-manor` - Added Image import, buckhorn-preserve image (community hero), bloomingdale-avenue road image before Location section, sr-60 comparison image before FAQ, EEAT author block with larger-lot golf adjacency expertise and 10 internal links
+10. `neighborhoods/canterbury-oaks` - Added Image import, canterbury-club entrance sign image (actual community hero photo), bloomingdale-avenue road image before Location section, buckhorn-preserve comparison image before FAQ, EEAT author block with Canterbury Oaks pool/tennis/Newsome HS expertise and 10 internal links
+
+**Pattern applied across all pages:**
+- 3 images per page using `<Image fill className="object-cover" sizes="..." />` in `aspect-ratio:16/7` containers
+- Community photo after NeighborhoodMap, road image before Location section, comparison image before FAQ
+- EEAT author block: barrett-henry.png 72px headshot + neighborhood-specific credentials + phone + 10-item internal links
+- 10+ internal links per page (EEAT block alone provides 10)
+- All original content preserved (no deletions)
+
+---
+
 ## 2026-07-23
 
 **10 pages improved:**
