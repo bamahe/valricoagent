@@ -16,7 +16,7 @@ export default function Footer() {
                 <div style={{ fontSize: 11, color: 'rgba(255,255,255,.45)' }}>REALTOR® · Broker Associate</div>
               </div>
             </div>
-            <p className="footer-address">REMAX Collective<br />205 E Brandon Blvd<br />Brandon, FL 33511</p>
+            <p className="footer-address">REMAX Collective<br />417 Lithia Pinecrest Rd<br />Brandon, FL 33511</p>
             <p style={{ marginTop: 16 }}>
               <a href="tel:8137337907" className="footer-phone">(813) 733-7907</a>
             </p>

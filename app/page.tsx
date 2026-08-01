@@ -353,7 +353,7 @@ export default function Home() {
 
               <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
                 {[
-                  ['business', 'REMAX Collective - Brandon Office', '205 E Brandon Blvd, Brandon FL 33511'],
+                  ['business', 'REMAX Collective - Brandon Office', '417 Lithia Pinecrest Rd, Brandon FL 33511'],
                   ['phone', '(813) 733-7907', null, 'tel:8137337907'],
                   ['email', 'barrett@nowtb.com', null, 'mailto:barrett@nowtb.com'],
                   ['language', 'nowtb.com', null, 'https://nowtb.com'],
@@ -421,7 +421,7 @@ export default function Home() {
             "telephone": "(813) 733-7907",
             "email": "barrett@nowtb.com",
             "image": "https://valricoagent.com/barrett-henry.png",
-            "address": { "@type": "PostalAddress", "streetAddress": "205 E Brandon Blvd", "addressLocality": "Brandon", "addressRegion": "FL", "postalCode": "33511", "addressCountry": "US" },
+            "address": { "@type": "PostalAddress", "streetAddress": "417 Lithia Pinecrest Rd", "addressLocality": "Brandon", "addressRegion": "FL", "postalCode": "33511", "addressCountry": "US" },
             "geo": { "@type": "GeoCoordinates", "latitude": 27.9378, "longitude": -82.2365 },
             "openingHoursSpecification": [
               { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "09:00", "closes": "18:00" },

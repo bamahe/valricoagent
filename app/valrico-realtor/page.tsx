@@ -102,7 +102,7 @@ export default function ValricoRealtor() {
         </div>
         <div className="border rounded-md p-5" style={{borderColor:'var(--border)'}}>
           <p className="font-semibold text-base mb-1" style={{color:'var(--ink)'}}>REMAX Collective - Brandon Office</p>
-          <p className="text-sm leading-relaxed" style={{color:'var(--ink-soft)'}}>205 E Brandon Blvd, Brandon, FL 33511</p>
+          <p className="text-sm leading-relaxed" style={{color:'var(--ink-soft)'}}>417 Lithia Pinecrest Rd, Brandon, FL 33511</p>
           <p className="text-sm leading-relaxed mb-3" style={{color:'var(--ink-soft)'}}>Barrett Henry: <a href="tel:8137337907" className="no-underline" style={{color:'var(--accent)'}}>(813) 733-7907</a> &middot; <a href="mailto:barrett@nowtb.com" className="no-underline" style={{color:'var(--accent)'}}>barrett@nowtb.com</a><br />The NOW Team: <a href="tel:8132604663" className="no-underline" style={{color:'var(--accent)'}}>(813) 260-4663</a></p>
           <p className="text-xs" style={{color:'var(--ink-muted)'}}>Also serving from: Tampa (14310 N Dale Mabry Hwy Ste 100) &middot; Largo (11200 Seminole Blvd Ste 202)</p>
         </div>

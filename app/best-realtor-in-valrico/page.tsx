@@ -17,7 +17,7 @@ export default function BestRealtorInValrico() {
       "description": "Barrett Henry is a Broker Associate with REMAX Collective and one of the top-rated realtors in Valrico FL with 23+ years of real estate experience.",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "205 E Brandon Blvd",
+        "streetAddress": "417 Lithia Pinecrest Rd",
         "addressLocality": "Brandon",
         "addressRegion": "FL",
         "postalCode": "33511",
@@ -152,7 +152,7 @@ export default function BestRealtorInValrico() {
           <div>
             <p className="font-semibold text-sm" style={{ color: 'var(--ink)' }}>Barrett Henry, REALTOR® | Broker Associate, REMAX Collective</p>
             <p className="text-xs mt-0.5" style={{ color: 'var(--ink-soft)' }}>Licensed 2003 | Broker Associate since 2017 | e-PRO, MRP, SRS | 23+ years Valrico experience</p>
-            <p className="text-xs mt-1" style={{ color: 'var(--ink-soft)' }}>205 E Brandon Blvd, Brandon, FL 33511 | Serving all 38+ Valrico neighborhoods</p>
+            <p className="text-xs mt-1" style={{ color: 'var(--ink-soft)' }}>417 Lithia Pinecrest Rd, Brandon, FL 33511 | Serving all 38+ Valrico neighborhoods</p>
             <a href="tel:8137337907" className="text-xs font-semibold no-underline mt-1 inline-block" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>
           </div>
         </div>
