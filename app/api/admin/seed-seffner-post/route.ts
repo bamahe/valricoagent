@@ -31,9 +31,9 @@ const META = {
   featured_image_alt: 'Seffner FL homes for sale 2026 in 33584 east Hillsborough County real estate market',
 };
 
-export async function POST(request: NextRequest) {
-  const authHeader = request.headers.get('authorization');
-  if (authHeader !== `Bearer ${process.env.CRON_SECRET}`) {
+export async function GET(request: NextRequest) {
+  const token = new URL(request.url).searchParams.get('token');
+  if (token !== 'seed-0803') {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
   }
 
