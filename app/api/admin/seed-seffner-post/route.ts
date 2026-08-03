@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { getServiceClient } from '@/lib/supabase';
+import { createClient } from '@supabase/supabase-js';
 import * as fs from 'fs';
 import * as path from 'path';
 
@@ -37,7 +37,21 @@ export async function GET(request: NextRequest) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
   }
 
-  const sb = getServiceClient();
+  // Use bracket notation to bypass Next.js build-time DefinePlugin replacement
+  // so we read the actual runtime env var value rather than the build-time inlined value.
+  const supabaseUrl = process.env['NEXT_PUBLIC_SUPABASE_URL'] || '';
+  const supabaseKey = process.env['SUPABASE_SERVICE_ROLE_KEY'] || '';
+
+  if (!supabaseUrl || !supabaseKey) {
+    return NextResponse.json({
+      error: 'Missing Supabase credentials',
+      hasUrl: !!supabaseUrl,
+      hasKey: !!supabaseKey,
+      availableSupabaseKeys: Object.keys(process.env).filter(k => k.toLowerCase().includes('supabase')),
+    }, { status: 500 });
+  }
+
+  const sb = createClient(supabaseUrl, supabaseKey);
 
   // Check for duplicate
   const { data: existing } = await sb
