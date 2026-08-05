@@ -70,23 +70,14 @@ export async function GET(request: NextRequest) {
 
   const sb = createClient(supabaseUrl, supabaseKey);
 
-  const { data: existing } = await sb
-    .from('blog_posts')
-    .select('slug')
-    .eq('slug', SLUG)
-    .maybeSingle();
-
-  if (existing) {
-    return NextResponse.json({ message: `Post already exists: ${SLUG}` });
-  }
-
   const contentPath = path.join(process.cwd(), 'scripts', 'content', `${SLUG}.md`);
   const content = fs.readFileSync(contentPath, 'utf-8');
 
   const wordCount = content.split(/\s+/).filter(Boolean).length;
   const readingTime = Math.ceil(wordCount / 200);
 
-  const { error } = await sb.from('blog_posts').insert({
+  // Upsert so this route also works to update an existing post with revised content
+  const { error } = await sb.from('blog_posts').upsert({
     ...META,
     slug: SLUG,
     content,
@@ -94,7 +85,7 @@ export async function GET(request: NextRequest) {
     word_count: wordCount,
     reading_time: readingTime,
     og_image: null,
-  });
+  }, { onConflict: 'slug' });
 
   if (error) {
     return NextResponse.json({ error: error.message }, { status: 500 });
