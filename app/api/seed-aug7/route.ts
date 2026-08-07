@@ -4,18 +4,11 @@
  * GET /api/seed-aug7?token=aug7seed2026
  */
 import { NextRequest, NextResponse } from 'next/server';
-import fs from 'fs';
-import path from 'path';
+import { createClient } from '@supabase/supabase-js';
+import * as fs from 'fs';
+import * as path from 'path';
 
 export const runtime = 'nodejs';
-
-function getServiceClient() {
-  const { createClient } = require('@supabase/supabase-js');
-  return createClient(
-    process.env['NEXT_PUBLIC_SUPABASE_URL'],
-    process.env['SUPABASE_SERVICE_ROLE_KEY']
-  );
-}
 
 const POSTS: Array<{
   slug: string;
@@ -33,6 +26,7 @@ const POSTS: Array<{
   cta_type: string;
   featured_image?: string;
   featured_image_alt?: string;
+  related_slugs: string[];
 }> = [
   {
     slug: 'apollo-beach-fl-real-estate-market-2026',
@@ -56,6 +50,7 @@ const POSTS: Array<{
     cta_type: 'buyer',
     featured_image: '/images/apollo-beach-fl-market-2026.png',
     featured_image_alt: 'Apollo Beach FL waterfront homes and canal docks in 33572 SouthShore Hillsborough County real estate market 2026',
+    related_slugs: ['valrico-fl-real-estate-market-update-august-2026', 'ruskin-fl-real-estate-market-2026', 'sun-city-center-fl-real-estate-market-2026'],
   },
   {
     slug: 'lithia-fl-fishhawk-ranch-real-estate-market-2026',
@@ -79,6 +74,7 @@ const POSTS: Array<{
     cta_type: 'buyer',
     featured_image: '/images/fishhawk-ranch-luxury-estates.jpg',
     featured_image_alt: 'FishHawk Ranch luxury homes in Lithia FL 33547 real estate market 2026 master-planned community',
+    related_slugs: ['valrico-vs-fishhawk-where-to-buy', '33594-vs-33596-home-values-what-sellers-need-to-know', 'how-newsome-high-school-zone-impacts-valrico-home-values'],
   },
 ];
 
@@ -90,11 +86,22 @@ export async function GET(request: NextRequest) {
     return NextResponse.json({ error: 'unauthorized' }, { status: 401 });
   }
 
-  const sb = getServiceClient();
+  const supabaseUrl = process.env['NEXT_PUBLIC_SUPABASE_URL'] || '';
+  const supabaseKey = process.env['SUPABASE_SERVICE_ROLE_KEY'] || '';
+
+  if (!supabaseUrl || !supabaseKey) {
+    return NextResponse.json({
+      error: 'Missing Supabase credentials',
+      hasUrl: !!supabaseUrl,
+      hasKey: !!supabaseKey,
+      availableSupabaseKeys: Object.keys(process.env).filter(k => k.toLowerCase().includes('supabase')),
+    }, { status: 500 });
+  }
+
+  const sb = createClient(supabaseUrl, supabaseKey);
   const results: { slug: string; status: string; error?: string }[] = [];
 
   for (const post of POSTS) {
-    // Check for duplicate
     const { data: existing } = await sb
       .from('blog_posts')
       .select('slug')
@@ -106,7 +113,6 @@ export async function GET(request: NextRequest) {
       continue;
     }
 
-    // Read content file
     const contentPath = path.join(process.cwd(), 'scripts', 'content', `${post.slug}.md`);
     let content: string;
     try {
@@ -125,7 +131,6 @@ export async function GET(request: NextRequest) {
       status: 'published',
       word_count: wordCount,
       reading_time: readingTime,
-      related_slugs: [],
       og_image: null,
     });
 
