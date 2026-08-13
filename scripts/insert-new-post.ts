@@ -34,6 +34,28 @@ const META: Record<string, {
   featured_image?: string;
   featured_image_alt?: string;
 }> = {
+  'thonotosassa-fl-real-estate-market-2026': {
+    title: 'Thonotosassa FL Real Estate Market 2026: Large Lots, Rural Character, and What Buyers Need to Know',
+    excerpt: 'Thonotosassa FL (33592) median sale price $429K to $470K in 2026, up 3.5% YoY, with 73 to 89 day DOM. Horse properties, large lots, well and septic guide, and how 33592 compares to Valrico for buyers.',
+    pillar: 'comparison',
+    tags: ['Thonotosassa FL', 'Neighboring Communities', '33592', 'Market Report', '2026', 'Large Lots', 'Equestrian', 'Hillsborough County'],
+    meta_title: 'Thonotosassa FL Real Estate Market 2026: Prices, Lots & Buyer Guide | ValricoAgent.com',
+    meta_description: 'Thonotosassa FL real estate market 2026: median $429K-$470K, up 3.5% YoY, 73-89 day DOM. Horse properties, well and septic guide, school zones, and how 33592 compares to Valrico.',
+    focus_keyword: 'Thonotosassa FL real estate market 2026',
+    secondary_keywords: ['Thonotosassa FL homes for sale 2026', 'Thonotosassa horse properties', '33592 housing market 2026', 'Thonotosassa vs Valrico real estate', 'Thonotosassa large lots'],
+    schema_type: 'FAQPage',
+    faq_data: [
+      { question: 'What is the median home price in Thonotosassa FL in 2026?', answer: 'The median sale price in Thonotosassa FL (33592) was approximately $469,770 in July 2026, with a trailing three-month median of $429,000 through May 2026, up 3.5% year over year. PropertyIQ places the broader mid-2026 median at $412,000. The wide range reflects the diversity of property types in 33592, from standard 3-bedroom homes to multi-acre horse farms.' },
+      { question: 'How do Thonotosassa home prices compare to Valrico?', answer: 'Thonotosassa\'s three-month trailing median of $429,000 is above Valrico 33594\'s median of $378,907 and comparable to Valrico 33596\'s median of $468,996. However, Thonotosassa buyers get significantly more land for those prices, typically 0.5 to 3 or more acres versus 0.15 to 0.30 acres in a Valrico subdivision. Valrico holds the advantage in school zone premium (Newsome HS), suburban amenities, and faster resale.' },
+      { question: 'What school zone is Thonotosassa FL in?', answer: 'School zone coverage in Thonotosassa (33592) varies by specific property address. Most of the area feeds to Strawberry Crest High School in Dover, which offers International Baccalaureate and Cambridge International magnet programs and holds an A rating from Niche with a 94.7% graduation rate. Terrace Community Middle School, rated number one in Hillsborough County, serves portions of 33592. Always verify your specific address on the Hillsborough County Schools boundary locator.' },
+      { question: 'Do Thonotosassa homes have well and septic?', answer: 'Yes, the majority of Thonotosassa properties outside of newer small subdivisions use private wells for water and septic systems for waste disposal rather than Hillsborough County utilities. FHA and VA lenders require water quality tests before closing. Buyers should budget for a well inspection, water test, and septic inspection as part of due diligence. These typically add one to two weeks to the transaction timeline and cost $400 to $700 combined.' },
+      { question: 'Is Thonotosassa FL a good place to buy in 2026?', answer: 'Thonotosassa is a strong choice in 2026 for buyers who want acreage, horse properties, or rural lifestyle within 30 minutes of downtown Tampa. The 3.5% year-over-year appreciation outperforms most of Hillsborough County. Buyers need to be prepared for longer due diligence timelines due to well, septic, and zoning considerations. It is not the right fit for buyers prioritizing Newsome HS zone access, tight-knit subdivision amenities, or a quick resale cycle.' },
+    ],
+    publish_date: '2026-08-12T10:00:00.000Z',
+    cta_type: 'buyer',
+    featured_image: '/images/thonotosassa-fl-real-estate-market-2026.jpg',
+    featured_image_alt: 'Thonotosassa FL real estate 2026 in 33592 Hillsborough County featuring large lots and rural properties near Tampa',
+  },
   'valrico-real-estate-mid-year-2026-review': {
     title: 'Valrico FL Mid-Year 2026 Real Estate Market Review and Second-Half Outlook',
     excerpt: 'First-half 2026 results for Valrico real estate: 33594 median $378,907, 33596 median $468,996, 57-day average DOM in late July. Plus what the data says about H2 2026.',
