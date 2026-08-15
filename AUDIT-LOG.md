@@ -1,5 +1,17 @@
 # SEO Audit Log
 
+## 2026-08-15
+
+**3 blog posts added:**
+
+1. `valrico-fl-real-estate-market-update-august-2026` - 1,737-word August 2026 market update covering 33594 median $378,907, 33596 median $468,996, 57-73 day DOM, buyer leverage (seller concessions $5K-$10K routine), seller advice, mortgage rates 6.61-6.75%, rate forecasts for Q4 2026. Pillar: market. Featured image: bloomingdale-brick-home-palm-landscaping-valrico.jpg. Internal links to mid-year review, 2027 forecast, foreclosure indicators. External links to Zillow, Redfin, Bankrate, NerdWallet. **Seed route deployed at /api/seed-aug15-market-update - call once from browser to insert post into Supabase.**
+
+2. `valrico-fl-real-estate-forecast-2027` - 2,119-word 2027 price forecast covering 2-4% appreciation projection, mortgage rate forecasts (Fannie Mae/MBA), 33596 vs 33594 split analysis, buyer/seller strategy for 2027, inventory trajectory, Newsome zone premium as price floor. Pillar: market. Featured image: bloomingdale-modern-white-ranch-estate-valrico.jpg. **Seed route deployed at /api/seed-aug15-forecast-2027 - call once from browser to insert post into Supabase.**
+
+3. `hillsborough-county-2026-trim-notice-valrico-homeowners` - New 1,800+ word guide on Hillsborough County 2026 TRIM notices (timely August topic). Covers: what TRIM notices are, how to read assessed vs taxable value, Save Our Homes protection with Bloomingdale 2015-2026 example table, portability benefit (up to $500K transferable), protest process (25-day deadline, $15 fee, VAB), additional exemptions (senior/veteran/first responder), key tax dates 2026-2027 table, buyer advice on post-purchase tax liability. Pillar: seller. Featured image: bloomingdale-brick-home-valrico.jpg. External links to hcpafl.org, Florida Dept of Revenue, FL Statute 193.155, FL TRIM Statute 200.069. **Seed route deployed at /api/seed-aug15-trim-notice - call once from browser to insert post into Supabase.**
+
+---
+
 ## 2026-08-13
 
 **1 blog post added:**
