@@ -1,5 +1,13 @@
 # SEO Audit Log
 
+## 2026-08-13
+
+**1 blog post added:**
+
+1. `thonotosassa-fl-real-estate-market-2026` - New 1,700+ word post on Thonotosassa FL (33592) real estate market 2026. Covers: median $429K to $470K (up 3.5% YoY), 73-89 day DOM, 66 active listings (up 13.79% YoY), well/septic buyer guide, school zones (Strawberry Crest HS, Terrace Community Middle), equestrian/horse property overview, side-by-side vs Valrico 33594 and 33596, price tiers by dollar range, investor perspective, flood zone considerations. Featured image downloaded from Google Drive (thonotosassa-fl-real-estate-market-2026.jpg). Internal links to Valrico, Brandon, Seffner, and Dover posts. External links to Redfin, PropertyIQ, FEMA MSC, and Hillsborough County Schools. **Seed route deployed at /api/seed-aug13-thonotosassa - call once from browser to insert post into Supabase, then delete the route.**
+
+---
+
 ## 2026-07-24
 
 **10 pages improved:**

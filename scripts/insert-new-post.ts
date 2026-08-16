@@ -34,6 +34,28 @@ const META: Record<string, {
   featured_image?: string;
   featured_image_alt?: string;
 }> = {
+  'thonotosassa-fl-real-estate-market-2026': {
+    title: 'Thonotosassa FL Real Estate Market 2026: Large Lots, Rural Character, and What Buyers Need to Know',
+    excerpt: 'Thonotosassa FL (33592) median sale price $429K to $470K in 2026, up 3.5% YoY, with 73 to 89 day DOM. Horse properties, large lots, well and septic guide, and how 33592 compares to Valrico for buyers.',
+    pillar: 'comparison',
+    tags: ['Thonotosassa FL', 'Neighboring Communities', '33592', 'Market Report', '2026', 'Large Lots', 'Equestrian', 'Hillsborough County'],
+    meta_title: 'Thonotosassa FL Real Estate Market 2026: Prices, Lots & Buyer Guide | ValricoAgent.com',
+    meta_description: 'Thonotosassa FL real estate market 2026: median $429K-$470K, up 3.5% YoY, 73-89 day DOM. Horse properties, well and septic guide, school zones, and how 33592 compares to Valrico.',
+    focus_keyword: 'Thonotosassa FL real estate market 2026',
+    secondary_keywords: ['Thonotosassa FL homes for sale 2026', 'Thonotosassa horse properties', '33592 housing market 2026', 'Thonotosassa vs Valrico real estate', 'Thonotosassa large lots'],
+    schema_type: 'FAQPage',
+    faq_data: [
+      { question: 'What is the median home price in Thonotosassa FL in 2026?', answer: 'The median sale price in Thonotosassa FL (33592) was approximately $469,770 in July 2026, with a trailing three-month median of $429,000 through May 2026, up 3.5% year over year. PropertyIQ places the broader mid-2026 median at $412,000. The wide range reflects the diversity of property types in 33592, from standard 3-bedroom homes to multi-acre horse farms.' },
+      { question: 'How do Thonotosassa home prices compare to Valrico?', answer: 'Thonotosassa\'s three-month trailing median of $429,000 is above Valrico 33594\'s median of $378,907 and comparable to Valrico 33596\'s median of $468,996. However, Thonotosassa buyers get significantly more land for those prices, typically 0.5 to 3 or more acres versus 0.15 to 0.30 acres in a Valrico subdivision. Valrico holds the advantage in school zone premium (Newsome HS), suburban amenities, and faster resale.' },
+      { question: 'What school zone is Thonotosassa FL in?', answer: 'School zone coverage in Thonotosassa (33592) varies by specific property address. Most of the area feeds to Strawberry Crest High School in Dover, which offers International Baccalaureate and Cambridge International magnet programs and holds an A rating from Niche with a 94.7% graduation rate. Terrace Community Middle School, rated number one in Hillsborough County, serves portions of 33592. Always verify your specific address on the Hillsborough County Schools boundary locator.' },
+      { question: 'Do Thonotosassa homes have well and septic?', answer: 'Yes, the majority of Thonotosassa properties outside of newer small subdivisions use private wells for water and septic systems for waste disposal rather than Hillsborough County utilities. FHA and VA lenders require water quality tests before closing. Buyers should budget for a well inspection, water test, and septic inspection as part of due diligence. These typically add one to two weeks to the transaction timeline and cost $400 to $700 combined.' },
+      { question: 'Is Thonotosassa FL a good place to buy in 2026?', answer: 'Thonotosassa is a strong choice in 2026 for buyers who want acreage, horse properties, or rural lifestyle within 30 minutes of downtown Tampa. The 3.5% year-over-year appreciation outperforms most of Hillsborough County. Buyers need to be prepared for longer due diligence timelines due to well, septic, and zoning considerations. It is not the right fit for buyers prioritizing Newsome HS zone access, tight-knit subdivision amenities, or a quick resale cycle.' },
+    ],
+    publish_date: '2026-08-12T10:00:00.000Z',
+    cta_type: 'buyer',
+    featured_image: '/images/thonotosassa-fl-real-estate-market-2026.jpg',
+    featured_image_alt: 'Thonotosassa FL real estate 2026 in 33592 Hillsborough County featuring large lots and rural properties near Tampa',
+  },
   'valrico-real-estate-mid-year-2026-review': {
     title: 'Valrico FL Mid-Year 2026 Real Estate Market Review and Second-Half Outlook',
     excerpt: 'First-half 2026 results for Valrico real estate: 33594 median $378,907, 33596 median $468,996, 57-day average DOM in late July. Plus what the data says about H2 2026.',
@@ -277,6 +299,28 @@ const META: Record<string, {
     cta_type: 'buyer',
     featured_image: '/images/dover-fl-market-trends.jpg',
     featured_image_alt: 'Dover FL 33527 real estate market 2026 large lot homes and rural residential properties in east Hillsborough County',
+  },
+  'commercial-real-estate-valrico-east-hillsborough-2026': {
+    title: 'Commercial Real Estate in Valrico and East Hillsborough County 2026: What Investors and Business Owners Need to Know',
+    excerpt: 'Tampa Bay retail vacancy is 3.8% vs 6.0% nationally, industrial cap rates average 7.6%, and the SR 60 widening is coming. A data-backed look at commercial real estate in the Valrico and east Hillsborough corridor for investors and business owners in 2026.',
+    pillar: 'market',
+    tags: ['Commercial Real Estate', 'Valrico FL', 'East Hillsborough', 'Brandon FL', 'Market Trends', '2026', 'Investment', 'Hillsborough County'],
+    meta_title: 'Commercial Real Estate Valrico & East Hillsborough 2026 | ValricoAgent.com',
+    meta_description: 'Tampa Bay retail vacancy 3.8%, industrial cap rates 7.6%, SR 60 widening coming. A data-backed guide to commercial real estate in Valrico and east Hillsborough County for investors and business owners in 2026.',
+    focus_keyword: 'commercial real estate Valrico FL 2026',
+    secondary_keywords: ['east Hillsborough commercial real estate', 'Brandon FL commercial property 2026', 'Tampa Bay industrial real estate 2026', 'Valrico commercial investment', 'SR 60 corridor commercial development'],
+    schema_type: 'FAQPage',
+    faq_data: [
+      { question: 'What commercial real estate is available in Valrico FL in 2026?', answer: 'Valrico has approximately 3 active retail listings totaling around 4,724 square feet and 1 industrial listing at roughly 4,250 square feet as of mid-2026. Approximately 34 commercial properties are listed for sale near Valrico with an average listing price around $1.85 million. Valrico is a neighborhood commercial market, not a regional hub, so inventory is thin and the primary commercial activity is service retail, medical office, and small-bay industrial.' },
+      { question: 'What are commercial real estate cap rates in Tampa Bay in 2026?', answer: 'Industrial cap rates in Tampa Bay average approximately 7.6% with an average sale price of $154 per square foot as of Q2 2026. Retail cap rates are tighter given the low vacancy of 3.8%, with well-occupied strip centers in the 6% to 7% range. Medical office cap rates typically run 5.5% to 6.5%. The best yield math in east Hillsborough currently comes from small-bay industrial and flex product in secondary locations.' },
+      { question: 'Is Tampa Bay retail real estate healthy in 2026?', answer: 'Yes. Tampa Bay retail vacancy stands at approximately 3.8% as of Q2 2026, compared to the national average of 6.0%. This is among the tightest retail markets in the United States. The east Hillsborough corridor benefits from strong population growth, creating consistent demand for neighborhood retail, medical office, and service commercial uses.' },
+      { question: 'What is the SR 60 widening project and how does it affect commercial real estate?', answer: 'FDOT has a funded project to widen State Road 60 from Valrico Road east to Dover Road from two lanes to a six-lane divided roadway with buffered bike lanes and sidewalks. The project is currently in design. Road widenings consistently accelerate commercial development along improved corridors. Investors who understand the infrastructure timeline can position commercial land and property ahead of the construction cycle.' },
+      { question: 'Should I buy or lease commercial space in east Hillsborough in 2026?', answer: 'For business owners with stable space needs, 2026 presents a reasonable buying opportunity. Commercial prices have moderated from 2021 to 2022 peaks, the tight retail market limits concessions on leasing, and owning your space eliminates lease escalation risk and builds equity. For investors, industrial small-bay and flex product offers the strongest yield math at current pricing. Medical office is well-occupied and priced accordingly.' },
+    ],
+    publish_date: '2026-08-11T10:00:00.000Z',
+    cta_type: 'seller',
+    featured_image: '/images/east-hillsborough-commercial-real-estate-2026.jpg',
+    featured_image_alt: 'East Hillsborough County commercial real estate 2026 retail and industrial properties in Valrico and Brandon FL corridor',
   },
 };
 

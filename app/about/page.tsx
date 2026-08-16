@@ -39,7 +39,7 @@ export default function AboutBarrettHenry() {
           {
             "@type": "Place",
             "name": "REMAX Collective - Brandon Office",
-            "address": { "@type": "PostalAddress", "streetAddress": "205 E Brandon Blvd", "addressLocality": "Brandon", "addressRegion": "FL", "postalCode": "33511", "addressCountry": "US" }
+            "address": { "@type": "PostalAddress", "streetAddress": "417 Lithia Pinecrest Rd", "addressLocality": "Brandon", "addressRegion": "FL", "postalCode": "33511", "addressCountry": "US" }
           }
         ]
       },
@@ -140,7 +140,7 @@ export default function AboutBarrettHenry() {
         <div className="space-y-3 mt-4">
           <div className="border rounded-md p-5" style={{ borderColor: 'var(--border)' }}>
             <p className="font-semibold text-base mb-1" style={{ color: 'var(--ink)' }}>Brandon Office (Primary)</p>
-            <p className="text-sm leading-relaxed">205 E Brandon Blvd, Brandon, FL 33511</p>
+            <p className="text-sm leading-relaxed">417 Lithia Pinecrest Rd, Brandon, FL 33511</p>
             <p className="text-xs mt-1" style={{ color: 'var(--ink-muted)' }}>5 minutes from every Valrico neighborhood</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -228,7 +228,7 @@ export default function AboutBarrettHenry() {
           {"@type":"Question","name":"Who is Barrett Henry?","acceptedAnswer":{"@type":"Answer","text":"Barrett Henry is a licensed REALTOR and Broker Associate with REMAX Collective, serving Valrico, Brandon, Riverview, and Lithia in the Tampa Bay area. He has been licensed since 2003 with 23+ years of real estate experience. He holds e-PRO, MRP, and SRS designations (License #3313308) and formed The NOW Team in 2015. Call (813) 733-7907 or email barrett@nowtb.com."}},
           {"@type":"Question","name":"What is a Broker Associate and how is it different from a regular agent?","acceptedAnswer":{"@type":"Answer","text":"A Broker Associate holds a Florida real estate broker license, which requires more coursework, more experience, and passing the broker exam, a higher level of licensing than a standard sales associate. Barrett Henry earned his Broker Associate license in 2017. He operates under REMAX Collective, combining broker-level expertise with global brand reach. Call (813) 733-7907."}},
           {"@type":"Question","name":"What designations does Barrett Henry hold?","acceptedAnswer":{"@type":"Answer","text":"Barrett Henry holds four professional designations: Broker Associate (since 2017), e-PRO (digital marketing certified), MRP (Military Relocation Professional for MacDill AFB families), and SRS (Seller Representative Specialist for maximizing seller proceeds). These designations represent specialized training that directly benefits his clients. Contact Barrett at (813) 733-7907 or barrett@nowtb.com."}},
-          {"@type":"Question","name":"Where is Barrett Henry's office located?","acceptedAnswer":{"@type":"Answer","text":"Barrett Henry's primary office is REMAX Collective at 205 E Brandon Blvd, Brandon, FL 33511, five minutes from every Valrico neighborhood. Additional offices are located in Tampa (14310 N Dale Mabry Hwy Ste 100) and Largo (11200 Seminole Blvd Ste 202). Call (813) 733-7907 or email barrett@nowtb.com."}},
+          {"@type":"Question","name":"Where is Barrett Henry's office located?","acceptedAnswer":{"@type":"Answer","text":"Barrett Henry's primary office is REMAX Collective at 417 Lithia Pinecrest Rd, Brandon, FL 33511, five minutes from every Valrico neighborhood. Additional offices are located in Tampa (14310 N Dale Mabry Hwy Ste 100) and Largo (11200 Seminole Blvd Ste 202). Call (813) 733-7907 or email barrett@nowtb.com."}},
           {"@type":"Question","name":"What areas does Barrett Henry serve?","acceptedAnswer":{"@type":"Answer","text":"Barrett Henry's primary focus is Valrico, covering all 38 neighborhoods across ZIP codes 33594 and 33596. He also serves Brandon, Riverview, and Lithia (including FishHawk Ranch). Barrett handles commercial real estate through REMAX Commercial and manages rental properties through ViVi Property Management. 23+ years of real estate experience. Call (813) 733-7907."}}
         ]
       })}} />
