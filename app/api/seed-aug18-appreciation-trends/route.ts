@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { createClient } from '@supabase/supabase-js';
+import { getServiceClient } from '@/lib/supabase';
 
 export const runtime = 'nodejs';
 export const maxDuration = 30;
@@ -144,12 +144,7 @@ The most likely scenario is continued stability with modest growth. Valrico is n
 
 export async function GET() {
   try {
-    const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
-    const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
-    if (!supabaseUrl || !supabaseKey) {
-      return NextResponse.json({ status: 'error', message: 'Missing env vars' }, { status: 500 });
-    }
-    const supabase = createClient(supabaseUrl, supabaseKey);
+    const supabase = getServiceClient();
 
     const { data: existing } = await supabase
       .from('blog_posts')
