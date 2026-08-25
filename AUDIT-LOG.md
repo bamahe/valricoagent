@@ -1,5 +1,15 @@
 # SEO Audit Log
 
+## 2026-08-25
+
+**2 blog posts added:**
+
+1. `assumable-mortgage-valrico-fl-guide-2026` - New 1,800+ word buyer guide on assumable mortgages in Valrico FL. Covers: rate gap (6.65% new vs 2.25-3.5% assumed), monthly savings math ($837+/month on $350K loan), which homes qualify (2020-2022 FHA/VA vintage), equity gap analysis and blended rate tables, 5-step assumption process and 45-90 day timeline, VA entitlement implications for sellers, neighborhood-by-neighborhood concentration guide (Bloomingdale, Twin Lakes, Copper Ridge, Wellington), Hillsborough County FHA loan limit ($541,287), Roam/AssumeList/AssumeMyLoan platforms. External links to AmeriSave, Veterans United, JVM Lending. Internal links to mid-year review, buyer guide, first-time buyer. Featured image: bloomingdale-brick-home-palm-landscaping-valrico.jpg. **Seed route deployed at /api/seed-aug25-assumable-mortgage - call once from browser to insert into Supabase.**
+
+2. `florida-homeowners-insurance-costs-valrico-fl-2026` - New 1,900+ word buyer guide on Florida homeowners insurance for Valrico buyers. Covers: Valrico Zone X typical premium ($2,500-$4,500/yr vs Florida avg $8,458), roof age as primary rate driver, flood zone status (mostly Zone X = no required flood insurance), four key rating factors (construction type, wind mitigation, claims history, deductibles), Citizens Insurance rate cut (8.7%, avg $1,843), full PITI breakdown example ($3,095-$3,129/month on $415K home), insurance comparison table (Valrico vs Brandon vs Riverview vs Apollo Beach vs Ruskin), new construction insurance advantage, seller prep advice. External links to Insurify, Florida Coverage Guide, FEMA MSC. Internal links to Apollo Beach post, insurance seller post, cost of living, market review. Featured image: bloomingdale-modern-white-ranch-estate-valrico.jpg. **Seed route deployed at /api/seed-aug25-insurance-costs - call once from browser to insert into Supabase.**
+
+---
+
 ## 2026-08-13
 
 **1 blog post added:**
