@@ -1,5 +1,15 @@
 # SEO Audit Log
 
+## 2026-08-27
+
+**2 blog posts added:**
+
+1. `valrico-fl-real-estate-q3-2026-market-report` - New 1,800+ word Q3 2026 market report covering Valrico FL July and August 2026 closings. Covers: 33594 median $378,907 vs 33596 median $468,996, combined median $413,000-$415,000, 172 active listings, 57-73 day DOM (down from 28-day spring peak), 33594 supply 4.0-4.5 months vs 33596 2.0 months, specific Q3 closed sales (934 Grand Canyon Dr $454,900, 4715 Copper Canyon Blvd $460,000, 3408 Stonebridge Trail $455,000), seller concession trends ($5,000-$10,000 routine above $425,000), Valrico outperforming county by 2-3 points (county -3.9% YoY vs Valrico flat), rate forecast 6.3%-6.6% by year-end, Q4 outlook with fall buyer demand analysis. External links to Zillow, Redfin, Mortgage Bankers Association. Internal links to mid-year review, Valrico vs Brandon, home values. Featured image: northwood-estates-valrico-westbay.jpg. **Seed route deployed at /api/seed-aug27-q3-market-report - call once from browser to insert into Supabase.**
+
+2. `valrico-fl-recent-high-dollar-sales-q3-2026` - New 1,900+ word analysis of recent high-dollar closed sales in Valrico FL Q3 2026. Covers: 33594 upper-tier closings (Grand Canyon Dr $454,900, Copper Canyon Blvd $460,000), 33596 closings (Stonebridge Trail $455,000), five buyer pool patterns identified from Q3 data (cross-ZIP shopping, concession expectations, inspection leverage, DOM-to-negotiation correlation, Newsome zone premium persistence), seller pricing strategy framework for listings above $430,000, River Hills 65-90 day DOM analysis, Q4 2026 high-dollar market outlook, rate movement impact on $430K-$500K segment. Internal links to Q3 market report, mid-year review, luxury homes. Featured image: bloomingdale-stone-brick-estate-palm-trees-valrico.jpg. **Seed route deployed at /api/seed-aug27-high-dollar-sales - call once from browser to insert into Supabase.**
+
+---
+
 ## 2026-08-25
 
 **2 blog posts added:**
