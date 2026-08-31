@@ -1,5 +1,13 @@
 # SEO Audit Log
 
+## 2026-08-31
+
+**1 blog post added:**
+
+1. `new-tampa-fl-real-estate-market-2026` - New 1,900+ word post on New Tampa FL (33647) real estate market 2026. Covers: average home value $471,709 (down 2.7% YoY), 3-month median sale price $450K (down 4.1% YoY), 37-55 day DOM, neighborhood-by-neighborhood pricing (Hunter's Green median list $482K at $258/sqft, Arbor Greene median list $652K, K-Bar Ranch entry-level, Cory Lake Isles waterfront premium), Wharton High School B Niche grade vs Newsome A+ in Valrico 33596, CDD fee guide ($1,200-$2,800/yr in New Tampa vs rare in Valrico), investment yield analysis (6.4%-7.5% gross, 3.5%-4.8% net cap), HOA rental restrictions, side-by-side comparison table (New Tampa vs Valrico 33594 vs Valrico 33596), mortgage math at 6.75%. No featured image (no New Tampa-specific image available). External links to Zillow 33647, Redfin New Tampa, Niche Wharton HS. Internal links to mid-year 2026 review, fall 2026 outlook, Newsome HS home values, Wesley Chapel comparison. **Seed route deployed at /api/seed-aug31-new-tampa - call once from browser to insert into Supabase.**
+
+---
+
 ## 2026-08-27
 
 **2 blog posts added:**
