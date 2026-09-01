@@ -1,5 +1,15 @@
 # SEO Audit Log
 
+## 2026-09-01
+
+**2 blog posts added:**
+
+1. `valrico-fl-real-estate-market-update-september-2026` - New 1,800+ word September 2026 market update for Valrico FL. Covers: 33594 median $378,907 (flat YoY), 33596 median $468,996 (flat to -1% YoY), blended $413K-$415K, 172 active listings, 33596 supply 2.0 months vs 33594 4.0-4.5 months supply, 30-year rate 6.66% (Freddie Mac Aug 28 PMMS), spring-to-summer DOM reset (28-32 days spring to 57-73 days summer, now normalizing to 50-65 days fall), seller concessions ($5K-$10K closing credits and 2-1 buydowns now standard), secondary fall buying season drivers (school-zone 2027 planning, corporate relocation, snowbird searches), seller strategy (price within 2-3% of comps, $4K-$8K pre-listing prep, 97-99% sale-to-list expectation), Q4 outlook including Florida property tax amendment impact. External links to Freddie Mac PMMS, Zillow Valrico, Redfin Valrico. Internal links to fall-2026-outlook, home-price-forecast-2027, mid-year-2026-review. Featured image: bloomingdale-street-sign-valrico.jpg. **Seed route deployed at /api/seed-sep01-valrico-september-2026 - call once from browser to insert into Supabase.**
+
+2. `land-o-lakes-fl-real-estate-market-2026` - New 2,000+ word buyer comparison guide on Land O'Lakes FL vs Valrico. Covers: 34638 median $410K (up 1.2% YoY, 46-day DOM, competitiveness score 62/100), 34639 median $413K (up 11.2% YoY, 70-day DOM), major communities (Bexley $385K-$550K with $2K-$3.5K/yr CDD, Connerton $350K-$475K with $1.5K-$2.5K/yr CDD, Concord Station $340K-$430K no CDD, Wilderness Lake Preserve $360K-$500K), school zone comparison (Cypress Creek HS/Land O'Lakes HS B-rated vs Newsome A+ and Bloomingdale IB in Valrico), HOA+CDD side-by-side table (Bexley $330-$420/mo combined vs Valrico $0-$150/mo), commute analysis (LOL better for Wesley Chapel/north; Valrico better for Selmon/Brandon/MacDill), investment yield comparison (6-7% gross in Concord Station vs 5.5-6.5% in Valrico 33596), 10-year fee savings analysis. External links to Redfin 34638, Redfin 34639, Zillow Land O'Lakes. Internal links to mid-year-2026-review, fall-2026-outlook, Wesley Chapel comparison. No featured image (no LOL-specific image available). **Seed route deployed at /api/seed-sep01-land-o-lakes - call once from browser to insert into Supabase.**
+
+---
+
 ## 2026-08-31
 
 **1 blog post added:**
