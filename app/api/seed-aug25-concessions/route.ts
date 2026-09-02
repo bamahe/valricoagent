@@ -202,7 +202,7 @@ The current market structure in Valrico, specifically the combination of elevate
 
 The strategic buyer in fall 2026 is the one who arrives pre-approved, understands their loan program limits, and works with an experienced Valrico agent to structure an offer that is attractive to a motivated seller while maximizing the buyer's financial position at closing and beyond.
 
-If you want to talk through your specific numbers, whether a 2/1 buydown, a closing cost credit, or a combination strategy makes more sense given your loan type and down payment, contact [Barrett Henry, Broker Associate at REMAX Collective](/contact/), at [(813) 733-7907](tel:+18137337907). With 24 years of negotiation experience in east Hillsborough County, he can walk through current comparable sales in your target neighborhood and build an offer strategy that puts you in the strongest possible position.
+If you want to talk through your specific numbers, whether a 2/1 buydown, a closing cost credit, or a combination strategy makes more sense given your loan type and down payment, contact [Barrett Henry, Broker Associate at REMAX Collective](/contact/), at [(813) 733-7907](tel:+18137337907). With 24 years of negotiation experience, he can walk through current comparable sales in your target neighborhood and build an offer strategy that puts you in the strongest possible position.
 
 You can also [view current Valrico homes for sale](/valrico-fl-homes-for-sale/) to see which listings have the most days on market and therefore the most concession potential, or [learn more about the Valrico fall 2026 market outlook](/blog/valrico-fl-fall-2026-real-estate-market-outlook/) to understand the broader conditions shaping today's negotiating environment.
 
