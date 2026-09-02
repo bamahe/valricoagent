@@ -343,7 +343,7 @@ export default async function BlogPostPage({
               Barrett Henry, REALTOR® &amp; Broker Associate
             </p>
             <p style={{ fontSize: 14, color: '#555', marginBottom: 8, lineHeight: 1.6 }}>
-              23+ years of real estate experience. Designations: e-PRO, MRP, SRS. Serving
+              24+ years of real estate experience. Designations: e-PRO, MRP, SRS. Serving
               Valrico&apos;s 33594 and 33596 zip codes through REMAX Collective.
             </p>
             <a

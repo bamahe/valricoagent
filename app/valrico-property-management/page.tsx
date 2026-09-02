@@ -73,7 +73,7 @@ export default function PropertyManagement() {
               </div>
               <div>
                 <p className="font-semibold text-sm" style={{ color: 'var(--ink)' }}>Barrett Henry, REALTOR® | Broker Associate, REMAX Collective</p>
-                <p className="text-xs mt-0.5" style={{ color: 'var(--ink-soft)' }}>23+ years experience · ViVi Property Management · 10% flat fee · In-house maintenance via Best Bay Services</p>
+                <p className="text-xs mt-0.5" style={{ color: 'var(--ink-soft)' }}>24+ years of real estate experience · ViVi Property Management · 10% flat fee · In-house maintenance via Best Bay Services</p>
                 <p className="text-xs mt-1" style={{ color: 'var(--ink-soft)' }}>Managing rentals in Valrico 33594 and 33596 · Free rental analysis</p>
                 <a href="tel:8137337907" className="text-xs font-semibold no-underline mt-1 inline-block" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>
               </div>

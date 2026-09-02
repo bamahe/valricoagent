@@ -159,7 +159,7 @@ The rate math favors assumption significantly -- but execution matters. Here is 
 
 ## Working with Barrett Henry on Assumable Mortgages in Valrico
 
-Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience in east Hillsborough County. Assumable mortgage transactions require specific knowledge of how to structure contingencies, work with servicers, and protect both buyers and sellers through the process.
+Barrett Henry is a Broker Associate at REMAX Collective with 24+ years of real estate experience. Assumable mortgage transactions require specific knowledge of how to structure contingencies, work with servicers, and protect both buyers and sellers through the process.
 
 If you are interested in exploring assumable mortgage opportunities in Valrico, Brandon, or anywhere in Hillsborough County, reach out for a conversation. Barrett can identify potential assumption candidates in the current MLS inventory and help you evaluate whether the strategy makes sense for your specific situation.
 

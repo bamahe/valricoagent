@@ -111,4 +111,4 @@ For buyers, Brandon in 2026 offers the best combination of affordability and con
 
 **Barrett Henry, Broker Associate | REMAX Collective | (813) 294-4786**
 
-Barrett has been selling homes in Brandon and Valrico for over 23 years. For a free market analysis of any specific Brandon address or neighborhood, reach out directly.
+Barrett has been selling homes in Brandon and Valrico for over a decade. For a free market analysis of any specific Brandon address or neighborhood, reach out directly.

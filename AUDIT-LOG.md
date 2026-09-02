@@ -74,7 +74,7 @@
 
 **10 pages improved:**
 
-1. `valrico-open-houses` - Added Image import, bloomingdale-valrico image before How To Find section, valrico-fl-sr-60 road image before Best Neighborhoods section, river-hills-golf-country-club image before Stellar MLS section, EEAT author block with Barrett Henry headshot and 23+ years credentials, expanded related links to 11 items
+1. `valrico-open-houses` - Added Image import, bloomingdale-valrico image before How To Find section, valrico-fl-sr-60 road image before Best Neighborhoods section, river-hills-golf-country-club image before Stellar MLS section, EEAT author block with Barrett Henry headshot and 24+ years credentials, expanded related links to 11 items
 2. `valrico-short-sale` - Added Image import, bloomingdale-valrico image before What Is A Short Sale, valrico-fl-sr-60 road image before Barrett Experience section, diamond-hill entrance image before FAQ, EEAT author block with short sale expertise credentials, expanded sidebar related links to 10 items
 3. `valrico-pre-foreclosure` - Added Image import, bloomingdale-valrico image before What Is Pre-Foreclosure, bloomingdale-avenue image before Florida Timeline section, buckhorn-preserve entrance image before Why Act Now, EEAT author block with foreclosure expertise credentials, expanded sidebar related links to 10 items
 4. `why-barrett` - Added Image import, bloomingdale-valrico image before main content, bloomingdale-avenue road image before Coverage section, river-hills-golf-country-club image before EEAT block, EEAT author block with full credentials and 10-item related links

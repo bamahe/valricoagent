@@ -44,7 +44,7 @@ export default function PoolHomes() {
         <Image src="/barrett-henry.png" alt="Barrett Henry REMAX Collective Valrico REALTOR" width={72} height={72} className="rounded-full flex-shrink-0" />
         <div>
           <p className="font-semibold text-base" style={{color:'var(--ink)'}}>Barrett Henry, REALTOR® | Broker Associate</p>
-          <p className="text-sm mt-1" style={{color:'var(--ink-soft)'}}>REMAX Collective | 23+ years of Valrico real estate experience | e-PRO, MRP, SRS</p>
+          <p className="text-sm mt-1" style={{color:'var(--ink-soft)'}}>REMAX Collective | 24+ years of real estate experience | e-PRO, MRP, SRS</p>
           <p className="text-sm mt-2" style={{color:'var(--ink-soft)'}}>Barrett has helped buyers and sellers navigate pool home transactions in Valrico since 2003, evaluating pool condition, cage integrity, and equipment age on every deal. <a href="tel:8137337907" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Call (813) 733-7907</a> or <Link href="/valrico-realtor/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>learn more about working with Barrett</Link>.</p>
         </div>
       </div>

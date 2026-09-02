@@ -1,6 +1,6 @@
 Wimauma does not get the same search traffic as Valrico, Brandon, or even Riverview. That relative obscurity has created one of the more interesting buyer opportunities in Hillsborough County: a market with legitimate new construction, resort-style amenities, and a price point 10 to 15 percent below comparable Valrico homes.
 
-As a Broker Associate at REMAX Collective with 23+ years working east and south Hillsborough County, I get asked about Wimauma with increasing frequency. Here is what the 2026 data actually shows.
+As a Broker Associate at REMAX Collective with over a decade working east and south Hillsborough County, I get asked about Wimauma with increasing frequency. Here is what the 2026 data actually shows.
 
 ## What the Wimauma Market Looks Like in 2026
 

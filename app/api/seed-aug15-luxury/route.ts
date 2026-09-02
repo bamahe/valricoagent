@@ -173,7 +173,7 @@ For current [Valrico luxury home listings](/valrico-luxury-homes/) and an up-to-
 
 ## Barrett's Take on the Valrico Luxury Market
 
-After more than 23 years working east Hillsborough County real estate, I can tell you that the River Hills market in particular has been one of the most consistently resilient segments through multiple market cycles. When the broader market softened in 2022 to 2023, River Hills held value better than most of the surrounding submarkets. When the broader market recovered, River Hills recovered proportionally.
+After over a decade working east Hillsborough County real estate, I can tell you that the River Hills market in particular has been one of the most consistently resilient segments through multiple market cycles. When the broader market softened in 2022 to 2023, River Hills held value better than most of the surrounding submarkets. When the broader market recovered, River Hills recovered proportionally.
 
 The reason is straightforward: gated, golf, and top school zones in a suburban market with limited competing inventory is a durable demand driver. There will always be a buyer pool for that combination in a market the size of east Hillsborough County. The question for sellers is whether they are priced correctly for current conditions, and for buyers, whether they are accounting for total cost of ownership including membership dues, property insurance, and maintenance before calculating their comfort with a given number.
 

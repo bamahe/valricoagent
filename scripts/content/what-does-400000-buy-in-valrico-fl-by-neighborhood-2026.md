@@ -143,6 +143,6 @@ Here is the simplified version for buyers at this price point:
 
 **Worst value at $400,000:** River Hills or Diamond Hill in 33596. The budget simply does not reach the standard product there.
 
-Ready to compare specific homes across these neighborhoods with real-time data? Call Barrett Henry, REALTOR and Broker Associate at REMAX Collective, at [(813) 733-7907](tel:+18137337907). With 23+ years of real estate experience and deep Valrico market knowledge, he can walk you through exactly what is available in your target range and ZIP code right now. You can also [browse current homes for sale in Valrico](/valrico-fl-homes-for-sale/) or [explore neighborhood pages](/neighborhoods/) to start narrowing your focus before the conversation.
+Ready to compare specific homes across these neighborhoods with real-time data? Call Barrett Henry, REALTOR and Broker Associate at REMAX Collective, at [(813) 733-7907](tel:+18137337907). With 24+ years of real estate experience and deep Valrico market knowledge, he can walk you through exactly what is available in your target range and ZIP code right now. You can also [browse current homes for sale in Valrico](/valrico-fl-homes-for-sale/) or [explore neighborhood pages](/neighborhoods/) to start narrowing your focus before the conversation.
 
 For sellers in any of these neighborhoods, understanding where your home sits in this pricing spectrum is the first step to a successful listing strategy. [Request a free home valuation](/valrico-fl-home-values/) to see what the current market says your home is worth.

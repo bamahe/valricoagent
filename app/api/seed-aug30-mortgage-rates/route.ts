@@ -148,7 +148,7 @@ The rate environment in fall 2026 is not catastrophic for the Valrico housing ma
 
 What has changed is the margin for error. A seller who could price 5% above market in 2022 and still get offers now needs to price at or near market to move their home in a reasonable timeframe. A buyer who could casually shop for six months without worrying about price drift now needs to weigh the cost of waiting more carefully.
 
-Barrett Henry is a Broker Associate at REMAX Collective with 23 years of east Hillsborough County real estate experience. Whether you are buying or selling in Valrico in fall 2026, having an agent who understands the rate environment and how it affects negotiation strategy can make a material difference in your outcome. For a free consultation on your specific situation, visit our [Valrico home values page](/valrico-fl-home-values/) or [contact us directly](/#contact).
+Barrett Henry is a Broker Associate at REMAX Collective with 24 years of real estate experience. Whether you are buying or selling in Valrico in fall 2026, having an agent who understands the rate environment and how it affects negotiation strategy can make a material difference in your outcome. For a free consultation on your specific situation, visit our [Valrico home values page](/valrico-fl-home-values/) or [contact us directly](/#contact).
 
 **Sources:**
 - [Bankrate Mortgage Rate Forecast 2026](https://www.bankrate.com/mortgages/mortgage-rates-forecast/)

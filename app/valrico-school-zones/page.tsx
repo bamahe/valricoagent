@@ -83,7 +83,7 @@ export default function SchoolZones() {
           <Image src="/barrett-henry.png" alt="Barrett Henry REALTOR Valrico FL school zone expert" width={72} height={72} style={{borderRadius:'50%',flexShrink:0}} />
           <div>
             <p className="font-semibold mb-1" style={{color:'var(--ink)'}}>Barrett Henry, REALTOR&reg; &bull; Broker Associate &bull; REMAX Collective</p>
-            <p className="text-sm leading-relaxed mb-2" style={{color:'var(--ink-soft)'}}>23+ years of real estate experience in Valrico. Verifies school zone assignments for every property. Knows exactly which streets feed into Bloomingdale HS vs. Newsome HS. Serving 33594 and 33596.</p>
+            <p className="text-sm leading-relaxed mb-2" style={{color:'var(--ink-soft)'}}>24+ years of real estate experience. Verifies school zone assignments for every property. Knows exactly which streets feed into Bloomingdale HS vs. Newsome HS. Serving 33594 and 33596.</p>
             <a href="tel:8137337907" className="text-sm font-semibold no-underline" style={{color:'var(--accent)'}}>(813) 733-7907</a>
           </div>
         </div>

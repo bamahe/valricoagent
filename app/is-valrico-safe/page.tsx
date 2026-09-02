@@ -104,7 +104,7 @@ export default function IsValricoSafe() {
             <Image src="/barrett-henry.png" alt="Barrett Henry REMAX Collective Valrico REALTOR" width={72} height={72} className="rounded-full flex-shrink-0" />
             <div>
               <p className="font-semibold text-base" style={{color:'#111'}}>Barrett Henry, REALTOR® | Broker Associate</p>
-              <p className="text-sm mt-1" style={{color:'#555'}}>REMAX Collective | 23+ years of Valrico real estate experience | e-PRO, MRP, SRS</p>
+              <p className="text-sm mt-1" style={{color:'#555'}}>REMAX Collective | 24+ years of real estate experience | e-PRO, MRP, SRS</p>
               <p className="text-sm mt-2" style={{color:'#555'}}>Barrett has helped families find safe, well-located homes across every Valrico neighborhood since 2003. He knows which streets have higher incident rates and which subdivisions offer the most peace of mind. <a href="tel:8137337907" style={{color:'#003da5',fontWeight:600,textDecoration:'none'}}>Call (813) 733-7907</a> &middot; <Link href="/valrico-realtor/" style={{color:'#003da5',fontWeight:600,textDecoration:'none'}}>About Barrett</Link></p>
             </div>
           </div>

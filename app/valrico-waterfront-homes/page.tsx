@@ -91,7 +91,7 @@ export default function WaterfrontHomes() {
               <Image src="/barrett-henry.png" alt="Barrett Henry REMAX Collective Valrico REALTOR" width={72} height={72} className="rounded-full flex-shrink-0" />
               <div>
                 <p className="font-semibold text-base" style={{color:'var(--ink)'}}>Barrett Henry, REALTOR® | Broker Associate</p>
-                <p className="text-sm mt-1" style={{color:'var(--ink-soft)'}}>REMAX Collective | 23+ years of Valrico real estate experience | e-PRO, MRP, SRS</p>
+                <p className="text-sm mt-1" style={{color:'var(--ink-soft)'}}>REMAX Collective | 24+ years of real estate experience | e-PRO, MRP, SRS</p>
                 <p className="text-sm mt-2" style={{color:'var(--ink-soft)'}}>Barrett knows every pond, lake, and water-view lot in Valrico. He always checks flood zone status before clients make offers on waterfront properties. <a href="tel:8137337907" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Call (813) 733-7907</a> &middot; <Link href="/valrico-realtor/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Why choose Barrett</Link> &middot; <Link href="/valrico-fl-home-values/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Get a water-view home valuation</Link></p>
               </div>
             </div>
@@ -129,7 +129,7 @@ export default function WaterfrontHomes() {
           <div className="space-y-6">
             <div className="rounded-md p-6 border" style={{borderColor:'var(--border)',background:'var(--cream-warm)'}}>
               <h3 className="font-serif text-lg mb-3">Find waterfront homes in Valrico</h3>
-              <p className="text-sm mb-4 leading-relaxed" style={{color:'var(--ink-soft)'}}>Barrett Henry, REALTOR® at REMAX Collective, knows every pond, lake, and water-view lot in Valrico. 23+ years of real estate experience. He can set up a custom MLS search filtered specifically for water-view and waterfront properties.</p>
+              <p className="text-sm mb-4 leading-relaxed" style={{color:'var(--ink-soft)'}}>Barrett Henry, REALTOR® at REMAX Collective, knows every pond, lake, and water-view lot in Valrico. 24+ years of real estate experience. He can set up a custom MLS search filtered specifically for water-view and waterfront properties.</p>
               <a href="tel:8137337907" className="btn-solid block text-center mb-2 text-sm">Call<br/>(813) 733-7907</a>
               <a href="mailto:barrett@nowtb.com" className="btn-ghost block text-center text-sm">Email Barrett</a>
             </div>
@@ -153,7 +153,7 @@ export default function WaterfrontHomes() {
         <div className="max-w-[1140px] mx-auto">
           <span className="material-icons" style={{fontSize:48,marginBottom:12,opacity:.8}}>water</span>
           <h2 className="font-serif text-2xl mb-3">Want a Home on the Water?</h2>
-          <p className="text-sm mb-6 max-w-[560px] mx-auto" style={{color:'rgba(255,255,255,.7)'}}>Barrett Henry, REALTOR® with REMAX Collective, can set up a custom search for waterfront, lakefront, and pond-view homes in Valrico. 23+ years of real estate experience and deep knowledge of every water feature in the area.</p>
+          <p className="text-sm mb-6 max-w-[560px] mx-auto" style={{color:'rgba(255,255,255,.7)'}}>Barrett Henry, REALTOR® with REMAX Collective, can set up a custom search for waterfront, lakefront, and pond-view homes in Valrico. 24+ years of real estate experience and deep knowledge of every water feature in the area.</p>
           <div className="flex gap-3 justify-center flex-wrap">
             <a href="tel:8137337907" className="btn-solid" style={{background:'#fff',color:'#003da5'}}>Call<br/>(813) 733-7907</a>
             <a href="mailto:barrett@nowtb.com" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-sm rounded no-underline">Email Barrett</a>
@@ -174,7 +174,7 @@ export default function WaterfrontHomes() {
           {
             "@type":"RealEstateAgent",
             "name":"Barrett Henry",
-            "description":"Valrico FL REALTOR® and Broker Associate with REMAX Collective. 23+ years of real estate experience. Specializes in waterfront, lakefront, and water-view homes in Valrico FL.",
+            "description":"Valrico FL REALTOR® and Broker Associate with REMAX Collective. 24+ years of real estate experience. Specializes in waterfront, lakefront, and water-view homes in Valrico FL.",
             "url":"https://valricoagent.com/valrico-waterfront-homes/",
             "telephone":"(813) 733-7907",
             "email":"barrett@nowtb.com",

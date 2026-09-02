@@ -157,7 +157,7 @@ Temple Terrace has its own city government, city services, and a recreation depa
 
 ## How Barrett Can Help
 
-As a REMAX Collective Broker Associate with 23 years covering the greater Tampa metro and specializing in east Hillsborough and the northeastern Tampa suburbs, I work with buyers who are comparing Temple Terrace, Brandon, Valrico, and the USF corridor as part of the same search. The school zones, commute corridors, and price-per-priority calculation look different depending on your specific situation, and the best outcome comes from running the actual comps rather than relying on ZIP code averages.
+As a REMAX Collective Broker Associate with over a decade covering the greater Tampa metro and specializing in east Hillsborough and the northeastern Tampa suburbs, I work with buyers who are comparing Temple Terrace, Brandon, Valrico, and the USF corridor as part of the same search. The school zones, commute corridors, and price-per-priority calculation look different depending on your specific situation, and the best outcome comes from running the actual comps rather than relying on ZIP code averages.
 
 If you're considering Temple Terrace, reach out for a conversation about what the specific neighborhoods within the city actually deliver at your price point. The Estates section, the 33617 ranch neighborhoods, and the 33637 newer construction all represent meaningfully different buyer experiences even though they share the same city label.
 

@@ -207,7 +207,7 @@ Both communities sit in unincorporated [Hillsborough County](https://www.hillsbo
 
 ## Working with a Local Expert on Seffner and Valrico
 
-As a REMAX Collective Broker Associate with 23+ years working the east Hillsborough market, Barrett Henry covers Seffner, Valrico, Brandon, Dover, and the surrounding communities as one continuous market. Most online searches treat these as isolated silos, but experienced buyers know the value pockets and school zone lines don't follow ZIP code boundaries as cleanly as the maps suggest.
+As a REMAX Collective Broker Associate with over a decade working the east Hillsborough market, Barrett Henry covers Seffner, Valrico, Brandon, Dover, and the surrounding communities as one continuous market. Most online searches treat these as isolated silos, but experienced buyers know the value pockets and school zone lines don't follow ZIP code boundaries as cleanly as the maps suggest.
 
 If you're weighing Seffner against Valrico -- or any combination of east Hillsborough communities -- reach out for a no-pressure conversation. Barrett will run the actual comps for whatever you're considering, walk you through the school zone map in detail, and give you an honest read on where the market supports your price point.
 

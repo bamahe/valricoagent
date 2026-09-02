@@ -137,6 +137,6 @@ For buyers considering a purchase in Lithia compared to other [neighboring commu
 
 ## Working With Barrett Henry in Lithia, Valrico, and East Hillsborough
 
-Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of experience representing buyers and sellers across Valrico, Lithia, Brandon, and surrounding Hillsborough County communities. If you are evaluating FishHawk Ranch against Valrico neighborhoods or need a current comparable sales analysis for either market, [schedule a call](https://valricoagent.com/#contact) to get real numbers -- not Zestimate guesses.
+Barrett Henry is a Broker Associate at REMAX Collective with 24+ years of real estate experience representing buyers and sellers across Valrico, Lithia, Brandon, and surrounding Hillsborough County communities. If you are evaluating FishHawk Ranch against Valrico neighborhoods or need a current comparable sales analysis for either market, [schedule a call](https://valricoagent.com/#contact) to get real numbers -- not Zestimate guesses.
 
 Sources used in this analysis: [Zillow FishHawk Ranch Home Values](https://www.zillow.com/home-values/831164/fishhawk-ranch-lithia-fl/), [Redfin 33547 Housing Market](https://www.redfin.com/zipcode/33547/housing-market), [FishHawk Ranch Real Estate](https://www.fishhawkranchrealestate.net/), [Hillsborough County Property Appraiser](https://www.hcpafl.org/).

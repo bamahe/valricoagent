@@ -128,7 +128,7 @@ export default function ValricoVsBrandon() {
             <Image src="/barrett-henry.png" alt="Barrett Henry REMAX Collective Valrico REALTOR" width={72} height={72} className="rounded-full flex-shrink-0" />
             <div>
               <p className="font-semibold text-base" style={{color:'#111'}}>Barrett Henry, REALTOR® | Broker Associate</p>
-              <p className="text-sm mt-1" style={{color:'#555'}}>REMAX Collective | 23+ years of Valrico and Brandon real estate experience | e-PRO, MRP, SRS</p>
+              <p className="text-sm mt-1" style={{color:'#555'}}>REMAX Collective | 24+ years of real estate experience | e-PRO, MRP, SRS</p>
               <p className="text-sm mt-2" style={{color:'#555'}}>Barrett has helped hundreds of families decide between Valrico and Brandon. He lives and works in this market daily and provides data-driven guidance on which community fits your school zone, budget, and lifestyle priorities. <a href="tel:8137337907" style={{color:'#003da5',fontWeight:600,textDecoration:'none'}}>Call (813) 733-7907</a> &middot; <Link href="/valrico-realtor/" style={{color:'#003da5',fontWeight:600,textDecoration:'none'}}>About Barrett</Link> &middot; <Link href="/valrico-real-estate-agent/" style={{color:'#003da5',fontWeight:600,textDecoration:'none'}}>Valrico real estate agent</Link></p>
             </div>
           </div>
@@ -136,7 +136,7 @@ export default function ValricoVsBrandon() {
           {/* CTA */}
           <div style={{marginTop:48,padding:32,borderRadius:8,background:'#faf8f5',textAlign:'center'}}>
             <h3 style={{fontFamily:'Merriweather,serif',fontSize:20,marginBottom:8}}>Not sure which community fits?</h3>
-            <p style={{fontSize:14,color:'#555',marginBottom:16}}>Barrett Henry, REALTOR&reg; with REMAX Collective has 23+ years of real estate experience and knows every street in both Valrico and Brandon.</p>
+            <p style={{fontSize:14,color:'#555',marginBottom:16}}>Barrett Henry, REALTOR&reg; with REMAX Collective has 24+ years of real estate experience and knows every street in both Valrico and Brandon.</p>
             <a href="tel:8137337907" className="btn-solid" style={{marginRight:8}}>(813) 733-7907</a>
             <a href="mailto:barrett@nowtb.com" className="btn-ghost">Email Barrett</a>
           </div>

@@ -103,7 +103,7 @@ The base case for Valrico home prices in 2027 is modest appreciation of 2 to 4%,
 
 The structural case for Valrico as a long-term hold remains strong: limited new construction supply, top-tier school zones in both ZIP codes, established suburban character, and Hillsborough County population growth that has not reversed. The short-term headwinds are real, primarily the mortgage rate environment and insurance costs, but they are not specific to Valrico. Every east Hillsborough market faces the same headwinds, and Valrico's school zone premium gives it a more durable floor than competing markets.
 
-Barrett Henry is a Broker Associate at REMAX Collective with 23 years of experience in the east Hillsborough County real estate market. He works with buyers and sellers in Valrico, Brandon, FishHawk Ranch, and surrounding communities. For a current market analysis, pricing strategy, or free home valuation, contact Barrett directly.
+Barrett Henry is a Broker Associate at REMAX Collective with 24 years of real estate experience in the east Hillsborough County real estate market. He works with buyers and sellers in Valrico, Brandon, FishHawk Ranch, and surrounding communities. For a current market analysis, pricing strategy, or free home valuation, contact Barrett directly.
 
 For related market context, see the [Valrico FL mid-year 2026 market review](/blog/valrico-real-estate-mid-year-2026-review), the [foreclosure activity and recession indicators post](/blog/valrico-fl-foreclosure-activity-recession-indicators-2026), and the [complete Valrico buyer's guide](/blog/buying-a-home-in-valrico-fl-in-2026-prices-competition-and-strategy).
 

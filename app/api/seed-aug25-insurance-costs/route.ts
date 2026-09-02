@@ -234,7 +234,7 @@ For planning purposes:
 
 Valrico's inland position, predominantly Zone X flood status, and CBS construction stock put it in a favorable position within the Florida insurance landscape. Buyers who understand the key variables -- roof age, wind mitigation, flood zone, and claims history -- can budget accurately and negotiate confidently.
 
-Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience in east Hillsborough County. If you have questions about navigating the insurance landscape as a buyer or seller in Valrico, reach out for a no-pressure conversation.
+Barrett Henry is a Broker Associate at REMAX Collective with 24+ years of real estate experience. If you have questions about navigating the insurance landscape as a buyer or seller in Valrico, reach out for a no-pressure conversation.
 
 You can also read more about total cost of ownership in our [Valrico FL cost of living guide](/blog/moving-to-valrico-fl-pros-cons-and-cost-of-living/) and our current [Valrico real estate market report](/blog/valrico-real-estate-mid-year-2026-review/).
 `;

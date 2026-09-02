@@ -143,7 +143,7 @@ The risk is what it always is in an older housing stock market: deferred mainten
 
 ## Working With a Local Expert on Your Mango or East Hillsborough Purchase
 
-Barrett Henry is a Broker Associate at REMAX Collective with 23 years of experience in the Valrico, Brandon, Seffner, and east Hillsborough market. If you are comparing Mango against neighboring submarkets and want a detailed look at the current comparable sales, insurance cost landscape, and negotiating environment in 33550, reach out for a consultation.
+Barrett Henry is a Broker Associate at REMAX Collective with 24 years of real estate experience, Brandon, Seffner, and east Hillsborough market. If you are comparing Mango against neighboring submarkets and want a detailed look at the current comparable sales, insurance cost landscape, and negotiating environment in 33550, reach out for a consultation.
 
 The right home in the right ZIP code at the right price is what the data is designed to find. Mango is not on every buyer's radar, and that is exactly what creates the value.
 

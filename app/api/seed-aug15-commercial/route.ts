@@ -149,7 +149,7 @@ For most investors who are primarily residential real estate practitioners looki
 
 ## Barrett's Perspective on Commercial Activity in Our Market
 
-I've been watching the east Hillsborough commercial market evolve for over 23 years. The industrial expansion along I-4 is the most significant commercial story I've seen in this part of the county in that time frame. The scale of the logistics investment coming into the corridor between Seffner and Plant City is genuinely transformative.
+I've been watching the east Hillsborough commercial market evolve for over a decade. The industrial expansion along I-4 is the most significant commercial story I've seen in this part of the county in that time frame. The scale of the logistics investment coming into the corridor between Seffner and Plant City is genuinely transformative.
 
 What I tell residential clients: this matters to you even if you never buy a commercial property. The employment base that these facilities create supports your neighbors' ability to pay rent and buy homes. The retail and service demand those workers generate supports the businesses you shop at. And the infrastructure investments that enable commercial development also improve your commute and your community's tax base.
 

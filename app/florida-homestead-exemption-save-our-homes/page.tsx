@@ -146,7 +146,7 @@ export default function FloridaHomesteadExemption() {
             {/* MID-ARTICLE CTA */}
             <div className="rounded-lg p-8 mt-2 mb-10 text-center" style={{background:'var(--blue-deep)',color:'#fff'}}>
               <h2 className="font-serif text-2xl mb-3">Have Questions About Your Property Taxes?</h2>
-              <p className="text-[15px] leading-relaxed mb-6" style={{color:'rgba(255,255,255,.75)',maxWidth:540,margin:'0 auto 24px'}}>Barrett Henry has 23+ years of real estate experience and helps Valrico homeowners understand homestead exemptions, portability, and tax strategy. Straight answers, no pressure.</p>
+              <p className="text-[15px] leading-relaxed mb-6" style={{color:'rgba(255,255,255,.75)',maxWidth:540,margin:'0 auto 24px'}}>Barrett Henry has 24+ years of real estate experience and helps Valrico homeowners understand homestead exemptions, portability, and tax strategy. Straight answers, no pressure.</p>
               <div className="flex gap-3 justify-center flex-wrap">
                 <a href="tel:8137337907" className="inline-block py-3 px-8 bg-white font-semibold text-[15px] rounded no-underline" style={{color:'var(--accent)'}}>Call<br/>(813) 733-7907</a>
                 <a href="mailto:barrett@nowtb.com" className="inline-block py-3 px-8 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">Email Barrett</a>
@@ -216,7 +216,7 @@ export default function FloridaHomesteadExemption() {
             {/* BOTTOM CTA */}
             <div className="rounded-lg p-8 mt-10 text-center" style={{background:'var(--blue-deep)',color:'#fff'}}>
               <h2 className="font-serif text-2xl mb-3">Buying or Selling in Valrico?</h2>
-              <p className="text-[15px] leading-relaxed mb-6" style={{color:'rgba(255,255,255,.75)',maxWidth:540,margin:'0 auto 24px'}}>Barrett Henry helps Valrico buyers and sellers navigate homestead exemptions, portability, and every other detail that affects your bottom line. 23+ years of real estate experience. No fluff, no runaround.</p>
+              <p className="text-[15px] leading-relaxed mb-6" style={{color:'rgba(255,255,255,.75)',maxWidth:540,margin:'0 auto 24px'}}>Barrett Henry helps Valrico buyers and sellers navigate homestead exemptions, portability, and every other detail that affects your bottom line. 24+ years of real estate experience. No fluff, no runaround.</p>
               <div className="flex gap-3 justify-center flex-wrap">
                 <a href="tel:8137337907" className="inline-block py-3 px-8 bg-white font-semibold text-[15px] rounded no-underline" style={{color:'var(--accent)'}}>Call<br/>(813) 733-7907</a>
                 <a href="mailto:barrett@nowtb.com" className="inline-block py-3 px-8 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">Email Barrett</a>
@@ -246,7 +246,7 @@ export default function FloridaHomesteadExemption() {
               <Image src="/barrett-henry.png" alt="Barrett Henry, Broker Associate at REMAX Collective" width={72} height={72} style={{borderRadius:'50%',flexShrink:0}} />
               <div>
                 <p className="font-semibold text-base mb-1" style={{color:'var(--ink)'}}>Barrett Henry, Broker Associate | REMAX Collective</p>
-                <p className="text-sm leading-relaxed mb-2" style={{color:'var(--ink-soft)'}}>23+ years of real estate experience in Valrico, FL. MRP, SRS, e-PRO certified. REMAX Hall of Fame 2024. Barrett helps Valrico buyers and sellers understand homestead exemptions, portability, and how property taxes affect every transaction. <a href="tel:8137337907" className="font-semibold no-underline" style={{color:'var(--accent)'}}>(813) 733-7907</a></p>
+                <p className="text-sm leading-relaxed mb-2" style={{color:'var(--ink-soft)'}}>24+ years of real estate experience. MRP, SRS, e-PRO certified. REMAX Hall of Fame 2024. Barrett helps Valrico buyers and sellers understand homestead exemptions, portability, and how property taxes affect every transaction. <a href="tel:8137337907" className="font-semibold no-underline" style={{color:'var(--accent)'}}>(813) 733-7907</a></p>
                 <p className="text-xs leading-loose" style={{color:'var(--ink-soft)'}}>
                   <Link href="/valrico-fl-home-values/" className="no-underline" style={{color:'var(--accent)'}}>Home Values</Link>{' | '}
                   <Link href="/valrico-fl-homes-for-sale/" className="no-underline" style={{color:'var(--accent)'}}>Homes for Sale</Link>{' | '}
@@ -279,7 +279,7 @@ export default function FloridaHomesteadExemption() {
             {/* Contact box */}
             <div className="rounded-md p-6 border" style={{borderColor:'var(--border)',background:'var(--cream-warm)'}}>
               <h3 className="font-serif text-lg mb-3">Talk to Barrett</h3>
-              <p className="text-sm mb-4 leading-relaxed" style={{color:'var(--ink-soft)'}}>Have questions about homestead exemptions, portability, or how property taxes affect your buying or selling decision? Barrett Henry has 23+ years of real estate experience and knows Valrico inside out.</p>
+              <p className="text-sm mb-4 leading-relaxed" style={{color:'var(--ink-soft)'}}>Have questions about homestead exemptions, portability, or how property taxes affect your buying or selling decision? Barrett Henry has 24+ years of real estate experience and knows Valrico inside out.</p>
               <a href="tel:8137337907" className="btn-solid block text-center mb-2 text-sm">Call<br/>(813) 733-7907</a>
               <a href="mailto:barrett@nowtb.com" className="btn-ghost block text-center text-sm">Email Barrett</a>
             </div>

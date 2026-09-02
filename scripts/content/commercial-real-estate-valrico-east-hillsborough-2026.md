@@ -82,7 +82,7 @@ If you are thinking about commercial real estate in the Valrico and east Hillsbo
 
 ## Working with a Commercial-Connected Agent in East Hillsborough
 
-As a Broker Associate at REMAX Collective with over 23 years of experience in the Tampa Bay market, I work with clients on both the residential and commercial sides. The overlap is real: residential investors regularly ask me about commercial diversification, and business owners frequently need help evaluating neighborhoods and demographics alongside their real estate decisions.
+As a Broker Associate at REMAX Collective with over 24 years of real estate experience, I work with clients on both the residential and commercial sides. The overlap is real: residential investors regularly ask me about commercial diversification, and business owners frequently need help evaluating neighborhoods and demographics alongside their real estate decisions.
 
 REMAX has a dedicated commercial division, REMAX Commercial, which gives my clients access to commercial inventory data, transaction resources, and specialized expertise. If you are exploring commercial opportunities in east Hillsborough, whether that is a small office condo in Brandon, a retail strip in the Valrico corridor, or a light industrial building near US 301, I can help you evaluate it with the same level of local market knowledge I bring to residential transactions.
 

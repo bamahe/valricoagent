@@ -164,7 +164,7 @@ export default function FirstTimeHomeBuyer() {
             {/* CTA */}
             <div className="rounded-lg p-8 mt-10 text-center" style={{background:'var(--blue-deep)',color:'#fff'}}>
               <h2 className="font-serif text-2xl mb-3">Ready to Buy Your First Valrico Home?</h2>
-              <p className="text-[15px] leading-relaxed mb-6" style={{color:'rgba(255,255,255,.75)',maxWidth:540,margin:'0 auto 24px'}}>Barrett Henry has 23+ years of real estate experience and knows every Valrico neighborhood, school zone, and price trend. No pressure, no sales pitch, just straight answers about what you can afford and where to look.</p>
+              <p className="text-[15px] leading-relaxed mb-6" style={{color:'rgba(255,255,255,.75)',maxWidth:540,margin:'0 auto 24px'}}>Barrett Henry has 24+ years of real estate experience and knows every Valrico neighborhood, school zone, and price trend. No pressure, no sales pitch, just straight answers about what you can afford and where to look.</p>
               <div className="flex gap-3 justify-center flex-wrap">
                 <a href="tel:8137337907" className="inline-block py-3 px-8 bg-white font-semibold text-[15px] rounded no-underline" style={{color:'var(--accent)'}}>Call<br/>(813) 733-7907</a>
                 <a href="mailto:barrett@nowtb.com" className="inline-block py-3 px-8 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">Email Barrett</a>

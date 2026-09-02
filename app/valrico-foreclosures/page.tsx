@@ -120,7 +120,7 @@ export default function ValricoForeclosures() {
               </div>
               <div>
                 <p className="font-semibold text-sm" style={{ color: 'var(--ink)' }}>Barrett Henry, REALTOR® | Broker Associate, REMAX Collective</p>
-                <p className="text-xs mt-0.5" style={{ color: 'var(--ink-soft)' }}>23+ years experience · REO transactions · Bank negotiation · Title resolution on distressed properties</p>
+                <p className="text-xs mt-0.5" style={{ color: 'var(--ink-soft)' }}>24+ years of real estate experience · REO transactions · Bank negotiation · Title resolution on distressed properties</p>
                 <p className="text-xs mt-1" style={{ color: 'var(--ink-soft)' }}>Free, confidential consultation for buyers and sellers facing distress</p>
                 <a href="tel:8137337907" className="text-xs font-semibold no-underline mt-1 inline-block" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>
               </div>
@@ -145,7 +145,7 @@ export default function ValricoForeclosures() {
 
             {/* Barrett's Advantage */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Why Work with Barrett on Foreclosures</h2>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>Barrett Henry has 23+ years of real estate experience, including extensive work with REO listings, bank negotiations, and title resolution on distressed properties. He understands how asset managers think, what banks need to see in an offer, and how to navigate the title issues that sink most foreclosure deals.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>Barrett Henry has 24+ years of real estate experience, including extensive work with REO listings, bank negotiations, and title resolution on distressed properties. He understands how asset managers think, what banks need to see in an offer, and how to navigate the title issues that sink most foreclosure deals.</p>
             <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>Whether you are an investor looking for a deal or a homebuyer trying to stretch your budget, Barrett can help you find, evaluate, and close on foreclosure properties in Valrico and the surrounding Tampa Bay area. You may also want to explore <Link href="/valrico-short-sale/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>short sale options</Link>, <Link href="/valrico-cash-offer/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>cash offers for quick sales</Link>, or check current <Link href="/valrico-fl-home-values/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Valrico home values</Link> to compare foreclosure pricing to market value. If you are a homeowner facing foreclosure, read the <Link href="/valrico-pre-foreclosure/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>pre-foreclosure guide</Link> for your options, or consider <Link href="/sell-my-home-valrico/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>selling your home</Link> before it goes to auction.</p>
 
             <div className="flex gap-3 flex-wrap mt-8 mb-12">
@@ -174,7 +174,7 @@ export default function ValricoForeclosures() {
           <div className="space-y-6">
             <div className="rounded-md p-6 border" style={{borderColor:'var(--border)',background:'var(--cream-warm)'}}>
               <h3 className="font-serif text-lg mb-3">Talk to Barrett</h3>
-              <p className="text-sm mb-4 leading-relaxed" style={{color:'var(--ink-soft)'}}>Barrett Henry, REALTOR® at REMAX Collective, has 23+ years of real estate experience including distressed property transactions. Free, confidential consultation.</p>
+              <p className="text-sm mb-4 leading-relaxed" style={{color:'var(--ink-soft)'}}>Barrett Henry, REALTOR® at REMAX Collective, has 24+ years of real estate experience including distressed property transactions. Free, confidential consultation.</p>
               <a href="tel:8137337907" className="btn-solid block text-center mb-2 text-sm">Call<br/>(813) 733-7907</a>
               <a href="mailto:barrett@nowtb.com" className="btn-ghost block text-center text-sm">Email Barrett</a>
             </div>
@@ -202,7 +202,7 @@ export default function ValricoForeclosures() {
         <ContactForm />
       </div>
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify({"@context":"https://schema.org","@type":"RealEstateAgent","name":"Barrett Henry","jobTitle":"REALTOR® & Broker Associate","url":"https://valricoagent.com/valrico-foreclosures/","telephone":"(813) 733-7907","email":"barrett@nowtb.com","image":"https://valricoagent.com/barrett-henry.jpg","address":{"@type":"PostalAddress","addressLocality":"Valrico","addressRegion":"FL","addressCountry":"US"},"worksFor":{"@type":"RealEstateOrganization","name":"REMAX Collective"},"description":"Barrett Henry is a REALTOR® and Broker Associate at REMAX Collective with 23+ years of real estate experience, specializing in foreclosure and distressed property transactions in Valrico FL."})}} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify({"@context":"https://schema.org","@type":"RealEstateAgent","name":"Barrett Henry","jobTitle":"REALTOR® & Broker Associate","url":"https://valricoagent.com/valrico-foreclosures/","telephone":"(813) 733-7907","email":"barrett@nowtb.com","image":"https://valricoagent.com/barrett-henry.jpg","address":{"@type":"PostalAddress","addressLocality":"Valrico","addressRegion":"FL","addressCountry":"US"},"worksFor":{"@type":"RealEstateOrganization","name":"REMAX Collective"},"description":"Barrett Henry is a REALTOR® and Broker Associate at REMAX Collective with 24+ years of real estate experience, specializing in foreclosure and distressed property transactions in Valrico FL."})}} />
     </>
   );
 }

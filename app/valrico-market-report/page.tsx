@@ -78,7 +78,7 @@ export default function MarketReport() {
         <Image src="/barrett-henry.png" alt="Barrett Henry REALTOR Valrico FL market expert" width={72} height={72} style={{borderRadius:'50%',flexShrink:0}} />
         <div>
           <p className="font-semibold mb-1" style={{color:'var(--ink)'}}>Barrett Henry, REALTOR&reg; &bull; Broker Associate &bull; REMAX Collective</p>
-          <p className="text-sm leading-relaxed mb-2" style={{color:'var(--ink-soft)'}}>23+ years of real estate experience tracking the Valrico market month by month. e-PRO, MRP, SRS designations. Free comparative market analysis for your specific sub-neighborhood. Not a Zestimate.</p>
+          <p className="text-sm leading-relaxed mb-2" style={{color:'var(--ink-soft)'}}>24+ years of real estate experience tracking the Valrico market month by month. e-PRO, MRP, SRS designations. Free comparative market analysis for your specific sub-neighborhood. Not a Zestimate.</p>
           <a href="tel:8137337907" className="text-sm font-semibold no-underline" style={{color:'var(--accent)'}}>(813) 733-7907</a>
         </div>
       </div>

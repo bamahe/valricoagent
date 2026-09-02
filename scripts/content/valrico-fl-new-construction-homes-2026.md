@@ -134,6 +134,6 @@ Yes. The builder's sales representative represents the builder. An independent b
 
 ---
 
-*Barrett Henry is a Broker Associate at REMAX Collective with more than 23 years of real estate experience. For access to new construction listings in Valrico and buyer representation on Pulte or WestBay purchases, contact Barrett at (813) 733-7907.*
+*Barrett Henry is a Broker Associate at REMAX Collective with more than 24 years of real estate experience. For access to new construction listings in Valrico and buyer representation on Pulte or WestBay purchases, contact Barrett at (813) 733-7907.*
 
 *Sources: [Homes by WestBay Northwood Estates](https://www.homesbywestbay.com/valrico/northwood-estates-community), [Pulte Homes Valri Forest](https://www.pulte.com/homes/florida/tampa/valrico/valri-forest-210919), [Zillow Valrico New Homes](https://www.zillow.com/valrico-fl/new-homes/), [Niche Newsome High School](https://www.niche.com/k12/newsome-high-school-lithia-fl/), [Niche Bloomingdale High School](https://www.niche.com/k12/bloomingdale-high-school-valrico-fl/)*

@@ -59,7 +59,7 @@ export default function ScheduleShowingPage() {
 
       {/* Trust signal */}
       <p style={{ fontSize: 13, color: '#888', marginTop: 20, textAlign: 'center' }}>
-        Your information is confidential. Barrett Henry, REALTOR®, 23+ years of real estate experience.
+        Your information is confidential. Barrett Henry, REALTOR®, 24+ years of real estate experience.
       </p>
     </main>
   );

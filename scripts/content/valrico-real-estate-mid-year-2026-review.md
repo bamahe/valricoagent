@@ -129,7 +129,7 @@ None of the comparable east Hillsborough markets offer the combination of school
 
 ## Working With the Data
 
-I have tracked Valrico's real estate market for 23+ years as a Broker Associate at REMAX Collective. The H1 2026 data tells a story of a market that did not crack the way some headlines suggested it might, but also did not recover to 2021 conditions. It found its level.
+I have tracked Valrico's real estate market for over a decade as a Broker Associate at REMAX Collective. The H1 2026 data tells a story of a market that did not crack the way some headlines suggested it might, but also did not recover to 2021 conditions. It found its level.
 
 That level is workable for buyers who plan carefully and sellers who price honestly. If you want to understand what the specific comps say about your home's current value, or what your budget actually buys in the current market, call (813) 733-7907 or reach out through the [consultation form](/get-help/).
 

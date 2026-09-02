@@ -96,6 +96,6 @@ Get your jumbo or conventional pre-approval completed before shopping. Know whic
 
 ## Working With a Local Expert in Valrico's Upper-Tier Market
 
-Barrett Henry is a Broker Associate at REMAX Collective with 23 years of experience in the Valrico and east Hillsborough market. The upper-tier Valrico market requires familiarity with River Hills HOA covenants and Golf Club dues, Crestwood Estates builder contract terms, jumbo loan pre-qualification processes, and the specific lot-premium factors that affect golf-front and water-view pricing within River Hills and Diamond Hill.
+Barrett Henry is a Broker Associate at REMAX Collective with 24 years of real estate experience in the Valrico and east Hillsborough market. The upper-tier Valrico market requires familiarity with River Hills HOA covenants and Golf Club dues, Crestwood Estates builder contract terms, jumbo loan pre-qualification processes, and the specific lot-premium factors that affect golf-front and water-view pricing within River Hills and Diamond Hill.
 
 If you are buying or selling above $500,000 in Valrico, reach out for a consultation that includes specific comparable sales analysis for the segment you are in.

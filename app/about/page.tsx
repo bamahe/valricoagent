@@ -89,7 +89,7 @@ export default function AboutBarrettHenry() {
         <div className="max-w-[1140px] mx-auto">
           <h1 className="font-serif text-[clamp(28px,4vw,40px)] leading-tight tracking-tight mb-4">About Barrett Henry, REALTOR®</h1>
           <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>
-            Broker Associate with REMAX Collective. 23+ years of real estate experience. e-PRO, MRP, and SRS designated. Serving Valrico, Brandon, Riverview, and Lithia from the Brandon office.
+            Broker Associate with REMAX Collective. 24+ years of real estate experience. e-PRO, MRP, and SRS designated. Serving Valrico, Brandon, Riverview, and Lithia from the Brandon office.
           </p>
           <a href="tel:8137337907" className="btn-solid">(813) 733-7907 - Talk to Barrett</a>
         </div>
@@ -101,7 +101,7 @@ export default function AboutBarrettHenry() {
         {/* Professional bio */}
         <h2 className="font-serif text-2xl" style={{ color: 'var(--ink)' }}>What Is Barrett Henry&apos;s Professional Background?</h2>
         <p className="text-[15px] leading-[1.8]">
-          Barrett Henry has been a licensed REALTOR® since 2003, bringing 23+ years of real estate experience to every transaction. He earned his Florida Broker Associate license in 2017, which represents a higher level of education, experience, and licensing than a standard sales associate. Barrett operates under REMAX Collective, one of the most recognized real estate brands in the world, giving his clients the combination of deep local expertise and global reach.
+          Barrett Henry has been a licensed REALTOR® since 2003, bringing 24+ years of real estate experience to every transaction. He earned his Florida Broker Associate license in 2017, which represents a higher level of education, experience, and licensing than a standard sales associate. Barrett operates under REMAX Collective, one of the most recognized real estate brands in the world, giving his clients the combination of deep local expertise and global reach.
         </p>
         <p className="text-[15px] leading-[1.8]">
           Barrett formed The NOW Team in 2015 to serve the growing demand in the Tampa Bay market. While The NOW Team handles operations, Barrett&apos;s personal brand and reputation are what clients know and trust. When you work with Barrett, you get Barrett, not a hand-off to a junior agent.
@@ -225,11 +225,11 @@ export default function AboutBarrettHenry() {
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify({
         "@context":"https://schema.org","@type":"FAQPage","mainEntity":[
-          {"@type":"Question","name":"Who is Barrett Henry?","acceptedAnswer":{"@type":"Answer","text":"Barrett Henry is a licensed REALTOR and Broker Associate with REMAX Collective, serving Valrico, Brandon, Riverview, and Lithia in the Tampa Bay area. He has been licensed since 2003 with 23+ years of real estate experience. He holds e-PRO, MRP, and SRS designations (License #3313308) and formed The NOW Team in 2015. Call (813) 733-7907 or email barrett@nowtb.com."}},
+          {"@type":"Question","name":"Who is Barrett Henry?","acceptedAnswer":{"@type":"Answer","text":"Barrett Henry is a licensed REALTOR and Broker Associate with REMAX Collective, serving Valrico, Brandon, Riverview, and Lithia in the Tampa Bay area. He has been licensed since 2003 with 24+ years of real estate experience. He holds e-PRO, MRP, and SRS designations (License #3313308) and formed The NOW Team in 2015. Call (813) 733-7907 or email barrett@nowtb.com."}},
           {"@type":"Question","name":"What is a Broker Associate and how is it different from a regular agent?","acceptedAnswer":{"@type":"Answer","text":"A Broker Associate holds a Florida real estate broker license, which requires more coursework, more experience, and passing the broker exam, a higher level of licensing than a standard sales associate. Barrett Henry earned his Broker Associate license in 2017. He operates under REMAX Collective, combining broker-level expertise with global brand reach. Call (813) 733-7907."}},
           {"@type":"Question","name":"What designations does Barrett Henry hold?","acceptedAnswer":{"@type":"Answer","text":"Barrett Henry holds four professional designations: Broker Associate (since 2017), e-PRO (digital marketing certified), MRP (Military Relocation Professional for MacDill AFB families), and SRS (Seller Representative Specialist for maximizing seller proceeds). These designations represent specialized training that directly benefits his clients. Contact Barrett at (813) 733-7907 or barrett@nowtb.com."}},
           {"@type":"Question","name":"Where is Barrett Henry's office located?","acceptedAnswer":{"@type":"Answer","text":"Barrett Henry's primary office is REMAX Collective at 417 Lithia Pinecrest Rd, Brandon, FL 33511, five minutes from every Valrico neighborhood. Additional offices are located in Tampa (14310 N Dale Mabry Hwy Ste 100) and Largo (11200 Seminole Blvd Ste 202). Call (813) 733-7907 or email barrett@nowtb.com."}},
-          {"@type":"Question","name":"What areas does Barrett Henry serve?","acceptedAnswer":{"@type":"Answer","text":"Barrett Henry's primary focus is Valrico, covering all 38 neighborhoods across ZIP codes 33594 and 33596. He also serves Brandon, Riverview, and Lithia (including FishHawk Ranch). Barrett handles commercial real estate through REMAX Commercial and manages rental properties through ViVi Property Management. 23+ years of real estate experience. Call (813) 733-7907."}}
+          {"@type":"Question","name":"What areas does Barrett Henry serve?","acceptedAnswer":{"@type":"Answer","text":"Barrett Henry's primary focus is Valrico, covering all 38 neighborhoods across ZIP codes 33594 and 33596. He also serves Brandon, Riverview, and Lithia (including FishHawk Ranch). Barrett handles commercial real estate through REMAX Commercial and manages rental properties through ViVi Property Management. 24+ years of real estate experience. Call (813) 733-7907."}}
         ]
       })}} />
     </>

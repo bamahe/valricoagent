@@ -109,7 +109,7 @@ export default function InvestmentProperty() {
               </div>
               <div>
                 <p className="font-semibold text-sm" style={{ color: 'var(--ink)' }}>Barrett Henry, REALTOR® | Broker Associate, REMAX Collective</p>
-                <p className="text-xs mt-0.5" style={{ color: 'var(--ink-soft)' }}>23+ years experience · Investment property specialist · Also manages rentals through ViVi PM</p>
+                <p className="text-xs mt-0.5" style={{ color: 'var(--ink-soft)' }}>24+ years of real estate experience · Investment property specialist · Also manages rentals through ViVi PM</p>
                 <p className="text-xs mt-1" style={{ color: 'var(--ink-soft)' }}>In-house maintenance via Best Bay Services · No third-party markups</p>
                 <a href="tel:8137337907" className="text-xs font-semibold no-underline mt-1 inline-block" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>
               </div>
@@ -153,7 +153,7 @@ export default function InvestmentProperty() {
           <div className="space-y-6">
             <div className="rounded-md p-6 border" style={{borderColor:'var(--border)',background:'var(--cream-warm)'}}>
               <h3 className="font-serif text-lg mb-3">Talk to Barrett about investing</h3>
-              <p className="text-sm mb-4 leading-relaxed" style={{color:'var(--ink-soft)'}}>23+ years of real estate experience. Barrett Henry, REALTOR® at REMAX Collective, helps investors find properties that cash flow in Valrico and east Hillsborough County. Also runs ViVi PM for turnkey property management.</p>
+              <p className="text-sm mb-4 leading-relaxed" style={{color:'var(--ink-soft)'}}>24+ years of real estate experience. Barrett Henry, REALTOR® at REMAX Collective, helps investors find properties that cash flow in Valrico and east Hillsborough County. Also runs ViVi PM for turnkey property management.</p>
               <a href="tel:8137337907" className="btn-solid block text-center mb-2 text-sm">Call<br/>(813) 733-7907</a>
               <a href="mailto:barrett@nowtb.com" className="btn-ghost block text-center text-sm">Email Barrett</a>
             </div>
@@ -193,7 +193,7 @@ export default function InvestmentProperty() {
           {
             "@type":"RealEstateAgent",
             "name":"Barrett Henry",
-            "description":"Valrico FL REALTOR® and Broker Associate with REMAX Collective. 23+ years of real estate experience. Helps investors find rental and investment properties in Valrico and east Hillsborough County.",
+            "description":"Valrico FL REALTOR® and Broker Associate with REMAX Collective. 24+ years of real estate experience. Helps investors find rental and investment properties in Valrico and east Hillsborough County.",
             "url":"https://valricoagent.com/valrico-investment-property/",
             "telephone":"(813) 733-7907",
             "email":"barrett@nowtb.com",

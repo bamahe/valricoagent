@@ -203,7 +203,7 @@ export default function NeighborhoodsHubPage() {
                 How Does Barrett Henry Help You Choose the Right Valrico Neighborhood?
               </h2>
               <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>
-                Picking a neighborhood in Valrico is not just about price. School zoning, HOA structure, lot size, flood zone risk, commute routes, and resale trends all factor in. Barrett Henry brings 23+ years of real estate experience to every conversation, and he will tell you the truth about each neighborhood, including the ones he would not recommend for your situation.
+                Picking a neighborhood in Valrico is not just about price. School zoning, HOA structure, lot size, flood zone risk, commute routes, and resale trends all factor in. Barrett Henry brings 24+ years of real estate experience to every conversation, and he will tell you the truth about each neighborhood, including the ones he would not recommend for your situation.
               </p>
               <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>
                 Most agents cover a wide area and know a little about everywhere. Barrett specializes in Valrico. He knows which sub-neighborhoods inside Bloomingdale hold value strongest, which sections of Buckhorn are in flood zones, and which streets in River Hills back up to the golf course. That level of detail protects your investment.
@@ -403,7 +403,7 @@ export default function NeighborhoodsHubPage() {
             "email": "barrett@nowtb.com",
             "url": "https://valricoagent.com",
             "jobTitle": "Broker Associate",
-            "description": "Barrett Henry is a licensed Broker Associate with REMAX Collective covering all 38 Valrico FL neighborhoods. 23+ years of real estate experience. Specializes in Bloomingdale, River Hills, Buckhorn, Diamond Hill, and all Valrico communities.",
+            "description": "Barrett Henry is a licensed Broker Associate with REMAX Collective covering all 38 Valrico FL neighborhoods. 24+ years of real estate experience. Specializes in Bloomingdale, River Hills, Buckhorn, Diamond Hill, and all Valrico communities.",
             "image": "https://valricoagent.com/barrett-henry.png",
             "worksFor": { "@type": "Organization", "name": "REMAX Collective" },
             "areaServed": {

@@ -26,7 +26,7 @@ function getQuarterLabel(): { quarter: string; slug: string } {
 function buildSystemPrompt(): string {
   return `You are a real estate market analyst writing for Barrett Henry, REALTOR and Broker Associate at REMAX Collective (never write "RE/MAX", always "REMAX" with no slash).
 
-Barrett has 23+ years of real estate experience (never tie this to Tampa Bay specifically).
+Barrett has 24+ years of real estate experience (never tie this to Tampa Bay specifically).
 
 Service area: Valrico FL, ZIP codes 33594 and 33596.
 Key neighborhoods: Bloomingdale (most active, ~189 sales/18mo), River Hills Country Club, Copper Ridge (busiest in 33594), Diamond Hill, Buckhorn, Twin Lakes, Wellington, Crestwood Estates.

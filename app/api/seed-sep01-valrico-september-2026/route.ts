@@ -161,7 +161,7 @@ The sellers who succeed in Valrico this fall share three practices:
 
 ## The Fall Pricing Strategy That Works
 
-Based on 23 years of listing homes in the Valrico and east Hillsborough market, here is what works in a fall environment:
+Based on 24 years of listing homes in the Valrico and east Hillsborough market, here is what works in a fall environment:
 
 - **Price within 2 to 3% of the highest justified comparable sale.** Not the highest sale you can find, but the highest one you can defend. Every percentage point above market is roughly 15 to 20 additional days on market, and those days accumulate into stigma that forces deeper price cuts later.
 - **Plan for a 97 to 99% sale-to-list ratio.** Today's Valrico market settles at 97 to 99% of asking price for properly priced, properly prepared homes. Set your expectation at the list price, not 5% above it.

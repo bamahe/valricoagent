@@ -124,7 +124,7 @@ export default function ValricoVsRiverview() {
             <Image src="/barrett-henry.png" alt="Barrett Henry REMAX Collective Valrico REALTOR" width={72} height={72} className="rounded-full flex-shrink-0" />
             <div>
               <p className="font-semibold text-base" style={{color:'#111'}}>Barrett Henry, REALTOR® | Broker Associate</p>
-              <p className="text-sm mt-1" style={{color:'#555'}}>REMAX Collective | 23+ years of east Hillsborough County real estate experience | e-PRO, MRP, SRS</p>
+              <p className="text-sm mt-1" style={{color:'#555'}}>REMAX Collective | 24+ years of real estate experience | e-PRO, MRP, SRS</p>
               <p className="text-sm mt-2" style={{color:'#555'}}>Barrett knows the tradeoffs between Valrico and Riverview intimately, covering both markets daily. He helps buyers understand flood zones, school zones, and appreciation trends before making a decision. <a href="tel:8137337907" style={{color:'#003da5',fontWeight:600,textDecoration:'none'}}>Call (813) 733-7907</a> &middot; <Link href="/valrico-realtor/" style={{color:'#003da5',fontWeight:600,textDecoration:'none'}}>About Barrett</Link> &middot; <Link href="/valrico-real-estate/" style={{color:'#003da5',fontWeight:600,textDecoration:'none'}}>Valrico real estate overview</Link></p>
             </div>
           </div>
@@ -132,7 +132,7 @@ export default function ValricoVsRiverview() {
           {/* CTA */}
           <div style={{marginTop:48,padding:32,borderRadius:8,background:'#faf8f5',textAlign:'center'}}>
             <h3 style={{fontFamily:'Merriweather,serif',fontSize:20,marginBottom:8}}>Need help deciding?</h3>
-            <p style={{fontSize:14,color:'#555',marginBottom:16}}>Barrett Henry, REALTOR&reg; with REMAX Collective has 23+ years of real estate experience. Get honest, no-pressure guidance on which community fits your goals.</p>
+            <p style={{fontSize:14,color:'#555',marginBottom:16}}>Barrett Henry, REALTOR&reg; with REMAX Collective has 24+ years of real estate experience. Get honest, no-pressure guidance on which community fits your goals.</p>
             <a href="tel:8137337907" className="btn-solid" style={{marginRight:8}}>(813) 733-7907</a>
             <a href="mailto:barrett@nowtb.com" className="btn-ghost">Email Barrett</a>
           </div>

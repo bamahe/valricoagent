@@ -187,7 +187,7 @@ The variables to watch: if the planned Selmon Expressway connectivity improvemen
 
 For buyers, Brandon in 2026 offers the best combination of affordability and convenience in east Hillsborough County. The inspection contingency is back, seller concessions are common, and the days of overpaying in a frenzy are over. If your priorities are retail access, commute convenience, and a lower entry price than Valrico, Brandon is a rational choice backed by strong market fundamentals.
 
-Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience in east Hillsborough County. He covers Brandon, Valrico, Seffner, and surrounding communities as one integrated market. For a free market analysis on any specific Brandon address or neighborhood, call [(813) 733-7907](tel:+18137337907) or [view current Valrico and Brandon listings](/valrico-fl-homes-for-sale/).
+Barrett Henry is a Broker Associate at REMAX Collective with 24+ years of real estate experience. He covers Brandon, Valrico, Seffner, and surrounding communities as one integrated market. For a free market analysis on any specific Brandon address or neighborhood, call [(813) 733-7907](tel:+18137337907) or [view current Valrico and Brandon listings](/valrico-fl-homes-for-sale/).
 `;
 
 export async function GET() {

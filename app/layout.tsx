@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   manifest: "/site.webmanifest",
   openGraph: {
     title: "Valrico Realtor | Barrett Henry | REMAX Collective",
-    description: "Your Valrico real estate agent with 23+ years experience. Search homes, explore 38 neighborhoods, get your home value. (813) 733-7907.",
+    description: "Your Valrico real estate agent with 24+ years of real estate experience. Search homes, explore 38 neighborhoods, get your home value. (813) 733-7907.",
     url: "https://valricoagent.com",
     siteName: "ValricoAgent.com",
     locale: "en_US",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Valrico Realtor | Barrett Henry | REMAX Collective",
-    description: "Your Valrico real estate agent with 23+ years experience. (813) 733-7907.",
+    description: "Your Valrico real estate agent with 24+ years of real estate experience. (813) 733-7907.",
     images: ["https://valricoagent.com/barrett-henry.png"],
   },
   verification: {

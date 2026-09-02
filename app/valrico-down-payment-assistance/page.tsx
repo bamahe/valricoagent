@@ -210,7 +210,7 @@ export default function DownPaymentAssistance() {
             {/* CTA */}
             <div className="rounded-lg p-8 mt-10 text-center" style={{background:'var(--blue-deep)',color:'#fff'}}>
               <h2 className="font-serif text-2xl mb-3">Find Out What You Qualify For</h2>
-              <p className="text-[15px] leading-relaxed mb-6" style={{color:'rgba(255,255,255,.75)',maxWidth:540,margin:'0 auto 24px'}}>Barrett Henry has 23+ years of real estate experience and works with lenders who specialize in down payment assistance programs for Valrico buyers. One call and you&apos;ll know exactly what&apos;s available to you.</p>
+              <p className="text-[15px] leading-relaxed mb-6" style={{color:'rgba(255,255,255,.75)',maxWidth:540,margin:'0 auto 24px'}}>Barrett Henry has 24+ years of real estate experience and works with lenders who specialize in down payment assistance programs for Valrico buyers. One call and you&apos;ll know exactly what&apos;s available to you.</p>
               <div className="flex gap-3 justify-center flex-wrap">
                 <a href="tel:8137337907" className="inline-block py-3 px-8 bg-white font-semibold text-[15px] rounded no-underline" style={{color:'var(--accent)'}}>Call<br/>(813) 733-7907</a>
                 <a href="mailto:barrett@nowtb.com" className="inline-block py-3 px-8 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">Email Barrett</a>
@@ -229,7 +229,7 @@ export default function DownPaymentAssistance() {
               </div>
               <div>
                 <p className="font-semibold text-sm" style={{ color: 'var(--ink)' }}>Barrett Henry, REALTOR® | Broker Associate, REMAX Collective</p>
-                <p className="text-xs mt-0.5" style={{ color: 'var(--ink-soft)' }}>23+ years experience · Connects buyers with lenders specializing in DPA programs for Valrico</p>
+                <p className="text-xs mt-0.5" style={{ color: 'var(--ink-soft)' }}>24+ years of real estate experience · Connects buyers with lenders specializing in DPA programs for Valrico</p>
                 <p className="text-xs mt-1" style={{ color: 'var(--ink-soft)' }}>Hometown Heroes, SHIP, FHA, VA, HomeReady, and Home Possible experience</p>
                 <a href="tel:8137337907" className="text-xs font-semibold no-underline mt-1 inline-block" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>
               </div>

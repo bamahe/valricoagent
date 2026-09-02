@@ -136,7 +136,7 @@ export default function RecentlySoldPage() {
       <section style={{ background: 'var(--blue-deep)' }} className="text-white py-16 px-7 text-center">
         <div className="max-w-[560px] mx-auto">
           <h2 className="font-serif text-2xl mb-3">Ready to Be Next?</h2>
-          <p className="text-sm mb-6" style={{ color: 'rgba(255,255,255,.7)' }}>Whether you&apos;re buying or selling in Valrico, Barrett Henry delivers results. 23+ years of real estate experience. Free consultation, no pressure.</p>
+          <p className="text-sm mb-6" style={{ color: 'rgba(255,255,255,.7)' }}>Whether you&apos;re buying or selling in Valrico, Barrett Henry delivers results. 24+ years of real estate experience. Free consultation, no pressure.</p>
           <div className="flex gap-3 justify-center flex-wrap">
             <a href="tel:8137337907" style={{ display: 'inline-block', padding: '13px 28px', background: '#fff', color: '#003da5', fontWeight: 700, fontSize: 14, borderRadius: 8, textDecoration: 'none' }}>(813) 733-7907</a>
             <Link href="/valrico-fl-home-values/" style={{ display: 'inline-block', padding: '13px 28px', background: '#cc0000', color: '#fff', fontWeight: 700, fontSize: 14, borderRadius: 8, textDecoration: 'none' }}>Get My Home Value</Link>

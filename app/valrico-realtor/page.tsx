@@ -53,7 +53,7 @@ export default function ValricoRealtor() {
           </div>
           <div>
             <p className="font-semibold text-sm" style={{ color: 'var(--ink)' }}>Barrett Henry, REALTOR® | Broker Associate, REMAX Collective</p>
-            <p className="text-xs mt-0.5" style={{ color: 'var(--ink-soft)' }}>Licensed since 2003 · 23+ years Valrico market expertise · e-PRO, MRP, SRS</p>
+            <p className="text-xs mt-0.5" style={{ color: 'var(--ink-soft)' }}>Licensed since 2003 · deep local market expertise · e-PRO, MRP, SRS</p>
             <p className="text-xs mt-1" style={{ color: 'var(--ink-soft)' }}>Serving every subdivision in 33594 and 33596</p>
             <a href="tel:8137337907" className="text-xs font-semibold no-underline mt-1 inline-block" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>
           </div>

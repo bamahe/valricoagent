@@ -133,7 +133,7 @@ export default function ValricoCashOffer() {
 
             {/* The Barrett Henry Difference */}
             <h2 className="font-serif text-2xl mb-4 mt-10">The Barrett Henry Difference</h2>
-            <p className="text-[15px] leading-[1.8] mb-4" style={{color:'var(--ink-soft)'}}>Barrett is not a wholesaler. He is not going to lowball you, lock you into a contract, and then flip your deal to another investor for a fee. Barrett Henry is a licensed REALTOR® and Broker Associate at REMAX Collective with 23+ years of real estate experience.</p>
+            <p className="text-[15px] leading-[1.8] mb-4" style={{color:'var(--ink-soft)'}}>Barrett is not a wholesaler. He is not going to lowball you, lock you into a contract, and then flip your deal to another investor for a fee. Barrett Henry is a licensed REALTOR® and Broker Associate at REMAX Collective with 24+ years of real estate experience.</p>
             <p className="text-[15px] leading-[1.8] mb-4" style={{color:'var(--ink-soft)'}}>Here is what makes this different: Barrett shows you <strong>both options</strong>. The cash offer number and what you would likely net from a <Link href="/sell-my-home-valrico/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>traditional listing</Link>. Side by side. Real numbers. Then you decide which path makes sense for your situation. Start by checking your <Link href="/valrico-fl-home-values/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>current Valrico home value</Link>.</p>
 
             <div className="rounded-md p-8 mt-4 mb-8" style={{background:'var(--cream-warm)',border:'1px solid var(--border)'}}>
@@ -148,7 +148,7 @@ export default function ValricoCashOffer() {
               </div>
               <div>
                 <p className="font-semibold text-sm" style={{ color: 'var(--ink)' }}>Barrett Henry, REALTOR® | Broker Associate, REMAX Collective</p>
-                <p className="text-xs mt-0.5" style={{ color: 'var(--ink-soft)' }}>23+ years experience · Licensed since 2003 · e-PRO, MRP, SRS designations</p>
+                <p className="text-xs mt-0.5" style={{ color: 'var(--ink-soft)' }}>24+ years of real estate experience · Licensed since 2003 · e-PRO, MRP, SRS designations</p>
                 <p className="text-xs mt-1" style={{ color: 'var(--ink-soft)' }}>Transparent cash offers with side-by-side traditional listing comparison</p>
                 <a href="tel:8137337907" className="text-xs font-semibold no-underline mt-1 inline-block" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>
               </div>
@@ -226,7 +226,7 @@ export default function ValricoCashOffer() {
         <ContactForm />
       </div>
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify({"@context":"https://schema.org","@type":"RealEstateAgent","name":"Barrett Henry","jobTitle":"REALTOR® & Broker Associate","url":"https://valricoagent.com/valrico-cash-offer/","telephone":"(813) 733-7907","email":"barrett@nowtb.com","image":"https://valricoagent.com/barrett-henry.jpg","address":{"@type":"PostalAddress","addressLocality":"Valrico","addressRegion":"FL","addressCountry":"US"},"worksFor":{"@type":"RealEstateOrganization","name":"REMAX Collective"},"description":"Barrett Henry is a REALTOR® and Broker Associate at REMAX Collective with 23+ years of real estate experience. Get a cash offer on your Valrico home in 24 hours."})}} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify({"@context":"https://schema.org","@type":"RealEstateAgent","name":"Barrett Henry","jobTitle":"REALTOR® & Broker Associate","url":"https://valricoagent.com/valrico-cash-offer/","telephone":"(813) 733-7907","email":"barrett@nowtb.com","image":"https://valricoagent.com/barrett-henry.jpg","address":{"@type":"PostalAddress","addressLocality":"Valrico","addressRegion":"FL","addressCountry":"US"},"worksFor":{"@type":"RealEstateOrganization","name":"REMAX Collective"},"description":"Barrett Henry is a REALTOR® and Broker Associate at REMAX Collective with 24+ years of real estate experience. Get a cash offer on your Valrico home in 24 hours."})}} />
     </>
   );
 }

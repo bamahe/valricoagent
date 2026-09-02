@@ -125,7 +125,7 @@ Waterfront rental properties command higher rents ($2,800 to $4,000 for canal-fr
 
 ## Working with Barrett Henry in Apollo Beach and Valrico
 
-Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience across east and south Hillsborough County. If you are weighing Apollo Beach against Valrico -- or considering both markets simultaneously -- [reach out for a strategy call](https://valricoagent.com/#contact) to walk through the full monthly cost model before you make a move.
+Barrett Henry is a Broker Associate at REMAX Collective with 24+ years of real estate experience. If you are weighing Apollo Beach against Valrico -- or considering both markets simultaneously -- [reach out for a strategy call](https://valricoagent.com/#contact) to walk through the full monthly cost model before you make a move.
 
 For buyers specifically interested in Valrico, explore our coverage of the [Valrico housing market](https://valricoagent.com/blog/are-home-prices-dropping-in-valrico-fl/) and [best neighborhoods in Valrico for families](https://valricoagent.com/blog/best-neighborhoods-in-valrico-for-families/).
 

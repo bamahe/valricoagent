@@ -141,6 +141,6 @@ For investors, the yield math in 33570 is the strongest in Hillsborough County. 
 
 The honest caveat: Ruskin is not the right choice for families where Lennard High School's B rating is a dealbreaker, buyers who need to be in the Tampa-Brandon commercial corridor for daily convenience, or anyone who needs to be within 25 minutes of downtown Tampa during rush hour.
 
-With 23 years of real estate experience across east and south Hillsborough County, Barrett Henry at REMAX Collective can walk you through the specific inventory available in Ruskin, show you which flood zones apply to properties you are considering, and negotiate with the data advantage of knowing what comparable homes have actually sold for.
+With 24 years of real estate experience, Barrett Henry at REMAX Collective can walk you through the specific inventory available in Ruskin, show you which flood zones apply to properties you are considering, and negotiate with the data advantage of knowing what comparable homes have actually sold for.
 
 **Barrett Henry, Broker Associate | REMAX Collective | (813) 294-4786**

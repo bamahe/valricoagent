@@ -14,7 +14,7 @@ export default function BestRealtorInValrico() {
       "url": "https://valricoagent.com/best-realtor-in-valrico/",
       "telephone": "+1-813-733-7907",
       "email": "barrett@nowtb.com",
-      "description": "Barrett Henry is a Broker Associate with REMAX Collective and one of the top-rated realtors in Valrico FL with 23+ years of real estate experience.",
+      "description": "Barrett Henry is a Broker Associate with REMAX Collective and one of the top-rated realtors in Valrico FL with 24+ years of real estate experience.",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "417 Lithia Pinecrest Rd",
@@ -40,7 +40,7 @@ export default function BestRealtorInValrico() {
           "name": "Who is the best realtor in Valrico?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Barrett Henry is consistently rated one of the best realtors in Valrico FL. He is a Broker Associate with REMAX Collective, holds e-PRO, MRP, and SRS designations, has 23+ years of real estate experience, 50+ five-star reviews, and covers all 38 Valrico neighborhoods across ZIP codes 33594 and 33596."
+            "text": "Barrett Henry is consistently rated one of the best realtors in Valrico FL. He is a Broker Associate with REMAX Collective, holds e-PRO, MRP, and SRS designations, has 24+ years of real estate experience, 50+ five-star reviews, and covers all 38 Valrico neighborhoods across ZIP codes 33594 and 33596."
           }
         },
         {
@@ -70,7 +70,7 @@ export default function BestRealtorInValrico() {
         <div className="max-w-[1140px] mx-auto">
           <h1 className="font-serif text-[clamp(28px,4vw,40px)] leading-tight tracking-tight mb-4">Best Realtor in Valrico FL</h1>
           <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>
-            Barrett Henry is a Broker Associate with REMAX Collective, has 23+ years of real estate experience, 50+ five-star reviews, and covers every neighborhood in Valrico. Here&apos;s why clients consistently rate him the best realtor in Valrico FL.
+            Barrett Henry is a Broker Associate with REMAX Collective, has 24+ years of real estate experience, 50+ five-star reviews, and covers every neighborhood in Valrico. Here&apos;s why clients consistently rate him the best realtor in Valrico FL.
           </p>
           <a href="tel:8137337907" className="btn-solid">Call<br/>(813) 733-7907</a>
         </div>
@@ -151,7 +151,7 @@ export default function BestRealtorInValrico() {
           </div>
           <div>
             <p className="font-semibold text-sm" style={{ color: 'var(--ink)' }}>Barrett Henry, REALTOR® | Broker Associate, REMAX Collective</p>
-            <p className="text-xs mt-0.5" style={{ color: 'var(--ink-soft)' }}>Licensed 2003 | Broker Associate since 2017 | e-PRO, MRP, SRS | 23+ years Valrico experience</p>
+            <p className="text-xs mt-0.5" style={{ color: 'var(--ink-soft)' }}>Licensed 2003 | Broker Associate since 2017 | e-PRO, MRP, SRS | 24+ years of real estate experience</p>
             <p className="text-xs mt-1" style={{ color: 'var(--ink-soft)' }}>417 Lithia Pinecrest Rd, Brandon, FL 33511 | Serving all 38+ Valrico neighborhoods</p>
             <a href="tel:8137337907" className="text-xs font-semibold no-underline mt-1 inline-block" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>
           </div>
@@ -181,7 +181,7 @@ export default function BestRealtorInValrico() {
         <h2 className="font-serif text-2xl mt-10" style={{ color: 'var(--ink)' }}>Frequently asked questions</h2>
         <div className="space-y-4 mt-4">
           {[
-            ['Who is the best realtor in Valrico?', 'Barrett Henry is consistently rated one of the best realtors in Valrico FL. He is a Broker Associate with REMAX Collective, holds e-PRO, MRP, and SRS designations, has 23+ years of real estate experience, 50+ five-star reviews, and covers all 38 Valrico neighborhoods across ZIP codes 33594 and 33596.'],
+            ['Who is the best realtor in Valrico?', 'Barrett Henry is consistently rated one of the best realtors in Valrico FL. He is a Broker Associate with REMAX Collective, holds e-PRO, MRP, and SRS designations, has 24+ years of real estate experience, 50+ five-star reviews, and covers all 38 Valrico neighborhoods across ZIP codes 33594 and 33596.'],
             ['How do I choose a Valrico realtor?', 'Look for a realtor who specializes in Valrico specifically, not just Tampa Bay in general. Ask how many homes they have sold in Valrico, whether they know the sub-neighborhoods and school zones, and what designations they hold. A Broker Associate with local expertise will outperform a generalist agent every time.'],
             ['What does a Broker Associate mean?', 'A Broker Associate holds a Florida real estate broker license, a higher level of licensing than a standard sales associate. It requires additional coursework, more experience, and passing the broker exam. Barrett has held his Broker Associate license since 2017.'],
           ].map(([q, a]) => (

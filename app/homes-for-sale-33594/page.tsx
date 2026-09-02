@@ -70,14 +70,14 @@ export default function Homes33594() {
       </div>
 
       <h2 className="font-serif text-2xl mb-4 mt-10" style={{color:'var(--ink)'}}>What to know about buying in 33594</h2>
-      <p className="text-[15px] leading-[1.8] mb-4" style={{color:'var(--ink-soft)'}}>Buyers targeting 33594 get more home per dollar than 33596 in most sub-neighborhoods. The trade-off is school zoning, which requires verification by specific address. Barrett Henry, Broker Associate at REMAX Collective, verifies the exact school zone for every 33594 address before you make an offer. With 23+ years of real estate experience serving both ZIP codes, he knows which 33594 streets feed into Bloomingdale HS and which do not.</p>
+      <p className="text-[15px] leading-[1.8] mb-4" style={{color:'var(--ink-soft)'}}>Buyers targeting 33594 get more home per dollar than 33596 in most sub-neighborhoods. The trade-off is school zoning, which requires verification by specific address. Barrett Henry, Broker Associate at REMAX Collective, verifies the exact school zone for every 33594 address before you make an offer. With 24+ years of real estate experience serving both ZIP codes, he knows which 33594 streets feed into Bloomingdale HS and which do not.</p>
       <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>For buyers open to either ZIP code, compare <Link href="/homes-for-sale-33596/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>33596 homes</Link> to understand the value differential. <Link href="/valrico-school-zones/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>School zone details</Link> explain exactly why the price gap exists. Consider <Link href="/valrico-new-construction-homes/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>new construction</Link> communities like Heritage Crest in north Valrico if you want modern finishes. Veterans can use a <Link href="/valrico-va-loan-homes/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>VA loan</Link> in 33594 with zero down. Explore <Link href="/valrico-pool-homes/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>pool homes</Link> and <Link href="/valrico-no-hoa-homes/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>no-HOA options</Link> within this ZIP.</p>
 
       <div className="flex gap-5 items-start mb-10 p-6 rounded-xl border" style={{borderColor:'var(--border)',background:'#fafafa'}}>
         <Image src="/barrett-henry.png" alt="Barrett Henry REALTOR Valrico FL" width={72} height={72} style={{borderRadius:'50%',flexShrink:0}} />
         <div>
           <p className="font-semibold mb-1" style={{color:'var(--ink)'}}>Barrett Henry, REALTOR&reg; &bull; Broker Associate &bull; REMAX Collective</p>
-          <p className="text-sm leading-relaxed mb-2" style={{color:'var(--ink-soft)'}}>23+ years of real estate experience. e-PRO, MRP, SRS designations. Covering every neighborhood in ZIP codes 33594 and 33596 daily. Call for a free 15-minute Valrico market consultation.</p>
+          <p className="text-sm leading-relaxed mb-2" style={{color:'var(--ink-soft)'}}>24+ years of real estate experience. e-PRO, MRP, SRS designations. Covering every neighborhood in ZIP codes 33594 and 33596 daily. Call for a free 15-minute Valrico market consultation.</p>
           <a href="tel:8137337907" className="text-sm font-semibold no-underline" style={{color:'var(--accent)'}}>(813) 733-7907</a>
         </div>
       </div>
@@ -90,7 +90,7 @@ export default function Homes33594() {
 
       <div className="mt-10 p-6 rounded-md text-center" style={{background:'var(--cream-warm)'}}>
         <h3 className="font-serif text-lg mb-2">Ready to explore 33594 homes?</h3>
-        <p className="text-sm mb-4" style={{color:'var(--ink-soft)'}}>Barrett Henry, REALTOR&reg; &bull; Broker Associate &bull; REMAX Collective &bull; 23+ years experience</p>
+        <p className="text-sm mb-4" style={{color:'var(--ink-soft)'}}>Barrett Henry, REALTOR&reg; &bull; Broker Associate &bull; REMAX Collective &bull; 24+ years of real estate experience</p>
         <a href="tel:8137337907" className="btn-solid mr-2">(813) 733-7907</a>
         <a href="mailto:barrett@nowtb.com" className="btn-ghost">Email Barrett</a>
       </div>

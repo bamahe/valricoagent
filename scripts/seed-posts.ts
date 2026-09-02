@@ -756,7 +756,7 @@ If your agent cannot answer neighborhood-level questions, they are learning on y
 
 I live in the Valrico/Brandon market. I know the streets, the schools, the builders, and the price history by neighborhood. When I price a home or advise a buyer, it is based on hyperlocal data, not a portal estimate.
 
-23+ years of real estate experience. e-PRO, MRP, SRS designations. MOVE WITH CONFIDENCE.`,
+24+ years of real estate experience. e-PRO, MRP, SRS designations. MOVE WITH CONFIDENCE.`,
     related_slugs: ["what-a-valrico-realtor-actually-does-for-buyers-step-by-step", "why-local-valrico-market-knowledge-matters-more-than-a-big-portal"]
   },
 
@@ -918,7 +918,7 @@ Services like HomeLight, Clever, FastExpert, and Zillow Flex match you with agen
 
 ## I Am That Agent
 
-I work Valrico and East Hillsborough every day. No referral fees, no matching service middlemen, no learning curve. You get 23+ years of experience and hyperlocal knowledge from day one.`,
+I work Valrico and East Hillsborough every day. No referral fees, no matching service middlemen, no learning curve. You get 24+ years of real estate experience and hyperlocal knowledge from day one.`,
     related_slugs: ["how-to-choose-the-best-real-estate-agent-in-valrico", "what-a-valrico-realtor-actually-does-for-buyers-step-by-step"]
   },
 

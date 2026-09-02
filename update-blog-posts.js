@@ -114,7 +114,7 @@ That's roughly a $500/month difference between Valrico and Brandon, and nearly $
 
 Brandon is the most affordable. FishHawk is the most expensive. Valrico offers the best value per dollar when you factor in lot size, school quality, and the absence of CDD fees.
 
-With 23+ years of real estate experience, I've helped buyers navigate the cost differences across all three communities. The right choice depends on your budget, your priorities, and your timeline. If you want a side-by-side analysis based on your specific situation, reach out and I'll run the numbers for you.
+With 24+ years of real estate experience, I've helped buyers navigate the cost differences across all three communities. The right choice depends on your budget, your priorities, and your timeline. If you want a side-by-side analysis based on your specific situation, reach out and I'll run the numbers for you.
 
 **Barrett Henry, REALTOR® & Broker Associate | REMAX Collective | (813) 294-4786**`
 },
@@ -353,7 +353,7 @@ I've represented buyers in new construction purchases across east Hillsborough f
 // =====================================================================
 {
   slug: "low-cost-improvements-that-max-out-valrico-resale-value",
-  content: `Not all home improvements pay for themselves. In Valrico's market, some upgrades return 200%+ at resale while others barely break even. After 23+ years of real estate experience, watching what buyers pay more for and what they ignore, here's a ranked breakdown of where your renovation dollars work hardest.
+  content: `Not all home improvements pay for themselves. In Valrico's market, some upgrades return 200%+ at resale while others barely break even. After 24+ years of real estate experience, watching what buyers pay more for and what they ignore, here's a ranked breakdown of where your renovation dollars work hardest.
 
 ## Tier 1: High-ROI Improvements ($200–$5,000 Each)
 
@@ -663,7 +663,7 @@ This isn't "nice to know" information. It directly affects whether you pay the r
 
 Portals are tools. Local expertise is strategy. You wouldn't diagnose a medical condition using WebMD alone, and you shouldn't make a $400,000 purchase decision using Zillow alone.
 
-With 23+ years of real estate experience, I've seen every scenario where portal data led buyers and sellers astray. If you're buying or selling in Valrico, let's talk through the details that the algorithms miss.
+With 24+ years of real estate experience, I've seen every scenario where portal data led buyers and sellers astray. If you're buying or selling in Valrico, let's talk through the details that the algorithms miss.
 
 **Barrett Henry, REALTOR® & Broker Associate | REMAX Collective | (813) 294-4786**`
 },
@@ -845,7 +845,7 @@ Even if your kids are grown or you don't have children, buying in a top school z
 
 School zoning drives home values in Valrico more than almost any other single factor. Newsome High School is the most sought-after zone. Bloomingdale High with its IB program is a strong runner-up. Verify zoning directly with the school district before making any purchase decision.
 
-With 23+ years of real estate experience, I've guided hundreds of families through the school zoning puzzle in east Hillsborough. If you have questions about which schools serve a specific address, reach out and I'll get you a confirmed answer.
+With 24+ years of real estate experience, I've guided hundreds of families through the school zoning puzzle in east Hillsborough. If you have questions about which schools serve a specific address, reach out and I'll get you a confirmed answer.
 
 **Barrett Henry, REALTOR® & Broker Associate | REMAX Collective | (813) 294-4786**`
 },
@@ -986,7 +986,7 @@ Most buyers have 2–3 priorities that point clearly to one area. If you're torn
 
 There's no universally "best" community among these three. Brandon is the most affordable. Riverview is the newest. Valrico is the best value when you factor in lot size, school quality, and the absence of CDD fees.
 
-With 23+ years of real estate experience, I've sold in all three communities and I know the micro-neighborhoods, the pricing patterns, and the tradeoffs. If you want a guided comparison based on your specific situation, let's connect.
+With 24+ years of real estate experience, I've sold in all three communities and I know the micro-neighborhoods, the pricing patterns, and the tradeoffs. If you want a guided comparison based on your specific situation, let's connect.
 
 **Barrett Henry, REALTOR® & Broker Associate | REMAX Collective | (813) 294-4786**`
 },
@@ -1112,7 +1112,7 @@ If you're selling a pool home in Valrico, these steps maximize your pool's contr
 
 Pool homes in Valrico carry a premium worth paying if you'll use and maintain the pool. The key is going in with clear eyes about the total cost of ownership, not just the purchase price, but the $2,500–$5,000 annual maintenance, the equipment replacement cycle, and the insurance impact.
 
-With 23+ years of real estate experience, I've handled hundreds of pool home transactions. I know which neighborhoods have the best pool homes, which pool issues are deal-breakers versus negotiation points, and how to evaluate pool condition during showings. If you're shopping for a pool home in Valrico, let's set up showings and I'll walk you through exactly what to look for.
+With 24+ years of real estate experience, I've handled hundreds of pool home transactions. I know which neighborhoods have the best pool homes, which pool issues are deal-breakers versus negotiation points, and how to evaluate pool condition during showings. If you're shopping for a pool home in Valrico, let's set up showings and I'll walk you through exactly what to look for.
 
 **Barrett Henry, REALTOR® & Broker Associate | REMAX Collective | (813) 294-4786**`
 },
@@ -1239,7 +1239,7 @@ I invest this because properly marketed homes sell faster and for more money. Th
 
 Marketing a Valrico home in 2026 requires more than a lockbox and a prayer. Buyers start their search online, and the quality of your online presentation directly impacts how many showings you get, how quickly you receive offers, and what price the market delivers.
 
-With 23+ years of real estate experience, I've refined a marketing system that leverages professional visuals, targeted digital advertising, local SEO, and direct outreach to maximize exposure for every listing. If you're considering selling your Valrico home, let's talk about how these strategies apply to your specific property.
+With 24+ years of real estate experience, I've refined a marketing system that leverages professional visuals, targeted digital advertising, local SEO, and direct outreach to maximize exposure for every listing. If you're considering selling your Valrico home, let's talk about how these strategies apply to your specific property.
 
 **Barrett Henry, REALTOR® & Broker Associate | REMAX Collective | (813) 294-4786**`
 }

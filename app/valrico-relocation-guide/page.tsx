@@ -177,7 +177,7 @@ export default function RelocationGuide() {
         <div className="max-w-[1140px] mx-auto">
           <span className="material-icons" style={{fontSize:48,marginBottom:12,opacity:.8}}>flight_land</span>
           <h2 className="font-serif text-2xl mb-3">Ready to Make the Move?</h2>
-          <p className="text-sm mb-6 max-w-[560px] mx-auto" style={{color:'rgba(255,255,255,.7)'}}>Barrett Henry, REALTOR® with REMAX Collective, has 23+ years of real estate experience and works with out-of-state buyers every month. Virtual tours, remote closings, and straight talk about what to expect.</p>
+          <p className="text-sm mb-6 max-w-[560px] mx-auto" style={{color:'rgba(255,255,255,.7)'}}>Barrett Henry, REALTOR® with REMAX Collective, has 24+ years of real estate experience and works with out-of-state buyers every month. Virtual tours, remote closings, and straight talk about what to expect.</p>
           <div className="flex gap-3 justify-center flex-wrap">
             <a href="tel:8137337907" className="btn-solid" style={{background:'#fff',color:'#003da5'}}>Call<br/>(813) 733-7907</a>
             <a href="mailto:barrett@nowtb.com" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-sm rounded no-underline">Email Barrett</a>
@@ -192,7 +192,7 @@ export default function RelocationGuide() {
           {
             "@type":"RealEstateAgent",
             "name":"Barrett Henry",
-            "description":"Valrico FL REALTOR® and Broker Associate with REMAX Collective. 23+ years of real estate experience. Specializes in relocation buyers moving to Valrico from out of state.",
+            "description":"Valrico FL REALTOR® and Broker Associate with REMAX Collective. 24+ years of real estate experience. Specializes in relocation buyers moving to Valrico from out of state.",
             "url":"https://valricoagent.com/valrico-relocation-guide/",
             "telephone":"(813) 733-7907",
             "email":"barrett@nowtb.com",

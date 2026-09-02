@@ -114,6 +114,6 @@ Buyers who want to see how that payment compares to renting in the same area sho
 
 New Tampa is a legitimate suburban market with strong amenity infrastructure and a location that works well for specific employment corridors. The school zone situation is the honest limitation. If your family's high school destination is Wharton High School and you have evaluated the academic profile and found it meets your needs, New Tampa at current 2026 prices with 4.1% year-over-year declines represents a real buying opportunity.
 
-If school zone ranking is a primary factor, Valrico's 33596 ZIP delivers the Newsome High School zone at comparable price points without the CDD fees that many New Tampa communities carry. With 23 years representing buyers and sellers across east Hillsborough County, I can walk you through both markets side by side using current comparable sales data before you decide.
+If school zone ranking is a primary factor, Valrico's 33596 ZIP delivers the Newsome High School zone at comparable price points without the CDD fees that many New Tampa communities carry. With 24 years representing buyers and sellers across east Hillsborough County, I can walk you through both markets side by side using current comparable sales data before you decide.
 
 Contact Barrett Henry at REMAX Collective to get a market-specific analysis for your situation in New Tampa or Valrico.

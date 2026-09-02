@@ -170,7 +170,7 @@ Sellers who have been sitting since spring should make a decision in September: 
 
 In a market where the difference between a correctly priced listing and an overpriced one is measured in months on market and thousands in concessions, local expertise matters more than in a rising market where almost anything sells.
 
-Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience in east Hillsborough County and a specific focus on Valrico's 33594 and 33596 markets. He pulls closed comps from actual MLS data, structures listings with a clear pricing strategy informed by current buyer behavior, and represents buyers with the negotiating context to identify which listings have real room to move.
+Barrett Henry is a Broker Associate at REMAX Collective with 24+ years of real estate experience and a specific focus on Valrico's 33594 and 33596 markets. He pulls closed comps from actual MLS data, structures listings with a clear pricing strategy informed by current buyer behavior, and represents buyers with the negotiating context to identify which listings have real room to move.
 
 If you are buying or selling in Valrico's high-dollar market, you can reach Barrett at [(813) 733-7907](tel:+18137337907) for a no-obligation market analysis.
 

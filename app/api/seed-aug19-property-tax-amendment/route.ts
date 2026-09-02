@@ -195,7 +195,7 @@ What it does:
 
 The Valrico market fundamentals remain unchanged either way: top-rated school zones in Bloomingdale and Newsome High School, established neighborhoods with mature landscaping, limited new construction competing for buyers, and proximity to Tampa via the Selmon Expressway and I-75.
 
-Barrett Henry has been tracking Valrico property taxes, school zone boundaries, and neighborhood-level market data for 23+ years. If you want a specific cost-of-ownership picture for a home you are considering, including the tax implications under both the current and proposed systems, call (813) 733-7907. The analysis takes 15 minutes and can change the math on your decision.
+Barrett Henry has been tracking Valrico property taxes, school zone boundaries, and neighborhood-level market data for 24+ years. If you want a specific cost-of-ownership picture for a home you are considering, including the tax implications under both the current and proposed systems, call (813) 733-7907. The analysis takes 15 minutes and can change the math on your decision.
 
 You can also [view current Valrico listings](/valrico-fl-homes-for-sale/), [request a free home valuation](/valrico-fl-home-values/), or [learn more about the homestead exemption and Save Our Homes cap](/florida-homestead-exemption-save-our-homes/).
 

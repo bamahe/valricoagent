@@ -145,7 +145,7 @@ Practical advice for buyers comparing Wesley Chapel to Valrico or other east Hil
 
 4. Compare the insurance environment. Wesley Chapel and Pasco County generally have similar homeowners insurance dynamics to Hillsborough County for inland properties, though specific community characteristics can affect quotes. Get insurance quotes before committing to a purchase.
 
-Barrett Henry is a Broker Associate at REMAX Collective with 23 years of experience in the Tampa Bay real estate market. He works with buyers and sellers in Valrico, Brandon, and surrounding east Hillsborough communities. For buyers exploring both Valrico and Wesley Chapel options, he provides side-by-side neighborhood comparisons and full cost-of-ownership analysis. For current market data or a free consultation, contact Barrett directly.
+Barrett Henry is a Broker Associate at REMAX Collective with 24 years of real estate experience. He works with buyers and sellers in Valrico, Brandon, and surrounding east Hillsborough communities. For buyers exploring both Valrico and Wesley Chapel options, he provides side-by-side neighborhood comparisons and full cost-of-ownership analysis. For current market data or a free consultation, contact Barrett directly.
 
 For related reading, see the [Valrico FL mid-year 2026 market review](/blog/valrico-real-estate-mid-year-2026-review) and the [east Hillsborough buyer's guide comparing Valrico, Brandon, and Lithia](/blog/valrico-vs-brandon-vs-lithia-where-to-buy-in-east-hillsborough-2026). For buyers who want new construction specifically, the [Valrico new construction guide](/blog/valrico-fl-new-construction-homes-2026) covers Pulte Homes and WestBay's current Valrico offerings.
 

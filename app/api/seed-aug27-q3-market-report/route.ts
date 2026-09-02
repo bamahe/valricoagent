@@ -196,7 +196,7 @@ The fundamentals of Valrico real estate remain intact: Hillsborough County's top
 
 **Sellers:** Price is everything in this market. A correctly priced listing in Valrico's competitive segments -- particularly $340,000 to $400,000 in 33594 and $430,000 to $480,000 in 33596 -- will find a buyer. An overpriced listing will sit, reduce, and ultimately sell for less than a correct opening price would have yielded. Consult an agent who pulls actual closed comps from the last 60 to 90 days, not from 2022.
 
-Talk through your specific situation before making a move. You can reach Barrett Henry, REALTOR and Broker Associate at REMAX Collective, at [(813) 733-7907](tel:+18137337907). With 23+ years of real estate experience and deep Valrico market expertise, Barrett can walk you through what Q3 2026 data means for your specific ZIP code, price range, and timeline.
+Talk through your specific situation before making a move. You can reach Barrett Henry, REALTOR and Broker Associate at REMAX Collective, at [(813) 733-7907](tel:+18137337907). With 24+ years of real estate experience and deep Valrico market expertise, Barrett can walk you through what Q3 2026 data means for your specific ZIP code, price range, and timeline.
 
 You can also [view current Valrico listings](/valrico-fl-homes-for-sale/) or [request a free home valuation](/valrico-fl-home-values/) to see where your home fits in today's market.
 `;

@@ -121,7 +121,7 @@ If you are relocating, starting a family, or have a defined timeline, waiting fo
 
 If you are a discretionary buyer with complete flexibility, there is no urgency. But the right home in the right Valrico neighborhood does not sit forever, and the best homes still move in 20 to 35 days when priced correctly.
 
-You can [view current Valrico listings](/valrico-fl-homes-for-sale/) or [request a free home valuation](/valrico-fl-home-values/) to see where your home fits in today's market. For a conversation about your specific ZIP code, price range, and timeline, contact Barrett Henry, REALTOR and Broker Associate at REMAX Collective, at [(813) 733-7907](tel:+18137337907). With 23+ years of real estate experience and focused Valrico market expertise, he can give you a straight read on what the numbers mean for your next move.
+You can [view current Valrico listings](/valrico-fl-homes-for-sale/) or [request a free home valuation](/valrico-fl-home-values/) to see where your home fits in today's market. For a conversation about your specific ZIP code, price range, and timeline, contact Barrett Henry, REALTOR and Broker Associate at REMAX Collective, at [(813) 733-7907](tel:+18137337907). With 24+ years of real estate experience and focused Valrico market expertise, he can give you a straight read on what the numbers mean for your next move.
 
 **External sources referenced in this report:** [Zillow Research July 2026 data](https://www.zillow.com/research/), [Bankrate mortgage rate tracker](https://www.bankrate.com/mortgages/mortgage-rates/), [Redfin market data](https://www.redfin.com/news/data-center/), [Mortgage Bankers Association 2026 forecast](https://www.mba.org/news-and-research/research-and-economics).`;
 

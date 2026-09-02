@@ -94,7 +94,7 @@ export default function FiftyFivePlus() {
               </div>
               <div>
                 <p className="font-semibold text-sm" style={{ color: 'var(--ink)' }}>Barrett Henry, REALTOR® | Broker Associate, REMAX Collective</p>
-                <p className="text-xs mt-0.5" style={{ color: 'var(--ink-soft)' }}>23+ years experience helping retirees find the right fit in Valrico and eastern Hillsborough County</p>
+                <p className="text-xs mt-0.5" style={{ color: 'var(--ink-soft)' }}>24+ years of real estate experience helping retirees find the right fit in Valrico and eastern Hillsborough County</p>
                 <p className="text-xs mt-1" style={{ color: 'var(--ink-soft)' }}>Honest advice on 55+ communities vs. single-story homes in regular neighborhoods</p>
                 <a href="tel:8137337907" className="text-xs font-semibold no-underline mt-1 inline-block" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>
               </div>
@@ -138,7 +138,7 @@ export default function FiftyFivePlus() {
           <div className="space-y-6">
             <div className="rounded-md p-6 border" style={{borderColor:'var(--border)',background:'var(--cream-warm)'}}>
               <h3 className="font-serif text-lg mb-3">Exploring retirement options?</h3>
-              <p className="text-sm mb-4 leading-relaxed" style={{color:'var(--ink-soft)'}}>Barrett Henry, REALTOR® at REMAX Collective, has 23+ years of real estate experience helping buyers find the right fit, whether that is a 55+ community or a single-story home in a regular neighborhood. No pressure, just honest advice.</p>
+              <p className="text-sm mb-4 leading-relaxed" style={{color:'var(--ink-soft)'}}>Barrett Henry, REALTOR® at REMAX Collective, has 24+ years of real estate experience helping buyers find the right fit, whether that is a 55+ community or a single-story home in a regular neighborhood. No pressure, just honest advice.</p>
               <a href="tel:8137337907" className="btn-solid block text-center mb-2 text-sm">Call<br/>(813) 733-7907</a>
               <a href="mailto:barrett@nowtb.com" className="btn-ghost block text-center text-sm">Email Barrett</a>
             </div>
@@ -160,7 +160,7 @@ export default function FiftyFivePlus() {
         <div className="max-w-[1140px] mx-auto">
           <span className="material-icons" style={{fontSize:48,marginBottom:12,opacity:.8}}>wb_sunny</span>
           <h2 className="font-serif text-2xl mb-3">Ready for Your Next Chapter?</h2>
-          <p className="text-sm mb-6 max-w-[560px] mx-auto" style={{color:'rgba(255,255,255,.7)'}}>Barrett Henry, REALTOR® with REMAX Collective, helps retirees and downsizers find the right home in Valrico and surrounding communities. No state income tax, affordable living, and 23+ years of experience guiding buyers through the process.</p>
+          <p className="text-sm mb-6 max-w-[560px] mx-auto" style={{color:'rgba(255,255,255,.7)'}}>Barrett Henry, REALTOR® with REMAX Collective, helps retirees and downsizers find the right home in Valrico and surrounding communities. No state income tax, affordable living, and 24+ years of real estate experience guiding buyers through the process.</p>
           <div className="flex gap-3 justify-center flex-wrap">
             <a href="tel:8137337907" className="btn-solid" style={{background:'#fff',color:'#003da5'}}>Call<br/>(813) 733-7907</a>
             <a href="mailto:barrett@nowtb.com" className="inline-block py-3 px-7 border-2 border-white text-white font-semibold text-sm rounded no-underline hover:bg-white/20">Email Barrett</a>
@@ -181,7 +181,7 @@ export default function FiftyFivePlus() {
           {
             "@type":"RealEstateAgent",
             "name":"Barrett Henry",
-            "description":"Valrico FL REALTOR® and Broker Associate with REMAX Collective. 23+ years of real estate experience. Helps retirees and active adults find 55+ communities and single-story homes near Valrico FL.",
+            "description":"Valrico FL REALTOR® and Broker Associate with REMAX Collective. 24+ years of real estate experience. Helps retirees and active adults find 55+ communities and single-story homes near Valrico FL.",
             "url":"https://valricoagent.com/valrico-55-plus-communities/",
             "telephone":"(813) 733-7907",
             "email":"barrett@nowtb.com",

@@ -185,7 +185,7 @@ The strategy: run the full monthly cost model before making an offer. Mortgage p
 
 Buyers who come in prepared with insurance quotes in hand, a clear flood zone analysis, and financing pre-approval are in the best position to move decisively on a motivated seller.
 
-If you are comparing Apollo Beach to Valrico or the broader east Hillsborough County market, Barrett Henry at REMAX Collective has 23+ years of experience tracking both markets in detail. You can [view current listings](/valrico-fl-homes-for-sale/) or [request a market comparison](/contact/) tailored to your budget and priorities. Contact Barrett at [(813) 733-7907](tel:+18137337907) for a straight read on how these markets compare for your specific situation.
+If you are comparing Apollo Beach to Valrico or the broader east Hillsborough County market, Barrett Henry at REMAX Collective has 24+ years of real estate experience tracking both markets in detail. You can [view current listings](/valrico-fl-homes-for-sale/) or [request a market comparison](/contact/) tailored to your budget and priorities. Contact Barrett at [(813) 733-7907](tel:+18137337907) for a straight read on how these markets compare for your specific situation.
 
 **External sources referenced in this report:** [MaxLife Realty Apollo Beach Q3 2026 report](https://maxliferealty.com/market-reports/apollo-beach-fl), [nowtb.com Apollo Beach market update](https://nowtb.com/apollo-beach-real-estate-market/), [Clovered homeowners insurance Apollo Beach](https://clovered.com/homeowners-insurance/florida/apollo-beach/), [Homes by WestBay Waterset](https://www.homesbywestbay.com/new-homes-greater-tampa-bay-area/waterset-community), [Zillow Research](https://www.zillow.com/research/).`;
 

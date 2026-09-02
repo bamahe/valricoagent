@@ -92,7 +92,7 @@ Your 2026 TRIM notice is not just a preview of your November tax bill. It is a d
 
 Filing by September 7 costs you almost nothing. Doing nothing and finding out in November that your bill increased another 8% costs you real money, every year, until you sell.
 
-If you have questions about your Valrico assessment, want to talk through comparable sales in your neighborhood, or are considering listing your home, Barrett Henry is a Broker Associate at REMAX Collective with 23 years of east Hillsborough County experience. [Reach out here](/sell-my-home-valrico/) to start the conversation.
+If you have questions about your Valrico assessment, want to talk through comparable sales in your neighborhood, or are considering listing your home, Barrett Henry is a Broker Associate at REMAX Collective with 24 years of east Hillsborough County experience. [Reach out here](/sell-my-home-valrico/) to start the conversation.
 
 **Sources:**
 - [Hillsborough County Property Appraiser](https://www.hcpafl.org)

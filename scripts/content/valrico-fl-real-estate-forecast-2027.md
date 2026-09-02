@@ -139,7 +139,7 @@ For buyers: the waiting game has real costs. Twelve months of rent at $2,200 per
 
 For sellers: the buyers are there. 172 active listings means Valrico buyers are actively evaluating options right now. A well-prepared, correctly priced home will sell. The homes that sit are the ones that ask 2022 prices for 2026 condition.
 
-Barrett Henry has worked east Hillsborough County real estate for 23 years as a Broker Associate at REMAX Collective. If you want a current analysis of your specific home's position in the 2027 market outlook, or if you want to understand what today's numbers mean for your buying timeline, the conversation starts with a phone call.
+Barrett Henry has worked east Hillsborough County real estate for over a decade as a Broker Associate at REMAX Collective. If you want a current analysis of your specific home's position in the 2027 market outlook, or if you want to understand what today's numbers mean for your buying timeline, the conversation starts with a phone call.
 
 **Barrett Henry, REALTOR and Broker Associate | REMAX Collective | (813) 733-7907**
 

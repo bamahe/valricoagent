@@ -191,7 +191,7 @@ export default function RiverHillsPage() {
               <Image src="/barrett-henry.png" alt="Barrett Henry, Broker Associate at REMAX Collective, Valrico FL" width={72} height={72} style={{borderRadius:'50%',flexShrink:0}} />
               <div>
                 <p className="font-semibold text-base mb-1" style={{color:'var(--ink)'}}>Barrett Henry, Broker Associate | REMAX Collective</p>
-                <p className="text-sm leading-relaxed mb-2" style={{color:'var(--ink-soft)'}}>23+ years of Valrico real estate experience with deep expertise in River Hills. MRP, SRS, e-PRO certified. REMAX Hall of Fame 2024. Barrett knows every section of River Hills, from golf frontage lots to interior builds, and can guide you to the right home within the community. <a href="tel:8137337907" className="font-semibold no-underline" style={{color:'var(--accent)'}}>(813) 733-7907</a></p>
+                <p className="text-sm leading-relaxed mb-2" style={{color:'var(--ink-soft)'}}>24+ years of real estate experience with deep expertise in River Hills. MRP, SRS, e-PRO certified. REMAX Hall of Fame 2024. Barrett knows every section of River Hills, from golf frontage lots to interior builds, and can guide you to the right home within the community. <a href="tel:8137337907" className="font-semibold no-underline" style={{color:'var(--accent)'}}>(813) 733-7907</a></p>
                 <p className="text-xs leading-loose" style={{color:'var(--ink-soft)'}}>
                   <Link href="/valrico-real-estate/" className="no-underline" style={{color:'var(--accent)'}}>Valrico Real Estate</Link>{' | '}
                   <Link href="/valrico-fl-homes-for-sale/" className="no-underline" style={{color:'var(--accent)'}}>Homes for Sale</Link>{' | '}

@@ -119,7 +119,7 @@ The most important insight from that comparison: Thonotosassa delivers more land
 
 ## Who Buys in Thonotosassa
 
-After 23 years helping buyers across east Hillsborough County, Barrett Henry, Broker Associate at REMAX Collective, sees a consistent profile emerging in Thonotosassa transactions. The typical Thonotosassa buyer falls into one of three groups.
+After more than a decade helping buyers across east Hillsborough County, Barrett Henry, Broker Associate at REMAX Collective, sees a consistent profile emerging in Thonotosassa transactions. The typical Thonotosassa buyer falls into one of three groups.
 
 **The acreage seeker.** Buyers who have been searching Valrico and Brandon, frustrated that $450,000 buys a quarter-acre lot in a subdivision, discover that the same budget in Thonotosassa buys two acres with a detached garage. These buyers are often moving from dense suburban markets and are intentionally trading convenience for space.
 
@@ -163,7 +163,7 @@ The Thonotosassa market is performing better than the broader Hillsborough Count
 
 For buyers who want land, privacy, and horses within 30 minutes of Tampa, Thonotosassa in 2026 is the most compelling option in Hillsborough County that has not yet been priced out by new development. For buyers prioritizing top-tier high school zones and walkable suburban amenities, [Valrico 33596](/valrico-real-estate/) remains the area standard.
 
-Barrett Henry has helped buyers evaluate and close on properties across Thonotosassa, Valrico, Seffner, and the broader east Hillsborough market for over 23 years. If you have questions about a specific property in 33592, want a comparable sales analysis before writing an offer, or need guidance navigating a rural purchase with well, septic, and agricultural zoning, reach out directly at (813) 733-7907.
+Barrett Henry has helped buyers evaluate and close on properties across Thonotosassa, Valrico, Seffner, and the broader east Hillsborough market for over a decade. If you have questions about a specific property in 33592, want a comparable sales analysis before writing an offer, or need guidance navigating a rural purchase with well, septic, and agricultural zoning, reach out directly at (813) 733-7907.
 
 ---
 

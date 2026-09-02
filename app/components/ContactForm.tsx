@@ -145,7 +145,7 @@ export function ContactForm() {
 
       {/* Trust signal — response time guarantee */}
       <p style={{ fontSize: 12, color: '#6b7280', textAlign: 'center', margin: 0 }}>
-        Typically responds within 2 hours &middot; 23+ years experience &middot; Your info stays confidential
+        Typically responds within 2 hours &middot; 24+ years of real estate experience &middot; Your info stays confidential
       </p>
     </form>
   );

@@ -167,7 +167,7 @@ The upper-tier buyer who does their homework, understands the comp data, and mov
 
 ## Working with an Agent Who Knows These Numbers
 
-Barrett Henry is a Broker Associate at REMAX Collective with 23 years of experience selling homes in Valrico, Bloomingdale, River Hills, and the broader east Hillsborough County market. When a client is making a $500,000 to $800,000 decision, the comp analysis matters at a level of granularity that automated valuations cannot deliver. The difference between a home that is correctly positioned on the comp set and one that is not can be tens of thousands of dollars.
+Barrett Henry is a Broker Associate at REMAX Collective with 24 years of real estate experience selling homes in Valrico, Bloomingdale, River Hills, and the broader east Hillsborough County market. When a client is making a $500,000 to $800,000 decision, the comp analysis matters at a level of granularity that automated valuations cannot deliver. The difference between a home that is correctly positioned on the comp set and one that is not can be tens of thousands of dollars.
 
 If you are buying or selling in Valrico's upper tier this fall, call Barrett directly to discuss where your specific home or target neighborhood stands based on the most current closed data.
 

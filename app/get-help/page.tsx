@@ -64,7 +64,7 @@ export default function GetHelpPage() {
           Your information is confidential. No spam, ever.
         </p>
         <p style={{ fontSize: 13, color: '#888' }}>
-          Barrett Henry, REALTOR® &amp; Broker Associate - REMAX Collective, 23+ years of real estate experience.
+          Barrett Henry, REALTOR® &amp; Broker Associate - REMAX Collective, 24+ years of real estate experience.
         </p>
       </div>
     </main>

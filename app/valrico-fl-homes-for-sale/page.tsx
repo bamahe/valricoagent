@@ -69,7 +69,7 @@ export default function HomesForSale() {
           <Image src="/barrett-henry.png" alt="Barrett Henry REMAX Collective Valrico REALTOR" width={72} height={72} className="rounded-full flex-shrink-0" />
           <div>
             <p className="font-semibold text-base" style={{color:'var(--ink)'}}>Barrett Henry, REALTOR® | Broker Associate</p>
-            <p className="text-sm mt-1" style={{color:'var(--ink-soft)'}}>REMAX Collective | 23+ years of Valrico real estate experience | e-PRO, MRP, SRS</p>
+            <p className="text-sm mt-1" style={{color:'var(--ink-soft)'}}>REMAX Collective | 24+ years of real estate experience | e-PRO, MRP, SRS</p>
             <p className="text-sm mt-2" style={{color:'var(--ink-soft)'}}>Barrett has been selling homes in Valrico since 2003 and knows every neighborhood in 33594 and 33596. He previews listings, identifies neighborhood-specific issues, and negotiates from search to closing. <a href="tel:8137337907" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Call (813) 733-7907</a> &middot; <Link href="/valrico-real-estate-agent/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>About Barrett</Link> &middot; <Link href="/why-barrett/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Why Barrett</Link></p>
           </div>
         </div>

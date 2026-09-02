@@ -129,7 +129,7 @@ Both Gibsonton and Valrico sit in unincorporated [Hillsborough County](https://w
 
 ## How Barrett Can Help
 
-As a REMAX Collective Broker Associate with 23 years covering Hillsborough County, I work the south Hillsborough corridor including Gibsonton, Ruskin, Apollo Beach, and the Riverview-Brandon area alongside the Valrico market I'm primarily known for. If you're evaluating Gibsonton against any of those alternatives, I'll run the actual current comps, walk you through the school zone lines, and give you a straight read on what the distressed inventory picture looks like for the specific areas you're considering.
+As a REMAX Collective Broker Associate with over a decade covering Hillsborough County, I work the south Hillsborough corridor including Gibsonton, Ruskin, Apollo Beach, and the Riverview-Brandon area alongside the Valrico market I'm primarily known for. If you're evaluating Gibsonton against any of those alternatives, I'll run the actual current comps, walk you through the school zone lines, and give you a straight read on what the distressed inventory picture looks like for the specific areas you're considering.
 
 Reach out for a no-pressure conversation about whether Gibsonton fits your budget, timeline, and priorities.
 

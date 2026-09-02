@@ -104,7 +104,7 @@ export default function VALoanHomes() {
               </div>
               <div>
                 <p className="font-semibold text-sm" style={{ color: 'var(--ink)' }}>Barrett Henry, REALTOR® | Broker Associate, REMAX Collective</p>
-                <p className="text-xs mt-0.5" style={{ color: 'var(--ink-soft)' }}>MRP (Military Relocation Professional) · 23+ years experience · Works with MacDill AFB families regularly</p>
+                <p className="text-xs mt-0.5" style={{ color: 'var(--ink-soft)' }}>MRP (Military Relocation Professional) · 24+ years of real estate experience · Works with MacDill AFB families regularly</p>
                 <p className="text-xs mt-1" style={{ color: 'var(--ink-soft)' }}>Knows which Valrico homes pass VA appraisal and how to negotiate VA-specific issues</p>
                 <a href="tel:8137337907" className="text-xs font-semibold no-underline mt-1 inline-block" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>
               </div>
@@ -148,7 +148,7 @@ export default function VALoanHomes() {
           <div className="space-y-6">
             <div className="rounded-md p-6 border" style={{borderColor:'var(--border)',background:'var(--cream-warm)'}}>
               <h3 className="font-serif text-lg mb-3">Using your VA loan in Valrico?</h3>
-              <p className="text-sm mb-4 leading-relaxed" style={{color:'var(--ink-soft)'}}>Barrett Henry, REALTOR® at REMAX Collective, works with VA buyers regularly. 23+ years of real estate experience. He knows which homes will pass VA appraisal, how to negotiate VA-specific issues, and how to get your offer accepted.</p>
+              <p className="text-sm mb-4 leading-relaxed" style={{color:'var(--ink-soft)'}}>Barrett Henry, REALTOR® at REMAX Collective, works with VA buyers regularly. 24+ years of real estate experience. He knows which homes will pass VA appraisal, how to negotiate VA-specific issues, and how to get your offer accepted.</p>
               <a href="tel:8137337907" className="btn-solid block text-center mb-2 text-sm">Call<br/>(813) 733-7907</a>
               <a href="mailto:barrett@nowtb.com" className="btn-ghost block text-center text-sm">Email Barrett</a>
             </div>
@@ -172,7 +172,7 @@ export default function VALoanHomes() {
         <div className="max-w-[1140px] mx-auto">
           <span className="material-icons" style={{fontSize:48,marginBottom:12,opacity:.8}}>military_tech</span>
           <h2 className="font-serif text-2xl mb-3">Thank You for Your Service</h2>
-          <p className="text-sm mb-6 max-w-[560px] mx-auto" style={{color:'rgba(255,255,255,.7)'}}>Barrett Henry, REALTOR® with REMAX Collective, is proud to work with veterans and active-duty service members. 23+ years of real estate experience. Let Barrett help you use your VA benefit to buy the right home in Valrico.</p>
+          <p className="text-sm mb-6 max-w-[560px] mx-auto" style={{color:'rgba(255,255,255,.7)'}}>Barrett Henry, REALTOR® with REMAX Collective, is proud to work with veterans and active-duty service members. 24+ years of real estate experience. Let Barrett help you use your VA benefit to buy the right home in Valrico.</p>
           <div className="flex gap-3 justify-center flex-wrap">
             <a href="tel:8137337907" className="btn-solid" style={{background:'#fff',color:'#003da5'}}>Call<br/>(813) 733-7907</a>
             <a href="mailto:barrett@nowtb.com" className="inline-block py-3 px-7 border-2 border-white text-white font-semibold text-sm rounded no-underline hover:bg-white/20">Email Barrett</a>
@@ -193,7 +193,7 @@ export default function VALoanHomes() {
           {
             "@type":"RealEstateAgent",
             "name":"Barrett Henry",
-            "description":"Valrico FL REALTOR® and Broker Associate with REMAX Collective. 23+ years of real estate experience. Works with VA loan buyers and military families near MacDill AFB.",
+            "description":"Valrico FL REALTOR® and Broker Associate with REMAX Collective. 24+ years of real estate experience. Works with VA loan buyers and military families near MacDill AFB.",
             "url":"https://valricoagent.com/valrico-va-loan-homes/",
             "telephone":"(813) 733-7907",
             "email":"barrett@nowtb.com",

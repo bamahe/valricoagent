@@ -130,6 +130,6 @@ Dover offers larger lots, no HOA in most areas, and a rural character that Valri
 
 ---
 
-*Barrett Henry is a Broker Associate at REMAX Collective with more than 23 years of experience in the Hillsborough County real estate market. For current MLS data, comparable sales in Dover or Valrico, and straight-talk advice on what specific listings are actually worth, reach Barrett at (813) 733-7907.*
+*Barrett Henry is a Broker Associate at REMAX Collective with more than 24 years of real estate experience. For current MLS data, comparable sales in Dover or Valrico, and straight-talk advice on what specific listings are actually worth, reach Barrett at (813) 733-7907.*
 
 *Sources: [Zillow Dover 33527 Housing Market](https://www.zillow.com/home-values/72661/dover-fl-33527/), [Redfin Dover Housing Market](https://www.redfin.com/city/22230/FL/Dover/housing-market), [Move With Momentum Dover Scorecard](https://movewithmomentum.com/data/fl/33527-housing-scorecard), [NeighborhoodScout Dover FL](https://www.neighborhoodscout.com/fl/dover)*

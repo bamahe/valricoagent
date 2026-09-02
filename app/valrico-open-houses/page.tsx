@@ -132,7 +132,7 @@ export default function ValricoOpenHouses() {
             <Image src="/barrett-henry.png" alt="Barrett Henry, Broker Associate at REMAX Collective" width={72} height={72} style={{borderRadius:'50%',flexShrink:0}} />
             <div>
               <p style={{fontWeight:700,color:'#111',marginBottom:4}}>Barrett Henry, Broker Associate | REMAX Collective</p>
-              <p style={{fontSize:14,color:'#555',lineHeight:1.7,marginBottom:8}}>23+ years of Valrico real estate experience. MRP, SRS, e-PRO certified. REMAX Hall of Fame 2024. Barrett schedules private showings 7 days a week and has deep knowledge of every Valrico neighborhood and open house activity. <a href="tel:8137337907" style={{color:'#003da5',fontWeight:600,textDecoration:'none'}}>(813) 733-7907</a></p>
+              <p style={{fontSize:14,color:'#555',lineHeight:1.7,marginBottom:8}}>24+ years of real estate experience. MRP, SRS, e-PRO certified. REMAX Hall of Fame 2024. Barrett schedules private showings 7 days a week and has deep knowledge of every Valrico neighborhood and open house activity. <a href="tel:8137337907" style={{color:'#003da5',fontWeight:600,textDecoration:'none'}}>(813) 733-7907</a></p>
               <p style={{fontSize:13,color:'#555',lineHeight:2}}>
                 <Link href="/valrico-fl-homes-for-sale/" style={{color:'#003da5',textDecoration:'none'}}>Homes for Sale</Link>{' | '}
                 <Link href="/valrico-real-estate/" style={{color:'#003da5',textDecoration:'none'}}>Valrico Real Estate</Link>{' | '}

@@ -264,7 +264,7 @@ export default function ValricoRealEstate() {
           </div>
           <div>
             <p className="font-semibold text-sm" style={{ color: 'var(--ink)' }}>Barrett Henry, REALTOR® | Broker Associate, REMAX Collective</p>
-            <p className="text-xs mt-0.5" style={{ color: 'var(--ink-soft)' }}>23+ years experience · Valrico specialist · e-PRO, MRP, SRS designations</p>
+            <p className="text-xs mt-0.5" style={{ color: 'var(--ink-soft)' }}>24+ years of real estate experience · Valrico specialist · e-PRO, MRP, SRS designations</p>
             <p className="text-xs mt-1" style={{ color: 'var(--ink-soft)' }}>Covers all 38+ Valrico neighborhoods in ZIP codes 33594 and 33596</p>
             <a href="tel:8137337907" className="text-xs font-semibold no-underline mt-1 inline-block" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>
           </div>
@@ -295,7 +295,7 @@ export default function ValricoRealEstate() {
         {/* CTA */}
         <div className="mt-10 p-6 rounded-md text-center" style={{ background: 'var(--cream-warm)' }}>
           <h3 className="font-serif text-lg mb-2">Need help with Valrico real estate?</h3>
-          <p className="text-sm mb-4" style={{ color: 'var(--ink-soft)' }}>Barrett Henry, REALTOR® &middot; Broker Associate &middot; REMAX Collective &middot; 23+ years experience</p>
+          <p className="text-sm mb-4" style={{ color: 'var(--ink-soft)' }}>Barrett Henry, REALTOR® &middot; Broker Associate &middot; REMAX Collective &middot; 24+ years of real estate experience</p>
           <a href="tel:8137337907" className="btn-solid mr-2">(813) 733-7907</a>
           <a href="mailto:barrett@nowtb.com" className="btn-ghost">Email Barrett</a>
         </div>
