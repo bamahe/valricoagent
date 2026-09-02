@@ -667,6 +667,28 @@ const META: Record<string, {
     publish_date: '2026-08-31T12:00:00.000Z',
     cta_type: 'buyer',
   },
+  'valrico-fl-high-dollar-home-sales-2026-comp-analysis': {
+    title: 'Valrico FL High-Dollar Home Sales 2026: What the Comps Reveal About River Hills and the Upper-Tier Market',
+    excerpt: 'River Hills Country Club median sale price $610K, down 5.3% YoY at $239/sqft. What recent closed high-dollar comps in Valrico 33596 tell buyers and sellers about pricing, days on market, and negotiating leverage in fall 2026.',
+    pillar: 'market',
+    tags: ['Market Trends', 'Valrico FL', '33596', 'River Hills', 'Luxury Homes', 'Comps', 'High-Dollar Sales', '2026', 'Hillsborough County', 'Seller Guide', 'Buyer Guide'],
+    meta_title: 'Valrico FL High-Dollar Home Sales 2026: What River Hills Comps Reveal | ValricoAgent.com',
+    meta_description: 'River Hills median sale price $610K down 5.3% YoY at $239/sqft. What recent high-dollar closed comps in Valrico 33596 tell buyers and sellers about pricing strategy, days on market, and negotiating leverage in fall 2026.',
+    focus_keyword: 'Valrico FL high dollar home sales 2026',
+    secondary_keywords: ['Valrico FL luxury homes sold 2026', 'River Hills home sale prices 2026', 'Valrico 33596 comps 2026', 'Valrico FL price per square foot 2026', 'River Hills Country Club home values 2026'],
+    schema_type: 'FAQPage',
+    faq_data: [
+      { question: 'What is the median sale price in River Hills Country Club Valrico FL in 2026?', answer: 'River Hills Country Club is tracking a median sale price of approximately $610,000 in the most recent trailing period of 2026, down 5.3% year over year from the prior year\'s $644,000 to $645,000 range. The median sale price per square foot is approximately $239, also down about 5.0% year over year. Premium golf-front and water-view lots decline less than interior lots, with the premium running $40,000 to $80,000 over comparable interior positions.' },
+      { question: 'What is the average price per square foot in Valrico FL 33596 in 2026?', answer: 'The average price per square foot in Valrico 33596 runs approximately $210 to $230 across the ZIP code. In the River Hills Country Club neighborhood specifically, closed comps are running at approximately $239 per square foot on the median sale. River Hills Masters, the premium subsection, has been listing at approximately $228 per square foot. New construction at Crestwood Estates starts at approximately $200 to $225 per square foot for homes in the $675,000 to $850,000 range.' },
+      { question: 'How long are high-dollar homes taking to sell in Valrico FL in 2026?', answer: 'Upper-tier homes in Valrico 33596 priced above $500,000 are averaging 65 to 90 days on the market as of fall 2026. Correctly priced homes with updated finishes and premium lot positions are selling in 45 to 65 days. Overpriced homes are sitting 90 to 120 days and accumulating days-on-market stigma that buyers exploit for 5% to 8% reductions below original list. River Hills listings above $600,000 routinely run 65 to 90 days in the current market.' },
+      { question: 'Can buyers negotiate on high-dollar homes in Valrico FL right now?', answer: 'Yes, buyers in Valrico\'s upper-tier market have meaningful negotiating leverage in fall 2026. Homes in River Hills and Diamond Hill that have been on the market for 45 or more days are actively accepting concession requests of $8,000 to $15,000 in closing cost credits. Closed comps show consistent sale prices of 2% to 5% below original list on homes with extended market time. An offer at 4% to 5% below the current ask on a 90-day River Hills listing with a concession request is a market offer, not a lowball, in the current environment.' },
+      { question: 'Should I buy or wait in the Valrico FL upper-tier market in fall 2026?', answer: 'The data supports buying in fall 2026 rather than waiting for further price declines. Valrico\'s upper tier is showing 5% to 6% correction from 2022 peaks, not a continued freefall. The Newsome High School zone in 33596 provides structural demand that does not disappear in soft markets. Buyers who purchase now with a 6.66% rate can refinance if rates reach the forecast 5.5% to 6.0% range in 2027, while accumulating equity. Sellers who wait for rate-driven demand recovery may be waiting 12 to 24 months.' },
+    ],
+    publish_date: '2026-09-01T08:00:00.000Z',
+    cta_type: 'market-report',
+    featured_image: '/images/bloomingdale-stone-brick-estate-palm-trees-valrico.jpg',
+    featured_image_alt: 'Bloomingdale stone and brick estate home with mature palm trees in Valrico FL representing the high-dollar residential market in east Hillsborough County 2026',
+  },
 };
 
 async function main() {
