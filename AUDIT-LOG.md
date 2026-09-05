@@ -1,5 +1,15 @@
 # SEO Audit Log
 
+## 2026-09-05
+
+**2 blog posts added:**
+
+1. `valrico-fl-flood-zones-buyers-sellers-guide-2026` - New 2,470-word guide on FEMA flood zones for Valrico FL buyers and sellers. Covers: Zone X (unshaded) as the dominant designation across 33594 and 33596 subdivisions (Bloomingdale, Copper Ridge, Twin Lakes, Wellington, Buckhorn, Diamond Hill, River Hills), Zone AE mandatory flood insurance requirements along the Alafia River corridor in southern 33596 (River Drive, Spring Road, Williams Blvd, Lithia Pinecrest bridge area), October 2024 Alafia River crest at historic 24.8 feet, FEMA Risk Rating 2.0 (effective Oct 2021) and property-specific premium calculation, 2026 Hillsborough County evacuation zone changes (Bloomingdale areas reclassified D to C), flood insurance cost tiers ($600-$900/yr Zone X unshaded; $900-$1,500 Zone X shaded; $1,800-$3,500 Zone AE), 5-10% Zone AE price discount analysis, Zone X lookup tools (hcfl.gov and msc.fema.gov), 5-step buyer checklist before closing, seller disclosure obligations. Internal links to Florida homeowners insurance costs, flood zone lookup tools. Pillar: buyer. Featured image: bloomingdale-brick-home-palm-landscaping-valrico.jpg. Inserted into Supabase via /api/seed-sep05-flood-zones (2,470 words, 13 min read).
+
+2. `capital-gains-tax-selling-valrico-fl-home-2026` - New 2,543-word seller tax guide on capital gains tax when selling a Valrico FL home in 2026. Covers: Florida zero state capital gains tax advantage, IRS Section 121 primary residence exclusion ($250K single / $500K married filing jointly), ownership and use tests (24 months in 5-year lookback), adjusted cost basis calculation (purchase price + purchase closing costs + capital improvements), realistic Valrico example (2019 purchase $285K + $52K improvements, sold $445K = $0 federal tax for married filers), 2026 federal long-term capital gains rates (0%/15%/20%), Net Investment Income Tax (NIIT) 3.8% surtax threshold ($200K single / $250K married), investment property and 1031 exchange rules vs primary residence exclusion, Florida Documentary Stamp Tax ($0.70 per $100 deed + Hillsborough $0.45 surtax = $4,945 on $430K sale), planning strategies (documenting improvements, tax-year timing, installment sales, inherited basis step-up). External links to IRS Publication 523, IRS Topic 701, FL Department of Revenue. Internal links to cost of selling a house in Valrico, Valrico market report. Pillar: seller. Featured image: bloomingdale-modern-white-ranch-estate-valrico.jpg. Inserted into Supabase via /api/seed-sep05-capital-gains (2,543 words, 13 min read).
+
+---
+
 ## 2026-09-01
 
 **2 blog posts added:**
