@@ -10,7 +10,7 @@ const META = {
   title: 'Capital Gains Tax When Selling Your Valrico FL Home: 2026 Complete Guide',
   excerpt:
     'Florida charges zero state capital gains tax. Federal law protects the first $250,000 of gain for single filers and $500,000 for married couples through the Section 121 exclusion. A complete guide for Valrico sellers: how to calculate your gain, what qualifies as cost basis, 2026 federal rates, investment property rules, and when to work with a CPA.',
-  pillar: 'selling',
+  pillar: 'seller',
   tags: [
     'Selling',
     'Valrico FL',

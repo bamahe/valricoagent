@@ -10,7 +10,7 @@ const META = {
   title: 'Valrico FL Flood Zones: What Every Home Buyer and Seller Needs to Know in 2026',
   excerpt:
     'Most of Valrico 33594 and 33596 sits in FEMA Zone X with no mandatory flood insurance. But properties near the Alafia River corridor in 33596 carry Zone AE designations, and the 2026 evacuation zone changes in Bloomingdale affect how buyers evaluate risk. A complete guide to flood zones, FEMA Risk Rating 2.0, insurance costs, and what to verify before closing.',
-  pillar: 'buying',
+  pillar: 'buyer',
   tags: [
     'Valrico FL',
     'Flood Zones',
