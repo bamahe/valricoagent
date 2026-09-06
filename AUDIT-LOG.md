@@ -1,5 +1,15 @@
 # SEO Audit Log
 
+## 2026-09-06
+
+**2 blog posts added:**
+
+1. `florida-save-our-homes-portability-valrico-sellers-guide` - New 2,049-word seller guide on Florida Save Our Homes portability. Covers: what SOH is and how the assessment cap differential builds over time (Bloomingdale 2008 buyer example: $280K purchase, $430K just value 2026, $135K differential); the $500K maximum portability transfer cap and HJR 211 November 3, 2026 ballot proposal to remove it entirely; move-up vs. move-down portability mechanics with formula (new/old just value x differential for downsizers); three-year window to establish new Florida homestead (sell 2026 = deadline January 1, 2029); March 1 application deadline for Form DR-501T and the fact there is no grace period; dollar-value example ($114K differential on 33594 2010 purchase saves $1,197/yr or $100/month at 10.5 mill rate); when portability does not apply (out-of-state moves, non-primary residences); buyer warning about reset assessed values on purchase; 5-step practical checklist; November 2026 dual ballot items. Pillar: seller. Featured image: bloomingdale-brick-home-palm-landscaping-valrico.jpg. Inserted into Supabase via /api/seed-sep06-soh-portability (2,049 words, 11 min read).
+
+2. `florida-amendment-3-homestead-exemption-valrico-2026` - New 1,834-word guide to Florida Amendment 3 (CS/HJR 1F) on the November 3, 2026 ballot. Covers: 3-component breakdown (non-school homestead exemption expands to $150K in 2027 and $250K in 2028 with inflation adjustments from 2029; non-homestead assessment cap reduced from 10% to 5%; local government revenue limitation); dollar savings at representative Valrico price points ($350K: $788/yr; $415K: $892/yr; $469K: $1,025/yr; $550K: $1,313/yr using 10.5 mill non-school rate); 2028 expansion to $250K adding $1,500-$2,500/yr on top; who benefits most (long-term owner-occupants $300K-$500K assessed, recent peak buyers, fixed-income retirees); who benefits least (very low assessed value, investment property owners); fiscal tradeoffs ($12B recurring statewide impact per Revenue Estimating Conference, school funding protected, local services face pressure); impact on home values and buyer demand (equivalent to 0.1-0.2% rate cut); investor non-homestead cap change; how to register and vote in Hillsborough County (60% threshold, ~October 5 registration deadline); what buyers/sellers should do now. Pillar: market. Featured image: bloomingdale-modern-white-ranch-estate-valrico.jpg. Inserted into Supabase via /api/seed-sep06-amendment3 (1,834 words, 10 min read).
+
+---
+
 ## 2026-09-05
 
 **2 blog posts added:**
