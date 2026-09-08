@@ -1,5 +1,15 @@
 # SEO Audit Log
 
+## 2026-09-08
+
+**2 blog posts added:**
+
+1. `what-does-400000-buy-in-valrico-fl-by-neighborhood-2026` - New 1,700+ word buyer guide comparing what $400,000 buys across Valrico neighborhoods in 2026. Covers: Bloomingdale (1,900-2,200 sqft, $185-200/sqft, no CDD), Twin Lakes and Copper Ridge (2,000-2,350 sqft, HOA $150-300/yr), Buckhorn 33596 Newsome zone entry (1,700-2,000 sqft, $200-215/sqft), why $400K does not reach River Hills or Diamond Hill, Brandon 33511 comparison (2,100-2,500 sqft, $168-190/sqft), Riverview comparison (2,100-2,700 sqft with CDD risk), school zone premium math ($70K-$90K gap between 33594 and 33596), CDD/HOA cost comparison, pool home premium analysis ($25K-$35K vs $60K-$80K to add post-purchase). External links to Zillow, Redfin, Hillsborough County Property Appraiser. Internal links to Newsome zone post, mid-year review, rental market post. Featured image: bloomingdale-brick-home-columned-entry-valrico.jpg. **Seed route deployed at /api/seed-sep08-what-400k-buys - call once from browser to insert into Supabase.**
+
+2. `how-newsome-high-school-zone-impacts-valrico-home-values` - New 1,700+ word market analysis on how Newsome High School zone affects Valrico home values in 2026. Covers: $30K-$50K premium over Bloomingdale zone (same floor plan, same condition), confirmed Newsome zone neighborhoods (River Hills $500K-$1M+, Buckhorn $400K-$550K, Buckhorn Preserve $425K-$575K, Diamond Hill $450K-$650K, Canterbury Oaks parts), Bloomingdale zone neighborhoods, zone boundary streets to verify, premium metrics (28-35 day DOM vs 35-45, 98-99% sale-to-list vs 96-97%), why it matters for buyers without kids (resale pool depth), out-of-state relocation buyer demand, Newsome HS profile (AP courses, athletics, 2005 campus), rezoning risk analysis, buying strategy by tier ($400K-$475K entry to $700K+ luxury), selling strategy. External links to SDHC, Niche Newsome profile, Zillow. Internal links to $400K buyer guide, mid-year review, rental market post. Featured image: buckhorn-preserve-valrico-fl-entrance-sign.jpg. **Seed route deployed at /api/seed-sep08-newsome-zone - call once from browser to insert into Supabase.**
+
+---
+
 ## 2026-09-07
 
 **2 blog posts added:**
