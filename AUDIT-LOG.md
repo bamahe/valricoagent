@@ -1,5 +1,15 @@
 # SEO Audit Log
 
+## 2026-09-10
+
+**2 blog posts added:**
+
+1. `valrico-fl-move-up-buyer-guide-2026` - New 1,500+ word guide for Valrico homeowners ready to move up in 2026. Covers: move-up buyer profile (33594 owners with $85K-$110K equity gains since 2019), four-step equity math (current home value, net proceeds after 6-8% selling costs, down payment gap analysis, new mortgage payment at 6.66% Freddie Mac rate), sell-first vs buy-first analysis (57-73 day Valrico DOM, 172 active listings), contingent offer strategy with kick-out clauses (72 hours to remove contingency), bridge loan mechanics and risks, neighborhood targeting (33594 upper tier: Bloomingdale/Wellington/Twin Lakes $450K-$520K; 33596 Newsome zone: Buckhorn $440K-$520K, Diamond Hill $470K-$580K, Buckhorn Preserve $480K-$560K, River Hills $550K-$700K), negotiating both sides ($13K-$27K combined value available in 2026 vs 2022 seller's market), four common mistakes (overpricing current home, underestimating transaction costs, emotional decisions, no bridge pre-approval). 5 FAQs: move-up buyer definition, sell vs buy first, kick-out clauses, best 33596 neighborhoods, negotiation savings. External links: Freddie Mac PMMS, Hillsborough County Property Appraiser, CFPB bridge loan resource. Internal links: mid-year 2026 review, 33594 vs 33596 comparison, Florida SOH portability guide. Pillar: buyer. Featured image: bloomingdale-brick-ranch-tropical-landscaping-valrico.jpg. **Seed route deployed at /api/seed-sep10-move-up-buyer - call once from browser to insert into Supabase.**
+
+2. `arista-gated-community-valrico-fl-buyers-guide` - New 1,500+ word guide to Arista, Valrico's second gated community. Covers: location (33596 near Valrico Lake, adjacent to Diamond Hill Golf Course, off Buckhorn Road), Taylor Morrison builder history (mid-2000s to late 2000s construction, 2,500-3,500 sqft, 2-5 beds/3-4.5 baths, stone and stucco exteriors), what gating delivers and does not deliver (traffic control yes, crime immunity no, school zone premium driven by Newsome zone not gate), Newsome High School zone analysis ($90K median premium vs 33594, stable for 5 years), 2026 pricing ($485K-$670K, $210-$230/sqft, 3-8 sales/year), value drivers within Arista (kitchen updates, roof age, lot position), River Hills comparison (scale, price range, golf, HOA structure, school zone), 2026 buying conditions (57-73 day DOM, $8K-$15K seller concessions achievable, 6.66% Freddie Mac rate buydown math), inspection checklist (roof replacement window, HVAC, insurance $3,200-$5,000/yr HO-3), right buyer profile, working with local agent. 5 FAQs: what is Arista, 2026 prices, Newsome zone, vs River Hills, inspection tips. External links: Taylor Morrison website, Hillsborough County Schools boundary locator. Internal links: 33594 vs 33596 guide, Valrico gated communities post, move-up buyer guide. Pillar: buyer. Featured image: arista-valrico-gated-community-entrance.jpg (downloaded from Google Drive). **Seed route deployed at /api/seed-sep10-arista-community - call once from browser to insert into Supabase.**
+
+---
+
 ## 2026-09-08
 
 **2 blog posts added:**
