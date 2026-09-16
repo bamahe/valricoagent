@@ -1,5 +1,15 @@
 # SEO Audit Log
 
+## 2026-09-16
+
+**2 blog posts added:**
+
+1. `sun-city-center-fl-real-estate-market-2026` - New 1,900+ word neighboring communities guide on Sun City Center FL (33573) for retirees and 55-plus buyers. Covers: 2026 market data (median $262,500-$305,000, down 9.5% YoY, 58-68 day DOM, 97.4% sale-to-list), price tiers ($175K-$500K+), three main communities (original SCC/Del Webb, Kings Point with 90K sqft clubhouse and 27 holes golf, Renaissance country club), golf overview (8 courses, 162 holes, Ben Sutton Golf School), full monthly carrying cost breakdown for Kings Point villa ($2,200-$2,600/mo including HOA/insurance/taxes/mortgage), comparisons vs Valencia Lakes/Medley at SouthShore Bay/Apollo Beach, investment considerations, 4-point buyer checklist (HOA financials, inspection, insurance quotes, fee structure). 6 FAQs. External links: Houzeo, Movoto, Momentum Market, Kings Point official site, 55places. Internal links: Wimauma market post, Apollo Beach post, Valrico 55-plus communities. Featured image: sun-city-center-fl-activities.jpg (already in /public/images). Backdated publish_date: 2026-08-09. **Seed route at /api/seed-sep16-sun-city-center - call once on production to insert into Supabase.**
+
+2. `valrico-real-estate-mid-year-2026-review` - New 1,700+ word Valrico market review covering full H1 2026 and H2 outlook. Covers: ZIP-level data (33594 median $378,907 / 33596 median $468,996, ~912 total transactions), Q1 vs Q2 comparison table (DOM 32 vs 28 vs 57 days, inventory 5.0 vs 4.5 months, sale-to-list 97.5% vs 98.2%), neighborhood-level H1 breakdown (Bloomingdale, Buckhorn/Buckhorn Preserve, River Hills, Diamond Hill, Twin Lakes), countywide inventory context (15,720 listings, +27.47% YoY), mortgage rate math ($2,035/mo P&I on $413K median at 6.25%), H2 2026 outlook (flat prices, 150-200 listings, school zone demand for 2027-2028 cycle, best buyer leverage since 2019), Valrico vs Brandon/FishHawk/Riverview comparison. 5 FAQs. External links: Zillow, Redfin, HCPA, Bankrate, Morgan Stanley. Internal links: Wimauma, Valrico Brandon comparison, FishHawk, Riverview, consultation form, home values. Featured image: northwood-estates-valrico-westbay.jpg (already in /public/images). Backdated publish_date: 2026-07-30. **Seed route at /api/seed-sep16-midyear-review - call once on production to insert into Supabase.**
+
+---
+
 ## 2026-09-15
 
 **3 blog posts added (neighboring communities series):**
