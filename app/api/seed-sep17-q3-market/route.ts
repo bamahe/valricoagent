@@ -9,7 +9,7 @@ const SLUG = 'valrico-fl-real-estate-market-report-q3-2026';
 const META = {
   title: 'Valrico FL Real Estate Market Report: Q3 2026 Results and Q4 Outlook',
   excerpt: 'Valrico FL Q3 2026 market report: average home value $423,764, 41-58 day DOM, 2.5-4.0 months of supply, and price per square foot down 1-5% year over year. Complete breakdown of 33594 vs 33596, neighborhood-level data, and what buyers and sellers should expect in Q4 2026.',
-  pillar: 'market-report',
+  pillar: 'market',
   tags: ['Market Report', 'Valrico FL', 'Q3 2026', '33594', '33596', 'Hillsborough County', 'Home Prices', 'Days on Market', 'Inventory', 'Q4 Outlook', '2026'],
   meta_title: 'Valrico FL Real Estate Market Report Q3 2026: Prices, Inventory & Q4 Outlook | ValricoAgent.com',
   meta_description: 'Valrico FL Q3 2026 market: $423,764 avg value, 41-58 day DOM, 2.5-4.0 months supply, price per sqft down 1-5% YoY. Full 33594 vs 33596 breakdown, Bloomingdale, River Hills, Q4 2026 forecast from Barrett Henry REMAX Collective.',
