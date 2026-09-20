@@ -1,5 +1,17 @@
 # SEO Audit Log
 
+## 2026-09-20
+
+**3 blog posts added:**
+
+1. `valrico-fl-rental-market-investment-property-2026` - New 1,600+ word investment guide to the Valrico FL rental market 2026. Covers: average rents $2,386-$2,412/month (3BD: $2,150-$2,400, 4BD: ~$3,025), tenant demographics (military/MacDill, healthcare workers, logistics, families), 33594 yield analysis (cap rate 2.1-2.8%, negative leveraged cash flow ~$220-$390/month), 33596 yield analysis (cap rate lower, negative ~$350-$600/month), insurance reality for non-owner-occupied policies, Valrico vs Ruskin/Brandon/Seffner/Gibsonton comparison, HOA rental restrictions, 5-year vs 10-year hold thesis. 5 FAQs. Featured image: bloomingdale-brick-home-valrico.jpg. Pillar: market. **Seed route at /api/seed-sep20-rental-market - call once on production to insert into Supabase.**
+
+2. `florida-homeowners-insurance-costs-valrico-fl-2026` - New 1,500+ word insurance cost guide for Valrico FL buyers and sellers 2026. Covers: Florida statewide avg $8,458/year vs Valrico $2,500-$4,500/year, roof age as primary rate factor (carriers decline 15-20+ year roofs), Flood Zone X advantage for most Valrico vs coastal counties, 4 rate factors (construction type/wind mitigation/claims history/deductibles), Citizens Insurance limitations, full PITI example for $415K home ($3,095-$3,129/month total), comparison table vs Apollo Beach/Ruskin/Riverview/Brandon, new construction advantage, seller strategies, what to ask before making an offer. 5 FAQs. Featured image: bloomingdale-modern-white-ranch-estate-valrico.jpg. Pillar: buyer. **Seed route at /api/seed-sep20-insurance-guide - call once on production to insert into Supabase.**
+
+3. `valrico-fl-gated-communities-and-golf-course-homes` - New 1,700+ word River Hills Country Club buyer's guide covering Valrico's only gated golf community. Covers: manned gate, 18-hole semi-private course, quarter-acre to 1+ acre lots, Newsome HS zone, 2026 market data (median $610K-$640K, $235-$250/sqft, 15-25 sales/year), pricing tiers ($500K-$600K entry, $600K-$750K mid, $750K+ luxury), golf course lot premiums and tradeoffs (10-20% premium, errant ball risks, privacy considerations), HOA details ($150-$300/month, no CDD), Arista comparison (~60-70 Taylor Morrison homes, $485K-$670K, no on-site golf, Newsome zone), comparison table, investment perspective (fully built-out, supply permanently constrained, 35-55 DOM), practical buyer checklist (HOA docs, golf membership, roof age, financials, lot position). 6 FAQs. Featured image: arista-valrico-gated-community-entrance.jpg. Pillar: buyer. **Seed route at /api/seed-sep20-gated-communities - call once on production to insert into Supabase.**
+
+---
+
 ## 2026-09-16
 
 **2 blog posts added:**
