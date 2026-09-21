@@ -1,5 +1,17 @@
 # SEO Audit Log
 
+## 2026-09-21
+
+**3 blog posts added:**
+
+1. `valrico-fl-new-construction-homes-2026` - New 2,000+ word buyer guide to new construction in Valrico FL. Covers: why new construction is scarce in Valrico (built-out suburb, no large undeveloped tracts), Valri Forest by Pulte Homes in 33594 (Heston Plan 1,850 sqft from $416,990, Carriage House from $533,990, final phase, Bloomingdale HS zone), Northwood Estates by Homes by WestBay in 33596 (Key Largo I 2,839 sqft from $531,990 to Madeira III 4,218 sqft at $624,990, no CDD, Newsome HS zone, 35 homesites), new vs resale price comparison (10% premium in 33594, 13% in 33596), CDD fee breakdown ($2,000/year = $50K over 25 years), builder incentives (rate buydowns, upgrades, extended rate locks, closing cost credits), why buyer's agent rep matters on new construction. Featured image: northwood-estates-valrico-westbay.jpg. Pillar: buyer. **Seed route at /api/seed-sep21-new-construction - call once on production to insert into Supabase.**
+
+2. `assumable-mortgage-valrico-fl-guide-2026` - New 2,100+ word buyer guide on assumable mortgages in Valrico FL. Covers: what assumable mortgages are (VA, FHA, USDA only), the rate gap math ($837/month savings on $350K at 2.75% vs 6.65%), identifying target homes (2020-2022 vintage, FHA/VA loan indicators), Roam/AssumeList/AssumeMyLoan platforms, equity gap math (blended ~4.0% rate on $430K purchase vs single 6.65% loan saves $173/month), 5-step assumption process (45-90 day timeline), VA entitlement considerations for Valrico/MacDill area veterans, neighborhood targeting (Twin Lakes, Copper Ridge, Wellington, Brentwood Hills), decision framework (assume vs new loan), Hillsborough County FHA loan limit $541,287. Featured image: rates-hit-6-75-percent-fall-2026-valrico-mortgage-guide.jpg. Pillar: buyer. **Seed route at /api/seed-sep21-assumable-mortgage - call once on production to insert into Supabase.**
+
+3. `what-does-400000-buy-in-valrico-fl-by-neighborhood-2026` - New 1,800+ word neighborhood-by-neighborhood breakdown of what $400K buys in Valrico. Covers: Bloomingdale 33594 (1,900-2,200 sqft at $185-200/sqft, screened pool available, Bloomingdale HS), Twin Lakes/Copper Ridge 33594 (2,000-2,350 sqft at $175-195/sqft), Buckhorn 33596 (1,700-2,000 sqft at $200-215/sqft, Newsome HS entry point), River Hills/Diamond Hill 33596 (below market floor, min ~$450K+), Brandon 33511 (2,100-2,500 sqft at $168-190/sqft, more sqft per dollar), Riverview 33578/79 (2,100-2,700 sqft at $155-185/sqft but CDD $1,500-$3,500/year), school zone premium analysis ($70K-$90K gap between 33594 and 33596), CDD/HOA comparison, pool home availability ($25K-$35K premium vs $60K-$80K to add post-close). No featured image (no matching image in repo). Pillar: buyer. **Seed route at /api/seed-sep21-what-400k-buys - call once on production to insert into Supabase.**
+
+---
+
 ## 2026-09-20
 
 **3 blog posts added:**
