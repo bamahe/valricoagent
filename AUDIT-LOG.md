@@ -1,5 +1,13 @@
 # SEO Audit Log
 
+## 2026-09-22
+
+**1 blog post added:**
+
+1. `valrico-fl-vs-wesley-chapel-fl-where-to-buy-2026` - New 2,100+ word neighboring communities comparison post. Valrico vs Wesley Chapel side-by-side for Tampa Bay homebuyers. Covers: September 2026 pricing data (Valrico 33594 median $378K / 33596 median $469K / Wesley Chapel $437K-$455K), days on market comparison (Valrico 28-32 days vs Wesley Chapel 52-123 days), school zone premium analysis (Newsome HS vs Wiregrass Ranch HS), CDD fee breakdown for Wesley Chapel communities (Epperson Ranch $2,800-$3,400/yr, Wiregrass Ranch area $2,400-$3,500/yr, 25-year cost math = $75K added carrying cost), commute realities (I-75 vs SR 60, MacDill AFB distance), what $450K buys in each market, new construction availability (Wesley Chapel has abundant new construction; Valrico limited to 2 builders), long-term appreciation floor analysis (Newsome zone premium as demand floor vs Wesley Chapel inventory overhang in Epperson Ranch). 5 FAQs. Featured image: bloomingdale-stone-brick-estate-palm-trees-valrico.jpg (already in /public/images). Pillar: comparison. External links: Redfin Valrico, Movoto Wesley Chapel. Internal links: /valrico-school-zones/, /blog/how-newsome-high-school-zone-impacts-valrico-home-values/, /blog/valrico-fl-new-construction-homes-2026/, /blog/valrico-fl-real-estate-market-report-q3-2026/, /blog/valrico-vs-brandon-vs-lithia-where-to-buy-in-east-hillsborough-2026/, /blog/valrico-vs-riverview-for-families/, /valrico-fl-homes-for-sale/. **Seed route at /api/seed-sep22-valrico-vs-wesley-chapel - call once on production to insert into Supabase.**
+
+---
+
 ## 2026-09-21
 
 **3 blog posts added:**
