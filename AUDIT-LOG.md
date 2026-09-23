@@ -1,5 +1,11 @@
 # SEO Audit Log
 
+## 2026-09-23
+
+**1 blog post added:**
+
+1. `valrico-fl-vs-lutz-fl-where-to-buy-2026` - ~1,700-word Valrico vs Lutz comparison covering fall 2026 price data ($379K-$469K Valrico vs $492K Lutz), school zones (Newsome vs Steinbrenner), Cheval vs River Hills gated golf communities, commute corridors (east vs north Tampa), HOA/CDD reality, county-line Pasco/Hillsborough verification, head-to-head buyer decision framework. Seed route: /api/seed-sep22-valrico-vs-lutz. Featured image: lutz-fl-real-estate-market-2026.jpg. FAQs, internal/external links, schema_type FAQPage.
+
 ## 2026-09-22
 
 **1 blog post added:**
