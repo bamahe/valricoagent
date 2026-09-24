@@ -193,39 +193,52 @@ Use the search form on [ValricoAgent.com](https://valricoagent.com) to browse cu
 *Data sources: Zillow Valrico market data September 2026, Redfin Hillsborough County market overview, MoveWithMomentum Hillsborough County Market Scorecard, Pinellas Realtor Organization STAR Report June 2026, and FRED Housing Inventory data for Hillsborough County FL.*`;
 
 export async function GET() {
-  const supabase = getServiceClient();
+  const sb = getServiceClient();
 
-  const postData = {
-    slug: SLUG,
-    title: META.title,
-    excerpt: META.excerpt,
-    content: CONTENT,
-    featured_image: META.featured_image,
-    featured_image_alt: META.featured_image_alt,
-    published_at: META.publish_date,
-    meta_title: META.meta_title,
-    meta_description: META.meta_description,
-    focus_keyword: META.focus_keyword,
-    secondary_keywords: META.secondary_keywords,
-    schema_type: META.schema_type,
-    faq_data: META.faq_data,
-    tags: META.tags,
-    pillar: META.pillar,
-    cta_type: META.cta_type,
-    related_slugs: META.related_slugs,
-    is_published: true,
-  };
-
-  const { data, error } = await supabase
+  const { data: existing } = await sb
     .from('blog_posts')
-    .upsert(postData, { onConflict: 'slug' })
+    .select('id')
+    .eq('slug', SLUG)
+    .single();
+
+  if (existing) {
+    return NextResponse.json({ status: 'already_exists', slug: SLUG });
+  }
+
+  const wordCount = CONTENT.split(/\s+/).length;
+  const readingTime = Math.ceil(wordCount / 250);
+
+  const { data, error } = await sb
+    .from('blog_posts')
+    .insert({
+      slug: SLUG,
+      title: META.title,
+      excerpt: META.excerpt,
+      content: CONTENT,
+      pillar: META.pillar,
+      tags: META.tags,
+      meta_title: META.meta_title,
+      meta_description: META.meta_description,
+      focus_keyword: META.focus_keyword,
+      secondary_keywords: META.secondary_keywords,
+      schema_type: META.schema_type,
+      faq_data: META.faq_data,
+      featured_image: META.featured_image,
+      featured_image_alt: META.featured_image_alt,
+      status: 'published',
+      publish_date: META.publish_date,
+      cta_type: META.cta_type,
+      related_slugs: META.related_slugs,
+      word_count: wordCount,
+      reading_time: readingTime,
+    })
     .select()
     .single();
 
   if (error) {
-    console.error('Error seeding post:', error);
-    return NextResponse.json({ error: error.message }, { status: 500 });
+    console.error('Seed error:', error);
+    return NextResponse.json({ status: 'error', error: error.message }, { status: 500 });
   }
 
-  return NextResponse.json({ success: true, post: data });
+  return NextResponse.json({ status: 'seeded', slug: SLUG, id: data.id });
 }
