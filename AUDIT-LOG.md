@@ -1,5 +1,15 @@
 # SEO Audit Log
 
+## 2026-09-28
+
+**2 blog posts added:**
+
+1. `property-taxes-in-valrico-fl-and-hillsborough-county` - New ~1,300-word foundational guide to property taxes for Valrico FL homeowners and buyers. Covers: Hillsborough County millage rate (18-20 mills, no city tax layer for unincorporated Valrico), homestead exemption mechanics (up to $50K, saves ~$950/yr, March 1 deadline), Save Our Homes 3% annual cap and tax shock reset at sale, portability reference link, CDD assessments (which Valrico neighborhoods have CDDs vs CDD-free), tax estimates by price point ($350K to $600K), Florida Amendment 3 November 2026 ballot reference, and tax appeal process (Value Adjustment Board, September 15 deadline). Featured image: bloomingdale-brick-home-columned-entry-valrico.jpg. Pillar: buyer. **Seed route at /api/seed-sep27-property-taxes - call once on production to insert into Supabase.**
+
+2. `valrico-vs-brandon-vs-lithia-where-to-buy-in-east-hillsborough-2026` - New ~1,300-word comparison guide covering all three East Hillsborough County markets. Price comparison table ($275K-$420K Brandon / $365K-$515K Valrico / $425K-$650K FishHawk), school zone breakdown (Newsome HS from eastern Valrico and FishHawk, Brandon varies), total monthly cost at $450K (Brandon no HOA $3,500/mo vs FishHawk with HOA+CDD $4,010/mo), lot size comparison (Valrico has largest lots), commute times to Tampa and Lakeland, new construction availability (FishHawk only), community character, investment/resale dynamics, and decision framework for each buyer type. Featured image: bloomingdale-street-sign-valrico.jpg. Pillar: comparison. **Seed route at /api/seed-sep27-valrico-vs-brandon-lithia - call once on production to insert into Supabase.**
+
+---
+
 ## 2026-09-23
 
 **1 blog post added:**
