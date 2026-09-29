@@ -1,5 +1,15 @@
 # SEO Audit Log
 
+## 2026-09-29
+
+**2 blog posts added:**
+
+1. `valrico-sr60-widening-community-plan-real-estate-impact` - New 1,700+ word guide to the SR-60 widening project and Valrico Community Plan. Covers: FDOT widening SR-60 from Valrico Road to Dover Road from 4 to 6 lanes (Level of Service F, 12% over capacity), construction timeline reality (18-36 months), how road widening affects adjacent vs nearby properties (direct adjacency discount vs broader access premium), Valrico Community Plan adopted Nov 13 2025 (effective Jan 1 2026) - what it means for neighborhood protection from incompatible development, commercial node guidance for SR-60/Bloomingdale Ave, development pipeline (no specific proposals yet at formal review stage), practical buyer/seller takeaways. 5 FAQs. Featured image: roads/valrico-fl-sr-60-brandon-blvd-corridor.jpg (unused). Pillar: market. CTA: buyer. **Seed route at /api/seed-sep29-sr60-community-plan - call once on production to insert into Supabase.**
+
+2. `valrico-fl-price-per-square-foot-by-neighborhood-2026` - New 1,800+ word neighborhood price-per-sqft analysis for fall 2026. Covers: September 2026 market baseline (239 active listings, $212 median $/sqft, $423,764 avg home value, 67 DOM, down 1-2% YoY); 33596 vs 33594 ZIP breakdown ($225-$235 vs $190-$205 $/sqft and why); neighborhood-level data for Diamond Hill ($230-$250), River Hills ($225-$245), Bloomingdale core ($220-$240), Brentwood Hills ($215-$228), Twin Lakes ($210-$225), Buckhorn ($205-$225 with CDD caveat), 33594 subdivisions ($190-$208); four premium drivers (school zone, lot quality, renovation, CDD status); how to use data when buying (spot above/below-market pricing); how to use data when selling (right-price strategy in 67-day DOM environment). Featured image: neighborhoods/diamond-hill-valrico-fl-entrance.jpg (unused). Pillar: market. CTA: valuation. **Seed route at /api/seed-sep29-price-per-sqft - call once on production to insert into Supabase.**
+
+---
+
 ## 2026-09-28
 
 **2 blog posts added:**
