@@ -1,5 +1,15 @@
 # SEO Audit Log
 
+## 2026-09-30
+
+**2 blog posts added:**
+
+1. `valrico-fl-real-estate-market-update-november-2026` - New 1,700+ word November 2026 market update for Valrico FL. Covers: seasonal inventory tightening (33594 ~95-110 active listings down from 110-130 in October; 33596 ~35-45), mortgage rates at 6.3-6.5% following October FOMC 25bp cut, price data by ZIP (33594 median $378K-$383K flat YoY; 33596 $469K-$475K outperforming broader Hillsborough County at -2% to -4% YoY), days-on-market tightening from 57-73 day summer peak to 45-55 days entering November, Florida Amendment 3 property tax impact ($1,400-$1,800/yr savings if passed), seller concession patterns ($5K-$10K closing credits, 2-1 buydowns, repair credits), December buyer profile (relocations, Newsome zone families, lease-end buyers), and Q1 2027 market preview. 5 FAQs. Featured image: bloomingdale-brick-home-palm-landscaping-valrico.jpg. Pillar: market. CTA: market-report. **Seed route at /api/seed-sep30-november-market-update - call once on production to insert into Supabase.**
+
+2. `valrico-fl-year-end-home-selling-guide-december-2026` - New 1,900+ word year-end selling strategy guide for Valrico FL homeowners targeting a December 31, 2026 close. Covers: contract-to-close calendar math (need accepted contract by Nov 14-21 to close Dec 31, must be listed by Nov 1-7), IRS Section 121 capital gains exclusion ($250K single / $500K married, how closing date affects tax year), December buyer psychology (relocation employees, Newsome zone school families, lease-end buyers), eight-week pre-listing preparation plan (deferred maintenance, neutral paint, professional photography), pricing strategy (96-98% sale-to-list for correctly priced listings, why overpricing accumulates days-on-market stigma), Q1 2027 re-list risk analysis (carrying cost calculation $2,600-$2,800/month, January inventory competition, days-on-market stigma), and decision framework for year-end vs spring re-list. 5 FAQs. Featured image: bloomingdale-modern-white-ranch-estate-valrico.jpg. Pillar: seller. CTA: seller. **Seed route at /api/seed-sep30-year-end-selling-guide - call once on production to insert into Supabase.**
+
+---
+
 ## 2026-09-29
 
 **2 blog posts added:**
