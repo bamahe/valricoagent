@@ -1,5 +1,15 @@
 # SEO Audit Log
 
+## 2026-10-05
+
+**2 blog posts added:**
+
+1. `valrico-fl-screened-pool-homes-buyers-guide-2026` - New 1,800+ word buyer guide to screened pool homes in Valrico FL. Covers: current pool home prices by ZIP (33594 pool homes $365K-$540K, 33596 $415K-$750K+), which neighborhoods have the most pool homes (Bloomingdale majority, Twin Lakes, River Hills near-universal), how a pool affects value ($20K-$50K premium for well-maintained, subtracts value if in poor condition), why adding post-purchase costs $60K-$90K, screen enclosure evaluation checklist (frame corrosion, panel condition, door operation), replacement costs (rescreen $2,500-$7,000, full replacement $8,000-$25,000+), pool equipment red flags and lifespans, monthly ownership costs ($255-$520/month), hurricane deductible implications for screen enclosures, how to negotiate pool condition, and how to search for pool homes in Valrico. 5 FAQs. Featured image: pool-homes-valrico-fl-guide.jpg (downloaded from Google Drive). Pillar: buyer. CTA: buyer. **Seed route at /api/seed-oct05-pool-homes - call once on production to insert into Supabase.**
+
+2. `valrico-fl-homes-without-hoa-buyers-guide-2026` - New 1,900+ word buyer guide to no-HOA homes in Valrico FL. Covers: why no-HOA demand is high (6.3-6.5% rates make every cost line matter), the critical CDD vs HOA distinction (no-HOA listing can still have CDD), how to verify on property tax bill and title commitment, neighborhood-by-neighborhood breakdown (Brentwood Hills no HOA/no CDD $355K-$480K, Diamond Hill no HOA/no CDD 33596 Newsome zone $455K-$680K, Bloomingdale mixed no-fee sections $325K-$540K, Crestwood Estates $375K-$530K, Duncan Groves, Valrico Oaks/Hills), full monthly carrying cost comparison table (no-HOA $3,410/mo vs HOA+CDD $3,760/mo on $450K home = $4,200/yr savings), what you gain without HOA (no restrictions/no rental limits/no special assessment risk), what you give up, 5-step verification checklist, investment perspective, comparison to low-HOA alternatives. 5 FAQs. Featured image: bloomingdale-brick-home-valrico.jpg. Pillar: buyer. CTA: buyer. Publish date backdated to 2026-10-04. **Seed route at /api/seed-oct05-no-hoa-homes - call once on production to insert into Supabase.**
+
+---
+
 ## 2026-09-30
 
 **2 blog posts added:**
