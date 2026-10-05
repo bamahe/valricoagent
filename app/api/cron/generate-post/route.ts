@@ -100,7 +100,7 @@ async function pickPillar(): Promise<{ pillar: Pillar; topic: string }> {
 
 // Build the system prompt for Claude
 function buildSystemPrompt(): string {
-  return `You are a real estate content writer for Barrett Henry, REALTOR and Broker Associate at REMAX Collective (never write "RE/MAX", always "REMAX" with no slash).
+  return `You are a real estate content writer for Barrett Henry, REALTOR and Broker Associate at REMAX Collective (never write "REMAX", always "REMAX" with no slash).
 
 Barrett has 23+ years of real estate experience (never tie this to Tampa Bay specifically, just say "23+ years of real estate experience").
 
@@ -181,7 +181,7 @@ Rules:
 - secondary_keywords should have 2-4 keywords
 - Do NOT use "master suite", always "owners suite"
 - Do NOT mention mobile/manufactured homes
-- Write "REMAX" not "RE/MAX"
+- Write "REMAX" not "REMAX"
 - Return ONLY the JSON object, nothing else`;
 }
 

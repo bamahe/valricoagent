@@ -12,7 +12,7 @@ export const maxDuration = 60;
 
 // System prompt for the weekly roundup writer
 function buildSystemPrompt(): string {
-  return `You are a real estate content writer for Barrett Henry, REALTOR and Broker Associate at REMAX Collective (never write "RE/MAX", always "REMAX" with no slash).
+  return `You are a real estate content writer for Barrett Henry, REALTOR and Broker Associate at REMAX Collective (never write "REMAX", always "REMAX" with no slash).
 
 Barrett has 23+ years of real estate experience (never tie this to Tampa Bay specifically).
 
@@ -26,7 +26,7 @@ RULES:
 - NEVER mention mobile homes or manufactured homes
 - Personal brand (Barrett Henry) always takes priority
 - Write in plain English, no fluff, no AI-sounding transitions
-- Write "REMAX" not "RE/MAX"
+- Write "REMAX" not "REMAX"
 
 You output valid JSON only. No markdown fencing, no commentary outside the JSON.`;
 }
@@ -65,7 +65,7 @@ Rules:
 - The slug must be unique and URL-safe
 - Do NOT use "master suite", always "owners suite"
 - Do NOT mention mobile/manufactured homes
-- Write "REMAX" not "RE/MAX"
+- Write "REMAX" not "REMAX"
 - Return ONLY the JSON object, nothing else`;
 }
 

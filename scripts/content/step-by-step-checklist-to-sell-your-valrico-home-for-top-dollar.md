@@ -45,7 +45,7 @@ I hire a professional photographer for every listing I take. No exceptions.
 
 ## Phase 3: Active Marketing (Weeks 1 to 4)
 
-**MLS syndication** to Zillow, Realtor.com, Redfin, RE/MAX.com, and every major portal. This is the baseline.
+**MLS syndication** to Zillow, Realtor.com, Redfin, REMAX.com, and every major portal. This is the baseline.
 
 **Social media targeted advertising.** I run paid ads on Facebook and Instagram targeting specific demographics: people relocating to Tampa Bay, families with school-age children, military families (MacDill AFB), and buyers in the $400K to $600K range shopping in East Hillsborough. This puts your listing in front of qualified buyers, not random browsers.
 
