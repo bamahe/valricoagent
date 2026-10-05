@@ -197,7 +197,7 @@ Yes, because school zone membership directly affects your resale buyer pool. Whe
 
 ---
 
-*Barrett Henry is a Broker Associate at REMAX Collective with 24+ years of real estate experience in Valrico and east Hillsborough County. For school zone verification and neighborhood-specific analysis, call (813) 733-7907.*
+*Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience in Valrico and east Hillsborough County. For school zone verification and neighborhood-specific analysis, call (813) 733-7907.*
 
 *Sources: [Hillsborough County School District](https://www.sdhc.k12.fl.us/), [Niche Newsome High School profile](https://www.niche.com/k12/newsome-high-school-lithia-fl/), [Zillow Valrico market data](https://www.zillow.com/valrico-fl/home-values/)*`;
 

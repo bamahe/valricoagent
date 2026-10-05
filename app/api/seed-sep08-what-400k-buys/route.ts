@@ -219,7 +219,7 @@ Here is the simplified version for buyers at this price point:
 
 **Worst value at $400,000:** River Hills or Diamond Hill in 33596. The budget simply does not reach the standard product there.
 
-Understanding exactly what your budget reaches in each neighborhood requires looking at active inventory, recent closings, and neighborhood-specific trends -- all of which shift month to month. For current data on what is available in your price range and ZIP code in Valrico, contact Barrett Henry, Broker Associate at REMAX Collective, at [(813) 733-7907](tel:+18137337907). With 24+ years of real estate experience and deep local market knowledge, Barrett can walk you through what is available right now and help you avoid the comparison traps that catch budget-conscious buyers.
+Understanding exactly what your budget reaches in each neighborhood requires looking at active inventory, recent closings, and neighborhood-specific trends -- all of which shift month to month. For current data on what is available in your price range and ZIP code in Valrico, contact Barrett Henry, Broker Associate at REMAX Collective, at [(813) 733-7907](tel:+18137337907). With 23+ years of real estate experience and deep local market knowledge, Barrett can walk you through what is available right now and help you avoid the comparison traps that catch budget-conscious buyers.
 
 You can also [browse current homes for sale in Valrico](/valrico-fl-homes-for-sale/), [view Bloomingdale neighborhood details](/neighborhoods/bloomingdale/), or [explore how the Newsome zone impacts home values](/blog/how-newsome-high-school-zone-impacts-valrico-home-values/) to start narrowing your search.
 
@@ -239,7 +239,7 @@ At $400,000 in Brandon 33511, you typically get 2,100 to 2,500 square feet at $1
 
 ---
 
-*Barrett Henry is a Broker Associate at REMAX Collective with 24+ years of real estate experience. For neighborhood-specific buyer analysis in Valrico 33594 and 33596, contact Barrett at (813) 733-7907.*
+*Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience. For neighborhood-specific buyer analysis in Valrico 33594 and 33596, contact Barrett at (813) 733-7907.*
 
 *Data sources: [Zillow Valrico FL market data](https://www.zillow.com/valrico-fl/home-values/), [Redfin Valrico FL](https://www.redfin.com/city/19302/FL/Valrico), [Hillsborough County Property Appraiser](https://www.hcpafl.org/)*`;
 

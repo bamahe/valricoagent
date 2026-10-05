@@ -77,7 +77,7 @@ export default function Homes33596() {
         <Image src="/barrett-henry.png" alt="Barrett Henry REALTOR Broker Associate REMAX Collective Valrico FL" width={72} height={72} style={{borderRadius:'50%',flexShrink:0}} />
         <div>
           <p className="font-semibold mb-1" style={{color:'var(--ink)'}}>Barrett Henry, REALTOR&reg; &bull; Broker Associate &bull; REMAX Collective</p>
-          <p className="text-sm leading-relaxed mb-2" style={{color:'var(--ink-soft)'}}>24+ years of real estate experience. e-PRO, MRP, SRS designations. Covering every street in 33596 including Bloomingdale, River Hills, Buckhorn, and Twin Lakes. Free 15-minute consultation.</p>
+          <p className="text-sm leading-relaxed mb-2" style={{color:'var(--ink-soft)'}}>23+ years of real estate experience. e-PRO, MRP, SRS designations. Covering every street in 33596 including Bloomingdale, River Hills, Buckhorn, and Twin Lakes. Free 15-minute consultation.</p>
           <a href="tel:8137337907" className="text-sm font-semibold no-underline" style={{color:'var(--accent)'}}>(813) 733-7907</a>
         </div>
       </div>
@@ -90,7 +90,7 @@ export default function Homes33596() {
 
       <div className="mt-10 p-6 rounded-md text-center" style={{background:'var(--cream-warm)'}}>
         <h3 className="font-serif text-lg mb-2">Ready to explore 33596 homes?</h3>
-        <p className="text-sm mb-4" style={{color:'var(--ink-soft)'}}>Barrett Henry, REALTOR&reg; &bull; Broker Associate &bull; REMAX Collective &bull; 24+ years of real estate experience</p>
+        <p className="text-sm mb-4" style={{color:'var(--ink-soft)'}}>Barrett Henry, REALTOR&reg; &bull; Broker Associate &bull; REMAX Collective &bull; 23+ years of real estate experience</p>
         <a href="tel:8137337907" className="btn-solid mr-2">(813) 733-7907</a>
         <a href="mailto:barrett@nowtb.com" className="btn-ghost">Email Barrett</a>
       </div>

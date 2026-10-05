@@ -224,7 +224,7 @@ Whether you are targeting River Hills or Arista, here is what to verify before m
 
 ## Working With a Local Expert
 
-Barrett Henry is a Broker Associate at REMAX Collective with 24+ years of real estate experience who has represented buyers and sellers in River Hills and Arista transactions. Barrett can pull every closed sale, pending sale, and active listing in both communities, walk you through the HOA documents, discuss golf membership options, and analyze lot-specific considerations before you make a decision.
+Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience who has represented buyers and sellers in River Hills and Arista transactions. Barrett can pull every closed sale, pending sale, and active listing in both communities, walk you through the HOA documents, discuss golf membership options, and analyze lot-specific considerations before you make a decision.
 
 For current market conditions, see our [Valrico FL Q3 2026 real estate market report](/blog/valrico-fl-real-estate-market-report-q3-2026/) and the [Arista gated community Valrico FL buyer's guide](/blog/arista-gated-community-valrico-fl-buyers-guide/) for more detail on Arista specifically.
 
@@ -258,7 +258,7 @@ River Hills is larger, with multiple neighborhood sections and an 18-hole semi-p
 
 ---
 
-*Barrett Henry is a Broker Associate at REMAX Collective with 24+ years of real estate experience specializing in Valrico, Brandon, and east Hillsborough County. For River Hills and Arista listings, comparable sales data, and a guided tour of either community, call (813) 733-7907.*
+*Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience specializing in Valrico, Brandon, and east Hillsborough County. For River Hills and Arista listings, comparable sales data, and a guided tour of either community, call (813) 733-7907.*
 
 *Sources: Hillsborough County Property Appraiser ([hcpa.net](https://www.hcpafl.org/)), Redfin River Hills market data, Zillow Valrico 33596 market trends, Hillsborough County Public Schools boundary locator ([hcps.net](https://www.hcps.net/))*`;
 
