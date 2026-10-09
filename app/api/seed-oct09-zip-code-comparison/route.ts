@@ -73,7 +73,7 @@ const META = {
     },
   ],
   publish_date: '2026-10-09T10:00:00.000Z',
-  cta_type: 'home_search',
+  cta_type: 'buyer',
   featured_image: '/images/bloomingdale-brick-home-valrico.jpg',
   featured_image_alt:
     'Brick single-family home in Bloomingdale area of Valrico FL 33596, representing the premium ZIP code in the October 2026 market comparison between 33594 and 33596',
