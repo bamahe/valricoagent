@@ -1,5 +1,15 @@
 # SEO Audit Log
 
+## 2026-10-10
+
+**1 blog post added:**
+
+1. `valrico-fl-investment-property-cap-rates-cash-flow-q4-2026` - New 1,900+ word investor-grade analysis of Valrico FL buy-and-hold rental property math in Q4 2026. Covers: gross rent yields by ZIP (33594 at 8.0% gross = $2,453/mo median rent on $368K median; 33596 at 7.3% gross = $2,775/mo on $458K), true cap rates after full operating expense breakdown (property taxes at 1.0%, Hillsborough non-homestead insurance $3,800-$4,150, 10% management, 6% maintenance, 5% vacancy = 4.1% cap in 33594 / 3.7% in 33596), cash flow scenarios at 7.50% investor financing (25% down = negative $666/mo, 40% down = negative $280/mo, break-even requires 48-50% down), rate sensitivity table showing break-even still not achieved even at 5.00% with 25% down, value-add opportunity in 33594 ($305K purchase + $30K rehab = ~5.0% cap on cost), total return thesis (4.1% cap + 3.7% appreciation = 7.8% all-cash return), STR vs long-term context with 2027 Hillsborough ordinance risk, and three investor profiles active in the market. 5 FAQs. Featured image: east-hillsborough-commercial-real-estate-2026.jpg. Pillar: investment. CTA: consultation. **Seed route at /api/seed-oct10-investment-property - call once on production to insert into Supabase.**
+
+Also recovered and pushed 6 orphaned commits from previous sessions (Oct 6-9 posts for seed-oct06 through seed-oct09) that were on a detached HEAD and had not been pushed to origin/main.
+
+---
+
 ## 2026-10-09
 
 **2 blog posts added:**
