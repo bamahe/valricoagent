@@ -1,5 +1,15 @@
 # SEO Audit Log
 
+## 2026-10-11
+
+**2 blog posts added:**
+
+1. `valrico-fl-vs-tampa-bay-regional-market-performance-2026` - New 1,800+ word data-driven comparison of Valrico vs the broader Tampa Bay metro in 2026. Covers: Tampa Bay metro down 4-6% YoY ($435K-$443K median, 5-7 months supply, 50%+ price cuts, 41-63 day DOM); Valrico 33594 down only 2.6% ($372K median, 2.5 months supply); blended Valrico flat to -1-2%; five structural drivers of outperformance (Newsome/Durant school zone demand floor, value positioning vs urban/coastal markets, lower speculative inventory, employment proximity without urban pricing, limited new construction competition); ZIP-by-ZIP breakdown (33594 $188-$210/sqft, 30-40 day DOM; 33596 premium tier $450K-$480K median, 35-55 day DOM for core range, 65-90 for upper tier); comparisons to Riverview/Brandon (-4-5%), Wesley Chapel (deeper Pasco corrections), South Tampa; buyer and seller strategy given relative outperformance. 5 FAQs. Featured image: rates-hit-7-percent-tampa-bay-market-reality-check.jpg. Pillar: market. CTA: market-report. Publish date: 2026-10-10. **Seed route at /api/seed-oct11-valrico-vs-tampa-bay - call once on production to insert into Supabase.**
+
+2. `valrico-fl-spring-2027-buying-season-what-to-expect` - New 1,900+ word spring 2027 preview for Valrico FL buyers and sellers. Covers: October 2026 baseline (172 active listings, 2.5 months supply, 6.6-6.7% rates, 30-45 day DOM core range, 65-90 day upper tier); three spring demand drivers (school calendar effect, seasonal listing release, tax refund/bonus cycle); rate projection scenarios (6.0-6.2% = competitive spring with 25-35 day DOM; 6.5-6.7% = moderate seasonal firming); inventory math (130-155 listings entering January, spring adds 200-260 new listings, supply tightens in 33596 school zone); neighborhood-level spring outlook (River Hills improving to 45-65 day DOM; Bloomingdale core $380K-$460K in 35-50 days; Twin Lakes/Copper Ridge $330K-$390K active first-time buyer demand; Crestwood Estates new construction 8-12 month lead time); pre-spring buyer action plan (full pre-approval before December, active neighborhood touring now, better concessions in Nov-Jan than spring); seller preparation plan (begin home prep November-December for February-March list date, price to current comps not spring optimism, pre-listing inspection in November). 5 FAQs. Featured image: bloomingdale-cape-cod-estate-valrico.jpg. Pillar: buyer. CTA: buyer. Publish date: 2026-10-10. **Seed route at /api/seed-oct11-spring-2027-preview - call once on production to insert into Supabase.**
+
+---
+
 ## 2026-10-10
 
 **1 blog post added:**
