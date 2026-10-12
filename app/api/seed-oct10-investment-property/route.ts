@@ -11,7 +11,7 @@ const META = {
     'Valrico FL Investment Property in Q4 2026: Cap Rates, Cash Flow Reality, and the Math Investors Need',
   excerpt:
     'An investor-grade breakdown of Valrico FL buy-and-hold rental property math in Q4 2026: gross rent yields of 7.3% to 8.0%, true cap rates after insurance and taxes, cash flow scenarios at 7.50% investor financing, and the total return case for a Tampa Bay suburb at current prices.',
-  pillar: 'investment',
+  pillar: 'buyer',
   tags: [
     'investment property',
     'Valrico FL',
