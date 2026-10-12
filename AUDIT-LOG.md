@@ -1,5 +1,15 @@
 # SEO Audit Log
 
+## 2026-10-12
+
+**1 blog post added:**
+
+1. `valrico-fl-pre-listing-guide-spring-2027` - New 2,000+ word complete pre-listing preparation timeline for Valrico FL sellers targeting a spring 2027 listing. Covers: why spring 2027 is worth preparing for now (February 15 to April 30 peak window, $2-$5 ROI per $1 spent on preparation); October to November 2026 pre-listing audit (roof age, HVAC, electrical, kitchen finishes, exterior maintenance); high-ROI improvements in priority order (exterior paint $2,800-$4,500 at 3-5x ROI; interior paint $3,000-$5,500 at 2.5-4x ROI; kitchen refresh $3,500-$8,000 at 2-3.5x ROI; master bath refresh $2,500-$4,500 at 2-3x ROI; roof replacement non-negotiable at 20+ years, $12,000-$22,000); January 2027 deep clean ($350-$650) and staging ($250-$5,000); February 2027 professional photography ($300-$900) and listing launch; spring 2027 pricing strategy (price within 2% of highest defensible comp, 33594 vs 33596 pricing notes, do not use Zillow Zestimate); Q4 2026 vs spring timing decision framework. 5 FAQs. Featured image: bloomingdale-brick-home-columned-entry-valrico.jpg. Pillar: seller. CTA: seller. Publish date: 2026-10-11. **Seed route at /api/seed-oct12-pre-listing-spring-2027 - call once on production to insert into Supabase.**
+
+Also recovered and merged 9 orphaned commits from previous sessions (Oct 6-11 posts for seed-oct06 through seed-oct11) that were on a detached HEAD and had not been pushed to origin/main.
+
+---
+
 ## 2026-10-11
 
 **2 blog posts added:**
