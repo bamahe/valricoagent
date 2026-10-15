@@ -9,7 +9,6 @@
 2. `valrico-vs-gibsonton-2026` - New 1,700+ word market comparison: Valrico FL vs Gibsonton FL for 2026. Covers: median price gap ($390K-$430K Valrico vs $318K-$340K Gibsonton, $70K-$110K difference); Gibsonton pricing drivers (older stock, industrial-adjacent character, flood zone risk, East Bay HS zone vs Bloomingdale HS zone); days on market (35-55 days Valrico vs 41-55 days Gibsonton); YoY price decline in Gibsonton (down 4-7%); price per sqft ($175-$220 Valrico vs $170-$200 Gibsonton); what $350K buys in each market; commute comparison (Valrico 18-25mi east via I-4/SR-60, Gibsonton 15-20mi south via US-41/I-75 -- Gibsonton better for MacDill AFB/south Tampa commuters); flood zone due diligence notes; pros/cons lists for each market; investment case for each. Featured image: gibsonton-fl-real-estate-market-2026.jpg (already in repo). 5 FAQs. Pillar: comparison. CTA: buyer. Publish date: 2026-10-14. **Seed route at /api/seed-oct14-valrico-vs-gibsonton - call once on production to insert into Supabase.**
 
 ---
-
 ## 2026-10-13
 
 **2 blog posts added:**
