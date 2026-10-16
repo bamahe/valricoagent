@@ -1203,7 +1203,7 @@ const META: Record<string, {
     schema_type: 'Article',
     faq_data: [],
     publish_date: '2026-10-13T14:00:00.000Z',
-    cta_type: 'market',
+    cta_type: 'market-report',
     featured_image: '/images/bloomingdale-brick-home-palm-landscaping-valrico.jpg',
     featured_image_alt: 'Bloomingdale brick home with palm tree landscaping in Valrico FL representing the October 2026 real estate market',
   },
