@@ -1,7 +1,12 @@
-'use client';
+// Server component. This page has no state, effects or event handlers,
+// so 'use client' only shipped its static markup to the browser as JS.
+// Interactive children (forms, search) carry their own 'use client'.
 import Image from 'next/image';
 import Link from 'next/link';
 import { ContactForm } from '../components/ContactForm';
+import Breadcrumbs, { breadcrumbSchema } from '../components/Breadcrumbs';
+
+const CRUMBS = [{ name: 'Best Realtor in Valrico', href: '/best-realtor-in-valrico/' }];
 
 export default function BestRealtorInValrico() {
   /* JSON-LD structured data: RealEstateAgent + FAQPage */
@@ -40,7 +45,7 @@ export default function BestRealtorInValrico() {
           "name": "Who is the best realtor in Valrico?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Barrett Henry is consistently rated one of the best realtors in Valrico FL. He is a Broker Associate with REMAX Collective, holds e-PRO, MRP, and SRS designations, has 23+ years of real estate experience, 50+ five-star reviews, and covers all 38 Valrico neighborhoods across ZIP codes 33594 and 33596."
+            "text": "Barrett Henry is consistently rated one of the best realtors in Valrico FL. He is a Broker Associate with REMAX Collective, holds e-PRO, MRP, and SRS designations, has 23+ years of real estate experience, 50+ five-star reviews, and covers all 41 Valrico neighborhoods across ZIP codes 33594 and 33596."
           }
         },
         {
@@ -65,6 +70,11 @@ export default function BestRealtorInValrico() {
 
   return (
     <>
+      <Breadcrumbs items={CRUMBS} />
+
+      {/* BreadcrumbList JSON-LD, mirrors the visible trail above */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema(CRUMBS)) }} />
+
       {/* Hero section */}
       <div style={{ background: 'var(--blue-deep)' }} className="text-white py-16 px-7">
         <div className="max-w-[1140px] mx-auto">
@@ -104,8 +114,8 @@ export default function BestRealtorInValrico() {
           <Image src="/images/neighborhoods/river-hills-golf-country-club-valrico-fl-entrance.jpg" alt="River Hills golf country club Valrico FL best REALTOR" fill className="object-cover" sizes="(max-width:768px) 100vw, 1140px" />
         </div>
 
-        {/* 38 neighborhoods */}
-        <h2 className="font-serif text-2xl mt-10" style={{ color: 'var(--ink)' }}>38 Valrico neighborhoods covered</h2>
+        {/* 41 neighborhoods */}
+        <h2 className="font-serif text-2xl mt-10" style={{ color: 'var(--ink)' }}>41 Valrico neighborhoods covered</h2>
         <p className="text-[15px] leading-[1.8]">
           Barrett covers every subdivision in ZIP codes 33594 and 33596: <Link href="/neighborhoods/bloomingdale/" className="no-underline" style={{ color: 'var(--accent)' }}>Bloomingdale</Link> (5,200+ homes, 32+ sub-neighborhoods), <Link href="/neighborhoods/river-hills/" className="no-underline" style={{ color: 'var(--accent)' }}>River Hills</Link> (gated golf community, $400K-$800K+), <Link href="/neighborhoods/diamond-hill/" className="no-underline" style={{ color: 'var(--accent)' }}>Diamond Hill</Link> (gated golf, $350K-$550K+), <Link href="/neighborhoods/buckhorn/" className="no-underline" style={{ color: 'var(--accent)' }}>Buckhorn/Boyette</Link> (Newsome HS zone), <Link href="/neighborhoods/twin-lakes/" className="no-underline" style={{ color: 'var(--accent)' }}>Twin Lakes</Link>, <Link href="/neighborhoods/brentwood-hills/" className="no-underline" style={{ color: 'var(--accent)' }}>Brentwood Hills</Link>, <Link href="/neighborhoods/crestwood-estates/" className="no-underline" style={{ color: 'var(--accent)' }}>Crestwood Estates</Link>, Canterbury Oaks, Bent Tree Estates, Crosby Crossings, Duncan Groves, and many more. Plus bordering areas: FishHawk Ranch (Lithia), Brandon, Riverview, and Plant City.
         </p>
@@ -152,7 +162,7 @@ export default function BestRealtorInValrico() {
           <div>
             <p className="font-semibold text-sm" style={{ color: 'var(--ink)' }}>Barrett Henry, REALTOR® | Broker Associate, REMAX Collective</p>
             <p className="text-xs mt-0.5" style={{ color: 'var(--ink-soft)' }}>Licensed 2003 | Broker Associate since 2017 | e-PRO, MRP, SRS | 23+ years of real estate experience</p>
-            <p className="text-xs mt-1" style={{ color: 'var(--ink-soft)' }}>417 Lithia Pinecrest Rd, Brandon, FL 33511 | Serving all 38+ Valrico neighborhoods</p>
+            <p className="text-xs mt-1" style={{ color: 'var(--ink-soft)' }}>417 Lithia Pinecrest Rd, Brandon, FL 33511 | Serving all 41+ Valrico neighborhoods</p>
             <a href="tel:8137337907" className="text-xs font-semibold no-underline mt-1 inline-block" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>
           </div>
         </div>
@@ -181,7 +191,7 @@ export default function BestRealtorInValrico() {
         <h2 className="font-serif text-2xl mt-10" style={{ color: 'var(--ink)' }}>Frequently asked questions</h2>
         <div className="space-y-4 mt-4">
           {[
-            ['Who is the best realtor in Valrico?', 'Barrett Henry is consistently rated one of the best realtors in Valrico FL. He is a Broker Associate with REMAX Collective, holds e-PRO, MRP, and SRS designations, has 23+ years of real estate experience, 50+ five-star reviews, and covers all 38 Valrico neighborhoods across ZIP codes 33594 and 33596.'],
+            ['Who is the best realtor in Valrico?', 'Barrett Henry is consistently rated one of the best realtors in Valrico FL. He is a Broker Associate with REMAX Collective, holds e-PRO, MRP, and SRS designations, has 23+ years of real estate experience, 50+ five-star reviews, and covers all 41 Valrico neighborhoods across ZIP codes 33594 and 33596.'],
             ['How do I choose a Valrico realtor?', 'Look for a realtor who specializes in Valrico specifically, not just Tampa Bay in general. Ask how many homes they have sold in Valrico, whether they know the sub-neighborhoods and school zones, and what designations they hold. A Broker Associate with local expertise will outperform a generalist agent every time.'],
             ['What does a Broker Associate mean?', 'A Broker Associate holds a Florida real estate broker license, a higher level of licensing than a standard sales associate. It requires additional coursework, more experience, and passing the broker exam. Barrett has held his Broker Associate license since 2017.'],
           ].map(([q, a]) => (

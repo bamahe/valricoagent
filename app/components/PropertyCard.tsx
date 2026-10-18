@@ -4,11 +4,13 @@
  */
 
 import Link from 'next/link';
-import { formatPrice, formatSqft, getPrimaryPhoto, formatAddress, listingSlug, type BridgeListing } from '@/lib/bridge';
+import { formatPrice, formatSqft, getPrimaryPhoto, formatAddress, listingSlug, getDistressedLabel, type BridgeListing } from '@/lib/bridge';
 
 export default function PropertyCard({ listing }: { listing: BridgeListing }) {
   const photo = getPrimaryPhoto(listing);
   const address = formatAddress(listing);
+  // "Short Sale" / "Bank Owned / REO" / "Auction" / "Probate", or null
+  const distressed = getDistressedLabel(listing);
   // SEO-friendly URL: /property/2530-cross-more-street-valrico-fl-33596-TB8417278/
   const detailHref = `/property/${listingSlug(listing)}/`;
 
@@ -52,6 +54,18 @@ export default function PropertyCard({ listing }: { listing: BridgeListing }) {
             }}>
               <span className="material-icons" style={{ fontSize: 14, verticalAlign: 'middle', marginRight: 2 }}>photo_library</span>
               {listing.PhotosCount}
+            </span>
+          )}
+          {/* Distressed badge, sits under the status badge so both stay readable */}
+          {distressed && (
+            <span style={{
+              position: 'absolute', top: 38, left: 10,
+              background: distressed.color, color: '#fff',
+              fontSize: 11, fontWeight: 700,
+              padding: '3px 10px', borderRadius: 4,
+              textTransform: 'uppercase', letterSpacing: '.04em',
+            }}>
+              {distressed.label}
             </span>
           )}
           {/* Pool / Waterfront badges */}

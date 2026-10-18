@@ -38,7 +38,7 @@ const CONTENT = `Valrico and Plant City are 20 miles apart on I-4, but the two r
 
 For buyers choosing between the two, the decision comes down to four things: budget, commute, schools, and how you value land versus location. This post breaks all four down with current 2026 data.
 
-Barrett Henry is a Broker Associate at REMAX Collective with 23 years of experience in east Hillsborough County real estate. He works with buyers and sellers across the Valrico, Brandon, FishHawk, and surrounding markets daily.
+Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience and over a decade in east Hillsborough County. He works with buyers and sellers across the Valrico, Brandon, FishHawk, and surrounding markets daily.
 
 ## The Markets in Numbers: Side-by-Side
 

@@ -1,12 +1,22 @@
-'use client';
+// Server component. This page has no state, effects or event handlers,
+// so 'use client' only shipped its static markup to the browser as JS.
+// Interactive children (forms, search) carry their own 'use client'.
 import Link from 'next/link';
 import Image from 'next/image';
 import PropertySearch from '../components/PropertySearch';
 import { ContactForm } from '../components/ContactForm';
+import Breadcrumbs, { breadcrumbSchema } from '../components/Breadcrumbs';
+
+const CRUMBS = [{ name: 'Homes for Sale', href: '/valrico-fl-homes-for-sale/' }];
 
 export default function HomesForSale() {
   return (
     <>
+      <Breadcrumbs items={CRUMBS} />
+
+      {/* BreadcrumbList JSON-LD, mirrors the visible trail above */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema(CRUMBS)) }} />
+
       <div style={{background:'var(--blue-deep)'}} className="text-white py-16 px-7">
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{color:'rgba(255,255,255,.5)'}}>Search Valrico</div>

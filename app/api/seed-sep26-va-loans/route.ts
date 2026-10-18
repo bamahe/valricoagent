@@ -174,7 +174,7 @@ The buyer's market conditions entering fall 2026 work particularly well for VA b
 
 Not all real estate agents have meaningful VA transaction experience. The nuances of VA appraisals, VA addenda language, the VA escape clause, seller contribution rules, and MPR mitigation strategy require experience to navigate correctly.
 
-Barrett Henry, Broker Associate at REMAX Collective, has worked with VA buyers in Valrico and east Hillsborough County for over 23 years including clients from MacDill's operational, support, and contractor community. Barrett knows which Valrico neighborhoods present lower VA appraisal risk, how to structure offers that address seller concern about VA timelines, and how to use the current buyer's market conditions to achieve the strong negotiating position VA buyers deserve.
+Barrett Henry, Broker Associate at REMAX Collective, has worked with VA buyers in Valrico and east Hillsborough County for 23+ years of real estate experience, including clients from MacDill's operational, support, and contractor community. Barrett knows which Valrico neighborhoods present lower VA appraisal risk, how to structure offers that address seller concern about VA timelines, and how to use the current buyer's market conditions to achieve the strong negotiating position VA buyers deserve.
 
 To start your [VA home loan search in Valrico](/valrico-va-loan-homes/) or ask specific questions about how VA financing works for your situation, contact Barrett at [(813) 733-7907](tel:+18137337907) or browse current [Valrico listings](/valrico-fl-homes-for-sale/) to see what zero-down VA financing gets you today.
 

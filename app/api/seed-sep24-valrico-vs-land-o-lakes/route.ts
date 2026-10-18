@@ -178,7 +178,7 @@ At the same time, dismissing Land O'Lakes because Valrico has better negotiating
 
 The data supports making this decision based on your specific situation, not on a ranking.
 
-Barrett Henry, Broker Associate at REMAX Collective, works exclusively in Valrico and east Hillsborough County and can provide a direct comparison for any budget and timeline. He has 23 years of experience in the Valrico market and the broader Hillsborough suburban corridor, and he can help you understand what the data means for your specific target price range and neighborhood.
+Barrett Henry, Broker Associate at REMAX Collective, works exclusively in Valrico and east Hillsborough County and can provide a direct comparison for any budget and timeline. He has 23+ years of real estate experience and over a decade in the Valrico market and the broader Hillsborough suburban corridor, and he can help you understand what the data means for your specific target price range and neighborhood.
 
 Contact Barrett at [(813) 733-7907](tel:+18137337907) or visit [ValricoAgent.com](https://valricoagent.com) to browse current Valrico listings. You can also [explore current Valrico market conditions](/valrico-fl-buyers-market-fall-2026/) or [read the full fall 2026 market outlook](/valrico-fl-fall-2026-real-estate-market-outlook/) before making your comparison.
 

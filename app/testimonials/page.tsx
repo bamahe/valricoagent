@@ -1,6 +1,26 @@
-'use client';
+// Server component. This page has no state or handlers, so 'use client' only
+// shipped the review copy to the browser as JavaScript and blocked metadata.
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import { ContactForm } from '../components/ContactForm';
+import Breadcrumbs, { breadcrumbSchema } from '../components/Breadcrumbs';
+
+const CRUMBS = [{ name: 'Client Reviews', href: '/testimonials/' }];
+
+export const metadata: Metadata = {
+  title: 'Valrico Realtor Reviews - Barrett Henry Client Testimonials',
+  description: 'Read real client reviews for Barrett Henry, REALTOR® in Valrico FL. Buyers and sellers share their experience. Call (813) 733-7907 for a free consultation.',
+  alternates: { canonical: '/testimonials/' },
+  openGraph: {
+    title: 'Valrico Realtor Reviews - Barrett Henry Client Testimonials',
+    description: 'Read real client reviews for Barrett Henry, REALTOR® in Valrico FL. Buyers and sellers share their experience. Call (813) 733-7907 for a free consultation.',
+    url: 'https://valricoagent.com/testimonials/',
+    siteName: 'ValricoAgent.com',
+    type: 'website',
+    images: [{ url: 'https://valricoagent.com/og-image.png', width: 1200, height: 630, alt: 'Barrett Henry, REALTOR - Valrico FL' }],
+  },
+  twitter: { card: 'summary_large_image', images: ['https://valricoagent.com/og-image.png'] },
+};
 
 // All client reviews — add new ones at the top
 const reviews = [
@@ -24,6 +44,11 @@ const reviews = [
 export default function TestimonialsPage() {
   return (
     <>
+      <Breadcrumbs items={CRUMBS} />
+
+      {/* BreadcrumbList JSON-LD, mirrors the visible trail above */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema(CRUMBS)) }} />
+
       {/* Hero */}
       <div style={{ background: 'var(--blue-deep)' }} className="text-white py-16 px-7">
         <div className="max-w-[1140px] mx-auto">
@@ -86,6 +111,34 @@ export default function TestimonialsPage() {
               </div>
             </div>
           ))}
+        </div>
+      </div>
+
+      {/* Contextual links. A reader who just finished the reviews is warm,
+          this gives them a specific next step instead of only a phone number. */}
+      <div className="max-w-[1140px] mx-auto px-7 pb-4">
+        <div className="rounded-md border p-6" style={{ borderColor: 'var(--border)', background: 'var(--cream-warm)' }}>
+          <p className="text-xs font-semibold uppercase tracking-widest mb-3" style={{ color: 'var(--ink-soft)' }}>
+            What these clients did next
+          </p>
+          <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-2 text-[15px] leading-[1.9] list-none p-0">
+            {[
+              ['/valrico-fl-home-values/', 'Found out what their home was worth'],
+              ['/sell-my-home-valrico/', 'Listed their Valrico home'],
+              ['/valrico-fl-homes-for-sale/', 'Searched every Valrico listing'],
+              ['/neighborhoods/', 'Compared Valrico neighborhoods'],
+              ['/valrico-school-zones/', 'Checked school zones before buying'],
+              ['/why-barrett/', 'Read why clients choose Barrett'],
+              ['/valrico-market-report/', 'Reviewed the current market report'],
+              ['/get-help/', 'Asked Barrett a question directly'],
+            ].map(([href, label]) => (
+              <li key={href}>
+                <Link href={href} className="font-medium no-underline hover:underline" style={{ color: 'var(--accent)' }}>
+                  {label}
+                </Link>
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
 

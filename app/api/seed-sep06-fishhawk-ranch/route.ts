@@ -192,7 +192,7 @@ The core $450,000 to $650,000 FishHawk Ranch segment should move at approximatel
 
 ## Working with Barrett Henry on a FishHawk Ranch or Lithia Purchase
 
-Whether you are comparing FishHawk Ranch to Valrico, Riverview, or other east Hillsborough communities, the decision deserves straight talk and accurate data rather than a pitch for the listing with the highest commission. Barrett Henry is a Broker Associate at REMAX Collective with 23+ years covering Hillsborough County, including the Lithia and FishHawk Ranch corridor. Barrett can walk you through the honest comparison of community costs, school zone implications, and resale history specific to the sections you are considering.
+Whether you are comparing FishHawk Ranch to Valrico, Riverview, or other east Hillsborough communities, the decision deserves straight talk and accurate data rather than a pitch for the listing with the highest commission. Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience and over a decade covering Hillsborough County, including the Lithia and FishHawk Ranch corridor. Barrett can walk you through the honest comparison of community costs, school zone implications, and resale history specific to the sections you are considering.
 
 Call or text at [(813) 733-7907](tel:+18137337907) or browse current [Valrico area homes for sale at ValricoAgent.com](/valrico-fl-homes-for-sale/) to compare options across both markets.
 

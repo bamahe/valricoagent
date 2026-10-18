@@ -1,11 +1,21 @@
-'use client';
+// Server component. This page has no state, effects or event handlers,
+// so 'use client' only shipped its static markup to the browser as JS.
+// Interactive children (forms, search) carry their own 'use client'.
 import Image from 'next/image';
 import Link from 'next/link';
 import { ContactForm } from '../components/ContactForm';
+import Breadcrumbs, { breadcrumbSchema } from '../components/Breadcrumbs';
+
+const CRUMBS = [{ name: 'Valrico Realtor', href: '/valrico-realtor/' }];
 
 export default function ValricoRealtor() {
   return (
     <>
+      <Breadcrumbs items={CRUMBS} />
+
+      {/* BreadcrumbList JSON-LD, mirrors the visible trail above */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema(CRUMBS)) }} />
+
       <div style={{background:'var(--blue-deep)'}} className="text-white py-16 px-7">
         <div className="max-w-[1140px] mx-auto">
           <h1 className="font-serif text-[clamp(28px,4vw,40px)] leading-tight tracking-tight mb-4">Valrico Realtor - Barrett Henry, REALTOR® | REMAX Collective</h1>

@@ -222,7 +222,7 @@ Whether that thesis plays out in 2028 or 2031 depends on mortgage rates, employm
 
 ## Working with a Local Expert on Investment Acquisitions
 
-The comparative market analysis that works for owner-occupied buyers is different from an investor underwriting model. Barrett Henry is a Broker Associate at REMAX Collective with more than 24 years of real estate experience who has represented buyers and sellers in investment property transactions across Valrico, Brandon, and east Hillsborough County. For a rental property analysis on any specific address in 33594 or 33596, or to discuss current market conditions, call Barrett at (813) 733-7907.
+The comparative market analysis that works for owner-occupied buyers is different from an investor underwriting model. Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience who has represented buyers and sellers in investment property transactions across Valrico, Brandon, and east Hillsborough County. For a rental property analysis on any specific address in 33594 or 33596, or to discuss current market conditions, call Barrett at (813) 733-7907.
 
 For more context on Valrico market conditions, see our [Valrico FL Q3 2026 market report](/blog/valrico-fl-real-estate-market-report-q3-2026/) and [Valrico FL real estate mid-year 2026 review](/blog/valrico-real-estate-mid-year-2026-review/).
 
@@ -250,7 +250,7 @@ Yes. Some communities have minimum lease terms (often 6 months) or require HOA a
 
 ---
 
-*Barrett Henry is a Broker Associate at REMAX Collective with more than 24 years of real estate experience. For investment property analysis in Valrico and east Hillsborough County, contact Barrett at (813) 733-7907.*
+*Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience. For investment property analysis in Valrico and east Hillsborough County, contact Barrett at (813) 733-7907.*
 
 *Sources: [Apartments.com Valrico Rental Trends](https://www.apartments.com/rent-market-trends/valrico-fl/), [RentCafe Valrico Market Report](https://www.rentcafe.com/average-rent-market-trends/us/fl/hillsborough-county/valrico/), [Zillow Rental Manager Valrico](https://www.zillow.com/rental-manager/market-trends/valrico-fl/), [Florida OIR Insurance Data](https://www.floir.com/)*`;
 

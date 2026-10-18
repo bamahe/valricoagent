@@ -46,4 +46,10 @@ export const neighborhoodCoords: Record<string, { lat: number; lng: number }> = 
   'buckhorn-golf-club-estates': { lat: 27.9030, lng: -82.2660 },
   'durant-oaks': { lat: 27.8990, lng: -82.2610 },
   'copper-ridge': { lat: 27.8920, lng: -82.2530 },
+  // Added Oct 2026. These three pages already called neighborhoodCoords[slug]
+  // for their map center, but had no entry here, so NeighborhoodMap received
+  // `undefined`. Values match the GeoCoordinates in each page's JSON-LD.
+  'eagles-landing': { lat: 27.9110, lng: -82.2620 },
+  'river-crossing': { lat: 27.9170, lng: -82.2780 },
+  'somerset': { lat: 27.8925, lng: -82.2560 },
 };

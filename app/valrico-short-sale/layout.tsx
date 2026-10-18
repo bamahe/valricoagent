@@ -2,19 +2,19 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: 'Valrico Short Sale Help - Options & Guide',
-  description: 'Underwater on your Valrico mortgage? A short sale may be your best option. Barrett Henry has 23+ years of real estate experience navigating short sales with banks.',
+  description: "Underwater on your Valrico mortgage? A short sale may be your best option. Barrett Henry negotiates with banks. Call (813) 733-7907, free and confidential.",
   alternates: { canonical: "/valrico-short-sale/" },
   openGraph: {
     title: "Valrico Short Sale Help - Options & Guide",
-    description: "Underwater on your Valrico mortgage? A short sale may be your best option. Barrett Henry has 23+ years of real estate experience navigating short sales with banks.",
+    description: "Underwater on your Valrico mortgage? A short sale may be your best option. Barrett Henry negotiates with banks. Call (813) 733-7907, free and confidential.",
     url: "https://valricoagent.com/valrico-short-sale/",
     siteName: "ValricoAgent.com",
     type: "website",
-    images: [{ url: "https://valricoagent.com/barrett-henry.png", width: 1200, height: 630, alt: "Barrett Henry, REALTOR - Valrico FL" }],
+    images: [{ url: "https://valricoagent.com/og-image.png", width: 1200, height: 630, alt: "Barrett Henry, REALTOR - Valrico FL" }],
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://valricoagent.com/barrett-henry.png"],
+    images: ["https://valricoagent.com/og-image.png"],
   },
 };
 

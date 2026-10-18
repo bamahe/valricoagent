@@ -196,7 +196,7 @@ Neither choice is wrong. The right market depends entirely on where you work, wh
 
 You can see current Valrico pricing by neighborhood in our [Valrico FL mid-year 2026 real estate market review](/blog/valrico-real-estate-mid-year-2026-review/) and a full Zephyrhills market deep-dive in our [Zephyrhills FL real estate market 2026 report](/blog/zephyrhills-fl-real-estate-market-2026/). For a broader look at Q4 conditions entering the fall buying season, read our [Valrico fall 2026 real estate market outlook](/blog/valrico-fl-fall-2026-real-estate-market-outlook/).
 
-If you are trying to decide between these two markets and want a candid assessment based on your specific situation, reach out directly. With 23 years in this market, I can tell you quickly whether Valrico, Zephyrhills, or somewhere in between fits your goals.
+If you are trying to decide between these two markets and want a candid assessment based on your specific situation, reach out directly. With 23+ years of real estate experience and over a decade in this market, I can tell you quickly whether Valrico, Zephyrhills, or somewhere in between fits your goals.
 
 ---
 

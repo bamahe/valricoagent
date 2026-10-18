@@ -207,7 +207,7 @@ Yes. Some communities have minimum lease terms (often 6 months) or require HOA a
 
 ---
 
-*Barrett Henry is a Broker Associate at REMAX Collective with more than 24 years of real estate experience. For investment property analysis in Valrico and east Hillsborough County, contact Barrett at (813) 733-7907.*
+*Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience. For investment property analysis in Valrico and east Hillsborough County, contact Barrett at (813) 733-7907.*
 
 *Sources: [Apartments.com Valrico Rental Trends](https://www.apartments.com/rent-market-trends/valrico-fl/), [RentCafe Valrico Market Report](https://www.rentcafe.com/average-rent-market-trends/us/fl/hillsborough-county/valrico/), [Zillow Rental Manager Valrico](https://www.zillow.com/rental-manager/market-trends/valrico-fl/), [Florida OIR Insurance Data](https://www.floir.com/)*`;
 

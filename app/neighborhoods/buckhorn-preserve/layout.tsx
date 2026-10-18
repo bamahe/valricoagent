@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Buckhorn Preserve Homes for Sale - Valrico FL",
   description:
-    "Buckhorn Preserve homes for sale in Valrico FL 33596. Gated community, $350K-$500K, Newsome HS zone. Park, playground, and walking trails. Call (813) 733-7907.",
+    "Buckhorn Preserve homes for sale in Valrico FL 33596. Gated community, $350K-$500K, Newsome HS zone. Call (813) 733-7907.",
   alternates: { canonical: "/neighborhoods/buckhorn-preserve/" },
   openGraph: {
     title: "Buckhorn Preserve Homes for Sale - Valrico FL",
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://valricoagent.com/barrett-henry.png",
+        url: "https://valricoagent.com/og-image.png",
         width: 600,
         height: 600,
         alt: "Barrett Henry, REALTOR - Valrico FL",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://valricoagent.com/barrett-henry.png"],
+    images: ["https://valricoagent.com/og-image.png"],
   },
 };
 

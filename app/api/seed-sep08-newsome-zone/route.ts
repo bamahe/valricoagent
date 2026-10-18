@@ -177,7 +177,7 @@ Your home is not just a house -- it is access to a top-rated public high school.
 
 ## Working with a Local Expert
 
-Barrett Henry has listed and sold homes in both the Newsome zone and the Bloomingdale zone across Valrico for more than 24 years. The difference in marketing strategy, buyer targeting, and pricing approach between a 33596 Newsome zone listing and a 33594 Bloomingdale listing is substantial. Barrett verifies school zoning on every Valrico property listed or shown -- it is too important to get wrong.
+Barrett Henry has listed and sold homes in both the Newsome zone and the Bloomingdale zone across Valrico for 23+ years of real estate experience. The difference in marketing strategy, buyer targeting, and pricing approach between a 33596 Newsome zone listing and a 33594 Bloomingdale listing is substantial. Barrett verifies school zoning on every Valrico property listed or shown -- it is too important to get wrong.
 
 For a neighborhood-specific analysis of how your specific address is positioned in the school zone market, or to understand what comparable Newsome zone homes have closed for in the last 90 days, call Barrett at [(813) 733-7907](tel:+18137337907). You can also [search active listings in 33596](/homes-for-sale-33596/) or [read the current Valrico market report](/blog/valrico-real-estate-mid-year-2026-review/) for broader context.
 

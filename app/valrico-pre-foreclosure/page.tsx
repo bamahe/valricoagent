@@ -1,4 +1,6 @@
-'use client';
+// Server component. This page has no state, effects or event handlers,
+// so 'use client' only shipped its static markup to the browser as JS.
+// Interactive children (forms, search) carry their own 'use client'.
 import Link from 'next/link';
 import Image from 'next/image';
 import { ContactForm } from '../components/ContactForm';
@@ -42,7 +44,7 @@ export default function ValricoPreForeclosure() {
               {[
                 ['Loan modification','Your lender adjusts the terms of your mortgage, lower interest rate, extended term, or reduced principal, to make payments affordable. You keep the home and stay current on a modified payment. This is usually the first option to explore.'],
                 ['Forbearance','The bank temporarily pauses or reduces your payments while you get back on your feet. This is common after job loss, medical emergency, or natural disaster. The missed payments are added to the end of the loan or repaid over time.'],
-                ['Short sale','If you owe more than the home is worth, you sell the property for less than the mortgage balance with the bank\'s approval. You avoid foreclosure on your record and typically suffer less credit damage. Barrett has 20+ years of short sale experience. Read the full short sale guide.'],
+                ['Short sale','If you owe more than the home is worth, you sell the property for less than the mortgage balance with the bank\'s approval. You avoid foreclosure on your record and typically suffer less credit damage. Barrett has 23+ years of real estate experience, including short sales. Read the full short sale guide.'],
                 ['Sell before auction','If you have equity in the home, you can list and sell it traditionally before the foreclosure sale date. You pay off the mortgage, keep any remaining equity, and avoid foreclosure entirely. See the selling guide for more on listing your home.'],
                 ['Deed in lieu of foreclosure','You voluntarily transfer ownership of the home to the bank in exchange for release from the mortgage. This avoids the foreclosure court process but still impacts your credit. It is faster than foreclosure and sometimes comes with relocation assistance.'],
                 ['Refinance','If you still have equity and can qualify, refinancing into a new loan with lower payments may solve the problem. This is more feasible in the early stages of delinquency before your credit score drops too far.'],
@@ -169,12 +171,14 @@ export default function ValricoPreForeclosure() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify({"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How many payments can I miss before foreclosure starts in Florida?","acceptedAnswer":{"@type":"Answer","text":"Most lenders begin the foreclosure process after 3-4 missed payments (90-120 days delinquent). Once a lis pendens is filed with the court, the formal foreclosure has begun."}},{"@type":"Question","name":"Can I still sell my home if I am in pre-foreclosure?","acceptedAnswer":{"@type":"Answer","text":"Yes. You can sell your home at any point before the foreclosure auction. If you have equity, sell traditionally. If underwater, you may qualify for a short sale."}},{"@type":"Question","name":"Will the bank really work with me on a loan modification?","acceptedAnswer":{"@type":"Answer","text":"Banks lose money on foreclosures. Most lenders prefer to modify the loan and keep a performing borrower over the cost of a foreclosure lawsuit. But you have to initiate the process."}},{"@type":"Question","name":"Is there any cost to talk to Barrett about my situation?","acceptedAnswer":{"@type":"Answer","text":"No. Barrett provides free, confidential consultations for homeowners facing foreclosure or financial hardship. Call (813) 733-7907."}}]})}} />
 
       {/* RealEstateAgent JSON-LD */}
-      <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify({"@context":"https://schema.org","@type":"RealEstateAgent","name":"Barrett Henry","jobTitle":"REALTOR® & Broker Associate","url":"https://valricoagent.com/valrico-pre-foreclosure/","telephone":"(813) 733-7907","email":"barrett@nowtb.com","image":"https://valricoagent.com/barrett-henry.jpg","address":{"@type":"PostalAddress","addressLocality":"Valrico","addressRegion":"FL","addressCountry":"US"},"worksFor":{"@type":"RealEstateOrganization","name":"REMAX Collective"},"description":"Barrett Henry is a REALTOR® and Broker Associate at REMAX Collective with 23+ years of real estate experience, helping Valrico homeowners navigate pre-foreclosure options."})}} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify({"@context":"https://schema.org","@type":"RealEstateAgent","name":"Barrett Henry","jobTitle":"REALTOR® & Broker Associate","url":"https://valricoagent.com/valrico-pre-foreclosure/","telephone":"(813) 733-7907","email":"barrett@nowtb.com","image":"https://valricoagent.com/barrett-henry.png","address":{"@type":"PostalAddress","addressLocality":"Valrico","addressRegion":"FL","addressCountry":"US"},"worksFor":{"@type":"RealEstateOrganization","name":"REMAX Collective"},"description":"Barrett Henry is a REALTOR® and Broker Associate at REMAX Collective with 23+ years of real estate experience, helping Valrico homeowners navigate pre-foreclosure options."})}} />
 
       {/* BreadcrumbList JSON-LD */}
       
-      {/* Lead Capture Form */}
-      <div className="max-w-[1140px] mx-auto px-7 py-12">
+      {/* Lead Capture Form.
+          id="help-form" is the target for the hero CTA, which previously
+          pointed at an element that did not exist. */}
+      <div id="help-form" className="max-w-[1140px] mx-auto px-7 py-12 scroll-mt-24">
         <ContactForm />
       </div>
 

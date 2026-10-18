@@ -4,19 +4,19 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Valrico Property Management, 10% Fee, Full-Service Rentals",
   description:
-    "Full-service Valrico FL property management for landlords. 10% management fee, in-house maintenance via Best Bay Services, tenant screening, and rent collection. Call (813) 733-7907.",
+    "Full-service Valrico FL property management for landlords. 10% fee, tenant screening, rent collection, in-house maintenance. Call (813) 733-7907.",
   openGraph: {
     title: "Valrico Property Management, 10% Fee, Full-Service Rentals",
     description:
-      "Full-service Valrico FL property management for landlords. 10% management fee, in-house maintenance via Best Bay Services, tenant screening, and rent collection. Call (813) 733-7907.",
+      "Full-service Valrico FL property management for landlords. 10% fee, tenant screening, rent collection, in-house maintenance. Call (813) 733-7907.",
     url: "https://valricoagent.com/valrico-property-management/",
     siteName: "ValricoAgent.com",
     type: "website",
-    images: [{ url: "https://valricoagent.com/barrett-henry.png", width: 1200, height: 630, alt: "Barrett Henry, REALTOR - Valrico FL" }],
+    images: [{ url: "https://valricoagent.com/og-image.png", width: 1200, height: 630, alt: "Barrett Henry, REALTOR - Valrico FL" }],
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://valricoagent.com/barrett-henry.png"],
+    images: ["https://valricoagent.com/og-image.png"],
   },
   alternates: {
     canonical: "/valrico-property-management/",

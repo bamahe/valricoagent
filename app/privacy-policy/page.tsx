@@ -4,6 +4,9 @@
  * Basic privacy policy covering form data, CRM usage, analytics cookies, and no data sales.
  */
 import type { Metadata } from 'next';
+import Breadcrumbs, { breadcrumbSchema } from '../components/Breadcrumbs';
+
+const CRUMBS = [{ name: 'Privacy Policy', href: '/privacy-policy/' }];
 
 export const metadata: Metadata = {
   title: 'Privacy Policy',
@@ -14,7 +17,13 @@ export const metadata: Metadata = {
 
 export default function PrivacyPolicyPage() {
   return (
-    <main style={{ maxWidth: 720, margin: '0 auto', padding: '48px 20px' }}>
+    <>
+      <Breadcrumbs items={CRUMBS} />
+
+      {/* BreadcrumbList JSON-LD, mirrors the visible trail above */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema(CRUMBS)) }} />
+
+      <main style={{ maxWidth: 720, margin: '0 auto', padding: '48px 20px' }}>
       <h1 style={{ fontSize: 28, fontWeight: 700, color: '#111', marginBottom: 24 }}>
         Privacy Policy
       </h1>
@@ -102,6 +111,7 @@ export default function PrivacyPolicyPage() {
           (813) 733-7907
         </a>
       </p>
-    </main>
+      </main>
+    </>
   );
 }

@@ -93,7 +93,10 @@ function renderMarkdown(content: string): string {
     // Headers
     .replace(/^### (.+)$/gm, '<h3 class="text-xl font-bold text-gray-900 mt-8 mb-3">$1</h3>')
     .replace(/^## (.+)$/gm, '<h2 class="text-2xl font-bold text-gray-900 mt-10 mb-4">$1</h2>')
-    .replace(/^# (.+)$/gm, '<h1 class="text-3xl font-bold text-gray-900 mt-12 mb-5">$1</h1>')
+    // Body `# Heading` renders as an h2, NOT an h1. The post title already
+    // owns the single h1 on this page, so emitting another one here would
+    // give the page two h1s whenever a generated post starts with `# `.
+    .replace(/^# (.+)$/gm, '<h2 class="text-3xl font-bold text-gray-900 mt-12 mb-5">$1</h2>')
     // Bold and italic
     .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
     .replace(/\*(.+?)\*/g, '<em>$1</em>')

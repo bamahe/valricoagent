@@ -1,6 +1,9 @@
 import { getPublishedPosts, getPillars } from '@/lib/supabase';
 import type { Metadata } from 'next';
 import BlogFilter from '../components/BlogFilter';
+import Breadcrumbs, { breadcrumbSchema } from '../components/Breadcrumbs';
+
+const CRUMBS = [{ name: 'Blog', href: '/blog/' }];
 
 export const dynamic = 'force-dynamic'; // Always fetch fresh data (new posts publish daily)
 
@@ -36,7 +39,13 @@ export default async function BlogIndex() {
   }));
 
   return (
-    <main className="max-w-6xl mx-auto px-4 py-12">
+    <>
+      <Breadcrumbs items={CRUMBS} />
+
+      {/* BreadcrumbList JSON-LD, mirrors the visible trail above */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema(CRUMBS)) }} />
+
+      <main className="max-w-6xl mx-auto px-4 py-12">
       {/* Header */}
       <div className="mb-12">
         <h1 className="text-4xl font-bold text-gray-900 mb-3">
@@ -57,6 +66,7 @@ export default async function BlogIndex() {
           <p>Check back soon for Valrico real estate insights.</p>
         </div>
       )}
-    </main>
+      </main>
+    </>
   );
 }

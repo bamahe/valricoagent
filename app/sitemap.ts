@@ -1,11 +1,23 @@
 import { MetadataRoute } from 'next'
 import { getPublishedPosts } from '@/lib/supabase'
 
+/**
+ * Revalidate hourly.
+ *
+ * Next caches sitemap.ts at build time by default. Because this file pulls
+ * blog posts from Supabase, that meant every post published by the content
+ * automation was missing from the sitemap until the next deploy. Google only
+ * ever saw posts that existed at build time.
+ */
+export const revalidate = 3600
+
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = 'https://valricoagent.com'
   const now = new Date().toISOString()
 
-  // All 38 actual neighborhoods (verified against app/neighborhoods/*/page.tsx)
+  // All 41 neighborhoods (verified against app/neighborhoods/*/page.tsx).
+  // Keep this list in sync when a neighborhood page is added, otherwise the
+  // new page is invisible to search engines.
   const neighborhoods = [
     'arista','bent-tree-estates','bloomingdale','bloomingdale-cove','bloomingdale-east',
     'bloomingdale-oaks','brentwood-hills','buckhorn','buckhorn-bloomingdale',
@@ -16,6 +28,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     'river-hills','river-hills-masters','savannah-landings','shetland-ridge',
     'twin-lakes','valri-park','valrico-forest','valrico-hills','valrico-oaks',
     'valrico-village','wellington',
+    // Added Oct 2026, these pages existed but had never been listed here
+    'eagles-landing','river-crossing','somerset',
   ]
 
   // Core static pages — homepage, service pages, informational, tools, utility
@@ -66,11 +80,17 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${baseUrl}/blog/`, changeFrequency: 'weekly' as const, priority: 0.8 },
     // About & contact
     { url: `${baseUrl}/about/`, changeFrequency: 'monthly' as const, priority: 0.6 },
+    // Added Oct 2026, these three were live but missing from the sitemap
+    { url: `${baseUrl}/why-barrett/`, changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/testimonials/`, changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/recently-sold/`, changeFrequency: 'weekly' as const, priority: 0.7 },
     { url: `${baseUrl}/get-help/`, changeFrequency: 'monthly' as const, priority: 0.8 },
     { url: `${baseUrl}/schedule-showing/`, changeFrequency: 'monthly' as const, priority: 0.7 },
     // Utility pages
     { url: `${baseUrl}/privacy-policy/`, changeFrequency: 'yearly' as const, priority: 0.3 },
-    { url: `${baseUrl}/thank-you/`, changeFrequency: 'yearly' as const, priority: 0.1 },
+    // /thank-you is deliberately noindex, so it must NOT be listed here.
+    // Submitting a noindex URL in a sitemap is a conflicting signal that
+    // Search Console reports as an error.
   ]
 
   // Neighborhood pages

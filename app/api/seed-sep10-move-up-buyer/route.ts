@@ -178,7 +178,7 @@ One of the most meaningful advantages move-up buyers have in 2026 is the ability
 
 ## How Barrett Henry Approaches the Move-Up Transaction
 
-With 23 years of experience in Valrico and east Hillsborough County, Barrett has guided many families through the move-up process. The key is coordination: managing the listing timeline, the contingent offer structure, the negotiation on both sides, and the closing schedule so that everything lands where it needs to.
+With 23+ years of real estate experience and over a decade in Valrico and east Hillsborough County, Barrett has guided many families through the move-up process. The key is coordination: managing the listing timeline, the contingent offer structure, the negotiation on both sides, and the closing schedule so that everything lands where it needs to.
 
 Barrett works with REMAX Collective and has deep knowledge of which subdivisions in 33596 are trading at genuine value versus which are overpriced by sellers holding out for a market that no longer exists. That distinction matters enormously when you are trying to maximize what you get for your current home while minimizing what you pay for the next one.
 

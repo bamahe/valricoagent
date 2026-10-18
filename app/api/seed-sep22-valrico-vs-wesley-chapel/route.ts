@@ -80,7 +80,7 @@ const META = {
 
 const CONTENT = `Valrico and Wesley Chapel both attract the same buyer: a Tampa-area household looking for good schools, a suburban feel, and enough house for the price. The two markets are roughly 30 miles apart but buyers regularly tour both in the same afternoon, and yet a genuine side-by-side comparison is hard to find. Most agents know whichever county they work in and stop there.
 
-Barrett Henry is a Broker Associate at REMAX Collective with 23 years of experience in Hillsborough County. He tracks the Wesley Chapel market closely because buyers ask for this comparison constantly. This is the complete breakdown for fall 2026: pricing data, school zones, CDD costs, commute realities, and where each market is headed.
+Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience and over a decade in Hillsborough County. He tracks the Wesley Chapel market closely because buyers ask for this comparison constantly. This is the complete breakdown for fall 2026: pricing data, school zones, CDD costs, commute realities, and where each market is headed.
 
 ## The Numbers Side by Side
 

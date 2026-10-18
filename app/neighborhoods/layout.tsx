@@ -9,18 +9,18 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Valrico Neighborhoods, 38 Communities in 33594 & 33596',
   description:
-    'Explore all 38 Valrico neighborhoods. Compare home prices, school zones, HOA fees, and lifestyle across Bloomingdale, River Hills, Buckhorn, Diamond Hill, and more.',
+    "Explore all 41 Valrico neighborhoods. Compare home prices, school zones, and HOA fees across Bloomingdale, River Hills, and more. (813) 733-7907.",
   alternates: { canonical: '/neighborhoods/' },
   openGraph: {
     title: 'Valrico Neighborhoods, 38 Communities in 33594 & 33596',
     description:
-      'Explore all 38 Valrico neighborhoods. Compare home prices, school zones, HOA fees, and lifestyle across Bloomingdale, River Hills, Buckhorn, Diamond Hill, and more.',
+      "Explore all 41 Valrico neighborhoods. Compare home prices, school zones, and HOA fees across Bloomingdale, River Hills, and more. (813) 733-7907.",
     url: 'https://valricoagent.com/neighborhoods/',
     siteName: 'ValricoAgent.com',
     type: 'website',
     images: [
       {
-        url: 'https://valricoagent.com/barrett-henry.png',
+        url: 'https://valricoagent.com/og-image.png',
         width: 600,
         height: 600,
         alt: 'Barrett Henry, REALTOR - Valrico FL',

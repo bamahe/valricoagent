@@ -73,7 +73,7 @@ const META = {
 
 const CONTENT = `Florida's condominium market entered 2026 in a state of structural adjustment unlike anything the state has seen in modern memory. The combination of post-Surfside legislation, mandatory reserve funding, and lender restrictions has created a large pool of buyers who started their search looking at condos and ended up buying single-family homes in east Hillsborough County communities like Valrico, Brandon, and Riverview instead. Understanding why that shift happened, and what it means for Valrico home values, requires a look at the specific laws driving condo market behavior.
 
-Barrett Henry is a Broker Associate at REMAX Collective with 23 years of experience in Hillsborough County real estate. He has worked directly with buyers who transitioned from condo searches to Valrico single-family purchases as the condo market became more difficult to navigate.
+Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience and over a decade in Hillsborough County. He has worked directly with buyers who transitioned from condo searches to Valrico single-family purchases as the condo market became more difficult to navigate.
 
 ## What Happened to Florida Condos: The Legislative Timeline
 

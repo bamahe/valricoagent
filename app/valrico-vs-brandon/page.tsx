@@ -1,11 +1,21 @@
-'use client';
+// Server component. This page has no state, effects or event handlers,
+// so 'use client' only shipped its static markup to the browser as JS.
+// Interactive children (forms, search) carry their own 'use client'.
 import Link from 'next/link';
 import Image from 'next/image';
 import { ContactForm } from '../components/ContactForm';
+import Breadcrumbs, { breadcrumbSchema } from '../components/Breadcrumbs';
+
+const CRUMBS = [{ name: 'Valrico vs Brandon', href: '/valrico-vs-brandon/' }];
 
 export default function ValricoVsBrandon() {
   return (
     <>
+      <Breadcrumbs items={CRUMBS} />
+
+      {/* BreadcrumbList JSON-LD, mirrors the visible trail above */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema(CRUMBS)) }} />
+
       {/* --- Hero --- */}
       <section style={{background:'linear-gradient(135deg,#003da5 0%,#001f5c 100%)',color:'#fff',padding:'64px 0'}}>
         <div style={{maxWidth:900,margin:'0 auto',padding:'0 24px'}}>
