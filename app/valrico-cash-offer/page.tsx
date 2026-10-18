@@ -1,11 +1,21 @@
-'use client';
+// Server component. This page has no state, effects or event handlers,
+// so 'use client' only shipped its static markup to the browser as JS.
+// Interactive children (forms, search) carry their own 'use client'.
 import Image from 'next/image';
 import Link from 'next/link';
 import { ContactForm } from '../components/ContactForm';
+import Breadcrumbs, { breadcrumbSchema } from '../components/Breadcrumbs';
+
+const CRUMBS = [{ name: 'Cash Offer', href: '/valrico-cash-offer/' }];
 
 export default function ValricoCashOffer() {
   return (
     <>
+      <Breadcrumbs items={CRUMBS} />
+
+      {/* BreadcrumbList JSON-LD, mirrors the visible trail above */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema(CRUMBS)) }} />
+
       {/* Hero */}
       <div style={{background:'var(--blue-deep)'}} className="text-white py-16 px-7">
         <div className="max-w-[1140px] mx-auto">
@@ -226,7 +236,7 @@ export default function ValricoCashOffer() {
         <ContactForm />
       </div>
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify({"@context":"https://schema.org","@type":"RealEstateAgent","name":"Barrett Henry","jobTitle":"REALTOR® & Broker Associate","url":"https://valricoagent.com/valrico-cash-offer/","telephone":"(813) 733-7907","email":"barrett@nowtb.com","image":"https://valricoagent.com/barrett-henry.jpg","address":{"@type":"PostalAddress","addressLocality":"Valrico","addressRegion":"FL","addressCountry":"US"},"worksFor":{"@type":"RealEstateOrganization","name":"REMAX Collective"},"description":"Barrett Henry is a REALTOR® and Broker Associate at REMAX Collective with 23+ years of real estate experience. Get a cash offer on your Valrico home in 24 hours."})}} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify({"@context":"https://schema.org","@type":"RealEstateAgent","name":"Barrett Henry","jobTitle":"REALTOR® & Broker Associate","url":"https://valricoagent.com/valrico-cash-offer/","telephone":"(813) 733-7907","email":"barrett@nowtb.com","image":"https://valricoagent.com/barrett-henry.png","address":{"@type":"PostalAddress","addressLocality":"Valrico","addressRegion":"FL","addressCountry":"US"},"worksFor":{"@type":"RealEstateOrganization","name":"REMAX Collective"},"description":"Barrett Henry is a REALTOR® and Broker Associate at REMAX Collective with 23+ years of real estate experience. Get a cash offer on your Valrico home in 24 hours."})}} />
     </>
   );
 }

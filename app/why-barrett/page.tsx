@@ -1,11 +1,35 @@
-'use client';
+// Server component. No state or handlers here, so 'use client' only shipped
+// static copy as JavaScript and prevented this page from exporting metadata.
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
 import { ContactForm } from '../components/ContactForm';
+import Breadcrumbs, { breadcrumbSchema } from '../components/Breadcrumbs';
+
+const CRUMBS = [{ name: 'Why Barrett', href: '/why-barrett/' }];
+
+export const metadata: Metadata = {
+  title: 'Why Choose Barrett Henry - Valrico FL Realtor Advantages',
+  description: "See why Valrico buyers and sellers choose Barrett Henry, REALTOR® with 23+ years of real estate experience. Call (813) 733-7907 for honest advice.",
+  alternates: { canonical: '/why-barrett/' },
+  openGraph: {
+    title: 'Why Choose Barrett Henry - Valrico FL Realtor Advantages',
+    description: "See why Valrico buyers and sellers choose Barrett Henry, REALTOR® with 23+ years of real estate experience. Call (813) 733-7907 for honest advice.",
+    url: 'https://valricoagent.com/why-barrett/',
+    siteName: 'ValricoAgent.com',
+    type: 'website',
+    images: [{ url: 'https://valricoagent.com/og-image.png', width: 1200, height: 630, alt: 'Barrett Henry, REALTOR - Valrico FL' }],
+  },
+  twitter: { card: 'summary_large_image', images: ['https://valricoagent.com/og-image.png'] },
+};
 
 export default function WhyBarrettPage() {
   return (
     <>
+      <Breadcrumbs items={CRUMBS} />
+
+      {/* BreadcrumbList JSON-LD, mirrors the visible trail above */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema(CRUMBS)) }} />
       {/* Hero */}
       <div style={{ background: 'var(--blue-deep)' }} className="text-white py-16 px-7">
         <div className="max-w-[1140px] mx-auto">

@@ -164,7 +164,7 @@ For buyers and sellers tracking Valrico through the fall, these are the indicato
 
 **Insurance renewals**: Many east Hillsborough homeowners face October and November insurance renewal dates. Material premium increases at renewal will affect carrying cost calculations for both buyers evaluating affordability and existing homeowners in financial stress. Watch for any announcements from Florida's remaining authorized insurers about rate filings through the end of 2026.
 
-Barrett Henry, Broker Associate at REMAX Collective, provides buyers and sellers in the Valrico market with current, neighborhood-specific data rather than aggregated market averages that obscure meaningful variation between blocks and sub-communities. With 23 years in east Hillsborough County, Barrett knows which Bloomingdale streets trade above the ZIP median, which 33596 communities have HOA structural issues, and what September 2026 closed sales are actually telling you about October offer strategy.
+Barrett Henry, Broker Associate at REMAX Collective, provides buyers and sellers in the Valrico market with current, neighborhood-specific data rather than aggregated market averages that obscure meaningful variation between blocks and sub-communities. With 23+ years of real estate experience and over a decade in east Hillsborough County, Barrett knows which Bloomingdale streets trade above the ZIP median, which 33596 communities have HOA structural issues, and what September 2026 closed sales are actually telling you about October offer strategy.
 
 Contact Barrett at [(813) 733-7907](tel:+18137337907) or browse current [Valrico homes for sale](/valrico-fl-homes-for-sale/) to see what the October 2026 market actually looks like across both ZIP codes.`;
 

@@ -1,4 +1,6 @@
-'use client';
+// Server component. This page has no state, effects or event handlers,
+// so 'use client' only shipped its static markup to the browser as JS.
+// Interactive children (forms, search) carry their own 'use client'.
 import Image from 'next/image';
 import Link from 'next/link';
 import { ContactForm } from '../components/ContactForm';
@@ -102,7 +104,7 @@ export default function ValricoRealEstate() {
           Valrico is an unincorporated community in eastern Hillsborough County, roughly 15 miles east of downtown Tampa. With A-rated schools, larger lot sizes than neighboring Brandon and Riverview, no city taxes, and easy access to the Selmon Expressway, Valrico has become one of the most sought-after suburbs in Tampa Bay. The market includes everything from starter homes in the low $300s to gated golf course estates over $800K.
         </p>
         <p className="text-[15px] leading-[1.8]">
-          Barrett Henry is a Broker Associate with REMAX Collective who has been selling real estate since 2003. He covers all 38+ Valrico neighborhoods and provides <Link href="/valrico-fl-home-values/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>data-driven home valuations</Link>, <Link href="/valrico-market-report/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>market analysis</Link>, and hands-on guidance for buyers, sellers, and investors. This page is your hub for everything Valrico real estate.
+          Barrett Henry is a Broker Associate with REMAX Collective who has been selling real estate since 2003. He covers all 41+ Valrico neighborhoods and provides <Link href="/valrico-fl-home-values/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>data-driven home valuations</Link>, <Link href="/valrico-market-report/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>market analysis</Link>, and hands-on guidance for buyers, sellers, and investors. This page is your hub for everything Valrico real estate.
         </p>
 
         {/* Search Valrico Homes */}
@@ -184,7 +186,7 @@ export default function ValricoRealEstate() {
           ))}
         </div>
         <p className="text-sm mt-4">
-          <Link href="/neighborhoods/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>View all 38 Valrico neighborhoods &rarr;</Link>
+          <Link href="/neighborhoods/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>View all 41 Valrico neighborhoods &rarr;</Link>
         </p>
 
         {/* River Hills image */}
@@ -265,7 +267,7 @@ export default function ValricoRealEstate() {
           <div>
             <p className="font-semibold text-sm" style={{ color: 'var(--ink)' }}>Barrett Henry, REALTOR® | Broker Associate, REMAX Collective</p>
             <p className="text-xs mt-0.5" style={{ color: 'var(--ink-soft)' }}>23+ years of real estate experience · Valrico specialist · e-PRO, MRP, SRS designations</p>
-            <p className="text-xs mt-1" style={{ color: 'var(--ink-soft)' }}>Covers all 38+ Valrico neighborhoods in ZIP codes 33594 and 33596</p>
+            <p className="text-xs mt-1" style={{ color: 'var(--ink-soft)' }}>Covers all 41+ Valrico neighborhoods in ZIP codes 33594 and 33596</p>
             <a href="tel:8137337907" className="text-xs font-semibold no-underline mt-1 inline-block" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>
           </div>
         </div>

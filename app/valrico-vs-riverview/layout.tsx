@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Valrico vs Riverview FL - Prices, New Construction & Growth Compared",
+  title: "Valrico vs Riverview FL - Prices, Growth & New Builds",
   description:
     "Valrico vs Riverview FL comparison, home prices, new builds, schools, flood zones, and commute to Tampa. Barrett Henry, REMAX Collective.",
   alternates: { canonical: "/valrico-vs-riverview/" },
   openGraph: {
-    title: "Valrico vs Riverview FL - Prices, New Construction & Growth Compared",
+    title: "Valrico vs Riverview FL - Prices, Growth & New Builds",
     description:
       "Valrico vs Riverview FL comparison, home prices, new builds, schools, flood zones, and commute to Tampa. Barrett Henry, REMAX Collective.",
     url: "https://valricoagent.com/valrico-vs-riverview/",
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://valricoagent.com/barrett-henry.png",
+        url: "https://valricoagent.com/og-image.png",
         width: 600,
         height: 600,
         alt: "Barrett Henry, REALTOR - Valrico FL",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://valricoagent.com/barrett-henry.png"],
+    images: ["https://valricoagent.com/og-image.png"],
   },
 };
 

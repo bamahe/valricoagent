@@ -1,4 +1,6 @@
-'use client';
+// Server component. This page has no state, effects or event handlers,
+// so 'use client' only shipped its static markup to the browser as JS.
+// Interactive children (forms, search) carry their own 'use client'.
 import Link from 'next/link';
 import Image from 'next/image';
 import { ContactForm } from '../components/ContactForm';

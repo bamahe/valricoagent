@@ -1,6 +1,11 @@
-'use client';
+// Server component. This page has no state, effects or event handlers,
+// so 'use client' only shipped its static markup to the browser as JS.
+// Interactive children (forms, search) carry their own 'use client'.
 import Link from 'next/link';
 import { ContactForm } from '../components/ContactForm';
+import Breadcrumbs, { breadcrumbSchema } from '../components/Breadcrumbs';
+
+const CRUMBS = [{ name: 'About Barrett', href: '/about/' }];
 
 export default function AboutBarrettHenry() {
   /**
@@ -84,6 +89,11 @@ export default function AboutBarrettHenry() {
 
   return (
     <>
+      <Breadcrumbs items={CRUMBS} />
+
+      {/* BreadcrumbList JSON-LD, mirrors the visible trail above */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema(CRUMBS)) }} />
+
       {/* Hero section */}
       <div style={{ background: 'var(--blue-deep)' }} className="text-white py-16 px-7">
         <div className="max-w-[1140px] mx-auto">
@@ -229,7 +239,7 @@ export default function AboutBarrettHenry() {
           {"@type":"Question","name":"What is a Broker Associate and how is it different from a regular agent?","acceptedAnswer":{"@type":"Answer","text":"A Broker Associate holds a Florida real estate broker license, which requires more coursework, more experience, and passing the broker exam, a higher level of licensing than a standard sales associate. Barrett Henry earned his Broker Associate license in 2017. He operates under REMAX Collective, combining broker-level expertise with global brand reach. Call (813) 733-7907."}},
           {"@type":"Question","name":"What designations does Barrett Henry hold?","acceptedAnswer":{"@type":"Answer","text":"Barrett Henry holds four professional designations: Broker Associate (since 2017), e-PRO (digital marketing certified), MRP (Military Relocation Professional for MacDill AFB families), and SRS (Seller Representative Specialist for maximizing seller proceeds). These designations represent specialized training that directly benefits his clients. Contact Barrett at (813) 733-7907 or barrett@nowtb.com."}},
           {"@type":"Question","name":"Where is Barrett Henry's office located?","acceptedAnswer":{"@type":"Answer","text":"Barrett Henry's primary office is REMAX Collective at 417 Lithia Pinecrest Rd, Brandon, FL 33511, five minutes from every Valrico neighborhood. Additional offices are located in Tampa (14310 N Dale Mabry Hwy Ste 100) and Largo (11200 Seminole Blvd Ste 202). Call (813) 733-7907 or email barrett@nowtb.com."}},
-          {"@type":"Question","name":"What areas does Barrett Henry serve?","acceptedAnswer":{"@type":"Answer","text":"Barrett Henry's primary focus is Valrico, covering all 38 neighborhoods across ZIP codes 33594 and 33596. He also serves Brandon, Riverview, and Lithia (including FishHawk Ranch). Barrett handles commercial real estate through REMAX Commercial and manages rental properties through ViVi Property Management. 23+ years of real estate experience. Call (813) 733-7907."}}
+          {"@type":"Question","name":"What areas does Barrett Henry serve?","acceptedAnswer":{"@type":"Answer","text":"Barrett Henry's primary focus is Valrico, covering all 41 neighborhoods across ZIP codes 33594 and 33596. He also serves Brandon, Riverview, and Lithia (including FishHawk Ranch). Barrett handles commercial real estate through REMAX Commercial and manages rental properties through ViVi Property Management. 23+ years of real estate experience. Call (813) 733-7907."}}
         ]
       })}} />
     </>

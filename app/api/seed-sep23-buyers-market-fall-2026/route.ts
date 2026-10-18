@@ -154,7 +154,7 @@ Keep your inspection contingency. Use the inspection report as a second negotiat
 
 In a shifting market, older comparable sales overstate value. When your agent pulls comps, insist on sales from the last 60 days in Valrico's specific ZIP code and community type. A comparable from February 2026 that closed at $420,000 tells you less about today's value than a September 2026 sale at $398,000 -- and in a softening market, you want your offer anchored to the most current data.
 
-Barrett Henry, Broker Associate at REMAX Collective with 23 years of experience in the Valrico and east Hillsborough market, uses current closed sales, active competition analysis, and seller history on each property to build accurate offer strategy for buyers. The difference between a good comp pull and a stale one can be $15,000-$25,000 on a Valrico resale.
+Barrett Henry, Broker Associate at REMAX Collective with 23+ years of real estate experience, with over a decade in the Valrico and east Hillsborough market, uses current closed sales, active competition analysis, and seller history on each property to build accurate offer strategy for buyers. The difference between a good comp pull and a stale one can be $15,000-$25,000 on a Valrico resale.
 
 ## New Construction vs Resale in Fall 2026
 

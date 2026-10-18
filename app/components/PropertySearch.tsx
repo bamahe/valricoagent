@@ -35,7 +35,36 @@ interface PropertySearchProps {
   defaultListingType?: 'sale' | 'rent';
   /** Only show new construction listings */
   newConstructionOnly?: boolean;
+  /**
+   * Restrict results to distressed inventory (Short Sale / REO / Auction).
+   * "probate" also includes probate listings.
+   * Shows a condition-type filter row instead of the pool/waterfront toggles.
+   */
+  distressedOnly?: boolean | 'probate';
+  /** Search several cities at once (OR match), e.g. a nearby-area fallback grid */
+  cities?: string[];
+  /** Hide the whole filter form, for compact embedded grids */
+  hideFilters?: boolean;
+  /**
+   * Hide the Stellar MLS attribution block. Only set this on a SECOND grid on
+   * a page that already shows the disclaimer once, the attribution is
+   * required by Stellar MLS wherever IDX data appears.
+   */
+  hideDisclaimer?: boolean;
+  /** Results per page, defaults to 24 */
+  resultsPerPage?: number;
+  /** Noun used in the results count, defaults to "home" */
+  resultNoun?: string;
 }
+
+/** Condition chips shown on distressed pages */
+const CONDITION_CHIPS = [
+  { value: '', label: 'All Distressed' },
+  { value: 'Real Estate Owned', label: 'Bank Owned / REO' },
+  { value: 'Short Sale', label: 'Short Sale' },
+  { value: 'Auction', label: 'Auction' },
+  { value: 'Government Owned', label: 'HUD / Govt Owned' },
+] as const;
 
 export default function PropertySearch({
   defaultCity = 'Valrico',
@@ -50,6 +79,12 @@ export default function PropertySearch({
   showRentToggle = false,
   defaultListingType = 'sale',
   newConstructionOnly = false,
+  distressedOnly = false,
+  cities,
+  hideFilters = false,
+  hideDisclaimer = false,
+  resultsPerPage = 24,
+  resultNoun,
 }: PropertySearchProps) {
   // Filter state
   const [listingType, setListingType] = useState<'sale' | 'rent'>(defaultListingType);
@@ -61,20 +96,33 @@ export default function PropertySearch({
   const [poolOnly, setPoolOnly] = useState(defaultPoolOnly);
   const [waterfrontOnly, setWaterfrontOnly] = useState(defaultWaterfrontOnly);
   const [noHoa, setNoHoa] = useState(defaultNoHoa);
+  // Which distressed condition is selected, '' = all distressed types
+  const [condition, setCondition] = useState('');
+
+  // Array props arrive as new references on every parent render, which would
+  // re-create fetchListings and loop the effect forever. Serialize them so the
+  // dependency only changes when the contents actually change.
+  const citiesKey = cities?.join(',') ?? '';
+  const subdivisionsKey = defaultSubdivisions?.join(',') ?? '';
 
   // Results
   const [listings, setListings] = useState<BridgeListing[]>([]);
   const [total, setTotal] = useState(0);
   const [loading, setLoading] = useState(true);
   const [page, setPage] = useState(0);
-  const pageSize = 24;
+  const pageSize = resultsPerPage;
 
   // Fetch listings from our API route
   const fetchListings = useCallback(async (newPage = 0) => {
     setLoading(true);
     const params = new URLSearchParams();
 
-    if (defaultCity) params.set('city', defaultCity);
+    // Multi-city takes precedence over single city
+    if (citiesKey) {
+      params.set('cities', citiesKey);
+    } else if (defaultCity) {
+      params.set('city', defaultCity);
+    }
     if (defaultZip) params.set('postalCode', defaultZip);
     if (minPrice) params.set('minPrice', minPrice);
     if (maxPrice) params.set('maxPrice', maxPrice);
@@ -84,10 +132,20 @@ export default function PropertySearch({
     if (waterfrontOnly) params.set('waterfrontOnly', 'true');
     if (noHoa) params.set('noHoa', 'true');
     if (newConstructionOnly) params.set('newConstruction', 'true');
+
+    // Distressed filtering. A specific condition chip overrides the broad set.
+    if (distressedOnly) {
+      if (condition) {
+        params.set('conditions', condition);
+      } else {
+        params.set('distressed', distressedOnly === 'probate' ? 'probate' : 'true');
+      }
+    }
+
     params.set('listingType', listingType);
     // Hidden subdivision filters, passed with every request, not shown in UI
-    if (defaultSubdivisions && defaultSubdivisions.length > 0) {
-      params.set('subdivisions', defaultSubdivisions.join(','));
+    if (subdivisionsKey) {
+      params.set('subdivisions', subdivisionsKey);
     } else if (defaultSubdivision) {
       params.set('subdivision', defaultSubdivision);
     }
@@ -107,7 +165,7 @@ export default function PropertySearch({
     } finally {
       setLoading(false);
     }
-  }, [defaultCity, defaultZip, minPrice, maxPrice, minBeds, minBaths, poolOnly, waterfrontOnly, noHoa, newConstructionOnly, sortBy, listingType, defaultSubdivision, defaultSubdivisions]);
+  }, [defaultCity, citiesKey, defaultZip, minPrice, maxPrice, minBeds, minBaths, poolOnly, waterfrontOnly, noHoa, newConstructionOnly, distressedOnly, condition, sortBy, listingType, defaultSubdivision, subdivisionsKey, pageSize]);
 
   // Initial fetch
   useEffect(() => {
@@ -166,6 +224,7 @@ export default function PropertySearch({
       )}
 
       {/* Filter bar */}
+      {!hideFilters && (
       <form onSubmit={handleSearch} style={{
         background: '#fff',
         border: '1px solid #e8e8e8',
@@ -282,22 +341,48 @@ export default function PropertySearch({
           </div>
         </div>
 
-        {/* Toggle filters row */}
-        <div style={{ display: 'flex', gap: 16, marginTop: 12, flexWrap: 'wrap' }}>
-          <label style={{ display: 'flex', alignItems: 'center', gap: 6, fontSize: 13, color: '#555', cursor: 'pointer' }}>
-            <input type="checkbox" checked={poolOnly} onChange={(e) => setPoolOnly(e.target.checked)} />
-            Pool Only
-          </label>
-          <label style={{ display: 'flex', alignItems: 'center', gap: 6, fontSize: 13, color: '#555', cursor: 'pointer' }}>
-            <input type="checkbox" checked={waterfrontOnly} onChange={(e) => setWaterfrontOnly(e.target.checked)} />
-            Waterfront Only
-          </label>
-          <label style={{ display: 'flex', alignItems: 'center', gap: 6, fontSize: 13, color: '#555', cursor: 'pointer' }}>
-            <input type="checkbox" checked={noHoa} onChange={(e) => setNoHoa(e.target.checked)} />
-            No HOA
-          </label>
-        </div>
+        {/* Distressed pages get condition chips instead of pool/waterfront toggles */}
+        {distressedOnly ? (
+          <div role="group" aria-label="Filter by foreclosure type" style={{ display: 'flex', gap: 8, marginTop: 14, flexWrap: 'wrap' }}>
+            {CONDITION_CHIPS.map((chip) => {
+              const active = condition === chip.value;
+              return (
+                <button
+                  key={chip.value || 'all'}
+                  type="button"
+                  aria-pressed={active}
+                  onClick={() => { setCondition(chip.value); setPage(0); }}
+                  style={{
+                    padding: '7px 14px', fontSize: 13, fontWeight: 600,
+                    borderRadius: 999, cursor: 'pointer',
+                    border: `1.5px solid ${active ? '#003da5' : '#e8e8e8'}`,
+                    background: active ? '#003da5' : '#fff',
+                    color: active ? '#fff' : '#555',
+                  }}
+                >
+                  {chip.label}
+                </button>
+              );
+            })}
+          </div>
+        ) : (
+          <div style={{ display: 'flex', gap: 16, marginTop: 12, flexWrap: 'wrap' }}>
+            <label style={{ display: 'flex', alignItems: 'center', gap: 6, fontSize: 13, color: '#555', cursor: 'pointer' }}>
+              <input type="checkbox" checked={poolOnly} onChange={(e) => setPoolOnly(e.target.checked)} />
+              Pool Only
+            </label>
+            <label style={{ display: 'flex', alignItems: 'center', gap: 6, fontSize: 13, color: '#555', cursor: 'pointer' }}>
+              <input type="checkbox" checked={waterfrontOnly} onChange={(e) => setWaterfrontOnly(e.target.checked)} />
+              Waterfront Only
+            </label>
+            <label style={{ display: 'flex', alignItems: 'center', gap: 6, fontSize: 13, color: '#555', cursor: 'pointer' }}>
+              <input type="checkbox" checked={noHoa} onChange={(e) => setNoHoa(e.target.checked)} />
+              No HOA
+            </label>
+          </div>
+        )}
       </form>
+      )}
 
       {/* Results header */}
       <div id="property-results" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 20 }}>
@@ -305,7 +390,14 @@ export default function PropertySearch({
           {loading ? (
             'Searching...'
           ) : (
-            <><strong>{total.toLocaleString()}</strong> {listingType === 'rent' ? (total === 1 ? 'rental' : 'rentals') : (total === 1 ? 'home' : 'homes')} found</>
+            <>
+              <strong>{total.toLocaleString()}</strong>{' '}
+              {resultNoun
+                ? (total === 1 ? resultNoun : `${resultNoun}s`)
+                : listingType === 'rent'
+                  ? (total === 1 ? 'rental' : 'rentals')
+                  : (total === 1 ? 'home' : 'homes')} found
+            </>
           )}
         </div>
         {heading && <div style={{ fontSize: 11, color: '#888' }}>Updated from Stellar MLS</div>}
@@ -345,8 +437,27 @@ export default function PropertySearch({
           background: '#fafafa', borderRadius: 10, border: '1px solid #e8e8e8',
         }}>
           <span className="material-icons" style={{ fontSize: 48, color: '#ccc', marginBottom: 12 }}>search_off</span>
-          <p style={{ fontSize: 16, fontWeight: 600, color: '#222', marginBottom: 8 }}>No listings match your filters</p>
-          <p style={{ fontSize: 14, color: '#555' }}>Try adjusting your price range or removing filters. Or call Barrett at <a href="tel:8137337907" style={{ color: '#003da5', fontWeight: 600 }}>(813) 733-7907</a> for help finding your next home.</p>
+          {distressedOnly ? (
+            <>
+              <p style={{ fontSize: 17, fontWeight: 700, color: '#222', marginBottom: 8 }}>
+                No distressed listings on the MLS right now
+              </p>
+              <p style={{ fontSize: 14, color: '#555', maxWidth: 520, margin: '0 auto 16px', lineHeight: 1.7 }}>
+                Foreclosure inventory turns over fast and the best deals are often gone before they
+                hit public sites. Barrett tracks lis pendens filings, Hillsborough County auction
+                calendars, and bank REO pipelines directly. Get on the alert list and you will hear
+                about Valrico-area distressed properties first.
+              </p>
+              <a href="tel:8137337907" style={{ display: 'inline-block', padding: '12px 24px', background: '#003da5', color: '#fff', fontWeight: 700, fontSize: 15, borderRadius: 6, textDecoration: 'none' }}>
+                Call (813) 733-7907 for off-market foreclosures
+              </a>
+            </>
+          ) : (
+            <>
+              <p style={{ fontSize: 16, fontWeight: 600, color: '#222', marginBottom: 8 }}>No listings match your filters</p>
+              <p style={{ fontSize: 14, color: '#555' }}>Try adjusting your price range or removing filters. Or call Barrett at <a href="tel:8137337907" style={{ color: '#003da5', fontWeight: 600 }}>(813) 733-7907</a> for help finding your next home.</p>
+            </>
+          )}
         </div>
       )}
 
@@ -374,6 +485,7 @@ export default function PropertySearch({
       )}
 
       {/* MLS disclaimer, required by Stellar MLS */}
+      {!hideDisclaimer && (
       <div style={{
         marginTop: 40, padding: 20, background: '#fafafa',
         borderRadius: 8, border: '1px solid #e8e8e8',
@@ -382,6 +494,7 @@ export default function PropertySearch({
         <p>Listing data provided by Stellar MLS via Bridge Interactive. Information deemed reliable but not guaranteed. Buyers should verify all data independently. IDX information is provided exclusively for personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing. Last updated: {new Date().toLocaleDateString()}.</p>
         <p style={{ marginTop: 8 }}>Barrett Henry, REALTOR® · REMAX Collective · (813) 733-7907</p>
       </div>
+      )}
     </div>
   );
 }

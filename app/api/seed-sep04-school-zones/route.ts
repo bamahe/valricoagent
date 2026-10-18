@@ -214,7 +214,7 @@ The more realistic outlook is that the school zone premium remains in the $30,00
 
 ## Work with Someone Who Knows the Zones
 
-Valrico's school zone dynamics are granular enough that neighborhood-level knowledge is essential. Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of experience covering Valrico, Brandon, and east Hillsborough County. He knows where the zone boundaries run, which neighborhoods have recently been rezoned, and how to structure an offer that wins in the Newsome zone's competitive sub-market.
+Valrico's school zone dynamics are granular enough that neighborhood-level knowledge is essential. Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience and over a decade covering Valrico, Brandon, and east Hillsborough County. He knows where the zone boundaries run, which neighborhoods have recently been rezoned, and how to structure an offer that wins in the Newsome zone's competitive sub-market.
 
 For a free consultation on finding a home in the right school zone for your family's needs, call or text [(813) 733-7907](tel:+18137337907), or [view current Valrico listings organized by neighborhood and zone](/valrico-fl-homes-for-sale/).
 

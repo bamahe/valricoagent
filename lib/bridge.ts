@@ -67,8 +67,48 @@ export interface BridgeListing {
   HighSchool: string;
   ListAgentFullName: string;
   ListOfficeName: string;
+  /**
+   * RESO multi-value field flagging distressed sales.
+   * Stellar MLS populates: "None", "Short Sale", "Real Estate Owned",
+   * "Auction", "Probate Listing". Can be an empty array on some records.
+   */
+  SpecialListingConditions: string[];
   Media: BridgeMedia[];
   url?: string;
+}
+
+/**
+ * The only SpecialListingConditions values Stellar MLS actually returns for
+ * distressed inventory. Verified live against the Bridge API (Oct 2026).
+ *
+ * "Government Owned" is how Stellar flags HUD and VA-owned homes.
+ *
+ * WARNING: "Foreclosure", "Bank Owned", "REO", "Third Party Approval",
+ * "Notice Of Default" and "In Foreclosure" all return ZERO results. They look
+ * like plausible RESO values but Stellar does not use them, and passing one
+ * silently empties the grid instead of erroring.
+ */
+export const DISTRESSED_CONDITIONS = [
+  'Short Sale',
+  'Real Estate Owned',
+  'Auction',
+  'Government Owned',
+] as const;
+
+/** Distressed conditions plus probate, for broader "motivated seller" pages */
+export const DISTRESSED_PLUS_PROBATE = [...DISTRESSED_CONDITIONS, 'Probate Listing'] as const;
+
+/** Human-readable label + badge color for a listing's distressed condition */
+export function getDistressedLabel(listing: BridgeListing): { label: string; color: string } | null {
+  const conditions = listing.SpecialListingConditions || [];
+  // Order matters: a listing can carry several flags (e.g. Auction + REO).
+  // Lead with the label a buyer acts on first.
+  if (conditions.includes('Real Estate Owned')) return { label: 'Bank Owned / REO', color: '#b91c1c' };
+  if (conditions.includes('Short Sale')) return { label: 'Short Sale', color: '#c2410c' };
+  if (conditions.includes('Auction')) return { label: 'Auction', color: '#7c2d12' };
+  if (conditions.includes('Government Owned')) return { label: 'HUD / Govt Owned', color: '#1d4ed8' };
+  if (conditions.includes('Probate Listing')) return { label: 'Probate', color: '#6b21a8' };
+  return null;
 }
 
 export interface BridgeMedia {
@@ -108,6 +148,13 @@ export interface PropertySearchParams {
   listingType?: 'sale' | 'rent';
   /** Only show new construction listings */
   newConstructionOnly?: boolean;
+  /**
+   * Filter to specific RESO SpecialListingConditions values (OR match).
+   * Use the DISTRESSED_CONDITIONS constant for foreclosure pages.
+   */
+  specialConditions?: readonly string[];
+  /** Search multiple cities at once (OR match), e.g. nearby-area fallback grids */
+  cities?: string[];
   sortBy?: 'newest' | 'price-asc' | 'price-desc' | 'sqft';
   limit?: number;
   offset?: number;
@@ -154,7 +201,12 @@ function buildQueryParams(params: PropertySearchParams): URLSearchParams {
   q.set('access_token', SERVER_TOKEN);
 
   // Filters
-  if (params.city) q.set('City', params.city);
+  // cities (multi) wins over city (single) so nearby-area grids work
+  if (params.cities && params.cities.length > 0) {
+    q.set('City.in', params.cities.join(','));
+  } else if (params.city) {
+    q.set('City', params.city);
+  }
   if (params.postalCode) q.set('PostalCode', params.postalCode);
   if (params.minPrice) q.set('ListPrice.gte', params.minPrice.toString());
   if (params.maxPrice) q.set('ListPrice.lte', params.maxPrice.toString());
@@ -166,6 +218,12 @@ function buildQueryParams(params: PropertySearchParams): URLSearchParams {
   if (params.waterfrontOnly) q.set('WaterfrontYN', 'true');
   if (params.noHoa) q.set('AssociationYN', 'false');
   if (params.newConstructionOnly) q.set('NewConstructionYN', 'true');
+
+  // Distressed / foreclosure filter. SpecialListingConditions is an array field,
+  // so .in matches a listing when ANY of its values is in our list.
+  if (params.specialConditions && params.specialConditions.length > 0) {
+    q.set('SpecialListingConditions.in', params.specialConditions.join(','));
+  }
 
   // Subdivision filter, array uses .in operator, single string uses exact match
   if (params.subdivisions && params.subdivisions.length > 0) {
@@ -206,7 +264,7 @@ function buildQueryParams(params: PropertySearchParams): URLSearchParams {
   if (params.offset) q.set('offset', params.offset.toString());
 
   // Request specific fields to reduce payload size
-  q.set('fields', 'ListingId,ListingKey,StandardStatus,MlsStatus,ListPrice,City,PostalCode,StateOrProvince,StreetNumber,StreetName,StreetSuffix,UnitNumber,UnparsedAddress,BedroomsTotal,BathroomsTotalInteger,BathroomsFull,BathroomsHalf,LivingArea,LotSizeSquareFeet,LotSizeAcres,YearBuilt,PropertyType,PropertySubType,SubdivisionName,PublicRemarks,Latitude,Longitude,DaysOnMarket,ListingContractDate,ModificationTimestamp,PhotosCount,GarageSpaces,GarageYN,PoolPrivateYN,WaterfrontYN,Cooling,Heating,Flooring,Roof,ExteriorFeatures,InteriorFeatures,Appliances,AssociationYN,AssociationFee,AssociationFeeFrequency,ElementarySchool,MiddleOrJuniorSchool,HighSchool,ListAgentFullName,ListOfficeName,Media');
+  q.set('fields', 'ListingId,ListingKey,StandardStatus,MlsStatus,ListPrice,City,PostalCode,StateOrProvince,StreetNumber,StreetName,StreetSuffix,UnitNumber,UnparsedAddress,BedroomsTotal,BathroomsTotalInteger,BathroomsFull,BathroomsHalf,LivingArea,LotSizeSquareFeet,LotSizeAcres,YearBuilt,PropertyType,PropertySubType,SubdivisionName,PublicRemarks,Latitude,Longitude,DaysOnMarket,ListingContractDate,ModificationTimestamp,PhotosCount,GarageSpaces,GarageYN,PoolPrivateYN,WaterfrontYN,Cooling,Heating,Flooring,Roof,ExteriorFeatures,InteriorFeatures,Appliances,AssociationYN,AssociationFee,AssociationFeeFrequency,ElementarySchool,MiddleOrJuniorSchool,HighSchool,ListAgentFullName,ListOfficeName,SpecialListingConditions,Media');
 
   return q;
 }
@@ -226,7 +284,13 @@ export async function searchListings(params: PropertySearchParams = {}): Promise
   // Check in-memory cache first (Layer 1)
   const cacheKey = makeCacheKey('listings', {
     city: params.city,
+    cities: params.cities?.join(','),
     zip: params.postalCode,
+    // Must be in the key, otherwise a foreclosure search returns the cached
+    // "all homes" result for the same city/price/sort combination.
+    special: params.specialConditions?.join(','),
+    newcon: params.newConstructionOnly?.toString(),
+    noHoa: params.noHoa?.toString(),
     minPrice: params.minPrice?.toString(),
     maxPrice: params.maxPrice?.toString(),
     beds: params.minBeds?.toString(),

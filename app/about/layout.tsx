@@ -4,19 +4,19 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Barrett Henry, REALTOR® - Valrico Real Estate Agent",
   description:
-    "Meet Barrett Henry, your Valrico FL REALTOR® and Broker Associate with REMAX Collective. 23+ years of real estate experience, 38 neighborhoods, e-PRO, MRP, SRS designations. Call (813) 733-7907.",
+    "Meet Barrett Henry, Valrico FL REALTOR® and Broker Associate at REMAX Collective. 23+ years of experience, e-PRO, MRP, SRS. Call (813) 733-7907.",
   openGraph: {
     title: "Barrett Henry, REALTOR® - Valrico Real Estate Agent",
     description:
-      "Meet Barrett Henry, your Valrico FL REALTOR® and Broker Associate with REMAX Collective. 23+ years of real estate experience, 38 neighborhoods, e-PRO, MRP, SRS designations. Call (813) 733-7907.",
+      "Meet Barrett Henry, Valrico FL REALTOR® and Broker Associate at REMAX Collective. 23+ years of experience, e-PRO, MRP, SRS. Call (813) 733-7907.",
     url: "https://valricoagent.com/about/",
     siteName: "ValricoAgent.com",
     type: "website",
-    images: [{ url: "https://valricoagent.com/barrett-henry.png", width: 1200, height: 630, alt: "Barrett Henry, REALTOR - Valrico FL" }],
+    images: [{ url: "https://valricoagent.com/og-image.png", width: 1200, height: 630, alt: "Barrett Henry, REALTOR - Valrico FL" }],
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://valricoagent.com/barrett-henry.png"],
+    images: ["https://valricoagent.com/og-image.png"],
   },
   alternates: {
     canonical: "/about/",

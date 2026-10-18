@@ -9,7 +9,17 @@
  */
 
 import { NextRequest, NextResponse } from 'next/server';
-import { searchListings, isRateLimited, type PropertySearchParams } from '@/lib/bridge';
+import {
+  searchListings,
+  isRateLimited,
+  DISTRESSED_CONDITIONS,
+  DISTRESSED_PLUS_PROBATE,
+  type PropertySearchParams,
+} from '@/lib/bridge';
+
+// Whitelist of allowed SpecialListingConditions values. Never pass raw user
+// input straight to Bridge, an unknown string silently returns zero results.
+const ALLOWED_CONDITIONS: ReadonlySet<string> = new Set<string>(DISTRESSED_PLUS_PROBATE);
 
 export async function GET(request: NextRequest) {
   const sp = request.nextUrl.searchParams;
@@ -30,6 +40,29 @@ export async function GET(request: NextRequest) {
   if (sp.get('waterfrontOnly') === 'true') params.waterfrontOnly = true;
   if (sp.get('noHoa') === 'true') params.noHoa = true;
   if (sp.get('newConstruction') === 'true') params.newConstructionOnly = true;
+
+  // Multi-city search, used by the nearby-area foreclosure grid
+  if (sp.get('cities')) {
+    params.cities = sp.get('cities')!.split(',').map(s => s.trim()).filter(Boolean);
+  }
+
+  // Distressed / foreclosure filtering.
+  // ?distressed=true     -> Short Sale + REO + Auction
+  // ?distressed=probate  -> the above plus Probate Listing
+  // ?conditions=a,b      -> explicit whitelisted subset (e.g. "Real Estate Owned")
+  const distressed = sp.get('distressed');
+  if (distressed === 'true') {
+    params.specialConditions = DISTRESSED_CONDITIONS;
+  } else if (distressed === 'probate') {
+    params.specialConditions = DISTRESSED_PLUS_PROBATE;
+  }
+  if (sp.get('conditions')) {
+    const requested = sp.get('conditions')!
+      .split(',')
+      .map(s => s.trim())
+      .filter(c => ALLOWED_CONDITIONS.has(c));
+    if (requested.length > 0) params.specialConditions = requested;
+  }
   // Subdivision filters
   if (sp.get('subdivision')) params.subdivision = sp.get('subdivision')!;
   if (sp.get('subdivisions')) {

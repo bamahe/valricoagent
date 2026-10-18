@@ -4,7 +4,11 @@
  * Full page for scheduling a property showing in Valrico.
  */
 import type { Metadata } from 'next';
+import Link from 'next/link';
 import { ScheduleShowingForm } from '../components/ScheduleShowingForm';
+import Breadcrumbs, { breadcrumbSchema } from '../components/Breadcrumbs';
+
+const CRUMBS = [{ name: 'Schedule a Showing', href: '/schedule-showing/' }];
 
 export const metadata: Metadata = {
   title: 'Schedule a Showing - Valrico FL Homes | Barrett Henry',
@@ -20,7 +24,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: 'https://valricoagent.com/barrett-henry.png',
+        url: 'https://valricoagent.com/og-image.png',
         width: 600,
         height: 600,
         alt: 'Barrett Henry, REALTOR - Valrico FL',
@@ -31,7 +35,13 @@ export const metadata: Metadata = {
 
 export default function ScheduleShowingPage() {
   return (
-    <main style={{ maxWidth: 640, margin: '0 auto', padding: '48px 20px' }}>
+    <>
+      <Breadcrumbs items={CRUMBS} />
+
+      {/* BreadcrumbList JSON-LD, mirrors the visible trail above */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema(CRUMBS)) }} />
+
+      <main style={{ maxWidth: 640, margin: '0 auto', padding: '48px 20px' }}>
       {/* Page heading */}
       <h1 style={{ fontSize: 28, fontWeight: 700, color: '#111', marginBottom: 8 }}>
         Schedule a Private Showing
@@ -61,6 +71,32 @@ export default function ScheduleShowingPage() {
       <p style={{ fontSize: 13, color: '#888', marginTop: 20, textAlign: 'center' }}>
         Your information is confidential. Barrett Henry, REALTOR®, 23+ years of real estate experience.
       </p>
-    </main>
+      <p style={{ fontSize: 14, marginTop: 10, textAlign: 'center' }}>
+        Need a showing today?{' '}
+        <a href="tel:8137337907" style={{ color: '#003da5', fontWeight: 700 }}>Call (813) 733-7907</a>
+      </p>
+
+      {/* Internal links, this page previously had none */}
+      <div style={{ marginTop: 36, paddingTop: 24, borderTop: '1px solid #e8e8e8' }}>
+        <p style={{ fontSize: 13, fontWeight: 700, textTransform: 'uppercase', letterSpacing: '.06em', color: '#888', marginBottom: 12 }}>
+          Not sure which home yet?
+        </p>
+        <ul style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(230px, 1fr))', gap: '8px 24px', listStyle: 'none', padding: 0, fontSize: 14, lineHeight: 1.9 }}>
+          {[
+            ['/valrico-fl-homes-for-sale/', 'Browse all Valrico homes for sale'],
+            ['/valrico-open-houses/', 'See open houses this weekend'],
+            ['/neighborhoods/', 'Compare Valrico neighborhoods'],
+            ['/valrico-pool-homes/', 'Valrico pool homes'],
+            ['/valrico-new-construction-homes/', 'New construction in Valrico'],
+            ['/valrico-school-zones/', 'Check school zones first'],
+          ].map(([href, label]) => (
+            <li key={href}>
+              <Link href={href} style={{ color: '#003da5', fontWeight: 500 }}>{label}</Link>
+            </li>
+          ))}
+        </ul>
+      </div>
+      </main>
+    </>
   );
 }

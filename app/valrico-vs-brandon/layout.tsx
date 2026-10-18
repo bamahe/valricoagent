@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Valrico vs Brandon FL - Home Prices, Schools & Lifestyle Compared",
+  title: "Valrico vs Brandon FL - Prices, Schools & Lifestyle",
   description:
     "Compare Valrico and Brandon FL side by side, median prices, school ratings, commute times, taxes, and lifestyle. Barrett Henry, REMAX Collective.",
   alternates: { canonical: "/valrico-vs-brandon/" },
   openGraph: {
-    title: "Valrico vs Brandon FL - Home Prices, Schools & Lifestyle Compared",
+    title: "Valrico vs Brandon FL - Prices, Schools & Lifestyle",
     description:
       "Compare Valrico and Brandon FL side by side, median prices, school ratings, commute times, taxes, and lifestyle. Barrett Henry, REMAX Collective.",
     url: "https://valricoagent.com/valrico-vs-brandon/",
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://valricoagent.com/barrett-henry.png",
+        url: "https://valricoagent.com/og-image.png",
         width: 600,
         height: 600,
         alt: "Barrett Henry, REALTOR - Valrico FL",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://valricoagent.com/barrett-henry.png"],
+    images: ["https://valricoagent.com/og-image.png"],
   },
 };
 

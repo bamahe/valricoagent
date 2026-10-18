@@ -165,7 +165,7 @@ If your home is a standard interior lot with original finishes in an average pos
 
 The September 2026 Valrico market -- 67 median days on market, active inventory up from 2025 lows, Zillow's Q4 forecast of approximately flat -- rewards homes that enter the market correctly priced. Homes that start too high and chase the market down with reductions take longer to sell, attract fewer offers, and often end up at or below the price they could have achieved with a correct initial strategy.
 
-Barrett Henry, Broker Associate at REMAX Collective with 23 years in east Hillsborough County, builds pricing analysis from actual closed transactions, not ZIP code averages. If you want to know what your specific Valrico home would realistically sell for in the current market, the [valuation request form](/contact/) starts the conversation.
+Barrett Henry, Broker Associate at REMAX Collective with 23+ years of real estate experience and over a decade in east Hillsborough County, builds pricing analysis from actual closed transactions, not ZIP code averages. If you want to know what your specific Valrico home would realistically sell for in the current market, the [valuation request form](/contact/) starts the conversation.
 
 **External sources:**
 - [Zillow Valrico FL Market Data September 2026](https://www.zillow.com/valrico-fl/)

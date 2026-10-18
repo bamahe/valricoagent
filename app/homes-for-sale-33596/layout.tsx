@@ -12,11 +12,11 @@ export const metadata: Metadata = {
     url: "https://valricoagent.com/homes-for-sale-33596/",
     siteName: "ValricoAgent.com",
     type: "website",
-    images: [{ url: "https://valricoagent.com/barrett-henry.png", width: 1200, height: 630, alt: "Barrett Henry, REALTOR - Valrico FL" }],
+    images: [{ url: "https://valricoagent.com/og-image.png", width: 1200, height: 630, alt: "Barrett Henry, REALTOR - Valrico FL" }],
   },
   twitter: {
     card: "summary_large_image",
-    images: ["https://valricoagent.com/barrett-henry.png"],
+    images: ["https://valricoagent.com/og-image.png"],
   },
   alternates: {
     canonical: "/homes-for-sale-33596/",
