@@ -1,5 +1,15 @@
 # SEO Audit Log
 
+## 2026-10-19
+
+**2 blog posts added:**
+
+1. `valrico-fl-q4-2026-high-dollar-home-sales-october-report` - New 1,800+ word Q4 2026 high-dollar sales market report. Covers: Q4 baseline data (33594 median sold $367K with 168 closings, 33596 $452K with 172 closings, down from 243/276 a year prior); what counts as high-dollar (above $430K in 33594, above $500K in 33596); October 2026 transaction highlights by sub-market (Bloomingdale Estates, Twin Lakes, River Hills, Diamond Hill); seller concession landscape ($8K-$12K closing cost credits, 1-0 rate buydowns, inspection credits as new standard above $425K); DOM windows as negotiating signals (0-21 days clean offer, 22-45 day leverage window, 46-75 day primary opportunity, 75+ day due diligence); buyer strategy (use Q4 comps not spring 2026, target 45-70 DOM homes, get Stellar MLS data); seller strategy (price below last comp, pre-inspect and disclose, seller-funded buydowns as marketing tool, consider Q1 2027 if not under time pressure). Featured image: valrico-fl-luxury-estates.jpg (existing repo asset). 5 FAQs. Pillar: market. CTA: market-report. Publish date: 2026-10-19. **Seeded live at /api/seed-oct19-q4-high-dollar-sales.**
+
+2. `hillsborough-county-2026-property-tax-bills-valrico-early-payment-guide` - New 1,900+ word timely action guide for Hillsborough County property tax bills mailing November 1, 2026. Distinct from existing sep27-property-taxes overview (this is action-focused not structural). Covers: November 1 mailing timeline; complete early payment discount schedule (4% Nov 30, 3% Dec 31, 2% Jan 31, 1% Feb 28, due March 31); real dollar savings examples ($200 on $5K bill, $360 on $9K bill); what the bill actually includes (non-ad valorem assessments: CDD $800-$2,500/yr, MSBU, solid waste, mosquito abatement, fire rescue); homestead exemption and Save Our Homes cap explanation; how to pay (HillsTaxFL.gov eCheck free, card 2.25-2.5% fee, in person, by mail, by phone); what to do if assessed value seems wrong (VAB deadline passed, call Property Appraiser informally at 813-272-6100); Amendment 3 impact (does NOT affect 2026 bill, could save ~$1,100/yr starting 2027 if passes); homestead filing deadline reminder (March 1, 2027 for 2027 tax year); rental property and investment property owner nuances; escrow shortfall warnings. Featured image: bloomingdale-brick-home-palm-landscaping-valrico.jpg (existing repo asset). 5 FAQs. Pillar: buyer. CTA: market-report. Publish date: 2026-10-19. **Seeded live at /api/seed-oct19-tax-bill-guide.**
+
+---
+
 ## 2026-10-18
 
 **2 blog posts added:**
