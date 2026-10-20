@@ -1,5 +1,15 @@
 # SEO Audit Log
 
+## 2026-10-20
+
+**2 blog posts added:**
+
+1. `palm-harbor-fl-real-estate-market-2026` - New 1,700+ word neighboring community market analysis for Palm Harbor FL (Pinellas County, ZIPs 34683/34684/34685). Covers: ZIP-level median prices (34684 ~$355K down 2.2% YoY, 34683 ~$492.5K down 1.6% YoY, citywide ~$357.5K down 3.7% YoY); 52-75 day DOM; 4.3 months supply in 34684; 94% sold-to-list ratio; neighborhood breakdown (34685 Lansbrook and East Lake corridor $450K-$750K; 34684 Lake St. George/Westlake Village $290K-$430K; 34683 downtown character and coastal-adjacent $450K+); Palm Harbor University High IB school zone; insurance costs (HO-3 $3,500-$5,200 in Pinellas vs $2,800-$4,200 Valrico; flood zone risk in AE/VE zones $1,800-$5,500/yr); 5 trade-off dimensions (lifestyle, school zone, insurance, commute, land per dollar); Q4 buyer strategy (target 34684 for value, verify flood zone before offer, use 2026 comps). Featured image: palm-harbor-fl-real-estate-guide.jpg (downloaded from Google Drive). 5 FAQs. Pillar: comparison. CTA: buyer. Publish date: 2026-10-19. **Seed route at /api/seed-oct20-palm-harbor - call once on production to insert into Supabase.**
+
+2. `valrico-fl-q4-2026-investment-property-guide` - New 1,800+ word Q4 2026 investor guide specific to Valrico. Distinct from existing September rental market post (this focuses on Q4 acquisition timing, year-end tax strategy). Covers: full yield math for 33594 (gross yield 7.2-7.8% on $2,200-$2,450/month rents at $378,907 median) and 33596 (gross yield ~6.4% on $2,500/month rents at $468,996 median); net cash-on-cash 3.5-5.0% after all operating costs; why Q4 2026 is a legitimate buying window (35-40% of listings with price reductions, $8K-$12K closing credits available, year-end seller motivation, investment rates 7.25-7.50%); target acquisition profile (33594, $340K-$395K, 3-4BR built 1990-2015, 45-75 day DOM, roof under 12 years); year-end depreciation capture (partial-year 2026 deduction, cost segregation strategy on $350K+ acquisitions, $2K-$4K study cost recoverable); 1031 exchange deadline mechanics for Q4 sales (45-day ID window, 180-day close requirement); yield comparison vs Brandon (6.8-7.2%), Ruskin (7.5-8.3%), Wimauma (7.5-8.0%). Featured image: investing-valrico-fl-real-estate.jpg (downloaded from Google Drive). 5 FAQs. Pillar: market. CTA: consultation. Publish date: 2026-10-19. **Seed route at /api/seed-oct20-valrico-investor-q4 - call once on production to insert into Supabase.**
+
+---
+
 ## 2026-10-19
 
 **2 blog posts added:**
