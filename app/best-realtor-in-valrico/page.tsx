@@ -15,7 +15,7 @@ export default function BestRealtorInValrico() {
       "@context": "https://schema.org",
       "@type": "RealEstateAgent",
       "name": "Barrett Henry",
-      "image": "https://nowtb.com/wp-content/uploads/2026/02/barrett-henry-realtor.jpg",
+      "image": "https://valricoagent.com/barrett-henry.png",
       "url": "https://valricoagent.com/best-realtor-in-valrico/",
       "telephone": "+1-813-733-7907",
       "email": "barrett@nowtb.com",

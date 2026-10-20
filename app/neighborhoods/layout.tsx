@@ -21,8 +21,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: 'https://valricoagent.com/og-image.png',
-        width: 600,
-        height: 600,
+        width: 1200,
+        height: 630,
         alt: 'Barrett Henry, REALTOR - Valrico FL',
       },
     ],

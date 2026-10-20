@@ -10,7 +10,13 @@ import { Analytics } from "@vercel/analytics/next";
 export const metadata: Metadata = {
   title: {
     default: "Valrico Realtor | Barrett Henry | REMAX Collective",
-    template: "%s | ValricoAgent.com",
+    // No brand suffix. " | ValricoAgent.com" added 19 chars to every page
+
+    // and pushed 23 of 87 rendered titles past the ~60 Google shows.
+
+    // Page titles already carry the Valrico keyword.
+
+    template: "%s",
   },
   description: "Barrett Henry - Valrico realtor and Broker Associate with REMAX Collective. Search homes in 33594 & 33596, explore 41 neighborhoods, get your home value.",
   keywords: "Valrico real estate agent, Valrico realtor, homes for sale Valrico FL, Valrico home values, sell my home Valrico, Valrico REMAX, 33594, 33596, Barrett Henry",
@@ -35,8 +41,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "https://valricoagent.com/og-image.png",
-        width: 600,
-        height: 600,
+        width: 1200,
+        height: 630,
         alt: "Barrett Henry, REALTOR - Valrico FL Real Estate Agent",
       },
     ],
