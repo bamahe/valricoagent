@@ -1,5 +1,15 @@
 # SEO Audit Log
 
+## 2026-10-21
+
+**2 blog posts added:**
+
+1. `clearwater-fl-real-estate-market-2026` - New 1,700+ word neighboring community market analysis for Clearwater FL (Pinellas County, ZIPs 33755/33756/33761/33763/33764/33767). Covers: ZIP-level median prices (33761 inland ~$365K down 3-4% YoY, 33763/33764 central ~$330K-$355K, 33767 Clearwater Beach condos $580K-$1.2M+ SFH $800K+, citywide SFH ~$375K-$395K); 50-65 day DOM for inland; 4.5-5.0 months supply in 33761; ~93-96% sold-to-list ratio; neighborhood breakdown (Countryside $330K-$520K; central/east Clearwater 1970s-1980s stock $290K-$420K; Clearwater Beach 33767 condos $450K+; Island Estates waterfront $900K+; Safety Harbor border $370K-$550K); Palm Harbor University High IB vs Newsome HS zone comparison; insurance cost reality (HO-3 $3,800-$5,500 inland Clearwater vs $2,800-$4,200 Valrico; flood VE/AE $2,500-$8,000/yr on waterfront; condo reserve legislation risk on beach buildings); 5 trade-off dimensions (lifestyle, price/sqft, insurance, condo risk, school zone investment); Q4 buyer strategy (target 33761 for value, always verify flood zone before offer, treat Clearwater Beach condos as business acquisitions, review Milestone Inspection status). Featured images: clearwater-fl-real-estate-guide.jpg (downloaded from Google Drive marketing folder). 5 FAQs. Pillar: comparison. CTA: buyer. Publish date: 2026-10-20. **Seed route at /api/seed-oct21-clearwater - call once on production to insert into Supabase.**
+
+2. `sarasota-fl-real-estate-market-2026` - New 1,800+ word neighboring community market analysis for Sarasota FL (Sarasota County). Covers: citywide median prices (single-family $440K-$475K down 4-6% YoY; countywide blended $460K-$490K; active listings 4,500-5,500 total; 5-6 months supply); 55-70 day DOM; neighborhood breakdown (downtown/bayfront $600K-$900K SFH mostly Zone AE; Palmer Ranch $420K-$580K Zone X; Bee Ridge/Fruitville corridor $350K-$480K; Lakewood Ranch new construction $460K-$700K+ with CDD assessments $1,500-$4,500/yr); Siesta Key barrier island overview (condos $700K-$2M, SFH $1.5M+, FEMA Zone VE flood insurance $3,500-$7,500/yr plus windstorm $4K-$7K); insurance cost comparison (HO-3 $4,200-$6,500 inland Sarasota vs $2,800-$4,200 Valrico; flood zone VE/AE $3,500-$10,000/yr); Sarasota County Schools vs Hillsborough (Pine View gifted school, both competitive districts, district choice vs zone-based); 5 buyer trade-off dimensions vs Valrico (price/sqft $260-$310 vs $185-$200, lifestyle/Gulf beaches, insurance cost, CDD overhead, 60-80 min Tampa commute vs 25-40 min); Lakewood Ranch CDD disclosure warning; buyer strategy (use 5-6 month supply leverage, demand full CDD disclosure, get insurance quotes before offer, prioritize Zone X). Featured image: sarasota-fl-real-estate-guide.jpg (downloaded from Google Drive marketing folder). 5 FAQs. Pillar: comparison. CTA: buyer. Publish date: 2026-10-20. **Seed route at /api/seed-oct21-sarasota - call once on production to insert into Supabase.**
+
+---
+
 ## 2026-10-20
 
 **2 blog posts added:**
