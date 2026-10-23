@@ -1,5 +1,15 @@
 # SEO Audit Log
 
+## 2026-10-23
+
+**2 blog posts added:**
+
+1. `dunedin-fl-real-estate-market-2026` - New 1,700+ word neighboring community market analysis for Dunedin FL (Pinellas County, ZIP 34698). Covers: median price $415K-$450K, 47-78 day DOM, price/sqft $235-$275; neighborhood breakdown (Edgewater Drive waterfront condos $600K-$1.2M+, Douglas Manor historic bungalows $475K-$750K, Fairway Estates suburban 3/2 $390K-$520K); insurance reality (HO-3 $3,500-$5,500 inland vs $2,800-$4,200 Valrico; flood Zone AE waterfront $2,500-$6,000/yr); Pinellas County school choice system vs Hillsborough zone-based; Dunedin High School overview; commute analysis (31 miles to Tampa CBD, 50-75 min via US-19 or Courtney Campbell Causeway); 5 trade-off dimensions vs Valrico (lifestyle, price/sqft $235-$275 vs $210-$250, insurance, commute, school zone mechanics); Q4 buyer strategy (target Fairway Estates for value, flood zone check on every offer, Pinellas 4.5-5.5 months supply). No featured image. 5 FAQs. Pillar: comparison. CTA: buyer. Publish date: 2026-10-22. Seeded production via /api/seed-oct23-dunedin (id: b6138c1f-4430-4d1f-b402-5947d4a1c703).
+
+2. `new-port-richey-fl-real-estate-market-2026` - New 1,700+ word neighboring community market analysis for New Port Richey FL (Pasco County, ZIPs 34652/34653/34655). Covers: ZIP-level median prices (34652 coastal ~$239K up 6.1% YoY, 34653 central ~$240K down 1.6% YoY, 34655 Trinity ~$288K-$310K); 39-64 day DOM by ZIP; neighborhood breakdown (Trinity: Heritage Pines 55+ $280K-$425K, Longleaf TND $350K-$550K, Seven Springs $250K-$380K; Central NPR: Jasmine Trails $210K-$275K, Regency Park $225K-$290K); insurance costs (HO-3 $3,200-$5,000 central NPR, $4,500-$7,500 coastal; flood Zone AE $2,500-$5,000/yr coastal); school overview (J.W. Mitchell HS for Trinity, Gulf HS/River Ridge HS for NPR); commute 35-55 min to Tampa; 5 trade-off dimensions vs Valrico (price $239K-$310K vs $360K-$420K, Pasco vs Hillsborough schools, insurance, commute); Q4 2026 buyer strategy (use 45+ day DOM leverage, get insurance quotes first, separate Trinity from NPR in search). No featured image. 5 FAQs. Pillar: comparison. CTA: buyer. Publish date: 2026-10-22. Seeded production via /api/seed-oct23-new-port-richey (id: 7d28e2dc-d248-4629-b00b-9efba4b1efd1).
+
+---
+
 ## 2026-10-22
 
 **2 blog posts added:**
