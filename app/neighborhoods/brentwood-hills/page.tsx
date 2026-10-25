@@ -45,7 +45,7 @@ export default function BrentwoodHillsPage() {
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
           <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Brentwood Hills Homes for Sale, Valrico FL 33594 / 33596</h1>
-          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Brentwood Hills is a family-oriented community straddling the 33594 and 33596 ZIP codes in Valrico. Community pool, sidewalks throughout, Bloomingdale HS zone. Prices from $340K&ndash;$475K. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
+          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Brentwood Hills is a family-oriented community straddling the 33594 and 33596 ZIP codes in Valrico. Community pool, sidewalks throughout, Bloomingdale HS zone. Prices from $340K to $475K. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Brentwood Hills listings</Link>
             <Link href="/valrico-fl-home-values/" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">What&apos;s my home worth?</Link>
@@ -73,7 +73,7 @@ export default function BrentwoodHillsPage() {
       <div style={{ background: 'var(--cream)' }}>
         <div className="max-w-[1140px] mx-auto px-7 py-12 grid grid-cols-2 md:grid-cols-4 gap-5">
           {[
-            ['$340K\u2013$475K', 'Price range'],
+            ['$340K to $475K', 'Price range'],
             ['33594 / 33596', 'ZIP code'],
             ['Bloomingdale HS', 'High school zone'],
             ['Community pool', 'HOA amenity'],
@@ -107,12 +107,12 @@ export default function BrentwoodHillsPage() {
             <h2 className="font-serif text-2xl mb-4 mt-10">Location and Commute</h2>
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Brentwood Hills&apos; central Valrico position provides balanced access to major commute routes. Key commute times:</p>
             <ul className="text-[15px] leading-[1.8] mb-6 space-y-2 pl-5 list-disc" style={{ color: 'var(--ink-soft)' }}>
-              <li><strong>I-75 (SR-60 interchange):</strong> ~5 miles / 10&ndash;14 minutes</li>
-              <li><strong>Downtown Tampa:</strong> ~19 miles / 26&ndash;38 minutes via I-75 or Selmon</li>
-              <li><strong>MacDill Air Force Base:</strong> ~23 miles / 33&ndash;43 minutes</li>
-              <li><strong>Brandon Town Center:</strong> ~4 miles / 8&ndash;12 minutes</li>
-              <li><strong>Lakeland:</strong> ~28 miles / 30&ndash;35 minutes via I-4</li>
-              <li><strong>Tampa International Airport:</strong> ~26 miles / 34&ndash;44 minutes</li>
+              <li><strong>I-75 (SR-60 interchange):</strong> ~5 miles / 10 to 14 minutes</li>
+              <li><strong>Downtown Tampa:</strong> ~19 miles / 26 to 38 minutes via I-75 or Selmon</li>
+              <li><strong>MacDill Air Force Base:</strong> ~23 miles / 33 to 43 minutes</li>
+              <li><strong>Brandon Town Center:</strong> ~4 miles / 8 to 12 minutes</li>
+              <li><strong>Lakeland:</strong> ~28 miles / 30 to 35 minutes via I-4</li>
+              <li><strong>Tampa International Airport:</strong> ~26 miles / 34 to 44 minutes</li>
             </ul>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>The Bloomingdale Avenue commercial corridor is within walking distance. Publix, Winn-Dixie, CVS, and a range of restaurants and professional services are all within minutes. HCA Florida Brandon Hospital is accessible via Lithia Pinecrest Road to the north. The Lee Roy Selmon Expressway offers a faster Tampa commute during rush hour.</p>
 
@@ -135,10 +135,10 @@ export default function BrentwoodHillsPage() {
                 </thead>
                 <tbody>
                   {[
-                    ['Brentwood Hills', '$340K\u2013$475K', 'Community', 'Sidewalks + community pool + walkable'],
-                    ['Bloomingdale', '$300K\u2013$500K', 'Private only', '5,200+ homes, widest selection'],
-                    ['Bloomingdale Oaks', '$350K\u2013$475K', 'Private only', 'Sidewalks, strong resale identity'],
-                    ['Buckhorn Bloomingdale', '$300K\u2013$420K', 'No', 'Most affordable in 33596'],
+                    ['Brentwood Hills', '$340K to $475K', 'Community', 'Sidewalks + community pool + walkable'],
+                    ['Bloomingdale', '$300K to $500K', 'Private only', '5,200+ homes, widest selection'],
+                    ['Bloomingdale Oaks', '$350K to $475K', 'Private only', 'Sidewalks, strong resale identity'],
+                    ['Buckhorn Bloomingdale', '$300K to $420K', 'No', 'Most affordable in 33596'],
                   ].map(([name, price, pool, diff], i) => (
                     <tr key={name} style={{ borderBottom: '1px solid var(--border)' }}>
                       <td className="py-3 pr-4">
@@ -161,7 +161,7 @@ export default function BrentwoodHillsPage() {
               <li>First-time buyers and young families looking for an established community with recreational amenities</li>
               <li>Buyers who prioritize walkable commercial access over large lot size</li>
               <li>Homeowners who want community standards without excessive HOA fees</li>
-              <li>Military families stationed at MacDill AFB (33&ndash;43 min commute) who want school stability</li>
+              <li>Military families stationed at MacDill AFB (33 to 43 min commute) who want school stability</li>
             </ul>
 
             {/* Image removed: SR-60 road photo filler does not belong on Brentwood Hills page */}

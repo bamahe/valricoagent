@@ -20,14 +20,14 @@ export default function HomeValues() {
       <div style={{ maxWidth: 1140, margin: '0 auto', padding: '24px 24px 0' }}>
         <div style={{ background: '#fafafa', border: '1px solid #e8e8e8', borderRadius: 10, padding: '20px 24px', marginBottom: 24 }}>
           <p style={{ fontSize: 15, color: '#222', lineHeight: 1.7, margin: 0 }}>
-            <strong>The median home value in Valrico FL is approximately $415,000 as of Q3 2026, with price per square foot averaging $210-$220. A comparative market analysis (CMA) from a local REALTOR uses actual closed sales from your specific sub-neighborhood — adjusted for condition, updates, pool, lot size, and school zone — and is typically $30,000 or more accurate than automated estimates like Zillow&apos;s Zestimate. Barrett Henry, REALTOR with REMAX Collective, provides free CMAs with no obligation.</strong>
+            <strong>The median home value in Valrico FL is approximately $415,000 as of Q3 2026, with price per square foot averaging $210-$220. A comparative market analysis (CMA) from a local REALTOR uses actual closed sales from your specific sub-neighborhood, adjusted for condition, updates, pool, lot size, and school zone, and is typically $30,000 or more accurate than automated estimates like Zillow&apos;s Zestimate. Barrett Henry, REALTOR with REMAX Collective, provides free CMAs with no obligation.</strong>
           </p>
         </div>
       </div>
 
       <div style={{background:'var(--cream)'}}>
         <div className="max-w-[1140px] mx-auto px-7 py-12 grid grid-cols-2 md:grid-cols-4 gap-5">
-          {[['~$415K','Valrico median price'],['$210–$220','Price per sq ft'],['30–55 days','Avg days on market'],['$300K–$1M+','Full price range']].map(([v,l])=>(
+          {[['~$415K','Valrico median price'],['$210, $220','Price per sq ft'],['30 to 55 days','Avg days on market'],['$300K, $1M+','Full price range']].map(([v,l])=>(
             <div key={l} className="bg-white rounded-md p-5 border" style={{borderColor:'var(--border)'}}><span className="font-serif text-2xl block mb-1" style={{color:'var(--ink)'}}>{v}</span><span className="text-sm" style={{color:'var(--ink-muted)'}}>{l}</span></div>
           ))}
         </div>
@@ -70,14 +70,14 @@ export default function HomeValues() {
                 <thead><tr className="border-b" style={{borderColor:'var(--border)'}}><th className="text-left py-2 font-semibold" style={{color:'var(--ink)'}}>Neighborhood</th><th className="text-left py-2 font-semibold" style={{color:'var(--ink)'}}>Price Range</th><th className="text-left py-2 font-semibold" style={{color:'var(--ink)'}}>ZIP</th><th className="text-left py-2 font-semibold" style={{color:'var(--ink)'}}>School Zone</th></tr></thead>
                 <tbody>
                   {[
-                    ['Bloomingdale','$300K–$500K','33596','Bloomingdale HS'],
-                    ['River Hills','$400K–$800K+','33596','Bloomingdale HS'],
-                    ['Diamond Hill','$350K–$550K+','33594','Varies'],
-                    ['Buckhorn / Boyette','$350K–$500K','33596','Newsome HS'],
-                    ['Twin Lakes','$375K–$475K','33596','Bloomingdale HS'],
-                    ['Brentwood Hills','$340K–$475K','33594/96','Bloomingdale HS'],
-                    ['Canterbury Oaks','$350K–$450K','33596','Bloomingdale HS'],
-                    ['North Valrico','$300K–$400K','33594','Varies'],
+                    ['Bloomingdale','$300K, $500K','33596','Bloomingdale HS'],
+                    ['River Hills','$400K, $800K+','33596','Bloomingdale HS'],
+                    ['Diamond Hill','$350K, $550K+','33594','Varies'],
+                    ['Buckhorn / Boyette','$350K, $500K','33596','Newsome HS'],
+                    ['Twin Lakes','$375K, $475K','33596','Bloomingdale HS'],
+                    ['Brentwood Hills','$340K, $475K','33594/96','Bloomingdale HS'],
+                    ['Canterbury Oaks','$350K, $450K','33596','Bloomingdale HS'],
+                    ['North Valrico','$300K, $400K','33594','Varies'],
                   ].map(([n,p,z,s])=>(
                     <tr key={n} className="border-b" style={{borderColor:'var(--border-light)'}}><td className="py-2">{n}</td><td className="py-2 font-semibold" style={{color:'var(--ink)'}}>{p}</td><td className="py-2">{z}</td><td className="py-2">{s}</td></tr>
                   ))}
@@ -91,13 +91,13 @@ export default function HomeValues() {
             </div>
 
             <h2 className="font-serif text-2xl mb-4 mt-10">33594 vs 33596: does your ZIP code matter?</h2>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>Yes. The 33596 ZIP code (south Valrico) generally trades at a slight premium over 33594 (north Valrico), largely because of school zoning. 33596 includes Bloomingdale, River Hills, and the Buckhorn/Boyette corridor — all of which are zoned for either Bloomingdale HS or Newsome HS. 33594 includes Diamond Hill, parts of Brentwood Hills, and older sections of north Valrico that may be zoned for other schools. The price-per-square-foot difference between the two ZIPs is typically $10 to $20, but it varies significantly by subdivision. Read the <Link href="/blog/valrico-housing-market-q1-2026/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Q3 2026 Valrico market report</Link> for more detail.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>Yes. The 33596 ZIP code (south Valrico) generally trades at a slight premium over 33594 (north Valrico), largely because of school zoning. 33596 includes Bloomingdale, River Hills, and the Buckhorn/Boyette corridor, all of which are zoned for either Bloomingdale HS or Newsome HS. 33594 includes Diamond Hill, parts of Brentwood Hills, and older sections of north Valrico that may be zoned for other schools. The price-per-square-foot difference between the two ZIPs is typically $10 to $20, but it varies significantly by subdivision. Read the <Link href="/blog/valrico-housing-market-q1-2026/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Q3 2026 Valrico market report</Link> for more detail.</p>
 
             <h2 className="font-serif text-2xl mb-4 mt-10">Frequently Asked Questions</h2>
             <div className="space-y-4">
               {[
                 ['How much is my home worth in Valrico FL?','The median home price in Valrico is approximately $415K as of Q3 2026, but your specific home value depends on neighborhood, condition, updates, pool, lot size, and school zone. Contact Barrett Henry, REALTOR® for a free CMA based on actual comparable sales in your sub-neighborhood.'],
-                ['Are Valrico home values going up or down?','Valrico home values have stabilized after the post-pandemic correction. Prices are roughly flat year-over-year, which is healthy. The market is balanced — not crashing, not overheating.'],
+                ['Are Valrico home values going up or down?','Valrico home values have stabilized after the post-pandemic correction. Prices are roughly flat year-over-year, which is healthy. The market is balanced, not crashing, not overheating.'],
                 ['How accurate is a Zillow Zestimate for Valrico?','Zillow\'s algorithm can be off by $20K-$50K in Valrico because it can\'t distinguish between sub-neighborhoods, doesn\'t account for updates or condition, and doesn\'t understand how school zones affect pricing. A local CMA from a REALTOR® who works Valrico daily is far more accurate.'],
                 ['What is the price per square foot in Valrico?','Price per square foot in Valrico ranges from $195 to $230 depending on the subdivision, age, condition, and updates. Updated pool homes in desirable school zones trade at the higher end.'],
               ].map(([q,a])=>(

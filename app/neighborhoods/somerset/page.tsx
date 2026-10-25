@@ -46,7 +46,7 @@ export default function SomersetPage() {
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
           <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Somerset Homes for Sale, Valrico FL 33594</h1>
-          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Somerset is an established community in western Valrico (33594). Mature trees, quiet streets, Bloomingdale HS zone, prices from $300K&ndash;$450K. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
+          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Somerset is an established community in western Valrico (33594). Mature trees, quiet streets, Bloomingdale HS zone, prices from $300K to $450K. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Somerset listings</Link>
             <Link href="/valrico-fl-home-values/" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">What&apos;s my home worth?</Link>
@@ -71,7 +71,7 @@ export default function SomersetPage() {
       <div style={{ background: 'var(--cream)' }}>
         <div className="max-w-[1140px] mx-auto px-7 py-12 grid grid-cols-2 md:grid-cols-4 gap-5">
           {[
-            ['$300K\u2013$450K', 'Price range'],
+            ['$300K to $450K', 'Price range'],
             ['33594', 'ZIP code'],
             ['Bloomingdale HS', 'High school zone'],
             ['Established', 'Community type'],
@@ -101,9 +101,9 @@ export default function SomersetPage() {
             {/* --- Location & Commute --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Location and Commute</h2>
             <ul className="text-[15px] leading-[1.8] mb-6 space-y-2 pl-5 list-disc" style={{ color: 'var(--ink-soft)' }}>
-              <li><strong>I-75 (SR-60 interchange):</strong> ~4 miles / 8&ndash;10 minutes</li>
-              <li><strong>Downtown Tampa:</strong> ~18 miles / 25&ndash;35 minutes via I-75</li>
-              <li><strong>MacDill Air Force Base:</strong> ~22 miles / 30&ndash;40 minutes</li>
+              <li><strong>I-75 (SR-60 interchange):</strong> ~4 miles / 8 to 10 minutes</li>
+              <li><strong>Downtown Tampa:</strong> ~18 miles / 25 to 35 minutes via I-75</li>
+              <li><strong>MacDill Air Force Base:</strong> ~22 miles / 30 to 40 minutes</li>
               <li><strong>Brandon Town Center:</strong> ~4 miles / 8 minutes</li>
               <li><strong>Lakeland:</strong> ~25 miles / 30 minutes via I-4</li>
             </ul>
@@ -122,11 +122,11 @@ export default function SomersetPage() {
                 </thead>
                 <tbody>
                   {[
-                    ['Somerset', '$300K\u2013$450K', 'Bloomingdale HS', 'Affordable, mature trees, no CDD'],
-                    ['Bloomingdale', '$300K\u2013$500K', 'Bloomingdale HS', 'Largest community, more amenities'],
-                    ['Valrico Hills', '$300K\u2013$450K', 'Bloomingdale HS', 'Similar pricing, close to shopping'],
-                    ['Valri Park', '$300K\u2013$450K', 'Bloomingdale HS', 'Established, mature trees'],
-                    ['Lake Valrico', '$300K\u2013$475K', 'Bloomingdale HS', 'Waterfront lots available'],
+                    ['Somerset', '$300K to $450K', 'Bloomingdale HS', 'Affordable, mature trees, no CDD'],
+                    ['Bloomingdale', '$300K to $500K', 'Bloomingdale HS', 'Largest community, more amenities'],
+                    ['Valrico Hills', '$300K to $450K', 'Bloomingdale HS', 'Similar pricing, close to shopping'],
+                    ['Valri Park', '$300K to $450K', 'Bloomingdale HS', 'Established, mature trees'],
+                    ['Lake Valrico', '$300K to $475K', 'Bloomingdale HS', 'Waterfront lots available'],
                   ].map(([name, price, school, diff], i) => (
                     <tr key={name} style={{ borderBottom: '1px solid var(--border)' }}>
                       <td className="py-3 pr-4">

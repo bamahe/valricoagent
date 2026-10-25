@@ -44,7 +44,7 @@ export default function ValricoForestPage() {
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
           <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Valrico Forest Homes for Sale, Valrico FL 33594</h1>
-          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Valrico Forest is a tree-canopied neighborhood of spacious homes on wooded lots in north Valrico (33594). Prices from $400K&ndash;$525K. Newsome High School zone. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
+          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Valrico Forest is a tree-canopied neighborhood of spacious homes on wooded lots in north Valrico (33594). Prices from $400K to $525K. Newsome High School zone. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Valrico Forest listings</Link>
             <Link href="/valrico-fl-home-values/" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">What&apos;s my home worth?</Link>
@@ -69,7 +69,7 @@ export default function ValricoForestPage() {
       <div style={{ background: 'var(--cream)' }}>
         <div className="max-w-[1140px] mx-auto px-7 py-12 grid grid-cols-2 md:grid-cols-4 gap-5">
           {[
-            ['$400K\u2013$525K', 'Price range'],
+            ['$400K to $525K', 'Price range'],
             ['33594', 'ZIP code'],
             ['Newsome HS', 'High school zone'],
             ['Wooded lots', 'Community type'],
@@ -102,11 +102,11 @@ export default function ValricoForestPage() {
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Valrico Forest is located in north Valrico with access to SR-60 and the I-75 corridor. Despite the wooded setting, you&apos;re not far from anything. Key commute times:</p>
             <ul className="text-[15px] leading-[1.8] mb-6 space-y-2 pl-5 list-disc" style={{ color: 'var(--ink-soft)' }}>
               <li><strong>I-75 (SR-60 interchange):</strong> ~4 miles / 10 minutes</li>
-              <li><strong>Downtown Tampa:</strong> ~18 miles / 25&ndash;35 minutes via I-75</li>
-              <li><strong>MacDill Air Force Base:</strong> ~22 miles / 30&ndash;40 minutes</li>
+              <li><strong>Downtown Tampa:</strong> ~18 miles / 25 to 35 minutes via I-75</li>
+              <li><strong>MacDill Air Force Base:</strong> ~22 miles / 30 to 40 minutes</li>
               <li><strong>Brandon Town Center:</strong> ~5 miles / 10 minutes</li>
               <li><strong>Lakeland:</strong> ~26 miles / 30 minutes via I-4</li>
-              <li><strong>Tampa International Airport:</strong> ~25 miles / 30&ndash;40 minutes</li>
+              <li><strong>Tampa International Airport:</strong> ~25 miles / 30 to 40 minutes</li>
             </ul>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Groceries, dining, and daily errands are easily handled along SR-60 or Lithia Pinecrest Road, both within a few minutes&apos; drive. Publix, Winn-Dixie, and a variety of restaurants and services are all nearby.</p>
 
@@ -129,10 +129,10 @@ export default function ValricoForestPage() {
                 </thead>
                 <tbody>
                   {[
-                    ['Valrico Forest', '$400K\u2013$525K', 'Newsome', 'Wooded lots, natural privacy, mature trees'],
-                    ['Arista', '$425K\u2013$575K', 'Newsome', 'Gated, newer construction, modern plans'],
-                    ['Valrico Oaks', '$350K\u2013$500K', 'Newsome', 'Lower entry, standard lots, solid mid-range'],
-                    ['Valrico Hills', '$325K\u2013$425K', 'Varies', 'More affordable, established homes'],
+                    ['Valrico Forest', '$400K to $525K', 'Newsome', 'Wooded lots, natural privacy, mature trees'],
+                    ['Arista', '$425K to $575K', 'Newsome', 'Gated, newer construction, modern plans'],
+                    ['Valrico Oaks', '$350K to $500K', 'Newsome', 'Lower entry, standard lots, solid mid-range'],
+                    ['Valrico Hills', '$325K to $425K', 'Varies', 'More affordable, established homes'],
                   ].map(([name, price, hs, diff], i) => (
                     <tr key={name} style={{ borderBottom: '1px solid var(--border)' }}>
                       <td className="py-3 pr-4">

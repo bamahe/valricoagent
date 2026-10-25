@@ -44,7 +44,7 @@ export default function ShetlandRidgePage() {
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
           <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Shetland Ridge Homes for Sale, Valrico FL 33596</h1>
-          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Shetland Ridge is an established neighborhood of spacious homes on generous lots in south Valrico (33596). Prices from $400K&ndash;$550K. Bloomingdale High School zone. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
+          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Shetland Ridge is an established neighborhood of spacious homes on generous lots in south Valrico (33596). Prices from $400K to $550K. Bloomingdale High School zone. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Shetland Ridge listings</Link>
             <Link href="/valrico-fl-home-values/" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">What&apos;s my home worth?</Link>
@@ -69,7 +69,7 @@ export default function ShetlandRidgePage() {
       <div style={{ background: 'var(--cream)' }}>
         <div className="max-w-[1140px] mx-auto px-7 py-12 grid grid-cols-2 md:grid-cols-4 gap-5">
           {[
-            ['$400K\u2013$550K', 'Price range'],
+            ['$400K to $550K', 'Price range'],
             ['33596', 'ZIP code'],
             ['Bloomingdale HS', 'High school zone'],
             ['Established', 'Community type'],
@@ -102,11 +102,11 @@ export default function ShetlandRidgePage() {
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Shetland Ridge is positioned along the Bloomingdale Avenue corridor with straightforward access to I-75 and the greater Tampa Bay area. Key commute times:</p>
             <ul className="text-[15px] leading-[1.8] mb-6 space-y-2 pl-5 list-disc" style={{ color: 'var(--ink-soft)' }}>
               <li><strong>I-75 (Bloomingdale Ave interchange):</strong> ~5 miles / 12 minutes</li>
-              <li><strong>Downtown Tampa:</strong> ~20 miles / 25&ndash;35 minutes via I-75</li>
-              <li><strong>MacDill Air Force Base:</strong> ~23 miles / 30&ndash;40 minutes</li>
+              <li><strong>Downtown Tampa:</strong> ~20 miles / 25 to 35 minutes via I-75</li>
+              <li><strong>MacDill Air Force Base:</strong> ~23 miles / 30 to 40 minutes</li>
               <li><strong>Brandon Town Center:</strong> ~5 miles / 10 minutes</li>
-              <li><strong>Lakeland:</strong> ~28 miles / 30&ndash;35 minutes via I-4</li>
-              <li><strong>Tampa International Airport:</strong> ~27 miles / 30&ndash;40 minutes</li>
+              <li><strong>Lakeland:</strong> ~28 miles / 30 to 35 minutes via I-4</li>
+              <li><strong>Tampa International Airport:</strong> ~27 miles / 30 to 40 minutes</li>
             </ul>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Bloomingdale Avenue provides the essentials within a short drive, Publix, Walmart, medical offices, banks, and restaurants are all within 2 miles. The Bloomingdale Golfers Club and local parks add recreation options nearby.</p>
 
@@ -129,10 +129,10 @@ export default function ShetlandRidgePage() {
                 </thead>
                 <tbody>
                   {[
-                    ['Shetland Ridge', '$400K\u2013$550K', 'Generous', 'Spacious lots, mature trees, updated homes'],
-                    ['Twin Lakes', '$375K\u2013$475K', 'Standard', 'Mixed older and updated homes, lower entry'],
-                    ['Wellington', '$375K\u2013$475K', 'Larger', 'Established lots, same school zone'],
-                    ['Bloomingdale', '$450K\u2013$650K+', 'Varies', 'Premium pricing, master-planned amenities'],
+                    ['Shetland Ridge', '$400K to $550K', 'Generous', 'Spacious lots, mature trees, updated homes'],
+                    ['Twin Lakes', '$375K to $475K', 'Standard', 'Mixed older and updated homes, lower entry'],
+                    ['Wellington', '$375K to $475K', 'Larger', 'Established lots, same school zone'],
+                    ['Bloomingdale', '$450K to $650K+', 'Varies', 'Premium pricing, master-planned amenities'],
                   ].map(([name, price, lots, diff], i) => (
                     <tr key={name} style={{ borderBottom: '1px solid var(--border)' }}>
                       <td className="py-3 pr-4">

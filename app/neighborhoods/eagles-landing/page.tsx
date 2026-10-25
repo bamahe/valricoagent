@@ -46,7 +46,7 @@ export default function EaglesLandingPage() {
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
           <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Eagles Landing Homes for Sale, Valrico FL 33596</h1>
-          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Eagles Landing is a newer construction community near Boyette Road in Valrico (33596). Modern floor plans, Newsome HS zone, prices from $375K&ndash;$525K. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
+          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Eagles Landing is a newer construction community near Boyette Road in Valrico (33596). Modern floor plans, Newsome HS zone, prices from $375K to $525K. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Eagles Landing listings</Link>
             <Link href="/valrico-fl-home-values/" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">What&apos;s my home worth?</Link>
@@ -71,7 +71,7 @@ export default function EaglesLandingPage() {
       <div style={{ background: 'var(--cream)' }}>
         <div className="max-w-[1140px] mx-auto px-7 py-12 grid grid-cols-2 md:grid-cols-4 gap-5">
           {[
-            ['$375K\u2013$525K', 'Price range'],
+            ['$375K to $525K', 'Price range'],
             ['33596', 'ZIP code'],
             ['Newsome HS', 'High school zone'],
             ['New Construction', 'Community type'],
@@ -101,9 +101,9 @@ export default function EaglesLandingPage() {
             {/* --- Location & Commute --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Location and Commute</h2>
             <ul className="text-[15px] leading-[1.8] mb-6 space-y-2 pl-5 list-disc" style={{ color: 'var(--ink-soft)' }}>
-              <li><strong>I-75 (SR-60 interchange):</strong> ~5 miles / 10&ndash;12 minutes</li>
-              <li><strong>Downtown Tampa:</strong> ~20 miles / 30&ndash;40 minutes via I-75</li>
-              <li><strong>MacDill Air Force Base:</strong> ~24 miles / 35&ndash;45 minutes</li>
+              <li><strong>I-75 (SR-60 interchange):</strong> ~5 miles / 10 to 12 minutes</li>
+              <li><strong>Downtown Tampa:</strong> ~20 miles / 30 to 40 minutes via I-75</li>
+              <li><strong>MacDill Air Force Base:</strong> ~24 miles / 35 to 45 minutes</li>
               <li><strong>Brandon Town Center:</strong> ~7 miles / 14 minutes</li>
               <li><strong>Lakeland:</strong> ~25 miles / 30 minutes via I-4</li>
             </ul>
@@ -126,11 +126,11 @@ export default function EaglesLandingPage() {
                 </thead>
                 <tbody>
                   {[
-                    ['Eagles Landing', '$375K\u2013$525K', 'Newsome HS', 'Newer construction, modern floor plans'],
-                    ['Arista', '$380K\u2013$500K', 'Newsome HS', 'Gated, newer construction near Diamond Hill'],
-                    ['Heritage Crest', '$380K\u2013$500K', 'Newsome HS', 'Newer construction, modern layouts'],
-                    ['Buckhorn', '$350K\u2013$500K', 'Newsome HS', 'Larger community, mix of ages'],
-                    ['Valrico Forest', '$380K\u2013$500K', 'Newsome HS', 'New construction available'],
+                    ['Eagles Landing', '$375K to $525K', 'Newsome HS', 'Newer construction, modern floor plans'],
+                    ['Arista', '$380K to $500K', 'Newsome HS', 'Gated, newer construction near Diamond Hill'],
+                    ['Heritage Crest', '$380K to $500K', 'Newsome HS', 'Newer construction, modern layouts'],
+                    ['Buckhorn', '$350K to $500K', 'Newsome HS', 'Larger community, mix of ages'],
+                    ['Valrico Forest', '$380K to $500K', 'Newsome HS', 'New construction available'],
                   ].map(([name, price, school, diff], i) => (
                     <tr key={name} style={{ borderBottom: '1px solid var(--border)' }}>
                       <td className="py-3 pr-4">

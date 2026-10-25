@@ -45,7 +45,7 @@ export default function BentTreeEstatesPage() {
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
           <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Bent Tree Estates Homes for Sale, Valrico FL 33596</h1>
-          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Bent Tree Estates is an established subdivision in south Valrico (33596) with mature trees, larger-than-average lots, and quiet residential streets. Prices from $375K&ndash;$500K. Bloomingdale HS zone. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
+          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Bent Tree Estates is an established subdivision in south Valrico (33596) with mature trees, larger-than-average lots, and quiet residential streets. Prices from $375K to $500K. Bloomingdale HS zone. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Bent Tree Estates listings</Link>
             <Link href="/valrico-fl-home-values/" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">What&apos;s my home worth?</Link>
@@ -73,7 +73,7 @@ export default function BentTreeEstatesPage() {
       <div style={{ background: 'var(--cream)' }}>
         <div className="max-w-[1140px] mx-auto px-7 py-12 grid grid-cols-2 md:grid-cols-4 gap-5">
           {[
-            ['$375K\u2013$500K', 'Price range'],
+            ['$375K to $500K', 'Price range'],
             ['33596', 'ZIP code'],
             ['Bloomingdale HS', 'High school zone'],
             ['Established', 'Community type'],
@@ -107,12 +107,12 @@ export default function BentTreeEstatesPage() {
             <h2 className="font-serif text-2xl mb-4 mt-10">Location and Commute</h2>
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Bent Tree Estates sits in south Valrico with convenient access to Bloomingdale Avenue&apos;s retail corridor. Key commute times:</p>
             <ul className="text-[15px] leading-[1.8] mb-6 space-y-2 pl-5 list-disc" style={{ color: 'var(--ink-soft)' }}>
-              <li><strong>I-75 (SR-60 interchange):</strong> ~6 miles / 12&ndash;15 minutes</li>
-              <li><strong>Downtown Tampa:</strong> ~20 miles / 28&ndash;38 minutes via I-75</li>
-              <li><strong>MacDill Air Force Base:</strong> ~24 miles / 35&ndash;45 minutes</li>
-              <li><strong>Brandon Town Center:</strong> ~5 miles / 10&ndash;12 minutes</li>
-              <li><strong>Lakeland:</strong> ~28 miles / 30&ndash;35 minutes via I-4</li>
-              <li><strong>Tampa International Airport:</strong> ~27 miles / 35&ndash;45 minutes</li>
+              <li><strong>I-75 (SR-60 interchange):</strong> ~6 miles / 12 to 15 minutes</li>
+              <li><strong>Downtown Tampa:</strong> ~20 miles / 28 to 38 minutes via I-75</li>
+              <li><strong>MacDill Air Force Base:</strong> ~24 miles / 35 to 45 minutes</li>
+              <li><strong>Brandon Town Center:</strong> ~5 miles / 10 to 12 minutes</li>
+              <li><strong>Lakeland:</strong> ~28 miles / 30 to 35 minutes via I-4</li>
+              <li><strong>Tampa International Airport:</strong> ~27 miles / 35 to 45 minutes</li>
             </ul>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Publix, Winn-Dixie, restaurants, and medical offices are all within minutes along Bloomingdale Avenue. HCA Florida Brandon Hospital is accessible via Lithia Pinecrest Road. Lithia Springs Park and Alafia River State Park provide outdoor recreation within a 15-minute drive south.</p>
 
@@ -135,11 +135,11 @@ export default function BentTreeEstatesPage() {
                 </thead>
                 <tbody>
                   {[
-                    ['Bent Tree Estates', '$375K\u2013$500K', 'Minimal', 'Larger lots, mature tree canopy'],
-                    ['Bloomingdale Oaks', '$350K\u2013$475K', 'Varies', 'Sidewalks, denser community feel'],
-                    ['Bloomingdale East', '$350K\u2013$500K', 'Varies', 'Eastern edge, deeper lots'],
-                    ['Brentwood Hills', '$340K\u2013$475K', 'Yes', 'Community pool, dual ZIP codes'],
-                    ['Bloomingdale', '$300K\u2013$500K', 'Mixed', '5,200+ homes, widest selection'],
+                    ['Bent Tree Estates', '$375K to $500K', 'Minimal', 'Larger lots, mature tree canopy'],
+                    ['Bloomingdale Oaks', '$350K to $475K', 'Varies', 'Sidewalks, denser community feel'],
+                    ['Bloomingdale East', '$350K to $500K', 'Varies', 'Eastern edge, deeper lots'],
+                    ['Brentwood Hills', '$340K to $475K', 'Yes', 'Community pool, dual ZIP codes'],
+                    ['Bloomingdale', '$300K to $500K', 'Mixed', '5,200+ homes, widest selection'],
                   ].map(([name, price, hoa, diff], i) => (
                     <tr key={name} style={{ borderBottom: '1px solid var(--border)' }}>
                       <td className="py-3 pr-4">

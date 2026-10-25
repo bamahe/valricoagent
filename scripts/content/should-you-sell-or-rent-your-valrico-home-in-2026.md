@@ -1,6 +1,6 @@
 ## The Question Every Relocating Valrico Homeowner Asks
 
-You are moving. You have equity. Should you sell and take the cash, or keep it as a rental? There is no one-size answer, but the math is more straightforward than most people think. Here are the factors to weigh — with actual numbers.
+You are moving. You have equity. Should you sell and take the cash, or keep it as a rental? There is no one-size answer, but the math is more straightforward than most people think. Here are the factors to weigh, with actual numbers.
 
 ## The Case for Selling
 
@@ -47,17 +47,17 @@ That $142/month is real but thin. One HVAC replacement ($10K), one turnover reno
 
 ### Long-Term Appreciation
 
-Valrico has shown steady long-term appreciation of 3 to 5% annually outside of the 2020-2022 boom. Holding a $450K property for 5 years at 3% annual appreciation grows its value to approximately $521K — $71K in equity gain on top of your existing equity. Plus your tenant is paying down your mortgage principal each month.
+Valrico has shown steady long-term appreciation of 3 to 5% annually outside of the 2020-2022 boom. Holding a $450K property for 5 years at 3% annual appreciation grows its value to approximately $521K, $71K in equity gain on top of your existing equity. Plus your tenant is paying down your mortgage principal each month.
 
 ### Tax Deductions
 
 As a landlord, you can deduct: mortgage interest, property taxes, insurance premiums, property management fees, maintenance costs, travel to the property, depreciation (the structure value divided by 27.5 years), and HOA fees if applicable. These deductions offset rental income and can significantly reduce your tax liability.
 
-Depreciation alone on a $350K structure (excluding land value) generates approximately $12,700/year in deductible losses — even though you did not spend that money. This is the "phantom deduction" that makes rental property attractive on paper.
+Depreciation alone on a $350K structure (excluding land value) generates approximately $12,700/year in deductible losses, even though you did not spend that money. This is the "phantom deduction" that makes rental property attractive on paper.
 
 ### Building Long-Term Wealth
 
-Real estate is a proven wealth-building vehicle over 10+ year holding periods. If you can weather the short-term headaches and cash flow variability, a paid-off rental property in Valrico generating $2,200/month is $26,400/year in passive income — a meaningful retirement asset.
+Real estate is a proven wealth-building vehicle over 10+ year holding periods. If you can weather the short-term headaches and cash flow variability, a paid-off rental property in Valrico generating $2,200/month is $26,400/year in passive income, a meaningful retirement asset.
 
 ## The Math: Sell vs. Rent Over 5 Years
 
@@ -79,7 +79,7 @@ Real estate is a proven wealth-building vehicle over 10+ year holding periods. I
 - Minus capital gains tax (no longer exempt): ~$14,000
 - **Total value after 5 years: ~$238,500**
 
-The numbers are close. Renting generates approximately $14K more over 5 years in this scenario — but that assumes no major repairs, no extended vacancy, and no bad tenant situations. One significant unexpected expense can flip the math in favor of selling.
+The numbers are close. Renting generates approximately $14K more over 5 years in this scenario, but that assumes no major repairs, no extended vacancy, and no bad tenant situations. One significant unexpected expense can flip the math in favor of selling.
 
 ## Property Management in Valrico
 
@@ -103,4 +103,4 @@ I work with property management partners who handle tenant screening, lease mana
 - You have a 5+ year timeline and are building long-term wealth
 - You have reliable property management in place
 
-I can run a sale-versus-rent analysis on your specific property with your actual mortgage terms, market rent, and projected expenses. The math is different for every home — and getting it right saves you from making a costly mistake in either direction.
+I can run a sale-versus-rent analysis on your specific property with your actual mortgage terms, market rent, and projected expenses. The math is different for every home, and getting it right saves you from making a costly mistake in either direction.

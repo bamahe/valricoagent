@@ -45,7 +45,7 @@ IMPORTANT RULES:
 - Internal links: /neighborhoods/bloomingdale, /neighborhoods/river-hills, /neighborhoods/copper-ridge, /get-help
 - FAQ answers must start with a direct, complete sentence
 
-INTERNAL LINKS — only use these exact URLs when linking to site pages:
+INTERNAL LINKS, only use these exact URLs when linking to site pages:
 - /valrico-fl-homes-for-sale/ (search homes)
 - /valrico-fl-home-values/ (home values / CMA)
 - /sell-my-home-valrico/ (selling guide)

@@ -44,7 +44,7 @@ export default function DurantOaksPage() {
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
           <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Durant Oaks Homes for Sale, Valrico FL 33596</h1>
-          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Durant Oaks is a community of custom-built homes with mature landscaping, large interiors, and pool views in Valrico (33596). 3&ndash;5 bedrooms, jacuzzi tubs, dual sinks. Prices from $375K&ndash;$525K. Bloomingdale High School zone. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
+          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Durant Oaks is a community of custom-built homes with mature landscaping, large interiors, and pool views in Valrico (33596). 3 to 5 bedrooms, jacuzzi tubs, dual sinks. Prices from $375K to $525K. Bloomingdale High School zone. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Durant Oaks listings</Link>
             <Link href="/valrico-fl-home-values/" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">What&apos;s my home worth?</Link>
@@ -69,7 +69,7 @@ export default function DurantOaksPage() {
       <div style={{ background: 'var(--cream)' }}>
         <div className="max-w-[1140px] mx-auto px-7 py-12 grid grid-cols-2 md:grid-cols-4 gap-5">
           {[
-            ['$375K\u2013$525K', 'Price range'],
+            ['$375K to $525K', 'Price range'],
             ['33596', 'ZIP code'],
             ['Bloomingdale HS', 'High school zone'],
             ['Custom-built', 'Home style'],
@@ -102,11 +102,11 @@ export default function DurantOaksPage() {
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Durant Oaks is located in the 33596 ZIP code of Valrico with convenient access to major corridors. Key commute times:</p>
             <ul className="text-[15px] leading-[1.8] mb-6 space-y-2 pl-5 list-disc" style={{ color: 'var(--ink-soft)' }}>
               <li><strong>I-75 (SR-60 interchange):</strong> ~6 miles / 15 minutes</li>
-              <li><strong>Downtown Tampa:</strong> ~22 miles / 30&ndash;40 minutes via I-75</li>
-              <li><strong>MacDill Air Force Base:</strong> ~25 miles / 35&ndash;45 minutes</li>
+              <li><strong>Downtown Tampa:</strong> ~22 miles / 30 to 40 minutes via I-75</li>
+              <li><strong>MacDill Air Force Base:</strong> ~25 miles / 35 to 45 minutes</li>
               <li><strong>Brandon Town Center:</strong> ~7 miles / 15 minutes</li>
               <li><strong>Lakeland:</strong> ~25 miles / 30 minutes via I-4</li>
-              <li><strong>Tampa International Airport:</strong> ~28 miles / 35&ndash;45 minutes</li>
+              <li><strong>Tampa International Airport:</strong> ~28 miles / 35 to 45 minutes</li>
             </ul>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Daily shopping and dining are close by. Publix, Winn-Dixie, and a variety of restaurants are accessible along the Bloomingdale Avenue and Lithia Pinecrest Road corridors. The neighborhood&apos;s central Valrico location puts most errands within a 10-minute drive.</p>
 
@@ -136,11 +136,11 @@ export default function DurantOaksPage() {
                 </thead>
                 <tbody>
                   {[
-                    ['Durant Oaks', '$375K\u2013$525K', 'Bloomingdale HS', 'Custom-built, mature landscaping'],
-                    ['Cimmaron', '$450K\u2013$650K', 'Newsome HS', '19 custom homes, no HOA'],
-                    ['Copper Ridge', '$375K\u2013$525K', 'Newsome HS', 'HOA-governed, conservation lots'],
-                    ['Diamond Hill', '$350K\u2013$550K+', 'Bloomingdale HS', 'Larger lots, no HOA options'],
-                    ['Canterbury Oaks', '$325K\u2013$475K', 'Bloomingdale HS', 'More affordable, quiet streets'],
+                    ['Durant Oaks', '$375K to $525K', 'Bloomingdale HS', 'Custom-built, mature landscaping'],
+                    ['Cimmaron', '$450K to $650K', 'Newsome HS', '19 custom homes, no HOA'],
+                    ['Copper Ridge', '$375K to $525K', 'Newsome HS', 'HOA-governed, conservation lots'],
+                    ['Diamond Hill', '$350K to $550K+', 'Bloomingdale HS', 'Larger lots, no HOA options'],
+                    ['Canterbury Oaks', '$325K to $475K', 'Bloomingdale HS', 'More affordable, quiet streets'],
                   ].map(([name, price, school, diff], i) => (
                     <tr key={name} style={{ borderBottom: '1px solid var(--border)' }}>
                       <td className="py-3 pr-4">

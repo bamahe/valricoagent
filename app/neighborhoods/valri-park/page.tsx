@@ -44,7 +44,7 @@ export default function ValriParkPage() {
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
           <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Valri Park Homes for Sale, Valrico FL 33594</h1>
-          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Valri Park is one of the most affordable neighborhoods in the Valrico 33594 ZIP code. Prices from $280K&ndash;$375K. Practical homes with renovation potential. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
+          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Valri Park is one of the most affordable neighborhoods in the Valrico 33594 ZIP code. Prices from $280K to $375K. Practical homes with renovation potential. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Valri Park listings</Link>
             <Link href="/valrico-fl-home-values/" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">What&apos;s my home worth?</Link>
@@ -69,7 +69,7 @@ export default function ValriParkPage() {
       <div style={{ background: 'var(--cream)' }}>
         <div className="max-w-[1140px] mx-auto px-7 py-12 grid grid-cols-2 md:grid-cols-4 gap-5">
           {[
-            ['$280K\u2013$375K', 'Price range'],
+            ['$280K to $375K', 'Price range'],
             ['33594', 'ZIP code'],
             ['Varies', 'High school zone'],
             ['Affordable', 'Community type'],
@@ -101,12 +101,12 @@ export default function ValriParkPage() {
             <h2 className="font-serif text-2xl mb-4 mt-10">Location and Commute</h2>
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Valri Park is centrally located in Valrico with quick access to SR-60 (Brandon Blvd) and the I-75 corridor. Key commute times:</p>
             <ul className="text-[15px] leading-[1.8] mb-6 space-y-2 pl-5 list-disc" style={{ color: 'var(--ink-soft)' }}>
-              <li><strong>I-75 (SR-60 interchange):</strong> ~3&ndash;4 miles / 8&ndash;10 minutes</li>
-              <li><strong>Downtown Tampa:</strong> ~17 miles / 25&ndash;35 minutes via I-75</li>
-              <li><strong>MacDill Air Force Base:</strong> ~21 miles / 30&ndash;40 minutes</li>
+              <li><strong>I-75 (SR-60 interchange):</strong> ~3 to 4 miles / 8 to 10 minutes</li>
+              <li><strong>Downtown Tampa:</strong> ~17 miles / 25 to 35 minutes via I-75</li>
+              <li><strong>MacDill Air Force Base:</strong> ~21 miles / 30 to 40 minutes</li>
               <li><strong>Brandon Town Center:</strong> ~4 miles / 8 minutes</li>
-              <li><strong>Lakeland:</strong> ~25 miles / 28&ndash;35 minutes via I-4</li>
-              <li><strong>Tampa International Airport:</strong> ~24 miles / 30&ndash;40 minutes</li>
+              <li><strong>Lakeland:</strong> ~25 miles / 28 to 35 minutes via I-4</li>
+              <li><strong>Tampa International Airport:</strong> ~24 miles / 30 to 40 minutes</li>
             </ul>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>SR-60 (Brandon Blvd) runs nearby with every big-box retailer, grocery store, and service you could need. Publix, Aldi, Walmart, Home Depot, and dozens of restaurants are all within a 5-minute drive.</p>
 
@@ -129,10 +129,10 @@ export default function ValriParkPage() {
                 </thead>
                 <tbody>
                   {[
-                    ['Valri Park', '$280K\u2013$375K', '33594', 'Most affordable in 33594, renovation potential'],
-                    ['Valrico Hills', '$325K\u2013$425K', '33594', 'Slightly larger, established mid-range'],
-                    ['Valrico Oaks', '$350K\u2013$500K', '33594', 'Newsome HS zone, higher finishes'],
-                    ['Valrico Forest', '$400K\u2013$525K', '33594', 'Wooded lots, Newsome HS, premium tier'],
+                    ['Valri Park', '$280K to $375K', '33594', 'Most affordable in 33594, renovation potential'],
+                    ['Valrico Hills', '$325K to $425K', '33594', 'Slightly larger, established mid-range'],
+                    ['Valrico Oaks', '$350K to $500K', '33594', 'Newsome HS zone, higher finishes'],
+                    ['Valrico Forest', '$400K to $525K', '33594', 'Wooded lots, Newsome HS, premium tier'],
                   ].map(([name, price, zip, diff], i) => (
                     <tr key={name} style={{ borderBottom: '1px solid var(--border)' }}>
                       <td className="py-3 pr-4">

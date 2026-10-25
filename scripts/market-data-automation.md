@@ -61,17 +61,17 @@ This page can be populated by a Showcase IDX widget, a manually-updated WP page,
       "note": "Stable year-over-year"
     },
     {
-      "val": "$210–$220",
+      "val": "$210, $220",
       "label": "Price per square foot",
       "note": "Varies by subdivision"
     },
     {
-      "val": "30–55 days",
+      "val": "30 to 55 days",
       "label": "Typical days on market",
       "note": "Depends on pricing"
     },
     {
-      "val": "$300K–$1M+",
+      "val": "$300K, $1M+",
       "label": "Price range across Valrico",
       "note": "Starter homes to River Hills estates"
     }
@@ -134,4 +134,4 @@ Until automation is live, update market data quarterly:
 3. Update the 4 `val`/`label`/`note` entries in the array below it
 4. Update the "April 2026" timestamp in the paragraph below the grid
 5. Update the eyebrow text ("Q1 2026") if the quarter has changed
-6. Commit and push — Vercel auto-deploys
+6. Commit and push, Vercel auto-deploys

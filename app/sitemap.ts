@@ -32,7 +32,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     'eagles-landing','river-crossing','somerset',
   ]
 
-  // Core static pages — homepage, service pages, informational, tools, utility
+  // Core static pages, homepage, service pages, informational, tools, utility
   const corePages = [
     // Homepage
     { url: `${baseUrl}/`, changeFrequency: 'weekly' as const, priority: 1.0 },

@@ -44,7 +44,7 @@ export default function LegendsPassPage() {
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
           <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Legends Pass Homes for Sale, Valrico FL 33594</h1>
-          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Legends Pass is a newer construction community near the Diamond Hill corridor in north Valrico (33594). Modern floor plans and Newsome HS zoning, with prices from $400K&ndash;$550K. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
+          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Legends Pass is a newer construction community near the Diamond Hill corridor in north Valrico (33594). Modern floor plans and Newsome HS zoning, with prices from $400K to $550K. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Legends Pass listings</Link>
             <Link href="/valrico-fl-home-values/" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">What&apos;s my home worth?</Link>
@@ -69,7 +69,7 @@ export default function LegendsPassPage() {
       <div style={{ background: 'var(--cream)' }}>
         <div className="max-w-[1140px] mx-auto px-7 py-12 grid grid-cols-2 md:grid-cols-4 gap-5">
           {[
-            ['$400K\u2013$550K', 'Price range'],
+            ['$400K to $550K', 'Price range'],
             ['33594', 'ZIP code'],
             ['Newsome HS', 'High school zone'],
             ['Newer construction', 'Community type'],
@@ -102,11 +102,11 @@ export default function LegendsPassPage() {
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Legends Pass sits in north Valrico near the Diamond Hill corridor. Key commute times from Legends Pass:</p>
             <ul className="text-[15px] leading-[1.8] mb-6 space-y-2 pl-5 list-disc" style={{ color: 'var(--ink-soft)' }}>
               <li><strong>I-75 (SR-60 interchange):</strong> ~4 miles / 10 minutes</li>
-              <li><strong>Downtown Tampa:</strong> ~19 miles / 25&ndash;35 minutes via I-75</li>
-              <li><strong>MacDill Air Force Base:</strong> ~23 miles / 30&ndash;42 minutes</li>
+              <li><strong>Downtown Tampa:</strong> ~19 miles / 25 to 35 minutes via I-75</li>
+              <li><strong>MacDill Air Force Base:</strong> ~23 miles / 30 to 42 minutes</li>
               <li><strong>Brandon Town Center:</strong> ~5 miles / 10 minutes</li>
               <li><strong>Lakeland:</strong> ~26 miles / 30 minutes via I-4</li>
-              <li><strong>Tampa International Airport:</strong> ~26 miles / 30&ndash;40 minutes</li>
+              <li><strong>Tampa International Airport:</strong> ~26 miles / 30 to 40 minutes</li>
             </ul>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>SR-60 (Brandon Blvd) is minutes away with Publix, Winn-Dixie, Walmart, restaurants, banks, and medical offices. The proximity to Diamond Hill Golf Course adds a recreational option for golf-oriented buyers. Lithia Pinecrest Road connects south to Bloomingdale Avenue for additional shopping.</p>
 
@@ -129,11 +129,11 @@ export default function LegendsPassPage() {
                 </thead>
                 <tbody>
                   {[
-                    ['Legends Pass', '$400K\u2013$550K', 'No', 'Newer construction, modern floor plans'],
-                    ['Arista', '$425K\u2013$575K', 'Yes', 'Gated entrance, similar era construction'],
-                    ['Northwood Estates', '$425K\u2013$575K', 'No', 'Boutique sizing, no CDD, WestBay builder'],
-                    ['Crestwood Estates', '$350K\u2013$500K', 'No', 'Established, lower price, mature trees'],
-                    ['Diamond Hill', '$400K\u2013$700K+', 'No', 'Larger lots, golf course proximity'],
+                    ['Legends Pass', '$400K to $550K', 'No', 'Newer construction, modern floor plans'],
+                    ['Arista', '$425K to $575K', 'Yes', 'Gated entrance, similar era construction'],
+                    ['Northwood Estates', '$425K to $575K', 'No', 'Boutique sizing, no CDD, WestBay builder'],
+                    ['Crestwood Estates', '$350K to $500K', 'No', 'Established, lower price, mature trees'],
+                    ['Diamond Hill', '$400K to $700K+', 'No', 'Larger lots, golf course proximity'],
                   ].map(([name, price, gated, diff], i) => (
                     <tr key={name} style={{ borderBottom: '1px solid var(--border)' }}>
                       <td className="py-3 pr-4">

@@ -29,12 +29,12 @@ export default function CrestwoodEstatesPage() {
   const faqs = [
     { q: 'How much do homes cost in Crestwood Estates Valrico?', a: 'Homes in Crestwood Estates typically sell between $500,000 and $900,000, with some properties exceeding $900K. These are custom-built estate homes on lots that often exceed half an acre, ranging from 2,500 to 5,000+ square feet. Contact Barrett Henry at (813) 733-7907 for current Crestwood Estates listings.' },
     { q: 'What school zone is Crestwood Estates in?', a: 'Crestwood Estates is zoned for Alafia Elementary (or Cimino Elementary depending on address), Burns Middle School, and Bloomingdale High School in the Hillsborough County School District. Bloomingdale High has strong academics and athletics programs. Barrett Henry can verify the exact school assignment for any address.' },
-    { q: 'Does Crestwood Estates have an HOA?', a: 'Crestwood Estates has a minimal HOA structure compared to newer developments. The key differentiator is no CDD fees, which saves homeowners $1,000\u2013$2,500+ per year compared to newer communities. Call Barrett Henry at (813) 733-7907 for specific HOA details on any Crestwood Estates property.' },
+    { q: 'Does Crestwood Estates have an HOA?', a: 'Crestwood Estates has a minimal HOA structure compared to newer developments. The key differentiator is no CDD fees, which saves homeowners $1,000 to $2,500+ per year compared to newer communities. Call Barrett Henry at (813) 733-7907 for specific HOA details on any Crestwood Estates property.' },
     { q: 'Is Crestwood Estates a good neighborhood in Valrico?', a: 'Crestwood Estates is one of the most exclusive residential areas in Valrico. Estate-sized lots, custom-built homes, no CDD fees, and mature landscaping make it the premier option for buyers who want space, privacy, and premium construction without the constraints of a heavily-managed HOA.' },
     { q: 'How far is Crestwood Estates from I-75?', a: 'Crestwood Estates is approximately 4 miles from the I-75 interchange at SR-60 (Brandon Blvd), about an 8 to 10-minute drive. From I-75, downtown Tampa is roughly 25 minutes and Lakeland is about 30 minutes via I-4.' },
     { q: 'Are there CDD fees in Crestwood Estates?', a: 'No. Crestwood Estates does not have CDD fees, which is a major cost advantage over newer Valrico developments. CDD assessments in newer communities can add $1,000 to $2,500+ per year to the property tax bill. This absence of CDD makes Crestwood Estates more affordable on a monthly basis than the purchase price alone suggests.' },
     { q: 'How large are the lots in Crestwood Estates?', a: 'Lots in Crestwood Estates frequently exceed half an acre, with some approaching a full acre. These are among the largest residential lots available in suburban Valrico. The generous lot sizes provide privacy, room for pools, outdoor kitchens, and setbacks from neighbors that are impossible to find in newer construction.' },
-    { q: 'How does Crestwood Estates compare to nearby neighborhoods?', a: 'Crestwood Estates ($500K\u2013$900K) is the premium estate option in south Valrico with the largest lots and no CDD. River Hills ($600K\u2013$1.2M+) is the gated luxury alternative with golf amenities. Diamond Hill ($350K\u2013$550K) offers gated golf living at a lower price. Buckhorn Springs Manor ($350K\u2013$550K) has larger lots near the golf club at a lower entry point.' },
+    { q: 'How does Crestwood Estates compare to nearby neighborhoods?', a: 'Crestwood Estates ($500K to $900K) is the premium estate option in south Valrico with the largest lots and no CDD. River Hills ($600K to $1.2M+) is the gated luxury alternative with golf amenities. Diamond Hill ($350K to $550K) offers gated golf living at a lower price. Buckhorn Springs Manor ($350K to $550K) has larger lots near the golf club at a lower entry point.' },
   ];
 
   return (
@@ -44,7 +44,7 @@ export default function CrestwoodEstatesPage() {
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
           <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Crestwood Estates Homes for Sale, Valrico FL 33596</h1>
-          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Crestwood Estates is one of Valrico&apos;s most exclusive residential areas, featuring estate-sized lots and custom-built homes in south Valrico (33596). Prices from $500K&ndash;$900K+. Bloomingdale High School zone. No CDD fees. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
+          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Crestwood Estates is one of Valrico&apos;s most exclusive residential areas, featuring estate-sized lots and custom-built homes in south Valrico (33596). Prices from $500K to $900K+. Bloomingdale High School zone. No CDD fees. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Crestwood Estates listings</Link>
             <Link href="/valrico-fl-home-values/" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">What&apos;s my home worth?</Link>
@@ -69,7 +69,7 @@ export default function CrestwoodEstatesPage() {
       <div style={{ background: 'var(--cream)' }}>
         <div className="max-w-[1140px] mx-auto px-7 py-12 grid grid-cols-2 md:grid-cols-4 gap-5">
           {[
-            ['$500K\u2013$900K+', 'Price range'],
+            ['$500K to $900K+', 'Price range'],
             ['33596', 'ZIP code'],
             ['Bloomingdale HS', 'High school zone'],
             ['Estate / Luxury', 'Community type'],
@@ -101,18 +101,18 @@ export default function CrestwoodEstatesPage() {
             <h2 className="font-serif text-2xl mb-4 mt-10">Location and Commute</h2>
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Crestwood Estates is positioned in south Valrico with access to both the Bloomingdale and Buckhorn commercial corridors. Key commute times:</p>
             <ul className="text-[15px] leading-[1.8] mb-6 space-y-2 pl-5 list-disc" style={{ color: 'var(--ink-soft)' }}>
-              <li><strong>I-75 (SR-60 interchange):</strong> ~4 miles / 8&ndash;10 minutes</li>
-              <li><strong>Downtown Tampa:</strong> ~19 miles / 25&ndash;35 minutes via I-75</li>
-              <li><strong>MacDill Air Force Base:</strong> ~23 miles / 30&ndash;40 minutes</li>
+              <li><strong>I-75 (SR-60 interchange):</strong> ~4 miles / 8 to 10 minutes</li>
+              <li><strong>Downtown Tampa:</strong> ~19 miles / 25 to 35 minutes via I-75</li>
+              <li><strong>MacDill Air Force Base:</strong> ~23 miles / 30 to 40 minutes</li>
               <li><strong>Brandon Town Center:</strong> ~6 miles / 12 minutes</li>
               <li><strong>Lakeland:</strong> ~26 miles / 30 minutes via I-4</li>
-              <li><strong>Tampa International Airport:</strong> ~26 miles / 30&ndash;40 minutes</li>
+              <li><strong>Tampa International Airport:</strong> ~26 miles / 30 to 40 minutes</li>
             </ul>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Despite its estate feel, Crestwood Estates is not remote. Publix, Winn-Dixie, and dining options along Bloomingdale Avenue are minutes away. The location delivers the privacy of estate living with the convenience of suburban commercial access, a combination that is hard to find in Hillsborough County.</p>
 
             {/* --- HOA --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">HOA and Community Fees</h2>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Crestwood Estates has a minimal HOA structure that maintains basic community standards without the heavy restrictions of newer developments. Monthly HOA fees are modest. The standout financial advantage is zero CDD fees, a savings of $1,000&ndash;$2,500+ per year compared to newer Valrico communities. This no-CDD status makes Crestwood Estates more cost-effective on a monthly basis than many properties priced $100K&ndash;$200K lower. Barrett Henry can confirm exact HOA details for any Crestwood Estates property, call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Crestwood Estates has a minimal HOA structure that maintains basic community standards without the heavy restrictions of newer developments. Monthly HOA fees are modest. The standout financial advantage is zero CDD fees, a savings of $1,000 to $2,500+ per year compared to newer Valrico communities. This no-CDD status makes Crestwood Estates more cost-effective on a monthly basis than many properties priced $100K to $200K lower. Barrett Henry can confirm exact HOA details for any Crestwood Estates property, call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
 
             {/* --- Comparison --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">How Crestwood Estates Compares to Nearby Neighborhoods</h2>
@@ -129,10 +129,10 @@ export default function CrestwoodEstatesPage() {
                 </thead>
                 <tbody>
                   {[
-                    ['Crestwood Estates', '$500K\u2013$900K+', 'No', 'Estate lots, custom builds, no CDD'],
-                    ['River Hills', '$600K\u2013$1.2M+', 'No', 'Gated golf community, country club'],
-                    ['Diamond Hill', '$350K\u2013$550K', 'Varies', 'Gated golf community, smaller lots'],
-                    ['Buckhorn Springs Manor', '$350K\u2013$550K', 'No', 'Larger lots, golf club proximity'],
+                    ['Crestwood Estates', '$500K to $900K+', 'No', 'Estate lots, custom builds, no CDD'],
+                    ['River Hills', '$600K to $1.2M+', 'No', 'Gated golf community, country club'],
+                    ['Diamond Hill', '$350K to $550K', 'Varies', 'Gated golf community, smaller lots'],
+                    ['Buckhorn Springs Manor', '$350K to $550K', 'No', 'Larger lots, golf club proximity'],
                   ].map(([name, price, cdd, diff], i) => (
                     <tr key={name} style={{ borderBottom: '1px solid var(--border)' }}>
                       <td className="py-3 pr-4">
@@ -152,7 +152,7 @@ export default function CrestwoodEstatesPage() {
             <h2 className="font-serif text-2xl mb-4 mt-10">Who Crestwood Estates Fits Best</h2>
             <ul className="text-[15px] leading-[1.8] mb-6 space-y-2 pl-5 list-disc" style={{ color: 'var(--ink-soft)' }}>
               <li>Executive buyers and professionals who want estate-level privacy in Valrico</li>
-              <li>Families who need 4&ndash;6 bedrooms with custom layouts and premium finishes</li>
+              <li>Families who need 4 to 6 bedrooms with custom layouts and premium finishes</li>
               <li>Buyers who want to avoid CDD fees and heavy HOA restrictions</li>
               <li>Homeowners relocating from larger metro areas who expect premium lot sizes</li>
               <li>Investors seeking high-value properties with strong appreciation potential</li>

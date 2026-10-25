@@ -1,19 +1,19 @@
 ## Screened Pools Are Standard in Valrico
 
-Most pool homes in Valrico have screen enclosures — also called pool cages. The screen keeps bugs out, reduces debris in the pool, and provides a shaded outdoor living space usable year-round. In Florida's climate, the screened lanai IS the living room for 8 months of the year.
+Most pool homes in Valrico have screen enclosures, also called pool cages. The screen keeps bugs out, reduces debris in the pool, and provides a shaded outdoor living space usable year-round. In Florida's climate, the screened lanai IS the living room for 8 months of the year.
 
 Most Valrico buyers consider a screened pool a must-have, not a luxury. Here is everything you need to know about buying a home with one.
 
 ## Why Screens Matter in Florida
 
-An unscreened pool in Florida is a maintenance nightmare. Leaves, bugs, acorns, and debris fall in constantly. Mosquitoes breed near standing water. Direct sun accelerates chemical evaporation, increasing your chemical costs. And without a screen, small children and pets have unrestricted access — a safety concern that some insurance carriers factor into their rates.
+An unscreened pool in Florida is a maintenance nightmare. Leaves, bugs, acorns, and debris fall in constantly. Mosquitoes breed near standing water. Direct sun accelerates chemical evaporation, increasing your chemical costs. And without a screen, small children and pets have unrestricted access, a safety concern that some insurance carriers factor into their rates.
 
 A screened enclosure solves all of these:
 - **Debris reduction:** 80 to 90% less leaf and bug debris in the pool
 - **Mosquito control:** The screen keeps mosquitoes out of your outdoor living space
 - **Chemical efficiency:** Reduced sun exposure means chemicals last longer
 - **Safety:** The screen cage acts as a barrier (not a substitute for a proper fence or alarm)
-- **Extended living space:** The covered lanai becomes a screened-in room — furniture, dining, relaxation without bugs
+- **Extended living space:** The covered lanai becomes a screened-in room, furniture, dining, relaxation without bugs
 
 ## Evaluating Screen Enclosure Condition During Showings
 
@@ -21,7 +21,7 @@ When touring pool homes, the enclosure condition is one of the first things I ev
 
 ### Frame Condition
 
-**What to check:** Look for rust, corrosion, and bent or damaged frame members. Aluminum frames in Florida can develop surface corrosion over time — this is cosmetic and normal. Structural rust (deep pitting, weakened sections) is a real problem.
+**What to check:** Look for rust, corrosion, and bent or damaged frame members. Aluminum frames in Florida can develop surface corrosion over time, this is cosmetic and normal. Structural rust (deep pitting, weakened sections) is a real problem.
 
 **Check the base plates** where the frame meets the pool deck. This is where corrosion is worst because water pools at the base. If base plates are rusted through, the entire frame may be compromised.
 
@@ -68,17 +68,17 @@ Screen enclosures in Florida typically last 15 to 25 years depending on quality,
 
 **Well-maintained pool + enclosure:** Adds $20,000 to $50,000 in value compared to a non-pool home. The exact premium depends on neighborhood, lot size, and enclosure condition. In Valrico's climate, a pool is an expected feature at most price points above $400K.
 
-**Pool with damaged enclosure:** The premium shrinks. Buyers subtract the estimated repair cost from their valuation. A pool with a $12K enclosure replacement need becomes a $12K negotiation point — and some buyers walk rather than deal with the hassle.
+**Pool with damaged enclosure:** The premium shrinks. Buyers subtract the estimated repair cost from their valuation. A pool with a $12K enclosure replacement need becomes a $12K negotiation point, and some buyers walk rather than deal with the hassle.
 
 **Pool with no enclosure:** Rare in Valrico. Unscreened pools are viewed negatively because of the maintenance burden. Some insurance carriers require enclosures or charge higher premiums without them.
 
 ## Which Neighborhoods Have the Most Pool Homes
 
 **Highest pool density:**
-- Bloomingdale — majority of homes have pools (1980s-1990s when pools were standard)
-- Twin Lakes — very high pool prevalence
-- Buckhorn Preserve — most homes have pools
-- River Hills — nearly universal
+- Bloomingdale, majority of homes have pools (1980s-1990s when pools were standard)
+- Twin Lakes, very high pool prevalence
+- Buckhorn Preserve, most homes have pools
+- River Hills, nearly universal
 
 **Lower pool density:**
 - Some newer Buckhorn sections (smaller lots may not accommodate pools)
@@ -99,7 +99,7 @@ Beyond the enclosure, evaluate the pool equipment:
 
 **Salt system (if present):** Converts salt to chlorine. Cell replacement every 3 to 5 years ($400 to $800).
 
-**Resurfacing:** Pool interiors need resurfacing every 10 to 15 years. Cost: $5,000 to $10,000 depending on pool size and finish type. Check for rough spots, staining, and visible aggregate — signs that resurfacing is needed.
+**Resurfacing:** Pool interiors need resurfacing every 10 to 15 years. Cost: $5,000 to $10,000 depending on pool size and finish type. Check for rough spots, staining, and visible aggregate, signs that resurfacing is needed.
 
 ## Monthly Pool Maintenance Costs
 

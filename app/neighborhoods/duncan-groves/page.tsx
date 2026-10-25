@@ -34,7 +34,7 @@ export default function DuncanGrovesPage() {
     { q: 'How far is Duncan Groves from I-75?', a: 'Duncan Groves is approximately 6 miles from the I-75 interchange at SR-60 (Brandon Blvd), about a 12 to 15-minute drive. From I-75, downtown Tampa is roughly 25 minutes and Lakeland is about 30 minutes via I-4.' },
     { q: 'What parks are near Duncan Groves?', a: 'Duncan Groves has excellent access to outdoor recreation. Lithia Springs Park is one of Hillsborough County\'s most popular parks, featuring natural springs, swimming areas, and picnic facilities. Alafia River State Park offers mountain biking, hiking, and equestrian trails. Both are within a short drive.' },
     { q: 'What year were Duncan Groves homes built?', a: 'Most homes in Duncan Groves were built in the 1990s through early 2000s. The established construction means mature oak trees and landscaping throughout. Many homeowners have updated kitchens, bathrooms, and flooring. Roof and HVAC replacement should be factored into offers on unrenovated properties.' },
-    { q: 'How does Duncan Groves compare to nearby neighborhoods?', a: 'Duncan Groves ($350K\u2013$450K) is one of the most affordable Bloomingdale HS zone options. Canterbury Oaks ($350K\u2013$475K) has pool and tennis amenities at a slightly higher price. Crosby Crossings ($370K\u2013$475K) offers newer construction in the same school zone. Crestwood Estates ($500K\u2013$900K) is the premium estate option for buyers with bigger budgets.' },
+    { q: 'How does Duncan Groves compare to nearby neighborhoods?', a: 'Duncan Groves ($350K to $450K) is one of the most affordable Bloomingdale HS zone options. Canterbury Oaks ($350K to $475K) has pool and tennis amenities at a slightly higher price. Crosby Crossings ($370K to $475K) offers newer construction in the same school zone. Crestwood Estates ($500K to $900K) is the premium estate option for buyers with bigger budgets.' },
   ];
 
   return (
@@ -44,7 +44,7 @@ export default function DuncanGrovesPage() {
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
           <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Duncan Groves Homes for Sale, Valrico FL 33596</h1>
-          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Duncan Groves is an established subdivision near Lithia Pinecrest Road in south Valrico (33596). Affordable entry into the Bloomingdale HS zone. Prices from $350K&ndash;$450K. Near parks and outdoor recreation. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
+          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Duncan Groves is an established subdivision near Lithia Pinecrest Road in south Valrico (33596). Affordable entry into the Bloomingdale HS zone. Prices from $350K to $450K. Near parks and outdoor recreation. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Duncan Groves listings</Link>
             <Link href="/valrico-fl-home-values/" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">What&apos;s my home worth?</Link>
@@ -69,7 +69,7 @@ export default function DuncanGrovesPage() {
       <div style={{ background: 'var(--cream)' }}>
         <div className="max-w-[1140px] mx-auto px-7 py-12 grid grid-cols-2 md:grid-cols-4 gap-5">
           {[
-            ['$350K\u2013$450K', 'Price range'],
+            ['$350K to $450K', 'Price range'],
             ['33596', 'ZIP code'],
             ['Bloomingdale HS', 'High school zone'],
             ['Established', 'Community type'],
@@ -101,12 +101,12 @@ export default function DuncanGrovesPage() {
             <h2 className="font-serif text-2xl mb-4 mt-10">Location and Commute</h2>
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Duncan Groves is located along the Lithia Pinecrest corridor in south Valrico with access to both Valrico and Riverview commercial areas. Key commute times:</p>
             <ul className="text-[15px] leading-[1.8] mb-6 space-y-2 pl-5 list-disc" style={{ color: 'var(--ink-soft)' }}>
-              <li><strong>I-75 (SR-60 interchange):</strong> ~6 miles / 12&ndash;15 minutes</li>
-              <li><strong>Downtown Tampa:</strong> ~21 miles / 30&ndash;40 minutes via I-75</li>
-              <li><strong>MacDill Air Force Base:</strong> ~25 miles / 34&ndash;44 minutes</li>
+              <li><strong>I-75 (SR-60 interchange):</strong> ~6 miles / 12 to 15 minutes</li>
+              <li><strong>Downtown Tampa:</strong> ~21 miles / 30 to 40 minutes via I-75</li>
+              <li><strong>MacDill Air Force Base:</strong> ~25 miles / 34 to 44 minutes</li>
               <li><strong>Brandon Town Center:</strong> ~8 miles / 15 minutes</li>
               <li><strong>Lakeland:</strong> ~28 miles / 34 minutes via I-4</li>
-              <li><strong>Tampa International Airport:</strong> ~28 miles / 34&ndash;44 minutes</li>
+              <li><strong>Tampa International Airport:</strong> ~28 miles / 34 to 44 minutes</li>
             </ul>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Daily essentials are nearby along Lithia Pinecrest Road and Bloomingdale Avenue. Publix, Winn-Dixie, gas stations, and restaurants are within a few minutes. The location between Valrico and Riverview provides access to two commercial corridors for additional variety.</p>
 
@@ -129,10 +129,10 @@ export default function DuncanGrovesPage() {
                 </thead>
                 <tbody>
                   {[
-                    ['Duncan Groves', '$350K\u2013$450K', 'No', 'Affordable entry, near parks & trails'],
-                    ['Canterbury Oaks', '$350K\u2013$475K', 'No', 'Pool & tennis, HOA-maintained standards'],
-                    ['Crosby Crossings', '$370K\u2013$475K', 'Varies', 'Newer construction, modern floor plans'],
-                    ['Crestwood Estates', '$500K\u2013$900K', 'No', 'Estate lots, custom builds, premium tier'],
+                    ['Duncan Groves', '$350K to $450K', 'No', 'Affordable entry, near parks & trails'],
+                    ['Canterbury Oaks', '$350K to $475K', 'No', 'Pool & tennis, HOA-maintained standards'],
+                    ['Crosby Crossings', '$370K to $475K', 'Varies', 'Newer construction, modern floor plans'],
+                    ['Crestwood Estates', '$500K to $900K', 'No', 'Estate lots, custom builds, premium tier'],
                   ].map(([name, price, cdd, diff], i) => (
                     <tr key={name} style={{ borderBottom: '1px solid var(--border)' }}>
                       <td className="py-3 pr-4">

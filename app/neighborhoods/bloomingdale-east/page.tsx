@@ -45,7 +45,7 @@ export default function BloomingdaleEastPage() {
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
           <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Bloomingdale East Homes for Sale, Valrico FL 33596</h1>
-          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Bloomingdale East sits on the eastern edge of the broader Bloomingdale community in south Valrico (33596). Larger lots, deeper backyards, and mature oaks. Prices from $350K&ndash;$500K. Bloomingdale HS zone. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
+          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Bloomingdale East sits on the eastern edge of the broader Bloomingdale community in south Valrico (33596). Larger lots, deeper backyards, and mature oaks. Prices from $350K to $500K. Bloomingdale HS zone. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Bloomingdale East listings</Link>
             <Link href="/valrico-fl-home-values/" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">What&apos;s my home worth?</Link>
@@ -73,10 +73,10 @@ export default function BloomingdaleEastPage() {
       <div style={{ background: 'var(--cream)' }}>
         <div className="max-w-[1140px] mx-auto px-7 py-12 grid grid-cols-2 md:grid-cols-4 gap-5">
           {[
-            ['$350K\u2013$500K', 'Price range'],
+            ['$350K to $500K', 'Price range'],
             ['33596', 'ZIP code'],
             ['Bloomingdale HS', 'High school zone'],
-            ['Established', 'Larger lots, 1980s\u20131990s'],
+            ['Established', 'Larger lots, 1980s, 1990s'],
           ].map(([v, l]) => (
             <div key={l} className="bg-white rounded-md p-5 border" style={{ borderColor: 'var(--border)' }}>
               <span className="font-serif text-2xl block mb-1" style={{ color: 'var(--ink)' }}>{v}</span>
@@ -107,12 +107,12 @@ export default function BloomingdaleEastPage() {
             <h2 className="font-serif text-2xl mb-4 mt-10">Location and Commute</h2>
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Bloomingdale East provides easy access to the Bloomingdale Avenue commercial corridor while offering more residential quiet. Key commute times:</p>
             <ul className="text-[15px] leading-[1.8] mb-6 space-y-2 pl-5 list-disc" style={{ color: 'var(--ink-soft)' }}>
-              <li><strong>I-75 (SR-60 interchange):</strong> ~7 miles / 14&ndash;18 minutes</li>
-              <li><strong>Downtown Tampa:</strong> ~21 miles / 30&ndash;42 minutes via I-75</li>
-              <li><strong>MacDill Air Force Base:</strong> ~25 miles / 35&ndash;45 minutes</li>
-              <li><strong>Brandon Town Center:</strong> ~6 miles / 12&ndash;15 minutes</li>
-              <li><strong>Lakeland:</strong> ~27 miles / 28&ndash;35 minutes via I-4</li>
-              <li><strong>Tampa International Airport:</strong> ~28 miles / 35&ndash;45 minutes</li>
+              <li><strong>I-75 (SR-60 interchange):</strong> ~7 miles / 14 to 18 minutes</li>
+              <li><strong>Downtown Tampa:</strong> ~21 miles / 30 to 42 minutes via I-75</li>
+              <li><strong>MacDill Air Force Base:</strong> ~25 miles / 35 to 45 minutes</li>
+              <li><strong>Brandon Town Center:</strong> ~6 miles / 12 to 15 minutes</li>
+              <li><strong>Lakeland:</strong> ~27 miles / 28 to 35 minutes via I-4</li>
+              <li><strong>Tampa International Airport:</strong> ~28 miles / 35 to 45 minutes</li>
             </ul>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Publix, Winn-Dixie, restaurants, and medical offices are all accessible along Bloomingdale Avenue within a few minutes. Lithia Springs Park and Alafia River State Park are closer to Bloomingdale East than to core Bloomingdale, making outdoor recreation more convenient for this section.</p>
 
@@ -135,10 +135,10 @@ export default function BloomingdaleEastPage() {
                 </thead>
                 <tbody>
                   {[
-                    ['Bloomingdale East', '$350K\u2013$500K', '1/4\u20131/2 acre', 'Deeper lots, eastern edge quiet'],
-                    ['Bloomingdale Cove', '$375K\u2013$500K', 'Standard', 'Central location, updated interiors'],
-                    ['Bloomingdale Oaks', '$350K\u2013$475K', 'Standard', 'Sidewalks, stronger resale identity'],
-                    ['Bent Tree Estates', '$375K\u2013$500K', '1/4\u20131/3 acre', 'Mature tree canopy, minimal HOA'],
+                    ['Bloomingdale East', '$350K to $500K', '1/4 to 1/2 acre', 'Deeper lots, eastern edge quiet'],
+                    ['Bloomingdale Cove', '$375K to $500K', 'Standard', 'Central location, updated interiors'],
+                    ['Bloomingdale Oaks', '$350K to $475K', 'Standard', 'Sidewalks, stronger resale identity'],
+                    ['Bent Tree Estates', '$375K to $500K', '1/4 to 1/3 acre', 'Mature tree canopy, minimal HOA'],
                   ].map(([name, price, lot, diff], i) => (
                     <tr key={name} style={{ borderBottom: '1px solid var(--border)' }}>
                       <td className="py-3 pr-4">

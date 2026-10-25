@@ -45,7 +45,7 @@ export default function BloomingdalePage() {
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
           <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Bloomingdale Homes for Sale, Valrico FL 33596</h1>
-          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Bloomingdale is one of the largest planned communities in Tampa Bay with 5,200+ homes across 32+ sub-neighborhoods in south Valrico (33596). Prices from $300K&ndash;$500K. Bloomingdale High School zone. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
+          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Bloomingdale is one of the largest planned communities in Tampa Bay with 5,200+ homes across 32+ sub-neighborhoods in south Valrico (33596). Prices from $300K to $500K. Bloomingdale High School zone. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Bloomingdale listings</Link>
             <Link href="/valrico-fl-home-values/" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">What&apos;s my Bloomingdale home worth?</Link>
@@ -83,7 +83,7 @@ export default function BloomingdalePage() {
       <div style={{ background: 'var(--cream)' }}>
         <div className="max-w-[1140px] mx-auto px-7 py-12 grid grid-cols-2 md:grid-cols-4 gap-5">
           {[
-            ['$300K\u2013$500K', 'Price range'],
+            ['$300K to $500K', 'Price range'],
             ['33596', 'ZIP code'],
             ['Bloomingdale HS', 'High school zone'],
             ['5,200+ homes', 'Largest planned community'],
@@ -121,12 +121,12 @@ export default function BloomingdalePage() {
             <h2 className="font-serif text-2xl mb-4 mt-10">Location and Commute</h2>
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Bloomingdale Avenue is the primary commercial corridor, with Publix, Winn-Dixie, CVS, restaurants, and professional services all within a few minutes. Key commute times from Bloomingdale:</p>
             <ul className="text-[15px] leading-[1.8] mb-6 space-y-2 pl-5 list-disc" style={{ color: 'var(--ink-soft)' }}>
-              <li><strong>I-75 (SR-60 interchange):</strong> ~6 miles / 12&ndash;15 minutes</li>
-              <li><strong>Downtown Tampa:</strong> ~20 miles / 28&ndash;40 minutes via I-75 or Selmon Expressway</li>
-              <li><strong>MacDill Air Force Base:</strong> ~24 miles / 35&ndash;45 minutes</li>
-              <li><strong>Brandon Town Center:</strong> ~5 miles / 10&ndash;15 minutes</li>
-              <li><strong>Lakeland:</strong> ~28 miles / 30&ndash;35 minutes via I-4</li>
-              <li><strong>Tampa International Airport:</strong> ~27 miles / 35&ndash;45 minutes</li>
+              <li><strong>I-75 (SR-60 interchange):</strong> ~6 miles / 12 to 15 minutes</li>
+              <li><strong>Downtown Tampa:</strong> ~20 miles / 28 to 40 minutes via I-75 or Selmon Expressway</li>
+              <li><strong>MacDill Air Force Base:</strong> ~24 miles / 35 to 45 minutes</li>
+              <li><strong>Brandon Town Center:</strong> ~5 miles / 10 to 15 minutes</li>
+              <li><strong>Lakeland:</strong> ~28 miles / 30 to 35 minutes via I-4</li>
+              <li><strong>Tampa International Airport:</strong> ~27 miles / 35 to 45 minutes</li>
             </ul>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>HCA Florida Brandon Hospital is a short drive north on Lithia Pinecrest Road. The Lee Roy Selmon Expressway offers a faster route into downtown Tampa during rush hour. Lithia Springs Park, Alafia River State Park, and Alderman&apos;s Ford Nature Preserve are all within a 10 to 15 minute drive south for outdoor recreation.</p>
 
@@ -149,11 +149,11 @@ export default function BloomingdalePage() {
                 </thead>
                 <tbody>
                   {[
-                    ['Bloomingdale', '$300K\u2013$500K', 'Mixed', '5,200+ homes, 32+ sub-neighborhoods'],
-                    ['Buckhorn', '$350K\u2013$500K', 'Varies', 'Newsome HS zone, Boyette corridor'],
-                    ['Brentwood Hills', '$340K\u2013$475K', 'Yes', 'Community pool, dual ZIP codes'],
-                    ['River Hills', '$500K\u2013$1M+', 'Yes', 'Gated, larger lots, golf course'],
-                    ['Bloomingdale Oaks', '$350K\u2013$475K', 'Varies', 'Popular Bloomingdale sub-section'],
+                    ['Bloomingdale', '$300K to $500K', 'Mixed', '5,200+ homes, 32+ sub-neighborhoods'],
+                    ['Buckhorn', '$350K to $500K', 'Varies', 'Newsome HS zone, Boyette corridor'],
+                    ['Brentwood Hills', '$340K to $475K', 'Yes', 'Community pool, dual ZIP codes'],
+                    ['River Hills', '$500K to $1M+', 'Yes', 'Gated, larger lots, golf course'],
+                    ['Bloomingdale Oaks', '$350K to $475K', 'Varies', 'Popular Bloomingdale sub-section'],
                   ].map(([name, price, hoa, diff], i) => (
                     <tr key={name} style={{ borderBottom: '1px solid var(--border)' }}>
                       <td className="py-3 pr-4">
@@ -176,7 +176,7 @@ export default function BloomingdalePage() {
               <li>Buyers who want mature landscaping and larger lots versus newer Riverview construction</li>
               <li>First-time buyers looking for affordable entry into a strong school zone</li>
               <li>Homeowners who want a no-HOA option without leaving a recognized community</li>
-              <li>Military families stationed at MacDill AFB (35&ndash;45 min commute)</li>
+              <li>Military families stationed at MacDill AFB (35 to 45 min commute)</li>
             </ul>
 
             {/* River Hills comparison image */}

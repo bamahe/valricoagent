@@ -1,6 +1,6 @@
 ## Selling Right vs. Selling Fast
 
-The goal is not just to sell. It is to sell at the right price, in a reasonable timeframe, with the fewest surprises. Every dollar you leave on the table through mispricing, poor preparation, or weak negotiation is money you earned through years of mortgage payments and home maintenance — handed to someone else. Here are six strategies that protect your bottom line.
+The goal is not just to sell. It is to sell at the right price, in a reasonable timeframe, with the fewest surprises. Every dollar you leave on the table through mispricing, poor preparation, or weak negotiation is money you earned through years of mortgage payments and home maintenance, handed to someone else. Here are six strategies that protect your bottom line.
 
 ## Strategy 1: Price Based on Data, Not Emotion
 
@@ -9,9 +9,9 @@ This is where most sellers lose money. They either overprice and sit (losing mom
 **The overpricing trap in numbers:**
 - List at $489K when comps support $459K
 - Sit for 45 days with minimal showings
-- Reduce to $469K — still above market
+- Reduce to $469K, still above market
 - Sit another 20 days
-- Reduce to $459K — finally at market
+- Reduce to $459K, finally at market
 - By now you have 65+ days on market. Buyers offer $445K because they see a motivated seller.
 - Final sale: $447K after negotiation
 
@@ -37,8 +37,8 @@ Spend on things that fix buyer objections, not on vanity upgrades that make you 
 - New flooring (LVP throughout): $4K to $8K, returns 80 to 125%
 
 **Skip entirely:**
-- Full kitchen remodel ($30K+ — you will not recoup it)
-- Bathroom additions ($15K+ — rarely returns the investment)
+- Full kitchen remodel ($30K+, you will not recoup it)
+- Bathroom additions ($15K+, rarely returns the investment)
 - Luxury upgrades that exceed neighborhood standards
 - Pool installation (buy a home that already has one)
 
@@ -56,9 +56,9 @@ Professional marketing is not a luxury. It is the difference between 5 showings 
 - Open house within the first 7 to 10 days
 - Compelling listing description that leads with neighborhood and school zone
 
-I hire a professional photographer for every listing. No exceptions. Listings with professional photos sell faster and for more money — the data is unambiguous.
+I hire a professional photographer for every listing. No exceptions. Listings with professional photos sell faster and for more money, the data is unambiguous.
 
-**What passive marketing looks like:** Phone photos, one-paragraph description, MLS syndication only, no social media, no video, no targeted ads. The home sits. The agent says "the market is slow." The market is not slow — the marketing is lazy.
+**What passive marketing looks like:** Phone photos, one-paragraph description, MLS syndication only, no social media, no video, no targeted ads. The home sits. The agent says "the market is slow." The market is not slow, the marketing is lazy.
 
 ## Strategy 4: Negotiate from Strength
 
@@ -66,13 +66,13 @@ Know your bottom line before offers come in. Calculate your net sheet with your 
 
 **Evaluate the full picture, not just the headline number:**
 - **Price:** What they are offering
-- **Concessions:** Closing cost credits, rate buydowns, home warranty — all reduce your net
+- **Concessions:** Closing cost credits, rate buydowns, home warranty, all reduce your net
 - **Financing type:** Cash closes faster with fewer contingencies. FHA/VA may have condition requirements.
 - **Inspection contingency period:** Shorter is better for sellers (10 days vs. 15 days)
 - **Closing timeline:** Does it match your needs? A buyer who can close in 25 days vs. 45 days has different value.
 - **Earnest money:** Higher deposits signal serious intent
 
-**Counter strategically.** In a balanced market, the first offer is rarely the best offer — but it is also usually in the reasonable range. I negotiate on price, concessions, and timeline simultaneously to maximize your net proceeds without killing the deal.
+**Counter strategically.** In a balanced market, the first offer is rarely the best offer, but it is also usually in the reasonable range. I negotiate on price, concessions, and timeline simultaneously to maximize your net proceeds without killing the deal.
 
 ## Strategy 5: Manage Your Costs
 
@@ -107,4 +107,4 @@ Agent A costs $9,900 more in commission but nets you $10,100 more. Plus you sell
 
 **Evaluate net proceeds, not commission rate.** A good agent provides a detailed net sheet at your first meeting showing exactly what you walk away with at various price points and commission structures.
 
-I provide a free, no-obligation listing consultation with a property walk, detailed CMA, marketing plan, and net sheet at multiple price scenarios. No pressure, no inflated promises — just honest numbers and a plan to maximize what you keep.
+I provide a free, no-obligation listing consultation with a property walk, detailed CMA, marketing plan, and net sheet at multiple price scenarios. No pressure, no inflated promises, just honest numbers and a plan to maximize what you keep.

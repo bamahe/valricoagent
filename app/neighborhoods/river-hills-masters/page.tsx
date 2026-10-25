@@ -44,7 +44,7 @@ export default function RiverHillsMastersPage() {
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
           <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">River Hills Masters Homes for Sale, Valrico FL 33596</h1>
-          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>River Hills Masters is the most affordable section within Valrico&apos;s premier gated golf community. Same guard gate, same trails, same amenities, lower price point. $350K&ndash;$550K. Bloomingdale HS zone. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
+          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>River Hills Masters is the most affordable section within Valrico&apos;s premier gated golf community. Same guard gate, same trails, same amenities, lower price point. $350K to $550K. Bloomingdale HS zone. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search River Hills Masters listings</Link>
             <Link href="/valrico-fl-home-values/" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">What&apos;s my home worth?</Link>
@@ -69,7 +69,7 @@ export default function RiverHillsMastersPage() {
       <div style={{ background: 'var(--cream)' }}>
         <div className="max-w-[1140px] mx-auto px-7 py-12 grid grid-cols-2 md:grid-cols-4 gap-5">
           {[
-            ['$350K\u2013$550K', 'Price range'],
+            ['$350K to $550K', 'Price range'],
             ['33596', 'ZIP code'],
             ['Bloomingdale HS', 'High school zone'],
             ['Guard-gated', 'Community type'],
@@ -102,11 +102,11 @@ export default function RiverHillsMastersPage() {
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>River Hills Masters shares the same south Valrico location as the broader River Hills community. Key commute times:</p>
             <ul className="text-[15px] leading-[1.8] mb-6 space-y-2 pl-5 list-disc" style={{ color: 'var(--ink-soft)' }}>
               <li><strong>I-75 (SR-60 interchange):</strong> ~7 miles / 15 minutes</li>
-              <li><strong>Downtown Tampa:</strong> ~22 miles / 30&ndash;42 minutes via I-75</li>
-              <li><strong>MacDill Air Force Base:</strong> ~25 miles / 35&ndash;45 minutes</li>
+              <li><strong>Downtown Tampa:</strong> ~22 miles / 30 to 42 minutes via I-75</li>
+              <li><strong>MacDill Air Force Base:</strong> ~25 miles / 35 to 45 minutes</li>
               <li><strong>Brandon Town Center:</strong> ~7 miles / 14 minutes</li>
               <li><strong>Lakeland:</strong> ~30 miles / 35 minutes via I-4</li>
-              <li><strong>Tampa International Airport:</strong> ~30 miles / 35&ndash;45 minutes</li>
+              <li><strong>Tampa International Airport:</strong> ~30 miles / 35 to 45 minutes</li>
             </ul>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Bloomingdale Avenue and Lithia Pinecrest Road provide access to Publix, restaurants, the Bloomingdale regional library, medical offices, and banks. The south Valrico location offers a quieter, more secluded residential feel than north Valrico communities closer to SR-60.</p>
 
@@ -129,11 +129,11 @@ export default function RiverHillsMastersPage() {
                 </thead>
                 <tbody>
                   {[
-                    ['River Hills Masters', '$350K\u2013$550K', '24/7', 'Guard gate + amenities at lower price'],
-                    ['River Hills', '$400K\u2013$800K+', '24/7', 'Golf frontage, premium custom homes'],
-                    ['Lakemont', '$350K\u2013$475K', 'No', 'Similar pricing, no gate or club'],
-                    ['Kings Mill', '$275K\u2013$350K', 'Gated', 'Cheapest entry, townhomes only'],
-                    ['Savannah Landings', '$300K\u2013$375K', 'No', 'Affordable townhomes, no guard gate'],
+                    ['River Hills Masters', '$350K to $550K', '24/7', 'Guard gate + amenities at lower price'],
+                    ['River Hills', '$400K to $800K+', '24/7', 'Golf frontage, premium custom homes'],
+                    ['Lakemont', '$350K to $475K', 'No', 'Similar pricing, no gate or club'],
+                    ['Kings Mill', '$275K to $350K', 'Gated', 'Cheapest entry, townhomes only'],
+                    ['Savannah Landings', '$300K to $375K', 'No', 'Affordable townhomes, no guard gate'],
                   ].map(([name, price, gate, diff], i) => (
                     <tr key={name} style={{ borderBottom: '1px solid var(--border)' }}>
                       <td className="py-3 pr-4">

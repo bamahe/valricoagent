@@ -44,7 +44,7 @@ export default function LakemontPage() {
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
           <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Lakemont Homes for Sale, Valrico FL 33596</h1>
-          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Lakemont is an established single-family neighborhood with lake-influenced lots and mature landscaping in south Valrico (33596). Prices from $350K&ndash;$475K. Bloomingdale HS zone. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
+          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Lakemont is an established single-family neighborhood with lake-influenced lots and mature landscaping in south Valrico (33596). Prices from $350K to $475K. Bloomingdale HS zone. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Lakemont listings</Link>
             <Link href="/valrico-fl-home-values/" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">What&apos;s my home worth?</Link>
@@ -69,7 +69,7 @@ export default function LakemontPage() {
       <div style={{ background: 'var(--cream)' }}>
         <div className="max-w-[1140px] mx-auto px-7 py-12 grid grid-cols-2 md:grid-cols-4 gap-5">
           {[
-            ['$350K\u2013$475K', 'Price range'],
+            ['$350K to $475K', 'Price range'],
             ['33596', 'ZIP code'],
             ['Bloomingdale HS', 'High school zone'],
             ['Established', 'Community type'],
@@ -102,11 +102,11 @@ export default function LakemontPage() {
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Lakemont sits in south Valrico near Bloomingdale Avenue. Key commute times from Lakemont:</p>
             <ul className="text-[15px] leading-[1.8] mb-6 space-y-2 pl-5 list-disc" style={{ color: 'var(--ink-soft)' }}>
               <li><strong>I-75 (SR-60 interchange):</strong> ~6 miles / 14 minutes</li>
-              <li><strong>Downtown Tampa:</strong> ~21 miles / 28&ndash;40 minutes via I-75</li>
-              <li><strong>MacDill Air Force Base:</strong> ~24 miles / 32&ndash;45 minutes</li>
+              <li><strong>Downtown Tampa:</strong> ~21 miles / 28 to 40 minutes via I-75</li>
+              <li><strong>MacDill Air Force Base:</strong> ~24 miles / 32 to 45 minutes</li>
               <li><strong>Brandon Town Center:</strong> ~6 miles / 12 minutes</li>
               <li><strong>Lakeland:</strong> ~28 miles / 32 minutes via I-4</li>
-              <li><strong>Tampa International Airport:</strong> ~28 miles / 35&ndash;45 minutes</li>
+              <li><strong>Tampa International Airport:</strong> ~28 miles / 35 to 45 minutes</li>
             </ul>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Bloomingdale Avenue provides direct access to Publix, restaurants, the Bloomingdale regional library, banks, and medical offices. The Valrico Town Center area along SR-60 is a short drive north with Walmart, Winn-Dixie, and additional retail.</p>
 
@@ -129,11 +129,11 @@ export default function LakemontPage() {
                 </thead>
                 <tbody>
                   {[
-                    ['Lakemont', '$350K\u2013$475K', 'Single-family', 'Lake views, mature landscaping, mid-range'],
-                    ['Kings Mill', '$275K\u2013$350K', 'Townhomes', 'Lowest entry, gated, HOA-maintained'],
-                    ['Savannah Landings', '$300K\u2013$375K', 'Townhomes', 'Affordable, community amenities'],
-                    ['River Hills Masters', '$350K\u2013$550K', 'Single-family', 'Guard gate, golf community access'],
-                    ['River Hills', '$400K\u2013$800K', 'Single-family', 'Premium gated golf, country club'],
+                    ['Lakemont', '$350K to $475K', 'Single-family', 'Lake views, mature landscaping, mid-range'],
+                    ['Kings Mill', '$275K to $350K', 'Townhomes', 'Lowest entry, gated, HOA-maintained'],
+                    ['Savannah Landings', '$300K to $375K', 'Townhomes', 'Affordable, community amenities'],
+                    ['River Hills Masters', '$350K to $550K', 'Single-family', 'Guard gate, golf community access'],
+                    ['River Hills', '$400K to $800K', 'Single-family', 'Premium gated golf, country club'],
                   ].map(([name, price, type, diff], i) => (
                     <tr key={name} style={{ borderBottom: '1px solid var(--border)' }}>
                       <td className="py-3 pr-4">

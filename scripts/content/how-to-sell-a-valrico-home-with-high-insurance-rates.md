@@ -1,6 +1,6 @@
 ## Insurance Is Now Part of Every Valrico Transaction
 
-Florida's homeowners insurance market has changed dramatically since 2022. Premiums have risen 30 to 50% statewide. Some carriers have left Florida entirely. Others have tightened underwriting standards, particularly around roof age. As a Valrico seller, you need to understand how this affects your sale — because your buyer is factoring insurance into every offer they make.
+Florida's homeowners insurance market has changed dramatically since 2022. Premiums have risen 30 to 50% statewide. Some carriers have left Florida entirely. Others have tightened underwriting standards, particularly around roof age. As a Valrico seller, you need to understand how this affects your sale, because your buyer is factoring insurance into every offer they make.
 
 ## How Insurance Costs Affect Your Sale Price
 
@@ -15,7 +15,7 @@ High insurance premiums effectively reduce your buyer pool to those who can abso
 
 ## What Drives Insurance Costs in Valrico
 
-### Roof Age — The Single Biggest Factor
+### Roof Age, The Single Biggest Factor
 
 Insurance carriers in Florida have drawn hard lines on roof age:
 - **Under 5 years:** Best rates. Most carriers will write a policy without hesitation.
@@ -23,19 +23,19 @@ Insurance carriers in Florida have drawn hard lines on roof age:
 - **10 to 15 years:** Fewer carrier options. Higher premiums. Inspection almost always required.
 - **Over 15 years:** Many carriers will not write a new policy. Citizens (Florida's insurer of last resort) becomes the primary option. Premiums are highest.
 
-A new roof ($15K to $25K depending on size and material) is often the highest-ROI pre-listing investment a Valrico seller can make. Not because the roof itself adds $25K to your value — but because it makes the home insurable at reasonable rates, which expands your buyer pool and supports your asking price.
+A new roof ($15K to $25K depending on size and material) is often the highest-ROI pre-listing investment a Valrico seller can make. Not because the roof itself adds $25K to your value, but because it makes the home insurable at reasonable rates, which expands your buyer pool and supports your asking price.
 
 ### Construction Type
 
-Block construction (CBS — concrete block and stucco) insures cheaper than frame construction. Most Valrico homes built in the 1980s and later are CBS, which is favorable. Older frame homes or homes with frame additions may face higher premiums.
+Block construction (CBS, concrete block and stucco) insures cheaper than frame construction. Most Valrico homes built in the 1980s and later are CBS, which is favorable. Older frame homes or homes with frame additions may face higher premiums.
 
 ### Flood Zone Designation
 
-Properties in FEMA Zone AE require separate flood insurance — $1,500 to $5,000+/year on top of homeowners insurance. Most of Valrico is Zone X (minimal risk), but pockets near the Alafia River carry flood designations. If your home is in a flood zone, the buyer's total insurance cost can exceed $10,000/year.
+Properties in FEMA Zone AE require separate flood insurance, $1,500 to $5,000+/year on top of homeowners insurance. Most of Valrico is Zone X (minimal risk), but pockets near the Alafia River carry flood designations. If your home is in a flood zone, the buyer's total insurance cost can exceed $10,000/year.
 
 ### Claims History
 
-Previous claims on the property — especially water and wind claims — flag the home in the CLUE (Comprehensive Loss Underwriting Exchange) database. Carriers check this history and may increase premiums or decline coverage based on past claims. Even claims filed by previous owners affect the property's insurability.
+Previous claims on the property, especially water and wind claims, flag the home in the CLUE (Comprehensive Loss Underwriting Exchange) database. Carriers check this history and may increase premiums or decline coverage based on past claims. Even claims filed by previous owners affect the property's insurability.
 
 ### Pool and Trampoline
 
@@ -56,7 +56,7 @@ A pre-listing roof replacement frequently pays for itself through a higher sale 
 
 A 4-point inspection covers roof, HVAC, electrical, and plumbing. Having this report ready for buyers speeds up their insurance quoting process and demonstrates transparency. Cost: $100 to $200.
 
-If the 4-point reveals issues (Federal Pacific electrical panel, polybutylene plumbing, aging HVAC), you can address them before listing or price accordingly — rather than having them surface as surprises during due diligence.
+If the 4-point reveals issues (Federal Pacific electrical panel, polybutylene plumbing, aging HVAC), you can address them before listing or price accordingly, rather than having them surface as surprises during due diligence.
 
 ### 3. Get a Wind Mitigation Inspection
 
@@ -68,22 +68,22 @@ Cost: $75 to $150. Include it in your listing package.
 
 ### 4. Provide Insurance Quotes to Buyers
 
-Contact 2 to 3 insurance carriers and get actual quotes for your property. Include these in your listing package or provide them at showings. This removes the unknown — instead of buyers assuming the worst ("insurance must be $7,000"), they see the actual number ("insurance is $4,200 with XYZ carrier").
+Contact 2 to 3 insurance carriers and get actual quotes for your property. Include these in your listing package or provide them at showings. This removes the unknown, instead of buyers assuming the worst ("insurance must be $7,000"), they see the actual number ("insurance is $4,200 with XYZ carrier").
 
 Transparency builds trust and prevents deal-killing surprises during the buyer's insurance shopping process.
 
 ### 5. Highlight Insurance-Favorable Features in Marketing
 
 If your home has any of these features, make sure your listing highlights them:
-- **New or recent roof** — state the year
-- **Impact windows or hurricane shutters** — reduces wind premiums significantly
-- **CBS construction** — lower rates than frame
-- **Hip roof** — more wind-resistant than gable, better rates
-- **Hurricane straps/clips** — visible in attic, documented in wind mitigation report
+- **New or recent roof**, state the year
+- **Impact windows or hurricane shutters**, reduces wind premiums significantly
+- **CBS construction**, lower rates than frame
+- **Hip roof**, more wind-resistant than gable, better rates
+- **Hurricane straps/clips**, visible in attic, documented in wind mitigation report
 - **Updated electrical** (no Federal Pacific or Zinsco panels)
 - **Updated plumbing** (no polybutylene)
 
-These are not just construction details — they are insurance savings that translate to lower monthly costs for buyers.
+These are not just construction details, they are insurance savings that translate to lower monthly costs for buyers.
 
 ## When the Roof Is Not Worth Replacing
 
@@ -97,7 +97,7 @@ I evaluate each listing individually. Sometimes replacement makes sense. Sometim
 
 ## The Bottom Line
 
-Insurance is no longer an afterthought in Florida real estate. It is a front-and-center factor in every transaction. Sellers who address it proactively — new roof, 4-point inspection, wind mitigation report, insurance quotes in the listing package — remove a major obstacle to selling at full value.
+Insurance is no longer an afterthought in Florida real estate. It is a front-and-center factor in every transaction. Sellers who address it proactively, new roof, 4-point inspection, wind mitigation report, insurance quotes in the listing package, remove a major obstacle to selling at full value.
 
 Sellers who ignore it face buyer objections, extended negotiations, and lower net proceeds.
 

@@ -44,7 +44,7 @@ export default function CimmaronPage() {
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
           <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Cimmaron Homes for Sale, Valrico FL 33594</h1>
-          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Cimmaron is an exclusive community of just 19 custom homes on large wooded lots near Buckhorn Springs Golf &amp; Country Club in Valrico (33594). No HOA. Prices from $450K&ndash;$650K. Newsome High School zone. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
+          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Cimmaron is an exclusive community of just 19 custom homes on large wooded lots near Buckhorn Springs Golf &amp; Country Club in Valrico (33594). No HOA. Prices from $450K to $650K. Newsome High School zone. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Cimmaron listings</Link>
             <Link href="/valrico-fl-home-values/" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">What&apos;s my home worth?</Link>
@@ -69,7 +69,7 @@ export default function CimmaronPage() {
       <div style={{ background: 'var(--cream)' }}>
         <div className="max-w-[1140px] mx-auto px-7 py-12 grid grid-cols-2 md:grid-cols-4 gap-5">
           {[
-            ['$450K\u2013$650K', 'Price range'],
+            ['$450K to $650K', 'Price range'],
             ['33594', 'ZIP code'],
             ['Newsome HS', 'High school zone'],
             ['No HOA', 'Community type'],
@@ -102,11 +102,11 @@ export default function CimmaronPage() {
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Cimmaron is located off Durant Road in Valrico, accessible by heading south on Miller Road, east on Durant, and north on Cimmaron Run. Key commute times from Cimmaron:</p>
             <ul className="text-[15px] leading-[1.8] mb-6 space-y-2 pl-5 list-disc" style={{ color: 'var(--ink-soft)' }}>
               <li><strong>I-75 (SR-60 interchange):</strong> ~5 miles / 12 minutes</li>
-              <li><strong>Downtown Tampa:</strong> ~20 miles / 30&ndash;40 minutes via I-75</li>
-              <li><strong>MacDill Air Force Base:</strong> ~24 miles / 35&ndash;45 minutes</li>
+              <li><strong>Downtown Tampa:</strong> ~20 miles / 30 to 40 minutes via I-75</li>
+              <li><strong>MacDill Air Force Base:</strong> ~24 miles / 35 to 45 minutes</li>
               <li><strong>Brandon Town Center:</strong> ~7 miles / 15 minutes</li>
               <li><strong>Lakeland:</strong> ~25 miles / 30 minutes via I-4</li>
-              <li><strong>Tampa International Airport:</strong> ~27 miles / 35&ndash;45 minutes</li>
+              <li><strong>Tampa International Airport:</strong> ~27 miles / 35 to 45 minutes</li>
             </ul>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Daily essentials are within minutes. Publix, Winn-Dixie, and restaurants line the Durant Road and Lithia Pinecrest Road corridors. Buckhorn Springs Golf &amp; Country Club is right around the corner for golf enthusiasts.</p>
 
@@ -129,11 +129,11 @@ export default function CimmaronPage() {
                 </thead>
                 <tbody>
                   {[
-                    ['Cimmaron', '$450K\u2013$650K', 'No', '19 custom homes, large wooded lots'],
-                    ['Buckhorn Golf Club Estates', '$350K\u2013$550K', 'Yes', 'Golf course views, more homes'],
-                    ['Crestwood Estates', '$600K\u2013$1M+', 'No', 'Estate-sized lots, luxury tier'],
-                    ['Durant Oaks', '$375K\u2013$525K', 'No', 'Custom-built, mature landscaping'],
-                    ['Copper Ridge', '$375K\u2013$525K', 'Yes', 'HOA-governed, conservation lots'],
+                    ['Cimmaron', '$450K to $650K', 'No', '19 custom homes, large wooded lots'],
+                    ['Buckhorn Golf Club Estates', '$350K to $550K', 'Yes', 'Golf course views, more homes'],
+                    ['Crestwood Estates', '$600K to $1M+', 'No', 'Estate-sized lots, luxury tier'],
+                    ['Durant Oaks', '$375K to $525K', 'No', 'Custom-built, mature landscaping'],
+                    ['Copper Ridge', '$375K to $525K', 'Yes', 'HOA-governed, conservation lots'],
                   ].map(([name, price, hoa, diff], i) => (
                     <tr key={name} style={{ borderBottom: '1px solid var(--border)' }}>
                       <td className="py-3 pr-4">

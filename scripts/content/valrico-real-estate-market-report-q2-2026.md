@@ -26,14 +26,14 @@ The Newsome High School zone saw the most concentrated activity. Families reloca
 - **Days on market:** 25 to 35 days (fastest in 12 months)
 - **Notable trend:** Updated homes under $400K are seeing the strongest activity. Buyers in this segment are competing for limited move-in ready inventory.
 
-Bloomingdale's spring performance was driven by first-time buyers and young families priced out of the Newsome zone. The value proposition — larger lots, mature trees, lower prices — resonated with budget-conscious spring buyers who needed to close before school started.
+Bloomingdale's spring performance was driven by first-time buyers and young families priced out of the Newsome zone. The value proposition, larger lots, mature trees, lower prices, resonated with budget-conscious spring buyers who needed to close before school started.
 
 ### Buckhorn / Buckhorn Preserve (33596)
 - **Median sale price:** $440K to $560K (up 3 to 5% from Q1)
 - **Days on market:** 22 to 32 days
 - **Notable trend:** Newsome-zoned family homes in the $450K to $525K sweet spot are the hottest segment in Valrico
 
-This is where the spring surge was most pronounced. Multiple showing requests within days of listing, offers within two weeks, and sale prices within 1 to 2% of asking on well-presented homes. The school-driven demand created the closest thing to 2021 conditions that we have seen in over three years — though not the same intensity.
+This is where the spring surge was most pronounced. Multiple showing requests within days of listing, offers within two weeks, and sale prices within 1 to 2% of asking on well-presented homes. The school-driven demand created the closest thing to 2021 conditions that we have seen in over three years, though not the same intensity.
 
 ### River Hills (33596)
 - **Median sale price:** $540K to $825K
@@ -45,14 +45,14 @@ River Hills benefited from seasonal momentum. Move-up buyers who sold their star
 ### Diamond Hill (33596)
 - **Median sale price:** $460K to $620K
 - **Days on market:** 28 to 40 days
-- **Notable trend:** Extremely limited inventory — only 2 to 3 active listings during most of Q2
+- **Notable trend:** Extremely limited inventory, only 2 to 3 active listings during most of Q2
 
 Diamond Hill's supply constraint was the story. With almost no inventory, the few homes that listed received immediate attention. Large-lot, no-HOA homes with Newsome zoning remain the rarest product in Valrico.
 
 ### Twin Lakes (33594)
 - **Median sale price:** $360K to $480K
 - **Days on market:** 22 to 30 days
-- **Notable trend:** Investor activity increased — rental demand is supporting purchase prices
+- **Notable trend:** Investor activity increased, rental demand is supporting purchase prices
 
 Twin Lakes saw its fastest selling pace in over two years. The affordable price point combined with high pool prevalence made it the entry-level favorite for spring buyers.
 
@@ -68,7 +68,7 @@ Twin Lakes saw its fastest selling pace in over two years. The affordable price 
 
 ## Interest Rate Update
 
-Mortgage rates held in the 6.0 to 6.5% range through Q2. No dramatic movement. The stability actually helped the spring market — buyers and sellers both had predictability to plan around, unlike 2022-2023 when rate volatility created uncertainty.
+Mortgage rates held in the 6.0 to 6.5% range through Q2. No dramatic movement. The stability actually helped the spring market, buyers and sellers both had predictability to plan around, unlike 2022-2023 when rate volatility created uncertainty.
 
 Rate buydowns continued to be a common negotiation tool. Approximately 30 to 40% of Q2 transactions included some form of seller-paid rate buydown contribution, helping buyers afford monthly payments at elevated rates.
 
@@ -82,8 +82,8 @@ The insurance conversation is now a standard part of every transaction. Buyers q
 
 **Q3 (July to September):** Typical seasonal slowdown as schools start, temperatures peak, and showing activity decreases 10 to 15% from spring. However, serious buyers remain active. Sellers face less competition from other listings, which partially offsets the reduced buyer traffic.
 
-**Q4 (October to December):** Fall brings a secondary activity bump — motivated buyers who missed spring, relocators planning year-end moves, and snowbirds beginning their Florida housing search. December is typically quiet, but low inventory means sellers who list face minimal competition.
+**Q4 (October to December):** Fall brings a secondary activity bump, motivated buyers who missed spring, relocators planning year-end moves, and snowbirds beginning their Florida housing search. December is typically quiet, but low inventory means sellers who list face minimal competition.
 
 **Full-year outlook:** 2026 is shaping up as a stable year. No dramatic price movement in either direction. Steady transaction volume. Balanced market conditions that reward preparation, accurate pricing, and professional marketing.
 
-I publish Valrico market data monthly by neighborhood. If you want updates specific to your subdivision — not zip code level, but your actual streets — reach out and I will add you to the monthly update list.
+I publish Valrico market data monthly by neighborhood. If you want updates specific to your subdivision, not zip code level, but your actual streets, reach out and I will add you to the monthly update list.

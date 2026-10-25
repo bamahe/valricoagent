@@ -1,12 +1,12 @@
 ## More Than a Door Opener
 
-Since the 2024 commission changes, many buyers wonder what a buyer's agent actually does and whether the value justifies the cost. Fair question. Here is the full picture for Valrico transactions — every step from first phone call to key handoff.
+Since the 2024 commission changes, many buyers wonder what a buyer's agent actually does and whether the value justifies the cost. Fair question. Here is the full picture for Valrico transactions, every step from first phone call to key handoff.
 
 ## Before You Start Looking
 
 ### Lender Connection
 
-I connect you with 2 to 3 lenders who handle the loan types relevant to your situation — FHA, VA, conventional, USDA, or portfolio loans. Not one lender. Multiple options so you can compare rates, fees, and closing costs. A quarter-point rate difference on a $450K mortgage is $67/month or $24,120 over the life of the loan. Shopping lenders matters.
+I connect you with 2 to 3 lenders who handle the loan types relevant to your situation, FHA, VA, conventional, USDA, or portfolio loans. Not one lender. Multiple options so you can compare rates, fees, and closing costs. A quarter-point rate difference on a $450K mortgage is $67/month or $24,120 over the life of the loan. Shopping lenders matters.
 
 ### Budget Reality Check
 
@@ -16,14 +16,14 @@ A buyer pre-approved for $500K might realize their comfortable monthly payment p
 
 ### Neighborhood Targeting
 
-I narrow your search based on your priorities — not just price and bedrooms, but school zones, commute patterns, lot size preferences, HOA tolerance, and lifestyle fit. In Valrico, this matters more than in most markets because the neighborhoods are so different:
+I narrow your search based on your priorities, not just price and bedrooms, but school zones, commute patterns, lot size preferences, HOA tolerance, and lifestyle fit. In Valrico, this matters more than in most markets because the neighborhoods are so different:
 
 - Need Newsome High School? Buckhorn, River Hills, Diamond Hill.
 - Need no HOA? Brentwood Hills, Diamond Hill, Crestwood Estates, parts of Bloomingdale.
 - Need under $400K with a pool? Twin Lakes, parts of Bloomingdale.
 - Need a half-acre lot? Diamond Hill, Crestwood Estates, Lithia Pinecrest corridor.
 
-I set up automated MLS alerts filtered to your exact criteria. Not Zillow alerts — direct MLS feeds that hit your inbox before the portals update.
+I set up automated MLS alerts filtered to your exact criteria. Not Zillow alerts, direct MLS feeds that hit your inbox before the portals update.
 
 ### Pre-Screening Properties
 
@@ -64,7 +64,7 @@ I analyze seller motivation, days on market, price history, and current competit
 
 ### Contract Details
 
-I write contracts that protect your interests. In Florida, the standard FAR/BAR contract has specific contingency periods, inspection rights, and financing deadlines. Understanding these details — and using them strategically — is the difference between a protected buyer and a vulnerable one.
+I write contracts that protect your interests. In Florida, the standard FAR/BAR contract has specific contingency periods, inspection rights, and financing deadlines. Understanding these details, and using them strategically, is the difference between a protected buyer and a vulnerable one.
 
 Key terms I negotiate beyond price:
 - **Inspection period length** (10 to 15 days is standard, shorter strengthens your offer)
@@ -78,7 +78,7 @@ Key terms I negotiate beyond price:
 
 ### Home Inspection Coordination
 
-I schedule the inspection, attend it, and walk through the findings with you. A typical Valrico inspection report runs 30 to 50 pages and flags 20 to 40 items. Most are minor — but a few can be deal-breakers.
+I schedule the inspection, attend it, and walk through the findings with you. A typical Valrico inspection report runs 30 to 50 pages and flags 20 to 40 items. Most are minor, but a few can be deal-breakers.
 
 My job is helping you prioritize:
 - **Address these:** Roof issues, active water intrusion, electrical safety hazards, HVAC failures, structural concerns, plumbing defects
@@ -87,7 +87,7 @@ My job is helping you prioritize:
 
 ### Repair Negotiation
 
-After inspection, I prepare a repair request or credit negotiation based on what matters financially and what matters for safety. In Valrico's current market, sellers are more willing to negotiate on inspections than they were in 2021 — but there is still an art to asking for the right things in the right way.
+After inspection, I prepare a repair request or credit negotiation based on what matters financially and what matters for safety. In Valrico's current market, sellers are more willing to negotiate on inspections than they were in 2021, but there is still an art to asking for the right things in the right way.
 
 I typically negotiate repair credits (dollar amount off the price or at closing) rather than requiring the seller to make actual repairs. This gives you control over the contractor, timeline, and quality of work.
 
@@ -119,4 +119,4 @@ A buyer's agent who negotiates even 2% off a $450K purchase saves you $9,000. An
 
 The value is in the knowledge, not the door opening.
 
-Let me show you what working with a local Valrico buyer's agent looks like. No obligation, no pressure — just a conversation about what you are looking for and how I can help you find it.
+Let me show you what working with a local Valrico buyer's agent looks like. No obligation, no pressure, just a conversation about what you are looking for and how I can help you find it.

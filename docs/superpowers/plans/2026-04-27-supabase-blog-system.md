@@ -1,4 +1,4 @@
-# Supabase Blog Auto-Publishing System — Implementation Plan
+# Supabase Blog Auto-Publishing System, Implementation Plan
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
@@ -74,7 +74,7 @@ git commit -m "Add Supabase, dotenv, and tsx dependencies"
 
 - [ ] **Step 1: Create lib/ directory and supabase.ts**
 
-Create `/Users/barretthenry/Desktop/valricoagent-next/lib/supabase.ts` with the following content. This is adapted from the source at `/Users/barretthenry/Desktop/valricoagent/src/lib/supabase.ts` — identical logic, just lives at `lib/` instead of `src/lib/`.
+Create `/Users/barretthenry/Desktop/valricoagent-next/lib/supabase.ts` with the following content. This is adapted from the source at `/Users/barretthenry/Desktop/valricoagent/src/lib/supabase.ts`, identical logic, just lives at `lib/` instead of `src/lib/`.
 
 ```typescript
 import { createClient } from '@supabase/supabase-js';
@@ -297,7 +297,7 @@ The current blog index is hardcoded with 2 posts. Replace it with the Supabase-p
 
 Replace the entire contents of `/Users/barretthenry/Desktop/valricoagent-next/app/blog/page.tsx` with the content from `/Users/barretthenry/Desktop/valricoagent/src/app/blog/page.tsx`. 
 
-The import path changes from `@/lib/supabase` — this stays the same since we put supabase.ts at `lib/supabase.ts` and the `@/` alias maps to the project root.
+The import path changes from `@/lib/supabase`, this stays the same since we put supabase.ts at `lib/supabase.ts` and the `@/` alias maps to the project root.
 
 The file content is shown in full in the source read above. Copy it exactly as-is.
 
@@ -405,7 +405,7 @@ git commit -m "Update sitemap to include dynamic blog posts from Supabase"
 ls /Users/barretthenry/Desktop/valricoagent-next/public/robots.txt 2>/dev/null
 ```
 
-If it exists, delete it — the dynamic `app/robots.ts` takes precedence but the static file might cause conflicts.
+If it exists, delete it, the dynamic `app/robots.ts` takes precedence but the static file might cause conflicts.
 
 - [ ] **Step 2: Create app/robots.ts**
 
@@ -518,7 +518,7 @@ cd /Users/barretthenry/Desktop/valricoagent-next
 npm run build 2>&1 | tail -30
 ```
 
-The build will likely warn about missing Supabase env vars (they aren't set yet), but it should not have TypeScript or import errors. If the blog pages fail because Supabase isn't configured, that's expected — the build will succeed once env vars are set.
+The build will likely warn about missing Supabase env vars (they aren't set yet), but it should not have TypeScript or import errors. If the blog pages fail because Supabase isn't configured, that's expected, the build will succeed once env vars are set.
 
 If there are TS errors, fix them before proceeding.
 
@@ -533,14 +533,14 @@ These are NOT code tasks. Barrett needs to do these in the browser:
 1. **Create Supabase project** at supabase.com → New Project for valricoagent
 2. **Copy the 3 keys** (URL, anon key, service role key)
 3. **Create `.env.local`** from the example: `cp .env.local.example .env.local` and paste keys
-4. **Run the migration** — paste `supabase-migration.sql` content into Supabase SQL Editor and run
-5. **Enable pg_cron** — Supabase Dashboard → Database → Extensions → enable pg_cron, then run:
+4. **Run the migration**, paste `supabase-migration.sql` content into Supabase SQL Editor and run
+5. **Enable pg_cron**, Supabase Dashboard → Database → Extensions → enable pg_cron, then run:
    ```sql
    SELECT cron.schedule('promote-scheduled-posts', '0 * * * *', $$SELECT promote_scheduled_posts()$$);
    ```
 6. **Run the seed script**: `npx tsx scripts/seed-posts.ts`
-7. **Add env vars to Vercel** — Project Settings → Environment Variables → add all 3 keys
-8. **Push and redeploy** — `git push` triggers Vercel rebuild
+7. **Add env vars to Vercel**, Project Settings → Environment Variables → add all 3 keys
+8. **Push and redeploy**, `git push` triggers Vercel rebuild
 
 ---
 

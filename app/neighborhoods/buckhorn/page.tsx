@@ -45,7 +45,7 @@ export default function BuckhornPage() {
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
           <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Buckhorn Homes for Sale, Valrico FL 33596</h1>
-          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>The Buckhorn / Boyette corridor is one of Valrico&apos;s fastest-growing real estate areas. A mix of established and newer construction with Newsome HS zoning. Prices from $350K&ndash;$500K. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
+          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>The Buckhorn / Boyette corridor is one of Valrico&apos;s fastest-growing real estate areas. A mix of established and newer construction with Newsome HS zoning. Prices from $350K to $500K. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Buckhorn listings</Link>
             <Link href="/valrico-fl-home-values/" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">What&apos;s my home worth?</Link>
@@ -85,7 +85,7 @@ export default function BuckhornPage() {
       <div style={{ background: 'var(--cream)' }}>
         <div className="max-w-[1140px] mx-auto px-7 py-12 grid grid-cols-2 md:grid-cols-4 gap-5">
           {[
-            ['$350K\u2013$500K', 'Price range'],
+            ['$350K to $500K', 'Price range'],
             ['33596', 'ZIP code'],
             ['Newsome HS', 'High school zone'],
             ['Growing', 'Boyette corridor'],
@@ -128,12 +128,12 @@ export default function BuckhornPage() {
             <h2 className="font-serif text-2xl mb-4 mt-10">Location and Commute</h2>
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>The Buckhorn corridor sits in south Valrico along Boyette Road with access to multiple commute routes. Key commute times:</p>
             <ul className="text-[15px] leading-[1.8] mb-6 space-y-2 pl-5 list-disc" style={{ color: 'var(--ink-soft)' }}>
-              <li><strong>I-75 (SR-60 interchange):</strong> ~6 miles / 12&ndash;16 minutes</li>
-              <li><strong>Downtown Tampa:</strong> ~21 miles / 28&ndash;40 minutes via I-75</li>
-              <li><strong>MacDill Air Force Base:</strong> ~25 miles / 35&ndash;45 minutes</li>
-              <li><strong>Brandon Town Center:</strong> ~6 miles / 12&ndash;15 minutes</li>
-              <li><strong>Lakeland:</strong> ~27 miles / 28&ndash;35 minutes via I-4</li>
-              <li><strong>Tampa International Airport:</strong> ~28 miles / 35&ndash;45 minutes</li>
+              <li><strong>I-75 (SR-60 interchange):</strong> ~6 miles / 12 to 16 minutes</li>
+              <li><strong>Downtown Tampa:</strong> ~21 miles / 28 to 40 minutes via I-75</li>
+              <li><strong>MacDill Air Force Base:</strong> ~25 miles / 35 to 45 minutes</li>
+              <li><strong>Brandon Town Center:</strong> ~6 miles / 12 to 15 minutes</li>
+              <li><strong>Lakeland:</strong> ~27 miles / 28 to 35 minutes via I-4</li>
+              <li><strong>Tampa International Airport:</strong> ~28 miles / 35 to 45 minutes</li>
             </ul>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Publix, Winn-Dixie, and restaurants are accessible along Lithia Pinecrest Road and Bloomingdale Avenue. Boyette Road connects south to Riverview&apos;s Big Bend Road commercial corridor, providing an alternative shopping route. Alafia River State Park and Lithia Springs are within a 10 to 15 minute drive south for outdoor recreation.</p>
 
@@ -156,10 +156,10 @@ export default function BuckhornPage() {
                 </thead>
                 <tbody>
                   {[
-                    ['Buckhorn', '$350K\u2013$500K', 'Newsome HS', 'Affordable Newsome zone, no CDD in many sections'],
-                    ['Bloomingdale', '$300K\u2013$500K', 'Bloomingdale HS', '5,200+ homes, established, mixed HOA'],
-                    ['Arista', '$425K\u2013$575K', 'Newsome HS', 'Gated, newer construction, premium'],
-                    ['Buckhorn Bloomingdale', '$300K\u2013$420K', 'Bloomingdale HS', 'Most affordable, small community'],
+                    ['Buckhorn', '$350K to $500K', 'Newsome HS', 'Affordable Newsome zone, no CDD in many sections'],
+                    ['Bloomingdale', '$300K to $500K', 'Bloomingdale HS', '5,200+ homes, established, mixed HOA'],
+                    ['Arista', '$425K to $575K', 'Newsome HS', 'Gated, newer construction, premium'],
+                    ['Buckhorn Bloomingdale', '$300K to $420K', 'Bloomingdale HS', 'Most affordable, small community'],
                   ].map(([name, price, school, diff], i) => (
                     <tr key={name} style={{ borderBottom: '1px solid var(--border)' }}>
                       <td className="py-3 pr-4">

@@ -57,11 +57,11 @@ export default function WaterfrontHomes() {
             <p className="text-[15px] leading-[1.8] mb-4" style={{color:'var(--ink-soft)'}}>Many Valrico subdivisions were designed with retention ponds and small lakes as part of the stormwater management system. These ponds create water-view lots that are more affordable than lakefront properties. The premium for a pond-front lot versus an interior lot is typically $15,000 to $40,000 depending on the neighborhood and the size of the water feature.</p>
             <div className="space-y-4 mb-6">
               {[
-                ['Bloomingdale','Multiple retention ponds throughout the subdivision. Pond-front lots in Bloomingdale Oaks, Bloomingdale Ridge, and Bloomingdale East offer water views with Bloomingdale HS zoning. Expect a $20K–$35K premium over comparable interior lots.'],
-                ['Buckhorn Preserve','Several large ponds with conservation buffers. Some of the most scenic water views in Valrico. Newer construction (2005+) with modern floor plans. Pond lots run $400K–$550K.'],
-                ['Arista at FishHawk (border area)','Newer community with designed lake features. Water-view lots with fountains and walking trails along the water. $425K–$600K range.'],
-                ['River Hills','The most exclusive waterfront in Valrico. Large lots (0.5–2+ acres) on the Alafia River and private lakes. Custom homes $600K–$1.5M+. Gated community with golf course.'],
-                ['Diamond Hill','Acreage lots with pond frontage. Rural waterfront feel with 1-5 acre lots. Custom homes from $500K–$900K+. Some properties have private ponds.'],
+                ['Bloomingdale','Multiple retention ponds throughout the subdivision. Pond-front lots in Bloomingdale Oaks, Bloomingdale Ridge, and Bloomingdale East offer water views with Bloomingdale HS zoning. Expect a $20K, $35K premium over comparable interior lots.'],
+                ['Buckhorn Preserve','Several large ponds with conservation buffers. Some of the most scenic water views in Valrico. Newer construction (2005+) with modern floor plans. Pond lots run $400K, $550K.'],
+                ['Arista at FishHawk (border area)','Newer community with designed lake features. Water-view lots with fountains and walking trails along the water. $425K, $600K range.'],
+                ['River Hills','The most exclusive waterfront in Valrico. Large lots (0.5 to 2+ acres) on the Alafia River and private lakes. Custom homes $600K, $1.5M+. Gated community with golf course.'],
+                ['Diamond Hill','Acreage lots with pond frontage. Rural waterfront feel with 1-5 acre lots. Custom homes from $500K, $900K+. Some properties have private ponds.'],
                 ['Twin Lakes','Named for the two lakes in the community. Lakefront lots command premiums but entry-level lake-view homes start around $375K. Mature neighborhood with established landscaping.'],
               ].map(([hood,desc])=>(
                 <div key={hood} className="border rounded-md p-5" style={{borderColor:'var(--border)'}}>
@@ -80,9 +80,9 @@ export default function WaterfrontHomes() {
             <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>Water-view properties in Valrico consistently sell for more than interior lots in the same neighborhood. The premium depends on the type of water feature:</p>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6">
               {[
-                ['Small retention pond','$10K–$20K premium'],
-                ['Large pond / small lake','$20K–$40K premium'],
-                ['Direct lakefront','$50K–$150K+ premium'],
+                ['Small retention pond','$10K, $20K premium'],
+                ['Large pond / small lake','$20K, $40K premium'],
+                ['Direct lakefront','$50K, $150K+ premium'],
               ].map(([type,premium])=>(
                 <div key={type} className="p-4 rounded-md border text-center" style={{borderColor:'var(--border)',background:'var(--cream-warm)'}}>
                   <div className="font-semibold text-sm">{type}</div>

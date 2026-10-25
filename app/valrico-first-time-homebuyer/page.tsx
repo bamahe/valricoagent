@@ -73,13 +73,13 @@ export default function FirstTimeHomeBuyer() {
             <div className="space-y-6 mb-10">
               {/* $250K-$350K */}
               <div className="border rounded-md p-6" style={{borderColor:'var(--border)'}}>
-                <h3 className="font-semibold text-lg mb-2" style={{color:'var(--ink)'}}>$250K – $350K: Entry-Level Valrico</h3>
+                <h3 className="font-semibold text-lg mb-2" style={{color:'var(--ink)'}}>$250K, $350K: Entry-Level Valrico</h3>
                 <p className="text-[15px] leading-[1.8]" style={{color:'var(--ink-soft)'}}>At this price point you&apos;re looking at 3-bedroom, 2-bath homes built in the 1980s and 1990s. Smaller lots, older roofs, and likely no pool. <strong>Neighborhoods:</strong> <Link href="/neighborhoods/valri-park/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Valri Park</Link>, sections of <Link href="/neighborhoods/bloomingdale/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Bloomingdale</Link> (older phases), parts of <Link href="/neighborhoods/lake-valrico/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Lake Valrico</Link>, and some of the <Link href="/valrico-no-hoa-homes/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>no-HOA pockets</Link> off Lithia Pinecrest. These homes need updates but they get you into Valrico&apos;s <Link href="/valrico-school-zones/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>school zones</Link> and location. Good starter homes if you&apos;re handy or willing to live with cosmetic issues for a few years. Not handy? <a href="https://bestvalricohandyman.com" target="_blank" rel="noopener" style={{color:'var(--accent)',fontWeight:600,textDecoration:'none'}}>Best Valrico Handyman</a> handles move-in repairs, painting, and updates at fair prices.</p>
               </div>
 
               {/* $350K-$450K */}
               <div className="border rounded-md p-6" style={{borderColor:'var(--border)'}}>
-                <h3 className="font-semibold text-lg mb-2" style={{color:'var(--ink)'}}>$350K – $450K: The Sweet Spot</h3>
+                <h3 className="font-semibold text-lg mb-2" style={{color:'var(--ink)'}}>$350K, $450K: The Sweet Spot</h3>
                 <p className="text-[15px] leading-[1.8]" style={{color:'var(--ink-soft)'}}>This is where most first-time buyers in Valrico land. You get 4 bedrooms, 2 baths, updated kitchens, and sometimes a <Link href="/valrico-pool-homes/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>pool</Link>. <strong>Neighborhoods:</strong> <Link href="/neighborhoods/bloomingdale/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Bloomingdale</Link> (newer sections), <Link href="/neighborhoods/bloomingdale-oaks/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Bloomingdale Oaks</Link>, <Link href="/neighborhoods/twin-lakes/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Twin Lakes</Link>, <Link href="/neighborhoods/buckhorn-preserve/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Buckhorn Preserve</Link>, and parts of <Link href="/neighborhoods/buckhorn/" className="font-semibold no-underline" style={{color:'var(--accent)'}}>Buckhorn/Boyette corridor</Link>. Many of these are in the Newsome HS zone, which adds value. Expect HOA fees of $50-$150/month in most of these communities.</p>
               </div>
 
@@ -233,9 +233,9 @@ export default function FirstTimeHomeBuyer() {
               <div className="space-y-3">
                 {[
                   ['Median Home Price','~$415K'],
-                  ['Entry-Level Range','$250K–$350K'],
-                  ['Sweet Spot Range','$350K–$450K'],
-                  ['Days on Market','30–55'],
+                  ['Entry-Level Range','$250K, $350K'],
+                  ['Sweet Spot Range','$350K, $450K'],
+                  ['Days on Market','30 to 55'],
                   ['FHA Min Down (3.5%)','$14,000 on $400K'],
                   ['Hometown Heroes (5%)','Up to $20K on $400K'],
                 ].map(([label, val]) => (

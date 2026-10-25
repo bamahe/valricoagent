@@ -44,7 +44,7 @@ export default function WellingtonPage() {
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
           <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Wellington Homes for Sale, Valrico FL 33596</h1>
-          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Wellington is an established neighborhood with generous lots in south Valrico (33596). Prices from $375K&ndash;$475K. Bloomingdale High School zone. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
+          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Wellington is an established neighborhood with generous lots in south Valrico (33596). Prices from $375K to $475K. Bloomingdale High School zone. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Wellington listings</Link>
             <Link href="/valrico-fl-home-values/" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">What&apos;s my home worth?</Link>
@@ -69,7 +69,7 @@ export default function WellingtonPage() {
       <div style={{ background: 'var(--cream)' }}>
         <div className="max-w-[1140px] mx-auto px-7 py-12 grid grid-cols-2 md:grid-cols-4 gap-5">
           {[
-            ['$375K\u2013$475K', 'Price range'],
+            ['$375K to $475K', 'Price range'],
             ['33596', 'ZIP code'],
             ['Bloomingdale HS', 'High school zone'],
             ['Established', 'Community type'],
@@ -102,11 +102,11 @@ export default function WellingtonPage() {
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Wellington sits in south Valrico with convenient access to Bloomingdale Avenue and the I-75 corridor. Key commute estimates:</p>
             <ul className="text-[15px] leading-[1.8] mb-6 space-y-2 pl-5 list-disc" style={{ color: 'var(--ink-soft)' }}>
               <li><strong>I-75 (Bloomingdale Ave interchange):</strong> ~5 miles / 12 minutes</li>
-              <li><strong>Downtown Tampa:</strong> ~20 miles / 25&ndash;35 minutes via I-75</li>
-              <li><strong>MacDill Air Force Base:</strong> ~23 miles / 30&ndash;40 minutes</li>
+              <li><strong>Downtown Tampa:</strong> ~20 miles / 25 to 35 minutes via I-75</li>
+              <li><strong>MacDill Air Force Base:</strong> ~23 miles / 30 to 40 minutes</li>
               <li><strong>Brandon Town Center:</strong> ~5 miles / 10 minutes</li>
-              <li><strong>Lakeland:</strong> ~28 miles / 30&ndash;35 minutes via I-4</li>
-              <li><strong>Tampa International Airport:</strong> ~27 miles / 30&ndash;40 minutes</li>
+              <li><strong>Lakeland:</strong> ~28 miles / 30 to 35 minutes via I-4</li>
+              <li><strong>Tampa International Airport:</strong> ~27 miles / 30 to 40 minutes</li>
             </ul>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Bloomingdale Avenue handles the daily essentials with Publix, Walmart, restaurants, medical offices, and banks all within a few minutes. The Bloomingdale Golfers Club nearby provides golf access, and parks along the corridor offer playgrounds and walking paths.</p>
 
@@ -129,10 +129,10 @@ export default function WellingtonPage() {
                 </thead>
                 <tbody>
                   {[
-                    ['Wellington', '$375K\u2013$475K', 'Larger', 'Established lots, mature trees, no CDD'],
-                    ['Twin Lakes', '$375K\u2013$475K', 'Standard', 'Mixed era, wider condition range'],
-                    ['Shetland Ridge', '$400K\u2013$550K', 'Generous', 'Higher ceiling, more updated homes'],
-                    ['Bloomingdale', '$450K\u2013$650K+', 'Varies', 'Premium tier, master-planned amenities'],
+                    ['Wellington', '$375K to $475K', 'Larger', 'Established lots, mature trees, no CDD'],
+                    ['Twin Lakes', '$375K to $475K', 'Standard', 'Mixed era, wider condition range'],
+                    ['Shetland Ridge', '$400K to $550K', 'Generous', 'Higher ceiling, more updated homes'],
+                    ['Bloomingdale', '$450K to $650K+', 'Varies', 'Premium tier, master-planned amenities'],
                   ].map(([name, price, lots, diff], i) => (
                     <tr key={name} style={{ borderBottom: '1px solid var(--border)' }}>
                       <td className="py-3 pr-4">

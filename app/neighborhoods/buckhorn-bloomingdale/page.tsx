@@ -45,7 +45,7 @@ export default function BuckhornBloomingdalePage() {
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
           <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Buckhorn Bloomingdale Homes for Sale, Valrico FL 33596</h1>
-          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Buckhorn Bloomingdale is a small community of ~60 homes between the Buckhorn and Bloomingdale corridors in south Valrico (33596). One of the most affordable options in the Bloomingdale HS zone. Prices from $300K&ndash;$420K. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
+          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Buckhorn Bloomingdale is a small community of ~60 homes between the Buckhorn and Bloomingdale corridors in south Valrico (33596). One of the most affordable options in the Bloomingdale HS zone. Prices from $300K to $420K. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Buckhorn Bloomingdale listings</Link>
             <Link href="/valrico-fl-home-values/" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">What&apos;s my home worth?</Link>
@@ -73,7 +73,7 @@ export default function BuckhornBloomingdalePage() {
       <div style={{ background: 'var(--cream)' }}>
         <div className="max-w-[1140px] mx-auto px-7 py-12 grid grid-cols-2 md:grid-cols-4 gap-5">
           {[
-            ['$300K\u2013$420K', 'Price range'],
+            ['$300K to $420K', 'Price range'],
             ['33596', 'ZIP code'],
             ['Bloomingdale HS', 'High school zone'],
             ['~60 homes', 'Small community'],
@@ -107,12 +107,12 @@ export default function BuckhornBloomingdalePage() {
             <h2 className="font-serif text-2xl mb-4 mt-10">Location and Commute</h2>
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Buckhorn Bloomingdale sits between two major corridors, giving residents access to amenities in both directions. Key commute times:</p>
             <ul className="text-[15px] leading-[1.8] mb-6 space-y-2 pl-5 list-disc" style={{ color: 'var(--ink-soft)' }}>
-              <li><strong>I-75 (SR-60 interchange):</strong> ~6 miles / 12&ndash;16 minutes</li>
-              <li><strong>Downtown Tampa:</strong> ~21 miles / 28&ndash;40 minutes via I-75</li>
-              <li><strong>MacDill Air Force Base:</strong> ~25 miles / 35&ndash;45 minutes</li>
-              <li><strong>Brandon Town Center:</strong> ~6 miles / 12&ndash;15 minutes</li>
-              <li><strong>Lakeland:</strong> ~27 miles / 28&ndash;35 minutes via I-4</li>
-              <li><strong>Tampa International Airport:</strong> ~28 miles / 35&ndash;45 minutes</li>
+              <li><strong>I-75 (SR-60 interchange):</strong> ~6 miles / 12 to 16 minutes</li>
+              <li><strong>Downtown Tampa:</strong> ~21 miles / 28 to 40 minutes via I-75</li>
+              <li><strong>MacDill Air Force Base:</strong> ~25 miles / 35 to 45 minutes</li>
+              <li><strong>Brandon Town Center:</strong> ~6 miles / 12 to 15 minutes</li>
+              <li><strong>Lakeland:</strong> ~27 miles / 28 to 35 minutes via I-4</li>
+              <li><strong>Tampa International Airport:</strong> ~28 miles / 35 to 45 minutes</li>
             </ul>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Shopping and dining options are accessible along both Bloomingdale Avenue (west) and Lithia Pinecrest/Boyette Road (south). Publix, Winn-Dixie, restaurants, banks, and medical offices are all within a few minutes. Alafia River State Park and Lithia Springs Park provide outdoor recreation within a 15-minute drive.</p>
 
@@ -135,10 +135,10 @@ export default function BuckhornBloomingdalePage() {
                 </thead>
                 <tbody>
                   {[
-                    ['Buckhorn Bloomingdale', '$300K\u2013$420K', '~60 homes', 'Most affordable, intimate community'],
-                    ['Bloomingdale Oaks', '$350K\u2013$475K', 'Medium', 'Sidewalks, stronger name recognition'],
-                    ['Bloomingdale', '$300K\u2013$500K', '5,200+ homes', 'Widest selection, mixed HOA'],
-                    ['Brentwood Hills', '$340K\u2013$475K', 'Medium', 'Community pool, sidewalks'],
+                    ['Buckhorn Bloomingdale', '$300K to $420K', '~60 homes', 'Most affordable, intimate community'],
+                    ['Bloomingdale Oaks', '$350K to $475K', 'Medium', 'Sidewalks, stronger name recognition'],
+                    ['Bloomingdale', '$300K to $500K', '5,200+ homes', 'Widest selection, mixed HOA'],
+                    ['Brentwood Hills', '$340K to $475K', 'Medium', 'Community pool, sidewalks'],
                   ].map(([name, price, size, diff], i) => (
                     <tr key={name} style={{ borderBottom: '1px solid var(--border)' }}>
                       <td className="py-3 pr-4">

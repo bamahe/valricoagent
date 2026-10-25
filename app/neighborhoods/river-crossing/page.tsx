@@ -46,7 +46,7 @@ export default function RiverCrossingPage() {
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
           <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">River Crossing Homes for Sale, Valrico FL 33596</h1>
-          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>River Crossing is a waterfront community near the Alafia River in Valrico (33596). Conservation views, Newsome HS zone, prices from $375K&ndash;$550K. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
+          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>River Crossing is a waterfront community near the Alafia River in Valrico (33596). Conservation views, Newsome HS zone, prices from $375K to $550K. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search River Crossing listings</Link>
             <Link href="/valrico-fl-home-values/" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">What&apos;s my home worth?</Link>
@@ -71,7 +71,7 @@ export default function RiverCrossingPage() {
       <div style={{ background: 'var(--cream)' }}>
         <div className="max-w-[1140px] mx-auto px-7 py-12 grid grid-cols-2 md:grid-cols-4 gap-5">
           {[
-            ['$375K\u2013$550K', 'Price range'],
+            ['$375K to $550K', 'Price range'],
             ['33596', 'ZIP code'],
             ['Newsome HS', 'High school zone'],
             ['Waterfront', 'Community type'],
@@ -101,9 +101,9 @@ export default function RiverCrossingPage() {
             {/* --- Location & Commute --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Location and Commute</h2>
             <ul className="text-[15px] leading-[1.8] mb-6 space-y-2 pl-5 list-disc" style={{ color: 'var(--ink-soft)' }}>
-              <li><strong>I-75 (SR-60 interchange):</strong> ~6 miles / 12&ndash;15 minutes</li>
-              <li><strong>Downtown Tampa:</strong> ~22 miles / 30&ndash;40 minutes via I-75</li>
-              <li><strong>MacDill Air Force Base:</strong> ~25 miles / 35&ndash;45 minutes</li>
+              <li><strong>I-75 (SR-60 interchange):</strong> ~6 miles / 12 to 15 minutes</li>
+              <li><strong>Downtown Tampa:</strong> ~22 miles / 30 to 40 minutes via I-75</li>
+              <li><strong>MacDill Air Force Base:</strong> ~25 miles / 35 to 45 minutes</li>
               <li><strong>Brandon Town Center:</strong> ~8 miles / 15 minutes</li>
               <li><strong>Lakeland:</strong> ~25 miles / 30 minutes via I-4</li>
             </ul>
@@ -122,11 +122,11 @@ export default function RiverCrossingPage() {
                 </thead>
                 <tbody>
                   {[
-                    ['River Crossing', '$375K\u2013$550K', 'No', 'Alafia River corridor, conservation views'],
-                    ['River Hills', '$500K\u2013$1M+', 'Yes', 'Gated luxury golf, country club amenities'],
-                    ['Savannah Landings', '$350K\u2013$500K', 'No', 'Newer homes, community amenities'],
-                    ['Buckhorn', '$350K\u2013$500K', 'No', 'Boyette corridor, larger community'],
-                    ['Crestwood Estates', '$600K\u2013$1M+', 'No', 'Estate lots, custom luxury builds'],
+                    ['River Crossing', '$375K to $550K', 'No', 'Alafia River corridor, conservation views'],
+                    ['River Hills', '$500K to $1M+', 'Yes', 'Gated luxury golf, country club amenities'],
+                    ['Savannah Landings', '$350K to $500K', 'No', 'Newer homes, community amenities'],
+                    ['Buckhorn', '$350K to $500K', 'No', 'Boyette corridor, larger community'],
+                    ['Crestwood Estates', '$600K to $1M+', 'No', 'Estate lots, custom luxury builds'],
                   ].map(([name, price, gated, diff], i) => (
                     <tr key={name} style={{ borderBottom: '1px solid var(--border)' }}>
                       <td className="py-3 pr-4">

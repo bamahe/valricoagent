@@ -49,10 +49,10 @@ export default function InvestmentProperty() {
             <h2 className="font-serif text-2xl mb-4 mt-10">Average rents by bedroom count</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
               {[
-                ['2 BR / 2 BA','$1,600–$1,900/mo'],
-                ['3 BR / 2 BA','$1,900–$2,300/mo'],
-                ['4 BR / 2 BA','$2,200–$2,700/mo'],
-                ['4 BR / 3 BA','$2,500–$3,100/mo'],
+                ['2 BR / 2 BA','$1,600, $1,900/mo'],
+                ['3 BR / 2 BA','$1,900, $2,300/mo'],
+                ['4 BR / 2 BA','$2,200, $2,700/mo'],
+                ['4 BR / 3 BA','$2,500, $3,100/mo'],
               ].map(([beds,rent])=>(
                 <div key={beds} className="p-4 rounded-md border text-center" style={{borderColor:'var(--border)',background:'var(--cream-warm)'}}>
                   <div className="font-semibold text-sm">{beds}</div>
@@ -70,10 +70,10 @@ export default function InvestmentProperty() {
             <h2 className="font-serif text-2xl mb-4 mt-10">Best neighborhoods for rental investors</h2>
             <div className="space-y-4 mb-6">
               {[
-                ['Kings Mill Townhomes','Entry point around $220K–$275K. 2-3 BR townhomes with HOA-maintained exteriors. Strong rental demand, low maintenance. Rents $1,600–$1,900/mo. One of the best cash-flow plays in Valrico.'],
-                ['Savannah Landings','Newer construction (2015+), 3-4 BR single-family homes in the $320K–$400K range. Modern finishes attract quality tenants. Rents $2,000–$2,400/mo. Appreciation upside is strong.'],
-                ['Valri Park','Affordable single-family entry at $275K–$350K. Established neighborhood with mature trees. Rents $1,800–$2,200/mo. Solid for buy-and-hold investors who want steady income.'],
-                ['Bloomingdale area','Higher entry ($375K–$500K) but premium rents ($2,300–$2,800/mo) because of the school zone. Lower cap rate, stronger appreciation. Best for investors with a longer time horizon.'],
+                ['Kings Mill Townhomes','Entry point around $220K, $275K. 2-3 BR townhomes with HOA-maintained exteriors. Strong rental demand, low maintenance. Rents $1,600, $1,900/mo. One of the best cash-flow plays in Valrico.'],
+                ['Savannah Landings','Newer construction (2015+), 3-4 BR single-family homes in the $320K, $400K range. Modern finishes attract quality tenants. Rents $2,000, $2,400/mo. Appreciation upside is strong.'],
+                ['Valri Park','Affordable single-family entry at $275K, $350K. Established neighborhood with mature trees. Rents $1,800, $2,200/mo. Solid for buy-and-hold investors who want steady income.'],
+                ['Bloomingdale area','Higher entry ($375K, $500K) but premium rents ($2,300, $2,800/mo) because of the school zone. Lower cap rate, stronger appreciation. Best for investors with a longer time horizon.'],
               ].map(([hood,desc])=>(
                 <div key={hood} className="border rounded-md p-5" style={{borderColor:'var(--border)'}}>
                   <h3 className="font-semibold text-base mb-2">{hood}</h3>

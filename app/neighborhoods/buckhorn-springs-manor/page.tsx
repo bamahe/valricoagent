@@ -30,12 +30,12 @@ export default function BuckhornSpringsManorPage() {
   const faqs = [
     { q: 'How much do homes cost in Buckhorn Springs Manor Valrico?', a: 'Homes in Buckhorn Springs Manor typically sell between $350,000 and $550,000. Most homes range from 1,500 to 3,500+ square feet with 3 to 5 bedrooms on generous lots near the Buckhorn Springs Golf Club. Contact Barrett Henry at (813) 733-7907 for current pricing.' },
     { q: 'What school zone is Buckhorn Springs Manor in?', a: 'Buckhorn Springs Manor is zoned for Mintz Elementary, Mulrennan Middle School, and Newsome High School in the Hillsborough County School District. Newsome High is one of the highest-rated public high schools in the Tampa Bay area. Barrett Henry can verify the exact school assignment for any address.' },
-    { q: 'Does Buckhorn Springs Manor have an HOA?', a: 'Yes. Buckhorn Springs Manor has an HOA that maintains community standards and common areas. Monthly HOA fees are generally modest compared to newer communities, typically in the $50\u2013$150 per month range. Call Barrett Henry at (813) 733-7907 for current HOA fee details on any specific property.' },
+    { q: 'Does Buckhorn Springs Manor have an HOA?', a: 'Yes. Buckhorn Springs Manor has an HOA that maintains community standards and common areas. Monthly HOA fees are generally modest compared to newer communities, typically in the $50 to $150 per month range. Call Barrett Henry at (813) 733-7907 for current HOA fee details on any specific property.' },
     { q: 'Is Buckhorn Springs Manor a good neighborhood in Valrico?', a: 'Buckhorn Springs Manor is one of the premium established subdivisions in the Buckhorn corridor. The combination of larger lots, mature landscaping, proximity to the Buckhorn Springs Golf Club, and the Newsome High School zone makes it a standout for families who prefer character over cookie-cutter construction.' },
     { q: 'How far is Buckhorn Springs Manor from I-75?', a: 'Buckhorn Springs Manor is approximately 5 miles from the I-75 interchange at SR-60 (Brandon Blvd), about a 12-minute drive. From I-75, downtown Tampa is roughly 25 minutes and Lakeland is about 30 minutes via I-4.' },
     { q: 'Is Buckhorn Springs Manor near the golf course?', a: 'Yes. Buckhorn Springs Manor sits adjacent to the Buckhorn Springs Golf and Country Club. However, golf club membership is separate from the subdivision. Some homes back to the course with fairway views, which commands a premium. Barrett Henry can identify which lots have golf course frontage.' },
     { q: 'What year were Buckhorn Springs Manor homes built?', a: 'Most homes in Buckhorn Springs Manor were built in the late 1990s through mid-2000s. The established construction means mature oak trees, settled landscaping, and larger lot sizes that are hard to find in newer Valrico developments. Many homes have been updated with modern kitchens and renovated bathrooms.' },
-    { q: 'How does Buckhorn Springs Manor compare to nearby neighborhoods?', a: 'Buckhorn Springs Manor ($350K\u2013$550K) offers larger lots near the golf club in the Newsome HS zone. Buckhorn Preserve ($350K\u2013$500K) has newer construction with community park amenities. Crestwood Estates ($500K\u2013$900K) is the premium estate option with even larger lots. Duncan Groves ($350K\u2013$450K) provides a more affordable entry into south Valrico.' },
+    { q: 'How does Buckhorn Springs Manor compare to nearby neighborhoods?', a: 'Buckhorn Springs Manor ($350K to $550K) offers larger lots near the golf club in the Newsome HS zone. Buckhorn Preserve ($350K to $500K) has newer construction with community park amenities. Crestwood Estates ($500K to $900K) is the premium estate option with even larger lots. Duncan Groves ($350K to $450K) provides a more affordable entry into south Valrico.' },
   ];
 
   return (
@@ -45,7 +45,7 @@ export default function BuckhornSpringsManorPage() {
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
           <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Buckhorn Springs Manor Homes for Sale, Valrico FL 33596</h1>
-          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Buckhorn Springs Manor is an established subdivision of larger homes near Buckhorn Springs Golf Club in south Valrico (33596). Prices from $350K&ndash;$550K. Newsome High School zone. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
+          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Buckhorn Springs Manor is an established subdivision of larger homes near Buckhorn Springs Golf Club in south Valrico (33596). Prices from $350K to $550K. Newsome High School zone. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Buckhorn Springs Manor listings</Link>
             <Link href="/valrico-fl-home-values/" className="inline-block py-3 px-7 border-2 border-white text-white font-semibold text-[15px] rounded no-underline hover:bg-white/20">What&apos;s my home worth?</Link>
@@ -73,7 +73,7 @@ export default function BuckhornSpringsManorPage() {
       <div style={{ background: 'var(--cream)' }}>
         <div className="max-w-[1140px] mx-auto px-7 py-12 grid grid-cols-2 md:grid-cols-4 gap-5">
           {[
-            ['$350K\u2013$550K', 'Price range'],
+            ['$350K to $550K', 'Price range'],
             ['33596', 'ZIP code'],
             ['Newsome HS', 'High school zone'],
             ['Established', 'Community type'],
@@ -108,17 +108,17 @@ export default function BuckhornSpringsManorPage() {
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Buckhorn Springs Manor sits in south Valrico with access to both the Buckhorn and Bloomingdale commercial corridors. Key commute times:</p>
             <ul className="text-[15px] leading-[1.8] mb-6 space-y-2 pl-5 list-disc" style={{ color: 'var(--ink-soft)' }}>
               <li><strong>I-75 (SR-60 interchange):</strong> ~5 miles / 12 minutes</li>
-              <li><strong>Downtown Tampa:</strong> ~20 miles / 28&ndash;38 minutes via I-75</li>
-              <li><strong>MacDill Air Force Base:</strong> ~24 miles / 32&ndash;42 minutes</li>
+              <li><strong>Downtown Tampa:</strong> ~20 miles / 28 to 38 minutes via I-75</li>
+              <li><strong>MacDill Air Force Base:</strong> ~24 miles / 32 to 42 minutes</li>
               <li><strong>Brandon Town Center:</strong> ~7 miles / 14 minutes</li>
               <li><strong>Lakeland:</strong> ~27 miles / 32 minutes via I-4</li>
-              <li><strong>Tampa International Airport:</strong> ~27 miles / 32&ndash;42 minutes</li>
+              <li><strong>Tampa International Airport:</strong> ~27 miles / 32 to 42 minutes</li>
             </ul>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Daily essentials are within easy reach. Publix, Winn-Dixie, and Walmart are all within a 5-minute drive along Lithia Pinecrest Road. Restaurants, medical offices, and banks line Bloomingdale Avenue and the Buckhorn corridor, providing everything families need without a long drive.</p>
 
             {/* --- HOA --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">HOA and Community Fees</h2>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Buckhorn Springs Manor has an HOA that maintains community standards and common areas. As an established community, HOA fees are generally lower than newer developments, typically $50&ndash;$150 per month. The community does not carry CDD fees, which is a meaningful cost advantage over newer Buckhorn corridor subdivisions that may add $1,000&ndash;$2,500 per year to the tax bill. Barrett Henry can confirm the exact HOA details for any Buckhorn Springs Manor property, call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Buckhorn Springs Manor has an HOA that maintains community standards and common areas. As an established community, HOA fees are generally lower than newer developments, typically $50 to $150 per month. The community does not carry CDD fees, which is a meaningful cost advantage over newer Buckhorn corridor subdivisions that may add $1,000 to $2,500 per year to the tax bill. Barrett Henry can confirm the exact HOA details for any Buckhorn Springs Manor property, call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
 
             {/* --- Comparison --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">How Buckhorn Springs Manor Compares to Nearby Neighborhoods</h2>
@@ -135,10 +135,10 @@ export default function BuckhornSpringsManorPage() {
                 </thead>
                 <tbody>
                   {[
-                    ['Buckhorn Springs Manor', '$350K\u2013$550K', 'No', 'Larger lots, golf club proximity, mature trees'],
-                    ['Buckhorn Preserve', '$350K\u2013$500K', 'Yes', 'Newer construction, community park amenities'],
-                    ['Crestwood Estates', '$500K\u2013$900K', 'No', 'Estate-sized lots, custom builds, no CDD'],
-                    ['Duncan Groves', '$350K\u2013$450K', 'No', 'Affordable entry, Bloomingdale HS zone'],
+                    ['Buckhorn Springs Manor', '$350K to $550K', 'No', 'Larger lots, golf club proximity, mature trees'],
+                    ['Buckhorn Preserve', '$350K to $500K', 'Yes', 'Newer construction, community park amenities'],
+                    ['Crestwood Estates', '$500K to $900K', 'No', 'Estate-sized lots, custom builds, no CDD'],
+                    ['Duncan Groves', '$350K to $450K', 'No', 'Affordable entry, Bloomingdale HS zone'],
                   ].map(([name, price, gated, diff], i) => (
                     <tr key={name} style={{ borderBottom: '1px solid var(--border)' }}>
                       <td className="py-3 pr-4">

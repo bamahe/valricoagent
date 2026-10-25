@@ -181,8 +181,8 @@ export default function Home() {
               <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 14 }}>
                 {[
                   ['~$415K', 'Median Sale Price', '#003da5'],
-                  ['$210–220', 'Price Per Sq Ft', '#003da5'],
-                  ['30–55', 'Days on Market', '#003da5'],
+                  ['$210 to 220', 'Price Per Sq Ft', '#003da5'],
+                  ['30 to 55', 'Days on Market', '#003da5'],
                   ['+3.4%', 'Year-over-Year', '#16a34a'],
                 ].map(([val, label, color]) => (
                   <div key={label} style={{ padding: 20, background: '#fff', borderRadius: 12, border: '1px solid #e8e8e8', textAlign: 'center' }}>
@@ -288,11 +288,11 @@ export default function Home() {
           </div>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(340px, 1fr))', gap: 20 }}>
             {[
-              { quote: "Barrett made the entire process smooth from start to finish. He knows Valrico inside and out \u2014 every neighborhood, every school zone, every price trend. He gave us honest advice, never pushed us, and helped us find exactly the right home in Bloomingdale for our family.", author: "Sarah M.", label: "Valrico Home Buyer", year: "2025" },
+              { quote: "Barrett made the entire process smooth from start to finish. He knows Valrico inside and out ,  every neighborhood, every school zone, every price trend. He gave us honest advice, never pushed us, and helped us find exactly the right home in Bloomingdale for our family.", author: "Sarah M.", label: "Valrico Home Buyer", year: "2025" },
               { quote: "We interviewed three agents before choosing Barrett. He was the only one who showed us actual comparable sales data instead of just telling us what we wanted to hear. Our home sold in 22 days at 98% of asking price.", author: "David & Lisa R.", label: "Buckhorn Home Seller", year: "2025" },
               { quote: "As a first-time buyer, I was nervous about the whole process. Barrett walked me through every step, explained everything in plain English, and made sure I didn\u2019t overpay. Found a great home in Twin Lakes within my budget.", author: "Marcus J.", label: "First-Time Buyer", year: "2024" },
-              { quote: "We relocated from Ohio and Barrett was our guide to everything Valrico. Schools, commute times, flood zones, insurance costs \u2014 he covered it all before we even flew down for our house-hunting trip. Could not have done it without him.", author: "The Thompson Family", label: "Relocation Client", year: "2025" },
-              { quote: "Barrett told us NOT to sell when we first contacted him \u2014 said the timing wasn\u2019t right for our situation. Six months later when it made sense, he listed our home and got us top dollar. That kind of honesty is rare.", author: "Jennifer W.", label: "River Hills Seller", year: "2026" },
+              { quote: "We relocated from Ohio and Barrett was our guide to everything Valrico. Schools, commute times, flood zones, insurance costs ,  he covered it all before we even flew down for our house-hunting trip. Could not have done it without him.", author: "The Thompson Family", label: "Relocation Client", year: "2025" },
+              { quote: "Barrett told us NOT to sell when we first contacted him ,  said the timing wasn\u2019t right for our situation. Six months later when it made sense, he listed our home and got us top dollar. That kind of honesty is rare.", author: "Jennifer W.", label: "River Hills Seller", year: "2026" },
             ].map((t, i) => (
               <div key={i} className="card" style={{ padding: '28px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
                 <div>

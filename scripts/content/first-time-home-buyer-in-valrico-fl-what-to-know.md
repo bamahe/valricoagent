@@ -1,10 +1,10 @@
-## Your First Home in Valrico — The Straight Talk Version
+## Your First Home in Valrico, The Straight Talk Version
 
 Buying your first home is exciting and terrifying in equal measure. The internet is full of generic advice that sounds good but does not help you navigate the specific reality of buying in Valrico FL in 2026. Here is what actually matters, step by step.
 
 ## Step 1: Know What You Can Actually Afford
 
-Your pre-approval letter says you qualify for $450K. That does not mean you should spend $450K. Your comfortable purchase price depends on your total monthly housing cost — not just the mortgage payment.
+Your pre-approval letter says you qualify for $450K. That does not mean you should spend $450K. Your comfortable purchase price depends on your total monthly housing cost, not just the mortgage payment.
 
 **Full monthly cost breakdown on a $400K Valrico home (10% down, 6.5% rate):**
 
@@ -24,7 +24,7 @@ Most lenders will approve you for a payment up to 43% of your gross income (debt
 Best rates and lowest long-term cost. Requires 5% minimum down ($20K on a $400K home). PMI required until you reach 20% equity, but PMI drops off automatically. This is the go-to for buyers with good credit (720+) and savings.
 
 ### FHA (3.5% down)
-Lower down payment ($14K on a $400K home) and more flexible credit requirements (580+ score). The catch: FHA mortgage insurance (MIP) lasts the life of the loan unless you refinance to conventional later. FHA also has loan limits — check the current Hillsborough County limit.
+Lower down payment ($14K on a $400K home) and more flexible credit requirements (580+ score). The catch: FHA mortgage insurance (MIP) lasts the life of the loan unless you refinance to conventional later. FHA also has loan limits, check the current Hillsborough County limit.
 
 ### VA (0% down)
 If you are a veteran, active duty, or qualifying military spouse, VA loans are the strongest first-time buyer tool available. Zero down payment, no PMI, competitive rates. MacDill AFB drives significant VA loan activity in the Valrico area.
@@ -33,7 +33,7 @@ If you are a veteran, active duty, or qualifying military spouse, VA loans are t
 
 Hillsborough County offers several programs for first-time buyers:
 
-- **SHIP (State Housing Initiatives Partnership):** Up to $50,000 in down payment and closing cost assistance for qualifying buyers. Income limits apply. This is a deferred second mortgage — no payments as long as you live in the home.
+- **SHIP (State Housing Initiatives Partnership):** Up to $50,000 in down payment and closing cost assistance for qualifying buyers. Income limits apply. This is a deferred second mortgage, no payments as long as you live in the home.
 - **Bond programs:** Below-market interest rates through the Florida Housing Finance Corporation for qualifying first-time buyers.
 - **Employer assistance:** Some employers offer housing assistance benefits. Ask your HR department.
 
@@ -71,7 +71,7 @@ In Valrico's current market, first-time buyers have more leverage than they have
 
 - **Offer 2 to 4% below asking** on homes that have been on the market 30+ days
 - **Request seller-paid closing costs** (1 to 3% of purchase price) to preserve your cash
-- **Ask for a rate buydown** — the seller contributes money to reduce your mortgage rate for the first 1 to 2 years
+- **Ask for a rate buydown**, the seller contributes money to reduce your mortgage rate for the first 1 to 2 years
 - **Never waive the inspection contingency.** This is your opportunity to discover problems before you own them.
 - **Request a home warranty** ($400 to $600, seller-paid) for peace of mind on appliances and systems during your first year.
 
@@ -103,7 +103,7 @@ Some newer Buckhorn properties carry CDD assessments that add $125 to $300/month
 Most of Valrico is Zone X (minimal risk), but pockets near the Alafia River are Zone AE (flood insurance required). An unexpected $2,500/year flood insurance requirement can break your budget.
 
 ### Falling in Love Before Running the Numbers
-Tour the home, love it, then run the numbers. Not the other way around. Calculate the full monthly cost — mortgage, taxes, insurance, HOA, CDD, maintenance — before you make an offer. Emotional purchases lead to financial stress.
+Tour the home, love it, then run the numbers. Not the other way around. Calculate the full monthly cost, mortgage, taxes, insurance, HOA, CDD, maintenance, before you make an offer. Emotional purchases lead to financial stress.
 
 ### Not Shopping Lenders
 Get quotes from at least 3 lenders. A quarter-point rate difference on a $400K mortgage is $67/month or $24,120 over the life of the loan. Fifteen minutes of comparison shopping can save you real money.
@@ -112,6 +112,6 @@ Get quotes from at least 3 lenders. A quarter-point rate difference on a $400K m
 
 I walk first-time buyers through the entire process from lender selection to key handoff. No question is too basic. I explain every document, every deadline, and every decision point in plain English.
 
-I also connect you with 2 to 3 lenders who handle FHA, VA, conventional, and down payment assistance programs so you can compare options. And I verify CDD status, flood zone designation, and school zoning on every property before we tour it — so there are no surprises.
+I also connect you with 2 to 3 lenders who handle FHA, VA, conventional, and down payment assistance programs so you can compare options. And I verify CDD status, flood zone designation, and school zoning on every property before we tour it, so there are no surprises.
 
 Ready to start your Valrico home search? Tell me your budget, your must-haves, and your timeline. I will set up your search and walk you through the process from start to finish.

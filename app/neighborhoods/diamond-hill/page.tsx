@@ -35,7 +35,7 @@ export default function DiamondHillPage() {
     { q: 'How far is Diamond Hill from I-75?', a: 'Diamond Hill is approximately 4 miles from the I-75 interchange at SR-60 (Brandon Blvd), about an 8 to 10-minute drive. From I-75, downtown Tampa is roughly 25 minutes and Lakeland is about 30 minutes via I-4.' },
     { q: 'Does Diamond Hill have a golf course?', a: 'Yes. Diamond Hill Golf Club is a Chic Adams-designed par-72 course stretching 6,920 yards. The course serves as the visual and recreational centerpiece of the community. Golf club membership is separate from HOA dues. Many homes back directly to the course with panoramic fairway and conservation views.' },
     { q: 'What amenities does Diamond Hill offer?', a: 'Diamond Hill features an Olympic-sized pool, fitness center, full clubhouse with event space, playground, basketball court, and tennis facilities. The gated entrance provides 24/7 access control. These resort-style amenities are included in the HOA fee and rival what many private country clubs charge separately.' },
-    { q: 'How does Diamond Hill compare to nearby neighborhoods?', a: 'Diamond Hill ($350K\u2013$550K) offers gated golf community living with resort amenities. River Hills ($600K\u2013$1.2M+) is the premium gated golf option with larger lots. Arista ($425K\u2013$575K) has newer gated construction without golf. Crestwood Estates ($500K\u2013$900K) has estate lots with no CDD but no community amenities. Heritage Crest ($400K\u2013$500K) offers new construction in 33594 without golf.' },
+    { q: 'How does Diamond Hill compare to nearby neighborhoods?', a: 'Diamond Hill ($350K to $550K) offers gated golf community living with resort amenities. River Hills ($600K to $1.2M+) is the premium gated golf option with larger lots. Arista ($425K to $575K) has newer gated construction without golf. Crestwood Estates ($500K to $900K) has estate lots with no CDD but no community amenities. Heritage Crest ($400K to $500K) offers new construction in 33594 without golf.' },
   ];
 
   return (
@@ -45,7 +45,7 @@ export default function DiamondHillPage() {
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
           <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Diamond Hill Homes for Sale, Valrico FL 33594</h1>
-          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Diamond Hill is a gated golf community centered around the Diamond Hill Golf Club in Valrico (33594). Resort-style amenities, prices from $350K&ndash;$550K. School zone varies by section. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
+          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Diamond Hill is a gated golf community centered around the Diamond Hill Golf Club in Valrico (33594). Resort-style amenities, prices from $350K to $550K. School zone varies by section. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Diamond Hill listings</Link>
             <Link href="/valrico-fl-home-values/" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">What&apos;s my home worth?</Link>
@@ -82,7 +82,7 @@ export default function DiamondHillPage() {
       <div style={{ background: 'var(--cream)' }}>
         <div className="max-w-[1140px] mx-auto px-7 py-12 grid grid-cols-2 md:grid-cols-4 gap-5">
           {[
-            ['$350K\u2013$550K', 'Price range'],
+            ['$350K to $550K', 'Price range'],
             ['33594', 'ZIP code'],
             ['Varies', 'High school zone'],
             ['Gated / Golf', 'Community type'],
@@ -114,18 +114,18 @@ export default function DiamondHillPage() {
             <h2 className="font-serif text-2xl mb-4 mt-10">Location and Commute</h2>
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Diamond Hill is centrally located in Valrico with quick access to major corridors. Key commute times:</p>
             <ul className="text-[15px] leading-[1.8] mb-6 space-y-2 pl-5 list-disc" style={{ color: 'var(--ink-soft)' }}>
-              <li><strong>I-75 (SR-60 interchange):</strong> ~4 miles / 8&ndash;10 minutes</li>
-              <li><strong>Downtown Tampa:</strong> ~18 miles / 25&ndash;35 minutes via I-75</li>
-              <li><strong>MacDill Air Force Base:</strong> ~22 miles / 30&ndash;40 minutes</li>
+              <li><strong>I-75 (SR-60 interchange):</strong> ~4 miles / 8 to 10 minutes</li>
+              <li><strong>Downtown Tampa:</strong> ~18 miles / 25 to 35 minutes via I-75</li>
+              <li><strong>MacDill Air Force Base:</strong> ~22 miles / 30 to 40 minutes</li>
               <li><strong>Brandon Town Center:</strong> ~6 miles / 12 minutes</li>
               <li><strong>Lakeland:</strong> ~25 miles / 30 minutes via I-4</li>
-              <li><strong>Tampa International Airport:</strong> ~25 miles / 30&ndash;40 minutes</li>
+              <li><strong>Tampa International Airport:</strong> ~25 miles / 30 to 40 minutes</li>
             </ul>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Daily essentials are minutes away. Publix, Winn-Dixie, and Walmart are within 2 miles along SR-60 (Brandon Blvd). Restaurants, banks, and medical offices line Lithia Pinecrest Road and Bloomingdale Avenue. The central Valrico location means quick access to both north and south commercial corridors.</p>
 
             {/* --- HOA --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">HOA and Community Fees</h2>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Diamond Hill has a mandatory HOA that maintains the gated entrance, Olympic-sized pool, fitness center, clubhouse, playground, basketball court, tennis facilities, and all common areas. Monthly HOA fees vary by section and typically run $150&ndash;$300. Golf club membership is separate from the HOA. Some sections may carry a CDD assessment on the property tax bill. Barrett Henry can pull the exact HOA, CDD, and golf membership costs for any Diamond Hill address, call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Diamond Hill has a mandatory HOA that maintains the gated entrance, Olympic-sized pool, fitness center, clubhouse, playground, basketball court, tennis facilities, and all common areas. Monthly HOA fees vary by section and typically run $150 to $300. Golf club membership is separate from the HOA. Some sections may carry a CDD assessment on the property tax bill. Barrett Henry can pull the exact HOA, CDD, and golf membership costs for any Diamond Hill address, call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
 
             {/* --- Comparison --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">How Diamond Hill Compares to Nearby Neighborhoods</h2>
@@ -142,11 +142,11 @@ export default function DiamondHillPage() {
                 </thead>
                 <tbody>
                   {[
-                    ['Diamond Hill', '$350K\u2013$550K', 'Yes', 'Golf course, resort amenities, varied home sizes'],
-                    ['River Hills', '$600K\u2013$1.2M+', 'Yes', 'Premium golf, larger lots, country club'],
-                    ['Arista', '$425K\u2013$575K', 'Yes', 'Newer construction, no golf, modern plans'],
-                    ['Heritage Crest', '$400K\u2013$500K', 'No', 'New construction, Newsome HS zone'],
-                    ['Crestwood Estates', '$500K\u2013$900K', 'No', 'Estate lots, custom builds, no CDD'],
+                    ['Diamond Hill', '$350K to $550K', 'Yes', 'Golf course, resort amenities, varied home sizes'],
+                    ['River Hills', '$600K to $1.2M+', 'Yes', 'Premium golf, larger lots, country club'],
+                    ['Arista', '$425K to $575K', 'Yes', 'Newer construction, no golf, modern plans'],
+                    ['Heritage Crest', '$400K to $500K', 'No', 'New construction, Newsome HS zone'],
+                    ['Crestwood Estates', '$500K to $900K', 'No', 'Estate lots, custom builds, no CDD'],
                   ].map(([name, price, gated, diff], i) => (
                     <tr key={name} style={{ borderBottom: '1px solid var(--border)' }}>
                       <td className="py-3 pr-4">
@@ -169,7 +169,7 @@ export default function DiamondHillPage() {
               <li>Families wanting resort-style amenities (pool, fitness, clubhouse) inside the gates</li>
               <li>Retirees seeking patio home options with full golf course and amenity access</li>
               <li>Buyers who value gated security and community programming</li>
-              <li>Military families at MacDill AFB who want gated living with amenities (30&ndash;40 min commute)</li>
+              <li>Military families at MacDill AFB who want gated living with amenities (30 to 40 min commute)</li>
             </ul>
 
             {/* EEAT author block */}

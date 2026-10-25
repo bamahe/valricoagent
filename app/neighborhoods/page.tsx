@@ -12,61 +12,61 @@ import { ContactForm } from '../components/ContactForm';
 
 /* ── Neighborhood data for the card grid ── */
 const neighborhoods = [
-  { name: 'Bloomingdale', slug: 'bloomingdale', price: '$300K–$500K', school: 'Bloomingdale HS', homes: '5,200+', highlight: 'Largest planned community in Valrico' },
-  { name: 'River Hills', slug: 'river-hills', price: '$500K–$1M+', school: 'Newsome HS', homes: '900+', highlight: 'Gated luxury with golf course' },
-  { name: 'Diamond Hill', slug: 'diamond-hill', price: '$350K–$550K+', school: 'Bloomingdale HS', homes: '200+', highlight: 'Large lots, no HOA options' },
-  { name: 'Buckhorn', slug: 'buckhorn', price: '$350K–$500K', school: 'Newsome HS', homes: '1,500+', highlight: 'Boyette corridor, newer builds' },
-  { name: 'Crestwood Estates', slug: 'crestwood-estates', price: '$600K–$1M+', school: 'Newsome HS', homes: '150+', highlight: 'Estate-sized lots, luxury homes' },
-  { name: 'Twin Lakes', slug: 'twin-lakes', price: '$375K–$475K', school: 'Newsome HS', homes: '300+', highlight: 'Lakefront living, family-friendly' },
-  { name: 'Arista', slug: 'arista', price: '$380K–$500K', school: 'Newsome HS', homes: '250+', highlight: 'New construction community' },
-  { name: 'Brentwood Hills', slug: 'brentwood-hills', price: '$350K–$500K', school: 'Newsome HS', homes: '400+', highlight: 'Community pool, dual ZIP codes' },
-  { name: 'Bloomingdale Oaks', slug: 'bloomingdale-oaks', price: '$350K–$475K', school: 'Bloomingdale HS', homes: '300+', highlight: 'Popular Bloomingdale sub-section' },
-  { name: 'Bloomingdale East', slug: 'bloomingdale-east', price: '$300K–$450K', school: 'Bloomingdale HS', homes: '250+', highlight: 'Affordable Bloomingdale entry' },
-  { name: 'Bloomingdale Cove', slug: 'bloomingdale-cove', price: '$320K–$460K', school: 'Bloomingdale HS', homes: '200+', highlight: 'Quiet cul-de-sac streets' },
-  { name: 'Lake Valrico', slug: 'lake-valrico', price: '$300K–$475K', school: 'Bloomingdale HS', homes: '200+', highlight: 'Waterfront lots available' },
-  { name: 'Buckhorn Preserve', slug: 'buckhorn-preserve', price: '$350K–$500K', school: 'Newsome HS', homes: '300+', highlight: 'Nature preserve views' },
-  { name: 'Valri Park', slug: 'valri-park', price: '$300K–$450K', school: 'Bloomingdale HS', homes: '200+', highlight: 'Established neighborhood, mature trees' },
-  { name: 'Buckhorn Springs Manor', slug: 'buckhorn-springs-manor', price: '$325K–$475K', school: 'Newsome HS', homes: '150+', highlight: 'Buckhorn corridor convenience' },
-  { name: 'Bent Tree Estates', slug: 'bent-tree-estates', price: '$350K–$500K', school: 'Newsome HS', homes: '150+', highlight: 'Larger lots, semi-rural feel' },
-  { name: 'Buckhorn Bloomingdale', slug: 'buckhorn-bloomingdale', price: '$300K–$475K', school: 'Bloomingdale HS', homes: '200+', highlight: 'Bloomingdale HS zone at lower price' },
-  { name: 'Canterbury Oaks', slug: 'canterbury-oaks', price: '$325K–$475K', school: 'Bloomingdale HS', homes: '150+', highlight: 'Quiet streets, mature landscaping' },
-  { name: 'Crosby Crossings', slug: 'crosby-crossings', price: '$300K–$450K', school: 'Bloomingdale HS', homes: '150+', highlight: 'Affordable family neighborhood' },
-  { name: 'Duncan Groves', slug: 'duncan-groves', price: '$300K–$475K', school: 'Bloomingdale HS', homes: '100+', highlight: 'No HOA, larger lots' },
-  { name: 'Heritage Crest', slug: 'heritage-crest', price: '$380K–$500K', school: 'Newsome HS', homes: '200+', highlight: 'Newer construction, modern layouts' },
-  { name: 'Kings Mill', slug: 'kings-mill', price: '$325K–$475K', school: 'Bloomingdale HS', homes: '150+', highlight: 'Established community with pool' },
-  { name: 'Lakemont', slug: 'lakemont', price: '$325K–$475K', school: 'Bloomingdale HS', homes: '200+', highlight: 'Lake views, family-oriented' },
-  { name: 'Legends Pass', slug: 'legends-pass', price: '$300K–$450K', school: 'Bloomingdale HS', homes: '100+', highlight: 'Compact community, low fees' },
-  { name: 'Northwood Estates', slug: 'northwood-estates', price: '$325K–$500K', school: 'Bloomingdale HS', homes: '100+', highlight: 'Spacious lots, 33594 ZIP' },
-  { name: 'River Hills Masters', slug: 'river-hills-masters', price: '$450K–$800K', school: 'Newsome HS', homes: '100+', highlight: 'Golf course community section' },
-  { name: 'Savannah Landings', slug: 'savannah-landings', price: '$350K–$500K', school: 'Newsome HS', homes: '150+', highlight: 'Newer homes, community amenities' },
-  { name: 'Shetland Ridge', slug: 'shetland-ridge', price: '$300K–$450K', school: 'Bloomingdale HS', homes: '100+', highlight: 'Quiet subdivision, no-frills' },
-  { name: 'Valrico Forest', slug: 'valrico-forest', price: '$380K–$500K', school: 'Newsome HS', homes: '200+', highlight: 'New construction available' },
-  { name: 'Valrico Hills', slug: 'valrico-hills', price: '$300K–$450K', school: 'Bloomingdale HS', homes: '150+', highlight: 'Affordable, close to shopping' },
-  { name: 'Valrico Oaks', slug: 'valrico-oaks', price: '$300K–$450K', school: 'Bloomingdale HS', homes: '150+', highlight: 'Oak-canopy streets, no HOA' },
-  { name: 'Wellington', slug: 'wellington', price: '$350K–$500K', school: 'Newsome HS', homes: '200+', highlight: 'Well-maintained, community pool' },
+  { name: 'Bloomingdale', slug: 'bloomingdale', price: '$300K, $500K', school: 'Bloomingdale HS', homes: '5,200+', highlight: 'Largest planned community in Valrico' },
+  { name: 'River Hills', slug: 'river-hills', price: '$500K, $1M+', school: 'Newsome HS', homes: '900+', highlight: 'Gated luxury with golf course' },
+  { name: 'Diamond Hill', slug: 'diamond-hill', price: '$350K, $550K+', school: 'Bloomingdale HS', homes: '200+', highlight: 'Large lots, no HOA options' },
+  { name: 'Buckhorn', slug: 'buckhorn', price: '$350K, $500K', school: 'Newsome HS', homes: '1,500+', highlight: 'Boyette corridor, newer builds' },
+  { name: 'Crestwood Estates', slug: 'crestwood-estates', price: '$600K, $1M+', school: 'Newsome HS', homes: '150+', highlight: 'Estate-sized lots, luxury homes' },
+  { name: 'Twin Lakes', slug: 'twin-lakes', price: '$375K, $475K', school: 'Newsome HS', homes: '300+', highlight: 'Lakefront living, family-friendly' },
+  { name: 'Arista', slug: 'arista', price: '$380K, $500K', school: 'Newsome HS', homes: '250+', highlight: 'New construction community' },
+  { name: 'Brentwood Hills', slug: 'brentwood-hills', price: '$350K, $500K', school: 'Newsome HS', homes: '400+', highlight: 'Community pool, dual ZIP codes' },
+  { name: 'Bloomingdale Oaks', slug: 'bloomingdale-oaks', price: '$350K, $475K', school: 'Bloomingdale HS', homes: '300+', highlight: 'Popular Bloomingdale sub-section' },
+  { name: 'Bloomingdale East', slug: 'bloomingdale-east', price: '$300K, $450K', school: 'Bloomingdale HS', homes: '250+', highlight: 'Affordable Bloomingdale entry' },
+  { name: 'Bloomingdale Cove', slug: 'bloomingdale-cove', price: '$320K, $460K', school: 'Bloomingdale HS', homes: '200+', highlight: 'Quiet cul-de-sac streets' },
+  { name: 'Lake Valrico', slug: 'lake-valrico', price: '$300K, $475K', school: 'Bloomingdale HS', homes: '200+', highlight: 'Waterfront lots available' },
+  { name: 'Buckhorn Preserve', slug: 'buckhorn-preserve', price: '$350K, $500K', school: 'Newsome HS', homes: '300+', highlight: 'Nature preserve views' },
+  { name: 'Valri Park', slug: 'valri-park', price: '$300K, $450K', school: 'Bloomingdale HS', homes: '200+', highlight: 'Established neighborhood, mature trees' },
+  { name: 'Buckhorn Springs Manor', slug: 'buckhorn-springs-manor', price: '$325K, $475K', school: 'Newsome HS', homes: '150+', highlight: 'Buckhorn corridor convenience' },
+  { name: 'Bent Tree Estates', slug: 'bent-tree-estates', price: '$350K, $500K', school: 'Newsome HS', homes: '150+', highlight: 'Larger lots, semi-rural feel' },
+  { name: 'Buckhorn Bloomingdale', slug: 'buckhorn-bloomingdale', price: '$300K, $475K', school: 'Bloomingdale HS', homes: '200+', highlight: 'Bloomingdale HS zone at lower price' },
+  { name: 'Canterbury Oaks', slug: 'canterbury-oaks', price: '$325K, $475K', school: 'Bloomingdale HS', homes: '150+', highlight: 'Quiet streets, mature landscaping' },
+  { name: 'Crosby Crossings', slug: 'crosby-crossings', price: '$300K, $450K', school: 'Bloomingdale HS', homes: '150+', highlight: 'Affordable family neighborhood' },
+  { name: 'Duncan Groves', slug: 'duncan-groves', price: '$300K, $475K', school: 'Bloomingdale HS', homes: '100+', highlight: 'No HOA, larger lots' },
+  { name: 'Heritage Crest', slug: 'heritage-crest', price: '$380K, $500K', school: 'Newsome HS', homes: '200+', highlight: 'Newer construction, modern layouts' },
+  { name: 'Kings Mill', slug: 'kings-mill', price: '$325K, $475K', school: 'Bloomingdale HS', homes: '150+', highlight: 'Established community with pool' },
+  { name: 'Lakemont', slug: 'lakemont', price: '$325K, $475K', school: 'Bloomingdale HS', homes: '200+', highlight: 'Lake views, family-oriented' },
+  { name: 'Legends Pass', slug: 'legends-pass', price: '$300K, $450K', school: 'Bloomingdale HS', homes: '100+', highlight: 'Compact community, low fees' },
+  { name: 'Northwood Estates', slug: 'northwood-estates', price: '$325K, $500K', school: 'Bloomingdale HS', homes: '100+', highlight: 'Spacious lots, 33594 ZIP' },
+  { name: 'River Hills Masters', slug: 'river-hills-masters', price: '$450K, $800K', school: 'Newsome HS', homes: '100+', highlight: 'Golf course community section' },
+  { name: 'Savannah Landings', slug: 'savannah-landings', price: '$350K, $500K', school: 'Newsome HS', homes: '150+', highlight: 'Newer homes, community amenities' },
+  { name: 'Shetland Ridge', slug: 'shetland-ridge', price: '$300K, $450K', school: 'Bloomingdale HS', homes: '100+', highlight: 'Quiet subdivision, no-frills' },
+  { name: 'Valrico Forest', slug: 'valrico-forest', price: '$380K, $500K', school: 'Newsome HS', homes: '200+', highlight: 'New construction available' },
+  { name: 'Valrico Hills', slug: 'valrico-hills', price: '$300K, $450K', school: 'Bloomingdale HS', homes: '150+', highlight: 'Affordable, close to shopping' },
+  { name: 'Valrico Oaks', slug: 'valrico-oaks', price: '$300K, $450K', school: 'Bloomingdale HS', homes: '150+', highlight: 'Oak-canopy streets, no HOA' },
+  { name: 'Wellington', slug: 'wellington', price: '$350K, $500K', school: 'Newsome HS', homes: '200+', highlight: 'Well-maintained, community pool' },
   // REMOVED Oct 2026: magnolia-park, oak-creek, providence-lakes and summerfield
   // were listed here but no page was ever built for them, so all four linked to
   // a 404. They also appear to be Brandon/Riverview subdivisions rather than
   // Valrico. Build the pages first, then re-add them here.
-  { name: 'Lithia Springs', slug: 'lithia-springs', price: '$375K–$525K', school: 'Newsome HS', homes: '100+', highlight: 'Spacious lots, semi-rural setting' },
-  { name: 'Valrico Village', slug: 'valrico-village', price: '$280K–$400K', school: 'Bloomingdale HS', homes: '100+', highlight: 'Established community, mature trees' },
-  { name: 'Cimmaron', slug: 'cimmaron', price: '$450K–$650K', school: 'Newsome HS', homes: '19', highlight: '19 custom homes, large wooded lots, no HOA' },
-  { name: 'Buckhorn Golf Club Estates', slug: 'buckhorn-golf-club-estates', price: '$350K–$550K', school: 'Newsome HS', homes: '100+', highlight: 'Golf course views, 82% owner-occupied' },
-  { name: 'Durant Oaks', slug: 'durant-oaks', price: '$375K–$525K', school: 'Bloomingdale HS', homes: '100+', highlight: 'Custom-built homes, mature landscaping' },
-  { name: 'Copper Ridge', slug: 'copper-ridge', price: '$375K–$525K', school: 'Newsome HS', homes: '500+', highlight: 'Conservation lots, concrete block, CDD' },
+  { name: 'Lithia Springs', slug: 'lithia-springs', price: '$375K, $525K', school: 'Newsome HS', homes: '100+', highlight: 'Spacious lots, semi-rural setting' },
+  { name: 'Valrico Village', slug: 'valrico-village', price: '$280K, $400K', school: 'Bloomingdale HS', homes: '100+', highlight: 'Established community, mature trees' },
+  { name: 'Cimmaron', slug: 'cimmaron', price: '$450K, $650K', school: 'Newsome HS', homes: '19', highlight: '19 custom homes, large wooded lots, no HOA' },
+  { name: 'Buckhorn Golf Club Estates', slug: 'buckhorn-golf-club-estates', price: '$350K, $550K', school: 'Newsome HS', homes: '100+', highlight: 'Golf course views, 82% owner-occupied' },
+  { name: 'Durant Oaks', slug: 'durant-oaks', price: '$375K, $525K', school: 'Bloomingdale HS', homes: '100+', highlight: 'Custom-built homes, mature landscaping' },
+  { name: 'Copper Ridge', slug: 'copper-ridge', price: '$375K, $525K', school: 'Newsome HS', homes: '500+', highlight: 'Conservation lots, concrete block, CDD' },
   // ADDED Oct 2026: these three pages existed but were orphaned, no link from
   // anywhere on the site and absent from the sitemap. `homes` is omitted rather
   // than guessed, their pages do not state a verified count.
-  { name: 'Eagles Landing', slug: 'eagles-landing', price: '$375K–$525K', school: 'Newsome HS', highlight: 'Newer construction, 2010s build-out' },
-  { name: 'River Crossing', slug: 'river-crossing', price: '$375K–$550K', school: 'Newsome HS', highlight: 'Newsome HS zoning, 33596' },
-  { name: 'Somerset', slug: 'somerset', price: '$300K–$450K', school: 'Bloomingdale HS', highlight: 'Affordable Bloomingdale HS option' },
+  { name: 'Eagles Landing', slug: 'eagles-landing', price: '$375K, $525K', school: 'Newsome HS', highlight: 'Newer construction, 2010s build-out' },
+  { name: 'River Crossing', slug: 'river-crossing', price: '$375K, $550K', school: 'Newsome HS', highlight: 'Newsome HS zoning, 33596' },
+  { name: 'Somerset', slug: 'somerset', price: '$300K, $450K', school: 'Bloomingdale HS', highlight: 'Affordable Bloomingdale HS option' },
 ];
 
 /* ── FAQ items for the FAQ section + schema ── */
 const faqItems = [
   {
     question: 'What are the best neighborhoods in Valrico FL?',
-    answer: 'The best Valrico neighborhood depends on your priorities. Bloomingdale ($300K–$500K) is the largest with 5,200+ homes and Bloomingdale HS zoning. River Hills ($500K–$1M+) is gated luxury with a golf course. Buckhorn ($350K–$500K) offers Newsome HS zoning along the Boyette corridor. Diamond Hill ($350K–$550K+) has large lots with no HOA. Barrett Henry covers all 41 neighborhoods and matches buyers to the right fit. Call (813) 733-7907.',
+    answer: 'The best Valrico neighborhood depends on your priorities. Bloomingdale ($300K, $500K) is the largest with 5,200+ homes and Bloomingdale HS zoning. River Hills ($500K, $1M+) is gated luxury with a golf course. Buckhorn ($350K, $500K) offers Newsome HS zoning along the Boyette corridor. Diamond Hill ($350K, $550K+) has large lots with no HOA. Barrett Henry covers all 41 neighborhoods and matches buyers to the right fit. Call (813) 733-7907.',
   },
   {
     question: 'How many neighborhoods are in Valrico FL?',
@@ -74,7 +74,7 @@ const faqItems = [
   },
   {
     question: 'What is the cheapest neighborhood in Valrico?',
-    answer: 'Entry-level Valrico neighborhoods start around $275K–$300K. Bloomingdale East, Valrico Hills, Valrico Oaks, and Crosby Crossings offer some of the most affordable homes in the area. These neighborhoods provide solid value with access to top-rated schools and suburban amenities without the premium pricing of gated communities.',
+    answer: 'Entry-level Valrico neighborhoods start around $275K, $300K. Bloomingdale East, Valrico Hills, Valrico Oaks, and Crosby Crossings offer some of the most affordable homes in the area. These neighborhoods provide solid value with access to top-rated schools and suburban amenities without the premium pricing of gated communities.',
   },
   {
     question: 'What is the most expensive neighborhood in Valrico?',
@@ -127,7 +127,7 @@ export default function NeighborhoodsHubPage() {
       <div style={{ maxWidth: 1140, margin: '0 auto', padding: '8px 24px 0' }}>
         <div style={{ background: '#fafafa', border: '1px solid #e8e8e8', borderRadius: 10, padding: '20px 24px', marginBottom: 24 }}>
           <p style={{ fontSize: 15, color: '#222', lineHeight: 1.7, margin: 0 }}>
-            <strong>Valrico, Florida has 41 neighborhoods across two ZIP codes (33594 and 33596).</strong> Bloomingdale is the largest (5,200+ homes, $300K–$500K). River Hills and Crestwood Estates are luxury options ($500K–$1M+). Buckhorn and Arista offer newer construction with Newsome HS zoning. Diamond Hill provides large lots with no HOA. Barrett Henry, REALTOR® with REMAX Collective, covers all 41, call <a href="tel:8137337907" style={{ color: '#003da5', fontWeight: 600 }}>(813) 733-7907</a>.
+            <strong>Valrico, Florida has 41 neighborhoods across two ZIP codes (33594 and 33596).</strong> Bloomingdale is the largest (5,200+ homes, $300K, $500K). River Hills and Crestwood Estates are luxury options ($500K, $1M+). Buckhorn and Arista offer newer construction with Newsome HS zoning. Diamond Hill provides large lots with no HOA. Barrett Henry, REALTOR® with REMAX Collective, covers all 41, call <a href="tel:8137337907" style={{ color: '#003da5', fontWeight: 600 }}>(813) 733-7907</a>.
           </p>
         </div>
       </div>
@@ -137,7 +137,7 @@ export default function NeighborhoodsHubPage() {
         <div className="max-w-[1140px] mx-auto px-7 py-12 grid grid-cols-2 md:grid-cols-4 gap-5">
           {[
             ['38', 'Neighborhoods'],
-            ['$275K–$1M+', 'Price range'],
+            ['$275K, $1M+', 'Price range'],
             ['33594 & 33596', 'ZIP codes'],
             ['2 High Schools', 'Bloomingdale & Newsome'],
           ].map(([v, l]) => (

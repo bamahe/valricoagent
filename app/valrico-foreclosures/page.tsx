@@ -283,27 +283,27 @@ export default function ValricoForeclosures() {
             <ul className="text-[15px] leading-[1.9] mb-8 pl-5" style={{ color: 'var(--ink-soft)', listStyle: 'disc' }}>
               <li>
                 <a href="https://www.hillsclerk.com/Additional-Services/Foreclosure-Sales" target="_blank" rel="noopener" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Hillsborough County Clerk of Court, Foreclosure Sales</a>
-                {' '}&mdash; online auction calendar and bidding rules for Valrico-area properties.
+                {' '},  online auction calendar and bidding rules for Valrico-area properties.
               </li>
               <li>
                 <a href="https://www.hudhomestore.gov/" target="_blank" rel="noopener" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>HUD HomeStore</a>
-                {' '}&mdash; official listing site for HUD-owned homes, including the owner-occupant priority period.
+                {' '},  official listing site for HUD-owned homes, including the owner-occupant priority period.
               </li>
               <li>
                 <a href="https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0000-0099/0045/0045.html" target="_blank" rel="noopener" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Florida Statutes Chapter 45</a>
-                {' '}&mdash; governs judicial sale procedure, including the clerk&apos;s sale and certificate of title.
+                {' '},  governs judicial sale procedure, including the clerk&apos;s sale and certificate of title.
               </li>
               <li>
                 <a href="https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0702/0702.html" target="_blank" rel="noopener" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Florida Statutes Chapter 702</a>
-                {' '}&mdash; Florida&apos;s judicial foreclosure process and the right of redemption.
+                {' '},  Florida&apos;s judicial foreclosure process and the right of redemption.
               </li>
               <li>
                 <a href="https://www.hcpafl.org/" target="_blank" rel="noopener" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Hillsborough County Property Appraiser</a>
-                {' '}&mdash; verify assessed value, ownership history, and homestead status before you bid.
+                {' '},  verify assessed value, ownership history, and homestead status before you bid.
               </li>
               <li>
                 <a href="https://hillsborough.county-taxes.com/" target="_blank" rel="noopener" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>Hillsborough County Tax Collector</a>
-                {' '}&mdash; check for delinquent taxes and outstanding tax certificates on a property.
+                {' '},  check for delinquent taxes and outstanding tax certificates on a property.
               </li>
             </ul>
 

@@ -30,12 +30,12 @@ export default function AristaPage() {
   const faqs = [
     { q: 'How much do homes cost in Arista Valrico?', a: 'Homes in Arista typically sell between $425,000 and $575,000. Prices vary based on square footage, lot position, and upgrades. Arista features newer construction with modern floor plans and upscale finishes. Contact Barrett Henry at (813) 733-7907 for current Arista pricing.' },
     { q: 'What school zone is Arista in?', a: 'Arista is zoned for Mintz Elementary, Mulrennan Middle, and Newsome High School in the Hillsborough County School District. Newsome High is one of the top-rated high schools in the Tampa Bay area. Barrett Henry can verify the exact school assignment for any Arista address.' },
-    { q: 'Does Arista have an HOA?', a: 'Yes. Arista is a gated community with a mandatory HOA. The HOA maintains the gated entrance, common areas, and community standards. HOA fees are typically in the $150\u2013$250 per month range. Call Barrett Henry at (813) 733-7907 for current HOA fee details.' },
+    { q: 'Does Arista have an HOA?', a: 'Yes. Arista is a gated community with a mandatory HOA. The HOA maintains the gated entrance, common areas, and community standards. HOA fees are typically in the $150 to $250 per month range. Call Barrett Henry at (813) 733-7907 for current HOA fee details.' },
     { q: 'Is Arista a good neighborhood in Valrico?', a: 'Arista is one of the more premium gated communities in north Valrico. It offers newer construction, modern floor plans, and a secure gated entrance between Diamond Hill Golf Course and Lake Valrico. The Newsome High School zone adds long-term value.' },
     { q: 'How far is Arista from I-75?', a: 'Arista is approximately 4 miles from the I-75 interchange at SR-60 (Brandon Blvd), making it about a 10-minute drive to the highway. From there, downtown Tampa is roughly 25 minutes and Lakeland is about 30 minutes.' },
-    { q: 'Are there CDD fees in Arista?', a: 'Some sections of Arista may carry a Community Development District (CDD) assessment in addition to the HOA fee. CDD fees are baked into your property tax bill and typically run $1,000\u2013$2,500 per year. Barrett Henry can pull the exact CDD amount for any specific Arista address.' },
+    { q: 'Are there CDD fees in Arista?', a: 'Some sections of Arista may carry a Community Development District (CDD) assessment in addition to the HOA fee. CDD fees are baked into your property tax bill and typically run $1,000 to $2,500 per year. Barrett Henry can pull the exact CDD amount for any specific Arista address.' },
     { q: 'What year were Arista homes built?', a: 'Arista homes were primarily built in the mid-2010s to early 2020s, making them some of the newer construction available in the Valrico 33594 ZIP code. Most homes feature modern open floor plans, granite or quartz countertops, and energy-efficient systems.' },
-    { q: 'How does Arista compare to nearby Valrico neighborhoods?', a: 'Arista ($425K\u2013$575K) is a gated, newer-construction alternative to nearby Diamond Hill ($400K\u2013$700K+), Crestwood Estates ($350K\u2013$500K), and Canterbury Oaks ($300K\u2013$425K). Arista offers gated security and more modern floor plans, while Diamond Hill has larger lots and Canterbury Oaks is more affordable.' },
+    { q: 'How does Arista compare to nearby Valrico neighborhoods?', a: 'Arista ($425K to $575K) is a gated, newer-construction alternative to nearby Diamond Hill ($400K to $700K+), Crestwood Estates ($350K to $500K), and Canterbury Oaks ($300K to $425K). Arista offers gated security and more modern floor plans, while Diamond Hill has larger lots and Canterbury Oaks is more affordable.' },
   ];
 
   return (
@@ -45,7 +45,7 @@ export default function AristaPage() {
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
           <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Arista Homes for Sale, Valrico FL 33594</h1>
-          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Arista is a gated community of newer construction homes between Diamond Hill Golf Course and Lake Valrico in north Valrico (33594). Prices from $425K&ndash;$575K. Newsome High School zone. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
+          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Arista is a gated community of newer construction homes between Diamond Hill Golf Course and Lake Valrico in north Valrico (33594). Prices from $425K to $575K. Newsome High School zone. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Arista listings</Link>
             <Link href="/valrico-fl-home-values/" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">What&apos;s my home worth?</Link>
@@ -73,7 +73,7 @@ export default function AristaPage() {
       <div style={{ background: 'var(--cream)' }}>
         <div className="max-w-[1140px] mx-auto px-7 py-12 grid grid-cols-2 md:grid-cols-4 gap-5">
           {[
-            ['$425K\u2013$575K', 'Price range'],
+            ['$425K to $575K', 'Price range'],
             ['33594', 'ZIP code'],
             ['Newsome HS', 'High school zone'],
             ['Gated', 'Community type'],
@@ -108,17 +108,17 @@ export default function AristaPage() {
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Arista sits in north Valrico with convenient access to major corridors. Key commute times from Arista:</p>
             <ul className="text-[15px] leading-[1.8] mb-6 space-y-2 pl-5 list-disc" style={{ color: 'var(--ink-soft)' }}>
               <li><strong>I-75 (SR-60 interchange):</strong> ~4 miles / 10 minutes</li>
-              <li><strong>Downtown Tampa:</strong> ~18 miles / 25&ndash;35 minutes via I-75</li>
-              <li><strong>MacDill Air Force Base:</strong> ~22 miles / 30&ndash;40 minutes</li>
+              <li><strong>Downtown Tampa:</strong> ~18 miles / 25 to 35 minutes via I-75</li>
+              <li><strong>MacDill Air Force Base:</strong> ~22 miles / 30 to 40 minutes</li>
               <li><strong>Brandon Town Center:</strong> ~6 miles / 12 minutes</li>
               <li><strong>Lakeland:</strong> ~25 miles / 30 minutes via I-4</li>
-              <li><strong>Tampa International Airport:</strong> ~25 miles / 30&ndash;40 minutes</li>
+              <li><strong>Tampa International Airport:</strong> ~25 miles / 30 to 40 minutes</li>
             </ul>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Daily essentials are within minutes. Publix, Winn-Dixie, and Walmart are all less than 2 miles away along SR-60 (Brandon Blvd). Restaurants, banks, and medical offices line Lithia Pinecrest Road and Bloomingdale Avenue to the south.</p>
 
             {/* --- HOA --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">HOA and Community Fees</h2>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Arista has a mandatory HOA that maintains the gated entrance, common areas, and community appearance standards. Monthly HOA fees typically run $150&ndash;$250 depending on the section. Some sections may also carry a CDD (Community Development District) assessment that appears on your property tax bill, typically $1,000&ndash;$2,500 per year. Barrett Henry can pull the exact HOA and CDD amounts for any specific Arista address, call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Arista has a mandatory HOA that maintains the gated entrance, common areas, and community appearance standards. Monthly HOA fees typically run $150 to $250 depending on the section. Some sections may also carry a CDD (Community Development District) assessment that appears on your property tax bill, typically $1,000 to $2,500 per year. Barrett Henry can pull the exact HOA and CDD amounts for any specific Arista address, call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
 
             {/* --- Comparison --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">How Arista Compares to Nearby Neighborhoods</h2>
@@ -135,11 +135,11 @@ export default function AristaPage() {
                 </thead>
                 <tbody>
                   {[
-                    ['Arista', '$425K\u2013$575K', 'Yes', 'Newer construction, modern floor plans'],
-                    ['Diamond Hill', '$400K\u2013$700K+', 'No', 'Larger lots, golf course proximity'],
-                    ['Crestwood Estates', '$350K\u2013$500K', 'No', 'Established, no-CDD, mature landscaping'],
-                    ['Canterbury Oaks', '$300K\u2013$425K', 'No', 'More affordable, good starter homes'],
-                    ['Wellington', '$375K\u2013$525K', 'Partial', 'Mixed era construction, larger lots'],
+                    ['Arista', '$425K to $575K', 'Yes', 'Newer construction, modern floor plans'],
+                    ['Diamond Hill', '$400K to $700K+', 'No', 'Larger lots, golf course proximity'],
+                    ['Crestwood Estates', '$350K to $500K', 'No', 'Established, no-CDD, mature landscaping'],
+                    ['Canterbury Oaks', '$300K to $425K', 'No', 'More affordable, good starter homes'],
+                    ['Wellington', '$375K to $525K', 'Partial', 'Mixed era construction, larger lots'],
                   ].map(([name, price, gated, diff], i) => (
                     <tr key={name} style={{ borderBottom: '1px solid var(--border)' }}>
                       <td className="py-3 pr-4">
@@ -162,7 +162,7 @@ export default function AristaPage() {
               <li>Professionals commuting to Tampa or Brandon who want gated security</li>
               <li>Buyers who want modern floor plans without building new</li>
               <li>Downsizers from larger Valrico properties who want low-maintenance living</li>
-              <li>Military families stationed at MacDill AFB (30&ndash;40 min commute)</li>
+              <li>Military families stationed at MacDill AFB (30 to 40 min commute)</li>
             </ul>
 
             {/* Image removed: River Hills entrance photo does not belong on Arista page */}

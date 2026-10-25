@@ -44,7 +44,7 @@ export default function KingsMillPage() {
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
           <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Kings Mill Homes for Sale, Valrico FL 33596</h1>
-          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Kings Mill is a gated townhome community off Bloomingdale Avenue in south Valrico (33596). The most affordable entry into the Bloomingdale High School zone, with prices from $275K&ndash;$350K. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
+          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Kings Mill is a gated townhome community off Bloomingdale Avenue in south Valrico (33596). The most affordable entry into the Bloomingdale High School zone, with prices from $275K to $350K. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Kings Mill listings</Link>
             <Link href="/valrico-fl-home-values/" className="inline-block py-3 px-7 border-2 border-white text-white font-semibold text-[15px] rounded no-underline hover:bg-white/20">What&apos;s my home worth?</Link>
@@ -69,7 +69,7 @@ export default function KingsMillPage() {
       <div style={{ background: 'var(--cream)' }}>
         <div className="max-w-[1140px] mx-auto px-7 py-12 grid grid-cols-2 md:grid-cols-4 gap-5">
           {[
-            ['$275K\u2013$350K', 'Price range'],
+            ['$275K to $350K', 'Price range'],
             ['33596', 'ZIP code'],
             ['Bloomingdale HS', 'High school zone'],
             ['Gated townhomes', 'Community type'],
@@ -102,11 +102,11 @@ export default function KingsMillPage() {
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Kings Mill sits in south Valrico near Bloomingdale Avenue, providing convenient access to major corridors. Key commute times from Kings Mill:</p>
             <ul className="text-[15px] leading-[1.8] mb-6 space-y-2 pl-5 list-disc" style={{ color: 'var(--ink-soft)' }}>
               <li><strong>I-75 (SR-60 interchange):</strong> ~5 miles / 12 minutes</li>
-              <li><strong>Downtown Tampa:</strong> ~20 miles / 28&ndash;38 minutes via I-75</li>
-              <li><strong>MacDill Air Force Base:</strong> ~23 miles / 32&ndash;42 minutes</li>
+              <li><strong>Downtown Tampa:</strong> ~20 miles / 28 to 38 minutes via I-75</li>
+              <li><strong>MacDill Air Force Base:</strong> ~23 miles / 32 to 42 minutes</li>
               <li><strong>Brandon Town Center:</strong> ~5 miles / 10 minutes</li>
               <li><strong>Lakeland:</strong> ~28 miles / 32 minutes via I-4</li>
-              <li><strong>Tampa International Airport:</strong> ~27 miles / 32&ndash;42 minutes</li>
+              <li><strong>Tampa International Airport:</strong> ~27 miles / 32 to 42 minutes</li>
             </ul>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Bloomingdale Avenue puts Publix, Winn-Dixie, restaurants, banks, and medical offices within a few minutes&apos; drive. The Bloomingdale regional library is less than a mile away. Kings Mill&apos;s central south Valrico location makes daily errands quick and convenient.</p>
 
@@ -129,10 +129,10 @@ export default function KingsMillPage() {
                 </thead>
                 <tbody>
                   {[
-                    ['Kings Mill', '$275K\u2013$350K', 'Townhomes', 'Lowest price, gated, HOA-maintained'],
-                    ['Savannah Landings', '$300K\u2013$375K', 'Townhomes', 'Slightly newer, similar format'],
-                    ['Lakemont', '$350K\u2013$475K', 'Single-family', 'Larger homes, lake-influenced lots'],
-                    ['River Hills Masters', '$350K\u2013$550K', 'Single-family', 'Golf community access, guard gate'],
+                    ['Kings Mill', '$275K to $350K', 'Townhomes', 'Lowest price, gated, HOA-maintained'],
+                    ['Savannah Landings', '$300K to $375K', 'Townhomes', 'Slightly newer, similar format'],
+                    ['Lakemont', '$350K to $475K', 'Single-family', 'Larger homes, lake-influenced lots'],
+                    ['River Hills Masters', '$350K to $550K', 'Single-family', 'Golf community access, guard gate'],
                   ].map(([name, price, type, diff], i) => (
                     <tr key={name} style={{ borderBottom: '1px solid var(--border)' }}>
                       <td className="py-3 pr-4">

@@ -4,7 +4,7 @@ Valrico and FishHawk Ranch are 10 minutes apart and share Newsome High School zo
 
 ## The Cost Comparison That Changes Everything
 
-This is where the conversation starts and often ends. The sticker price on the home is not the full story — the monthly cost difference between Valrico and FishHawk is dramatic.
+This is where the conversation starts and often ends. The sticker price on the home is not the full story, the monthly cost difference between Valrico and FishHawk is dramatic.
 
 **Scenario: $475K home, 10% down, 6.5% mortgage rate**
 
@@ -16,11 +16,11 @@ This is where the conversation starts and often ends. The sticker price on the h
 | HOA | $0 | $150 to $250 |
 | CDD | $0 | $200 to $350 |
 | **Total monthly** | **$3,743** | **$4,093 to $4,343** |
-| **Annual difference** | — | **$4,200 to $7,200 more** |
+| **Annual difference** |, | **$4,200 to $7,200 more** |
 
 That $350 to $600/month difference between a no-HOA Valrico home and a FishHawk home at the same purchase price adds up to $42,000 to $72,000 over 10 years. That is real money that could go toward home improvements, college savings, retirement, or a bigger down payment on a more expensive home in Valrico with no recurring fees.
 
-Over a 30-year mortgage, the HOA/CDD premium in FishHawk totals $126,000 to $216,000 — paid to community management and bond debt, not equity.
+Over a 30-year mortgage, the HOA/CDD premium in FishHawk totals $126,000 to $216,000, paid to community management and bond debt, not equity.
 
 ## What FishHawk Gives You
 
@@ -50,7 +50,7 @@ To be fair, FishHawk is not charging those fees for nothing. You get a lot of co
 
 ## School Zone Comparison
 
-Both Valrico (eastern neighborhoods) and FishHawk feed into Newsome High School. This is the most common misconception — people think FishHawk has "better schools" than Valrico. The high school is the same.
+Both Valrico (eastern neighborhoods) and FishHawk feed into Newsome High School. This is the most common misconception, people think FishHawk has "better schools" than Valrico. The high school is the same.
 
 The difference is in the feeder pattern:
 - **FishHawk:** Barrington Middle School, Stowers/Bevis Elementary
@@ -60,7 +60,7 @@ All feed into Newsome High. The middle and elementary schools vary, but Newsome 
 
 ## Lot Size Comparison
 
-**FishHawk typical lot:** 5,000 to 8,000 sq ft. Newer sections are even smaller. Zero-lot-line homes exist in some villages. Setbacks are tight — your neighbors are close.
+**FishHawk typical lot:** 5,000 to 8,000 sq ft. Newer sections are even smaller. Zero-lot-line homes exist in some villages. Setbacks are tight, your neighbors are close.
 
 **Valrico typical lot:**
 - Bloomingdale: 8,000 to 12,000 sq ft

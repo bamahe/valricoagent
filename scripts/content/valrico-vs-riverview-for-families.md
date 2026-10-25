@@ -9,26 +9,26 @@ Valrico and Riverview sit on opposite sides of the same corridor in East Hillsbo
 
 Riverview generally offers lower entry prices because of the volume of new construction built in the 2010s and 2020s. Master-planned communities like Alafia, Summerfield, Panther Trace, and Boyette Park deliver newer homes at price points below comparable Valrico resale.
 
-The catch: many Riverview communities carry CDD assessments ($1,500 to $3,500/year) and mandatory HOAs ($200 to $400/month). When you factor in total monthly housing cost, the gap between a $380K Riverview home with HOA/CDD and a $430K Valrico home with no HOA/CDD narrows significantly — sometimes to zero.
+The catch: many Riverview communities carry CDD assessments ($1,500 to $3,500/year) and mandatory HOAs ($200 to $400/month). When you factor in total monthly housing cost, the gap between a $380K Riverview home with HOA/CDD and a $430K Valrico home with no HOA/CDD narrows significantly, sometimes to zero.
 
-## School Zones — The Decisive Factor
+## School Zones, The Decisive Factor
 
 This is where the comparison gets decisive for families.
 
 **Valrico schools:**
-- Newsome High School (eastern Valrico) — consistently rated among the top public high schools in Hillsborough County. Strong AP programs, competitive athletics, and high college placement rates.
-- Bloomingdale High School (western Valrico) — solid school with established community support.
+- Newsome High School (eastern Valrico), consistently rated among the top public high schools in Hillsborough County. Strong AP programs, competitive athletics, and high college placement rates.
+- Bloomingdale High School (western Valrico), solid school with established community support.
 
 **Riverview schools:**
-- Riverview High School — larger school, decent academics, growing student body
-- Sumner High School — newer school (opened 2019) serving the southern Riverview growth corridor
-- Spoto High School — serves the northern Riverview area
+- Riverview High School, larger school, decent academics, growing student body
+- Sumner High School, newer school (opened 2019) serving the southern Riverview growth corridor
+- Spoto High School, serves the northern Riverview area
 
 Newsome carries a measurable premium in home values ($30K to $50K over comparable homes in other zones). For families who prioritize school quality above all else, eastern Valrico's Newsome zoning is the differentiator.
 
 Riverview's schools are adequate but do not carry the same reputation or home value premium. Families choosing Riverview are typically prioritizing price and newness over school prestige.
 
-## Lot Sizes — Not Even Close
+## Lot Sizes, Not Even Close
 
 **Valrico typical lots:**
 - Bloomingdale: 8,000 to 12,000 sq ft
@@ -42,7 +42,7 @@ Riverview's schools are adequate but do not carry the same reputation or home va
 
 This is the most dramatic difference between the two markets. Valrico's established neighborhoods deliver significantly more outdoor space per dollar. If lot size, backyard privacy, and room for a pool matter to your family, Valrico wins decisively.
 
-Riverview's newer construction packs more homes per acre, which creates a denser neighborhood feel. Some families prefer this — closer neighbors, more kids on the street, community amenities within walking distance. Others find it cramped.
+Riverview's newer construction packs more homes per acre, which creates a denser neighborhood feel. Some families prefer this, closer neighbors, more kids on the street, community amenities within walking distance. Others find it cramped.
 
 ## New Construction vs. Established Neighborhoods
 
@@ -118,6 +118,6 @@ Both markets require flood zone verification on individual properties. Do not as
 
 ## The Decision
 
-Run the total monthly cost comparison — not just the purchase price. A $380K Riverview home with $350/month in HOA/CDD costs the same monthly as a $430K Valrico home with zero community fees. When you factor in lot size, school zoning, and long-term resale, the Valrico home often delivers more value despite the higher sticker price.
+Run the total monthly cost comparison, not just the purchase price. A $380K Riverview home with $350/month in HOA/CDD costs the same monthly as a $430K Valrico home with zero community fees. When you factor in lot size, school zoning, and long-term resale, the Valrico home often delivers more value despite the higher sticker price.
 
-I work both markets. Tell me your family's priorities — school zone, budget, lot size, new vs. established — and I will pull options in both communities so you can compare directly.
+I work both markets. Tell me your family's priorities, school zone, budget, lot size, new vs. established, and I will pull options in both communities so you can compare directly.

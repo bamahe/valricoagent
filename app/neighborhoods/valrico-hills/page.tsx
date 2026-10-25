@@ -44,7 +44,7 @@ export default function ValricoHillsPage() {
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
           <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Valrico Hills Homes for Sale, Valrico FL 33594</h1>
-          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Valrico Hills is an established, mid-range neighborhood in Valrico (33594) with solid homes and practical floor plans. Prices from $325K&ndash;$425K. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
+          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Valrico Hills is an established, mid-range neighborhood in Valrico (33594) with solid homes and practical floor plans. Prices from $325K to $425K. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Valrico Hills listings</Link>
             <Link href="/valrico-fl-home-values/" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">What&apos;s my home worth?</Link>
@@ -69,7 +69,7 @@ export default function ValricoHillsPage() {
       <div style={{ background: 'var(--cream)' }}>
         <div className="max-w-[1140px] mx-auto px-7 py-12 grid grid-cols-2 md:grid-cols-4 gap-5">
           {[
-            ['$325K\u2013$425K', 'Price range'],
+            ['$325K to $425K', 'Price range'],
             ['33594', 'ZIP code'],
             ['Varies', 'High school zone'],
             ['Established', 'Community type'],
@@ -90,7 +90,7 @@ export default function ValricoHillsPage() {
             <h2 className="font-serif text-2xl mb-4">About Valrico Hills, Valrico FL</h2>
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Valrico Hills occupies the middle ground in 33594, not the most affordable option and not the premium tier, but a dependable established neighborhood where you get a solid home at a fair price. The community sits in a convenient pocket of Valrico with quick access to SR-60 (Brandon Blvd) for shopping and the I-75 corridor for commuting. For buyers who want a Valrico address without paying for newer construction or gated community premiums, Valrico Hills delivers.</p>
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Homes in Valrico Hills typically range from 1,400 to 2,400 square feet with 3 to 4 bedrooms. The community was built out primarily during the 1980s through the early 2000s, producing a range of home styles from classic Florida ranch plans to two-story layouts. Block construction is standard, and most homes feature split-bedroom floor plans with separate living and family areas. The mature landscaping throughout the neighborhood provides shade and curb appeal that new construction simply cannot match on day one.</p>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>The appeal of Valrico Hills comes down to value and location. At the $325K&ndash;$425K range, you&apos;re getting into a legitimate Valrico 33594 neighborhood with a reasonable commute to Tampa, Brandon, or Lakeland. Homes at the lower end of the range may need cosmetic work, older kitchens, original tile, dated bathrooms, but the bones are typically good. Updated homes in Valrico Hills compete well with newer communities that cost $50K&ndash;$100K more and add CDD fees on top.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>The appeal of Valrico Hills comes down to value and location. At the $325K to $425K range, you&apos;re getting into a legitimate Valrico 33594 neighborhood with a reasonable commute to Tampa, Brandon, or Lakeland. Homes at the lower end of the range may need cosmetic work, older kitchens, original tile, dated bathrooms, but the bones are typically good. Updated homes in Valrico Hills compete well with newer communities that cost $50K to $100K more and add CDD fees on top.</p>
 
             {/* --- Schools --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Schools Serving Valrico Hills</h2>
@@ -101,12 +101,12 @@ export default function ValricoHillsPage() {
             <h2 className="font-serif text-2xl mb-4 mt-10">Location and Commute</h2>
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Valrico Hills benefits from a central Valrico location with direct access to the area&apos;s main corridors. Key commute times:</p>
             <ul className="text-[15px] leading-[1.8] mb-6 space-y-2 pl-5 list-disc" style={{ color: 'var(--ink-soft)' }}>
-              <li><strong>I-75 (SR-60 interchange):</strong> ~3&ndash;4 miles / 8&ndash;10 minutes</li>
-              <li><strong>Downtown Tampa:</strong> ~18 miles / 25&ndash;35 minutes via I-75</li>
-              <li><strong>MacDill Air Force Base:</strong> ~22 miles / 30&ndash;40 minutes</li>
+              <li><strong>I-75 (SR-60 interchange):</strong> ~3 to 4 miles / 8 to 10 minutes</li>
+              <li><strong>Downtown Tampa:</strong> ~18 miles / 25 to 35 minutes via I-75</li>
+              <li><strong>MacDill Air Force Base:</strong> ~22 miles / 30 to 40 minutes</li>
               <li><strong>Brandon Town Center:</strong> ~4 miles / 8 minutes</li>
               <li><strong>Lakeland:</strong> ~26 miles / 30 minutes via I-4</li>
-              <li><strong>Tampa International Airport:</strong> ~25 miles / 30&ndash;40 minutes</li>
+              <li><strong>Tampa International Airport:</strong> ~25 miles / 30 to 40 minutes</li>
             </ul>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>The SR-60 corridor is minutes away with Publix, Walmart, Target, Home Depot, medical offices, and a full range of restaurants and services. Lithia Pinecrest Road provides an additional route to Bloomingdale Avenue and the south Valrico commercial area.</p>
 
@@ -129,10 +129,10 @@ export default function ValricoHillsPage() {
                 </thead>
                 <tbody>
                   {[
-                    ['Valrico Hills', '$325K\u2013$425K', '33594', 'Established mid-range, practical floor plans'],
-                    ['Valri Park', '$280K\u2013$375K', '33594', 'Most affordable 33594 option, smaller homes'],
-                    ['Valrico Oaks', '$350K\u2013$500K', '33594', 'Newsome HS zone, slightly higher tier'],
-                    ['Valrico Forest', '$400K\u2013$525K', '33594', 'Wooded lots, Newsome HS, premium setting'],
+                    ['Valrico Hills', '$325K to $425K', '33594', 'Established mid-range, practical floor plans'],
+                    ['Valri Park', '$280K to $375K', '33594', 'Most affordable 33594 option, smaller homes'],
+                    ['Valrico Oaks', '$350K to $500K', '33594', 'Newsome HS zone, slightly higher tier'],
+                    ['Valrico Forest', '$400K to $525K', '33594', 'Wooded lots, Newsome HS, premium setting'],
                   ].map(([name, price, zip, diff], i) => (
                     <tr key={name} style={{ borderBottom: '1px solid var(--border)' }}>
                       <td className="py-3 pr-4">

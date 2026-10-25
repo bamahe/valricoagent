@@ -29,12 +29,12 @@ export default function CrosbyCrossingsPage() {
   const faqs = [
     { q: 'How much do homes cost in Crosby Crossings Valrico?', a: 'Homes in Crosby Crossings typically sell between $370,000 and $475,000. Most homes range from 1,800 to 2,800 square feet with 3 to 5 bedrooms. Pricing depends on lot position, floor plan, and interior upgrades. Contact Barrett Henry at (813) 733-7907 for current Crosby Crossings pricing.' },
     { q: 'What school zone is Crosby Crossings in?', a: 'Crosby Crossings is zoned for Alafia Elementary (or Cimino Elementary depending on address), Burns Middle School, and Bloomingdale High School in the Hillsborough County School District. Bloomingdale High is a well-regarded public high school. Barrett Henry can verify the exact school assignment for any Crosby Crossings address.' },
-    { q: 'Does Crosby Crossings have an HOA?', a: 'Yes. Crosby Crossings has a mandatory HOA that maintains community standards, common areas, and neighborhood appearance. Monthly HOA fees typically run $100\u2013$200. Some sections may also carry a CDD assessment on the property tax bill. Call Barrett Henry at (813) 733-7907 for current HOA and CDD details.' },
+    { q: 'Does Crosby Crossings have an HOA?', a: 'Yes. Crosby Crossings has a mandatory HOA that maintains community standards, common areas, and neighborhood appearance. Monthly HOA fees typically run $100 to $200. Some sections may also carry a CDD assessment on the property tax bill. Call Barrett Henry at (813) 733-7907 for current HOA and CDD details.' },
     { q: 'Is Crosby Crossings a good neighborhood in Valrico?', a: 'Crosby Crossings is an excellent option for buyers who want newer construction with modern floor plans in the Bloomingdale High School zone. The homes are built to current building codes with energy-efficient systems, and the community offers convenient access to both Valrico and Riverview commercial areas.' },
     { q: 'How far is Crosby Crossings from I-75?', a: 'Crosby Crossings is approximately 5 miles from the I-75 interchange at SR-60 (Brandon Blvd), about a 10 to 12-minute drive. From I-75, downtown Tampa is roughly 25 minutes and Lakeland is about 30 minutes via I-4.' },
-    { q: 'Are there CDD fees in Crosby Crossings?', a: 'Some sections of Crosby Crossings may carry a CDD (Community Development District) assessment in addition to the HOA fee. CDD fees are included in your property tax bill and typically run $1,000\u2013$2,500 per year. Barrett Henry can pull the exact CDD amount for any specific Crosby Crossings address.' },
+    { q: 'Are there CDD fees in Crosby Crossings?', a: 'Some sections of Crosby Crossings may carry a CDD (Community Development District) assessment in addition to the HOA fee. CDD fees are included in your property tax bill and typically run $1,000 to $2,500 per year. Barrett Henry can pull the exact CDD amount for any specific Crosby Crossings address.' },
     { q: 'What year were Crosby Crossings homes built?', a: 'Crosby Crossings homes were built primarily from the 2010s onward, making them some of the newer construction available in south Valrico. The modern construction means open floor plans, impact-resistant features, energy-efficient windows, and updated building code compliance that reduces utility costs and maintenance.' },
-    { q: 'How does Crosby Crossings compare to nearby neighborhoods?', a: 'Crosby Crossings ($370K\u2013$475K) offers newer construction in the Bloomingdale HS zone. Canterbury Oaks ($350K\u2013$475K) has pool and tennis amenities in the same school zone but older construction. Buckhorn Preserve ($350K\u2013$500K) has similar newer construction but in the Newsome HS zone. Duncan Groves ($350K\u2013$450K) provides a more affordable established option.' },
+    { q: 'How does Crosby Crossings compare to nearby neighborhoods?', a: 'Crosby Crossings ($370K to $475K) offers newer construction in the Bloomingdale HS zone. Canterbury Oaks ($350K to $475K) has pool and tennis amenities in the same school zone but older construction. Buckhorn Preserve ($350K to $500K) has similar newer construction but in the Newsome HS zone. Duncan Groves ($350K to $450K) provides a more affordable established option.' },
   ];
 
   return (
@@ -44,7 +44,7 @@ export default function CrosbyCrossingsPage() {
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
           <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Crosby Crossings Homes for Sale, Valrico FL 33596</h1>
-          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Crosby Crossings is a newer construction community in the Bloomingdale corridor of south Valrico (33596). Prices from $370K&ndash;$475K. Bloomingdale High School zone. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
+          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Crosby Crossings is a newer construction community in the Bloomingdale corridor of south Valrico (33596). Prices from $370K to $475K. Bloomingdale High School zone. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Crosby Crossings listings</Link>
             <Link href="/valrico-fl-home-values/" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">What&apos;s my home worth?</Link>
@@ -69,7 +69,7 @@ export default function CrosbyCrossingsPage() {
       <div style={{ background: 'var(--cream)' }}>
         <div className="max-w-[1140px] mx-auto px-7 py-12 grid grid-cols-2 md:grid-cols-4 gap-5">
           {[
-            ['$370K\u2013$475K', 'Price range'],
+            ['$370K to $475K', 'Price range'],
             ['33596', 'ZIP code'],
             ['Bloomingdale HS', 'High school zone'],
             ['Newer Construction', 'Community type'],
@@ -101,18 +101,18 @@ export default function CrosbyCrossingsPage() {
             <h2 className="font-serif text-2xl mb-4 mt-10">Location and Commute</h2>
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Crosby Crossings is positioned between the Valrico and Riverview commercial areas, offering dual-corridor access. Key commute times:</p>
             <ul className="text-[15px] leading-[1.8] mb-6 space-y-2 pl-5 list-disc" style={{ color: 'var(--ink-soft)' }}>
-              <li><strong>I-75 (SR-60 interchange):</strong> ~5 miles / 10&ndash;12 minutes</li>
-              <li><strong>Downtown Tampa:</strong> ~20 miles / 28&ndash;38 minutes via I-75</li>
-              <li><strong>MacDill Air Force Base:</strong> ~24 miles / 32&ndash;42 minutes</li>
+              <li><strong>I-75 (SR-60 interchange):</strong> ~5 miles / 10 to 12 minutes</li>
+              <li><strong>Downtown Tampa:</strong> ~20 miles / 28 to 38 minutes via I-75</li>
+              <li><strong>MacDill Air Force Base:</strong> ~24 miles / 32 to 42 minutes</li>
               <li><strong>Brandon Town Center:</strong> ~7 miles / 14 minutes</li>
               <li><strong>Lakeland:</strong> ~27 miles / 32 minutes via I-4</li>
-              <li><strong>Tampa International Airport:</strong> ~27 miles / 32&ndash;42 minutes</li>
+              <li><strong>Tampa International Airport:</strong> ~27 miles / 32 to 42 minutes</li>
             </ul>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Grocery, dining, and errands are quick. Publix, Walmart, and national restaurant chains are within a 5-minute drive along Bloomingdale Avenue. The Riverview commercial corridor to the south provides additional shopping and dining options, giving Crosby Crossings residents more variety than most south Valrico locations.</p>
 
             {/* --- HOA --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">HOA and Community Fees</h2>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Crosby Crossings has a mandatory HOA that maintains community standards and common areas. Monthly HOA fees typically run $100&ndash;$200. As a newer construction community, some sections may carry a CDD (Community Development District) assessment on the property tax bill, typically $1,000&ndash;$2,500 per year. The CDD funded infrastructure development and is a fixed cost that declines over time as bonds are paid off. Barrett Henry can confirm exact HOA and CDD amounts for any Crosby Crossings address, call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Crosby Crossings has a mandatory HOA that maintains community standards and common areas. Monthly HOA fees typically run $100 to $200. As a newer construction community, some sections may carry a CDD (Community Development District) assessment on the property tax bill, typically $1,000 to $2,500 per year. The CDD funded infrastructure development and is a fixed cost that declines over time as bonds are paid off. Barrett Henry can confirm exact HOA and CDD amounts for any Crosby Crossings address, call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
 
             {/* --- Comparison --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">How Crosby Crossings Compares to Nearby Neighborhoods</h2>
@@ -129,10 +129,10 @@ export default function CrosbyCrossingsPage() {
                 </thead>
                 <tbody>
                   {[
-                    ['Crosby Crossings', '$370K\u2013$475K', 'Bloomingdale', 'Newer construction, modern floor plans'],
-                    ['Canterbury Oaks', '$350K\u2013$475K', 'Bloomingdale', 'Pool & tennis, established community'],
-                    ['Buckhorn Preserve', '$350K\u2013$500K', 'Newsome', 'Gated, community park amenities'],
-                    ['Duncan Groves', '$350K\u2013$450K', 'Bloomingdale', 'More affordable, near parks'],
+                    ['Crosby Crossings', '$370K to $475K', 'Bloomingdale', 'Newer construction, modern floor plans'],
+                    ['Canterbury Oaks', '$350K to $475K', 'Bloomingdale', 'Pool & tennis, established community'],
+                    ['Buckhorn Preserve', '$350K to $500K', 'Newsome', 'Gated, community park amenities'],
+                    ['Duncan Groves', '$350K to $450K', 'Bloomingdale', 'More affordable, near parks'],
                   ].map(([name, price, hs, diff], i) => (
                     <tr key={name} style={{ borderBottom: '1px solid var(--border)' }}>
                       <td className="py-3 pr-4">

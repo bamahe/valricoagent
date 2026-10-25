@@ -58,7 +58,7 @@ export default function VALoanHomes() {
 
             {/* LOAN LIMITS */}
             <h2 className="font-serif text-2xl mb-4 mt-10">VA loan limits in Hillsborough County</h2>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>As of 2026, VA loans have no official loan limit for borrowers with full entitlement, meaning you can buy a home at any price with zero down as long as the lender approves it. For borrowers with reduced entitlement (previous VA loan still active), the conforming loan limit for Hillsborough County applies (currently $766,550). Most Valrico homes fall well within these limits. The median home price in Valrico is around $415K, which is comfortably within full-entitlement VA financing range. Even homes in River Hills and Crestwood Estates ($600K–$1M+) can be purchased with a VA loan if you have full entitlement.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>As of 2026, VA loans have no official loan limit for borrowers with full entitlement, meaning you can buy a home at any price with zero down as long as the lender approves it. For borrowers with reduced entitlement (previous VA loan still active), the conforming loan limit for Hillsborough County applies (currently $766,550). Most Valrico homes fall well within these limits. The median home price in Valrico is around $415K, which is comfortably within full-entitlement VA financing range. Even homes in River Hills and Crestwood Estates ($600K, $1M+) can be purchased with a VA loan if you have full entitlement.</p>
 
             {/* WHICH HOMES QUALIFY */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Which Valrico homes qualify for VA loans?</h2>

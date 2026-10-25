@@ -1,6 +1,6 @@
-## School Ratings and Home Values — The Data Connection
+## School Ratings and Home Values, The Data Connection
 
-In Valrico, school ratings are not just an education metric — they are a real estate pricing mechanism. The relationship between school quality and home value is direct, measurable, and consistent year over year. Understanding this connection gives both buyers and sellers a strategic advantage.
+In Valrico, school ratings are not just an education metric, they are a real estate pricing mechanism. The relationship between school quality and home value is direct, measurable, and consistent year over year. Understanding this connection gives both buyers and sellers a strategic advantage.
 
 ## The Newsome vs. Bloomingdale Premium
 
@@ -11,11 +11,11 @@ Newsome High School and Bloomingdale High School serve different sections of Val
 - 4/2, 2,100 sq ft, pool, updated kitchen, 5-year roof in Bloomingdale (Bloomingdale High zone): $410K
 - Same house. Same condition. $75K difference. The variable is the school zone line.
 
-This premium has been consistent through market cycles. During the 2020-2022 boom, both zones appreciated — but Newsome-zoned homes appreciated faster (40%+ vs. 30%+). During the 2023-2024 correction, Newsome-zoned homes held value better (5-7% pullback vs. 8-10%). The premium is durable.
+This premium has been consistent through market cycles. During the 2020-2022 boom, both zones appreciated, but Newsome-zoned homes appreciated faster (40%+ vs. 30%+). During the 2023-2024 correction, Newsome-zoned homes held value better (5-7% pullback vs. 8-10%). The premium is durable.
 
 ## Which Ratings Matter Most
 
-**High school ratings drive the largest premium.** This is because high school is the school level where families have the fewest options — you cannot easily transfer between public high schools, and private high school tuition ($15K to $25K/year) is a significant expense. Families lock in their high school zone when they buy.
+**High school ratings drive the largest premium.** This is because high school is the school level where families have the fewest options, you cannot easily transfer between public high schools, and private high school tuition ($15K to $25K/year) is a significant expense. Families lock in their high school zone when they buy.
 
 **Middle school ratings matter but less.** Burns Middle and Barrington Middle both serve Valrico students feeding into Newsome. Middle school ratings influence perception but do not create independent home value premiums at the same level as high school.
 
@@ -28,10 +28,10 @@ School zoning is their primary search filter. They narrow by high school zone be
 
 For sellers in the Newsome zone: your listing reaches this entire buyer segment. That depth of demand supports your pricing and speeds your sale.
 
-For sellers in the Bloomingdale zone: you reach a smaller slice of this segment — families who are either priced out of the Newsome zone or who specifically prefer Bloomingdale High. Your pricing strategy must reflect this narrower demand.
+For sellers in the Bloomingdale zone: you reach a smaller slice of this segment, families who are either priced out of the Newsome zone or who specifically prefer Bloomingdale High. Your pricing strategy must reflect this narrower demand.
 
 ### Buyers Without School-Age Children
-Some assume school ratings do not matter if they do not have kids. That is a mistake — school ratings affect your resale value and your buyer pool when you sell. A home in the Newsome zone will attract both family buyers AND non-family buyers when you list it. A home outside the Newsome zone only attracts non-family buyers and families who are priced out of or do not prioritize Newsome.
+Some assume school ratings do not matter if they do not have kids. That is a mistake, school ratings affect your resale value and your buyer pool when you sell. A home in the Newsome zone will attract both family buyers AND non-family buyers when you list it. A home outside the Newsome zone only attracts non-family buyers and families who are priced out of or do not prioritize Newsome.
 
 More potential buyers = more demand = higher price = faster sale. School zone matters at resale regardless of your personal school needs.
 
@@ -53,14 +53,14 @@ Strong school zones drive rental demand. Families who cannot buy in the Newsome 
 Do not trust:
 - Listing descriptions (frequently wrong or outdated)
 - Zillow or Realtor.com school assignments (pulled from third-party data, not verified)
-- General neighborhood assumptions ("Canterbury Oaks is Newsome zone" — partially true, partially false)
+- General neighborhood assumptions ("Canterbury Oaks is Newsome zone", partially true, partially false)
 
 Do trust:
 - The Hillsborough County School District online boundary tool with the exact property address
 - Direct confirmation from the school district
 - Your agent's verification (I check every property)
 
-Zone boundaries can be counterintuitive. Streets that appear to be in the same neighborhood may feed into different schools. Some streets literally straddle the boundary — one side is Newsome, the other is Bloomingdale. Verify before you offer.
+Zone boundaries can be counterintuitive. Streets that appear to be in the same neighborhood may feed into different schools. Some streets literally straddle the boundary, one side is Newsome, the other is Bloomingdale. Verify before you offer.
 
 ## The Rezoning Risk
 
@@ -71,12 +71,12 @@ If a Newsome-zoned neighborhood were rezoned to a different high school, the $30
 ## Strategic Implications
 
 ### For Buyers
-If you can afford the Newsome zone, the premium is worth paying for resale value alone — even if you do not have school-age children. If Newsome pricing exceeds your budget, Bloomingdale High zone offers genuine value with strong schools at $50K to $80K less.
+If you can afford the Newsome zone, the premium is worth paying for resale value alone, even if you do not have school-age children. If Newsome pricing exceeds your budget, Bloomingdale High zone offers genuine value with strong schools at $50K to $80K less.
 
 ### For Sellers in the Newsome Zone
-Lead with school zoning in every marketing touchpoint. Target relocating families specifically. Your competitive advantage is not your kitchen update — it is the school assignment.
+Lead with school zoning in every marketing touchpoint. Target relocating families specifically. Your competitive advantage is not your kitchen update, it is the school assignment.
 
 ### For Sellers Outside the Newsome Zone
-Compete on value. Emphasize what your buyer gets for less money: larger lots, no CDD, lower price per square foot, and a solid (if not premium) school zone. Bloomingdale High is a good school — it just does not carry the same marketable brand as Newsome.
+Compete on value. Emphasize what your buyer gets for less money: larger lots, no CDD, lower price per square foot, and a solid (if not premium) school zone. Bloomingdale High is a good school, it just does not carry the same marketable brand as Newsome.
 
 I verify school zoning on every property I list or show. It is too important to get wrong and too valuable to leave unmentioned.

@@ -45,7 +45,7 @@ export default function BuckhornGolfClubEstatesPage() {
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
           <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Buckhorn Golf Club Estates Homes for Sale, Valrico FL 33596</h1>
-          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Buckhorn Golf Club Estates offers views of Buckhorn Springs Golf &amp; Country Club, the oldest private golf club in the Brandon/Valrico area (est. 1965). Medium to large single-family homes, 3&ndash;5 bedrooms. Prices from $350K&ndash;$550K. Newsome High School zone. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
+          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Buckhorn Golf Club Estates offers views of Buckhorn Springs Golf &amp; Country Club, the oldest private golf club in the Brandon/Valrico area (est. 1965). Medium to large single-family homes, 3 to 5 bedrooms. Prices from $350K to $550K. Newsome High School zone. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Buckhorn Golf Club Estates listings</Link>
             <Link href="/valrico-fl-home-values/" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">What&apos;s my home worth?</Link>
@@ -73,7 +73,7 @@ export default function BuckhornGolfClubEstatesPage() {
       <div style={{ background: 'var(--cream)' }}>
         <div className="max-w-[1140px] mx-auto px-7 py-12 grid grid-cols-2 md:grid-cols-4 gap-5">
           {[
-            ['$350K\u2013$550K', 'Price range'],
+            ['$350K to $550K', 'Price range'],
             ['33596', 'ZIP code'],
             ['Newsome HS', 'High school zone'],
             ['82%', 'Owner-occupied'],
@@ -94,7 +94,7 @@ export default function BuckhornGolfClubEstatesPage() {
             <h2 className="font-serif text-2xl mb-4">About Buckhorn Golf Club Estates, Valrico FL</h2>
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Buckhorn Golf Club Estates is an established neighborhood in Valrico (33596) that offers something most subdivisions cannot: views of Buckhorn Springs Golf &amp; Country Club, the oldest private golf club in the Brandon/Valrico area. Founded in 1965, the club has been a landmark for decades, and homes along its perimeter enjoy fairway views and a parklike setting that no new construction can replicate.</p>
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>The community features medium to large single-family homes with 3 to 5 bedrooms. Construction is solid, lots are well-maintained, and the mature landscaping provides shade and character. With 82% owner-occupancy and an average household size of 2.8 people, this is a stable, family-oriented neighborhood where residents take pride in their properties.</p>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Buckhorn Golf Club Estates sits in the Newsome High School zone, one of the most sought-after school assignments in Hillsborough County. Combined with golf course proximity and mid-range pricing ($350K&ndash;$550K), this neighborhood hits a sweet spot for families, professionals, and retirees who want quality living without luxury-tier pricing.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Buckhorn Golf Club Estates sits in the Newsome High School zone, one of the most sought-after school assignments in Hillsborough County. Combined with golf course proximity and mid-range pricing ($350K to $550K), this neighborhood hits a sweet spot for families, professionals, and retirees who want quality living without luxury-tier pricing.</p>
 
             {/* --- Schools --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Schools Serving Buckhorn Golf Club Estates</h2>
@@ -108,11 +108,11 @@ export default function BuckhornGolfClubEstatesPage() {
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Buckhorn Golf Club Estates is centrally located in Valrico with convenient access to major corridors. Key commute times:</p>
             <ul className="text-[15px] leading-[1.8] mb-6 space-y-2 pl-5 list-disc" style={{ color: 'var(--ink-soft)' }}>
               <li><strong>I-75 (SR-60 interchange):</strong> ~5 miles / 12 minutes</li>
-              <li><strong>Downtown Tampa:</strong> ~20 miles / 30&ndash;40 minutes via I-75</li>
-              <li><strong>MacDill Air Force Base:</strong> ~24 miles / 35&ndash;45 minutes</li>
+              <li><strong>Downtown Tampa:</strong> ~20 miles / 30 to 40 minutes via I-75</li>
+              <li><strong>MacDill Air Force Base:</strong> ~24 miles / 35 to 45 minutes</li>
               <li><strong>Brandon Town Center:</strong> ~6 miles / 12 minutes</li>
               <li><strong>Lakeland:</strong> ~25 miles / 30 minutes via I-4</li>
-              <li><strong>Tampa International Airport:</strong> ~27 miles / 35&ndash;45 minutes</li>
+              <li><strong>Tampa International Airport:</strong> ~27 miles / 35 to 45 minutes</li>
             </ul>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Daily essentials are within minutes. Publix, Winn-Dixie, restaurants, and medical offices are all accessible along the Lithia Pinecrest Road and Bloomingdale Avenue corridors. Buckhorn Springs Golf &amp; Country Club is right next door for those who enjoy the game.</p>
 
@@ -135,11 +135,11 @@ export default function BuckhornGolfClubEstatesPage() {
                 </thead>
                 <tbody>
                   {[
-                    ['Buckhorn Golf Club Estates', '$350K\u2013$550K', 'Yes', 'Golf course views, 82% owner-occupied'],
-                    ['Cimmaron', '$450K\u2013$650K', 'Near', '19 custom homes, no HOA, larger lots'],
-                    ['River Hills', '$500K\u2013$1M+', 'Yes', 'Gated luxury, own golf course'],
-                    ['Buckhorn', '$350K\u2013$500K', 'No', 'Boyette corridor, newer builds'],
-                    ['Durant Oaks', '$375K\u2013$525K', 'No', 'Custom-built, mature landscaping'],
+                    ['Buckhorn Golf Club Estates', '$350K to $550K', 'Yes', 'Golf course views, 82% owner-occupied'],
+                    ['Cimmaron', '$450K to $650K', 'Near', '19 custom homes, no HOA, larger lots'],
+                    ['River Hills', '$500K to $1M+', 'Yes', 'Gated luxury, own golf course'],
+                    ['Buckhorn', '$350K to $500K', 'No', 'Boyette corridor, newer builds'],
+                    ['Durant Oaks', '$375K to $525K', 'No', 'Custom-built, mature landscaping'],
                   ].map(([name, price, golf, diff], i) => (
                     <tr key={name} style={{ borderBottom: '1px solid var(--border)' }}>
                       <td className="py-3 pr-4">

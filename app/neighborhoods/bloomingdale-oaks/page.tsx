@@ -45,7 +45,7 @@ export default function BloomingdaleOaksPage() {
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
           <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Bloomingdale Oaks Homes for Sale, Valrico FL 33596</h1>
-          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Bloomingdale Oaks is one of the most recognizable and sought-after sub-neighborhoods within the Bloomingdale community in south Valrico (33596). Prices from $350K&ndash;$475K. Bloomingdale HS zone. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
+          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Bloomingdale Oaks is one of the most recognizable and sought-after sub-neighborhoods within the Bloomingdale community in south Valrico (33596). Prices from $350K to $475K. Bloomingdale HS zone. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Bloomingdale Oaks listings</Link>
             <Link href="/valrico-fl-home-values/" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">What&apos;s my home worth?</Link>
@@ -73,7 +73,7 @@ export default function BloomingdaleOaksPage() {
       <div style={{ background: 'var(--cream)' }}>
         <div className="max-w-[1140px] mx-auto px-7 py-12 grid grid-cols-2 md:grid-cols-4 gap-5">
           {[
-            ['$350K\u2013$475K', 'Price range'],
+            ['$350K to $475K', 'Price range'],
             ['33596', 'ZIP code'],
             ['Bloomingdale HS', 'High school zone'],
             ['Established', 'Sidewalks throughout'],
@@ -107,12 +107,12 @@ export default function BloomingdaleOaksPage() {
             <h2 className="font-serif text-2xl mb-4 mt-10">Location and Commute</h2>
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Bloomingdale Oaks is centrally positioned within the Bloomingdale community with quick access to the commercial corridor. Key commute times:</p>
             <ul className="text-[15px] leading-[1.8] mb-6 space-y-2 pl-5 list-disc" style={{ color: 'var(--ink-soft)' }}>
-              <li><strong>I-75 (SR-60 interchange):</strong> ~6 miles / 12&ndash;15 minutes</li>
-              <li><strong>Downtown Tampa:</strong> ~20 miles / 28&ndash;38 minutes via I-75 or Selmon</li>
-              <li><strong>MacDill Air Force Base:</strong> ~24 miles / 35&ndash;45 minutes</li>
-              <li><strong>Brandon Town Center:</strong> ~5 miles / 10&ndash;12 minutes</li>
-              <li><strong>Lakeland:</strong> ~28 miles / 30&ndash;35 minutes via I-4</li>
-              <li><strong>Tampa International Airport:</strong> ~27 miles / 35&ndash;45 minutes</li>
+              <li><strong>I-75 (SR-60 interchange):</strong> ~6 miles / 12 to 15 minutes</li>
+              <li><strong>Downtown Tampa:</strong> ~20 miles / 28 to 38 minutes via I-75 or Selmon</li>
+              <li><strong>MacDill Air Force Base:</strong> ~24 miles / 35 to 45 minutes</li>
+              <li><strong>Brandon Town Center:</strong> ~5 miles / 10 to 12 minutes</li>
+              <li><strong>Lakeland:</strong> ~28 miles / 30 to 35 minutes via I-4</li>
+              <li><strong>Tampa International Airport:</strong> ~27 miles / 35 to 45 minutes</li>
             </ul>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Publix, Winn-Dixie, CVS, and a range of restaurants and services are within 2 to 3 minutes along Bloomingdale Avenue. The Lee Roy Selmon Expressway provides a faster route into downtown Tampa during rush hour. HCA Florida Brandon Hospital is a short drive north.</p>
 
@@ -135,11 +135,11 @@ export default function BloomingdaleOaksPage() {
                 </thead>
                 <tbody>
                   {[
-                    ['Bloomingdale Oaks', '$350K\u2013$475K', 'Yes', 'Best name recognition, strong resale'],
-                    ['Bloomingdale Cove', '$375K\u2013$500K', 'Partial', 'More updated interiors, central'],
-                    ['Bloomingdale East', '$350K\u2013$500K', 'No', 'Larger lots, eastern edge privacy'],
-                    ['Buckhorn Bloomingdale', '$300K\u2013$420K', 'No', 'Most affordable in 33596'],
-                    ['Brentwood Hills', '$340K\u2013$475K', 'Yes', 'Community pool, dual ZIP codes'],
+                    ['Bloomingdale Oaks', '$350K to $475K', 'Yes', 'Best name recognition, strong resale'],
+                    ['Bloomingdale Cove', '$375K to $500K', 'Partial', 'More updated interiors, central'],
+                    ['Bloomingdale East', '$350K to $500K', 'No', 'Larger lots, eastern edge privacy'],
+                    ['Buckhorn Bloomingdale', '$300K to $420K', 'No', 'Most affordable in 33596'],
+                    ['Brentwood Hills', '$340K to $475K', 'Yes', 'Community pool, dual ZIP codes'],
                   ].map(([name, price, walks, diff], i) => (
                     <tr key={name} style={{ borderBottom: '1px solid var(--border)' }}>
                       <td className="py-3 pr-4">

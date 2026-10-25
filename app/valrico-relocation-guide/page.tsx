@@ -63,8 +63,8 @@ export default function RelocationGuide() {
             <div className="space-y-4 mb-6">
               {[
                 ['Families with kids','Bloomingdale, Buckhorn Preserve, Arista, strong school zones, sidewalks, community pools, and plenty of families in the same stage of life.'],
-                ['Move-up buyers','River Hills, Crestwood Estates, Diamond Hill, larger lots, higher price points ($500K–$1.2M+), and a more rural feel while still being close to everything.'],
-                ['First-time buyers','Valri Park, Twin Lakes, Savannah Landings, entry-level pricing ($275K–$375K) with solid bones and manageable HOA fees.'],
+                ['Move-up buyers','River Hills, Crestwood Estates, Diamond Hill, larger lots, higher price points ($500K, $1.2M+), and a more rural feel while still being close to everything.'],
+                ['First-time buyers','Valri Park, Twin Lakes, Savannah Landings, entry-level pricing ($275K, $375K) with solid bones and manageable HOA fees.'],
                 ['Retirees and downsizers','Single-story homes throughout Valrico, plus nearby 55+ communities like Sun City Center and Valencia Lakes. No state income tax makes Florida especially attractive for retirement income. See the 55+ communities guide.'],
                 ['Investors','Kings Mill townhomes, Savannah Landings, Valri Park, lower entry points with strong rental demand from MacDill AFB families and young professionals.'],
               ].map(([lifestyle,desc])=>(

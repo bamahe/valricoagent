@@ -1,8 +1,8 @@
-## Know Your Buyer — What Commands a Premium in 2026
+## Know Your Buyer, What Commands a Premium in 2026
 
 To sell for top dollar in Valrico, you need to understand what today's buyers value most. Not what you think they should value. Not what was hot in 2019. What actually moves the needle in 2026, backed by what I see in offers, showing feedback, and closed sales data.
 
-## The Premium Features — With Dollar Values
+## The Premium Features, With Dollar Values
 
 ### Newsome High School Zoning: $30K to $50K Premium
 
@@ -12,7 +12,7 @@ If your home is zoned for Newsome, it should be in the first sentence of your li
 
 ### Updated Kitchen: $15K to $30K Value Add
 
-Quartz countertops, shaker-style cabinets (white or gray), stainless steel appliances, tile backsplash, and under-cabinet lighting. You do not need a $50K gut remodel. A $7K to $12K kitchen refresh — painted cabinets, new countertops, modern hardware, and a backsplash — photographs like a $30K renovation and moves the value needle $15K to $30K.
+Quartz countertops, shaker-style cabinets (white or gray), stainless steel appliances, tile backsplash, and under-cabinet lighting. You do not need a $50K gut remodel. A $7K to $12K kitchen refresh, painted cabinets, new countertops, modern hardware, and a backsplash, photographs like a $30K renovation and moves the value needle $15K to $30K.
 
 The flip side: a dated kitchen with laminate counters, honey oak cabinets, and white appliances costs you $10K to $20K in buyer negotiations. Buyers in 2026 have seen enough HGTV to know what a modern kitchen looks like, and they are not paying full price for one that does not match.
 
@@ -20,19 +20,19 @@ The flip side: a dated kitchen with laminate counters, honey oak cabinets, and w
 
 A well-maintained pool with equipment less than 7 years old, an intact screen enclosure, clean decking, and crystal-clear water is a major selling point. In Florida's climate, the pool is the backyard. An excellent pool extends your living space and adds genuine value.
 
-A neglected pool with old equipment, torn screens, cracked decking, and murky water does the opposite — it subtracts value because buyers immediately calculate the $10K to $25K repair cost and deduct it from their offer.
+A neglected pool with old equipment, torn screens, cracked decking, and murky water does the opposite, it subtracts value because buyers immediately calculate the $10K to $25K repair cost and deduct it from their offer.
 
 ### New or Recent Roof: $10K to $25K Value Protection
 
 A roof less than 5 years old does not add $25K to your value. But an old roof (15+ years) subtracts $15K to $25K because buyers factor in replacement cost ($15K to $25K) AND the difficulty of getting insurance with an aging roof. A new roof protects your asking price rather than adding to it.
 
-In Florida's current insurance market, roof age is not just about condition — it is about insurability. Buyers literally cannot get coverage from preferred carriers on homes with roofs over 15 years old. A new roof eliminates that barrier.
+In Florida's current insurance market, roof age is not just about condition, it is about insurability. Buyers literally cannot get coverage from preferred carriers on homes with roofs over 15 years old. A new roof eliminates that barrier.
 
 ### Updated Owners Suite Bathroom: $8K to $15K
 
 Walk-in shower (tiled, frameless glass), double vanity, modern tile, updated lighting and fixtures. The owners suite bathroom sells the owners suite, and the owners suite sells the home.
 
-The dated version — garden tub, brass fixtures, small vanity, pink or beige tile — immediately signals "this home has not been updated." Buyers mentally deduct the renovation cost.
+The dated version, garden tub, brass fixtures, small vanity, pink or beige tile, immediately signals "this home has not been updated." Buyers mentally deduct the renovation cost.
 
 ### Impact Windows or Newer Windows: $5K to $15K
 
@@ -61,7 +61,7 @@ LVP (luxury vinyl plank) or tile throughout the living areas. No carpet in main 
 
 **Enclosed garage conversions.** Buyers want garages. A 2-car garage converted to a media room or gym reduces value because you have eliminated a feature most buyers require. If you have converted your garage, consider converting it back before listing.
 
-**Extensive landscaping.** Beautiful landscaping helps curb appeal and showing presentation, but buyers do not pay $15K more for $15K worth of exotic plants and hardscaping. They pay for clean, maintained, and attractive — not botanical garden.
+**Extensive landscaping.** Beautiful landscaping helps curb appeal and showing presentation, but buyers do not pay $15K more for $15K worth of exotic plants and hardscaping. They pay for clean, maintained, and attractive, not botanical garden.
 
 ## The Strategic Takeaway
 

@@ -208,7 +208,7 @@ export default function ValricoShortSale() {
                   });
                   form.reset();
                   alert('Submitted. Barrett will call you within 2 hours.');
-                } catch { alert('Error — please call (813) 733-7907 directly.'); }
+                } catch { alert('Error, please call (813) 733-7907 directly.'); }
               }} className="space-y-3">
                 <input name="name" required placeholder="Your name" className="w-full px-3 py-2.5 text-sm border rounded" style={{borderColor:'var(--border)'}} />
                 <input name="phone" required placeholder="Phone number" type="tel" className="w-full px-3 py-2.5 text-sm border rounded" style={{borderColor:'var(--border)'}} />

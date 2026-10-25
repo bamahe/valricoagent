@@ -8,7 +8,7 @@ This is where the real work happens. Everything you do in this phase determines 
 
 **Get a detailed CMA from a local agent.** Not a Zestimate. Not what your neighbor thinks. A comparative market analysis using closed sales from the last 90 days in your specific subdivision. I run every CMA at the sub-neighborhood level because a 4/2 in Bloomingdale Oaks prices differently than a 4/2 in Buckhorn Preserve, even though both are "Valrico."
 
-**Walk the property with critical eyes.** Pretend you are a buyer seeing it for the first time. What jumps out? Scuffed baseboards, a dripping faucet, a pool that looks green, weeds in the flower beds — buyers notice everything, and every flaw becomes a negotiation point.
+**Walk the property with critical eyes.** Pretend you are a buyer seeing it for the first time. What jumps out? Scuffed baseboards, a dripping faucet, a pool that looks green, weeds in the flower beds, buyers notice everything, and every flaw becomes a negotiation point.
 
 **Address big-ticket items first:**
 - **Roof:** If your roof is over 15 years old, get a professional inspection before listing. In Florida's current insurance market, a roof that fails inspection can make your home uninsurable for some buyers. A new roof ($15K to $25K) is often the highest-ROI pre-listing investment.
@@ -16,7 +16,7 @@ This is where the real work happens. Everything you do in this phase determines 
 - **Pool equipment:** Crystal clear water, working pump and filter, intact screen enclosure. A dirty pool kills deals faster than almost anything else.
 - **Electrical panel:** If you still have a Federal Pacific or Zinsco panel, replace it. These are flagged by every inspector.
 
-**Declutter every room including the garage and lanai.** Remove 30 to 50% of your personal items. Rent a storage unit. Buyers need to see the space, not your stuff. This is especially important for the owners suite — clear the closets to half-full, remove personal photos, make it feel like a hotel.
+**Declutter every room including the garage and lanai.** Remove 30 to 50% of your personal items. Rent a storage unit. Buyers need to see the space, not your stuff. This is especially important for the owners suite, clear the closets to half-full, remove personal photos, make it feel like a hotel.
 
 **Deep clean or hire professionals.** Budget $300 to $600 for a professional deep clean including windows, baseboards, grout lines, ceiling fans, and appliances. A clean home signals "well maintained." A dirty home signals "what else have they neglected?"
 
@@ -26,7 +26,7 @@ This is where the real work happens. Everything you do in this phase determines 
 - Pressure wash driveway, walkways, pool deck, and exterior walls ($200 to $500)
 - Fresh mulch in all beds ($150 to $300)
 - Edge the lawn, trim bushes, remove dead plants
-- Clean the front door — replace the doormat
+- Clean the front door, replace the doormat
 - Make sure house numbers are visible and exterior lights work
 
 ## Phase 2: Listing Prep (1 Week Before)
@@ -37,11 +37,11 @@ I hire a professional photographer for every listing I take. No exceptions.
 
 **Video walkthrough.** A 60 to 90 second walkthrough video for social media and MLS. This is critical for Valrico because a significant percentage of buyers are relocating from out of state and will make decisions based on video before scheduling an in-person visit.
 
-**Write a compelling listing description.** Lead with the neighborhood and school zone. Highlight upgrades with specifics (year of roof, brand of appliances, type of countertops). Mention the lifestyle — not just the features.
+**Write a compelling listing description.** Lead with the neighborhood and school zone. Highlight upgrades with specifics (year of roof, brand of appliances, type of countertops). Mention the lifestyle, not just the features.
 
 **Set the list price.** Based on the CMA, competitive positioning, and your timeline goals. I present a pricing range and discuss strategy: price at market for a 30-day sale, price slightly below market to generate urgency and potentially multiple offers, or price at the top of range and accept a longer marketing period.
 
-**Prep disclosure documents.** Florida requires seller disclosures. Complete them honestly and thoroughly — undisclosed issues that surface during inspection create legal liability and kill trust.
+**Prep disclosure documents.** Florida requires seller disclosures. Complete them honestly and thoroughly, undisclosed issues that surface during inspection create legal liability and kill trust.
 
 ## Phase 3: Active Marketing (Weeks 1 to 4)
 
@@ -72,9 +72,9 @@ I hire a professional photographer for every listing I take. No exceptions.
 
 **Buyer inspection (days 5 to 15).** The inspector will find things. The question is whether those things are real concerns or cosmetic items. I help you prioritize: address safety and structural issues, push back on cosmetic complaints, and negotiate repair credits rather than actual repairs when possible.
 
-**Appraisal (days 15 to 25).** The lender sends an appraiser to confirm the home is worth the contract price. In Valrico's current market, appraisals are generally coming in at or near contract price. If there is a shortfall, we negotiate — the buyer brings additional cash, the seller reduces price, or we meet somewhere in the middle.
+**Appraisal (days 15 to 25).** The lender sends an appraiser to confirm the home is worth the contract price. In Valrico's current market, appraisals are generally coming in at or near contract price. If there is a shortfall, we negotiate, the buyer brings additional cash, the seller reduces price, or we meet somewhere in the middle.
 
-**Title work and lien search.** The title company verifies clear title. Occasionally issues surface — unpaid liens, boundary disputes, HOA violations. I coordinate with the title company to resolve these before they delay closing.
+**Title work and lien search.** The title company verifies clear title. Occasionally issues surface, unpaid liens, boundary disputes, HOA violations. I coordinate with the title company to resolve these before they delay closing.
 
 **Final walkthrough (day before closing).** The buyer walks the property to verify condition matches what they agreed to buy. Make sure the home is clean, all agreed-upon repairs are complete, and nothing has changed since inspection.
 

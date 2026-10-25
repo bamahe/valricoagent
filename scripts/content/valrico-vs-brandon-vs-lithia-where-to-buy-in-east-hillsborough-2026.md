@@ -1,6 +1,6 @@
 ## Three Markets, One Corridor
 
-Valrico, Brandon, and Lithia form a triangle in East Hillsborough County. They share highways, shopping centers, and some school zones — but each delivers a fundamentally different product. Here is the honest breakdown.
+Valrico, Brandon, and Lithia form a triangle in East Hillsborough County. They share highways, shopping centers, and some school zones, but each delivers a fundamentally different product. Here is the honest breakdown.
 
 ## Price Comparison
 
@@ -11,13 +11,13 @@ Valrico, Brandon, and Lithia form a triangle in East Hillsborough County. They s
 | Lithia (FishHawk) | $425K to $650K | $200 to $245 |
 | Lithia (Rural) | $350K to $700K+ | Varies by acreage |
 
-Brandon is the most affordable. Valrico is the middle ground. Lithia (FishHawk) is the premium play. Rural Lithia is a wildcard — price depends heavily on acreage and improvements.
+Brandon is the most affordable. Valrico is the middle ground. Lithia (FishHawk) is the premium play. Rural Lithia is a wildcard, price depends heavily on acreage and improvements.
 
-## School Zones — The Key Differentiator
+## School Zones, The Key Differentiator
 
 **Brandon:** Multiple high school zones including Bloomingdale, Brandon, Durant. School quality varies significantly by location within Brandon. Some areas feed into strong schools, others into schools with lower ratings.
 
-**Valrico:** Eastern Valrico feeds into Newsome High School — consistently one of the top public high schools in Hillsborough County. Western Valrico feeds into Bloomingdale High — solid but without the Newsome premium. The Newsome zone adds $30K to $50K in home value.
+**Valrico:** Eastern Valrico feeds into Newsome High School, consistently one of the top public high schools in Hillsborough County. Western Valrico feeds into Bloomingdale High, solid but without the Newsome premium. The Newsome zone adds $30K to $50K in home value.
 
 **Lithia (FishHawk):** Also feeds into Newsome High School. FishHawk buyers get the same school zoning as eastern Valrico but pay more for it due to community amenities and newer construction. Barrington Middle School serves FishHawk.
 
@@ -51,7 +51,7 @@ Of course, the $450K home in Brandon gives you different features than the $450K
 
 **Lithia (FishHawk):** Smaller lots in the 5,000 to 7,500 sq ft range. Some villages have zero-lot-line homes. The master-planned design prioritizes community amenity space over individual lot size.
 
-**Lithia (Rural):** The largest properties of all — 2 to 20+ acres. Well and septic, agricultural zoning, genuine privacy.
+**Lithia (Rural):** The largest properties of all, 2 to 20+ acres. Well and septic, agricultural zoning, genuine privacy.
 
 ## Commute Comparison
 
@@ -83,13 +83,13 @@ Lithia wins for Lakeland commuters. Valrico splits the difference between Tampa 
 
 **Valrico:** Residential suburban. Quiet neighborhoods, larger lots, minimal commercial development within Valrico itself. Grocery stores and chain retail are along the Brandon border. Community feel without commercial density.
 
-**Lithia (FishHawk):** Master-planned suburban. Resort-style amenities, walking trails, village centers, and a cohesive aesthetic. It feels designed — because it is. Some buyers love the polish, others find it sterile.
+**Lithia (FishHawk):** Master-planned suburban. Resort-style amenities, walking trails, village centers, and a cohesive aesthetic. It feels designed, because it is. Some buyers love the polish, others find it sterile.
 
 **Lithia (Rural):** Country living. Horses, farms, dirt roads, well and septic. Beautiful but remote from services.
 
 ## Investment and Resale
 
-**Brandon:** Affordable entry points make it attractive for investors. Rental demand is strong. Resale is steady but not premium — Brandon does not carry the brand cachet of Valrico or FishHawk.
+**Brandon:** Affordable entry points make it attractive for investors. Rental demand is strong. Resale is steady but not premium, Brandon does not carry the brand cachet of Valrico or FishHawk.
 
 **Valrico:** Strong resale driven by school zones and limited new supply. Buckhorn and River Hills in particular hold value well. Rental demand is solid in Twin Lakes and Bloomingdale.
 
@@ -105,4 +105,4 @@ Lithia wins for Lakeland commuters. Valrico splits the difference between Tampa 
 
 **Choose Rural Lithia if:** You want acreage, privacy, and freedom above all else. You are comfortable with well/septic and distance from services.
 
-I work all three markets. Tell me your priorities — budget, schools, commute, lot size, amenities — and I will pull options across Brandon, Valrico, and Lithia so you can compare directly.
+I work all three markets. Tell me your priorities, budget, schools, commute, lot size, amenities, and I will pull options across Brandon, Valrico, and Lithia so you can compare directly.

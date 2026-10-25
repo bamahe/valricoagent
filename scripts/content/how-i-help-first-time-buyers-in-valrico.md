@@ -2,7 +2,7 @@
 
 First-time buyers have the most questions and the most anxiety of any buyer type. That is normal. You are making the largest financial decision of your life, navigating a process you have never done before, and sorting through conflicting advice from the internet, family, and friends.
 
-Here is exactly how I work with first-time buyers in Valrico — step by step, with no assumptions about what you already know.
+Here is exactly how I work with first-time buyers in Valrico, step by step, with no assumptions about what you already know.
 
 ## Step 1: The Initial Conversation
 
@@ -30,7 +30,7 @@ If you are not pre-approved yet, I connect you with 2 to 3 lenders who handle th
 
 Why multiple lenders? A quarter-point rate difference on a $380K mortgage is $57/month or $20,520 over the life of the loan. Fifteen minutes comparing quotes can save you thousands.
 
-## Step 3: Education — Valrico 101
+## Step 3: Education, Valrico 101
 
 Before we start touring, I walk you through the Valrico landscape:
 
@@ -38,15 +38,15 @@ Before we start touring, I walk you through the Valrico landscape:
 
 **CDD explained:** Some newer Buckhorn properties carry CDD assessments of $125 to $300/month that show up on your tax bill and cannot be opted out of. I flag every CDD property before we tour it so there are no surprises.
 
-**Flood zones:** Most of Valrico is Zone X (minimal risk). Pockets near the Alafia River are Zone AE (flood insurance required — $1,500 to $5,000+/year). I verify flood zone status on every property.
+**Flood zones:** Most of Valrico is Zone X (minimal risk). Pockets near the Alafia River are Zone AE (flood insurance required, $1,500 to $5,000+/year). I verify flood zone status on every property.
 
 **Insurance reality:** Florida homeowners insurance runs $3,500 to $7,000/year depending on roof age, construction type, and coverage level. Budget for this. It is real money that affects your monthly payment.
 
-**HOA vs. no-HOA:** I explain the financial and lifestyle differences. Many Valrico neighborhoods have no HOA at all — Brentwood Hills, Diamond Hill, Crestwood Estates, parts of Bloomingdale. Others have HOAs ranging from $50/month to $250/month.
+**HOA vs. no-HOA:** I explain the financial and lifestyle differences. Many Valrico neighborhoods have no HOA at all, Brentwood Hills, Diamond Hill, Crestwood Estates, parts of Bloomingdale. Others have HOAs ranging from $50/month to $250/month.
 
 ## Step 4: Targeted Search Setup
 
-I set up automated MLS alerts (not Zillow — direct MLS feeds) filtered to your specific criteria:
+I set up automated MLS alerts (not Zillow, direct MLS feeds) filtered to your specific criteria:
 - Price range with a buffer ($15K to $20K above your max in case of negotiation room)
 - Bedroom and bathroom count
 - Pool preference (yes, no, either)
@@ -55,7 +55,7 @@ I set up automated MLS alerts (not Zillow — direct MLS feeds) filtered to your
 - CDD filter (no CDD properties, or include them)
 - Flood zone filter
 
-New listings hit your inbox before they appear on Zillow or Realtor.com. Speed matters — good homes under $425K in Valrico go under contract within 2 weeks.
+New listings hit your inbox before they appear on Zillow or Realtor.com. Speed matters, good homes under $425K in Valrico go under contract within 2 weeks.
 
 ## Step 5: Showing Strategy
 
@@ -81,7 +81,7 @@ During the showing, I point out things you will not notice as a first-time buyer
 
 When you find the right home, I prepare a competitive offer based on:
 - Comparable sales analysis (what it is actually worth, not what the seller asks)
-- Days on market (new listing vs. sitting — different strategies)
+- Days on market (new listing vs. sitting, different strategies)
 - Seller motivation signals
 - Your financing strength (pre-approval quality, down payment size)
 
@@ -95,19 +95,19 @@ I explain every term on the contract before you sign. No jargon, no assumptions.
 
 ## Step 7: Due Diligence Protection
 
-The inspection is your safety net. I schedule it, attend it, and walk through the findings with you. A typical inspection report is 30 to 50 pages — I help you separate the real concerns from the noise.
+The inspection is your safety net. I schedule it, attend it, and walk through the findings with you. A typical inspection report is 30 to 50 pages, I help you separate the real concerns from the noise.
 
 I negotiate repair credits rather than requiring the seller to fix things. This gives you control over contractor selection and ensures quality work.
 
 I also coordinate:
 - Wind mitigation inspection (for insurance premium reduction)
-- 4-point inspection (roof, HVAC, electrical, plumbing — required by most insurers)
+- 4-point inspection (roof, HVAC, electrical, plumbing, required by most insurers)
 - Termite/WDO inspection
-- Insurance quoting (start early — some homes are harder to insure than others)
+- Insurance quoting (start early, some homes are harder to insure than others)
 
 ## Step 8: Closing and Beyond
 
-I track every deadline — inspection, appraisal, financing commitment, closing — and communicate proactively so nothing falls through the cracks. I attend your closing to make sure there are no last-minute surprises.
+I track every deadline, inspection, appraisal, financing commitment, closing, and communicate proactively so nothing falls through the cracks. I attend your closing to make sure there are no last-minute surprises.
 
 After closing, I remind you to:
 - File for homestead exemption by March 1 (saves approximately $950/year in property taxes)

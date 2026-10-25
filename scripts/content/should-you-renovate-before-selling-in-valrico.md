@@ -22,7 +22,7 @@ If yes, do it. If no, skip it.
 
 ## ROI by Renovation Type
 
-### Tier 1: High ROI (150%+ return) — Do These
+### Tier 1: High ROI (150%+ return), Do These
 
 **Fresh interior paint: $2,000 to $4,500**
 Expected return: $5,000 to $8,000 in perceived value
@@ -32,7 +32,7 @@ Why: Neutral paint (greige, warm white, light gray) photographs dramatically bet
 **Professional deep cleaning: $300 to $600**
 Expected return: $1,000 to $3,000 in avoided buyer objections
 ROI: 200 to 500%
-Why: A clean home signals "well maintained." A dirty home — even one with beautiful finishes — signals neglect. Buyers mentally discount dirty homes far beyond the cost of cleaning.
+Why: A clean home signals "well maintained." A dirty home, even one with beautiful finishes, signals neglect. Buyers mentally discount dirty homes far beyond the cost of cleaning.
 
 **Pressure washing: $200 to $500**
 Expected return: $1,000 to $2,000 in curb appeal value
@@ -49,7 +49,7 @@ Expected return: $2,000 to $5,000 in avoided negotiations
 ROI: 400%+
 Why: Crystal clear water, clean tile line, working equipment. A dirty or green pool kills deals in Florida faster than almost any other issue.
 
-### Tier 2: Moderate ROI (80 to 120% return) — Selective Investment
+### Tier 2: Moderate ROI (80 to 120% return), Selective Investment
 
 **Kitchen refresh (not remodel): $5,000 to $12,000**
 Expected return: $8,000 to $18,000
@@ -72,7 +72,7 @@ Expected return: $5,000 to $10,000
 ROI: 80 to 125%
 Why: Worn carpet in living areas is the fastest way to make a home look dated. LVP (luxury vinyl plank) is durable, waterproof, and photographs well.
 
-### Tier 3: Low ROI (50% or less) — Skip These
+### Tier 3: Low ROI (50% or less), Skip These
 
 **Full kitchen remodel: $30,000 to $60,000**
 Expected return: $15,000 to $30,000
@@ -101,7 +101,7 @@ Why: A $100K kitchen in a $425K neighborhood does not create a $525K home. The n
 
 ## Best Bay Services for Pre-Listing Repairs
 
-For sellers who need pre-listing handyman work — pressure washing, minor repairs, painting, fixture replacements, pool maintenance, and general cleanup — Best Bay Services handles it at fair pricing with fast turnaround. This is my in-house maintenance connection that gets your home showing-ready without the markup and scheduling delays of hiring multiple contractors separately.
+For sellers who need pre-listing handyman work, pressure washing, minor repairs, painting, fixture replacements, pool maintenance, and general cleanup, Best Bay Services handles it at fair pricing with fast turnaround. This is my in-house maintenance connection that gets your home showing-ready without the markup and scheduling delays of hiring multiple contractors separately.
 
 ## The Decision Framework
 
@@ -112,4 +112,4 @@ Before spending money on any pre-listing improvement:
 3. **Will it change the buyer's perception of condition?** If it converts your home from "needs work" to "move-in ready," the investment pays for itself in faster sale and higher price.
 4. **Does the cost exceed the neighborhood price ceiling?** If your updates push the home above what the neighborhood can support, you are over-improving.
 
-I walk every listing before we go live and provide a specific, prioritized improvement list. Not generic advice — a dollar-specific plan with estimated ROI for your home, your price point, and your competition.
+I walk every listing before we go live and provide a specific, prioritized improvement list. Not generic advice, a dollar-specific plan with estimated ROI for your home, your price point, and your competition.

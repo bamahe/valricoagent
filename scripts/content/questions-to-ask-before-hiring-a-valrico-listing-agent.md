@@ -2,13 +2,13 @@
 
 Choosing a listing agent is the most consequential financial decision in your home sale. The right agent prices accurately, markets aggressively, and negotiates effectively. The wrong agent overprices to win the listing, takes phone photos, and disappears after the sign goes in the yard.
 
-Here are 10 questions to ask — and what the answers tell you.
+Here are 10 questions to ask, and what the answers tell you.
 
 ## 1. How Many Valrico Homes Have You Sold in the Past 12 Months?
 
 **Why it matters:** An agent who sold 30 homes in South Tampa does not know Valrico's micro-markets. They do not know that Buckhorn Preserve carries a CDD, that Diamond Hill lots are half-acre minimum, or that the Newsome zone adds $30K to $50K in value.
 
-**Good answer:** Specific number with neighborhood names. "I closed 8 transactions in Valrico last year — three in Bloomingdale, two in Buckhorn, one in River Hills, and two in Twin Lakes."
+**Good answer:** Specific number with neighborhood names. "I closed 8 transactions in Valrico last year, three in Bloomingdale, two in Buckhorn, one in River Hills, and two in Twin Lakes."
 
 **Red flag:** Vague response. "I sell all over Tampa Bay." That means they do not specialize in your market.
 
@@ -25,7 +25,7 @@ Here are 10 questions to ask — and what the answers tell you.
 **Why it matters:** Putting your home on MLS is the baseline. Every agent does it. The question is what they do beyond the baseline.
 
 **Good answer should include:**
-- Professional photography (not phone photos — professional camera, wide-angle lens, proper lighting)
+- Professional photography (not phone photos, professional camera, wide-angle lens, proper lighting)
 - Video walkthrough for social media and MLS
 - Targeted social media advertising (Facebook/Instagram ads to specific demographics)
 - Email marketing to active buyer database and local agent network
@@ -38,7 +38,7 @@ Here are 10 questions to ask — and what the answers tell you.
 
 **Why it matters:** Photos are the first impression for 95% of buyers who start their search online. Dark, blurry, or poorly composed photos cost you showings.
 
-**Good answer:** Shows you their MLS listing photos from recent sales. Professional quality — bright, wide-angle, properly staged shots. Maybe includes twilight exteriors and aerial/drone work.
+**Good answer:** Shows you their MLS listing photos from recent sales. Professional quality, bright, wide-angle, properly staged shots. Maybe includes twilight exteriors and aerial/drone work.
 
 **Red flag:** Defensive reaction. "The photos look fine." Or they show you phone photos with harsh shadows and cluttered rooms.
 
@@ -46,7 +46,7 @@ Here are 10 questions to ask — and what the answers tell you.
 
 **Why it matters:** The number one complaint sellers have about their agents is lack of communication. Set expectations before you sign the listing agreement.
 
-**Good answer:** "I send weekly updates every Monday with showing count, feedback summary, and market activity. After every showing, I collect feedback and share it within 24 hours. If something changes — new comp, price adjustment needed, strong interest — I call immediately."
+**Good answer:** "I send weekly updates every Monday with showing count, feedback summary, and market activity. After every showing, I collect feedback and share it within 24 hours. If something changes, new comp, price adjustment needed, strong interest, I call immediately."
 
 **Red flag:** "I will be in touch." No specific plan means no specific commitment.
 
@@ -54,7 +54,7 @@ Here are 10 questions to ask — and what the answers tell you.
 
 **Why it matters:** This question reveals whether the agent has a plan B or is winging it.
 
-**Good answer:** "At 21 days, we review showing feedback and market data. If we are getting showings but no offers, the issue is usually condition or showing presentation. If we are not getting showings, the issue is price. I will present the data and recommend a specific action — price adjustment, marketing pivot, or condition improvement."
+**Good answer:** "At 21 days, we review showing feedback and market data. If we are getting showings but no offers, the issue is usually condition or showing presentation. If we are not getting showings, the issue is price. I will present the data and recommend a specific action, price adjustment, marketing pivot, or condition improvement."
 
 **Red flag:** "It will sell, do not worry." That is not a plan. That is wishful thinking.
 
@@ -108,4 +108,4 @@ Evaluate agents on projected net proceeds, not commission rate.
 
 A good listing agent will walk your property, identify preparation priorities, pull comparable sales before the appointment, and present a written marketing plan with a pricing recommendation. They should answer these 10 questions without hesitation.
 
-I provide all of this at my listing consultations — a property walk, a detailed CMA, a written marketing plan, and a net sheet at multiple price points. No pressure, no inflated promises. If my approach makes sense for your situation, we move forward. If not, you leave with valuable market data.
+I provide all of this at my listing consultations, a property walk, a detailed CMA, a written marketing plan, and a net sheet at multiple price points. No pressure, no inflated promises. If my approach makes sense for your situation, we move forward. If not, you leave with valuable market data.

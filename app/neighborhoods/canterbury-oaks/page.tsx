@@ -30,12 +30,12 @@ export default function CanterburyOaksPage() {
   const faqs = [
     { q: 'How much do homes cost in Canterbury Oaks Valrico?', a: 'Homes in Canterbury Oaks typically sell between $350,000 and $475,000. Most homes range from 1,500 to 2,600 square feet with 3 to 5 bedrooms. Pricing varies by lot position, pool status, and interior updates. Contact Barrett Henry at (813) 733-7907 for current Canterbury Oaks pricing.' },
     { q: 'What school zone is Canterbury Oaks in?', a: 'Canterbury Oaks is zoned for Alafia Elementary (or Cimino Elementary depending on address), Burns Middle School, and Bloomingdale High School in the Hillsborough County School District. Bloomingdale High is a well-regarded public high school. Barrett Henry can verify the exact school assignment for any Canterbury Oaks address.' },
-    { q: 'Does Canterbury Oaks have an HOA?', a: 'Yes. Canterbury Oaks has a mandatory HOA that maintains the community pool, tennis courts, common areas, and enforces architectural standards. Monthly HOA fees typically run $75\u2013$175, which includes pool and tennis access. Call Barrett Henry at (813) 733-7907 for current HOA fee details.' },
+    { q: 'Does Canterbury Oaks have an HOA?', a: 'Yes. Canterbury Oaks has a mandatory HOA that maintains the community pool, tennis courts, common areas, and enforces architectural standards. Monthly HOA fees typically run $75 to $175, which includes pool and tennis access. Call Barrett Henry at (813) 733-7907 for current HOA fee details.' },
     { q: 'Is Canterbury Oaks a good neighborhood in Valrico?', a: 'Canterbury Oaks is one of the most established and well-maintained communities in south Valrico. The community pool, tennis courts, and active HOA keep property values stable. The Bloomingdale High School zone and central location add long-term appeal for families.' },
     { q: 'How far is Canterbury Oaks from I-75?', a: 'Canterbury Oaks is approximately 4 miles from the I-75 interchange at SR-60 (Brandon Blvd), about an 8 to 10-minute drive. From I-75, downtown Tampa is roughly 25 minutes and Lakeland is about 30 minutes via I-4.' },
     { q: 'Does Canterbury Oaks have a community pool?', a: 'Yes. Canterbury Oaks features a community pool and tennis courts maintained by the HOA. Pool and tennis access is included in the monthly HOA fee. The pool area serves as a social hub for the community, particularly during summer months. Barrett Henry at (813) 733-7907 can provide details on current amenity access.' },
     { q: 'What year were Canterbury Oaks homes built?', a: 'Canterbury Oaks homes were primarily built in the mid-1990s through early 2000s. The construction is well-established with mature landscaping throughout the community. Many homeowners have updated kitchens, bathrooms, and flooring over the years, so the level of renovation varies property to property.' },
-    { q: 'How does Canterbury Oaks compare to nearby neighborhoods?', a: 'Canterbury Oaks ($350K\u2013$475K) offers pool and tennis amenities in the Bloomingdale HS zone. Crosby Crossings ($370K\u2013$475K) has newer construction in the same school zone but without pool amenities. Buckhorn Preserve ($350K\u2013$500K) has community park amenities in the Newsome HS zone. Duncan Groves ($350K\u2013$450K) is a more affordable option in the Bloomingdale zone.' },
+    { q: 'How does Canterbury Oaks compare to nearby neighborhoods?', a: 'Canterbury Oaks ($350K to $475K) offers pool and tennis amenities in the Bloomingdale HS zone. Crosby Crossings ($370K to $475K) has newer construction in the same school zone but without pool amenities. Buckhorn Preserve ($350K to $500K) has community park amenities in the Newsome HS zone. Duncan Groves ($350K to $450K) is a more affordable option in the Bloomingdale zone.' },
   ];
 
   return (
@@ -45,7 +45,7 @@ export default function CanterburyOaksPage() {
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
           <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Canterbury Oaks Homes for Sale, Valrico FL 33596</h1>
-          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Canterbury Oaks is an established community with pool and tennis amenities in south Valrico (33596). Prices from $350K&ndash;$475K. Bloomingdale High School zone. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
+          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Canterbury Oaks is an established community with pool and tennis amenities in south Valrico (33596). Prices from $350K to $475K. Bloomingdale High School zone. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Canterbury Oaks listings</Link>
             <Link href="/valrico-fl-home-values/" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">What&apos;s my home worth?</Link>
@@ -85,7 +85,7 @@ export default function CanterburyOaksPage() {
       <div style={{ background: 'var(--cream)' }}>
         <div className="max-w-[1140px] mx-auto px-7 py-12 grid grid-cols-2 md:grid-cols-4 gap-5">
           {[
-            ['$350K\u2013$475K', 'Price range'],
+            ['$350K to $475K', 'Price range'],
             ['33596', 'ZIP code'],
             ['Bloomingdale HS', 'High school zone'],
             ['Established', 'Community type'],
@@ -119,18 +119,18 @@ export default function CanterburyOaksPage() {
             <h2 className="font-serif text-2xl mb-4 mt-10">Location and Commute</h2>
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Canterbury Oaks is centrally located in south Valrico with quick access to commercial corridors in multiple directions. Key commute times:</p>
             <ul className="text-[15px] leading-[1.8] mb-6 space-y-2 pl-5 list-disc" style={{ color: 'var(--ink-soft)' }}>
-              <li><strong>I-75 (SR-60 interchange):</strong> ~4 miles / 8&ndash;10 minutes</li>
-              <li><strong>Downtown Tampa:</strong> ~19 miles / 25&ndash;35 minutes via I-75</li>
-              <li><strong>MacDill Air Force Base:</strong> ~23 miles / 30&ndash;40 minutes</li>
+              <li><strong>I-75 (SR-60 interchange):</strong> ~4 miles / 8 to 10 minutes</li>
+              <li><strong>Downtown Tampa:</strong> ~19 miles / 25 to 35 minutes via I-75</li>
+              <li><strong>MacDill Air Force Base:</strong> ~23 miles / 30 to 40 minutes</li>
               <li><strong>Brandon Town Center:</strong> ~6 miles / 12 minutes</li>
               <li><strong>Lakeland:</strong> ~26 miles / 30 minutes via I-4</li>
-              <li><strong>Tampa International Airport:</strong> ~26 miles / 30&ndash;40 minutes</li>
+              <li><strong>Tampa International Airport:</strong> ~26 miles / 30 to 40 minutes</li>
             </ul>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Everyday shopping is close. Publix, Winn-Dixie, and Walmart are within a few minutes along Bloomingdale Avenue and Lithia Pinecrest Road. The Bloomingdale commercial corridor provides restaurants, banks, medical offices, and retail within a short drive.</p>
 
             {/* --- HOA --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">HOA and Community Fees</h2>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Canterbury Oaks has a mandatory HOA that maintains the community pool, tennis courts, common areas, and neighborhood appearance standards. Monthly HOA fees typically run $75&ndash;$175, which includes access to the pool and tennis facilities. Canterbury Oaks does not carry CDD fees, keeping the total monthly cost of ownership lower than many newer Valrico developments. Barrett Henry can confirm the exact HOA fee for any Canterbury Oaks property, call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Canterbury Oaks has a mandatory HOA that maintains the community pool, tennis courts, common areas, and neighborhood appearance standards. Monthly HOA fees typically run $75 to $175, which includes access to the pool and tennis facilities. Canterbury Oaks does not carry CDD fees, keeping the total monthly cost of ownership lower than many newer Valrico developments. Barrett Henry can confirm the exact HOA fee for any Canterbury Oaks property, call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
 
             {/* --- Comparison --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">How Canterbury Oaks Compares to Nearby Neighborhoods</h2>
@@ -147,10 +147,10 @@ export default function CanterburyOaksPage() {
                 </thead>
                 <tbody>
                   {[
-                    ['Canterbury Oaks', '$350K\u2013$475K', 'Yes', 'Community pool & tennis, Bloomingdale HS'],
-                    ['Crosby Crossings', '$370K\u2013$475K', 'No', 'Newer construction, Bloomingdale HS zone'],
-                    ['Buckhorn Preserve', '$350K\u2013$500K', 'No', 'Gated, community park, Newsome HS zone'],
-                    ['Duncan Groves', '$350K\u2013$450K', 'No', 'More affordable, near parks and trails'],
+                    ['Canterbury Oaks', '$350K to $475K', 'Yes', 'Community pool & tennis, Bloomingdale HS'],
+                    ['Crosby Crossings', '$370K to $475K', 'No', 'Newer construction, Bloomingdale HS zone'],
+                    ['Buckhorn Preserve', '$350K to $500K', 'No', 'Gated, community park, Newsome HS zone'],
+                    ['Duncan Groves', '$350K to $450K', 'No', 'More affordable, near parks and trails'],
                   ].map(([name, price, pool, diff], i) => (
                     <tr key={name} style={{ borderBottom: '1px solid var(--border)' }}>
                       <td className="py-3 pr-4">
@@ -173,7 +173,7 @@ export default function CanterburyOaksPage() {
               <li>Buyers seeking established neighborhoods with predictable property standards</li>
               <li>First-time buyers entering the south Valrico market under $475K</li>
               <li>Professionals who want a short commute to I-75 and Brandon commercial areas</li>
-              <li>Military families stationed at MacDill AFB (30&ndash;40 min commute)</li>
+              <li>Military families stationed at MacDill AFB (30 to 40 min commute)</li>
             </ul>
 
             {/* Image removed: Buckhorn Preserve entrance photo does not belong on Canterbury Oaks page */}

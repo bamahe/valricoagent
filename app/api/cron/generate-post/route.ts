@@ -122,7 +122,7 @@ IMPORTANT RULES:
 - Give a direct answer in the first 2-4 sentences of each section
 - End every post with a CTA mentioning Barrett Henry and his phone number
 
-INTERNAL LINKS — only use these exact URLs when linking to site pages:
+INTERNAL LINKS, only use these exact URLs when linking to site pages:
 - /valrico-fl-homes-for-sale/ (search homes)
 - /valrico-fl-home-values/ (home values / CMA)
 - /sell-my-home-valrico/ (selling guide)

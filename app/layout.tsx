@@ -69,7 +69,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
       </head>
       <body>
-        {/* WebSite schema — tells Google the site name to display in search results */}
+        {/* WebSite schema, tells Google the site name to display in search results */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

@@ -1,6 +1,6 @@
 ## How Long Is the Drive? Honest Numbers.
 
-Commute time is one of the top three concerns for buyers considering Valrico, right behind school zones and home prices. The honest answer depends on where in Tampa you work, what time you leave, and which route you take. Here are realistic drive times during peak hours — not the optimistic Google Maps estimates at 2 PM on a Sunday.
+Commute time is one of the top three concerns for buyers considering Valrico, right behind school zones and home prices. The honest answer depends on where in Tampa you work, what time you leave, and which route you take. Here are realistic drive times during peak hours, not the optimistic Google Maps estimates at 2 PM on a Sunday.
 
 ## Commute Estimates During Peak Hours (7-9 AM, 4-6 PM)
 
@@ -27,12 +27,12 @@ Westshore is a major employment center with corporate offices, hotels, and retai
 **Best route:** I-75 North to Selmon to Dale Mabry south, or I-75 to Gandy. MacDill sits at the tip of the Interbay peninsula, so the last 5 to 8 miles through South Tampa always add time.
 **Off-peak:** 30 to 40 minutes
 
-Military families stationed at MacDill frequently choose Valrico for the schools and space. The commute is real, but the quality of life trade-off — Newsome High School, larger lots, and homes $200K less than comparable South Tampa properties — makes it work for many families. The MRP (Military Relocation Professional) designation I hold exists specifically to help with these decisions.
+Military families stationed at MacDill frequently choose Valrico for the schools and space. The commute is real, but the quality of life trade-off, Newsome High School, larger lots, and homes $200K less than comparable South Tampa properties, makes it work for many families. The MRP (Military Relocation Professional) designation I hold exists specifically to help with these decisions.
 
 ### USF / New Tampa / Temple Terrace
 **Distance:** 18 to 22 miles
 **Peak time:** 30 to 45 minutes
-**Best route:** I-75 North direct. This is one of Valrico's easier commutes because I-75 flows relatively well in this direction during peak hours — most traffic is heading south toward Brandon, not north.
+**Best route:** I-75 North direct. This is one of Valrico's easier commutes because I-75 flows relatively well in this direction during peak hours, most traffic is heading south toward Brandon, not north.
 **Off-peak:** 20 to 28 minutes
 
 ### Lakeland

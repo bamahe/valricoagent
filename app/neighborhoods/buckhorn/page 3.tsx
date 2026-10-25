@@ -7,8 +7,8 @@ export default function Page() {
       <div style={{background:'var(--blue-deep)'}} className="text-white py-16 px-7">
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{color:'rgba(255,255,255,.5)'}}>Valrico Neighborhoods</div>
-          <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Buckhorn / Boyette Corridor Homes for Sale &mdash; Valrico FL 33596</h1>
-          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{color:'rgba(255,255,255,.75)'}}>The Buckhorn and Boyette Road corridor running south from Lithia Pinecrest Road is one of Valrico's most active and fastest-growing real estate areas. Prices from $350K–$500K. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
+          <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Buckhorn / Boyette Corridor Homes for Sale,  Valrico FL 33596</h1>
+          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{color:'rgba(255,255,255,.75)'}}>The Buckhorn and Boyette Road corridor running south from Lithia Pinecrest Road is one of Valrico's most active and fastest-growing real estate areas. Prices from $350K, $500K. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Buckhorn listings</Link>
             <Link href="/valrico-fl-home-values/" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">What&apos;s my home worth?</Link>
@@ -24,7 +24,7 @@ export default function Page() {
             <p className="text-[15px] leading-[1.8] mb-6" style={{color:'var(--ink-soft)'}}>The corridor is zoned for Newsome High School, which is one of the top-performing high schools in Hillsborough County and the primary reason families choose this area. The Buckhorn corridor provides the most affordable entry point into the Newsome HS zone, which is critical for families who prioritize school quality but cannot stretch to FishHawk Ranch pricing ($450K-$800K+). Easy access to both Valrico and Riverview commercial areas means residents are never far from shopping and dining.</p>
 
             <div className="grid grid-cols-2 gap-4 my-8">
-              <div className="border rounded-md p-4" style={{borderColor:'var(--border)'}}><span className="text-xs uppercase tracking-wider block mb-1" style={{color:'var(--ink-muted)'}}>Price Range</span><span className="font-serif text-lg" style={{color:'var(--ink)'}}>$350K–$500K</span></div>
+              <div className="border rounded-md p-4" style={{borderColor:'var(--border)'}}><span className="text-xs uppercase tracking-wider block mb-1" style={{color:'var(--ink-muted)'}}>Price Range</span><span className="font-serif text-lg" style={{color:'var(--ink)'}}>$350K, $500K</span></div>
               <div className="border rounded-md p-4" style={{borderColor:'var(--border)'}}><span className="text-xs uppercase tracking-wider block mb-1" style={{color:'var(--ink-muted)'}}>ZIP Code</span><span className="font-serif text-lg" style={{color:'var(--ink)'}}>33596</span></div>
               <div className="border rounded-md p-4" style={{borderColor:'var(--border)'}}><span className="text-xs uppercase tracking-wider block mb-1" style={{color:'var(--ink-muted)'}}>School Zone</span><span className="font-serif text-lg" style={{color:'var(--ink)'}}>Newsome HS</span></div>
               <div className="border rounded-md p-4" style={{borderColor:'var(--border)'}}><span className="text-xs uppercase tracking-wider block mb-1" style={{color:'var(--ink-muted)'}}>REALTOR\u00ae</span><span className="font-serif text-lg" style={{color:'var(--ink)'}}>Barrett Henry</span></div>

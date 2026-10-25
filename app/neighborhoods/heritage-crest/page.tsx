@@ -29,12 +29,12 @@ export default function HeritageCrestPage() {
   const faqs = [
     { q: 'How much do homes cost in Heritage Crest Valrico?', a: 'Homes in Heritage Crest typically sell between $400,000 and $500,000. Most homes range from 1,800 to 2,800 square feet with 3 to 5 bedrooms. As one of the newest developments in Valrico 33594, pricing reflects current construction costs and modern design standards. Contact Barrett Henry at (813) 733-7907 for current Heritage Crest pricing.' },
     { q: 'What school zone is Heritage Crest in?', a: 'Heritage Crest is zoned for Mintz Elementary, Mulrennan Middle School, and Newsome High School in the Hillsborough County School District. Newsome High is consistently rated among the top public high schools in the Tampa Bay area. Barrett Henry can verify the exact school assignment for any Heritage Crest address.' },
-    { q: 'Does Heritage Crest have an HOA?', a: 'Yes. Heritage Crest has a mandatory HOA that maintains community standards and common areas. Monthly HOA fees typically run $100\u2013$200. As a newer construction community, there may also be a CDD assessment on the property tax bill. Call Barrett Henry at (813) 733-7907 for current HOA and CDD details.' },
+    { q: 'Does Heritage Crest have an HOA?', a: 'Yes. Heritage Crest has a mandatory HOA that maintains community standards and common areas. Monthly HOA fees typically run $100 to $200. As a newer construction community, there may also be a CDD assessment on the property tax bill. Call Barrett Henry at (813) 733-7907 for current HOA and CDD details.' },
     { q: 'Is Heritage Crest a good neighborhood in Valrico?', a: 'Heritage Crest is one of the best options for buyers who want brand-new or nearly-new construction in the Newsome High School zone. The homes are built to current Florida building codes with energy-efficient systems, modern floor plans, and builder warranties that cover major components. The 33594 ZIP code and Newsome HS zoning support strong long-term values.' },
     { q: 'How far is Heritage Crest from I-75?', a: 'Heritage Crest is approximately 4 miles from the I-75 interchange at SR-60 (Brandon Blvd), about an 8 to 10-minute drive. From I-75, downtown Tampa is roughly 25 minutes and Lakeland is about 30 minutes via I-4.' },
-    { q: 'Are there CDD fees in Heritage Crest?', a: 'As a newer construction community, Heritage Crest may carry a CDD (Community Development District) assessment in addition to the HOA fee. CDD fees are included in your property tax bill and typically run $1,000\u2013$2,500 per year. The CDD funded infrastructure and declines over time as bonds are paid off. Barrett Henry can pull the exact CDD amount for any Heritage Crest address.' },
+    { q: 'Are there CDD fees in Heritage Crest?', a: 'As a newer construction community, Heritage Crest may carry a CDD (Community Development District) assessment in addition to the HOA fee. CDD fees are included in your property tax bill and typically run $1,000 to $2,500 per year. The CDD funded infrastructure and declines over time as bonds are paid off. Barrett Henry can pull the exact CDD amount for any Heritage Crest address.' },
     { q: 'What year were Heritage Crest homes built?', a: 'Heritage Crest is one of the newest developments in the 33594 ZIP code, with homes built from the late 2010s through the 2020s. Construction meets current Florida building codes including enhanced wind resistance, energy-efficient windows, modern insulation, and updated electrical and plumbing systems. Builder warranties typically cover major systems for the first several years.' },
-    { q: 'How does Heritage Crest compare to nearby neighborhoods?', a: 'Heritage Crest ($400K\u2013$500K) offers the newest construction in the Newsome HS zone. Arista ($425K\u2013$575K) is also gated newer construction in 33594 but at a higher price. Diamond Hill ($350K\u2013$550K) has gated golf amenities with mixed-era construction. Buckhorn Preserve ($350K\u2013$500K) has community park amenities in the Newsome zone at a slightly lower entry.' },
+    { q: 'How does Heritage Crest compare to nearby neighborhoods?', a: 'Heritage Crest ($400K to $500K) offers the newest construction in the Newsome HS zone. Arista ($425K to $575K) is also gated newer construction in 33594 but at a higher price. Diamond Hill ($350K to $550K) has gated golf amenities with mixed-era construction. Buckhorn Preserve ($350K to $500K) has community park amenities in the Newsome zone at a slightly lower entry.' },
   ];
 
   return (
@@ -44,7 +44,7 @@ export default function HeritageCrestPage() {
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
           <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Heritage Crest Homes for Sale, Valrico FL 33594</h1>
-          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Heritage Crest is one of the newest construction communities in north Valrico (33594). Modern builder homes with open floor plans and energy-efficient systems. Prices from $400K&ndash;$500K. Newsome High School zone. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
+          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Heritage Crest is one of the newest construction communities in north Valrico (33594). Modern builder homes with open floor plans and energy-efficient systems. Prices from $400K to $500K. Newsome High School zone. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Heritage Crest listings</Link>
             <Link href="/valrico-fl-home-values/" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">What&apos;s my home worth?</Link>
@@ -69,7 +69,7 @@ export default function HeritageCrestPage() {
       <div style={{ background: 'var(--cream)' }}>
         <div className="max-w-[1140px] mx-auto px-7 py-12 grid grid-cols-2 md:grid-cols-4 gap-5">
           {[
-            ['$400K\u2013$500K', 'Price range'],
+            ['$400K to $500K', 'Price range'],
             ['33594', 'ZIP code'],
             ['Newsome HS', 'High school zone'],
             ['New Construction', 'Community type'],
@@ -101,18 +101,18 @@ export default function HeritageCrestPage() {
             <h2 className="font-serif text-2xl mb-4 mt-10">Location and Commute</h2>
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Heritage Crest sits in north Valrico with direct access to major corridors. Key commute times:</p>
             <ul className="text-[15px] leading-[1.8] mb-6 space-y-2 pl-5 list-disc" style={{ color: 'var(--ink-soft)' }}>
-              <li><strong>I-75 (SR-60 interchange):</strong> ~4 miles / 8&ndash;10 minutes</li>
-              <li><strong>Downtown Tampa:</strong> ~18 miles / 25&ndash;35 minutes via I-75</li>
-              <li><strong>MacDill Air Force Base:</strong> ~22 miles / 30&ndash;40 minutes</li>
+              <li><strong>I-75 (SR-60 interchange):</strong> ~4 miles / 8 to 10 minutes</li>
+              <li><strong>Downtown Tampa:</strong> ~18 miles / 25 to 35 minutes via I-75</li>
+              <li><strong>MacDill Air Force Base:</strong> ~22 miles / 30 to 40 minutes</li>
               <li><strong>Brandon Town Center:</strong> ~5 miles / 10 minutes</li>
               <li><strong>Lakeland:</strong> ~25 miles / 30 minutes via I-4</li>
-              <li><strong>Tampa International Airport:</strong> ~25 miles / 30&ndash;40 minutes</li>
+              <li><strong>Tampa International Airport:</strong> ~25 miles / 30 to 40 minutes</li>
             </ul>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Shopping and essentials are close. Publix, Winn-Dixie, and Walmart are within minutes along SR-60 (Brandon Blvd) and Lithia Pinecrest Road. The north Valrico location provides slightly shorter commute times to Brandon and Tampa compared to south Valrico neighborhoods, which is a factor for daily commuters.</p>
 
             {/* --- HOA --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">HOA and Community Fees</h2>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Heritage Crest has a mandatory HOA that maintains community standards and common areas. Monthly HOA fees typically run $100&ndash;$200. As a newer construction community, Heritage Crest may also carry a CDD (Community Development District) assessment on the property tax bill, typically $1,000&ndash;$2,500 per year. CDD fees funded the infrastructure development and decline over time as bonds are paid off. Barrett Henry can confirm exact HOA and CDD amounts for any Heritage Crest address, call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Heritage Crest has a mandatory HOA that maintains community standards and common areas. Monthly HOA fees typically run $100 to $200. As a newer construction community, Heritage Crest may also carry a CDD (Community Development District) assessment on the property tax bill, typically $1,000 to $2,500 per year. CDD fees funded the infrastructure development and decline over time as bonds are paid off. Barrett Henry can confirm exact HOA and CDD amounts for any Heritage Crest address, call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
 
             {/* --- Comparison --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">How Heritage Crest Compares to Nearby Neighborhoods</h2>
@@ -129,10 +129,10 @@ export default function HeritageCrestPage() {
                 </thead>
                 <tbody>
                   {[
-                    ['Heritage Crest', '$400K\u2013$500K', 'No', 'Newest construction, Newsome HS zone'],
-                    ['Arista', '$425K\u2013$575K', 'Yes', 'Gated, newer construction, higher price'],
-                    ['Diamond Hill', '$350K\u2013$550K', 'Yes', 'Golf community, resort amenities'],
-                    ['Buckhorn Preserve', '$350K\u2013$500K', 'Yes', 'Gated, community park, Newsome HS'],
+                    ['Heritage Crest', '$400K to $500K', 'No', 'Newest construction, Newsome HS zone'],
+                    ['Arista', '$425K to $575K', 'Yes', 'Gated, newer construction, higher price'],
+                    ['Diamond Hill', '$350K to $550K', 'Yes', 'Golf community, resort amenities'],
+                    ['Buckhorn Preserve', '$350K to $500K', 'Yes', 'Gated, community park, Newsome HS'],
                   ].map(([name, price, gated, diff], i) => (
                     <tr key={name} style={{ borderBottom: '1px solid var(--border)' }}>
                       <td className="py-3 pr-4">
@@ -155,7 +155,7 @@ export default function HeritageCrestPage() {
               <li>First-time buyers who want modern floor plans with builder warranties</li>
               <li>Buyers who prioritize energy efficiency and low maintenance costs</li>
               <li>Professionals commuting to Tampa or Brandon who want the shortest commute times</li>
-              <li>Military families at MacDill AFB seeking new construction (30&ndash;40 min commute)</li>
+              <li>Military families at MacDill AFB seeking new construction (30 to 40 min commute)</li>
             </ul>
 
             {/* --- FAQ --- */}

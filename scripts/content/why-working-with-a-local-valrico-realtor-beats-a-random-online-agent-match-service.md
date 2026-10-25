@@ -1,6 +1,6 @@
 ## How Agent Match Services Actually Work
 
-Zillow Premier Agent, Realtor.com connections, HomeLight, UpNest, Clever — they all promise to match you with "the best agent for your needs." What they actually do is sell your contact information to agents who pay for leads. Here is how the business model works and why it matters to your transaction outcome.
+Zillow Premier Agent, Realtor.com connections, HomeLight, UpNest, Clever, they all promise to match you with "the best agent for your needs." What they actually do is sell your contact information to agents who pay for leads. Here is how the business model works and why it matters to your transaction outcome.
 
 ## The Business Model Behind the Curtain
 
@@ -21,13 +21,13 @@ Valrico has micro-markets within micro-markets. A CMA that pulls "comparable sal
 - River Hills golf course lots carry a 10 to 20% premium over interior lots
 - Homes on the Newsome/Bloomingdale High zone boundary can vary by $30K+ on the same street
 
-An agent matched to you from a lead service may sell 50 homes a year — in South Tampa, Carrollwood, Lutz, and everywhere in between. They do not know these Valrico-specific pricing nuances. They will use broad comparable data, and your home will be mispriced by $15K to $40K in either direction.
+An agent matched to you from a lead service may sell 50 homes a year, in South Tampa, Carrollwood, Lutz, and everywhere in between. They do not know these Valrico-specific pricing nuances. They will use broad comparable data, and your home will be mispriced by $15K to $40K in either direction.
 
 ### CDD and Flood Zone Knowledge
 
 CDDs and flood zones do not show up consistently in MLS data. Some listings disclose them, many do not. An agent who does not know which Valrico subdivisions carry CDDs and which areas have flood zone pockets will miss information that directly affects your buyer pool and pricing.
 
-I check the tax roll and FEMA flood map on every property before we list or tour. This is not extra service — it is baseline due diligence that every Valrico transaction requires.
+I check the tax roll and FEMA flood map on every property before we list or tour. This is not extra service, it is baseline due diligence that every Valrico transaction requires.
 
 ### Buyer Targeting
 
@@ -37,7 +37,7 @@ When I market a Valrico listing, I know exactly who the buyer is:
 - River Hills: move-up buyers, golfers, retirees seeking gated security
 - Diamond Hill: land seekers, privacy-first buyers, horse property seekers
 
-A non-local agent targets "home buyers in Tampa Bay." My targeting is surgical — specific demographics, specific neighborhoods, specific buyer motivations. The result: more relevant showings, faster sales, better offers.
+A non-local agent targets "home buyers in Tampa Bay." My targeting is surgical, specific demographics, specific neighborhoods, specific buyer motivations. The result: more relevant showings, faster sales, better offers.
 
 ### Transaction Context
 
@@ -56,14 +56,14 @@ Many agent matching services advertise "savings" through reduced commissions. Le
 
 **Scenario: $450K Valrico home**
 
-**Option A — Local Expert (6% commission):**
+**Option A, Local Expert (6% commission):**
 - Prices at $455K based on subdivision-level CMA
 - Professional photography, video, targeted social media
 - Sells in 28 days at $449K
 - Commission: $26,940
 - **Your net (after all costs): ~$354,560**
 
-**Option B — Matched Agent (4.5% commission):**
+**Option B, Matched Agent (4.5% commission):**
 - Prices at $469K based on broad CMA (too high)
 - Phone photos, MLS-only marketing
 - Sits 65 days, reduces to $449K, sells at $435K
@@ -73,13 +73,13 @@ Many agent matching services advertise "savings" through reduced commissions. Le
 
 The "savings" of $7,365 in reduced commission cost you $10,835 in lower sale price and extended carrying costs. The cheaper agent cost you more money.
 
-This pattern repeats constantly. The value is not in the commission rate. The value is in accurate pricing, professional marketing, and effective negotiation — all of which require local expertise.
+This pattern repeats constantly. The value is not in the commission rate. The value is in accurate pricing, professional marketing, and effective negotiation, all of which require local expertise.
 
 ## The Referral Fee Hidden Cost
 
 What most buyers and sellers do not know: when an agent receives a lead from a matching service, they typically pay a referral fee of 25 to 40% of their commission back to the service. On a 3% buyer agent commission on a $450K sale ($13,500), the agent pays $3,375 to $5,400 to the matching service.
 
-That means your matched agent keeps $8,100 to $10,125. Compare that to a local agent keeping their full $13,500. Which agent do you think invests more in your transaction — marketing, time, attention, negotiation effort?
+That means your matched agent keeps $8,100 to $10,125. Compare that to a local agent keeping their full $13,500. Which agent do you think invests more in your transaction, marketing, time, attention, negotiation effort?
 
 The referral fee creates a perverse incentive: the matched agent needs to close fast and move on to the next lead to make the economics work. Your listing gets less attention, less marketing investment, and less personalized strategy.
 
@@ -95,6 +95,6 @@ Skip the matching services. Here is how to find the right Valrico agent:
 
 I do not buy leads from matching services. My business is built on local expertise, referrals from past clients, and a web presence (nowtb.com with 2,400+ pages and valricoagent.com) that attracts buyers and sellers who are specifically searching for Valrico real estate expertise.
 
-The result: every client gets my full attention, my full marketing budget, and my full local knowledge — not the leftovers after a referral fee.
+The result: every client gets my full attention, my full marketing budget, and my full local knowledge, not the leftovers after a referral fee.
 
 Want to compare? Request a no-obligation listing consultation. I will walk your property, run the CMA, and present a marketing plan. Then compare that to whatever a matching service offers. The difference will be obvious.

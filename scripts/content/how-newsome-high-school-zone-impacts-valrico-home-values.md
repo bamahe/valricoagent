@@ -1,6 +1,6 @@
 ## The Newsome Premium Is Real and Measurable
 
-Newsome High School consistently ranks among the top public high schools in Hillsborough County. That reputation translates directly into home values — homes zoned for Newsome sell for $30,000 to $50,000 more than comparable homes zoned for other high schools in the area. This is not anecdotal. It shows up in every CMA I run that compares eastern and western Valrico.
+Newsome High School consistently ranks among the top public high schools in Hillsborough County. That reputation translates directly into home values, homes zoned for Newsome sell for $30,000 to $50,000 more than comparable homes zoned for other high schools in the area. This is not anecdotal. It shows up in every CMA I run that compares eastern and western Valrico.
 
 A 4/2 with 2,200 sq ft, a pool, and a 5-year-old roof in Buckhorn (Newsome zone) sells for approximately $475K to $510K. That same floor plan, same condition, same lot size in Bloomingdale (Bloomingdale High zone) sells for $385K to $425K. The house is essentially the same. The $50K to $85K gap is almost entirely attributable to school zoning.
 
@@ -9,22 +9,22 @@ A 4/2 with 2,200 sq ft, a pool, and a 5-year-old roof in Buckhorn (Newsome zone)
 The Newsome High School attendance zone covers eastern Valrico and parts of Lithia:
 
 **Confirmed Newsome zone neighborhoods:**
-- River Hills Country Club — $500K to $1M+
-- Buckhorn — $400K to $550K
-- Buckhorn Preserve — $425K to $575K
-- Diamond Hill — $450K to $650K
-- Parts of Canterbury Oaks — $375K to $500K (verify by address)
-- FishHawk Ranch — $425K to $650K (technically Lithia)
+- River Hills Country Club, $500K to $1M+
+- Buckhorn, $400K to $550K
+- Buckhorn Preserve, $425K to $575K
+- Diamond Hill, $450K to $650K
+- Parts of Canterbury Oaks, $375K to $500K (verify by address)
+- FishHawk Ranch, $425K to $650K (technically Lithia)
 - Various smaller subdivisions east of Valrico Road
 
 **Bloomingdale High zone neighborhoods:**
-- Bloomingdale — $325K to $525K
-- Twin Lakes — $340K to $475K
-- Brentwood Hills — $350K to $475K
-- Bloomingdale Oaks — $330K to $425K
-- Bloomingdale East — $350K to $450K
+- Bloomingdale, $325K to $525K
+- Twin Lakes, $340K to $475K
+- Brentwood Hills, $350K to $475K
+- Bloomingdale Oaks, $330K to $425K
+- Bloomingdale East, $350K to $450K
 
-**Zone boundary streets to watch:** Some streets near the boundary can fall on either side. Providence Road, parts of Lithia Pinecrest Road, and certain streets in Canterbury Oaks straddle the line. Never assume — verify with the Hillsborough County School District boundary tool using the exact property address.
+**Zone boundary streets to watch:** Some streets near the boundary can fall on either side. Providence Road, parts of Lithia Pinecrest Road, and certain streets in Canterbury Oaks straddle the line. Never assume, verify with the Hillsborough County School District boundary tool using the exact property address.
 
 ## The Numbers Behind the Premium
 
@@ -40,7 +40,7 @@ The Newsome premium affects every metric:
 
 ## Why It Matters Even If You Do Not Have Kids
 
-The most common objection: "I do not have school-age children, so school zone does not matter to me." Respectfully, it does — when you sell.
+The most common objection: "I do not have school-age children, so school zone does not matter to me." Respectfully, it does, when you sell.
 
 Your future buyer pool includes families. Those families are filtering by school zone. If your home is in the Newsome zone, you access the full depth of family demand when you list. If it is not, you access a smaller pool.
 
@@ -48,7 +48,7 @@ This does not mean Bloomingdale-zoned homes are bad investments. It means the Ne
 
 For investors, the school zone also affects rental demand. Families renting in the Newsome zone pay $100 to $200/month more than comparable rentals in the Bloomingdale zone because they want their kids in that school without buying.
 
-## Newsome High School — What Makes It Stand Out
+## Newsome High School, What Makes It Stand Out
 
 **Academics:** Newsome offers a comprehensive AP program with 20+ Advanced Placement courses. Consistently high graduation rates and college placement numbers. The school has received multiple recognitions for academic excellence.
 
@@ -84,6 +84,6 @@ If you are selling a Newsome-zoned home, lead with it. The school zone should be
 
 I specifically target families relocating to Hillsborough County in my digital advertising when marketing Newsome-zoned listings. These buyers are often moving from out of state, have done their school research online, and are searching specifically for Newsome zone homes. Reaching them before they land in Tampa is a competitive advantage.
 
-Your home is not just a house — it is a ticket to a top-rated school. Price it, market it, and position it accordingly.
+Your home is not just a house, it is a ticket to a top-rated school. Price it, market it, and position it accordingly.
 
 I verify school zoning on every Valrico property I list or show. It is too important to get wrong. If school zoning is a factor in your search, tell me and I will filter your results accordingly.

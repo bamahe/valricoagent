@@ -36,7 +36,7 @@ export default function WhyBarrettPage() {
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Why Barrett Henry</div>
           <h1 className="font-serif text-[clamp(28px,4vw,40px)] leading-tight tracking-tight mb-4">Why Clients Choose Barrett Over Every Other Valrico Agent</h1>
           <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>
-            There are 500+ licensed agents in the Valrico area. Most will tell you what you want to hear. Barrett tells you what you need to hear — then delivers results.
+            There are 500+ licensed agents in the Valrico area. Most will tell you what you want to hear. Barrett tells you what you need to hear, then delivers results.
           </p>
           <div className="flex gap-3 flex-wrap">
             <a href="tel:8137337907" className="btn-solid">(813) 733-7907</a>
@@ -86,8 +86,8 @@ export default function WhyBarrettPage() {
         {/* The difference */}
         <div>
           <h2 className="font-serif text-2xl mb-4" style={{ color: 'var(--ink)' }}>What Makes Barrett Different</h2>
-          <p className="text-[15px] leading-[1.8] mb-4">Most agents show you homes and write offers. Barrett does that too — but he starts with data. Before you look at a single home, Barrett pulls comparable sales, analyzes school zone premiums, checks flood maps, verifies insurance costs, and calculates total monthly cost including HOA and CDD. You know exactly what you are getting into before you make an offer.</p>
-          <p className="text-[15px] leading-[1.8]">For sellers, Barrett runs a full competitive market analysis and prices based on actual sold data — not Zillow estimates. He will tell you if your home needs a new roof before listing, if your kitchen upgrades will return their cost, and whether your timeline is realistic. Honest answers save money.</p>
+          <p className="text-[15px] leading-[1.8] mb-4">Most agents show you homes and write offers. Barrett does that too, but he starts with data. Before you look at a single home, Barrett pulls comparable sales, analyzes school zone premiums, checks flood maps, verifies insurance costs, and calculates total monthly cost including HOA and CDD. You know exactly what you are getting into before you make an offer.</p>
+          <p className="text-[15px] leading-[1.8]">For sellers, Barrett runs a full competitive market analysis and prices based on actual sold data, not Zillow estimates. He will tell you if your home needs a new roof before listing, if your kitchen upgrades will return their cost, and whether your timeline is realistic. Honest answers save money.</p>
         </div>
 
         {/* Credentials */}
@@ -95,12 +95,12 @@ export default function WhyBarrettPage() {
           <h2 className="font-serif text-2xl mb-4" style={{ color: 'var(--ink)' }}>Credentials That Matter</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {[
-              ['Broker Associate', 'Higher license level than a standard agent. Barrett can review contracts, manage transactions, and operate independently — giving you an extra layer of expertise.'],
+              ['Broker Associate', 'Higher license level than a standard agent. Barrett can review contracts, manage transactions, and operate independently, giving you an extra layer of expertise.'],
               ['REMAX Hall of Fame 2024', 'Awarded for career achievement in sales volume. Fewer than 5% of REMAX agents worldwide reach Hall of Fame status.'],
-              ['MRP — Military Relocation Professional', 'Certified to help active duty, veterans, and military families navigate PCS moves, VA loans, and BAH-based budgeting.'],
-              ['SRS — Seller Representative Specialist', 'Advanced training in listing strategy, pricing, marketing, and seller negotiation. This is not a weekend course — it requires ongoing education.'],
-              ['e-PRO — Digital Marketing Certification', 'Certified in digital marketing, social media, and online lead generation. Barrett uses technology to market your home where buyers actually search.'],
-              ['100% Club — 8 Years Running', 'REMAX production award for sustained high volume. Consistent performance, not a one-year spike.'],
+              ['MRP, Military Relocation Professional', 'Certified to help active duty, veterans, and military families navigate PCS moves, VA loans, and BAH-based budgeting.'],
+              ['SRS, Seller Representative Specialist', 'Advanced training in listing strategy, pricing, marketing, and seller negotiation. This is not a weekend course, it requires ongoing education.'],
+              ['e-PRO, Digital Marketing Certification', 'Certified in digital marketing, social media, and online lead generation. Barrett uses technology to market your home where buyers actually search.'],
+              ['100% Club, 8 Years Running', 'REMAX production award for sustained high volume. Consistent performance, not a one-year spike.'],
             ].map(([title, desc]) => (
               <div key={title} className="border rounded-lg p-5" style={{ borderColor: 'var(--border)' }}>
                 <h3 className="font-semibold text-base mb-2" style={{ color: 'var(--ink)' }}>{title}</h3>
@@ -116,10 +116,10 @@ export default function WhyBarrettPage() {
           <div className="space-y-6">
             {[
               ['No Pressure, Ever', 'Barrett does not chase clients or push timelines. If now is not the right time to buy or sell, he will tell you. Several clients have waited 6-12 months on Barrett\'s advice and came out ahead financially.'],
-              ['Data Over Emotion', 'Every recommendation is backed by MLS data, comparable sales, and market trends. Barrett shows you the numbers and lets you make an informed decision — not an emotional one.'],
-              ['Responsive Communication', 'Barrett typically responds within 2 hours during business hours. Text, call, or email — whatever works for you. No phone tag, no waiting days for answers.'],
+              ['Data Over Emotion', 'Every recommendation is backed by MLS data, comparable sales, and market trends. Barrett shows you the numbers and lets you make an informed decision, not an emotional one.'],
+              ['Responsive Communication', 'Barrett typically responds within 2 hours during business hours. Text, call, or email, whatever works for you. No phone tag, no waiting days for answers.'],
               ['Full Transaction Management', 'From pre-approval coordination to inspection negotiations to closing day, Barrett manages every detail. You do not need to chase contractors, title companies, or lenders.'],
-              ['Free to You (Buyers)', 'Buyer representation costs you nothing — the seller pays the agent commission. You get a professional negotiator working for your interests at zero cost.'],
+              ['Free to You (Buyers)', 'Buyer representation costs you nothing, the seller pays the agent commission. You get a professional negotiator working for your interests at zero cost.'],
             ].map(([title, desc]) => (
               <div key={title} className="flex gap-4">
                 <div className="w-1 shrink-0 rounded-full" style={{ background: 'var(--accent)' }} />
@@ -143,7 +143,7 @@ export default function WhyBarrettPage() {
         <div>
           <h2 className="font-serif text-2xl mb-4" style={{ color: 'var(--ink)' }}>Local Knowledge That Cannot Be Googled</h2>
           <p className="text-[15px] leading-[1.8] mb-4">Barrett covers all <Link href="/neighborhoods/" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>42 Valrico neighborhoods</Link> across ZIP codes 33594 and 33596. He knows which streets flood after heavy rain, which sections of Bloomingdale feed into which middle school, where the CDD fees are highest, and which builders cut corners on their spec homes.</p>
-          <p className="text-[15px] leading-[1.8]">This is not information you find on Zillow. It comes from selling 124+ homes in the area and driving these streets every week. When Barrett tells you a home is overpriced, under-maintained, or in the wrong school zone — he is not guessing. He has the receipts.</p>
+          <p className="text-[15px] leading-[1.8]">This is not information you find on Zillow. It comes from selling 124+ homes in the area and driving these streets every week. When Barrett tells you a home is overpriced, under-maintained, or in the wrong school zone, he is not guessing. He has the receipts.</p>
         </div>
 
         {/* River Hills photo */}

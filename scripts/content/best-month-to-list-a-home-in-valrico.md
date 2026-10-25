@@ -32,13 +32,13 @@ The best month to list your Valrico home is the month you are ready to sell at t
 **Who benefits from summer listing:**
 - Sellers who want less competition from other listings
 - Homes that show well despite the heat (good AC, pool, shaded yard)
-- Relocators — corporate transfers and military moves happen year-round
+- Relocators, corporate transfers and military moves happen year-round
 
 The summer "slowdown" is overstated. Serious buyers are active in every season. What changes is the volume of casual browsers, not the number of qualified purchasers.
 
 ### Fall: September Through November
 
-**Buyer activity:** Picks up after Labor Day. Buyers who did not find a home in spring are now motivated — they have been searching for months and want to close before the holidays.
+**Buyer activity:** Picks up after Labor Day. Buyers who did not find a home in spring are now motivated, they have been searching for months and want to close before the holidays.
 
 **Inventory:** Lower than spring. Fewer new listings means less competition for your home.
 
@@ -48,7 +48,7 @@ The summer "slowdown" is overstated. Serious buyers are active in every season. 
 
 **Who benefits from fall listing:**
 - Sellers who missed the spring window
-- Homes in all price ranges — fall is the most evenly distributed season
+- Homes in all price ranges, fall is the most evenly distributed season
 - Sellers who want a smaller but more motivated buyer pool
 
 Fall is Valrico's most underrated listing window. I have seen homes list in October and sell faster than comparable homes that listed in March, simply because there was less competition.
@@ -89,6 +89,6 @@ If you are ready to sell and your home is properly prepared:
 3. **Summer and winter work fine** if pricing is accurate and marketing is professional.
 4. **Never delay listing just to "wait for spring"** if doing so creates financial strain, carrying costs, or life complications. A well-priced home sells in any season.
 
-The worst time to list is when you are not prepared — regardless of season. A poorly staged, badly photographed, overpriced home in peak spring will underperform a well-prepared, accurately priced home in November.
+The worst time to list is when you are not prepared, regardless of season. A poorly staged, badly photographed, overpriced home in peak spring will underperform a well-prepared, accurately priced home in November.
 
 I can analyze the current competitive landscape in your subdivision and recommend the optimal listing timing based on your specific property, price point, and competition. The right answer is always data-driven, not calendar-driven.

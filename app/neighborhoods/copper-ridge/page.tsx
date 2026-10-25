@@ -44,7 +44,7 @@ export default function CopperRidgePage() {
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
           <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Copper Ridge Homes for Sale, Valrico FL 33596</h1>
-          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Copper Ridge is an HOA-governed community of concrete block homes built 1997&ndash;2004 in Valrico (33596). 1,800&ndash;3,000 sqft, 3&ndash;5 bedrooms, many lots back to conservation areas. Off Lithia Pinecrest Rd near FishHawk. Prices from $375K&ndash;$525K. Newsome High School zone. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
+          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Copper Ridge is an HOA-governed community of concrete block homes built 1997 to 2004 in Valrico (33596). 1,800 to 3,000 sqft, 3 to 5 bedrooms, many lots back to conservation areas. Off Lithia Pinecrest Rd near FishHawk. Prices from $375K to $525K. Newsome High School zone. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Copper Ridge listings</Link>
             <Link href="/valrico-fl-home-values/" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">What&apos;s my home worth?</Link>
@@ -69,7 +69,7 @@ export default function CopperRidgePage() {
       <div style={{ background: 'var(--cream)' }}>
         <div className="max-w-[1140px] mx-auto px-7 py-12 grid grid-cols-2 md:grid-cols-4 gap-5">
           {[
-            ['$375K\u2013$525K', 'Price range'],
+            ['$375K to $525K', 'Price range'],
             ['33596', 'ZIP code'],
             ['Newsome HS', 'High school zone'],
             ['2,372', 'Residents'],
@@ -102,21 +102,21 @@ export default function CopperRidgePage() {
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Copper Ridge is located off Lithia Pinecrest Road in the southern part of the Valrico area, near both FishHawk and Bloomingdale. Key commute times:</p>
             <ul className="text-[15px] leading-[1.8] mb-6 space-y-2 pl-5 list-disc" style={{ color: 'var(--ink-soft)' }}>
               <li><strong>I-75 (SR-60 interchange):</strong> ~7 miles / 15 minutes</li>
-              <li><strong>Downtown Tampa:</strong> ~22 miles / 30&ndash;40 minutes via I-75</li>
-              <li><strong>MacDill Air Force Base:</strong> ~25 miles / 35&ndash;45 minutes</li>
+              <li><strong>Downtown Tampa:</strong> ~22 miles / 30 to 40 minutes via I-75</li>
+              <li><strong>MacDill Air Force Base:</strong> ~25 miles / 35 to 45 minutes</li>
               <li><strong>Brandon Town Center:</strong> ~8 miles / 15 minutes</li>
               <li><strong>Lakeland:</strong> ~28 miles / 35 minutes via I-4</li>
-              <li><strong>Tampa International Airport:</strong> ~28 miles / 35&ndash;45 minutes</li>
+              <li><strong>Tampa International Airport:</strong> ~28 miles / 35 to 45 minutes</li>
             </ul>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Lithia Pinecrest Road provides direct access to Publix, Winn-Dixie, restaurants, and medical offices. The FishHawk area to the south offers additional shopping, dining, and recreation options. Bloomingdale Avenue to the north connects to the heart of Valrico&apos;s retail corridor.</p>
 
             {/* --- HOA & CDD --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">HOA and CDD Fees</h2>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Copper Ridge has a mandatory HOA that maintains community standards, common areas, and neighborhood appearance. In addition to HOA dues, CDD (Community Development District) fees apply. CDD fees are baked into your annual property tax bill and cover infrastructure bonds from when the community was originally developed. These fees typically run $1,000&ndash;$2,500 per year depending on the lot. Barrett Henry can pull the exact HOA and CDD amounts for any specific Copper Ridge address, call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Copper Ridge has a mandatory HOA that maintains community standards, common areas, and neighborhood appearance. In addition to HOA dues, CDD (Community Development District) fees apply. CDD fees are baked into your annual property tax bill and cover infrastructure bonds from when the community was originally developed. These fees typically run $1,000 to $2,500 per year depending on the lot. Barrett Henry can pull the exact HOA and CDD amounts for any specific Copper Ridge address, call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
 
             {/* --- Conservation Lots --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">Conservation Lots in Copper Ridge</h2>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>One of Copper Ridge&apos;s most desirable features is the number of lots that back up to conservation areas. These lots provide wooded privacy buffers, natural wildlife views, and the peace of mind that no one will ever build behind your home. Conservation-backing positions typically command a premium of $15,000&ndash;$30,000 over comparable interior lots. If a conservation lot is important to you, Barrett Henry can identify every conservation-backing home currently available in Copper Ridge.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>One of Copper Ridge&apos;s most desirable features is the number of lots that back up to conservation areas. These lots provide wooded privacy buffers, natural wildlife views, and the peace of mind that no one will ever build behind your home. Conservation-backing positions typically command a premium of $15,000 to $30,000 over comparable interior lots. If a conservation lot is important to you, Barrett Henry can identify every conservation-backing home currently available in Copper Ridge.</p>
 
             {/* --- Comparison --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">How Copper Ridge Compares to Nearby Neighborhoods</h2>
@@ -133,11 +133,11 @@ export default function CopperRidgePage() {
                 </thead>
                 <tbody>
                   {[
-                    ['Copper Ridge', '$375K\u2013$525K', 'Both', 'Conservation lots, concrete block'],
-                    ['Cimmaron', '$450K\u2013$650K', 'None', '19 custom homes, larger lots'],
-                    ['Durant Oaks', '$375K\u2013$525K', 'None', 'Custom-built, mature landscaping'],
-                    ['Buckhorn Golf Club Estates', '$350K\u2013$550K', 'HOA', 'Golf course views, established'],
-                    ['Buckhorn Preserve', '$350K\u2013$500K', 'HOA', 'Nature preserve views, Boyette corridor'],
+                    ['Copper Ridge', '$375K to $525K', 'Both', 'Conservation lots, concrete block'],
+                    ['Cimmaron', '$450K to $650K', 'None', '19 custom homes, larger lots'],
+                    ['Durant Oaks', '$375K to $525K', 'None', 'Custom-built, mature landscaping'],
+                    ['Buckhorn Golf Club Estates', '$350K to $550K', 'HOA', 'Golf course views, established'],
+                    ['Buckhorn Preserve', '$350K to $500K', 'HOA', 'Nature preserve views, Boyette corridor'],
                   ].map(([name, price, fees, diff], i) => (
                     <tr key={name} style={{ borderBottom: '1px solid var(--border)' }}>
                       <td className="py-3 pr-4">

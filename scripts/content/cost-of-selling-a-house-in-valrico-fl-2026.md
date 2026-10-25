@@ -1,24 +1,24 @@
 ## What Selling Actually Costs
 
-Sellers are often surprised by the total cost of selling a home. The headline is the sale price. What matters is the net — what you actually walk away with after every fee, tax, credit, and cost is subtracted. Here is a realistic breakdown for a typical Valrico transaction in 2026.
+Sellers are often surprised by the total cost of selling a home. The headline is the sale price. What matters is the net, what you actually walk away with after every fee, tax, credit, and cost is subtracted. Here is a realistic breakdown for a typical Valrico transaction in 2026.
 
 ## The Full Cost Breakdown
 
 ### Real Estate Commissions: 5 to 6% of Sale Price
 
-This covers listing agent and buyer agent compensation. On a $450K sale, that is $22,500 to $27,000. Since the 2024 commission changes, the structure has shifted — buyer agent compensation is now negotiable and may be paid by the buyer, the seller, or split. In practice, most Valrico sellers still offer buyer agent compensation to maximize their buyer pool.
+This covers listing agent and buyer agent compensation. On a $450K sale, that is $22,500 to $27,000. Since the 2024 commission changes, the structure has shifted, buyer agent compensation is now negotiable and may be paid by the buyer, the seller, or split. In practice, most Valrico sellers still offer buyer agent compensation to maximize their buyer pool.
 
 The math on commission: an agent who charges 5% but prices your home wrong and sells for $430K nets you less than an agent who charges 6% and sells for $460K. Focus on the net proceeds, not the commission rate in isolation.
 
 ### Title Insurance and Closing Fees: $1,500 to $3,000
 
-In Florida, the seller typically pays for the owner's title insurance policy. This protects the buyer against title defects, liens, or encumbrances discovered after closing. The premium is based on the sale price — approximately $5.75 per $1,000 of value.
+In Florida, the seller typically pays for the owner's title insurance policy. This protects the buyer against title defects, liens, or encumbrances discovered after closing. The premium is based on the sale price, approximately $5.75 per $1,000 of value.
 
 Additional closing fees include settlement/escrow fees ($400 to $800), wire transfer fees ($25 to $50), and document preparation.
 
 ### Documentary Stamps (Doc Stamps): 0.7% of Sale Price
 
-This is a Florida transfer tax paid by the seller at closing. It is calculated at $7.00 per $1,000 of the sale price. On a $450K sale, that is $3,150. This is non-negotiable — it is a state tax.
+This is a Florida transfer tax paid by the seller at closing. It is calculated at $7.00 per $1,000 of the sale price. On a $450K sale, that is $3,150. This is non-negotiable, it is a state tax.
 
 ### Prorated Property Taxes: Varies
 
@@ -45,7 +45,7 @@ Sellers who address major issues before listing (roof, HVAC, pool) significantly
 
 ### Buyer Closing Cost Credits: 0 to 3% of Sale Price
 
-In the current market, many buyers request seller-paid closing cost credits — typically 1 to 3% of the sale price. On a $450K sale, a 2% credit is $9,000 that comes directly off your net proceeds.
+In the current market, many buyers request seller-paid closing cost credits, typically 1 to 3% of the sale price. On a $450K sale, a 2% credit is $9,000 that comes directly off your net proceeds.
 
 This is common with FHA and VA buyers who have limited cash for closing costs. You can counter by adjusting the sale price upward to offset the credit, but the appraisal must support the higher number.
 
@@ -97,7 +97,7 @@ A $500 pool pump repair before listing prevents a $2,000 negotiation demand afte
 
 ### 2. Price Correctly to Avoid Carrying Costs
 
-Every month your home sits unsold costs you approximately $2,500 to $3,500 in mortgage payments, insurance, taxes, and utilities. An overpriced home that takes 90 days to sell instead of 30 costs you $5,000 to $7,000 in extra carrying costs — on top of the lower sale price that eventually comes from chasing the market down.
+Every month your home sits unsold costs you approximately $2,500 to $3,500 in mortgage payments, insurance, taxes, and utilities. An overpriced home that takes 90 days to sell instead of 30 costs you $5,000 to $7,000 in extra carrying costs, on top of the lower sale price that eventually comes from chasing the market down.
 
 ### 3. Negotiate Commission Based on Value, Not Rate
 

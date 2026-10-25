@@ -30,12 +30,12 @@ export default function BuckhornPreservePage() {
   const faqs = [
     { q: 'How much do homes cost in Buckhorn Preserve Valrico?', a: 'Homes in Buckhorn Preserve typically sell between $350,000 and $500,000. Most homes range from 1,700 to 3,000 square feet with 3 to 5 bedrooms. Pricing varies by lot position, upgrades, and whether the home backs to conservation. Contact Barrett Henry at (813) 733-7907 for current Buckhorn Preserve pricing.' },
     { q: 'What school zone is Buckhorn Preserve in?', a: 'Buckhorn Preserve is zoned for Mintz Elementary, Mulrennan Middle School, and Newsome High School in the Hillsborough County School District. Newsome High is consistently rated among the top public high schools in the Tampa Bay area. Barrett Henry can verify the exact school assignment for any Buckhorn Preserve address.' },
-    { q: 'Does Buckhorn Preserve have an HOA?', a: 'Yes. Buckhorn Preserve has a mandatory HOA that maintains the community park, playground, disc golf course, pavilions, and walking trails. Monthly HOA fees typically run $100\u2013$200 depending on the section. Call Barrett Henry at (813) 733-7907 for current HOA fee details.' },
+    { q: 'Does Buckhorn Preserve have an HOA?', a: 'Yes. Buckhorn Preserve has a mandatory HOA that maintains the community park, playground, disc golf course, pavilions, and walking trails. Monthly HOA fees typically run $100 to $200 depending on the section. Call Barrett Henry at (813) 733-7907 for current HOA fee details.' },
     { q: 'Is Buckhorn Preserve a good neighborhood in Valrico?', a: 'Buckhorn Preserve is one of the best-maintained communities in the Buckhorn corridor. It offers modern construction, a dedicated community park with extensive amenities, and the coveted Newsome High School zone. The combination of walkable school access and family-oriented amenities makes it a top pick for families.' },
     { q: 'How far is Buckhorn Preserve from I-75?', a: 'Buckhorn Preserve is approximately 5 miles from the I-75 interchange at SR-60 (Brandon Blvd), which translates to roughly a 12-minute drive. From I-75, downtown Tampa is about 25 minutes and Lakeland is about 30 minutes via I-4.' },
-    { q: 'Are there CDD fees in Buckhorn Preserve?', a: 'Some sections of Buckhorn Preserve may carry a Community Development District (CDD) assessment in addition to the HOA fee. CDD fees appear on your property tax bill and typically run $1,000\u2013$2,000 per year. Barrett Henry can pull the exact CDD amount for any specific Buckhorn Preserve address.' },
+    { q: 'Are there CDD fees in Buckhorn Preserve?', a: 'Some sections of Buckhorn Preserve may carry a Community Development District (CDD) assessment in addition to the HOA fee. CDD fees appear on your property tax bill and typically run $1,000 to $2,000 per year. Barrett Henry can pull the exact CDD amount for any specific Buckhorn Preserve address.' },
     { q: 'What year were Buckhorn Preserve homes built?', a: 'Buckhorn Preserve homes were primarily built from the mid-2000s through the 2010s, making them relatively modern construction by Valrico standards. Most homes feature open floor plans, granite or quartz countertops, and energy-efficient systems that reduce utility costs compared to older Valrico neighborhoods.' },
-    { q: 'How does Buckhorn Preserve compare to nearby Valrico neighborhoods?', a: 'Buckhorn Preserve ($350K\u2013$500K) offers newer construction with community park amenities in the Newsome HS zone. Buckhorn Springs Manor ($350K\u2013$550K) has larger lots near the golf club. Canterbury Oaks ($350K\u2013$475K) offers pool and tennis amenities in the Bloomingdale HS zone. Crosby Crossings ($370K\u2013$475K) has similar newer construction but in the Bloomingdale HS zone.' },
+    { q: 'How does Buckhorn Preserve compare to nearby Valrico neighborhoods?', a: 'Buckhorn Preserve ($350K to $500K) offers newer construction with community park amenities in the Newsome HS zone. Buckhorn Springs Manor ($350K to $550K) has larger lots near the golf club. Canterbury Oaks ($350K to $475K) offers pool and tennis amenities in the Bloomingdale HS zone. Crosby Crossings ($370K to $475K) has similar newer construction but in the Bloomingdale HS zone.' },
   ];
 
   return (
@@ -45,7 +45,7 @@ export default function BuckhornPreservePage() {
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
           <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Buckhorn Preserve Homes for Sale, Valrico FL 33596</h1>
-          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Buckhorn Preserve is a gated newer construction community with dedicated park amenities in the Buckhorn corridor of south Valrico (33596). Prices from $350K&ndash;$500K. Newsome High School zone. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
+          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Buckhorn Preserve is a gated newer construction community with dedicated park amenities in the Buckhorn corridor of south Valrico (33596). Prices from $350K to $500K. Newsome High School zone. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Buckhorn Preserve listings</Link>
             <Link href="/valrico-fl-home-values/" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">What&apos;s my home worth?</Link>
@@ -85,7 +85,7 @@ export default function BuckhornPreservePage() {
       <div style={{ background: 'var(--cream)' }}>
         <div className="max-w-[1140px] mx-auto px-7 py-12 grid grid-cols-2 md:grid-cols-4 gap-5">
           {[
-            ['$350K\u2013$500K', 'Price range'],
+            ['$350K to $500K', 'Price range'],
             ['33596', 'ZIP code'],
             ['Newsome HS', 'High school zone'],
             ['Gated', 'Community type'],
@@ -129,17 +129,17 @@ export default function BuckhornPreservePage() {
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>Buckhorn Preserve sits in the heart of south Valrico&apos;s Buckhorn corridor with excellent access to major roads and commercial areas. Key commute times from Buckhorn Preserve:</p>
             <ul className="text-[15px] leading-[1.8] mb-6 space-y-2 pl-5 list-disc" style={{ color: 'var(--ink-soft)' }}>
               <li><strong>I-75 (SR-60 interchange):</strong> ~5 miles / 12 minutes</li>
-              <li><strong>Downtown Tampa:</strong> ~20 miles / 28&ndash;38 minutes via I-75</li>
-              <li><strong>MacDill Air Force Base:</strong> ~24 miles / 32&ndash;42 minutes</li>
+              <li><strong>Downtown Tampa:</strong> ~20 miles / 28 to 38 minutes via I-75</li>
+              <li><strong>MacDill Air Force Base:</strong> ~24 miles / 32 to 42 minutes</li>
               <li><strong>Brandon Town Center:</strong> ~7 miles / 14 minutes</li>
               <li><strong>Lakeland:</strong> ~27 miles / 32 minutes via I-4</li>
-              <li><strong>Tampa International Airport:</strong> ~27 miles / 32&ndash;42 minutes</li>
+              <li><strong>Tampa International Airport:</strong> ~27 miles / 32 to 42 minutes</li>
             </ul>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Shopping and daily essentials are close. Publix, Walmart, and restaurants line Lithia Pinecrest Road and Bloomingdale Avenue. The Bloomingdale and Buckhorn commercial corridors offer everything from grocery runs to dining out within a 5-minute drive.</p>
 
             {/* --- HOA --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">HOA and Community Fees</h2>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Buckhorn Preserve has a mandatory HOA that maintains the gated entrance, community park, playground, disc golf course, pavilions, walking trails, and neighborhood appearance standards. Monthly HOA fees typically run $100&ndash;$200 depending on the section. Some sections may also carry a CDD (Community Development District) assessment on the property tax bill, typically $1,000&ndash;$2,000 per year. Barrett Henry can pull the exact HOA and CDD amounts for any specific Buckhorn Preserve address, call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Buckhorn Preserve has a mandatory HOA that maintains the gated entrance, community park, playground, disc golf course, pavilions, walking trails, and neighborhood appearance standards. Monthly HOA fees typically run $100 to $200 depending on the section. Some sections may also carry a CDD (Community Development District) assessment on the property tax bill, typically $1,000 to $2,000 per year. Barrett Henry can pull the exact HOA and CDD amounts for any specific Buckhorn Preserve address, call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
 
             {/* --- Comparison --- */}
             <h2 className="font-serif text-2xl mb-4 mt-10">How Buckhorn Preserve Compares to Nearby Neighborhoods</h2>
@@ -156,10 +156,10 @@ export default function BuckhornPreservePage() {
                 </thead>
                 <tbody>
                   {[
-                    ['Buckhorn Preserve', '$350K\u2013$500K', 'Yes', 'Community park, disc golf, walking trails'],
-                    ['Buckhorn Springs Manor', '$350K\u2013$550K', 'No', 'Larger lots near golf club'],
-                    ['Canterbury Oaks', '$350K\u2013$475K', 'No', 'Pool & tennis, Bloomingdale HS zone'],
-                    ['Crosby Crossings', '$370K\u2013$475K', 'No', 'Newer construction, Bloomingdale HS zone'],
+                    ['Buckhorn Preserve', '$350K to $500K', 'Yes', 'Community park, disc golf, walking trails'],
+                    ['Buckhorn Springs Manor', '$350K to $550K', 'No', 'Larger lots near golf club'],
+                    ['Canterbury Oaks', '$350K to $475K', 'No', 'Pool & tennis, Bloomingdale HS zone'],
+                    ['Crosby Crossings', '$370K to $475K', 'No', 'Newer construction, Bloomingdale HS zone'],
                   ].map(([name, price, gated, diff], i) => (
                     <tr key={name} style={{ borderBottom: '1px solid var(--border)' }}>
                       <td className="py-3 pr-4">
@@ -182,7 +182,7 @@ export default function BuckhornPreservePage() {
               <li>Buyers who value community park amenities, playground, disc golf, walking trails</li>
               <li>Professionals commuting to Tampa or Brandon who want gated convenience</li>
               <li>Families with middle schoolers, Mulrennan Middle is walking distance</li>
-              <li>Military families stationed at MacDill AFB (32&ndash;42 min commute)</li>
+              <li>Military families stationed at MacDill AFB (32 to 42 min commute)</li>
             </ul>
 
             {/* River Hills comparison image */}

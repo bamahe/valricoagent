@@ -22,22 +22,22 @@ export const metadata: Metadata = {
   twitter: { card: 'summary_large_image', images: ['https://valricoagent.com/og-image.png'] },
 };
 
-// All client reviews — add new ones at the top
+// All client reviews, add new ones at the top
 const reviews = [
-  { quote: "Barrett told us NOT to sell when we first contacted him — said the timing wasn't right for our situation. Six months later when it made sense, he listed our home and got us top dollar. That kind of honesty is rare.", author: "Jennifer W.", type: "Seller", neighborhood: "River Hills", year: "2026", stars: 5 },
-  { quote: "Barrett made the entire process smooth from start to finish. He knows Valrico inside and out — every neighborhood, every school zone, every price trend. He gave us honest advice, never pushed us, and helped us find exactly the right home in Bloomingdale for our family.", author: "Sarah M.", type: "Buyer", neighborhood: "Bloomingdale", year: "2025", stars: 5 },
+  { quote: "Barrett told us NOT to sell when we first contacted him, said the timing wasn't right for our situation. Six months later when it made sense, he listed our home and got us top dollar. That kind of honesty is rare.", author: "Jennifer W.", type: "Seller", neighborhood: "River Hills", year: "2026", stars: 5 },
+  { quote: "Barrett made the entire process smooth from start to finish. He knows Valrico inside and out, every neighborhood, every school zone, every price trend. He gave us honest advice, never pushed us, and helped us find exactly the right home in Bloomingdale for our family.", author: "Sarah M.", type: "Buyer", neighborhood: "Bloomingdale", year: "2025", stars: 5 },
   { quote: "We interviewed three agents before choosing Barrett. He was the only one who showed us actual comparable sales data instead of just telling us what we wanted to hear. Our home sold in 22 days at 98% of asking price.", author: "David & Lisa R.", type: "Seller", neighborhood: "Buckhorn", year: "2025", stars: 5 },
-  { quote: "We relocated from Ohio and Barrett was our guide to everything Valrico. Schools, commute times, flood zones, insurance costs — he covered it all before we even flew down for our house-hunting trip. Could not have done it without him.", author: "The Thompson Family", type: "Relocation", neighborhood: "Valrico", year: "2025", stars: 5 },
+  { quote: "We relocated from Ohio and Barrett was our guide to everything Valrico. Schools, commute times, flood zones, insurance costs, he covered it all before we even flew down for our house-hunting trip. Could not have done it without him.", author: "The Thompson Family", type: "Relocation", neighborhood: "Valrico", year: "2025", stars: 5 },
   { quote: "As a first-time buyer, I was nervous about the whole process. Barrett walked me through every step, explained everything in plain English, and made sure I didn't overpay. Found a great home in Twin Lakes within my budget.", author: "Marcus J.", type: "First-Time Buyer", neighborhood: "Twin Lakes", year: "2024", stars: 5 },
   { quote: "Barrett negotiated $15K off the builder's price on our new construction home in Heritage Crest plus got us a rate buydown. The builder's agent was not happy but Barrett stood his ground. Saved us real money.", author: "Carlos & Maria P.", type: "Buyer", neighborhood: "Heritage Crest", year: "2025", stars: 5 },
-  { quote: "Sold our home in Crestwood Estates in 11 days, above asking. Barrett's staging advice and pricing strategy were spot on. He told us to skip the kitchen remodel and focus on curb appeal — he was right.", author: "Robert K.", type: "Seller", neighborhood: "Crestwood Estates", year: "2024", stars: 5 },
+  { quote: "Sold our home in Crestwood Estates in 11 days, above asking. Barrett's staging advice and pricing strategy were spot on. He told us to skip the kitchen remodel and focus on curb appeal, he was right.", author: "Robert K.", type: "Seller", neighborhood: "Crestwood Estates", year: "2024", stars: 5 },
   { quote: "I've bought and sold four homes with Barrett over the past eight years. Every time, he makes it painless. He remembers what matters to us and doesn't waste our time on homes that don't fit.", author: "Amanda & Brian T.", type: "Repeat Client", neighborhood: "Multiple", year: "2024", stars: 5 },
   { quote: "Barrett helped us find rental properties in Valrico that actually cash flow. He ran the numbers, not just the emotion. Two duplexes later, we're generating $2,800/month net. He gets investors.", author: "Steve D.", type: "Investor", neighborhood: "Valrico", year: "2024", stars: 5 },
-  { quote: "Military PCS move from San Diego to MacDill. Barrett handled everything remotely until we could fly out — video tours, school zone research, commute timing. We closed before we even moved to Florida.", author: "SSgt. Rodriguez Family", type: "Military Relocation", neighborhood: "Brandon", year: "2025", stars: 5 },
+  { quote: "Military PCS move from San Diego to MacDill. Barrett handled everything remotely until we could fly out, video tours, school zone research, commute timing. We closed before we even moved to Florida.", author: "SSgt. Rodriguez Family", type: "Military Relocation", neighborhood: "Brandon", year: "2025", stars: 5 },
   { quote: "After a bad experience with another agent, Barrett stepped in mid-transaction and saved our deal. Professional, responsive, and completely transparent about everything.", author: "Michelle H.", type: "Buyer", neighborhood: "Bloomingdale Oaks", year: "2024", stars: 5 },
   { quote: "Barrett told me my Zestimate was $40K too high and showed me the data. I was annoyed at first but he was right. We listed at his price and got two offers in the first weekend.", author: "Tom & Karen S.", type: "Seller", neighborhood: "Buckhorn Preserve", year: "2025", stars: 5 },
   { quote: "Downsizing from a 4-bedroom in Diamond Hill to a villa in Sun City Center. Barrett handled both sides and made the timing work perfectly so we never had to move twice.", author: "The Nelsons", type: "Seller & Buyer", neighborhood: "Diamond Hill", year: "2024", stars: 5 },
-  { quote: "Found us a no-HOA home on a half acre in Valrico Hills — exactly what we wanted. Barrett knew which streets had the bigger lots before we even started looking.", author: "Jake & Priya M.", type: "Buyer", neighborhood: "Valrico Hills", year: "2026", stars: 5 },
+  { quote: "Found us a no-HOA home on a half acre in Valrico Hills, exactly what we wanted. Barrett knew which streets had the bigger lots before we even started looking.", author: "Jake & Priya M.", type: "Buyer", neighborhood: "Valrico Hills", year: "2026", stars: 5 },
   { quote: "Barrett's not flashy but he's thorough. He caught a drainage issue during the walkthrough that the inspector missed. That saved us $8K minimum. Attention to detail matters.", author: "Chris L.", type: "Buyer", neighborhood: "Bent Tree Estates", year: "2025", stars: 5 },
 ];
 
@@ -106,7 +106,7 @@ export default function TestimonialsPage() {
               <div className="flex items-center justify-between">
                 <div>
                   <p className="font-semibold text-sm" style={{ color: 'var(--ink)' }}>{r.author}</p>
-                  <p className="text-xs" style={{ color: 'var(--ink-soft)' }}>{r.type} — {r.neighborhood} · {r.year}</p>
+                  <p className="text-xs" style={{ color: 'var(--ink-soft)' }}>{r.type}, {r.neighborhood} · {r.year}</p>
                 </div>
               </div>
             </div>

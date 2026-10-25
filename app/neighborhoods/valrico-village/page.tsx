@@ -7,7 +7,7 @@ import { neighborhoodCoords } from '../../../lib/neighborhood-coords';
 
 /**
  * Valrico Village neighborhood page - Valrico FL
- * Bloomingdale HS zone, $280K–$400K price range
+ * Bloomingdale HS zone, $280K, $400K price range
  */
 export default function ValricoVillagePage() {
   const [form, setForm] = useState({ name: '', email: '', phone: '', message: '' });
@@ -29,7 +29,7 @@ export default function ValricoVillagePage() {
   }
 
   const faqs = [
-    { q: 'What do homes cost in Valrico Village?', a: 'Valrico Village homes typically sell between $280K–$400K depending on square footage, lot size, and updates. Call Barrett Henry at (813) 733-7907 for current Valrico Village pricing.' },
+    { q: 'What do homes cost in Valrico Village?', a: 'Valrico Village homes typically sell between $280K, $400K depending on square footage, lot size, and updates. Call Barrett Henry at (813) 733-7907 for current Valrico Village pricing.' },
     { q: 'What schools serve Valrico Village?', a: 'Valrico Village is zoned for Bloomingdale HS in the Hillsborough County School District. Elementary and middle school assignments vary by address. Barrett Henry can confirm exact school zoning for any Valrico Village home.' },
     { q: 'Does Valrico Village have an HOA?', a: 'Valrico Village HOA structure varies by section. Contact Barrett Henry at (813) 733-7907 for current HOA details on specific properties.' },
     { q: 'Is Valrico Village a good place to live?', a: 'Valrico Village is a established community with mature trees neighborhood in Valrico. The Bloomingdale HS zone and convenient location make it popular with families and buyers looking for value in the Valrico area.' },
@@ -42,7 +42,7 @@ export default function ValricoVillagePage() {
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
           <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Valrico Village Homes for Sale, Valrico FL</h1>
-          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Valrico Village is a established community with mature trees neighborhood in Valrico with homes from $280K–$400K. Bloomingdale HS zone. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
+          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>Valrico Village is a established community with mature trees neighborhood in Valrico with homes from $280K, $400K. Bloomingdale HS zone. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Valrico Village listings</Link>
             <Link href="/valrico-fl-home-values/" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">What&apos;s my home worth?</Link>
@@ -65,7 +65,7 @@ export default function ValricoVillagePage() {
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_340px] gap-14">
           <div>
             <h2 className="font-serif text-2xl mb-4" style={{ color: 'var(--ink)' }}>About Valrico Village, Valrico FL</h2>
-            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Valrico Village is a established community with mature trees neighborhood in Valrico. Homes here range from $280K–$400K, offering good value in the Bloomingdale HS zone. The community features the kind of suburban lifestyle that draws families and professionals to the Valrico area.</p>
+            <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Valrico Village is a established community with mature trees neighborhood in Valrico. Homes here range from $280K, $400K, offering good value in the Bloomingdale HS zone. The community features the kind of suburban lifestyle that draws families and professionals to the Valrico area.</p>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Barrett Henry, REALTOR&reg; and Broker Associate with REMAX Collective, covers Valrico Village and all 41 Valrico neighborhoods. With 23+ years of real estate experience, Barrett can help you find the right home in Valrico Village or compare it against similar communities. Call <a href="tel:8137337907" className="font-semibold no-underline" style={{ color: 'var(--accent)' }}>(813) 733-7907</a>.</p>
 
             {/* FAQ */}

@@ -44,7 +44,7 @@ export default function LakeValricoPage() {
         <div className="max-w-[1140px] mx-auto">
           <div className="text-xs font-semibold tracking-widest uppercase mb-2.5" style={{ color: 'rgba(255,255,255,.5)' }}>Valrico Neighborhoods</div>
           <h1 className="font-serif text-[clamp(26px,4vw,38px)] leading-tight tracking-tight mb-4">Lake Valrico Area Homes for Sale, Valrico FL 33594</h1>
-          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>The Lake Valrico area features waterfront and lakefront properties on larger lots in north Valrico (33594). No HOA on most properties, with prices from $350K&ndash;$500K. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
+          <p className="text-lg leading-relaxed max-w-[640px] mb-6" style={{ color: 'rgba(255,255,255,.75)' }}>The Lake Valrico area features waterfront and lakefront properties on larger lots in north Valrico (33594). No HOA on most properties, with prices from $350K to $500K. Barrett Henry, REALTOR&reg; with REMAX Collective.</p>
           <div className="flex gap-3 flex-wrap">
             <Link href="/valrico-fl-homes-for-sale/" className="btn-solid">Search Lake Valrico listings</Link>
             <Link href="/valrico-fl-home-values/" className="inline-block py-3 px-7 border-[1.5px] border-white/40 text-white font-semibold text-[15px] rounded no-underline hover:border-white">What&apos;s my home worth?</Link>
@@ -69,7 +69,7 @@ export default function LakeValricoPage() {
       <div style={{ background: 'var(--cream)' }}>
         <div className="max-w-[1140px] mx-auto px-7 py-12 grid grid-cols-2 md:grid-cols-4 gap-5">
           {[
-            ['$350K\u2013$500K', 'Price range'],
+            ['$350K to $500K', 'Price range'],
             ['33594', 'ZIP code'],
             ['Varies', 'High school zone'],
             ['No HOA (most)', 'Community type'],
@@ -102,11 +102,11 @@ export default function LakeValricoPage() {
             <p className="text-[15px] leading-[1.8] mb-4" style={{ color: 'var(--ink-soft)' }}>The Lake Valrico area sits in north Valrico with quick access to SR-60 and I-75. Key commute times:</p>
             <ul className="text-[15px] leading-[1.8] mb-6 space-y-2 pl-5 list-disc" style={{ color: 'var(--ink-soft)' }}>
               <li><strong>I-75 (SR-60 interchange):</strong> ~3 miles / 8 minutes</li>
-              <li><strong>Downtown Tampa:</strong> ~18 miles / 25&ndash;35 minutes via I-75</li>
-              <li><strong>MacDill Air Force Base:</strong> ~22 miles / 30&ndash;40 minutes</li>
+              <li><strong>Downtown Tampa:</strong> ~18 miles / 25 to 35 minutes via I-75</li>
+              <li><strong>MacDill Air Force Base:</strong> ~22 miles / 30 to 40 minutes</li>
               <li><strong>Brandon Town Center:</strong> ~5 miles / 10 minutes</li>
               <li><strong>Lakeland:</strong> ~25 miles / 30 minutes via I-4</li>
-              <li><strong>Tampa International Airport:</strong> ~25 miles / 30&ndash;40 minutes</li>
+              <li><strong>Tampa International Airport:</strong> ~25 miles / 30 to 40 minutes</li>
             </ul>
             <p className="text-[15px] leading-[1.8] mb-6" style={{ color: 'var(--ink-soft)' }}>Despite the semi-rural feel, daily conveniences are close. Publix, Winn-Dixie, and Walmart along SR-60 are within 2 miles. The area balances a countryside atmosphere with suburban accessibility, something few Valrico neighborhoods can claim.</p>
 
@@ -129,11 +129,11 @@ export default function LakeValricoPage() {
                 </thead>
                 <tbody>
                   {[
-                    ['Lake Valrico', '$350K\u2013$500K', 'No (most)', 'Waterfront lots, large acreage, no HOA'],
-                    ['Arista', '$425K\u2013$575K', 'Yes', 'Gated, newer construction, modern floor plans'],
-                    ['Diamond Hill', '$400K\u2013$700K+', 'No', 'Golf course proximity, large lots'],
-                    ['Crestwood Estates', '$350K\u2013$500K', 'No', 'Established single-family, mature trees'],
-                    ['Legends Pass', '$400K\u2013$550K', 'Yes', 'Newer builds, Newsome HS zone'],
+                    ['Lake Valrico', '$350K to $500K', 'No (most)', 'Waterfront lots, large acreage, no HOA'],
+                    ['Arista', '$425K to $575K', 'Yes', 'Gated, newer construction, modern floor plans'],
+                    ['Diamond Hill', '$400K to $700K+', 'No', 'Golf course proximity, large lots'],
+                    ['Crestwood Estates', '$350K to $500K', 'No', 'Established single-family, mature trees'],
+                    ['Legends Pass', '$400K to $550K', 'Yes', 'Newer builds, Newsome HS zone'],
                   ].map(([name, price, hoa, diff], i) => (
                     <tr key={name} style={{ borderBottom: '1px solid var(--border)' }}>
                       <td className="py-3 pr-4">
