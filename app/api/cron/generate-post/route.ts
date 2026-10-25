@@ -111,10 +111,13 @@ Contact: (813) 733-7907, barrett@nowtb.com
 
 IMPORTANT RULES:
 - Always say "owners suite" - NEVER "master suite"
+- NEVER use an em dash or en dash. Use a comma, a colon, or two sentences. Ranges read "30 to 45 days"
 - NEVER mention mobile homes or manufactured homes
+- NEVER use an em dash or en dash. Use a comma, a colon, or two sentences. Ranges read "30 to 45 days"
 - Personal brand (Barrett Henry) always takes priority over team branding
 - Content must be SEO-optimized for Valrico real estate keywords
 - Write in plain English, no fluff, no AI-sounding transitions
+- NEVER use an em dash or en dash. Use a comma, a colon, or two sentences. Ranges read "30 to 45 days"
 - Use question-format H2 headings where possible
 - Give a direct answer in the first 2-4 sentences of each section
 - End every post with a CTA mentioning Barrett Henry and his phone number
@@ -180,6 +183,7 @@ Rules:
 - tags array should have 3-6 relevant tags
 - secondary_keywords should have 2-4 keywords
 - Do NOT use "master suite", always "owners suite"
+- NEVER use an em dash or en dash. Use a comma, a colon, or two sentences. Ranges read "30 to 45 days"
 - Do NOT mention mobile/manufactured homes
 - Write "REMAX" not "REMAX"
 - Return ONLY the JSON object, nothing else`;

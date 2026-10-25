@@ -23,9 +23,12 @@ Contact: (813) 733-7907, barrett@nowtb.com
 
 RULES:
 - Always say "owners suite" - NEVER "master suite"
+- NEVER use an em dash or en dash. Use a comma, a colon, or two sentences. Ranges read "30 to 45 days"
 - NEVER mention mobile homes or manufactured homes
+- NEVER use an em dash or en dash. Use a comma, a colon, or two sentences. Ranges read "30 to 45 days"
 - Personal brand (Barrett Henry) always takes priority
 - Write in plain English, no fluff, no AI-sounding transitions
+- NEVER use an em dash or en dash. Use a comma, a colon, or two sentences. Ranges read "30 to 45 days"
 - Write "REMAX" not "REMAX"
 
 You output valid JSON only. No markdown fencing, no commentary outside the JSON.`;
@@ -64,6 +67,7 @@ Return a single JSON object with these exact keys:
 Rules:
 - The slug must be unique and URL-safe
 - Do NOT use "master suite", always "owners suite"
+- NEVER use an em dash or en dash. Use a comma, a colon, or two sentences. Ranges read "30 to 45 days"
 - Do NOT mention mobile/manufactured homes
 - Write "REMAX" not "REMAX"
 - Return ONLY the JSON object, nothing else`;

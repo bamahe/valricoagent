@@ -33,7 +33,9 @@ Key neighborhoods: Bloomingdale (most active, ~189 sales/18mo), River Hills Coun
 
 IMPORTANT RULES:
 - Always say "owners suite" - NEVER "master suite"
+- NEVER use an em dash or en dash. Use a comma, a colon, or two sentences. Ranges read "30 to 45 days"
 - NEVER mention mobile homes or manufactured homes
+- NEVER use an em dash or en dash. Use a comma, a colon, or two sentences. Ranges read "30 to 45 days"
 - Write "REMAX" not "REMAX"
 - Use question-format H2 headings
 - Give direct answers in the first 2-3 sentences of each section
