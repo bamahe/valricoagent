@@ -1,5 +1,15 @@
 # SEO Audit Log
 
+## 2026-10-25
+
+**2 blog posts added:**
+
+1. `st-petersburg-fl-real-estate-market-2026` - New 1,600+ word neighboring community market analysis for St. Petersburg FL (Pinellas County). Covers: Zillow ZHVI ~$355,759 (down 3.9% YoY), Q3 2026 median $400K-$408K for SFH; ZIP breakdown (33702 NE St. Pete $319K median, 55 DOM, 5.5 months supply buyer-favorable; 33703 central/north $415K, 46 DOM, 4.4 months balanced; 33704 Old Northeast/Venetian Isles $758K, 1.9 months supply seller-leaning; 33712 south St. Pete $459K, 36 DOM, 5.0 months; 33705 south St. Pete sub-$380K range); Historic Kenwood as renovation neighborhood; condo market (6.7 months supply, 52 DOM, Florida SB 4-D reserve mandate driving seller volume); insurance costs (HO-3 $3,500-$5,500 non-waterfront vs Valrico $2,800-$4,200, $700-$1,300 annual gap); Pinellas school choice system vs Hillsborough zone-based (no Newsome-style zone premium); St. Pete vs Valrico comparison (price tiers overlap at $400K-$420K, insurance/taxes advantage Valrico, beach/walkability/arts advantage St. Pete); Q4 buyer guidance. Featured image: st-petersburg-fl-real-estate-guide.jpg. 5 FAQs. Pillar: market. CTA: consultation. Publish date: 2026-10-24. **Seed route at /api/seed-oct25-st-pete - call once on production to insert into Supabase.**
+
+2. `largo-fl-real-estate-market-2026` - New 1,700+ word neighboring community market analysis for Largo FL (Pinellas County, ZIPs 33771/33773/33774/33776/33777/33778). Covers: citywide median $319,950-$325,528 (down 4.9% YoY per Redfin), 3.5 months supply balanced to slightly buyer-favorable, 45-70 DOM citywide; ZIP breakdown (33771 eastern US-19 corridor $270K-$290K, 50-65 DOM; 33773 central Keene Road $295K median, 53 DOM, down 4.4% YoY; 33774 southwest Seminole-adjacent beach-proximity $375K-$400K, 60-70 DOM; 33778 south near Pinellas Park $157,500 blended median heavily manufactured homes); REMAX Collective Largo office on Seminole Blvd noted as local market advantage; SB 4-D condo reserve mandate affecting older mid-rise/high-rise segment; insurance costs (HO-3 $3,200-$5,000 central Largo, AE flood zone $1,200-$3,500/yr vs Valrico Zone X $2,800-$4,200); Pinellas County property taxes (~1.15-1.35% effective vs Hillsborough 1.35-1.55%); Pinellas school choice vs Hillsborough zone system (Largo High School career/technical choice program); Largo vs Valrico comparison (price advantage Largo $320K vs $413K blended, beach access 10-20 min Indian Rocks Beach, comparable Tampa commute 25-45 min, Valrico advantage on insurance/schools/carrying costs); Q4 buyer strategy (33774 beach-proximity value, flood zone check every offer, seller concessions $5K-$8K achievable, 30%+ listings with price reductions). Featured image: largo-fl-remax-collective-office.jpg (REMAX Collective Largo office on Seminole Blvd). 5 FAQs. Pillar: market. CTA: consultation. Publish date: 2026-10-25. **Seed route at /api/seed-oct25-largo - call once on production to insert into Supabase.**
+
+---
+
 ## 2026-10-24
 
 **2 blog posts added:**
