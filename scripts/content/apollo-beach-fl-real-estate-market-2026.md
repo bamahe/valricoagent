@@ -1,132 +1,117 @@
-Apollo Beach is where Tampa Bay buyers come when they want waterfront without driving to Sarasota or crossing the Sunshine Skyway. At 33572, it is the closest canal-front and bay-front community to the core of east Hillsborough, and for buyers who want a boat dock within the county, it is essentially the only realistic option at a sub-$700,000 budget. But the 2026 data tells a more complicated story than the glossy listings suggest. Here is a complete picture of where the Apollo Beach market stands right now, who it is right for, and what buyers and sellers need to know before signing.
+Apollo Beach sits where the SouthShore story gets genuinely interesting. It is the only community in the greater Tampa Bay area where you can buy a canal-front home with a boat lift, dock your boat in Tampa Bay, and be at the Selmon Expressway within 15 minutes -- all under $650,000. The 2026 market in Apollo Beach tells a nuanced story of high insurance headwinds, waterfront scarcity, and a growing non-waterfront segment that offers buyers real value. Here is the full picture.
 
-## Apollo Beach at a Glance: Location, Layout, and What Makes It Different
+## Apollo Beach at a Glance
 
-Apollo Beach sits in southern Hillsborough County along the northern edge of Tampa Bay, roughly 20 miles south of Tampa via US-41 or the Selmon Expressway to I-75. The community is not incorporated, meaning it falls under Hillsborough County jurisdiction rather than a municipality -- an important distinction for zoning, permitting, and regulatory matters.
+Apollo Beach occupies a unique position in Hillsborough County's housing landscape. The community sits within ZIP code 33572, which also covers portions of Gibsonton to the north. The defining characteristic of Apollo Beach is its network of man-made canals connecting residential properties directly to Tampa Bay and the Gulf of Mexico.
 
-The defining feature of Apollo Beach is its canal network. Miles of maintained canals connect residential properties directly to Tampa Bay, making this the only sub-$700,000 waterfront community in Hillsborough County with meaningful boat access. That is a unique position in the market, and it drives a persistent demand base even during soft periods.
+There are roughly two distinct submarkets operating simultaneously in Apollo Beach in 2026:
 
-The area includes several distinct neighborhoods with different price points and risk profiles:
+**Waterfront canal homes:** Properties with direct canal access and boat lift capability. These command a significant premium -- typically $500,000 to $1,200,000 depending on lot width, water depth, bridge clearance to open water, and home condition. Insurance on these properties is the primary underwriting challenge, with flood premiums adding $3,000 to $8,000 per year on top of already-elevated homeowners insurance.
 
-- **Waterfront canal homes:** Properties with direct canal-to-bay access. These represent the premier tier of the market, with prices ranging from $475,000 to well over $1 million for larger bay-front lots.
-- **Covington Park:** A large master-planned community on the eastern edge of Apollo Beach with no direct waterfront. Newer construction (2000s to 2010s), gated sections available, and pricing from $375,000 to $475,000. Not subject to the same flood zone concerns as canal-front properties.
-- **Leisey Road corridor:** A transitional zone between Apollo Beach and Riverview, with newer subdivision development and prices in the $380,000 to $470,000 range.
-- **SouthShore Falls:** A 55-plus active adult community on the western edge of Apollo Beach. Amenity-rich, with homes from $350,000 to $550,000.
+**Non-waterfront communities:** Master-planned communities like MiraBay, Waterset, Harbour Isles, and Indigo Creek that sit outside the direct canal network. These offer community amenities and range from $380,000 to $650,000, with some overlap with waterfront pricing. Most of these communities sit in lower-risk flood zones, which meaningfully reduces insurance costs versus canal-front properties.
 
-## Apollo Beach Real Estate Data: Mid-2026 Numbers
+## Apollo Beach Real Estate Data: 2026 Numbers
 
-The Apollo Beach market in 2026 is in a notable adjustment period, and the data reflects it clearly.
+The Apollo Beach 33572 market as of fall 2026:
 
-| Metric | Apollo Beach 33572 | Valrico 33594 | Valrico 33596 |
-|--------|-------------------|---------------|---------------|
-| Median sale price | $479,000-$539,000 | $378,907 | $468,996 |
-| Price per sq ft (non-waterfront) | $210-$240 | $188-$200 | $210-$230 |
-| Days on market | 95-105 days | 57 days | 57 days |
-| Active listings | 356+ | ~90 | ~82 |
-| Months of supply | 8.0-8.5 | 4.0-4.5 | 2.0 |
-| YOY price change | Flat to +6% (varies by segment) | -1 to -2% | -1% |
+| Metric | Waterfront / Canal | Non-Waterfront Communities | Market Overall |
+|--------|--------------------|----------------------------|----------------|
+| Median price range | $520,000-$750,000 | $410,000-$560,000 | $474,000-$495,000 |
+| Price per sq ft | $230-$310 | $190-$240 | $200-$250 |
+| Days on market | 90-130 days | 60-100 days | 95-115 days |
+| YOY price change | -3% to +2% | -4% to -2% | -3% to -4% |
+| Months of supply | 5-7 months | 4-6 months | 4.5-6 months |
 
-At 95 to 105 days on market -- roughly double the Valrico average -- Apollo Beach is running significantly slower than comparable suburban markets. That extended DOM reflects both the hurricane-related disruption in the area and the insurance cost reality that has made waterfront buyers more deliberate.
+Apollo Beach has meaningfully more supply relative to demand than comparable communities in east Hillsborough County. Days on market in the 95 to 115 day range is the highest in the SouthShore corridor, reflecting the combined impact of insurance cost uncertainty, flood zone buyer hesitation, and a higher price point that narrows the buyer pool.
 
-The median sale price ranges widely depending on the source and property type. Non-waterfront homes in Covington Park and Leisey run $410,000 to $475,000. Canal-front homes typically start at $500,000 and run considerably higher. The blended market median sits in the $479,000 to $538,000 range depending on the trailing time period.
+Approximately 35 to 40 percent of active listings have taken at least one price reduction -- higher than any other east Hillsborough submarket. Buyers who are patient and financially qualified will find genuine negotiating leverage.
 
-## The Insurance Reality: What Buyers Must Know Before Making an Offer
+## The Apollo Beach Insurance Reality
 
-This is the conversation that other market reports leave out. In Apollo Beach, the insurance cost is not a footnote -- for waterfront and canal-front properties, it is often the largest single driver of monthly carrying cost after the mortgage.
+Insurance is the single most important factor any Apollo Beach buyer needs to understand before making an offer. Unlike Valrico or Brandon -- where most homes sit in FEMA Zone X (minimal flood risk) -- Apollo Beach has significant flood zone complexity.
 
-Waterfront properties in Apollo Beach face substantial combined insurance costs:
+**FEMA flood zone breakdown by community:**
+- Apollo Beach canal homes (Apollo Beach proper): Primarily AE (high risk), with some AH and X designations depending on specific lot elevation and canal distance.
+- MiraBay: Mixed -- portions in Zone X, portions in AE. Check by specific address at [msc.fema.gov](https://msc.fema.gov).
+- Waterset: Primarily Zone X per recent community-level analysis. Significant insurance cost advantage over canal-front properties.
+- Harbour Isles: Mixed AE and X zones.
+- Indigo Creek: Mixed, generally higher flood risk.
+- Caribbean Isles: Primarily AE.
 
-- **Homeowners insurance:** $4,000 to $8,000 per year for canal-front homes, reflecting the high replacement cost and increased risk profile that Citizens Property Insurance and private carriers assign to SouthShore waterfront properties.
-- **Flood insurance:** Canal-front and bay-front properties typically fall in FEMA flood zones AE or VE, requiring federal flood insurance through the National Flood Insurance Program (NFIP) or a private flood policy. Premiums under FEMA's Risk Rating 2.0 methodology run $2,500 to $6,000 annually for most canal-front properties, with higher-risk lots exceeding that.
-- **Combined total:** It is not unusual for a canal-front Apollo Beach home with a $550,000 purchase price to carry $10,000 to $14,000 per year in combined insurance costs, or $833 to $1,167 per month added to the mortgage payment.
+For canal-front properties in AE zones, flood insurance adds $3,000 to $8,000+ per year to housing cost. At $5,000 per year in flood insurance alone, that represents $417 per month in additional carrying cost that does not build equity. Combined with elevated homeowners insurance on waterfront properties ($4,000 to $7,000 per year is common), total insurance costs on a $600,000 canal home can run $8,000 to $12,000+ annually.
 
-For a buyer financing a $550,000 home at 6.25% with 20% down, the base principal and interest payment is approximately $2,712 per month. Add insurance at $1,000/month plus taxes and you are at $4,200 to $4,500/month total -- a payment that many buyers do not calculate at the inquiry stage and are shocked by during the financing process.
+Florida Citizens Insurance is phasing in mandatory flood coverage requirements for all policies by 2027 regardless of zone. Buyers in Zone X communities who currently do not carry flood insurance should factor this coming requirement into their long-term budget.
 
-**Key buyer action item:** Request a flood zone determination and NFIP rate quote before submitting any offer on an Apollo Beach waterfront property. Some canal-front properties have been recently remapped to lower-risk zones; others have seen their NFIP premiums rise sharply under Risk Rating 2.0. Verify at [FEMA's Flood Map Service Center](https://msc.fema.gov) and ask your lender to run the actual insurance estimates as part of your pre-qualification.
+**Critical step for every Apollo Beach buyer:** Obtain an elevation certificate and flood insurance quote BEFORE submitting an offer. The quote will tell you the actual annual premium for that specific property. A quote that comes back at $7,000 per year on a $550,000 home fundamentally changes the affordability math.
 
-Non-waterfront homes in Covington Park and the Leisey corridor are generally in Flood Zone X (minimal risk) and do not require flood insurance, which changes the monthly cost picture significantly.
+## Apollo Beach Communities in Detail
 
-## Post-Hurricane Market Dynamics
+### Apollo Beach Proper (Canal Homes)
+The original Apollo Beach neighborhood, developed from the 1960s onward, consists of approximately 1,900 canal lots with access to Tampa Bay. Canal homes are the dominant property type. Homes range from modest 1,200-square-foot Florida bungalows from the 1970s in the $450,000 to $580,000 range to updated pool homes with newer construction in the $650,000 to $900,000 range.
 
-Hurricanes Helene and Milton in late 2024 had a meaningful impact on the Apollo Beach market that persists into 2026. Several effects are still playing out:
+The unique appeal: direct boat access to Tampa Bay, Gulf of Mexico, and the broader ICW system. For serious boaters, no other community in Hillsborough County offers this at this price point.
 
-**Elevated inventory:** The hurricane season prompted a significant number of waterfront homeowners who had deferred selling to list their properties. This flood of post-storm listings pushed the Apollo Beach active inventory to over 350 homes at various points in 2025 and into 2026, contributing to the current 8.5 months of supply -- well into buyer's market territory.
+The headwind: aging housing stock (much of it from the 1970s and 1980s), elevated insurance costs, and the need for careful due diligence on sea walls, docks, lifts, and electrical systems. A proper marine inspection is recommended in addition to a standard home inspection.
 
-**Elevated cash buyer percentage:** Cash transactions now represent 35 to 40% of Apollo Beach sales, up from approximately 25% before the storms. This reflects two factors: investors buying distressed properties for renovation, and move-up buyers who are unwilling to deal with waterfront financing complications choosing to use equity from prior home sales.
+### MiraBay
+MiraBay is arguably the most polished master-planned waterfront community in the SouthShore corridor. Developed by Standard Pacific and now featuring a variety of builders and resale homes, MiraBay offers a full resort amenity package including a 135-acre private lagoon, a waterfront club, kayaking, and a fitness center. Homes range from approximately $500,000 to over $1,500,000. 
 
-**Price divergence by flood zone:** Properties outside flood zones -- primarily Covington Park and eastern Apollo Beach -- have held value considerably better than canal-front properties. The data shows non-waterfront Apollo Beach homes are roughly flat to up slightly year-over-year, while the blended waterfront median reflects the discount buyers demand when they are absorbing elevated insurance costs.
+MiraBay's prices have held better than the broader Apollo Beach market due to the amenity depth and managed community character. Days on market run shorter than the Apollo Beach average. Insurance complexity varies by specific parcel, so zone verification remains critical.
 
-## Apollo Beach Neighborhoods: What to Buy Where
+### Waterset
+Waterset is the largest active master-planned community in Apollo Beach with multiple builders including David Weekley, Homes by WestBay, and Pulte. The community emphasizes resort-style amenities: multiple pools, a surf simulator, an adventure park, and a waterfront club. Most of Waterset sits in Zone X (minimal flood risk), which is its primary insurance advantage over canal-front alternatives.
 
-### Canal-Front and Waterfront Homes: Apollo Beach Boulevard Corridor
+Homes in Waterset range from the mid-$400,000s to the $650,000s, depending on size and builder. New construction remains available in later phases. The community is well-suited for families and for buyers who want a resort lifestyle without the flood insurance burden of canal-front living.
 
-The classic Apollo Beach experience. Homes on the primary canals connecting to Tampa Bay offer direct boat access, typically via a private dock. Prices range from $475,000 to $1.2 million depending on lot size, canal width, water depth, and home condition.
+### Harbour Isles
+A waterfront-adjacent community with lake and conservation views rather than direct canal access. Homes from the $390,000s to the $540,000s. Mixed flood zone composition -- verify by address. Community pool and recreational facilities.
 
-The buyer profile here is typically someone who will actively use the boat access -- fishing, boating, or water sports -- and who is buying this lifestyle intentionally rather than accidentally. If you are buying an Apollo Beach canal home primarily for the price point and treating the waterfront as a bonus feature, the insurance premium will likely frustrate you within 18 months.
+### Indigo Creek
+A newer community on the eastern edge of Apollo Beach. Homes from approximately $400,000 to $520,000. The community is still partially under construction. Higher flood risk than Waterset in some sections -- address-level verification required.
 
-Key due diligence items for canal-front properties: water depth at mean low tide (critical for boat clearance), dock condition and permit status, sea wall condition (replacement runs $250 to $500 per linear foot), and whether the property has had prior flood or storm damage.
+## How Apollo Beach Compares to Nearby Markets
 
-### Covington Park: Suburban Apollo Beach Without the Flood Zone
+**Apollo Beach vs Ruskin (33570):** Ruskin runs significantly below Apollo Beach in price ($320,000 to $350,000 median) and has its own flood complexity. For buyers who want SouthShore living at a lower price point and are willing to accept a smaller waterfront premium, Ruskin is the natural alternative. Apollo Beach offers more amenity-rich master-planned living and direct bay access that Ruskin cannot replicate.
 
-Covington Park is the largest and most diverse neighborhood in Apollo Beach, with several thousand homes spread across different sections. Prices run from $375,000 to $475,000 for most single-family homes, with a mix of D.R. Horton, Lennar, and other builder inventory from the mid-2000s to 2010s.
+**Apollo Beach vs Wimauma (33598):** Wimauma offers the Crystal Lagoon lifestyle of SouthShore Bay at lower prices ($370,000 to $380,000 median) with minimal flood risk. Buyers who want resort amenities without waterfront insurance complexity often choose Wimauma. Apollo Beach wins for authentic bay access and established community infrastructure.
 
-This section is the most practical choice for buyers who want an Apollo Beach address and reasonable commuting distance to Tampa but are not willing to absorb waterfront insurance costs. The neighborhood has its own amenity package and feeds into Hillsborough County schools on the Lennard High School zone -- a school zone that families in the know understand runs below the Newsome and Bloomingdale zones in [Valrico](https://valricoagent.com/is-valrico-safe/) for ranked academic performance.
+**Apollo Beach vs Valrico (33596):** Very different buyer profile. Valrico buyers are typically prioritizing school zones (Newsome HS) and larger lots in a quieter inland setting. Apollo Beach buyers are prioritizing waterfront lifestyle and bay access. Price ranges overlap ($468,996 median in Valrico 33596 versus $474,000-$495,000 in Apollo Beach), but the carrying cost comparison differs dramatically once insurance is factored in.
 
-### SouthShore Falls: The 55-Plus Option
+## What Apollo Beach Buyers Must Do Before Closing
 
-A large, well-maintained active adult community with a resort-style amenity campus: heated pool, fitness center, bocce ball, billiards, and an active social calendar. Homes range from $350,000 to $550,000. The community has held up reasonably well in the current market given the built-in demand from the 55-plus buyer cohort. SouthShore Falls sits west of US-41 and is in Zone X for flood purposes on most lots.
+Apollo Beach requires more due diligence than any other community discussed in this guide. Before closing on any Apollo Beach property:
 
-## Apollo Beach vs. Valrico: A Buyer Decision Framework
+1. **Get the flood elevation certificate.** This document determines your actual flood insurance premium. Without it, you are guessing at a cost that could be $3,000 to $8,000+ per year.
 
-| Factor | Apollo Beach | Valrico |
-|--------|-------------|---------|
-| Boat access / waterfront | Yes -- canal to Tampa Bay | No |
-| Monthly insurance costs | $700-$1,200/month (waterfront) | $175-$300/month |
-| School zone quality | Lennard HS (C+ to B range) | Newsome HS (A), Bloomingdale HS (A) |
-| Commute to Tampa | 25-35 min via US-41 or I-75 | 30-45 min via I-4 or I-75 |
-| Days on market (2026) | 95-105 days | 57 days |
-| Months of supply | 8.5 | 2.0-4.5 |
-| Typical price range | $410,000-$600,000 | $340,000-$550,000 |
+2. **Get a flood insurance quote.** Use the elevation certificate to get an actual quote from Citizens Insurance or an approved private carrier. Do not accept an estimate -- get the actual quote.
 
-The choice between Apollo Beach and Valrico is rarely a close call once the full monthly cost picture is known. Buyers who need boat access and a waterfront lifestyle choose Apollo Beach and budget accordingly for insurance. Buyers who want the best public school zones in Hillsborough County, lower insurance costs, and a faster-moving resale market choose Valrico.
+3. **Inspect the sea wall (for canal homes).** Sea wall repair or replacement costs $250 to $500 per linear foot. A failed or failing sea wall is a $30,000 to $80,000+ repair. Canal homes should have a marine contractor inspect the sea wall as part of due diligence.
 
-Where buyers get into trouble is when they buy an Apollo Beach waterfront property for the price point without fully modeling the insurance costs. That scenario leads to financial stress and eventual re-listing, which is part of why Apollo Beach DOM has extended as far as it has.
+4. **Inspect the dock and lift.** Docks deteriorate. Boat lifts have electrical systems that corrode. A failed lift can cost $5,000 to $15,000 to replace.
 
-## Who Apollo Beach Is Right For
+5. **Verify bridge clearance.** If you plan to operate a larger powerboat or sailboat, verify that bridge clearances on the route from your canal to open water accommodate your vessel.
 
-**The right buyer for Apollo Beach:**
-- Plans to actively use the boat dock and bay access
-- Has fully modeled combined insurance costs (homeowners plus flood) and accepts them
-- Is in the 55-plus cohort looking at SouthShore Falls or a low-maintenance waterfront lifestyle
-- Is an investor buying at a discount to renovate a post-storm property for rental or resale
-- Is relocating from a waterfront market (coastal Virginia, Houston Ship Channel, Sarasota) and understands the cost structure
+6. **Check HOA documents and CDD fees.** MiraBay, Waterset, and Harbour Isles all have CDDs. Annual CDD fees run $1,500 to $3,500 depending on community and phase, adding meaningfully to your annual housing cost.
 
-**Not the right buyer for Apollo Beach:**
-- Has children in the K-12 window and is prioritizing school zone quality
-- Is sensitive to insurance costs or is at the high end of their debt-to-income ratio
-- Is buying waterfront "for the experience" without actively using the water
-- Needs a home that will resell quickly in 3 to 5 years (longer DOM complicates short holding periods)
+## The Investment Case for Apollo Beach
 
-## The 2026 Buyer Opportunity in Apollo Beach
+Apollo Beach rental rates for single-family homes run:
+- 3-bed, 2-bath non-waterfront: $2,200 to $2,700 per month
+- 3-bed, 2-bath canal front: $2,600 to $3,500 per month
+- Short-term rental (canal home with dock): $3,500 to $6,000+ per month during peak season
 
-The extended days on market and elevated inventory do create genuine buyer opportunities that did not exist in 2021 or 2022. Sellers in the 95 to 105 day window are typically willing to negotiate -- closing cost credits, price reductions, or rate buydowns.
+Canal homes have potential short-term rental appeal for boating-enthusiast visitors. However, Hillsborough County short-term rental regulations have tightened, and HOA restrictions in master-planned communities often prohibit short-term rentals entirely. Verify HOA rules and county licensing requirements before assuming short-term rental income.
 
-On a non-waterfront Covington Park home priced at $440,000, a 3% closing cost credit ($13,200) plus a temporary 2-1 buydown is a reasonable current market ask. On a canal-front home in the $550,000 range, price reductions of $20,000 to $40,000 from original list price are increasingly common.
+Long-term hold investors in Apollo Beach benefit from the waterfront scarcity constraint -- canal lot supply is finite. Appreciation in the waterfront segment has historically tracked above the broader Tampa Bay market over 10-year periods, even with the 2022 to 2026 correction. Insurance cost trajectory is the primary long-term risk to underwrite.
 
-For buyers who are insurance-aware and lifestyle-certain, this market offers the best entry point into Apollo Beach since 2019. For first-time buyers or those who have not modeled the full monthly cost, it is critical to work with a local agent who will walk through the real numbers before you fall in love with the dock.
+## The Bottom Line on Apollo Beach in 2026
 
-## Apollo Beach Investment Snapshot
+Apollo Beach in 2026 is a buyer's market in the most literal sense: more inventory, longer marketing times, more price reductions, and sellers who need to compete. The insurance reality is real and must be quantified before any offer. The flood zone picture is uneven across communities -- Waterset offers Zone X peace of mind, while canal homes carry genuine flood risk that must be priced correctly.
 
-Apollo Beach draws investor interest for several reasons: lower-priced properties available for renovation post-storm, rental demand from Tampa Bay port and logistics workers, and the lifestyle appeal that makes short-term rental permitting (where allowed) viable.
+For boating families and buyers who prioritize bay access above all else, Apollo Beach at 2026 prices represents better value than at any point since 2019. For buyers without a specific lifestyle need for water access, the non-waterfront master-planned communities -- particularly Waterset -- offer resort amenities in a lower insurance-risk environment.
 
-Single-family homes in the $390,000 to $440,000 range (Covington Park, Leisey corridor) rent for $2,200 to $2,700 per month in the current market. Gross yields of 6.8% to 8.0% are achievable before expenses. After property management (8-10%), maintenance, and insurance, net yields on non-waterfront Apollo Beach properties typically run 4.5% to 5.5% -- comparable to other Hillsborough County markets.
+Barrett Henry is a Broker Associate at REMAX Collective with 23 years of experience in Hillsborough County real estate, including extensive experience with the SouthShore corridor from Ruskin through Apollo Beach. Contact Barrett for a current listing search and guidance on insurance and due diligence for any Apollo Beach purchase.
 
-Waterfront rental properties command higher rents ($2,800 to $4,000 for canal-front homes) but the insurance cost eliminates much of the yield advantage. Waterfront investment properties in Apollo Beach make more sense as appreciation plays than cash flow plays.
+For more on the SouthShore market, see our [Wimauma FL real estate market guide](/blog/wimauma-fl-real-estate-market-2026) and the [Ruskin FL real estate market guide](/blog/ruskin-fl-real-estate-guide-2026). For comparison with inland east Hillsborough markets, see the [Valrico fall 2026 market outlook](/blog/valrico-fl-fall-2026-real-estate-market-outlook).
 
-## Working with Barrett Henry in Apollo Beach and Valrico
-
-Barrett Henry is a Broker Associate at REMAX Collective with 23+ years of real estate experience. If you are weighing Apollo Beach against Valrico -- or considering both markets simultaneously -- [reach out for a strategy call](https://valricoagent.com/#contact) to walk through the full monthly cost model before you make a move.
-
-For buyers specifically interested in Valrico, explore our coverage of the [Valrico housing market](https://valricoagent.com/blog/are-home-prices-dropping-in-valrico-fl/) and [best neighborhoods in Valrico for families](https://valricoagent.com/blog/best-neighborhoods-in-valrico-for-families/).
-
-Sources used in this analysis: [Zillow 33572 Home Values](https://www.zillow.com/home-values/72688/apollo-beach-fl-33572/), [Redfin Apollo Beach Housing Market](https://redfin.com/city/21199/FL/Apollo-Beach/housing-market), [FEMA Flood Map Service Center](https://msc.fema.gov), [National Flood Insurance Program Rate Information](https://www.fema.gov/flood-insurance/work-with-nfip/risk-rating).
+**External sources:** [FEMA Flood Map Service Center](https://msc.fema.gov) | [Apollo Beach housing market data, Resideline](https://resideline.com/blog/apollo-beach-fl-housing-market) | [Apollo Beach flood zones by neighborhood, MoveWithMomentum](https://movewithmomentum.com/apollo-beach-flood-zones-by-neighborhood)

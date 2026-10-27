@@ -1,141 +1,130 @@
-Plant City doesn't come up in most Tampa Bay real estate conversations, and that might be exactly why it deserves a closer look. While buyers compete for homes in Valrico, Brandon, and Seffner, this strawberry-farming community 30 miles east of Tampa is offering some of the most affordable single-family home prices in Hillsborough County, with a lot more land than you'll find anywhere closer in.
+Plant City is the most underrated real estate market in the Tampa Bay region for buyers who do their homework. While the national spotlight tracks Wesley Chapel, Riverview, and FishHawk Ranch, Plant City has quietly assembled the ingredients for a sustained growth story: an affordable price point, an industrial employment boom, an emerging downtown redevelopment, and the last meaningful land supply in Hillsborough County available for large lots under $400,000. Here is the complete picture for buyers, sellers, and investors in 2026.
 
-Here is the full picture on Plant City real estate in 2026: what the data shows, where the opportunity is, and who this market is and isn't right for.
+## Plant City at a Glance
 
-## Plant City at a Glance: Where It Sits in East Hillsborough
+Plant City sits at the eastern edge of Hillsborough County, straddling I-4 between Tampa (35 miles west) and Lakeland (20 miles east). It is a city of approximately 43,000 residents -- significantly larger than most people realize -- with its own downtown, hospital, industrial base, and identity that goes far beyond the Strawberry Festival it is best known for nationally.
 
-Plant City is an incorporated city in eastern Hillsborough County, bordered by Lakeland (Polk County) to the east, Brandon to the west, and Zephyrhills (Pasco County) to the north. It sits at the junction of I-4 and US-92, giving it unusual highway access for a mid-sized city with a population just under 40,000.
+Four primary ZIP codes define the Plant City housing market:
 
-The city is officially known as the "Winter Strawberry Capital of the World," producing a massive share of the country's winter strawberry supply. The Florida Strawberry Festival, held every February and March, draws over 500,000 visitors annually and is one of the largest outdoor events in Florida. For real estate purposes, this identity matters: Plant City has a distinct, community-rooted character that sets it apart from the master-planned subdivisions of Riverview or the retail-dense suburban grid of Brandon.
+**33563 (Northwest Plant City / Historic Downtown):** The most affordable ZIP and the most urban in character. Homes average $290,000 to $335,000. Older housing stock from the 1960s to 1990s in mixed condition. Proximity to South Florida Baptist Hospital and the US-92 commercial corridor. Active downtown redevelopment underway.
 
-It also means Plant City has agricultural land still actively in production within city limits and on its outskirts. Buyers who want five, ten, or twenty acres with a home have options here that don't exist in any other Hillsborough County submarket at comparable prices.
+**33565 (Northeast Plant City):** A growth zone ZIP with a mix of established homes and newer construction on larger lots. Homes average $370,000 to $399,000 in recent closed sales. ZIP 33565 is where Plant City's agricultural heritage is most visible, with 1-to-5 acre rural lots intermixed with subdivision development. Strong value for buyers wanting land.
 
-## Plant City Real Estate Data: Mid-2026 Numbers
+**33566 (South and Central Plant City):** The most developed suburban ZIP. Homes average $320,000 to $370,000. Includes established neighborhoods like Highland Park and Walden Lake. Walden Lake is Plant City's signature master-planned community -- more on that below.
 
-The Plant City market covers three ZIP codes with notably different price profiles:
+**33567 (Southeast Plant City / Rural):** The most rural ZIP, with many properties on acreage. Price range varies widely from $280,000 for small homes to $600,000+ for estate properties on multiple acres. Lowest density and most agricultural character.
 
-**ZIP Code 33563 (northern and central Plant City):**
-- Typical home value (Zillow estimate): $283,855
-- Median list price: approximately $324,950
-- Price cut activity: approximately 28% of listings have reduced their price
-- Market character: buyer-favorable, particularly for older housing stock
+## Plant City Real Estate Data: 2026 Market Numbers
 
-**ZIP Code 33566 (southern and eastern Plant City, approaching the I-4 corridor):**
-- Typical home value: $365,391
-- Median sales price (trailing 12 months): $389,000
-- Active listings: approximately 435 homes
-- Homes sold (past 12 months): 317 closed transactions
-- Price cut activity: approximately 34% of listings have reduced their asking price
+The Plant City housing market as of fall 2026:
 
-**Plant City citywide:**
-- Average home value (Zillow ZHVI): $343,765, down approximately 2.0% year over year
-- Median closed sale price (May 2026): $336,549, down approximately 4.7% year over year
-- Median list price (July 2026): approximately $398,000
-- Days on market: 85 to 86 days (median)
-- Market character: buyer's market
+| Metric | 33563 | 33566 | 33565 | Market Overall |
+|--------|-------|-------|-------|----------------|
+| Median home price | $290,000-$335,000 | $320,000-$370,000 | $370,000-$399,000 | $325,000-$370,000 |
+| Price per sq ft | $155-$185 | $170-$198 | $185-$210 | $170-$198 |
+| Days on market | 55-80 days | 50-75 days | 45-65 days | 50-80 days |
+| YOY price change | -4% to -6% | -3% to -5% | -1% to +2% | -3% to -5% |
+| Months of supply | 4-6 months | 3.5-5 months | 3-4 months | 3.5-5.5 months |
 
-The gap between the $336,000 median closed sale price and the $398,000 median list price tells you something important: sellers are asking more than buyers are paying. That spread, combined with a 34% price-cut rate in 33566 and 85-plus days on market, paints a clear picture. Plant City sellers are negotiating. Buyers who come in with data and a local agent are closing meaningfully below list price on a consistent basis right now.
+Plant City's median sale price across the city runs approximately $325,000 to $370,000 in 2026 depending on the source and methodology, with Redfin reporting a city-level median of $337,829 (down 4.5 percent year over year) and other sources using different geographic boundaries and time windows.
 
-For context, the Hillsborough County median sale price sits at approximately $402,000, and Valrico's 33596 ZIP runs at $469,000. Plant City is offering homes at a 16% to 40% discount to those markets, depending on which ZIP you compare.
+The price correction from the 2022 peak is real but not catastrophic -- Plant City never reached the speculative heights of Wesley Chapel or South Tampa, so the correction is more modest. Buyers have meaningful leverage, with 30 to 40 percent of listings having taken at least one price reduction.
 
-## How Plant City Compares to Neighboring Markets
+## The Plant City Growth Story for 2026
 
-| Market | Median Price (Mid-2026) | DOM | YOY Change |
-|--------|------------------------|-----|------------|
-| Plant City (33566) | $389,000 | 85 days | -2.0% to -4.7% |
-| Plant City (33563) | $324,950 (list) | 85+ days | Declining |
-| Seffner (33584) | $362,650 | 49-51 days | +9% list prices |
-| Brandon (33510/33511) | $380,000 | 38-48 days | Flat to +3.8% |
-| Valrico (33594) | $378,907 | 57 days | Softening |
-| Valrico (33596) | $468,996 | 57 days | Stable |
-| Hillsborough County | $402,000 | 41 days | +0.08% |
+Plant City's most compelling real estate case in 2026 is the convergence of multiple growth catalysts that were not present three years ago.
 
-The most striking number in that table is days on market. Plant City homes are sitting 40 to 45 days longer than comparable homes in Brandon and nearly double the Hillsborough County average. This is not a secret the market is hiding. It reflects a real dynamic: Plant City has a smaller pool of active buyers than communities closer to Tampa, and that gives qualified buyers unusual leverage.
+### Industrial Boom: 12 Million Square Feet in a Decade
 
-## What's Driving Plant City's Pricing
+The Plant City Economic Development Council has tracked more than 12 million square feet of new industrial investment in the greater Plant City area over the past ten years. The I-4 corridor between Plant City and Lakeland has become one of the most active industrial and logistics corridors in Florida.
 
-### Distance from Tampa: The Real Cost
+Major facilities near Plant City include distribution and manufacturing operations that employ thousands of Hillsborough and Polk County residents. This stable blue-collar employment base supports a consistent rental demand and underpins long-term housing demand in the sub-$400,000 price range.
 
-The honest answer to "why is Plant City cheaper?" is distance. The commute from central Plant City to downtown Tampa runs 45 to 60 minutes on a normal day, and the I-4 corridor through the Plant City interchange has historically been one of the more unpredictable stretches of highway in the Tampa Bay metro. Buyers who prioritize a short Tampa commute are willing to pay $40,000 to $100,000 more to live in Brandon, Valrico, or Seffner rather than absorb the extra drive time.
+The UF/IFAS Plant City Research and Education Center recently added an agricultural AI research facility just south of the city -- a signal that Plant City's agricultural economy is evolving rather than contracting. Agricultural technology and precision farming investment draws research professionals who need nearby housing.
 
-For buyers who work remotely, have employment in Lakeland or Polk County, or who are semi-retired or fully retired, this equation flips completely. The commute penalty disappears, and all that remains is the price advantage.
+### Downtown Redevelopment: The Midtown Catalyst
 
-### Lot Sizes: A Genuine Differentiator
+In August 2026, Plant City's Community Redevelopment Agency selected Mosaic Development Group to negotiate on a long-vacant Midtown property. The Mosaic proposal includes housing, retail, and a grocery store aimed at activating the downtown core.
 
-If you want land in Hillsborough County without paying Lithia prices, Plant City is your market. It is not unusual to find half-acre to two-acre parcels priced in the $300,000 to $380,000 range in Plant City's residential areas. In Brandon or Valrico, comparable acreage would either not be available or would push you well above $500,000. Agricultural parcels of five acres or more are actively available in the Plant City area at prices that have no equivalent west of the county.
+The project enters a 90-day negotiation phase with the city. If a development agreement is reached, construction could follow within two years. This is the most significant downtown investment attempt in Plant City in at least a decade, and it signals growing confidence in the city's urban core from outside investors.
 
-### Agricultural Zoning Opportunities
+A functioning downtown with residential, retail, and dining options would materially improve quality of life and real estate desirability in the historic 33563 ZIP. The gap between Plant City's current downtown and what a fully built-out Midtown project would create represents genuine appreciation upside for early buyers in the historic neighborhood adjacent to it.
 
-Plant City has active agricultural zoning that allows buyers to purchase land for farming, equestrian use, or hobby agriculture in ways that simply aren't possible in the more densely developed western parts of Hillsborough County. The strawberry farming heritage of the area means there is infrastructure, community knowledge, and local supply chain support for small-scale growing operations if that's part of a buyer's vision.
+### East Downtown Gateway Project
 
-## Schools in Plant City: What Buyers Need to Know
+A half-mile redevelopment stretch near I-4 and the historic district is also in development planning. The proposal would bring office space, retail, urgent care, food service, banking, and commercial functions to the gateway entrance to downtown Plant City from I-4. This corridor is currently underperforming its location -- it sits at the intersection of I-4 and US-92, one of the highest-traffic intersections in eastern Hillsborough County.
 
-Plant City is served by three high schools in the Hillsborough County Public Schools system, each with a different profile.
+Both the Midtown and East Gateway projects are in early stages and carry execution risk. They are not guaranteed to materialize on the timelines described. But the combination of a serious developer, CRA backing, and I-4 corridor fundamentals makes Plant City downtown redevelopment more credible in 2026 than at any prior point.
 
-**Durant High School** (serving parts of eastern Plant City and Dover): Durant is the strongest academic performer among the three Plant City-adjacent high schools. It carries an A- rating from Niche, a GreatSchools rating of 4 out of 10, a 92% graduation rate, an average SAT score of 1,140, and an ACT score of 24. For buyers with high school-age students, homes in the Durant feeder zone are consistently valued at a premium over Plant City average.
+## Plant City Neighborhoods Worth Knowing
 
-**Strawberry Crest High School** (serving Dover and eastern Plant City, opened 2009): Strawberry Crest is the newest school in the area with approximately 2,558 enrolled students. The school has been steadily building its academic programs and extracurriculars since opening and carries a respectable Niche grade. It serves the geographic transition zone between Plant City and Valrico.
+### Walden Lake (33566)
+The crown jewel of Plant City's residential market. Walden Lake is a large master-planned community around a 200-acre lake, with amenities including walking trails, a community park, a boat dock, and established tree canopy. Homes range from $320,000 to $550,000, with lakefront and lake-view properties commanding meaningful premiums.
 
-**Plant City High School** (serving the city core): The original Plant City school is a community institution but carries lower academic performance ratings than Durant or Strawberry Crest. Buyers focused on academic performance over community tradition tend to target Durant or Strawberry Crest feeder zones.
+Walden Lake was developed from the 1980s through the early 2000s and features some of the best-maintained housing stock in Plant City. HOA fees run $250 to $350 per year -- lower than most Tampa Bay master-planned communities. No CDD. For buyers who want a community feel, good lot sizes, and lake access at Plant City prices, Walden Lake is the best-value community of its type in east Hillsborough County.
 
-**The school zone premium calculation is real.** In Hillsborough County, being in a top-rated high school feeder zone can add 10% to 20% to a home's value. For buyers where school zone is a secondary consideration, Plant City's lower-rated school zones are actually part of the affordability equation: that premium is not baked into the price, which means more house for less money.
+### Highland Park (33566)
+An established Plant City neighborhood near Walden Lake with homes from the 1990s and early 2000s. Prices range from $295,000 to $380,000. Larger lot sizes than what you find in comparable Brandon neighborhoods at this price. No HOA in most sections.
 
-## Plant City for Real Estate Investors
+### Pontiac Terrace and Historic District (33563)
+Plant City's historic neighborhoods near the downtown core. A mix of craftsman bungalows, Florida ranch homes, and mid-century construction. Prices range from $220,000 to $350,000 depending on condition and lot size. Significant upside if downtown redevelopment delivers on its promise. Buyers with renovation experience and patience will find the best value in these blocks.
 
-Plant City is one of the more underexplored investor submarkets in Hillsborough County for a straightforward reason: the acquisition costs are lower, and the rent-to-price ratios are correspondingly stronger.
+### Rural 33565 Acreage
+ZIP 33565 contains Plant City's best supply of homes on 1 to 5+ acre lots in the $350,000 to $450,000 range. For buyers who need space for livestock, a workshop, a detached garage, or simply a buffer from neighbors, 33565 offers what has nearly disappeared from Valrico and Brandon -- genuine rural residential lots at reasonable prices.
 
-A home in Plant City that sells for $340,000 to $375,000 will typically rent for $1,900 to $2,400 per month, depending on size, condition, and school zone. That produces gross yields of approximately 6.1% to 7.7% before expenses, which is materially better than what you can achieve buying in Valrico 33596 at $469,000.
+Most of these properties use well water and septic systems rather than Hillsborough County utilities. FHA and VA loans require water quality testing before closing. Budget for well inspection, water test, and septic inspection as part of due diligence.
 
-The investor thesis has some risk factors to weigh honestly: the longer days on market means exit liquidity is slower if you need to sell, appreciation has been negative in 2025 to 2026 while much of the county has remained flat, and the tenant pool skews more working-class than in the higher-income suburban communities to the west.
+## How Plant City Compares to Valrico
 
-For buy-and-hold investors with a five-plus-year horizon who want strong cash flow over fast appreciation, Plant City deserves serious consideration. For investors who want appreciation-driven returns or easy market exits, Valrico or Brandon are better fits.
+Buyers who are comparing Plant City and Valrico are usually weighing price point against amenity access and school quality.
 
-## The Strawberry Festival Factor: An Economic Multiplier
+**Plant City advantages:** Lower prices across the board ($325,000 to $370,000 median versus $378,907 to $468,996 in Valrico), significantly more rural residential land available in the $350,000 to $450,000 range, lower property tax assessed values, genuine growth story in the downtown and industrial corridor, and more new construction activity in 33565.
 
-Every February and March, the Plant City economy gets an injection from the Florida Strawberry Festival that is unlike anything happening in neighboring communities. The 12-day event brings in over 500,000 visitors and hundreds of millions in economic activity for the local community.
+**Valrico advantages:** Significantly stronger school zone premium (Newsome HS vs. Plant City HS), more suburban amenity access (closer to Brandon retail), faster and more direct access to Tampa, more established master-planned community infrastructure, and a longer track record of appreciation.
 
-From a real estate standpoint, this creates short-term rental opportunities during festival season, strong local retail and restaurant demand, and a sense of community identity that translates into long-term residential stability. Neighborhoods near Lemon Street and the festival grounds have seen consistent demand from buyers who value walkability and community events.
+**Price per square foot comparison:** Plant City 33566 runs approximately $170 to $198 per square foot versus Valrico 33594 at approximately $193 to $210 and Valrico 33596 at $215 to $235. For buyers who prioritize square footage and lot size over school zone and amenity proximity, Plant City delivers the best value in Hillsborough County.
 
-This is a genuine quality-of-life differentiator that gets lost when Plant City is reduced to a price comparison with Brandon or Valrico.
+## Plant City School Zones
 
-## Who Should and Shouldn't Consider Plant City
+Plant City High School is the primary high school for most of the city. The school has experienced significant program development in recent years with strong vocational and technical tracks aligned with the industrial employment base of the area. Academic profile runs below Newsome HS and Bloomingdale HS but above several Hillsborough County alternatives.
 
-**Plant City makes strong sense for:**
-- Remote workers who have cut their commute requirement entirely
-- Buyers who want significant land, equestrian use, or agricultural property
-- Retirees or semi-retirees who don't need Tampa access on a daily basis
-- Investors targeting cash flow over appreciation
-- Buyers priced out of Brandon or Seffner who need a detached single-family home
-- Polk County workers who split time between Lakeland and the Tampa Bay area
+Strawberry Crest High School, which also has a Plant City address and serves portions of eastern Hillsborough including Thonotosassa, offers International Baccalaureate and Cambridge International magnet programs -- a meaningful distinction for college-prep families.
 
-**Plant City is a tougher fit for:**
-- Families whose primary criteria is the highest-rated public school zone (Bloomingdale, Newsome in Valrico offer a different profile)
-- Buyers who regularly commute to downtown Tampa and prioritize a short drive
-- Buyers who want dense retail, restaurant, and entertainment options within five minutes of home
-- Buyers who need strong resale liquidity if their plans change within 24 to 36 months
+Always verify your specific address at the [Hillsborough County Schools boundary lookup](https://www.sdhc.k12.fl.us).
 
-## Barrett's Take: The Case for Looking East
+## Investment Property Outlook in Plant City
 
-I've been covering east Hillsborough County real estate for 23-plus years, and Plant City is the market I most often see overlooked by buyers who could genuinely benefit from it. The stigma is outdated: the city has invested significantly in its downtown core, the new SR-570 Polk Parkway extension has improved Lakeland connections, and the quality of the residential neighborhoods well south of downtown along Thonotosassa Road and into the 33566 ZIP is meaningfully different from what many buyers expect.
+Plant City's rental market is driven by the industrial and logistics employment base -- workers in distribution, manufacturing, and agricultural technology sectors.
 
-If you've been priced out of Brandon or Seffner, or if you're a remote worker who has been buying on the assumption that you need a short Tampa commute, Plant City is worth a serious conversation. The numbers are real. The discount is genuine. And the buyers who have been willing to look 30 minutes further east have consistently gotten more house, more land, and more leverage than the buyers competing in the western submarkets.
+Rental rates for single-family homes in Plant City:
+- 3-bedroom, 2-bath in 33563: $1,600 to $1,900 per month
+- 3-bedroom, 2-bath in 33566: $1,750 to $2,100 per month
+- 3-bedroom, 2-bath in 33565: $1,900 to $2,300 per month
 
-## Frequently Asked Questions About Plant City FL Real Estate
+At a $340,000 purchase price in 33566 with $1,950 per month rent, the gross yield is approximately 6.9 percent. After property management, taxes, insurance, and maintenance reserve, net cap rates run approximately 4.5 to 5.5 percent -- comparable to Brandon 33511 and slightly better than Valrico 33594.
 
-**What is the median home price in Plant City FL in 2026?**
-The median closed sale price in Plant City as of May 2026 is approximately $336,549, down about 4.7% year over year. Zillow's estimated average home value is $343,765. The 33566 ZIP code, covering southern Plant City, runs higher with a $389,000 median sale price based on 317 closed transactions over the past 12 months.
+The key investor thesis in Plant City is simple: acquire ahead of downtown redevelopment. The 33563 historic district homes in the $220,000 to $300,000 range are the highest-upside plays if the Midtown development proceeds. The risk is execution risk -- downtown redevelopments in smaller Florida cities have a mixed track record. Investors who are comfortable with a 5 to 10 year hold and who diversify across multiple properties are best positioned.
 
-**Is Plant City a buyer's or seller's market in 2026?**
-Plant City is firmly a buyer's market in 2026. Homes are averaging 85 to 86 days on market, approximately 28% to 34% of listings have cut their asking price, and sellers are regularly contributing to closing costs or accepting below-list offers. Buyers with pre-approval and local comparable data are in a strong negotiating position.
+For comparison with the broader east Hillsborough investor landscape, see our [Valrico investment property guide](/blog/valrico-investment-property-east-hillsborough-returns).
 
-**How does Plant City compare to Brandon FL for real estate?**
-Plant City's median closed price ($336,549) runs about $43,000 below Brandon's ($380,000 approximately). Days on market in Plant City (85 days) are roughly twice as long as Brandon (38 to 48 days). Brandon offers more retail density, shorter Tampa commutes, and a more liquid resale market. Plant City offers more land, bigger lots, and meaningfully lower acquisition costs.
+## What Plant City Sellers Need to Know in 2026
 
-**What are the best neighborhoods in Plant City FL?**
-The best residential areas in Plant City are generally in the 33566 ZIP code along Thonotosassa Road, Alexander Street, and the Durant High School feeder area in the southeastern section. Homes in good condition on larger lots in the Durant zone hold value better than the city average. The historic district near downtown Plant City along Reynolds Street has seen growing interest from buyers who want character homes.
+The Plant City market is balanced to modestly favoring buyers in 2026. Sellers face a longer marketing timeline (50 to 80 days across the market) and meaningful competition from new construction in 33565. Key tactical advice:
 
-**Is Plant City FL a good place to invest in real estate?**
-Plant City offers gross rental yields of approximately 6.1% to 7.7% on typical investment acquisitions in the $340,000 to $375,000 range, which is stronger than most of the western Hillsborough County suburban markets. The main investor cautions are slow days on market (exit liquidity takes longer) and flat-to-negative recent appreciation. Best suited for buy-and-hold investors with cash flow goals rather than short-term flippers.
+**Price to the current comp environment.** With 30 to 40 percent of listings having taken at least one price reduction, the market is providing clear feedback to overpriced sellers. First-impression pricing matters more in a longer marketing time environment.
 
-**What school zones are in Plant City FL?**
-Plant City is served by three Hillsborough County high schools: Durant High School (A- Niche grade, 92% graduation rate, the highest-performing option), Strawberry Crest High School (newer school, solid programs, serves Dover and eastern Plant City), and Plant City High School (the city's original school, lower academic rankings). School zone is a significant price driver within Plant City, with Durant-zone homes consistently commanding premiums over citywide averages.
+**Roof age and insurance are critical.** Many Plant City homes in 33563 have housing stock from the 1970s to 1990s. Insurance underwriters are scrutinizing older roofs across all of Florida in 2026. A $5,500 annual insurance quote on a $300,000 home is a deal-killer.
+
+**Lead with lot size if you have it.** Plant City's competitive advantage -- compared to Brandon or Riverview -- is land. If your property sits on a quarter-acre or larger, this is a feature. Market it explicitly.
+
+## The Bottom Line on Plant City FL in 2026
+
+Plant City in 2026 sits at an inflection point. The industrial employment growth story is established and concrete. The downtown redevelopment story is emerging and promising but unproven. The real estate fundamentals -- affordable price points, large lots, improving infrastructure, and proximity to both Tampa and Lakeland via I-4 -- are not going away.
+
+For buyers who have been priced out of Valrico and Brandon but want to be in Hillsborough County with room to grow, Plant City delivers the best value story in east Hillsborough right now. For investors with a 5 to 10 year horizon and patience for a growth market, the 33563 historic district and the industrial-adjacent 33565 acreage lots offer the highest potential return in the corridor.
+
+Barrett Henry is a Broker Associate at REMAX Collective with 23 years of experience in east Hillsborough real estate, including the Plant City and Zephyrhills growth corridors. Contact Barrett to discuss current Plant City listings and how they fit into a broader east Hillsborough buying or investment strategy.
+
+For additional east Hillsborough context, see our [Zephyrhills FL real estate market guide](/blog/zephyrhills-fl-real-estate-market-2026) and the [Valrico vs Brandon vs Lithia comparison](/blog/valrico-vs-brandon-vs-lithia-where-to-buy-in-east-hillsborough-2026). For current Valrico market conditions, see the [October 2026 Valrico market update](/blog/valrico-fl-real-estate-market-update-october-2026).
+
+**External sources:** [Plant City FL real estate market data, Redfin](https://www.redfin.com/city/14919/FL/Plant-City) | [Plant City Midtown redevelopment coverage, Bay News 9](https://baynews9.com/fl/tampa/news/2026/08/24/what-plant-city-s-midtown-plans-could-mean-for-downtown-businesses) | [Hillsborough County Schools boundary lookup](https://www.sdhc.k12.fl.us)
