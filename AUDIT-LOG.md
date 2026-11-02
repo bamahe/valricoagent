@@ -1,5 +1,15 @@
 # SEO Audit Log
 
+## 2026-11-02
+
+**2 blog posts added:**
+
+1. `port-charlotte-fl-real-estate-market-2026` - New 1,700+ word neighboring community market analysis for Port Charlotte FL (Charlotte County). Covers: median sale prices $291K-$304K (down 4-6% YoY per Movewithmomentum and Resideline), 56-105 day DOM (Charlotte County Realtors August 2026 reported 105-day median), 1,188 active listings, 4-5 months of supply (buyer-leaning market); ZIP breakdown (33948 central Port Charlotte $270K-$335K, CBS construction 1960s-1990s; 33952 east Port Charlotte with canal-front properties $380K-$650K; 33954 north toward North Port boundary $280K-$360K); Punta Gorda and Deep Creek premium tier ($450K-$1.2M waterfront/historic); flood zone analysis (Zone AE for canal/harbor-adjacent properties, Zone X for inland, $1,500-$5,000+ flood insurance in AE, post-Ian actuarial impact on premiums); homeowners insurance $4,000-$6,500 vs Valrico $2,800-$4,200; new construction (Babcock Ranch, DR Horton, Lennar active); investment math (gross yields 7.0-8.7% at $290K purchase, $1,700-$2,100/month rental range); Port Charlotte vs Valrico side-by-side comparison table; Q4 2026 buyer strategy (target 60+ DOM, pre-tour flood/insurance quotes, model Babcock Ranch separately). No featured image (no relevant image available). 5 FAQs. Pillar: comparison. CTA: consultation. Publish date: 2026-11-01. **Seed route at /api/seed-nov02-port-charlotte - call once on production to insert into Supabase.**
+
+2. `ocala-fl-real-estate-market-2026` - New 1,700+ word neighboring community market analysis for Ocala FL (Marion County). Covers: median sale prices $279K-$321K depending on source (Redfin $279K down 3.7% YoY, OMCAR Oct 2025 baseline $298,990, mid-year city-level $321K); 58-75 day DOM, approximately 3,345-5,000 active listings, 5.0 months of supply (balanced to buyer-leaning); neighborhood breakdown (On Top of the World 55-plus cooperative 1,800 acres three golf courses $100K-$500K+; Del Webb Stone Creek new construction $300K-$550K with CDD/HOA fees; Silver Springs Shores $180K-$290K entry-level; central Ocala/Historic District $190K-$450K; horse country rural acreage 5-200+ acres $350K+); property taxes and cost of living (lower effective millage than Hillsborough, overall COL 8-12% below Tampa Bay); homeowners insurance $2,000-$3,500 (significantly lower than Tampa Bay due to inland location, no coastal/flood exposure); new construction activity (Del Webb, DR Horton, Lennar active, Marion County adding ~20K residents 2020-2025); investment math (gross yields 6.3-8.0% at $285K purchase, $1,500-$1,900/month rental range); Ocala vs Valrico side-by-side comparison table; Q4 2026 buyer strategy. No featured image (no relevant image available). 5 FAQs. Pillar: comparison. CTA: consultation. Publish date: 2026-11-01. **Seed route at /api/seed-nov02-ocala - call once on production to insert into Supabase.**
+
+---
+
 ## 2026-10-29
 
 **1 blog post added:**
