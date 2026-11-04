@@ -1,5 +1,15 @@
 # SEO Audit Log
 
+## 2026-11-04
+
+**2 blog posts added:**
+
+1. `florida-amendment-3-passed-november-2026-valrico-tax-savings` - New 1,800+ word post covering Florida Amendment 3 passing November 3, 2026 with 62% of the vote. Covers: two-stage exemption expansion ($50K to $150K in 2027, to $250K in 2028); dollar math by ZIP (33594 median assessed $375K-$382K saves ~$950-$1,050/yr in 2027, ~$1,900-$2,100 in 2028; 33596 median $441K-$472K saves ~$1,100-$1,200 in 2027, ~$2,100-$2,400 in 2028; Hillsborough non-school millage 11.0-11.5 mills); buyer year-end urgency (must homestead by Jan 1, 2027 to capture 2027 savings, missing Dec 31 close costs ~$1,100-$1,200 first-year savings); seller marketing angle (~$90-$100/month carrying cost reduction for buyers); non-homestead cap reduction (10% to 5%); what amendment does NOT do (no school taxes, no 2026 impact, no SOH cap change, no refunds for non-homestead); revenue impact (~$971M projected Hillsborough two-year revenue reduction); action items by buyer/seller/landlord type. External links: hillstaxfl.gov property tax reform, movewithmomentum.com amendment calculator, baynews9.com, wfla.com. Featured image: homeowner-reviewing-documents-florida.png. 5 FAQs. Pillar: market. CTA: valuation. Publish date: 2026-11-04T10:00:00.000Z. **Seed route at /api/seed-nov04-amendment3-results - call once on production to insert into Supabase.**
+
+2. `valrico-fl-foreclosure-market-stress-update-q4-2026` - New 1,700+ word Q4 2026 update on foreclosure activity and market stress in Valrico and Hillsborough County. Covers: Shimberg Center monthly filing data H1 2026 (Jan 277, Feb 247, Mar 327, Apr 340, May 324, Jun 279; vs Nov 2025 243); 15-35% YoY increase in context (0.05% of 550K housing units per month, far below 2008-2012 thousands/month); Valrico-specific assessment (183 to 180-220 active foreclosure/pre-foreclosure range through Q3; 33594/33596 higher income, conventional/20% down, lower leverage profile); leading indicators (35-42% price reductions; 240-260 active listings; 45-68 day DOM; 96.5-97.5% sale-to-list); insurance stress factor ($2,800-$4,200 HO-3, 30-50% above 2020, potential $200-$300/month above original underwriting for 2021 buyers); why foreclosure bargains won't flood market (12-24 month judicial timeline; mid-2026 filings unlikely to auction before late 2027/2028); value opportunity in motivated-seller resale market (60+ DOM, 1+ price reductions, 3-5% gap from comps, vacated properties); recession indicators (Hillsborough unemployment 3.6-3.9%, national mortgage delinquency 1.5-1.8% vs 8% peak 2010, MacDill AFB sector diversification). Featured image: investing-valrico-fl-real-estate.jpg. 5 FAQs. Pillar: market. CTA: market-report. Publish date: 2026-11-04T12:00:00.000Z. **Seed route at /api/seed-nov04-foreclosure-q4-update - call once on production to insert into Supabase.**
+
+---
+
 ## 2026-11-02
 
 **2 blog posts added:**
