@@ -176,7 +176,7 @@ Buyers entering the Port Charlotte market in late 2026 should approach it as fol
 
 **Compare to North Port before committing.** Buyers who find themselves torn between Port Charlotte and North Port should do a side-by-side comparison, since both markets offer similar pricing and lifestyle characteristics. [North Port FL real estate market 2026](/blog/north-port-fl-real-estate-market-2026/) provides a detailed breakdown of that adjacent market.
 
-For a current market valuation or a personal consultation on Charlotte County or Hillsborough County real estate, contact Barrett Henry at REMAX Collective. With 23 years in the Tampa Bay and Southwest Florida market, the comparison analysis is a core part of the service.
+For a current market valuation or a personal consultation on Charlotte County or Hillsborough County real estate, contact Barrett Henry at REMAX Collective. With 23 years of real estate experience, the comparison analysis is a core part of the service.
 
 Related market guides: [Sarasota FL real estate market 2026](/blog/sarasota-fl-real-estate-market-2026/), [North Port FL real estate market 2026](/blog/north-port-fl-real-estate-market-2026/), [Sun City Center FL real estate market 2026](/blog/sun-city-center-fl-real-estate-market-2026/).
 
