@@ -1,5 +1,21 @@
 # SEO Audit Log
 
+## 2026-11-06
+
+**1 blog post added:**
+
+1. `valrico-fl-2027-housing-market-outlook-after-amendment-3` - New 1,500+ word 2027 market outlook following Amendment 3 passing November 3, 2026 with 62% of the vote. Covers: confirmed savings by ZIP (33594 at $956/yr savings on $413K assessed; 33596 Newsome zone at $1,068/yr on $474K assessed); three price scenarios for 2027 (Base Case +2-3%, Bull Case +4-6%, Bear Case flat to -1%); December "bridge effect" of motivated buyers closing before year-end; Newsome zone 33596 continued outperformance; mortgage rate outlook (6.0-6.5% by mid-2027 consensus); what sellers should do (don't delay listing, price to current comps, present Amendment 3 savings to buyers in MLS remarks); what buyers should do (close before Dec 31 for homestead by March 1, factor Amendment 3 savings into affordability math). Featured image: bloomingdale-brick-home-palm-landscaping-valrico.jpg. 5 FAQs. Pillar: market. CTA: market-report. Publish date: 2026-11-06. **Seed route at /api/seed-nov06-2027-outlook - call once on production to insert into Supabase.**
+
+---
+
+## 2026-11-05
+
+**1 blog post added:**
+
+1. `valrico-fl-year-end-buyer-action-plan-close-before-december-31-2026` - New 1,500+ word year-end buyer action plan for closing on a Valrico FL home before December 31, 2026. Covers: why Dec 31 matters (homestead exemption by March 1 saves $946-$1,200/yr starting 2027, full-year Amendment 3 savings vs partial year); 7-step action plan (pre-approval refresh, MLS search now, motivated seller identification, offer structure with closing cost help, rate lock timing, inspection efficiency, final walkthrough and clear to close); closing timeline table showing 25-35 day purchase window means offers needed by Dec 1-5; monthly cost breakdown at $413K purchase vs $420K purchase (with and without homestead). Featured image: homeowner-reviewing-documents-florida.png. 5 FAQs. Pillar: buyer. CTA: buyer. Publish date: 2026-11-05. **Seed route at /api/seed-nov05-year-end-buyer-plan - call once on production to insert into Supabase.**
+
+---
+
 ## 2026-11-04
 
 **2 blog posts added:**
