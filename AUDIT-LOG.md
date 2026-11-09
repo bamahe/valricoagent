@@ -1,5 +1,15 @@
 # SEO Audit Log
 
+## 2026-11-08
+
+**2 blog posts added:**
+
+1. `1031-exchange-real-estate-valrico-fl-investors-guide` - New 1,900+ word guide covering 1031 exchange mechanics for Valrico and east Hillsborough County investment property owners. Covers: what qualifies (rentals, commercial, land; not primary residences or flips); the 45-day identification and 180-day completion deadlines; qualified intermediary requirement; Florida-specific advantages (no state income tax); boot and common mistakes; vacation home safe harbor under Rev. Proc. 2008-16; Valrico gross rent yields (~6.8-7.0%) and net cap rates (4.5-5.5%); related-party exchange rules; 1031 vs Opportunity Zone vs installment sale comparison; "swap until you drop" strategy. Internal links to rental market, commercial real estate, and capital gains posts. External links to IRS Pub 544, Realized1031.com, FHFA. Featured image: investing-valrico-fl-real-estate.jpg. 5 FAQs. Pillar: market. CTA: consultation. Publish date: 2026-11-08T10:00. **Seed route at /api/seed-nov08-1031-exchange - call once on production to insert into Supabase.**
+
+2. `va-loan-home-buying-valrico-fl-macdill-afb-guide` - New 2,000+ word VA loan guide for MacDill AFB military families buying in Valrico FL. Covers: VA loan advantages (no down payment, no PMI, competitive rates, 4% seller concession allowance); 2026 Hillsborough County loan limits ($832,750 baseline; no limit for full entitlement); MacDill BAH rates (E-5 with dependents $2,709/mo, O-3 with dependents $3,081/mo; 125% gross-up for qualifying); why Valrico works for MacDill families (25-55 min commute, Newsome HS zone in 33596, home size value, Zone X flood risk); 6-step buying process (COE, pre-approval, neighborhood selection, offer structure, VA appraisal, homestead by March 1); VA loan myths debunked; year-end December 31 closing incentive. Internal links to commute guide, Brandon market, buying guide. External links to VA.gov, DoD BAH calculator, FEMA flood map. Featured image: macdill-afb-military-housing-guide-tampa-2026.png. 5 FAQs. Pillar: buyer. CTA: buyer. Publish date: 2026-11-08T12:00. **Seed route at /api/seed-nov08-va-loan-macdill - call once on production to insert into Supabase.**
+
+---
+
 ## 2026-11-06
 
 **1 blog post added:**
