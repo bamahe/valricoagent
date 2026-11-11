@@ -1,5 +1,15 @@
 # SEO Audit Log
 
+## 2026-11-11
+
+**2 blog posts added:**
+
+1. `nar-settlement-buyer-agent-compensation-valrico-fl-2026` - New 1,600+ word guide on how the August 2024 NAR settlement changed buyer agent compensation in Valrico FL. Covers: the two core rule changes (written buyer-broker agreements required before touring; MLS compensation fields removed); how Florida's transaction broker default and single-agent designation interact with the new rules; what buyer-broker agreements contain and what buyers must negotiate; how Valrico sellers should still offer compensation through the purchase contract to maximize buyer pool; real commission rate trends post-settlement (modest 0.2-0.4 ppt decline, not dramatic); how to choose a buyer's agent under the new rules. Internal links to what a Valrico buyer's agent does, how to choose a realtor, buying guide. External links to FloridaRealtors.org NAR FAQ, NAR.realtor settlement info, Florida Statute 475.278. Featured image: homeowner-reviewing-documents-florida.png. 5 FAQs. Pillar: buyer. CTA: buyer. Publish date: 2026-11-11T10:00. **Seed route at /api/seed-nov11-nar-settlement - call once on production to insert into Supabase.**
+
+2. `valrico-fl-vs-wimauma-fl-where-to-buy-2027` - New 1,900+ word comparison guide: Valrico FL vs Wimauma FL for 2027 buyers. Covers: price comparison ($413K Valrico median vs $350K Wimauma median, plus CDD/HOA fee analysis that narrows the gap to $200-$350/mo effective difference); school zones (Newsome HS A-rating in 33596 vs Sumner HS in Wimauma); amenities (SouthShore Bay Crystal Lagoon vs River Hills Country Club established character); new construction (Wimauma has more options at lower entry price with DR Horton and Lennar, Valrico has Pulte Valri Forest and WestBay Northwood Estates); Tampa commute (Valrico 25-50 min vs Wimauma 40-70 min); flood risk and insurance (similar); investor rental market (comparable yields, Valrico lower vacancy in Newsome zone); 2027 outlook for both. Internal links to Wimauma market 2026, new construction vs resale, best neighborhoods. External links to Hillsborough County Schools, FEMA flood map, SouthShore Bay. Featured image: wimauma-fl-real-estate-market-2026.jpg. 5 FAQs. Pillar: comparison. CTA: buyer. Publish date: 2026-11-11T12:00. **Seed route at /api/seed-nov11-valrico-vs-wimauma - call once on production to insert into Supabase.**
+
+---
+
 ## 2026-11-08
 
 **2 blog posts added:**
