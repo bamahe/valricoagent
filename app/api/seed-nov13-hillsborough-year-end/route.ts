@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { getServiceClient } from '@/lib/supabase';
+import { createClient } from '@supabase/supabase-js';
 import * as fs from 'fs';
 import * as path from 'path';
 
@@ -80,36 +80,45 @@ const META = {
 };
 
 export async function GET() {
-  const sb = getServiceClient();
+  try {
+    const supabaseUrl = process.env['NEXT_PUBLIC_SUPABASE_URL'];
+    const supabaseKey = process.env['SUPABASE_SERVICE_ROLE_KEY'];
+    if (!supabaseUrl || !supabaseKey) {
+      return NextResponse.json({ status: 'error', message: 'Missing env vars' }, { status: 500 });
+    }
+    const sb = createClient(supabaseUrl, supabaseKey);
 
-  const { data: existing } = await sb
-    .from('blog_posts')
-    .select('id')
-    .eq('slug', SLUG)
-    .single();
+    const { data: existing } = await sb
+      .from('blog_posts')
+      .select('slug')
+      .eq('slug', SLUG)
+      .maybeSingle();
 
-  if (existing) {
-    return NextResponse.json({ status: 'already_exists', slug: SLUG });
+    if (existing) {
+      return NextResponse.json({ status: 'already_exists', slug: SLUG });
+    }
+
+    const contentPath = path.join(process.cwd(), 'scripts', 'content', `${SLUG}.md`);
+    const content = fs.readFileSync(contentPath, 'utf-8');
+    const wordCount = content.split(/\s+/).filter(Boolean).length;
+    const readingTime = Math.ceil(wordCount / 200);
+
+    const { error } = await sb.from('blog_posts').insert({
+      slug: SLUG,
+      ...META,
+      content,
+      status: 'published',
+      word_count: wordCount,
+      reading_time: readingTime,
+      og_image: null,
+    });
+
+    if (error) {
+      return NextResponse.json({ status: 'error', message: error.message }, { status: 500 });
+    }
+
+    return NextResponse.json({ status: 'inserted', slug: SLUG, wordCount, readingTime });
+  } catch (err) {
+    return NextResponse.json({ status: 'error', message: String(err) }, { status: 500 });
   }
-
-  const contentPath = path.join(process.cwd(), 'scripts', 'content', `${SLUG}.md`);
-  const content = fs.readFileSync(contentPath, 'utf-8');
-  const wordCount = content.split(/\s+/).length;
-  const readingTime = Math.ceil(wordCount / 200);
-
-  const { error } = await sb.from('blog_posts').insert({
-    slug: SLUG,
-    ...META,
-    content,
-    status: 'published',
-    word_count: wordCount,
-    reading_time: readingTime,
-    og_image: null,
-  });
-
-  if (error) {
-    return NextResponse.json({ status: 'error', message: error.message }, { status: 500 });
-  }
-
-  return NextResponse.json({ status: 'inserted', slug: SLUG, wordCount, readingTime });
 }
