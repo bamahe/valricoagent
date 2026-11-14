@@ -1,5 +1,15 @@
 # SEO Audit Log
 
+## 2026-11-14
+
+**2 blog posts added:**
+
+1. `valrico-fl-january-2027-real-estate-what-buyers-sellers-need-to-know` - New 1,900+ word guide covering January 2027 market conditions and Amendment 3 implementation. Covers: Amendment 3 effective Jan 1 (non-school homestead exemption expands from $25K to $150K, saving 33594 homeowners $950-$1,050/yr and 33596 $1,050-$1,150/yr); March 1, 2027 homestead filing deadline; January market conditions (200-230 active listings, motivated year-end sellers, 30-40% less buyer competition than spring); mortgage rate outlook for Q1 2027 with three Fed scenarios; seller strategy for January (brief window before spring listing surge); homestead exemption filing checklist; January 2027 buyer action plan. Internal links to November 2026 market update, Amendment 3 results post, 2027 housing market outlook. External links to hcpafl.org and floridarealtors.org. Featured image: bloomingdale-brick-ranch-tropical-landscaping-valrico.jpg. 5 FAQs. Pillar: market. CTA: buyer. Publish date: 2026-11-14T10:00. **Seed route at /api/seed-nov14-january-2027-preview - call once on production to insert into Supabase.**
+
+2. `valrico-fl-2026-real-estate-year-in-review` - New 2,000+ word comprehensive 2026 annual market review. Covers: Q1 2026 (median $425-435K blended, 15-25 DOM, 1.5-2 months supply, under 10% price reductions); Q2 2026 (median $420-430K, 25-38 DOM, 2.5-3.5 months supply, 18-22% reductions); Q3 2026 (median $413-420K, 42-65 DOM, 4.5-5.5 months supply, 28-35% reductions, 97% sale-to-list ratio); Q4 2026 (median $413-422K, 50-68 DOM, 5.8-6.4 months supply, 37-42% reductions, 240-260 active listings); full-year price table by quarter for both ZIPs; five defining themes (rate lock effect, new construction competition, Amendment 3, FL condo law changes, insurance normalization); what 2026 means for 2027 buyers and sellers. Internal links to NAR settlement guide, 2027 housing market outlook, Hillsborough County year-end post. External links to hcpafl.org, floridarealtors.org, Stellar MLS. Featured image: bloomingdale-street-sign-valrico.jpg. 5 FAQs. Pillar: market. CTA: market-report. Publish date: 2026-11-14T12:00. **Seed route at /api/seed-nov14-2026-year-in-review - call once on production to insert into Supabase.**
+
+---
+
 ## 2026-11-11
 
 **2 blog posts added:**
