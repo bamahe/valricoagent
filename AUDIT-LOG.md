@@ -1,5 +1,15 @@
 # SEO Audit Log
 
+## 2026-11-15
+
+**2 blog posts added:**
+
+1. `hillsborough-county-homestead-exemption-2027-deadline-valrico-new-buyers` - New 2,197-word step-by-step guide for 2026 Valrico/Hillsborough County buyers on filing homestead exemption before March 1, 2027. Covers: Amendment 3 impact (non-school exemption expands from $25K to $150K starting 2027, annual savings $1,100-$2,363 on typical Valrico home); who qualifies (must own as primary residence on Jan 1, 2027); three filing methods (online at hcpafl.org, in person at 601 E. Kennedy Blvd. Tampa, by mail Form DR-501); documents needed (parcel number, FL driver's license, SSN, deed); 10-year Save Our Homes compound savings illustration ($4,420/yr savings by year 10 at 3% cap vs 4% market re-assessment); portability provision for future moves; sample 2027 tax bill calculation showing $2,363 savings on $465K 33596 home; 5 FAQs. Featured image: homeowner-reviewing-documents-florida.png. Internal links to property tax bills guide, Amendment 3 results, year-in-review. External links to hcpafl.org, Florida Realtors, Florida DMV. Pillar: buyer. CTA: buyer. Publish date: 2026-11-14T10:00. **Seed route at /api/seed-nov15-homestead-exemption-filing - call once on production to insert into Supabase.**
+
+2. `valrico-fl-home-prices-by-neighborhood-q4-2026` - New 2,646-word Q4 2026 neighborhood-by-neighborhood pricing breakdown for all major Valrico communities. Covers: 33594 blended median $370-395K vs 33596 blended $460-478K; Bloomingdale ($382-395K, $182-210/sqft, 38-62 DOM, Bloomingdale HS zone); Buckhorn ($428-445K, $200-230/sqft, 28-48 DOM, mostly Newsome HS zone with $20-35K northern section discount); River Hills Country Club ($530-575K standard, $600K-$1.2M+ golf course/estate, $220-340/sqft, 42-180 DOM, mandatory HOA $700-$1,200/yr); Diamond Hill ($495-525K, $210-260/sqft, 35-65 DOM, gated, Newsome HS); Buckhorn Preserve ($445-465K, $205-240/sqft, 30-55 DOM, conservation backing, Newsome HS); entry-level 33594 ($340-360K, $170-195/sqft, 45-75 DOM, Bloomingdale HS); price-per-sqft comparison table; $20-35/sqft Newsome HS zone premium analysis; buyer budget guide by price tier ($300K-$370K through $600K+); 5 FAQs. Featured image: bloomingdale-brick-home-valrico.jpg. Internal links to best-neighborhoods, 33594-vs-33596 comparison, Newsome school zone. External links to valricoagent.com market report, hcpafl.org, Stellar MLS, Redfin Valrico. Pillar: market. CTA: buyer. Publish date: 2026-11-14T12:00. **Seed route at /api/seed-nov15-neighborhood-pricing-q4 - call once on production to insert into Supabase.**
+
+---
+
 ## 2026-11-14
 
 **2 blog posts added:**
