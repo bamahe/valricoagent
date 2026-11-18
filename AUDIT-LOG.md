@@ -1,5 +1,13 @@
 # SEO Audit Log
 
+## 2026-11-18
+
+**1 blog post added:**
+
+1. `valrico-fl-home-inspection-guide-east-hillsborough-county-buyers` - New 2,667-word home inspection guide for Valrico FL buyers. Covers: why Florida inspections differ from other markets (insurance connection, climate-driven wear); Valrico housing stock age by neighborhood (Bloomingdale 1980s-2000s, Buckhorn 1990s-mid 2000s, River Hills 1990s-2000s, Diamond Hill late 1990s-2000s); standard inspection scope and cost ($350-$550 for 1,800-2,500 sqft); top issues by category -- roof (granule loss, flashing, attic leaks; $15K-$35K replacement cost), HVAC (12-15 yr FL lifespan, $6K-$12K replacement), plumbing (polybutylene pipe identification and $4K-$8K PEX repipe cost), electrical (FPE Stab-Lok panels, GFCI gaps, unpermitted work), moisture and mold (stucco cracking, humidity-driven intrusion); specialty inspections: WDO ($75-$150), wind mitigation ($75-$150, saves $400-$1,500/yr on insurance), four-point inspection (required by most FL carriers for homes 30+ yrs); how to use inspection results to negotiate credits in Q4 2026 buyer's market (repair credit, seller repairs, price reduction); why waiving inspection contingency is not warranted in current market. Featured image: bloomingdale-modern-white-ranch-estate-valrico.jpg. Internal links to Nov 2026 market update, buyer closing costs, buying guide. External links to myfloridalicense.com (FL DBPR inspector lookup), nachi.org (InterNACHI standards), Redfin common inspection problems. 5 FAQs. Pillar: buyer. CTA: buyer. Publish date: 2026-11-17T10:00. **Seed route at /api/seed-nov17-home-inspection-guide - call once on production to insert into Supabase. Note: Vercel env vars (NEXT_PUBLIC_SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY) were not available during automated run; seed must be triggered manually or env vars confirmed on Vercel project.**
+
+---
+
 ## 2026-11-15
 
 **2 blog posts added:**
