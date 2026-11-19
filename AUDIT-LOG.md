@@ -1,5 +1,15 @@
 # SEO Audit Log
 
+## 2026-11-19
+
+**2 blog posts added:**
+
+1. `valrico-fl-december-2026-real-estate-market-update` - New ~1,900-word December 2026 market update. Covers: 7.40% mortgage rate environment (peak Oct 2026 Freddie Mac PMMS; eased to 7.10-7.25% by mid-Nov); purchasing power impact at 7.40% vs 6.65% ($31K less qualifying power); 33594 market data (median $370K-$382K, $175-$195/sqft, 50-68 DOM, 37% price reductions, 96.5-97% sale-to-list); 33596 market data (median $462K-$472K, $195-$230/sqft, 42-60 DOM Newsome zone, 32% price reductions); rate lock effect (72% of FL mortgage holders below 4.5%, limiting supply); foreclosure and distress data (less than 3% of Valrico transactions distressed, well below 2008-2012 levels); December buyer strategy (request 2-1 buydowns, use holiday slowdown leverage, homestead exemption deadline); December seller strategy (price to current comps, proactive concessions, year-end close targeting); 2027 outlook (6.75-7% by mid-2027, Amendment 3 impact, 2-4% modest appreciation). Featured image: bloomingdale-stone-brick-estate-palm-trees-valrico.jpg. Internal links to November 2026 market update, year-in-review, seller buydown guide. External links to Florida Realtors market statistics, Freddie Mac PMMS, hcpafl.org. 5 FAQs. Pillar: market. CTA: market-report. Publish date: 2026-11-18T10:00. **Seed route at /api/seed-nov19-december-market - call once on production to insert into Supabase.**
+
+2. `valrico-fl-seller-rate-buydown-strategy-december-2026` - New ~2,000-word seller rate buydown strategy guide. Covers: why rate buydowns outperform price cuts at 7.40% (more monthly payment benefit per dollar of seller cost); three buydown types with full math -- permanent buydown (2 points = $7,600 on $380K, rate from 7.40% to 6.90%, $101/mo savings, 75-month break-even), 2-1 buydown ($8,580 seller cost on $380K, year-1 rate 5.40% saves $475/mo, year-2 rate 6.40%), 1-0 buydown ($2,880 seller cost, year-1 rate 6.40%); closing cost credit vs buydown comparison (when each is smarter); loan program concession limits by program (conventional 3-9% by LTV, FHA 6%, VA 4% + unlimited loan costs, USDA 6%); what Valrico sellers are offering (55-65% of 33594 transactions include closing cost credits, 20-30% include temporary buydowns); how to structure a buydown offer (MLS disclosure language, contract addendum specifics, lender coordination); December 2026 seller decision tree (priced correctly vs overpriced vs 60+ DOM strategies). Featured image: bloomingdale-modern-white-ranch-estate-valrico.jpg. Internal links to December market update, November market update, cost of selling guide. External links to CFPB on discount points, Freddie Mac PMMS, Florida Realtors stats. 5 FAQs. Pillar: seller. CTA: seller. Publish date: 2026-11-18T12:00. **Seed route at /api/seed-nov19-seller-buydown - call once on production to insert into Supabase.**
+
+---
+
 ## 2026-11-18
 
 **1 blog post added:**
