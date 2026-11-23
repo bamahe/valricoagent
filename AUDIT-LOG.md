@@ -1,5 +1,15 @@
 # SEO Audit Log
 
+## 2026-11-23
+
+**2 blog posts added:**
+
+1. `valrico-fl-vs-apollo-beach-fl-where-to-buy-2026` - New ~2,100-word comparison guide for buyers deciding between Valrico FL and Apollo Beach FL. Covers: home prices (Valrico 33594 $370K-$382K, 33596 $462K-$472K vs Apollo Beach $439K-$504K); what you get for the money at $420K-$470K in each market; school zone comparison (Newsome HS A-rating vs East Bay HS + Waterset Charter); commute to Tampa (Apollo Beach 16 mi, Valrico 20-25 mi, both via I-75); flood insurance costs (Valrico Zone X typical $2,800-$4,200/yr vs Apollo Beach waterfront AE/VE adds $1,500-$4,500 flood insurance); HOA/CDD fees (Waterset CDD $1,200-$2,000/yr vs most Valrico neighborhoods no CDD); Q4 2026 buyer-favorable conditions in both markets; 10-year resale outlook; buyer fit guide. Featured image: apollo-beach-fl-market-2026.png. Internal links to November 2026 market update, FishHawk comparison, Apollo Beach market report. 5 FAQs. Pillar: comparison. CTA: buyer. Publish date: 2026-11-22T10:00. **Seed route at /api/seed-nov23-valrico-vs-apollo-beach - call once on production to insert into Supabase.**
+
+2. `what-450000-buys-valrico-fl-neighborhoods-q4-2026` - New ~2,100-word neighborhood-by-neighborhood buyer guide at the $450,000 price point. Covers: why $450K is a power budget in Q4 2026 buyer's market; Bloomingdale 33594 upper range (2,200-2,800 sqft, $160-$200/sqft, Bloomingdale HS zone, larger lots); Buckhorn 33596 (1,900-2,400 sqft, $185-$215/sqft, Newsome HS zone, school premium analysis); Buckhorn Preserve (conservation backing, $180-$210/sqft, Newsome zone confirmed); River Hills entry tier (1,900-2,300 sqft, 1990s vintage, gated community access, mandatory HOA); Diamond Hill entry (1,800-2,200 sqft, 2000s construction, low HOA); price-per-sqft comparison table across all neighborhoods; deferred maintenance warning on 1990s homes; total monthly cost breakdown at $450K with 10% down (~$3,675-$3,725/mo); Amendment 3 Jan 2027 tax savings (~$80/mo); December 31 homestead deadline. Featured image: bloomingdale-brick-home-columned-entry-valrico.jpg. Internal links to $400K and $600K companion posts, neighborhood pricing Q4 guide, November market update. 5 FAQs. Pillar: buyer. CTA: buyer. Publish date: 2026-11-22T14:00. **Seed route at /api/seed-nov23-450k-buyer-guide - call once on production to insert into Supabase.**
+
+---
+
 ## 2026-11-22
 
 **2 blog posts added:**
